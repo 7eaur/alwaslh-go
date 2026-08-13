@@ -1,0 +1,77 @@
+م | رقم صفحة المصدر | رقم الصفحة في الكتاب | القسم/الوحدة | عنوان الدرس/الموضوع | اسم الصورة الأصلي | اسم الصورة الجديد
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 | 1 |  | Front Matter | Front Cover | صفحة_1.jpg | front001 - Front Cover.jpg
+2 | 2 |  | Front Matter | Front Cover Copy | صفحة_2.jpg | front002 - Front Cover Copy.jpg
+3 | 3 |  | Front Matter | Title Page - English Course Pupil's Book 3 | صفحة_3.jpg | front003 - Title Page - English Course Pupil's Book 3.jpg
+4 | 4 |  | Front Matter | Contents | صفحة_4.jpg | front004 - Contents.jpg
+5 | 5 | 1 | Unit 1 - Revision | Presents from London | صفحة_5.jpg | p001 - Presents from London.jpg
+6 | 6 | 2 | Unit 1 - Revision | What's my job? | صفحة_6.jpg | p002 - What's my job -.jpg
+7 | 7 | 3 | Unit 1 - Revision | The holidays | صفحة_7.jpg | p003 - The holidays.jpg
+8 | 8 | 4 | Unit 1 - Revision | A postcard from London | صفحة_8.jpg | p004 - A postcard from London.jpg
+9 | 9 | 5 | Unit 2 - Describing: Making plans | What do they look like? | صفحة_9.jpg | p005 - What do they look like -.jpg
+10 | 10 | 6 | Unit 2 - Describing: Making plans | Opposites | صفحة_10.jpg | p006 - Opposites.jpg
+11 | 11 | 7 | Unit 2 - Describing: Making plans | Describing people | صفحة_11.jpg | p007 - Describing people.jpg
+12 | 12 | 8 | Unit 2 - Describing: Making plans | Describing animals | صفحة_12.jpg | p008 - Describing animals.jpg
+13 | 13 | 9 | Unit 2 - Describing: Making plans | What's the time? | صفحة_13.jpg | p009 - What's the time -.jpg
+14 | 14 | 10 | Unit 2 - Describing: Making plans | Arranging to meet someone | صفحة_14.jpg | p010 - Arranging to meet someone.jpg
+15 | 15 | 11 | Unit 2 - Describing: Making plans | Things to do | صفحة_15.jpg | p011 - Things to do.jpg
+16 | 16 | 12 | Unit 2 - Describing: Making plans | Planning a garden | صفحة_16.jpg | p012 - Planning a garden.jpg
+17 | 17 | 13 | Unit 2 - Describing: Making plans | What are they going to be? | صفحة_17.jpg | p013 - What are they going to be -.jpg
+18 | 18 | 14 | Unit 2 - Describing: Making plans | The snake - episode 1 | صفحة_18.jpg | p014 - The snake - episode 1.jpg
+19 | 19 | 15 | Unit 2 - Describing: Making plans | Language review 1 | صفحة_19.jpg | p015 - Language review 1.jpg
+20 | 20 | 16 | Unit 3 - Other countries | What is the weather like? | صفحة_20.jpg | p016 - What is the weather like -.jpg
+21 | 21 | 17 | Unit 3 - Other countries | The months of the year | صفحة_21.jpg | p017 - The months of the year.jpg
+22 | 22 | 18 | Unit 3 - Other countries | The weather in Yemen | صفحة_22.jpg | p018 - The weather in Yemen.jpg
+23 | 23 | 19 | Unit 3 - Other countries | Dates | صفحة_23.jpg | p019 - Dates.jpg
+24 | 24 | 20 | Unit 3 - Other countries | Four countries | صفحة_24.jpg | p020 - Four countries.jpg
+25 | 25 | 21 | Unit 3 - Other countries | Four countries | صفحة_25.jpg | p021 - Four countries.jpg
+26 | 26 | 22 | Unit 3 - Other countries | Comparing countries | صفحة_26.jpg | p022 - Comparing countries.jpg
+27 | 27 | 23 | Unit 3 - Other countries | The world | صفحة_27.jpg | p023 - The world.jpg
+28 | 28 | 24 | Unit 3 - Other countries | The snake - episode 2 | صفحة_28.jpg | p024 - The snake - episode 2.jpg
+29 | 29 | 25 | Unit 3 - Other countries | Language review 2 | صفحة_29.jpg | p025 - Language review 2.jpg
+30 | 30 | 26 | Unit 4 - Visiting Japan | A Japanese pen-friend | صفحة_30.jpg | p026 - A Japanese pen-friend.jpg
+31 | 31 | 27 | Unit 4 - Visiting Japan | A letter to Yuki | صفحة_31.jpg | p027 - A letter to Yuki.jpg
+32 | 32 | 28 | Unit 4 - Visiting Japan | Travelling by air | صفحة_32.jpg | p028 - Travelling by air.jpg
+33 | 33 | 29 | Unit 4 - Visiting Japan | Which one is Yuki? | صفحة_33.jpg | p029 - Which one is Yuki -.jpg
+34 | 34 | 30 | Unit 4 - Visiting Japan | Fuad meets Yuki | صفحة_34.jpg | p030 - Fuad meets Yuki.jpg
+35 | 35 | 31 | Unit 4 - Visiting Japan | Fuad's first meal in Japan | صفحة_35.jpg | p031 - Fuad's first meal in Japan.jpg
+36 | 36 | 32 | Unit 4 - Visiting Japan | Fuad's first meal in Japan | صفحة_36.jpg | p032 - Fuad's first meal in Japan.jpg
+37 | 37 | 33 | Unit 4 - Visiting Japan | The snake - episode 3 | صفحة_37.jpg | p033 - The snake - episode 3.jpg
+38 | 38 | 34 | Unit 4 - Visiting Japan | Language review 3 | صفحة_38.jpg | p034 - Language review 3.jpg
+39 | 39 | 35 | Unit 5 - Safety | Warnings to children | صفحة_39.jpg | p035 - Warnings to children.jpg
+40 | 40 | 36 | Unit 5 - Safety | Warnings to parents | صفحة_40.jpg | p036 - Warnings to parents.jpg
+41 | 41 | 37 | Unit 5 - Safety | Giving advice | صفحة_41.jpg | p037 - Giving advice.jpg
+42 | 42 | 38 | Unit 5 - Safety | Accidents in the news | صفحة_42.jpg | p038 - Accidents in the news.jpg
+43 | 43 | 39 | Unit 5 - Safety | Road safety | صفحة_43.jpg | p039 - Road safety.jpg
+44 | 44 | 40 | Unit 5 - Safety | Going fishing | صفحة_44.jpg | p040 - Going fishing.jpg
+45 | 45 | 41 | Unit 5 - Safety | Peter's boat | صفحة_45.jpg | p041 - Peter's boat.jpg
+46 | 46 | 42 | Unit 5 - Safety | Terry's boat | صفحة_46.jpg | p042 - Terry's boat.jpg
+47 | 47 | 43 | Unit 5 - Safety | Tom and Tariq - the suitcases | صفحة_47.jpg | p043 - Tom and Tariq - the suitcases.jpg
+48 | 48 | 44 | Unit 5 - Safety | Tom and Tariq - the suitcases | صفحة_48.jpg | p044 - Tom and Tariq - the suitcases.jpg
+49 | 49 | 45 | Unit 5 - Safety | Language review 4 | صفحة_49.jpg | p045 - Language review 4.jpg
+50 | 50 | 46 | Unit 6 - Helping others | People who help others | صفحة_50.jpg | p046 - People who help others.jpg
+51 | 51 | 47 | Unit 6 - Helping others | What to do in an emergency | صفحة_51.jpg | p047 - What to do in an emergency.jpg
+52 | 52 | 48 | Unit 6 - Helping others | People who need help | صفحة_52.jpg | p048 - People who need help.jpg
+53 | 53 | 49 | Unit 6 - Helping others | Four special teachers | صفحة_53.jpg | p049 - Four special teachers.jpg
+54 | 54 | 50 | Unit 6 - Helping others | Two special schools | صفحة_54.jpg | p050 - Two special schools.jpg
+55 | 55 | 51 | Unit 6 - Helping others | Two special schools | صفحة_55.jpg | p051 - Two special schools.jpg
+56 | 56 | 52 | Unit 6 - Helping others | Tom and Tariq - the eggs | صفحة_56.jpg | p052 - Tom and Tariq - the eggs.jpg
+57 | 57 | 53 | Unit 6 - Helping others | Tom and Tariq - the eggs | صفحة_57.jpg | p053 - Tom and Tariq - the eggs.jpg
+58 | 58 | 54 | Unit 6 - Helping others | Language review 5 | صفحة_58.jpg | p054 - Language review 5.jpg
+59 | 59 | 55 | Unit 7 - Communications | Signs and messages | صفحة_59.jpg | p055 - Signs and messages.jpg
+60 | 60 | 56 | Unit 7 - Communications | Sending a letter | صفحة_60.jpg | p056 - Sending a letter.jpg
+61 | 61 | 57 | Unit 7 - Communications | How letters get to different countries | صفحة_61.jpg | p057 - How letters get to different countries.jpg
+62 | 62 | 58 | Unit 7 - Communications | When and where? | صفحة_62.jpg | p058 - When and where -.jpg
+63 | 63 | 59 | Unit 7 - Communications | Ways of sending messages | صفحة_63.jpg | p059 - Ways of sending messages.jpg
+64 | 64 | 60 | Unit 7 - Communications | Ways of sending messages | صفحة_64.jpg | p060 - Ways of sending messages.jpg
+65 | 65 | 61 | Unit 7 - Communications | Flight to Black Mountain | صفحة_65.jpg | p061 - Flight to Black Mountain.jpg
+66 | 66 | 62 | Unit 7 - Communications | Flight to Black Mountain | صفحة_66.jpg | p062 - Flight to Black Mountain.jpg
+67 | 67 | 63 | Unit 7 - Communications | What would you do? | صفحة_67.jpg | p063 - What would you do -.jpg
+68 | 68 | 64 | Unit 7 - Communications | Tom and Tariq - in the mountains | صفحة_68.jpg | p064 - Tom and Tariq - in the mountains.jpg
+69 | 69 | 65 | Unit 7 - Communications | Language review 6 | صفحة_69.jpg | p065 - Language review 6.jpg
+70 | 70 | 66 | Unit 8 - Winning medals | Sporting facts | صفحة_70.jpg | p066 - Sporting facts.jpg
+71 | 71 | 67 | Unit 8 - Winning medals | The school games | صفحة_71.jpg | p067 - The school games.jpg
+72 | 72 | 68 | Unit 8 - Winning medals | What went wrong? | صفحة_72.jpg | p068 - What went wrong -.jpg
+73 | 73 | 69 | Unit 8 - Winning medals | Tom and Tariq - the medals | صفحة_73.jpg | p069 - Tom and Tariq - the medals.jpg
+74 | 74 | 70 | Back Matter | Blank Final Page | صفحة_74.jpg | p070 - Blank Final Page.jpg
+75 | 75 |  | Back Matter | Back Cover | صفحة_75.jpg | front075 - Back Cover.jpg
