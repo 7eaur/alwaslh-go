@@ -1,0 +1,83 @@
+م | رقم صفحة المصدر | رقم الصفحة في الكتاب | القسم/الوحدة | عنوان الدرس/الموضوع | اسم الصورة الأصلي | اسم الصورة الجديد
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1 | 1 |  | Front Matter | Front Cover | صفحة_1.jpg | front001 - Front Cover.jpg
+2 | 2 |  | Front Matter | Title Page - English Course Pupil's Book 6 | صفحة_2.jpg | front002 - Title Page - English Course Pupil's Book 6.jpg
+3 | 3 |  | Front Matter | Contents | صفحة_3.jpg | front003 - Contents.jpg
+4 | 4 |  | Front Matter | Blank Intro Page | صفحة_4.jpg | front004 - Blank Intro Page.jpg
+5 | 5 | 1 | Unit 1 - Describing things | Shapes, coverings and materials | صفحة_5.jpg | p001 - Shapes, coverings and materials.jpg
+6 | 6 | 2 | Unit 1 - Describing things | Lost | صفحة_6.jpg | p002 - Lost.jpg
+7 | 7 | 3 | Unit 1 - Describing things | An unusual animal | صفحة_7.jpg | p003 - An unusual animal.jpg
+8 | 8 | 4 | Unit 1 - Describing things | Language review 1 | صفحة_8.jpg | p004 - Language review 1.jpg
+9 | 9 | 5 | Unit 1 - Describing things | The countryside | صفحة_9.jpg | p005 - The countryside.jpg
+10 | 10 | 6 | Unit 1 - Describing things | A drive in the countryside | صفحة_10.jpg | p006 - A drive in the countryside.jpg
+11 | 11 | 7 | Unit 1 - Describing things | Language review 2 | صفحة_11.jpg | p007 - Language review 2.jpg
+12 | 12 | 8 | Unit 1 - Describing things | A view from a window | صفحة_12.jpg | p008 - A view from a window.jpg
+13 | 13 | 9 | Unit 2 - Reporting events | Newspaper headlines | صفحة_13.jpg | p009 - Newspaper headlines.jpg
+14 | 14 | 10 | Unit 2 - Reporting events | Today's news | صفحة_14.jpg | p010 - Today's news.jpg
+15 | 15 | 11 | Unit 2 - Reporting events | Don and Debbie: dreamers | صفحة_15.jpg | p011 - Don and Debbie - dreamers.jpg
+16 | 16 | 12 | Unit 2 - Reporting events | Language review 3 | صفحة_16.jpg | p012 - Language review 3.jpg
+17 | 17 | 13 | Unit 2 - Reporting events | Natural disasters | صفحة_17.jpg | p013 - Natural disasters.jpg
+18 | 18 | 14 | Unit 2 - Reporting events | A newspaper report | صفحة_18.jpg | p014 - A newspaper report.jpg
+19 | 19 | 15 | Unit 2 - Reporting events | Language review 4 | صفحة_19.jpg | p015 - Language review 4.jpg
+20 | 20 | 16 | Unit 2 - Reporting events | Armenia - 7, December 1988 | صفحة_20.jpg | p016 - Armenia - 7, December 1988.jpg
+21 | 21 | 17 | Unit 3 - Looking for a job | Getting work experience | صفحة_21.jpg | p017 - Getting work experience.jpg
+22 | 22 | 18 | Unit 3 - Looking for a job | Thinking about the future | صفحة_22.jpg | p018 - Thinking about the future.jpg
+23 | 23 | 19 | Unit 3 - Looking for a job | Getting careers advice | صفحة_23.jpg | p019 - Getting careers advice.jpg
+24 | 24 | 20 | Unit 3 - Looking for a job | Language review 5 | صفحة_24.jpg | p020 - Language review 5.jpg
+25 | 25 | 21 | Unit 3 - Looking for a job | Jobs and qualities | صفحة_25.jpg | p021 - Jobs and qualities.jpg
+26 | 26 | 22 | Unit 3 - Looking for a job | Applying for a job | صفحة_26.jpg | p022 - Applying for a job.jpg
+27 | 27 | 23 | Unit 3 - Looking for a job | Language review 6 | صفحة_27.jpg | p023 - Language review 6.jpg
+28 | 28 | 24 | Unit 3 - Looking for a job | A business letter | صفحة_28.jpg | p024 - A business letter.jpg
+29 | 29 | 25 | Unit 4 - Tables, flow charts and diagrams | Food | صفحة_29.jpg | p025 - Food.jpg
+30 | 30 | 26 | Unit 4 - Tables, flow charts and diagrams | Learning to cook | صفحة_30.jpg | p026 - Learning to cook.jpg
+31 | 31 | 27 | Unit 4 - Tables, flow charts and diagrams | Agriculture in Yemen | صفحة_31.jpg | p027 - Agriculture in Yemen.jpg
+32 | 32 | 28 | Unit 4 - Tables, flow charts and diagrams | Language review 7 | صفحة_32.jpg | p028 - Language review 7.jpg
+33 | 33 | 29 | Unit 4 - Tables, flow charts and diagrams | Words and more words | صفحة_33.jpg | p029 - Words and more words.jpg
+34 | 34 | 30 | Unit 4 - Tables, flow charts and diagrams | Investigating the world around us | صفحة_34.jpg | p030 - Investigating the world around us.jpg
+35 | 35 | 31 | Unit 4 - Tables, flow charts and diagrams | Language review 8 | صفحة_35.jpg | p031 - Language review 8.jpg
+36 | 36 | 32 | Unit 4 - Tables, flow charts and diagrams | Frozen peas | صفحة_36.jpg | p032 - Frozen peas.jpg
+37 | 37 | 33 | Unit 5 - Working things out | Word sets | صفحة_37.jpg | p033 - Word sets.jpg
+38 | 38 | 34 | Unit 5 - Working things out | Possibilities | صفحة_38.jpg | p034 - Possibilities.jpg
+39 | 39 | 35 | Unit 5 - Working things out | Puzzles and riddles | صفحة_39.jpg | p035 - Puzzles and riddles.jpg
+40 | 40 | 36 | Unit 5 - Working things out | Language review 9 | صفحة_40.jpg | p036 - Language review 9.jpg
+41 | 41 | 37 | Unit 5 - Working things out | The mystery of the Mary Celeste | صفحة_41.jpg | p037 - The mystery of the Mary Celeste.jpg
+42 | 42 | 38 | Unit 5 - Working things out | What could have happened? | صفحة_42.jpg | p038 - What could have happened -.jpg
+43 | 43 | 39 | Unit 5 - Working things out | Language review 10 | صفحة_43.jpg | p039 - Language review 10.jpg
+44 | 44 | 40 | Unit 5 - Working things out | Tracks in the sand | صفحة_44.jpg | p040 - Tracks in the sand.jpg
+45 | 45 | 41 | Unit 6 - Looking back | Emergencies in the news | صفحة_45.jpg | p041 - Emergencies in the news.jpg
+46 | 46 | 42 | Unit 6 - Looking back | A lucky escape | صفحة_46.jpg | p042 - A lucky escape.jpg
+47 | 47 | 43 | Unit 6 - Looking back | Accident at Jebel Kebir | صفحة_47.jpg | p043 - Accident at Jebel Kebir.jpg
+48 | 48 | 44 | Unit 6 - Looking back | Saving Anwar | صفحة_48.jpg | p044 - Saving Anwar.jpg
+49 | 49 | 45 | Unit 6 - Looking back | How a hospital works | صفحة_49.jpg | p045 - How a hospital works.jpg
+50 | 50 | 46 | Unit 6 - Looking back | Working in public service | صفحة_50.jpg | p046 - Working in public service.jpg
+51 | 51 | 47 | Unit 6 - Looking back | Huge changes in Libyan health care | صفحة_51.jpg | p047 - Huge changes in Libyan health care.jpg
+52 | 52 | 48 | Unit 6 - Looking back | Discovering Yemen | صفحة_52.jpg | p048 - Discovering Yemen.jpg
+53 | 53 | 49 | Unit 6 - Looking back | Tourism and the future | صفحة_53.jpg | p049 - Tourism and the future.jpg
+54 | 54 | 50 | Arts reader | Blank Separator Page | صفحة_54.jpg | p050 - Blank Separator Page.jpg
+55 | 55 |  | Arts reader | Arts reader cover | صفحة_55.jpg | front055 - Arts reader cover.jpg
+56 | 56 | 51 | Arts reader | A difficult choice? | صفحة_56.jpg | p051 - A difficult choice -.jpg
+57 | 57 | 52 | Arts reader | Proverbs and idioms | صفحة_57.jpg | p052 - Proverbs and idioms.jpg
+58 | 58 | 53 | Arts reader | Telford Hall Episode 1 | صفحة_58.jpg | p053 - Telford Hall Episode 1.jpg
+59 | 59 | 54 | Arts reader | A famous play by Shakespeare | صفحة_59.jpg | p054 - A famous play by Shakespeare.jpg
+60 | 60 | 55 | Arts reader | Telford Hall Episode 2 | صفحة_60.jpg | p055 - Telford Hall Episode 2.jpg
+61 | 61 | 56 | Arts reader | Telford Hall Episode 2 | صفحة_61.jpg | p056 - Telford Hall Episode 2.jpg
+62 | 62 | 57 | Arts reader | Critics and criticism | صفحة_62.jpg | p057 - Critics and criticism.jpg
+63 | 63 | 58 | Arts reader | Telford Hall Episode 3 | صفحة_63.jpg | p058 - Telford Hall Episode 3.jpg
+64 | 64 | 59 | Arts reader | Telford Hall Episode 3 | صفحة_64.jpg | p059 - Telford Hall Episode 3.jpg
+65 | 65 | 60 | Arts reader | Calligraphy | صفحة_65.jpg | p060 - Calligraphy.jpg
+66 | 66 | 61 | Arts reader | A poem | صفحة_66.jpg | p061 - A poem.jpg
+67 | 67 | 62 | Arts reader | Strange happenings | صفحة_67.jpg | p062 - Strange happenings.jpg
+68 | 68 | 63 | Arts reader | Blank Separator Page | صفحة_68.jpg | p063 - Blank Separator Page.jpg
+69 | 69 | 64 | Science reader | Science reader cover | صفحة_69.jpg | p064 - Science reader cover.jpg
+70 | 70 | 65 | Science reader | Acids and alkalis | صفحة_70.jpg | p065 - Acids and alkalis.jpg
+71 | 71 | 66 | Science reader | States of matter | صفحة_71.jpg | p066 - States of matter.jpg
+72 | 72 | 67 | Science reader | Light | صفحة_72.jpg | p067 - Light.jpg
+73 | 73 | 68 | Science reader | Sound | صفحة_73.jpg | p068 - Sound.jpg
+74 | 74 | 69 | Science reader | Arab scientists | صفحة_74.jpg | p069 - Arab scientists.jpg
+75 | 75 | 70 | Science reader | Vaccinations | صفحة_75.jpg | p070 - Vaccinations.jpg
+76 | 76 | 71 | Science reader | Experimental procedures | صفحة_76.jpg | p071 - Experimental procedures.jpg
+77 | 77 | 72 | Science reader | Internal combustion engine | صفحة_77.jpg | p072 - Internal combustion engine.jpg
+78 | 78 | 73 | Science reader | The Moon | صفحة_78.jpg | p073 - The Moon.jpg
+79 | 79 | 74 | Science reader | Radioactivity | صفحة_79.jpg | p074 - Radioactivity.jpg
+80 | 80 |  | Back Matter | Publisher Contact Page | صفحة_80.jpg | front080 - Publisher Contact Page.jpg
+81 | 81 |  | Back Matter | Back Cover | صفحة_81.jpg | front081 - Back Cover.jpg

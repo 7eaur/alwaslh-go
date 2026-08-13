@@ -1,0 +1,812 @@
+[
+  {
+    "seq": 1,
+    "source_page": 1,
+    "book_page": null,
+    "section": "Front Matter",
+    "title": "Front Cover",
+    "original_name": "صفحة_1.jpg",
+    "new_name": "front001 - Front Cover.jpg",
+    "relative_path": "الصور/front001 - Front Cover.jpg"
+  },
+  {
+    "seq": 2,
+    "source_page": 2,
+    "book_page": null,
+    "section": "Front Matter",
+    "title": "Title Page - English Course Pupil's Book 6",
+    "original_name": "صفحة_2.jpg",
+    "new_name": "front002 - Title Page - English Course Pupil's Book 6.jpg",
+    "relative_path": "الصور/front002 - Title Page - English Course Pupil's Book 6.jpg"
+  },
+  {
+    "seq": 3,
+    "source_page": 3,
+    "book_page": null,
+    "section": "Front Matter",
+    "title": "Contents",
+    "original_name": "صفحة_3.jpg",
+    "new_name": "front003 - Contents.jpg",
+    "relative_path": "الصور/front003 - Contents.jpg"
+  },
+  {
+    "seq": 4,
+    "source_page": 4,
+    "book_page": null,
+    "section": "Front Matter",
+    "title": "Blank Intro Page",
+    "original_name": "صفحة_4.jpg",
+    "new_name": "front004 - Blank Intro Page.jpg",
+    "relative_path": "الصور/front004 - Blank Intro Page.jpg"
+  },
+  {
+    "seq": 5,
+    "source_page": 5,
+    "book_page": 1,
+    "section": "Unit 1 - Describing things",
+    "title": "Shapes, coverings and materials",
+    "original_name": "صفحة_5.jpg",
+    "new_name": "p001 - Shapes, coverings and materials.jpg",
+    "relative_path": "الصور/p001 - Shapes, coverings and materials.jpg"
+  },
+  {
+    "seq": 6,
+    "source_page": 6,
+    "book_page": 2,
+    "section": "Unit 1 - Describing things",
+    "title": "Lost",
+    "original_name": "صفحة_6.jpg",
+    "new_name": "p002 - Lost.jpg",
+    "relative_path": "الصور/p002 - Lost.jpg"
+  },
+  {
+    "seq": 7,
+    "source_page": 7,
+    "book_page": 3,
+    "section": "Unit 1 - Describing things",
+    "title": "An unusual animal",
+    "original_name": "صفحة_7.jpg",
+    "new_name": "p003 - An unusual animal.jpg",
+    "relative_path": "الصور/p003 - An unusual animal.jpg"
+  },
+  {
+    "seq": 8,
+    "source_page": 8,
+    "book_page": 4,
+    "section": "Unit 1 - Describing things",
+    "title": "Language review 1",
+    "original_name": "صفحة_8.jpg",
+    "new_name": "p004 - Language review 1.jpg",
+    "relative_path": "الصور/p004 - Language review 1.jpg"
+  },
+  {
+    "seq": 9,
+    "source_page": 9,
+    "book_page": 5,
+    "section": "Unit 1 - Describing things",
+    "title": "The countryside",
+    "original_name": "صفحة_9.jpg",
+    "new_name": "p005 - The countryside.jpg",
+    "relative_path": "الصور/p005 - The countryside.jpg"
+  },
+  {
+    "seq": 10,
+    "source_page": 10,
+    "book_page": 6,
+    "section": "Unit 1 - Describing things",
+    "title": "A drive in the countryside",
+    "original_name": "صفحة_10.jpg",
+    "new_name": "p006 - A drive in the countryside.jpg",
+    "relative_path": "الصور/p006 - A drive in the countryside.jpg"
+  },
+  {
+    "seq": 11,
+    "source_page": 11,
+    "book_page": 7,
+    "section": "Unit 1 - Describing things",
+    "title": "Language review 2",
+    "original_name": "صفحة_11.jpg",
+    "new_name": "p007 - Language review 2.jpg",
+    "relative_path": "الصور/p007 - Language review 2.jpg"
+  },
+  {
+    "seq": 12,
+    "source_page": 12,
+    "book_page": 8,
+    "section": "Unit 1 - Describing things",
+    "title": "A view from a window",
+    "original_name": "صفحة_12.jpg",
+    "new_name": "p008 - A view from a window.jpg",
+    "relative_path": "الصور/p008 - A view from a window.jpg"
+  },
+  {
+    "seq": 13,
+    "source_page": 13,
+    "book_page": 9,
+    "section": "Unit 2 - Reporting events",
+    "title": "Newspaper headlines",
+    "original_name": "صفحة_13.jpg",
+    "new_name": "p009 - Newspaper headlines.jpg",
+    "relative_path": "الصور/p009 - Newspaper headlines.jpg"
+  },
+  {
+    "seq": 14,
+    "source_page": 14,
+    "book_page": 10,
+    "section": "Unit 2 - Reporting events",
+    "title": "Today's news",
+    "original_name": "صفحة_14.jpg",
+    "new_name": "p010 - Today's news.jpg",
+    "relative_path": "الصور/p010 - Today's news.jpg"
+  },
+  {
+    "seq": 15,
+    "source_page": 15,
+    "book_page": 11,
+    "section": "Unit 2 - Reporting events",
+    "title": "Don and Debbie: dreamers",
+    "original_name": "صفحة_15.jpg",
+    "new_name": "p011 - Don and Debbie - dreamers.jpg",
+    "relative_path": "الصور/p011 - Don and Debbie - dreamers.jpg"
+  },
+  {
+    "seq": 16,
+    "source_page": 16,
+    "book_page": 12,
+    "section": "Unit 2 - Reporting events",
+    "title": "Language review 3",
+    "original_name": "صفحة_16.jpg",
+    "new_name": "p012 - Language review 3.jpg",
+    "relative_path": "الصور/p012 - Language review 3.jpg"
+  },
+  {
+    "seq": 17,
+    "source_page": 17,
+    "book_page": 13,
+    "section": "Unit 2 - Reporting events",
+    "title": "Natural disasters",
+    "original_name": "صفحة_17.jpg",
+    "new_name": "p013 - Natural disasters.jpg",
+    "relative_path": "الصور/p013 - Natural disasters.jpg"
+  },
+  {
+    "seq": 18,
+    "source_page": 18,
+    "book_page": 14,
+    "section": "Unit 2 - Reporting events",
+    "title": "A newspaper report",
+    "original_name": "صفحة_18.jpg",
+    "new_name": "p014 - A newspaper report.jpg",
+    "relative_path": "الصور/p014 - A newspaper report.jpg"
+  },
+  {
+    "seq": 19,
+    "source_page": 19,
+    "book_page": 15,
+    "section": "Unit 2 - Reporting events",
+    "title": "Language review 4",
+    "original_name": "صفحة_19.jpg",
+    "new_name": "p015 - Language review 4.jpg",
+    "relative_path": "الصور/p015 - Language review 4.jpg"
+  },
+  {
+    "seq": 20,
+    "source_page": 20,
+    "book_page": 16,
+    "section": "Unit 2 - Reporting events",
+    "title": "Armenia - 7, December 1988",
+    "original_name": "صفحة_20.jpg",
+    "new_name": "p016 - Armenia - 7, December 1988.jpg",
+    "relative_path": "الصور/p016 - Armenia - 7, December 1988.jpg"
+  },
+  {
+    "seq": 21,
+    "source_page": 21,
+    "book_page": 17,
+    "section": "Unit 3 - Looking for a job",
+    "title": "Getting work experience",
+    "original_name": "صفحة_21.jpg",
+    "new_name": "p017 - Getting work experience.jpg",
+    "relative_path": "الصور/p017 - Getting work experience.jpg"
+  },
+  {
+    "seq": 22,
+    "source_page": 22,
+    "book_page": 18,
+    "section": "Unit 3 - Looking for a job",
+    "title": "Thinking about the future",
+    "original_name": "صفحة_22.jpg",
+    "new_name": "p018 - Thinking about the future.jpg",
+    "relative_path": "الصور/p018 - Thinking about the future.jpg"
+  },
+  {
+    "seq": 23,
+    "source_page": 23,
+    "book_page": 19,
+    "section": "Unit 3 - Looking for a job",
+    "title": "Getting careers advice",
+    "original_name": "صفحة_23.jpg",
+    "new_name": "p019 - Getting careers advice.jpg",
+    "relative_path": "الصور/p019 - Getting careers advice.jpg"
+  },
+  {
+    "seq": 24,
+    "source_page": 24,
+    "book_page": 20,
+    "section": "Unit 3 - Looking for a job",
+    "title": "Language review 5",
+    "original_name": "صفحة_24.jpg",
+    "new_name": "p020 - Language review 5.jpg",
+    "relative_path": "الصور/p020 - Language review 5.jpg"
+  },
+  {
+    "seq": 25,
+    "source_page": 25,
+    "book_page": 21,
+    "section": "Unit 3 - Looking for a job",
+    "title": "Jobs and qualities",
+    "original_name": "صفحة_25.jpg",
+    "new_name": "p021 - Jobs and qualities.jpg",
+    "relative_path": "الصور/p021 - Jobs and qualities.jpg"
+  },
+  {
+    "seq": 26,
+    "source_page": 26,
+    "book_page": 22,
+    "section": "Unit 3 - Looking for a job",
+    "title": "Applying for a job",
+    "original_name": "صفحة_26.jpg",
+    "new_name": "p022 - Applying for a job.jpg",
+    "relative_path": "الصور/p022 - Applying for a job.jpg"
+  },
+  {
+    "seq": 27,
+    "source_page": 27,
+    "book_page": 23,
+    "section": "Unit 3 - Looking for a job",
+    "title": "Language review 6",
+    "original_name": "صفحة_27.jpg",
+    "new_name": "p023 - Language review 6.jpg",
+    "relative_path": "الصور/p023 - Language review 6.jpg"
+  },
+  {
+    "seq": 28,
+    "source_page": 28,
+    "book_page": 24,
+    "section": "Unit 3 - Looking for a job",
+    "title": "A business letter",
+    "original_name": "صفحة_28.jpg",
+    "new_name": "p024 - A business letter.jpg",
+    "relative_path": "الصور/p024 - A business letter.jpg"
+  },
+  {
+    "seq": 29,
+    "source_page": 29,
+    "book_page": 25,
+    "section": "Unit 4 - Tables, flow charts and diagrams",
+    "title": "Food",
+    "original_name": "صفحة_29.jpg",
+    "new_name": "p025 - Food.jpg",
+    "relative_path": "الصور/p025 - Food.jpg"
+  },
+  {
+    "seq": 30,
+    "source_page": 30,
+    "book_page": 26,
+    "section": "Unit 4 - Tables, flow charts and diagrams",
+    "title": "Learning to cook",
+    "original_name": "صفحة_30.jpg",
+    "new_name": "p026 - Learning to cook.jpg",
+    "relative_path": "الصور/p026 - Learning to cook.jpg"
+  },
+  {
+    "seq": 31,
+    "source_page": 31,
+    "book_page": 27,
+    "section": "Unit 4 - Tables, flow charts and diagrams",
+    "title": "Agriculture in Yemen",
+    "original_name": "صفحة_31.jpg",
+    "new_name": "p027 - Agriculture in Yemen.jpg",
+    "relative_path": "الصور/p027 - Agriculture in Yemen.jpg"
+  },
+  {
+    "seq": 32,
+    "source_page": 32,
+    "book_page": 28,
+    "section": "Unit 4 - Tables, flow charts and diagrams",
+    "title": "Language review 7",
+    "original_name": "صفحة_32.jpg",
+    "new_name": "p028 - Language review 7.jpg",
+    "relative_path": "الصور/p028 - Language review 7.jpg"
+  },
+  {
+    "seq": 33,
+    "source_page": 33,
+    "book_page": 29,
+    "section": "Unit 4 - Tables, flow charts and diagrams",
+    "title": "Words and more words",
+    "original_name": "صفحة_33.jpg",
+    "new_name": "p029 - Words and more words.jpg",
+    "relative_path": "الصور/p029 - Words and more words.jpg"
+  },
+  {
+    "seq": 34,
+    "source_page": 34,
+    "book_page": 30,
+    "section": "Unit 4 - Tables, flow charts and diagrams",
+    "title": "Investigating the world around us",
+    "original_name": "صفحة_34.jpg",
+    "new_name": "p030 - Investigating the world around us.jpg",
+    "relative_path": "الصور/p030 - Investigating the world around us.jpg"
+  },
+  {
+    "seq": 35,
+    "source_page": 35,
+    "book_page": 31,
+    "section": "Unit 4 - Tables, flow charts and diagrams",
+    "title": "Language review 8",
+    "original_name": "صفحة_35.jpg",
+    "new_name": "p031 - Language review 8.jpg",
+    "relative_path": "الصور/p031 - Language review 8.jpg"
+  },
+  {
+    "seq": 36,
+    "source_page": 36,
+    "book_page": 32,
+    "section": "Unit 4 - Tables, flow charts and diagrams",
+    "title": "Frozen peas",
+    "original_name": "صفحة_36.jpg",
+    "new_name": "p032 - Frozen peas.jpg",
+    "relative_path": "الصور/p032 - Frozen peas.jpg"
+  },
+  {
+    "seq": 37,
+    "source_page": 37,
+    "book_page": 33,
+    "section": "Unit 5 - Working things out",
+    "title": "Word sets",
+    "original_name": "صفحة_37.jpg",
+    "new_name": "p033 - Word sets.jpg",
+    "relative_path": "الصور/p033 - Word sets.jpg"
+  },
+  {
+    "seq": 38,
+    "source_page": 38,
+    "book_page": 34,
+    "section": "Unit 5 - Working things out",
+    "title": "Possibilities",
+    "original_name": "صفحة_38.jpg",
+    "new_name": "p034 - Possibilities.jpg",
+    "relative_path": "الصور/p034 - Possibilities.jpg"
+  },
+  {
+    "seq": 39,
+    "source_page": 39,
+    "book_page": 35,
+    "section": "Unit 5 - Working things out",
+    "title": "Puzzles and riddles",
+    "original_name": "صفحة_39.jpg",
+    "new_name": "p035 - Puzzles and riddles.jpg",
+    "relative_path": "الصور/p035 - Puzzles and riddles.jpg"
+  },
+  {
+    "seq": 40,
+    "source_page": 40,
+    "book_page": 36,
+    "section": "Unit 5 - Working things out",
+    "title": "Language review 9",
+    "original_name": "صفحة_40.jpg",
+    "new_name": "p036 - Language review 9.jpg",
+    "relative_path": "الصور/p036 - Language review 9.jpg"
+  },
+  {
+    "seq": 41,
+    "source_page": 41,
+    "book_page": 37,
+    "section": "Unit 5 - Working things out",
+    "title": "The mystery of the Mary Celeste",
+    "original_name": "صفحة_41.jpg",
+    "new_name": "p037 - The mystery of the Mary Celeste.jpg",
+    "relative_path": "الصور/p037 - The mystery of the Mary Celeste.jpg"
+  },
+  {
+    "seq": 42,
+    "source_page": 42,
+    "book_page": 38,
+    "section": "Unit 5 - Working things out",
+    "title": "What could have happened?",
+    "original_name": "صفحة_42.jpg",
+    "new_name": "p038 - What could have happened -.jpg",
+    "relative_path": "الصور/p038 - What could have happened -.jpg"
+  },
+  {
+    "seq": 43,
+    "source_page": 43,
+    "book_page": 39,
+    "section": "Unit 5 - Working things out",
+    "title": "Language review 10",
+    "original_name": "صفحة_43.jpg",
+    "new_name": "p039 - Language review 10.jpg",
+    "relative_path": "الصور/p039 - Language review 10.jpg"
+  },
+  {
+    "seq": 44,
+    "source_page": 44,
+    "book_page": 40,
+    "section": "Unit 5 - Working things out",
+    "title": "Tracks in the sand",
+    "original_name": "صفحة_44.jpg",
+    "new_name": "p040 - Tracks in the sand.jpg",
+    "relative_path": "الصور/p040 - Tracks in the sand.jpg"
+  },
+  {
+    "seq": 45,
+    "source_page": 45,
+    "book_page": 41,
+    "section": "Unit 6 - Looking back",
+    "title": "Emergencies in the news",
+    "original_name": "صفحة_45.jpg",
+    "new_name": "p041 - Emergencies in the news.jpg",
+    "relative_path": "الصور/p041 - Emergencies in the news.jpg"
+  },
+  {
+    "seq": 46,
+    "source_page": 46,
+    "book_page": 42,
+    "section": "Unit 6 - Looking back",
+    "title": "A lucky escape",
+    "original_name": "صفحة_46.jpg",
+    "new_name": "p042 - A lucky escape.jpg",
+    "relative_path": "الصور/p042 - A lucky escape.jpg"
+  },
+  {
+    "seq": 47,
+    "source_page": 47,
+    "book_page": 43,
+    "section": "Unit 6 - Looking back",
+    "title": "Accident at Jebel Kebir",
+    "original_name": "صفحة_47.jpg",
+    "new_name": "p043 - Accident at Jebel Kebir.jpg",
+    "relative_path": "الصور/p043 - Accident at Jebel Kebir.jpg"
+  },
+  {
+    "seq": 48,
+    "source_page": 48,
+    "book_page": 44,
+    "section": "Unit 6 - Looking back",
+    "title": "Saving Anwar",
+    "original_name": "صفحة_48.jpg",
+    "new_name": "p044 - Saving Anwar.jpg",
+    "relative_path": "الصور/p044 - Saving Anwar.jpg"
+  },
+  {
+    "seq": 49,
+    "source_page": 49,
+    "book_page": 45,
+    "section": "Unit 6 - Looking back",
+    "title": "How a hospital works",
+    "original_name": "صفحة_49.jpg",
+    "new_name": "p045 - How a hospital works.jpg",
+    "relative_path": "الصور/p045 - How a hospital works.jpg"
+  },
+  {
+    "seq": 50,
+    "source_page": 50,
+    "book_page": 46,
+    "section": "Unit 6 - Looking back",
+    "title": "Working in public service",
+    "original_name": "صفحة_50.jpg",
+    "new_name": "p046 - Working in public service.jpg",
+    "relative_path": "الصور/p046 - Working in public service.jpg"
+  },
+  {
+    "seq": 51,
+    "source_page": 51,
+    "book_page": 47,
+    "section": "Unit 6 - Looking back",
+    "title": "Huge changes in Libyan health care",
+    "original_name": "صفحة_51.jpg",
+    "new_name": "p047 - Huge changes in Libyan health care.jpg",
+    "relative_path": "الصور/p047 - Huge changes in Libyan health care.jpg"
+  },
+  {
+    "seq": 52,
+    "source_page": 52,
+    "book_page": 48,
+    "section": "Unit 6 - Looking back",
+    "title": "Discovering Yemen",
+    "original_name": "صفحة_52.jpg",
+    "new_name": "p048 - Discovering Yemen.jpg",
+    "relative_path": "الصور/p048 - Discovering Yemen.jpg"
+  },
+  {
+    "seq": 53,
+    "source_page": 53,
+    "book_page": 49,
+    "section": "Unit 6 - Looking back",
+    "title": "Tourism and the future",
+    "original_name": "صفحة_53.jpg",
+    "new_name": "p049 - Tourism and the future.jpg",
+    "relative_path": "الصور/p049 - Tourism and the future.jpg"
+  },
+  {
+    "seq": 54,
+    "source_page": 54,
+    "book_page": 50,
+    "section": "Arts reader",
+    "title": "Blank Separator Page",
+    "original_name": "صفحة_54.jpg",
+    "new_name": "p050 - Blank Separator Page.jpg",
+    "relative_path": "الصور/p050 - Blank Separator Page.jpg"
+  },
+  {
+    "seq": 55,
+    "source_page": 55,
+    "book_page": null,
+    "section": "Arts reader",
+    "title": "Arts reader cover",
+    "original_name": "صفحة_55.jpg",
+    "new_name": "front055 - Arts reader cover.jpg",
+    "relative_path": "الصور/front055 - Arts reader cover.jpg"
+  },
+  {
+    "seq": 56,
+    "source_page": 56,
+    "book_page": 51,
+    "section": "Arts reader",
+    "title": "A difficult choice?",
+    "original_name": "صفحة_56.jpg",
+    "new_name": "p051 - A difficult choice -.jpg",
+    "relative_path": "الصور/p051 - A difficult choice -.jpg"
+  },
+  {
+    "seq": 57,
+    "source_page": 57,
+    "book_page": 52,
+    "section": "Arts reader",
+    "title": "Proverbs and idioms",
+    "original_name": "صفحة_57.jpg",
+    "new_name": "p052 - Proverbs and idioms.jpg",
+    "relative_path": "الصور/p052 - Proverbs and idioms.jpg"
+  },
+  {
+    "seq": 58,
+    "source_page": 58,
+    "book_page": 53,
+    "section": "Arts reader",
+    "title": "Telford Hall Episode 1",
+    "original_name": "صفحة_58.jpg",
+    "new_name": "p053 - Telford Hall Episode 1.jpg",
+    "relative_path": "الصور/p053 - Telford Hall Episode 1.jpg"
+  },
+  {
+    "seq": 59,
+    "source_page": 59,
+    "book_page": 54,
+    "section": "Arts reader",
+    "title": "A famous play by Shakespeare",
+    "original_name": "صفحة_59.jpg",
+    "new_name": "p054 - A famous play by Shakespeare.jpg",
+    "relative_path": "الصور/p054 - A famous play by Shakespeare.jpg"
+  },
+  {
+    "seq": 60,
+    "source_page": 60,
+    "book_page": 55,
+    "section": "Arts reader",
+    "title": "Telford Hall Episode 2",
+    "original_name": "صفحة_60.jpg",
+    "new_name": "p055 - Telford Hall Episode 2.jpg",
+    "relative_path": "الصور/p055 - Telford Hall Episode 2.jpg"
+  },
+  {
+    "seq": 61,
+    "source_page": 61,
+    "book_page": 56,
+    "section": "Arts reader",
+    "title": "Telford Hall Episode 2",
+    "original_name": "صفحة_61.jpg",
+    "new_name": "p056 - Telford Hall Episode 2.jpg",
+    "relative_path": "الصور/p056 - Telford Hall Episode 2.jpg"
+  },
+  {
+    "seq": 62,
+    "source_page": 62,
+    "book_page": 57,
+    "section": "Arts reader",
+    "title": "Critics and criticism",
+    "original_name": "صفحة_62.jpg",
+    "new_name": "p057 - Critics and criticism.jpg",
+    "relative_path": "الصور/p057 - Critics and criticism.jpg"
+  },
+  {
+    "seq": 63,
+    "source_page": 63,
+    "book_page": 58,
+    "section": "Arts reader",
+    "title": "Telford Hall Episode 3",
+    "original_name": "صفحة_63.jpg",
+    "new_name": "p058 - Telford Hall Episode 3.jpg",
+    "relative_path": "الصور/p058 - Telford Hall Episode 3.jpg"
+  },
+  {
+    "seq": 64,
+    "source_page": 64,
+    "book_page": 59,
+    "section": "Arts reader",
+    "title": "Telford Hall Episode 3",
+    "original_name": "صفحة_64.jpg",
+    "new_name": "p059 - Telford Hall Episode 3.jpg",
+    "relative_path": "الصور/p059 - Telford Hall Episode 3.jpg"
+  },
+  {
+    "seq": 65,
+    "source_page": 65,
+    "book_page": 60,
+    "section": "Arts reader",
+    "title": "Calligraphy",
+    "original_name": "صفحة_65.jpg",
+    "new_name": "p060 - Calligraphy.jpg",
+    "relative_path": "الصور/p060 - Calligraphy.jpg"
+  },
+  {
+    "seq": 66,
+    "source_page": 66,
+    "book_page": 61,
+    "section": "Arts reader",
+    "title": "A poem",
+    "original_name": "صفحة_66.jpg",
+    "new_name": "p061 - A poem.jpg",
+    "relative_path": "الصور/p061 - A poem.jpg"
+  },
+  {
+    "seq": 67,
+    "source_page": 67,
+    "book_page": 62,
+    "section": "Arts reader",
+    "title": "Strange happenings",
+    "original_name": "صفحة_67.jpg",
+    "new_name": "p062 - Strange happenings.jpg",
+    "relative_path": "الصور/p062 - Strange happenings.jpg"
+  },
+  {
+    "seq": 68,
+    "source_page": 68,
+    "book_page": 63,
+    "section": "Arts reader",
+    "title": "Blank Separator Page",
+    "original_name": "صفحة_68.jpg",
+    "new_name": "p063 - Blank Separator Page.jpg",
+    "relative_path": "الصور/p063 - Blank Separator Page.jpg"
+  },
+  {
+    "seq": 69,
+    "source_page": 69,
+    "book_page": 64,
+    "section": "Science reader",
+    "title": "Science reader cover",
+    "original_name": "صفحة_69.jpg",
+    "new_name": "p064 - Science reader cover.jpg",
+    "relative_path": "الصور/p064 - Science reader cover.jpg"
+  },
+  {
+    "seq": 70,
+    "source_page": 70,
+    "book_page": 65,
+    "section": "Science reader",
+    "title": "Acids and alkalis",
+    "original_name": "صفحة_70.jpg",
+    "new_name": "p065 - Acids and alkalis.jpg",
+    "relative_path": "الصور/p065 - Acids and alkalis.jpg"
+  },
+  {
+    "seq": 71,
+    "source_page": 71,
+    "book_page": 66,
+    "section": "Science reader",
+    "title": "States of matter",
+    "original_name": "صفحة_71.jpg",
+    "new_name": "p066 - States of matter.jpg",
+    "relative_path": "الصور/p066 - States of matter.jpg"
+  },
+  {
+    "seq": 72,
+    "source_page": 72,
+    "book_page": 67,
+    "section": "Science reader",
+    "title": "Light",
+    "original_name": "صفحة_72.jpg",
+    "new_name": "p067 - Light.jpg",
+    "relative_path": "الصور/p067 - Light.jpg"
+  },
+  {
+    "seq": 73,
+    "source_page": 73,
+    "book_page": 68,
+    "section": "Science reader",
+    "title": "Sound",
+    "original_name": "صفحة_73.jpg",
+    "new_name": "p068 - Sound.jpg",
+    "relative_path": "الصور/p068 - Sound.jpg"
+  },
+  {
+    "seq": 74,
+    "source_page": 74,
+    "book_page": 69,
+    "section": "Science reader",
+    "title": "Arab scientists",
+    "original_name": "صفحة_74.jpg",
+    "new_name": "p069 - Arab scientists.jpg",
+    "relative_path": "الصور/p069 - Arab scientists.jpg"
+  },
+  {
+    "seq": 75,
+    "source_page": 75,
+    "book_page": 70,
+    "section": "Science reader",
+    "title": "Vaccinations",
+    "original_name": "صفحة_75.jpg",
+    "new_name": "p070 - Vaccinations.jpg",
+    "relative_path": "الصور/p070 - Vaccinations.jpg"
+  },
+  {
+    "seq": 76,
+    "source_page": 76,
+    "book_page": 71,
+    "section": "Science reader",
+    "title": "Experimental procedures",
+    "original_name": "صفحة_76.jpg",
+    "new_name": "p071 - Experimental procedures.jpg",
+    "relative_path": "الصور/p071 - Experimental procedures.jpg"
+  },
+  {
+    "seq": 77,
+    "source_page": 77,
+    "book_page": 72,
+    "section": "Science reader",
+    "title": "Internal combustion engine",
+    "original_name": "صفحة_77.jpg",
+    "new_name": "p072 - Internal combustion engine.jpg",
+    "relative_path": "الصور/p072 - Internal combustion engine.jpg"
+  },
+  {
+    "seq": 78,
+    "source_page": 78,
+    "book_page": 73,
+    "section": "Science reader",
+    "title": "The Moon",
+    "original_name": "صفحة_78.jpg",
+    "new_name": "p073 - The Moon.jpg",
+    "relative_path": "الصور/p073 - The Moon.jpg"
+  },
+  {
+    "seq": 79,
+    "source_page": 79,
+    "book_page": 74,
+    "section": "Science reader",
+    "title": "Radioactivity",
+    "original_name": "صفحة_79.jpg",
+    "new_name": "p074 - Radioactivity.jpg",
+    "relative_path": "الصور/p074 - Radioactivity.jpg"
+  },
+  {
+    "seq": 80,
+    "source_page": 80,
+    "book_page": null,
+    "section": "Back Matter",
+    "title": "Publisher Contact Page",
+    "original_name": "صفحة_80.jpg",
+    "new_name": "front080 - Publisher Contact Page.jpg",
+    "relative_path": "الصور/front080 - Publisher Contact Page.jpg"
+  },
+  {
+    "seq": 81,
+    "source_page": 81,
+    "book_page": null,
+    "section": "Back Matter",
+    "title": "Back Cover",
+    "original_name": "صفحة_81.jpg",
+    "new_name": "front081 - Back Cover.jpg",
+    "relative_path": "الصور/front081 - Back Cover.jpg"
+  }
+]
