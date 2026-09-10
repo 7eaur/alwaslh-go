@@ -1,0 +1,41 @@
+{
+  "grade": "ثالث ثانوي — القسم العلمي",
+  "subject": "الأحياء",
+  "hijri_year": 1445,
+  "academic_year": "2023-2024",
+  "model_id": "نموذج_02",
+  "extraction_mode": "questions_only",
+  "extraction_status": "partial_verified_text",
+  "source": {
+    "question_pages": ["صفحة_4.jpg", "صفحة_5.jpg"],
+    "repository_path": "الأحياء ثالث ثانوي/نماذج وزاريه 1445/الاحياء نماذج وزاريه 1445"
+  },
+  "questions": [
+    {"number": 1, "type": "true_false", "text": "التكاثر يؤمن للكائنات الحية الزيادة العددية في أفراد النوع.", "source_page": "صفحة_4.jpg"},
+    {"number": 2, "type": "true_false", "text": "يتم تبادل المواد بين دم الأم ودم الجنين عبر المشيمة بالانتشار.", "source_page": "صفحة_4.jpg"},
+    {"number": 3, "type": "true_false", "text": "تشير نتائج تجارب مندل في قانونه الأول إلى ظهور الصفة المتنحية في الجيل الثاني بنسبة 25%.", "source_page": "صفحة_4.jpg"},
+    {"number": 4, "type": "true_false", "text": "يوصف حمض RNA بأنه تركيب سلمي مؤلف من شريط مزدوج.", "source_page": "صفحة_4.jpg"},
+    {"number": 5, "type": "true_false", "text": "التستوستيرون هرمون تناسلي يمكن إنتاجه بتقنية هندسة الجينات.", "source_page": "صفحة_4.jpg"},
+    {"number": 6, "type": "true_false", "text": "استعان الإنسان ببعض الكائنات الحية الدقيقة في صناعة المضادات الحيوية.", "source_page": "صفحة_4.jpg"},
+    {"number": 7, "type": "true_false", "text": "تفرز غدة البروستات مادة مخاطية غنية بالفركتوز.", "source_page": "صفحة_4.jpg"},
+    {"number": 8, "type": "true_false", "text": "تدرج الذكاء في الإنسان صفة يتحكم بها الجينات التراكمية.", "source_page": "صفحة_4.jpg"},
+    {"number": 9, "type": "true_false", "text": "تعني صيغة الشفرة (UAG) في mRNA إشارة إنهاء تركيب السلسلة الببتيدية.", "source_page": "صفحة_4.jpg"},
+    {"number": 10, "type": "true_false", "text": "عند استنساخ النعجة دوللي وُضعت الخلية الجسدية في وسط غذائي فقير بالمواد الغذائية.", "source_page": "صفحة_4.jpg"},
+    {"number": 11, "type": "true_false", "text": "عند تذوقك الليمون تتأثر بطعمها مقدمة اللسان.", "source_page": "صفحة_4.jpg"},
+    {"number": 12, "type": "true_false", "text": "ترش أشجار المانجو بهرمون الجبريلين لمنع تساقط الأوراق والثمار قبل نضوجها.", "source_page": "صفحة_4.jpg"},
+    {"number": 13, "type": "true_false", "text": "لنجاح التطعيم بالبرعم يتم وضع البرعم في شق على شكل حرف T وربطه بإحكام.", "source_page": "صفحة_4.jpg"},
+    {"number": 14, "type": "true_false", "text": "عند تلقيح نبات بازلاء طويل الساق هجين مع آخر قصير الساق؛ فإن احتمال النسبة المئوية للشكل الظاهري للأفراد الناتجة طويلة الساق (75).", "source_page": "صفحة_4.jpg"},
+    {"number": 15, "type": "true_false", "text": "إذا كانت فصيلة دم الأب (A) هجين وفصيلة دم الأم (O)، فإن احتمال توارث الأبناء لفصيلة الدم (A) هجين 75%.", "source_page": "صفحة_4.jpg"},
+    {"number": 16, "type": "true_false", "text": "رجل موجب عامل الرايزيس نقي وزوجته موجبة العامل هجين، احتمال النسبة المئوية لولادة أطفال موجبي العامل (50).", "source_page": "صفحة_4.jpg"},
+    {"number": 17, "type": "true_false", "text": "التنظيم عن طريق الأعصاب أسرع من التنظيم عن طريق الهرمونات.", "source_page": "صفحة_4.jpg"},
+    {"number": 18, "type": "true_false", "text": "الأدرينالين هرمون يعمل في المواقف الانفعالية على توسيع الأوعية الدموية المتصلة بالعضلات الإرادية.", "source_page": "صفحة_4.jpg"},
+    {"number": 19, "type": "true_false", "text": "يوجد مولدان اثنان من مولدات الإلصاق في (AB+).", "source_page": "صفحة_4.jpg"},
+    {"number": 20, "type": "true_false", "text": "إذا كانت الشفرة الوراثية على mRNA هي (GUC) فإن الشفرة المقابلة لها على شريط DNA الفعال (CTC).", "source_page": "صفحة_4.jpg"}
+  ],
+  "quality_control": {
+    "completed_questions": 20,
+    "expected_questions": 50,
+    "rule": "يحتوي الملف على نصوص الأسئلة والخيارات فقط، بلا إجابات."
+  }
+}
+
