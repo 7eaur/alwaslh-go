@@ -1,0 +1,88 @@
+{
+  "grade": "ثالث ثانوي — القسم العلمي",
+  "subject": "الأحياء",
+  "hijri_year": 1445,
+  "academic_year": "2023-2024",
+  "model_id": "نموذج_01",
+  "extraction_status": "partial_verified",
+  "source": {
+    "question_pages": [
+      "صفحة_1.jpg",
+      "صفحة_2.jpg"
+    ],
+    "answer_key_page": "صفحة_3.jpg",
+    "repository_path": "الأحياء ثالث ثانوي/نماذج وزاريه 1445/الاحياء نماذج وزاريه 1445"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text": "يلجأ المزارعون إلى طريقة التطعيم للمحافظة على الصفات المرغوبة في النبات.",
+      "answer": {
+        "value": true,
+        "display": "صحيح",
+        "source_key_value": 1
+      },
+      "source_page": "صفحة_1.jpg",
+      "answer_source_page": "صفحة_3.jpg",
+      "verification": "source_answer_key"
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text": "تحتوي القطعة الوسطى في الحيوان المنوي على الميتوكوندريا.",
+      "answer": {
+        "value": true,
+        "display": "صحيح",
+        "source_key_value": 1
+      },
+      "source_page": "صفحة_1.jpg",
+      "answer_source_page": "صفحة_3.jpg",
+      "verification": "source_answer_key"
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text": "أفضل الطرق للتفرقة بين الصفات النقية والهجينة هو التلقيح الاختباري.",
+      "answer": {
+        "value": true,
+        "display": "صحيح",
+        "source_key_value": 1
+      },
+      "source_page": "صفحة_1.jpg",
+      "answer_source_page": "صفحة_3.jpg",
+      "verification": "source_answer_key"
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text": "يدل الرمز (mRNA) على الحمض النووي الرايبوزي الرسول.",
+      "answer": {
+        "value": true,
+        "display": "صحيح",
+        "source_key_value": 1
+      },
+      "source_page": "صفحة_1.jpg",
+      "answer_source_page": "صفحة_3.jpg",
+      "verification": "source_answer_key"
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text": "في مفهوم الطاقة الحيوية في اللغة الإنجليزية يعني المقطع (Bio) حيوي.",
+      "answer": {
+        "value": true,
+        "display": "صحيح",
+        "source_key_value": 1
+      },
+      "source_page": "صفحة_1.jpg",
+      "answer_source_page": "صفحة_3.jpg",
+      "verification": "source_answer_key"
+    }
+  ],
+  "quality_control": {
+    "completed_questions": 5,
+    "expected_questions": 50,
+    "rule": "لا تعتبر الأسئلة غير المدرجة مكتملة أو مؤكدة."
+  }
+}
