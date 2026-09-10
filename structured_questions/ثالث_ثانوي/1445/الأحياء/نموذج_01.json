@@ -4,13 +4,12 @@
   "hijri_year": 1445,
   "academic_year": "2023-2024",
   "model_id": "نموذج_01",
-  "extraction_status": "partial_verified",
+  "extraction_status": "partial_verified_text",
   "source": {
     "question_pages": [
       "صفحة_1.jpg",
       "صفحة_2.jpg"
     ],
-    "answer_key_page": "صفحة_3.jpg",
     "repository_path": "الأحياء ثالث ثانوي/نماذج وزاريه 1445/الاحياء نماذج وزاريه 1445"
   },
   "questions": [
@@ -18,136 +17,414 @@
       "number": 1,
       "type": "true_false",
       "text": "يلجأ المزارعون إلى طريقة التطعيم للمحافظة على الصفات المرغوبة في النبات.",
-      "answer": {
-        "value": true,
-        "display": "صحيح",
-        "source_key_value": 1
-      },
-      "source_page": "صفحة_1.jpg",
-      "answer_source_page": "صفحة_3.jpg",
-      "verification": "source_answer_key"
+      "source_page": "صفحة_1.jpg"
     },
     {
       "number": 2,
       "type": "true_false",
       "text": "تحتوي القطعة الوسطى في الحيوان المنوي على الميتوكوندريا.",
-      "answer": {
-        "value": true,
-        "display": "صحيح",
-        "source_key_value": 1
-      },
-      "source_page": "صفحة_1.jpg",
-      "answer_source_page": "صفحة_3.jpg",
-      "verification": "source_answer_key"
+      "source_page": "صفحة_1.jpg"
     },
     {
       "number": 3,
       "type": "true_false",
       "text": "أفضل الطرق للتفرقة بين الصفات النقية والهجينة هو التلقيح الاختباري.",
-      "answer": {
-        "value": true,
-        "display": "صحيح",
-        "source_key_value": 1
-      },
-      "source_page": "صفحة_1.jpg",
-      "answer_source_page": "صفحة_3.jpg",
-      "verification": "source_answer_key"
+      "source_page": "صفحة_1.jpg"
     },
     {
       "number": 4,
       "type": "true_false",
       "text": "يدل الرمز (mRNA) على الحمض النووي الرايبوزي الرسول.",
-      "answer": {
-        "value": true,
-        "display": "صحيح",
-        "source_key_value": 1
-      },
-      "source_page": "صفحة_1.jpg",
-      "answer_source_page": "صفحة_3.jpg",
-      "verification": "source_answer_key"
+      "source_page": "صفحة_1.jpg"
     },
     {
       "number": 5,
       "type": "true_false",
       "text": "في مفهوم الطاقة الحيوية في اللغة الإنجليزية يعني المقطع (Bio) حيوي.",
-      "answer": {
-        "value": true,
-        "display": "صحيح",
-        "source_key_value": 1
-      },
-      "source_page": "صفحة_1.jpg",
-      "answer_source_page": "صفحة_3.jpg",
-      "verification": "source_answer_key"
+      "source_page": "صفحة_1.jpg"
     },
     {
       "number": 6,
       "type": "true_false",
       "text": "تجويع الخلية المأخوذة من ضرع نعجة (Dorset) أدى إلى تحفيز وقف انقساماتها وجيناتها النشطة.",
-      "answer": {
-        "value": true,
-        "display": "صحيح",
-        "source_key_value": 1
-      },
-      "source_page": "صفحة_1.jpg",
-      "answer_source_page": "صفحة_3.jpg",
-      "verification": "source_answer_key"
+      "source_page": "صفحة_1.jpg"
     },
     {
       "number": 7,
       "type": "true_false",
       "text": "الاقتران بين خليتين متجاورتين في الخيط نفسه لطحلب سبيروجيرا يسمى اقترانًا سُلَّميًا.",
-      "answer": {
-        "value": false,
-        "display": "خطأ",
-        "source_key_value": 2
-      },
-      "source_page": "صفحة_1.jpg",
-      "answer_source_page": "صفحة_3.jpg",
-      "verification": "source_answer_key"
+      "source_page": "صفحة_1.jpg"
     },
     {
       "number": 8,
       "type": "true_false",
       "text": "الجينات المترابطة مجموعة من الجينات تخضع لقانون التوزيع الحر.",
-      "answer": {
-        "value": false,
-        "display": "خطأ",
-        "source_key_value": 2
-      },
-      "source_page": "صفحة_1.jpg",
-      "answer_source_page": "صفحة_3.jpg",
-      "verification": "source_answer_key"
+      "source_page": "صفحة_1.jpg"
     },
     {
       "number": 9,
       "type": "true_false",
       "text": "إنزيمات هيليكيسيز تفصل الروابط الهيدروجينية بين القواعد النيتروجينية عند تضاعف DNA.",
-      "answer": {
-        "value": true,
-        "display": "صحيح",
-        "source_key_value": 1
-      },
-      "source_page": "صفحة_1.jpg",
-      "answer_source_page": "صفحة_3.jpg",
-      "verification": "source_answer_key"
+      "source_page": "صفحة_1.jpg"
     },
     {
       "number": 10,
       "type": "true_false",
       "text": "عند صناعة الجبن يعمل إنزيم الكيموزين على تجميع بروتين الكازائين في الحليب وتحويله إلى حالة شبه صلبة من اللبن المتخثر.",
-      "answer": {
-        "value": true,
-        "display": "صحيح",
-        "source_key_value": 1
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 11,
+      "type": "true_false",
+      "text": "عند تأثر الليفة العصبية بمؤثر حراري شدته كافية يحدث تغير في حالة استقطابها.",
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 12,
+      "type": "true_false",
+      "text": "عند انتشار نبات النجيل في حقل بكثرة فإن المزارع يستخدم بعض أنواع من الأوكسينات للتخلص منه.",
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 13,
+      "type": "true_false",
+      "text": "عندما يرغب باحث إكثار قنافد البحر صناعيًا يمكنه استخدام التكاثر العذري.",
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 14,
+      "type": "true_false",
+      "text": "عند تلقيح نباتي بازلاء أزهارهما إبطي الموقع بحالة هجينة، فإن احتمال النسبة المئوية للشكل الظاهري للأفراد الناتجة أزهارهما إبطي الموقع 50.",
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 15,
+      "type": "true_false",
+      "text": "رجل وزوجته موجبا عامل الرايزيس هجينان، احتمال النسبة المئوية لولادة أطفال سالبي عامل الرايزيس (75).",
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 16,
+      "type": "true_false",
+      "text": "ينتقل السيال العصبي في الألياف العصبية الميلينية بالتأثير الدائري الموضعي، بينما ينتقل في الألياف غير الميلينية بالنقل القفزي.",
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 17,
+      "type": "true_false",
+      "text": "تفرز خلايا بيتا البنكرياسية هرمون الجلوكاجون، بينما تفرز خلايا ألفا هرمون الأنسولين.",
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 18,
+      "type": "true_false",
+      "text": "رجل فصيلة دمه (A) وزوجته فصيلة دمها (AB)، احتمال النسبة المئوية لولادة أطفال فصائل دمهم (O) 50.",
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 19,
+      "type": "true_false",
+      "text": "الشفرة (CAC) على mRNA تقابلها على شريط DNA الفعال الشفرة (GAC).",
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 20,
+      "type": "true_false",
+      "text": "مجموع التراكيب الجينية في كل من (A+، AB-) أربعة.",
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 21,
+      "type": "multiple_choice",
+      "text": "حلقة عصبية حول بلعومية تظهر في ..........",
+      "options": {
+        "1": "الهيدرا",
+        "2": "البراميسيوم",
+        "3": "دودة الأرض",
+        "4": "الأميبا"
       },
-      "source_page": "صفحة_1.jpg",
-      "answer_source_page": "صفحة_3.jpg",
-      "verification": "source_answer_key"
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 22,
+      "type": "multiple_choice",
+      "text": "خلايا الغراء العصبي التي تقوم بابتلاع الأجسام الغريبة هي ..........",
+      "options": {
+        "1": "شفان",
+        "2": "القمرية",
+        "3": "بطينات المخ",
+        "4": "النجمية"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 23,
+      "type": "multiple_choice",
+      "text": "اسم الهرمون الذي تفرزه جذور النباتات ..........",
+      "options": {
+        "1": "الأوكسين",
+        "2": "الإيثيلين",
+        "3": "السيتوكينين",
+        "4": "حامض الأبسيك"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 24,
+      "type": "multiple_choice",
+      "text": "اسم الهرمون الذي يستخدم علاجيًا لإحداث الطلق أثناء الولادة المتعسرة ..........",
+      "options": {
+        "1": "الأوكسيتوسين",
+        "2": "الثيروكسين",
+        "3": "البرولاكتين",
+        "4": "الأنسولين"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 25,
+      "type": "multiple_choice",
+      "text": "غدة صغيرة فوق كل كلية تسمى ..........",
+      "options": {
+        "1": "النخامية",
+        "2": "الكظرية",
+        "3": "الدرقية",
+        "4": "الجاردرقية"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 26,
+      "type": "multiple_choice",
+      "text": "الأعضاء الآتية تنشأ من الطبقة الجنينية الوسطى ما عدا (..........)",
+      "options": {
+        "1": "العضلات",
+        "2": "القلب",
+        "3": "المبيض",
+        "4": "الجلد"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 27,
+      "type": "multiple_choice",
+      "text": "إذا حدث اختلال في ثبات درجة حرارة الجنين فإن ذلك يدل على وجود مشكلة في دور سائل الغشاء الجنيني ..........",
+      "options": {
+        "1": "الكوريون",
+        "2": "كيس المح",
+        "3": "الرهل",
+        "4": "الممبار"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 28,
+      "type": "multiple_choice",
+      "text": "عند ظهور صفة لون البذور الصفراء لنبات البازلاء في جميع أفراد الجيل الأول يسمى هذا سيادة ..........",
+      "options": {
+        "1": "مشتركة",
+        "2": "تامة",
+        "3": "تراكمية",
+        "4": "ناقصة"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 29,
+      "type": "multiple_choice",
+      "text": "العالم الذي أجرى تجاربه على ذبابة الفاكهة ..........",
+      "options": {
+        "1": "جوهانسون",
+        "2": "ساتون",
+        "3": "مورجان",
+        "4": "مندل"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 30,
+      "type": "multiple_choice",
+      "text": "تم التقاط صورة بالأشعة السينية للحمض النووي DNA بواسطة ..........",
+      "options": {
+        "1": "روزاليندا",
+        "2": "واطسون",
+        "3": "كريك",
+        "4": "ماكلاود"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 31,
+      "type": "multiple_choice",
+      "text": "الشفرة التي تعني «ابدأ» بتركيب السلسلة الببتيدية تسمى ..........",
+      "options": {
+        "1": "AUG",
+        "2": "AGA",
+        "3": "GGA",
+        "4": "GGU"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 32,
+      "type": "multiple_choice",
+      "text": "يشكل الجزء الخلفي للدماغ ..........",
+      "options": {
+        "1": "ساق الدماغ",
+        "2": "الحبل الشوكي",
+        "3": "المخ",
+        "4": "المخيخ"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 33,
+      "type": "multiple_choice",
+      "text": "تحديد اتجاه حركة الرأس الدائرية من وظيفة ..........",
+      "options": {
+        "1": "الدهليز",
+        "2": "القارورة",
+        "3": "المطرقة",
+        "4": "القوقعة"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 34,
+      "type": "multiple_choice",
+      "text": "تعد العصي مستقبل ..........",
+      "options": {
+        "1": "شمي",
+        "2": "صوتي",
+        "3": "ضوئي",
+        "4": "تذوقي"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 35,
+      "type": "multiple_choice",
+      "text": "سبب تضخم الغدة الدرقية نقص في عنصر .......... في الغذاء.",
+      "options": {
+        "1": "اليود",
+        "2": "البوتاسيوم",
+        "3": "الكالسيوم",
+        "4": "الصوديوم"
+      },
+      "source_page": "صفحة_1.jpg"
+    },
+    {
+      "number": 36,
+      "type": "multiple_choice",
+      "text": "غدة تصب إفرازاتها عبر قنوات ..........",
+      "options": {"1": "جزر لانجرهانز", "2": "النخامية", "3": "العرقية", "4": "الجاردرقية"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 37,
+      "type": "multiple_choice",
+      "text": "يتكاثر (لاجنسيًا) بالتبرعم ..........",
+      "options": {"1": "عش الغراب", "2": "الخميرة", "3": "الإسفنج", "4": "البراميسيوم"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 38,
+      "type": "multiple_choice",
+      "text": "ساق أرضية تنمو أفقية تحت سطح التربة ..........",
+      "options": {"1": "البصلة", "2": "الريزوم", "3": "الدرنة", "4": "الكورمة"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 39,
+      "type": "multiple_choice",
+      "text": "التركيب المسؤول عن إنتاج السابحات الذكرية في نبات الفيوناريا ..........",
+      "options": {"1": "البروتونيما", "2": "العلبة", "3": "الأرشيجونة", "4": "الأنثريدة"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 40,
+      "type": "multiple_choice",
+      "text": "أحد التراكيب الجينية الرمزية الآتية لكروموسومي الجنس لنوعي أمشاج أنثى الطيور ..........",
+      "options": {"1": "ZZ", "2": "XX", "3": "ZW", "4": "X0"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 41,
+      "type": "multiple_choice",
+      "text": "فصائل الدم الآتية يوجد بها مولدات إلصاق ما عدا ..........",
+      "options": {"1": "B", "2": "O", "3": "A", "4": "AB"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 42,
+      "type": "multiple_choice",
+      "text": "عند إعطاء الأبقار هرمون البوفين يزيد إنتاج .......... منها.",
+      "options": {"1": "اللحم", "2": "الصوف", "3": "الشحم", "4": "الحليب"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 43,
+      "type": "multiple_choice",
+      "text": "أي مما يأتي تشترك كل من حويصلات ميسنر وأقراص ميركل من حيث الإحساس بها ..........",
+      "options": {"1": "اللمس", "2": "السخونة", "3": "الضغط", "4": "البرودة"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 44,
+      "type": "multiple_choice",
+      "text": "تركيب في العين يُكوّن القزحية ..........",
+      "options": {"1": "العدسة", "2": "الشبكية", "3": "المشيمية", "4": "الصلبة"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 45,
+      "type": "multiple_choice",
+      "text": "في النبات الزهري بعد عملية الإخصاب تتكون البذرة من ..........",
+      "options": {"1": "المبيض", "2": "النيوسيلة", "3": "البويضة المخصبة", "4": "جدار المبيض"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 46,
+      "type": "multiple_choice",
+      "text": "إذا كان الشكل المظهري لموقع الزهرة في نبات البازلاء إبطيًا (A) نقيًا، أبيض، فإن تركيبها الجيني ..........",
+      "options": {"1": "AArr", "2": "Aarr", "3": "aaRr", "4": "AaRr"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 47,
+      "type": "multiple_choice",
+      "text": "أي من الشفرات الثلاثية تُعد صحيحة فيما يتعلق بإنهاء تركيب السلسلة الببتيدية ..........",
+      "options": {"1": "UAU, UGU", "2": "UGU, UCC", "3": "UCU, UUA", "4": "UAA, UGA"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 48,
+      "type": "multiple_choice",
+      "text": "للحصول على إنزيم الكيموزين تقنيًا يتم إضافة الجين المسؤول عن إنتاجه إلى DNA بكتيريا ..........",
+      "options": {"1": "اللاكتوباسيلوس", "2": "إشريشيا كولاي", "3": "الاستربتوكوكس", "4": "الميثانوجينيك"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 49,
+      "type": "multiple_choice",
+      "text": "في التزاوج المندلي الآتي: Ggii × GGIi، النسبة المئوية لظهور الصفتين السائدتين معًا في النسل الناتج ..........",
+      "options": {"1": "25", "2": "50", "3": "75", "4": "100"},
+      "source_page": "صفحة_2.jpg"
+    },
+    {
+      "number": 50,
+      "type": "multiple_choice_with_figure",
+      "text": "الشكل المقابل رسم تخطيطي للبويضة الناضجة في النبات الزهري، حيث يشير السهم إلى ..........",
+      "options": {"1": "نواة قطبية", "2": "خلية مساعدة", "3": "خلية البيضة", "4": "خلية سمتية"},
+      "source_page": "صفحة_2.jpg",
+      "figure_source_page": "صفحة_2.jpg"
     }
   ],
   "quality_control": {
-    "completed_questions": 10,
+    "completed_questions": 50,
     "expected_questions": 50,
-    "rule": "لا تعتبر الأسئلة غير المدرجة مكتملة أو مؤكدة."
-  }
+    "rule": "يحتوي الملف على نصوص الأسئلة والخيارات فقط، بلا إجابات."
+  },
+  "extraction_mode": "questions_only"
 }
+
