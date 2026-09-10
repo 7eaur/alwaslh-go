@@ -1,0 +1,52 @@
+{
+  "grade": "ثالث ثانوي — القسم العلمي",
+  "hijri_year": 1445,
+  "gregorian_academic_year": "2023-2024",
+  "source_repository": "https://github.com/7eaur/alwaslh-go",
+  "branch": "extract-grade12-1445",
+  "extraction_status": "in_progress",
+  "model_layout": {
+    "question_pages_per_model": 2,
+    "answer_key_pages_per_model": 1,
+    "questions_per_model": 50,
+    "page_sequence": "(1,2,3)=نموذج 01، (4,5,6)=نموذج 02، وهكذا"
+  },
+  "subjects": [
+    {
+      "subject": "الأحياء",
+      "source_directory": "الأحياء ثالث ثانوي/نماذج وزاريه 1445/الاحياء نماذج وزاريه 1445",
+      "images": 60,
+      "models": 20
+    },
+    {
+      "subject": "الإنجليزي",
+      "source_directory": "الانجليزي ثالث ثانوي/نماذج وزاريه 1445/انجليزي ثانوي نماذج وزاريه 1445",
+      "images": 60,
+      "models": 20
+    },
+    {
+      "subject": "الرياضيات — التفاضل والتكامل",
+      "source_directory": "الرياضيات ثالث ثانوي/التفاضل والتكامل نماذج وزاريه 1445/التفاضل والتكامل نماذج وزاريه 1445",
+      "images": 80,
+      "models": null
+    },
+    {
+      "subject": "الرياضيات — الجبر والهندسة",
+      "source_directory": "الرياضيات ثالث ثانوي/الجبر والهندسه نماذج وزاريه 1445/الجبر والهندسة نماذج وزاريه 1445",
+      "images": 60,
+      "models": null
+    },
+    {
+      "subject": "الفيزياء",
+      "source_directory": "الفيزياء ثالث ثانوي/نماذج وزاريه 1445/الفيزياء نماذج وزاريه 1445",
+      "images": 60,
+      "models": null
+    },
+    {
+      "subject": "الكيمياء",
+      "source_directory": "الكيمياء ثالث ثانوي/نماذج وزاريه 1445/الكيمياء نماذج وزاريه 1445",
+      "images": 60,
+      "models": null
+    }
+  ]
+}
