@@ -78,10 +78,75 @@
       "source_page": "صفحة_1.jpg",
       "answer_source_page": "صفحة_3.jpg",
       "verification": "source_answer_key"
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text": "تجويع الخلية المأخوذة من ضرع نعجة (Dorset) أدى إلى تحفيز وقف انقساماتها وجيناتها النشطة.",
+      "answer": {
+        "value": true,
+        "display": "صحيح",
+        "source_key_value": 1
+      },
+      "source_page": "صفحة_1.jpg",
+      "answer_source_page": "صفحة_3.jpg",
+      "verification": "source_answer_key"
+    },
+    {
+      "number": 7,
+      "type": "true_false",
+      "text": "الاقتران بين خليتين متجاورتين في الخيط نفسه لطحلب سبيروجيرا يسمى اقترانًا سُلَّميًا.",
+      "answer": {
+        "value": false,
+        "display": "خطأ",
+        "source_key_value": 2
+      },
+      "source_page": "صفحة_1.jpg",
+      "answer_source_page": "صفحة_3.jpg",
+      "verification": "source_answer_key"
+    },
+    {
+      "number": 8,
+      "type": "true_false",
+      "text": "الجينات المترابطة مجموعة من الجينات تخضع لقانون التوزيع الحر.",
+      "answer": {
+        "value": false,
+        "display": "خطأ",
+        "source_key_value": 2
+      },
+      "source_page": "صفحة_1.jpg",
+      "answer_source_page": "صفحة_3.jpg",
+      "verification": "source_answer_key"
+    },
+    {
+      "number": 9,
+      "type": "true_false",
+      "text": "إنزيمات هيليكيسيز تفصل الروابط الهيدروجينية بين القواعد النيتروجينية عند تضاعف DNA.",
+      "answer": {
+        "value": true,
+        "display": "صحيح",
+        "source_key_value": 1
+      },
+      "source_page": "صفحة_1.jpg",
+      "answer_source_page": "صفحة_3.jpg",
+      "verification": "source_answer_key"
+    },
+    {
+      "number": 10,
+      "type": "true_false",
+      "text": "عند صناعة الجبن يعمل إنزيم الكيموزين على تجميع بروتين الكازائين في الحليب وتحويله إلى حالة شبه صلبة من اللبن المتخثر.",
+      "answer": {
+        "value": true,
+        "display": "صحيح",
+        "source_key_value": 1
+      },
+      "source_page": "صفحة_1.jpg",
+      "answer_source_page": "صفحة_3.jpg",
+      "verification": "source_answer_key"
     }
   ],
   "quality_control": {
-    "completed_questions": 5,
+    "completed_questions": 10,
     "expected_questions": 50,
     "rule": "لا تعتبر الأسئلة غير المدرجة مكتملة أو مؤكدة."
   }
