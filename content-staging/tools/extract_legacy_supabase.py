@@ -3,7 +3,8 @@
 
 The extractor never mutates Supabase. It exports database records and referenced
 public lesson images into content-staging/raw/legacy-supabase with SHA-256
-provenance. Raw outputs are intended to be immutable source evidence.
+provenance. Raw outputs are immutable source evidence: structural anomalies are
+recorded, not silently repaired and not used to discard source rows.
 """
 
 from __future__ import annotations
@@ -20,6 +21,7 @@ import tempfile
 import urllib.error
 import urllib.parse
 import urllib.request
+from collections import Counter
 from dataclasses import dataclass
 from typing import Any, Iterable
 
@@ -158,18 +160,49 @@ def image_object_path(source_url: str) -> str:
     return urllib.parse.unquote(parsed.path.split(marker, 1)[1])
 
 
-def validate_page(row: dict[str, Any], subject_id: str) -> None:
-    if row.get("subject_id") != subject_id:
-        raise ExtractionError(f"page {row.get('id')} has unexpected subject_id")
-    page_number = row.get("page_number")
-    if not isinstance(page_number, int) or page_number < 1:
-        raise ExtractionError(f"page {row.get('id')} has invalid page_number")
-    urls = row.get("image_urls")
-    if not isinstance(urls, list) or len(urls) != 1 or not isinstance(urls[0], str):
-        raise ExtractionError(f"page {row.get('id')} must have exactly one source image")
-    questions = row.get("ai_questions")
-    if not isinstance(questions, list):
-        raise ExtractionError(f"page {row.get('id')} has invalid ai_questions")
+def page_anomalies(pages: list[dict[str, Any]], subject_id: str) -> dict[str, Any]:
+    null_page_numbers: list[str] = []
+    invalid_subject_ids: list[str] = []
+    missing_images: list[str] = []
+    multiple_images: list[str] = []
+    malformed_image_urls: list[str] = []
+    malformed_questions: list[str] = []
+    numeric_positions: list[int] = []
+
+    for row in pages:
+        row_id = str(row.get("id"))
+        if row.get("subject_id") != subject_id:
+            invalid_subject_ids.append(row_id)
+        page_number = row.get("page_number")
+        if isinstance(page_number, int) and page_number > 0:
+            numeric_positions.append(page_number)
+        else:
+            null_page_numbers.append(row_id)
+        urls = row.get("image_urls")
+        if not isinstance(urls, list):
+            malformed_image_urls.append(row_id)
+        else:
+            valid_urls = [url for url in urls if isinstance(url, str) and url.strip()]
+            if len(valid_urls) == 0:
+                missing_images.append(row_id)
+            if len(valid_urls) > 1:
+                multiple_images.append(row_id)
+            if len(valid_urls) != len(urls):
+                malformed_image_urls.append(row_id)
+        if not isinstance(row.get("ai_questions"), list):
+            malformed_questions.append(row_id)
+
+    counts = Counter(numeric_positions)
+    duplicate_page_numbers = sorted(number for number, count in counts.items() if count > 1)
+    return {
+        "null_or_invalid_page_numbers": null_page_numbers,
+        "duplicate_page_numbers": duplicate_page_numbers,
+        "invalid_subject_ids": invalid_subject_ids,
+        "missing_images": missing_images,
+        "multiple_images": multiple_images,
+        "malformed_image_urls": malformed_image_urls,
+        "malformed_ai_questions": malformed_questions,
+    }
 
 
 def extract_inventory(client: LegacyClient) -> dict[str, Any]:
@@ -192,12 +225,15 @@ def extract_inventory(client: LegacyClient) -> dict[str, Any]:
     return inventory
 
 
-def _save_image(page: dict[str, Any], subject_dir: pathlib.Path, client: LegacyClient) -> dict[str, Any]:
-    source_url = page["image_urls"][0]
+def _save_image(
+    page: dict[str, Any], image_index: int, source_url: str, subject_dir: pathlib.Path, client: LegacyClient
+) -> dict[str, Any]:
     data, mime = client.download_public_storage(source_url)
     digest = sha256_bytes(data)
     ext = image_extension(mime)
-    filename = f"page-{int(page['page_number']):05d}-{page['id']}{ext}"
+    page_number = page.get("page_number")
+    page_label = f"{page_number:05d}" if isinstance(page_number, int) and page_number > 0 else "unknown"
+    filename = f"page-{page_label}-{page['id']}-image-{image_index:02d}{ext}"
     image_path = subject_dir / "images" / filename
     image_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -213,7 +249,8 @@ def _save_image(page: dict[str, Any], subject_dir: pathlib.Path, client: LegacyC
 
     return {
         "legacy_page_id": page["id"],
-        "page_number": page["page_number"],
+        "page_number": page_number,
+        "image_index": image_index,
         "source_url": source_url,
         "storage_bucket": "lesson_content",
         "storage_object_path": image_object_path(source_url),
@@ -248,27 +285,54 @@ def extract_subject(client: LegacyClient, subject_id: str) -> dict[str, Any]:
         filters={"subject_id": f"eq.{subject_id}"},
         order="page_number.asc,created_at.asc,id.asc",
     )
-    if not pages:
-        raise ExtractionError(f"legacy subject has no page rows: {subject_id}")
-    for page in pages:
-        validate_page(page, subject_id)
-
-    page_numbers = [int(page["page_number"]) for page in pages]
-    if len(page_numbers) != len(set(page_numbers)):
-        raise ExtractionError(f"duplicate page_number detected; manual resolution required: {subject_id}")
 
     subject_dir = RAW_ROOT / "subjects" / subject_id
     write_json(subject_dir / "subject.json", {"class": legacy_class, "subject": subject})
     write_json(subject_dir / "pages.json", pages)
 
-    images: list[dict[str, Any]] = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=IMAGE_WORKERS) as pool:
-        futures = [pool.submit(_save_image, page, subject_dir, client) for page in pages]
-        for future in concurrent.futures.as_completed(futures):
-            images.append(future.result())
-    images.sort(key=lambda row: (int(row["page_number"]), row["legacy_page_id"]))
+    anomalies = page_anomalies(pages, subject_id)
+    image_tasks: list[tuple[dict[str, Any], int, str]] = []
+    for page in pages:
+        urls = page.get("image_urls")
+        if not isinstance(urls, list):
+            continue
+        for image_index, source_url in enumerate(urls):
+            if isinstance(source_url, str) and source_url.strip():
+                image_tasks.append((page, image_index, source_url))
 
-    question_count = sum(len(page["ai_questions"]) for page in pages)
+    images: list[dict[str, Any]] = []
+    image_failures: list[dict[str, Any]] = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=IMAGE_WORKERS) as pool:
+        future_map = {
+            pool.submit(_save_image, page, image_index, source_url, subject_dir, client): (
+                str(page.get("id")), image_index, source_url
+            )
+            for page, image_index, source_url in image_tasks
+        }
+        for future in concurrent.futures.as_completed(future_map):
+            page_id, image_index, source_url = future_map[future]
+            try:
+                images.append(future.result())
+            except Exception as exc:  # preserve raw DB rows and report binary retrieval failures separately
+                image_failures.append(
+                    {
+                        "legacy_page_id": page_id,
+                        "image_index": image_index,
+                        "source_url": source_url,
+                        "error": str(exc),
+                    }
+                )
+    images.sort(
+        key=lambda row: (
+            row["page_number"] if isinstance(row["page_number"], int) else 2**31 - 1,
+            row["legacy_page_id"],
+            row["image_index"],
+        )
+    )
+
+    question_count = sum(
+        len(page["ai_questions"]) for page in pages if isinstance(page.get("ai_questions"), list)
+    )
     manifest = {
         "source": {
             "project_url": client.base_url,
@@ -277,11 +341,16 @@ def extract_subject(client: LegacyClient, subject_id: str) -> dict[str, Any]:
         },
         "legacy_class": legacy_class,
         "legacy_subject": subject,
+        "status": "empty" if not pages else "extracted",
         "counts": {
             "pages": len(pages),
-            "images": len(images),
+            "image_references": len(image_tasks),
+            "images_downloaded": len(images),
+            "image_download_failures": len(image_failures),
             "questions": question_count,
         },
+        "anomalies": anomalies,
+        "image_download_failures": image_failures,
         "pages_sha256": sha256_json(pages),
         "images": images,
     }
@@ -300,7 +369,7 @@ def subject_ids_from_inventory(inventory: dict[str, Any]) -> Iterable[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Extract legacy Alwaslh content without mutating the source")
     parser.add_argument("--subject-id", help="Extract exactly one legacy subject UUID")
-    parser.add_argument("--all", action="store_true", help="Extract every legacy subject that currently has pages")
+    parser.add_argument("--all", action="store_true", help="Extract every legacy subject, including empty subjects")
     parser.add_argument("--inventory-only", action="store_true", help="Export classes/subjects inventory only")
     args = parser.parse_args()
     if sum(bool(value) for value in (args.subject_id, args.all, args.inventory_only)) != 1:
@@ -319,7 +388,15 @@ def main() -> int:
         assert subject_id is not None
         try:
             manifest = extract_subject(client, subject_id)
-            completed.append({"subject_id": subject_id, "counts": manifest["counts"], "manifest_sha256": manifest["manifest_sha256"]})
+            completed.append(
+                {
+                    "subject_id": subject_id,
+                    "status": manifest["status"],
+                    "counts": manifest["counts"],
+                    "anomalies": manifest["anomalies"],
+                    "manifest_sha256": manifest["manifest_sha256"],
+                }
+            )
             print(f"extracted {subject_id}: {manifest['counts']}")
         except ExtractionError as exc:
             failures.append({"subject_id": subject_id, "error": str(exc)})
