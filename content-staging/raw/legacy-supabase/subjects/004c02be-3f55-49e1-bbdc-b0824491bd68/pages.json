@@ -1,0 +1,1145 @@
+[
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الصواريخ الفضائية هي الوسيلة الأساسية المستخدمة لإطلاق وحمل الأقمار الصناعية والمركبات الفضائية المأهولة وغير المأهولة إلى الفضاء الخارجي.",
+        "method": "١- قراءة العبارة بدقة.\n٢- تحديد وظيفة الصاروخ الفضائي في حمل وإطلاق المركبات والأقمار.\n٣- تأكيد صحة العبارة علمياً.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "الصاروخ الفضائي يقذف الأقمار الصناعية والمركبات المأهولة وغير المأهولة.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن بعض النباتات تقوم بتخزين الفضلات والمواد الإخراجية في أوراقها، ثم تتخلص منها عندما تسقط هذه الأوراق في فصل الخريف.",
+        "method": "١- دراسة طرق الإخراج في النبات.\n٢- تذكر أن تساقط الأوراق يعتبر وسيلة للتخلص من الفضلات المخزنة فيها.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "يتخلص النبات من بعض المواد الإخراجية عن طريق تساقط الأوراق.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي صح لأن خطوط الفيض المغناطيسي تحدد اتجاه المجال المغناطيسي عند كل نقطة، وبالتالي تتخذ الإبرة المغناطيسية اتجاهاً واحداً مماسياً لخط الفيض عند تلك النقطة.",
+        "method": "١- فهم سلوك الإبرة المغناطيسية في المجال المغناطيسي.\n٢- تذكر أن المجال عند نقطة معينة له اتجاه واحد محدد.\n٣- استنتاج صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "عند وضع إبرة مغناطيسية عند نقطة ما من الفيض المغناطيسي فإنها تتخذ اتجاهاً واحداً.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأنه يجب دائماً إضافة الحمض إلى الماء ببطء مع التحريك المستمر، وليس العكس؛ لأن إضافة الماء إلى الحمض المركز تؤدي إلى تولد حرارة شديدة قد تسبب غليان المحلول وتطاير الحمض الحارق.",
+        "method": "١- مراجعة قواعد السلامة في مختبر الكيمياء لتحضير المحاليل الحمضية.\n٢- تذكر القاعدة: 'أضف الحمض إلى الماء وليس العكس'.\n٣- تحديد أن العبارة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "يضاف الماء إلى الحمض عند تحضير محلول حمضي.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن الوجه الأمامي لعلبة مرسل التلفون (الميكروفون الكربوني) يتكون من قرص رقيق مرن من الألومنيوم، بينما الحديد المطاوع يستخدم في مستقبل التلفون (السماعة).",
+        "method": "١- دراسة تركيب مرسل التلفون ومستقبله.\n٢- تحديد المادة المصنوع منها القرص المرن في المرسل (الألومنيوم).\n٣- الحكم على العبارة بأنها خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "الوجه الأمامي لعلبة مرسل التلفون عبارة عن قرص رقيق مرن من الحديد المطاوع.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الشاي يحتوي على كواشف طبيعية يتغير لونها بتغير حموضة الوسط، وعند إضافة عصير الليمون (وهو حمضي) يقل تركيز اللون الداكن ويتحول الشاي إلى اللون الأصفر الفاتح.",
+        "method": "١- فهم دور الشاي ككاشف طبيعي للأحماض والقواعد.\n٢- معرفة تأثير الحمض (عصير الليمون) على لون الشاي.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "يتلون الشاي باللون الأصفر عند إضافة عصير الليمون إليه.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "hard",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن معامل الشد السطحي صفة فيزيائية مميزة للسائل تعتمد فقط على نوع السائل ودرجة حرارته، ولا تتغير بتغير طول السلك أو مساحة الغشاء المتكون.",
+        "method": "١- تعريف الشد السطحي والعوامل المؤثرة عليه.\n٢- إدراك أن معامل الشد السطحي ثابت للسائل الواحد عند ثبوت درجة الحرارة.\n٣- استنتاج أن العبارة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "يزداد الشد السطحي لسائل بزيادة طول السلك الذي يتكون عليه الغشاء.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن قيم الرقم الهيدروجيني (PH) للمحاليل القاعدية تكون أكبر من ٧ وتصل إلى ١٤، بينما المحاليل الحمضية هي التي تتراوح قيمها بين صفر وأقل من ٧.",
+        "method": "١- مراجعة مقياس الرقم الهيدروجيني (PH).\n٢- تحديد مدى المحاليل الحمضية (أقل من ٧) والقاعدية (أكبر من ٧).\n٣- الحكم على العبارة بالخطأ.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "تتراوح قيم (PH) للمحاليل القاعدية ما بين صفر إلى ٧.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن السماعة تستقبل تياراً منخفض التردد (تياراً معبراً عن الصوت) بعد أن يتم فصله عن التيار عالي التردد (الموجة الحاملة) بواسطة دائرة الكشف أو التقويم.",
+        "method": "١- فهم آلية عمل دائرة الاستقبال الإذاعي ووظيفة السماعة.\n٢- معرفة أن السماعة لا يمكنها الاهتزاز بالترددات العالية جداً وتستجيب فقط للترددات الصوتية المنخفضة.\n٣- تحديد أن العبارة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "تستقبل السماعة في دائرة الاستقبال الإذاعي تياراً عالياً التردد.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الزهرة هي عضو التكاثر الجنسي (التزاوجي) في النباتات الزهرية، حيث تحتوي على أعضاء التذكير (الأسدية) وأعضاء التأنيث (الكربلة).",
+        "method": "١- تحديد عضو التكاثر في النباتات المغطاة البذور (الزهرية).\n٢- تذكر أن التكاثر الجنسي يتم عبر حبوب اللقاح والبويضات داخل الزهرة.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "تتكاثر النباتات الزهرية تزاوجياً عن طريق الزهرة.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن الطرق على المواد الصلبة القابلة للطرق (مثل المعادن) يؤدي إلى تفلطحها وتقليل سماكتها وزيادة مساحتها لتتحول إلى صفائح رقيقة.",
+        "method": "١- فهم خاصية القابلية للطرق في المواد الصلبة.\n٢- استنتاج تأثير الطرق على أبعاد المادة وسماكتها.\n٣- تحديد أن العبارة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "تكرار الطرق على المادة الصلبة يزيد سماكتها.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي صح لأن الجرافيت والماس هما صورتان تآصليتان لعنصر الكربون؛ فهما يتكونان من نفس الذرات (كربون) وبالتالي يتشابهان كيميائياً، ولكنهما يختلفان تماماً في التركيب البلوري والخواص الفيزيائية كالصلابة والتوصيل الكهربائي.",
+        "method": "١- مراجعة مفهوم التآصل وصور الكربون.\n٢- مقارنة الخواص الفيزيائية والكيميائية للجرافيت والماس.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "يختلف الجرافيت والماس فيزيائياً ويتشابهان كيميائياً.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن الفجوة المنقبضة توجد في أميبا المياه العذبة لتقوم بطرد الماء الزائد الداخل إلى جسم الأميبا بالخاصية الاسموزية، بينما أميبا المياه المالحة لا تحتاجها لأن تركيز الأملاح في بيئتها مرتفع.",
+        "method": "١- دراسة تركيب الأميبا ووظائف أعضائها الحيوية.\n٢- فهم دور الفجوة المنقبضة في تنظيم الضغط الاسموزي.\n٣- تحديد أن العبارة خاطئة لأنها توجد في مياه العذبة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "توجد الفجوة المنقبضة في أميبا المياه المالحة.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن الغاز المستخدم بشكل أساسي وشائع في تعقيم مياه الشرب وقتل الميكروبات هو الكلور وليس البروم.",
+        "method": "١- مراجعة استخدامات الهالوجينات.\n٢- تحديد الهالوجين المستخدم في تعقيم المياه (الكلور).\n٣- الحكم على العبارة بالخطأ.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "يستخدم البروم في تعقيم مياه الشرب.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "hard",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن كمية الطاقة الإشعاعية المنعكسة والمشتتة بواسطة الغلاف الجوي والسحب تختلف تماماً عن كمية الطاقة التي تنجح في النفاذ والوصول إلى سطح الأرض.",
+        "method": "١- دراسة ميزانية الإشعاع الشمسي للأرض.\n٢- مقارنة نسب الإشعاع المنعكس والممتص والواصل للسطح.\n٣- استنتاج عدم تساوي القيمتين وتحديد أن العبارة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "الطاقة الإشعاعية المنعكسة قبل وصولها غلاف الأرض تساوي الطاقة الواصلة إلى سطحها.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي صح لأن معظم النباتات والمحاصيل الزراعية تفضل النمو في تربة ذات حموضة خفيفة (تتراوح قيمة الرقم الهيدروجيني لها بين ٦ و ٧) حيث يسهل امتصاص العناصر الغذائية في هذا المدى.",
+        "method": "١- دراسة تأثير حموضة التربة على نمو النباتات.\n٢- معرفة المدى الأمثل لامتصاص العناصر الغذائية.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "التربة الحامضية بدرجة طفيفة مناسبة لنمو النبات بصورة سليمة.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن تبخر العرق يمتص الحرارة الكامنة للتبخر من الجسم، مما يؤدي إلى تبريد الجلد وخفض درجة حرارة الجسم وليس رفعها.",
+        "method": "١- فهم آلية تنظيم درجة حرارة الجسم عن طريق التعرق.\n٢- تذكر أن التبخر عملية ماصة للحرارة تؤدي للتبريد.\n٣- تحديد أن العبارة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "يساهم تبخر العرق من سطح الجلد على رفع درجة حرارة الجسم.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن هذا هو التعريف العلمي الدقيق للضغط الجوي.",
+        "method": "١- استرجاع تعريف الضغط الجوي.\n٢- مطابقة التعريف الوارد في العبارة بالتعريف العلمي.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "وزن عمود الهواء المؤثر عمودياً على وحدة المساحات يسمى بضغط الهواء الجوي.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن أكاسيد النيتروجين المختلفة (مثل أكسيد النيتريك وثنائي أكسيد النيتروجين) توجد في الظروف الطبيعية في الحالة الغازية.",
+        "method": "١- مراجعة الخواص الفيزيائية لأكاسيد النيتروجين.\n٢- تحديد الحالة الفيزيائية الشائعة لها (الغازية).\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "يوجد أكسيد النيتروجين في الحالة الغازية.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن فيروس نقص المناعة البشرية المسبب للإيدز لا ينتقل عبر الأسطح الجافة أو المراحيض أو الملامسة العادية، بل ينتقل عبر الدم والاتصال الجنسي غير الآمن ومن الأم الحامل لجنينها.",
+        "method": "١- مراجعة طرق انتقال فيروس الإيدز (HIV).\n٢- نفي انتقال الفيروس عبر الأدوات والمراحيض المشتركة.\n٣- تحديد أن العبارة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "استخدام المرحاض الأوروبي الملوث إحدى طرق انتقال مرض الإيدز.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي تباعدت لأن تباعد حبيبات الكربون يؤدي إلى زيادة المقاومة الكهربائية للمسار، وطبقاً لقانون أوم، فإن زيادة المقاومة تؤدي إلى نقصان شدة التيار المار.",
+        "method": "١- فهم فكرة عمل الميكروفون الكربوني (المرسل).\n٢- ربط حركة الحبيبات (تباعدها) بالمقاومة الكهربائية (تزداد).\n٣- ربط زيادة المقاومة بنقصان شدة التيار (تـ = جـ ÷ م).\n٤- اختيار الإجابة الصحيحة 'تباعدت'.",
+        "options": [
+          "تقاربت",
+          "تباعدت",
+          "تزاحمت",
+          "تجاذبت"
+        ],
+        "question": "تقل شدة التيار الكهربائي إذا ........ حبيبات الكربون في مرسل التلفون.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي يحمل كائناً حياً لأن الأقمار الصناعية مصممة لأغراض متعددة كالاتصالات والأرصاد والبحث العلمي، وغالبيتها العظمى لا تحمل أي كائنات حية على متنها.",
+        "method": "١- تحليل خصائص القمر الصناعي الأساسية.\n٢- استبعاد الخصائص المشتركة لجميع الأقمار (صنع الإنسان، الدوران، التأثر بالجاذبية).\n٣- تحديد الصفة غير اللازمة لتعريف القمر الصناعي وهي حمل كائن حي.",
+        "options": [
+          "من صنع الانسان",
+          "يتأثر بجاذبية الأرض",
+          "يدور حول الأرض",
+          "يحمل كائناً حياً"
+        ],
+        "question": "جميع ما يلي من خصائص القمر الصناعي ما عدا أنه ........",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي الطلائعيات لأن الكائنات وحيدة الخلية كالطلائعيات (مثل الأميبا والبراميسيوم) لا تمتلك أجهزة إخراجية متخصصة وتتخلص من فضلاتها مباشرة عبر غشائها الخلوي بالانتشار.",
+        "method": "١- مراجعة طرق الإخراج في الكائنات الحية المختلفة.\n٢- تحديد الكائنات التي تعتمد على الانتشار البسيط عبر الغشاء الخلوي.\n٣- اختيار 'الطلائعيات' كإجابة صحيحة.",
+        "options": [
+          "المفلطحات",
+          "المفصليات",
+          "الطلائعيات",
+          "الحلقيات"
+        ],
+        "question": "الإخراج بواسطة الانتشار الغشائي يتم في ........",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صلب في سائل لأن هيدروكسيد الباريوم مادة صلبة (المذاب) والماء مادة سائلة (المذيب).",
+        "method": "١- تحديد الحالة الفيزيائية للمذاب (هيدروكسيد الباريوم = صلب).\n٢- تحديد الحالة الفيزيائية للمذيب (الماء = سائل).\n٣- تصنيف المحلول بناءً على حالتي المذاب والمذيب (صلب في سائل).",
+        "options": [
+          "صلب في سائل",
+          "صلب في غاز",
+          "سائل في سائل",
+          "صلب في صلب"
+        ],
+        "question": "ذوبان ١٥ جم من هيدروكسيد الباريوم في الماء محلول نوعه ........",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي الحالب لأن الحالب هو أنبوب ينقل البول من حوض الكلية إلى المثانة البولية، وليس جزءاً تركيبياً متصلاً مباشرة بالنفرون الفردي كالأنابيب الملتوية ومحفظة بومان التابعة للنفرون.",
+        "method": "١- دراسة التركيب المجهري للكلية (النفرون).\n٢- تحديد الأجزاء المكونة للنفرون (محفظة بومان، الأنابيب القريبة، التواء هنلي، الأنابيب البعيدة والجامعة).\n٣- استبعاد 'الحالب' لأنه عضو تشريحي أكبر خارج حدود النفرون الدقيق.",
+        "options": [
+          "الأنابيب القريبة",
+          "الأنابيب الجامعة",
+          "الحالب",
+          "أنابيب هنلي"
+        ],
+        "question": "جميع ما يلي متصل بالنفرون ما عدا ........",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي الأحماض لأن تفاعل التعادل يحدث بين حمض وقاعدة ليلغي كل منهما تأثير الآخر وينتج ملح وماء.",
+        "method": "١- تذكر مفهوم تفاعل التعادل.\n٢- تحديد المادة التي تتفاعل مع القاعدة لإبطال مفعولها (الحمض).\n٣- اختيار 'الأحماض'.",
+        "options": [
+          "الأملاح",
+          "الأحماض",
+          "الغازات",
+          "الأيونات"
+        ],
+        "question": "مركبات كيميائية لها القدرة على إبطال مفعول القواعد ........",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي اليد اليمنى لفلمنج لأنها القاعدة المستخدمة لتحديد اتجاه التيار الكهربائي المستحث (التأثيري) المتولد في موصل يتحرك داخل مجال مغناطيسي.",
+        "method": "١- مراجعة قواعد تحديد اتجاهات الكميات الفيزيائية في الكهرومغناطيسية.\n٢- التمييز بين قاعدة اليد اليسرى لفلمنج (للقوة المغناطيسية) واليد اليمنى لفلمنج (للتيار التأثيري).\n٣- اختيار 'اليد اليمنى لفلمنج'.",
+        "options": [
+          "اليد اليمنى لفلمنج",
+          "اليد اليسرى لفلمنج",
+          "عقارب الساعة",
+          "الوصلة المغناطيسية"
+        ],
+        "question": "يحدد اتجاه التيار التأثيري المتولد في الدينامو بواسطة قاعدة ........",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي ٩٠ لأن الموجات الكهرومغناطيسية هي موجات مستعرضة، حيث تهتز المجالات الكهربائية والمغناطيسية في اتجاه عمودي (بزاوية ٩٠ درجة) على اتجاه انتشار الموجة.",
+        "method": "١- تذكر طبيعة الموجات الكهرومغناطيسية كموجات مستعرضة.\n٢- معرفة أن الاهتزاز في الموجات المستعرضة يكون عمودياً على اتجاه الانتشار.\n٣- تحديد الزاوية العمودية وهي ٩٠ درجة.",
+        "options": [
+          "٣٠",
+          "٤٥",
+          "٦٠",
+          "٩٠"
+        ],
+        "question": "الموجات الكهرومغناطيسية تصنع زاوية مقدارها ........ درجة مع اتجاه انتشار الموجة.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٨",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي الدرنة لأن الدرنة عبارة عن ساق أرضية متضخمة ومتحورة لتخزين الغذاء والمواد الكربوهيدراتية (مثل درنة البطاطس).",
+        "method": "١- مراجعة طرق التكاثر الخضري وتحورات الساق.\n٢- تعريف الدرنة ومقارنتها بالريزوم والبصلة.\n٣- اختيار 'الدرنة' كإجابة صحيحة.",
+        "options": [
+          "الريزوم",
+          "الدرنة",
+          "البصلة",
+          "الفسيلة"
+        ],
+        "question": "ساق أرضية مملوءة بالغذاء المدخر ........",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٩",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "hard",
+        "explanation": "الإجابة الصحيحة هي الطرق لأن عملية الدرفلة (تمرير المعدن بين أسطوانتين دوارتين لتقليل سمكه) هي تطبيق صناعي لخاصية القابلية للطرق والتشكيل الميكانيكي.",
+        "method": "١- فهم الخواص الميكانيكية للمواد الصلبة (السحب، الطرق، المتانة).\n٢- تحليل العملية الموصوفة (الدرفلة بين أسطوانتين لتقليل السمك).\n٣- ربط هذه العملية بخاصية 'الطرق'.",
+        "options": [
+          "السحب",
+          "الطرق",
+          "المتانة",
+          "الصلابة"
+        ],
+        "question": "تكون المادة الصلبة قابلة لـ ........ عند وضعها بين اسطوانتين متوازيتي المحور تدوران في اتجاهين مختلفين.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٠",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932553843-21.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:40.050792+00:00",
+    "extracted_text": null,
+    "id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932553843-21.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 1 الورقة 1 "
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932553843-22.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:39.433418+00:00",
+    "extracted_text": null,
+    "id": "266ee949-04e5-47df-bb43-bd0646eb103b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932553843-22.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 1 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932565202-24.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:48.023826+00:00",
+    "extracted_text": null,
+    "id": "2a2be091-313c-42b9-a1dc-6eaebee27be3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932565202-24.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932559697-41.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:42.092952+00:00",
+    "extracted_text": null,
+    "id": "baf8e352-6518-41d2-88c1-05e59c0babe9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932559697-41.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 2 الورقة 1 "
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932560243-42.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:44.908+00:00",
+    "extracted_text": null,
+    "id": "49a598be-777a-4ba7-b6a7-f07b60d68dc8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932560243-42.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 2 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932591268-44.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:16.363592+00:00",
+    "extracted_text": null,
+    "id": "14bab0ea-5f5d-46ee-ab86-39e681341d2a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932591268-44.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932559896-13.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:43.129117+00:00",
+    "extracted_text": null,
+    "id": "4f3ac31b-d405-4440-9064-c8ffd7a1f3c0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932559896-13.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 3 الورقة 1 "
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932560039-50.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:43.853344+00:00",
+    "extracted_text": null,
+    "id": "a06f864d-5a83-498d-8d36-334f6375353d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932560039-50.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 3 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932577564-52.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:03.678145+00:00",
+    "extracted_text": null,
+    "id": "00b9da6c-9357-4c5e-be83-222a55ed5cd8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932577564-52.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 3"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932560478-5.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:46.60849+00:00",
+    "extracted_text": null,
+    "id": "c42ef756-56a6-48d1-aa75-5ee10327a594",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932560478-5.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 4 الورقة 1 "
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932553842-6.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:38.636914+00:00",
+    "extracted_text": null,
+    "id": "7159ca38-8f15-4ba9-aff0-cfbd3bc0f1d9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932553842-6.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 4 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932570499-8.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:56.819311+00:00",
+    "extracted_text": null,
+    "id": "a7643149-d1ab-436f-aefb-c789162eae80",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932570499-8.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 4"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932565753-53.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:49.386779+00:00",
+    "extracted_text": null,
+    "id": "ac4f5d8c-eca5-44fb-abb6-8e32d15109d4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932565753-53.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 5 الورقة 1 "
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932585813-54.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:10.175841+00:00",
+    "extracted_text": null,
+    "id": "ea3f838a-5399-4530-95df-066a23c7847d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932585813-54.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 5 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932579450-56.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:06.888707+00:00",
+    "extracted_text": null,
+    "id": "4691e124-75e4-495c-8961-74b48d6da90d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932579450-56.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 5"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932566307-1.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:52.190616+00:00",
+    "extracted_text": null,
+    "id": "437240f1-ad92-499c-adae-787e89279acc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932566307-1.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 6 الورقة 1 "
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932571982-2.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:59.01041+00:00",
+    "extracted_text": null,
+    "id": "df6336c8-efd5-45a4-9f86-7f9133170157",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932571982-2.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 6 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932560476-4.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:45.800144+00:00",
+    "extracted_text": null,
+    "id": "e95b99a4-138f-49a3-a058-d52e71846e58",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932560476-4.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 6"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932570177-45.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:55.801665+00:00",
+    "extracted_text": null,
+    "id": "681d92bb-4b4e-46b2-8d78-00c43c5e5030",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932570177-45.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 7 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932553844-46.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:40.830608+00:00",
+    "extracted_text": null,
+    "id": "db6dbeab-d7bb-4599-9d1e-2b2f492d6847",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932553844-46.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 7 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932574193-48.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:02.028772+00:00",
+    "extracted_text": null,
+    "id": "3fe3b32c-9720-4a34-b329-f02c73cae571",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932574193-48.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 7"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932573039-37.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:00.529232+00:00",
+    "extracted_text": null,
+    "id": "3bce4c86-372f-434c-821d-b2ce07f35cae",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932573039-37.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 8 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932588778-38.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:14.280674+00:00",
+    "extracted_text": null,
+    "id": "36059b48-73f9-46f7-b6e2-aab440218b14",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932588778-38.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 8 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932589928-40.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:14.827913+00:00",
+    "extracted_text": null,
+    "id": "ef349a47-db94-4c20-8f34-b68122452dcc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932589928-40.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 8"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932575011-29.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:02.523537+00:00",
+    "extracted_text": null,
+    "id": "79836117-c89c-4c11-8b25-f96c10359b23",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932575011-29.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 9 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932570646-30.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:57.462434+00:00",
+    "extracted_text": null,
+    "id": "02f2e8d1-bd3c-4f24-bcec-545ac5d365d4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932570646-30.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 9 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932565970-32.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:51.067425+00:00",
+    "extracted_text": null,
+    "id": "87741cd5-3c1c-43d5-b586-c0b6c532a7b6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932565970-32.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 9 "
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932577818-33.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:05.081598+00:00",
+    "extracted_text": null,
+    "id": "abfcf1e1-cbcf-47e9-a347-cc3a75bc0e8d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932577818-33.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 10 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932584649-34.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:09.481329+00:00",
+    "extracted_text": null,
+    "id": "edd41bc2-7c9f-490c-b4fb-f92022c2e0b2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932584649-34.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 10 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932566672-36.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:54.070064+00:00",
+    "extracted_text": null,
+    "id": "06ef1a24-1d50-4a59-b0ae-ef8860240092",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932566672-36.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 10"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932579261-25.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:06.302178+00:00",
+    "extracted_text": null,
+    "id": "d07529ce-f1bd-43c6-8ac0-cca50fe21f3a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932579261-25.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 11 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932586701-26.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:11.940648+00:00",
+    "extracted_text": null,
+    "id": "ebdd97cd-30ba-44e5-b1b8-b7dd77967834",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932586701-26.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 11 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932553830-28.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:37.98198+00:00",
+    "extracted_text": null,
+    "id": "e6fa1242-b3f4-417c-9585-9e6f00b3d3fb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932553830-28.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 11"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932581649-9.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:07.905621+00:00",
+    "extracted_text": null,
+    "id": "861cef62-428a-4177-bb6c-9935e1b8f63c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932581649-9.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 12 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932587806-10.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:12.75413+00:00",
+    "extracted_text": null,
+    "id": "30b22783-3aac-4f75-bc96-8ae473975caf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932587806-10.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 12 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932565966-12.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:50.243572+00:00",
+    "extracted_text": null,
+    "id": "b6c2de81-3510-4fa3-909b-fc82e5fcf792",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932565966-12.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 12"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932583915-17.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:08.509075+00:00",
+    "extracted_text": null,
+    "id": "95b6a373-e854-4815-b59b-d7acbba620a5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932583915-17.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 13 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932592351-18.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:42:17.148424+00:00",
+    "extracted_text": null,
+    "id": "950aed74-b643-49d8-b9b5-12a9ec71b988",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932592351-18.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "النموذج 13 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786932568575-20.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-17T02:41:54.608893+00:00",
+    "extracted_text": null,
+    "id": "3a04caac-2491-4ed0-b691-3bb1a6a1b9da",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786932568575-20.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 13"
+  }
+]
