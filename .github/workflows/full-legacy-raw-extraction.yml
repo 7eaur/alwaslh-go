@@ -17,7 +17,7 @@ concurrency:
 
 env:
   LEGACY_SUPABASE_URL: https://zhbgbmqhonqmzpqfiehs.supabase.co
-  LEGACY_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.LEGACY_SUPABASE_PUBLISHABLE_KEY || vars.LEGACY_SUPABASE_PUBLISHABLE_KEY }}
+  LEGACY_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.LEGACY_SUPABASE_PUBLISHABLE_KEY || vars.LEGACY_SUPABASE_PUBLISHABLE_KEY || secrets.LEGACY_SUPABASE_ANON_KEY || vars.LEGACY_SUPABASE_ANON_KEY || secrets.SUPABASE_PUBLISHABLE_KEY || vars.SUPABASE_PUBLISHABLE_KEY || secrets.SUPABASE_ANON_KEY || vars.SUPABASE_ANON_KEY }}
 
 jobs:
   extract-all:
@@ -38,7 +38,7 @@ jobs:
         run: |
           set -euo pipefail
           if [ -z "${LEGACY_SUPABASE_PUBLISHABLE_KEY:-}" ]; then
-            echo 'Missing LEGACY_SUPABASE_PUBLISHABLE_KEY GitHub secret/variable.' >&2
+            echo 'No compatible legacy/Supabase publishable or anon key was found in repository Secrets/Variables.' >&2
             exit 1
           fi
           python -m py_compile content-staging/tools/extract_legacy_supabase.py
