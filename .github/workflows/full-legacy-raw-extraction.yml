@@ -1,0 +1,149 @@
+name: Full Legacy Raw Extraction
+
+on:
+  push:
+    branches:
+      - content/legacy-staging-rebuild
+    paths:
+      - 'content-staging/FULL_EXTRACTION_TRIGGER'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: legacy-raw-extraction
+  cancel-in-progress: false
+
+env:
+  LEGACY_SUPABASE_URL: https://zhbgbmqhonqmzpqfiehs.supabase.co
+  LEGACY_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.LEGACY_SUPABASE_PUBLISHABLE_KEY || vars.LEGACY_SUPABASE_PUBLISHABLE_KEY }}
+
+jobs:
+  extract-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/legacy-staging-rebuild
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate source access
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${LEGACY_SUPABASE_PUBLISHABLE_KEY:-}" ]; then
+            echo 'Missing LEGACY_SUPABASE_PUBLISHABLE_KEY GitHub secret/variable.' >&2
+            exit 1
+          fi
+          python -m py_compile content-staging/tools/extract_legacy_supabase.py
+
+      - name: Extract inventory
+        shell: bash
+        run: |
+          set -euo pipefail
+          python content-staging/tools/extract_legacy_supabase.py --inventory-only
+
+      - name: Commit inventory checkpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/raw/legacy-supabase/inventory
+          if ! git diff --cached --quiet; then
+            git commit -m 'data(raw): snapshot legacy inventory [skip ci]'
+            git push origin HEAD:content/legacy-staging-rebuild
+          fi
+
+      - name: Build ordered subject queue
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY' > /tmp/legacy-subjects.txt
+          import json
+          from pathlib import Path
+          inventory = json.loads(Path('content-staging/raw/legacy-supabase/inventory/inventory.json').read_text(encoding='utf-8'))
+          for subject in inventory['subjects']:
+              print(subject['id'])
+          PY
+          echo "subjects=$(wc -l < /tmp/legacy-subjects.txt)"
+
+      - name: Extract all subjects with checkpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+          total=$(wc -l < /tmp/legacy-subjects.txt)
+          index=0
+          while IFS= read -r subject_id; do
+            index=$((index + 1))
+            echo "=== [$index/$total] extracting $subject_id ==="
+            python content-staging/tools/extract_legacy_supabase.py --subject-id "$subject_id"
+
+            subject_dir="content-staging/raw/legacy-supabase/subjects/$subject_id"
+            test -s "$subject_dir/subject.json"
+            test -s "$subject_dir/pages.json"
+            test -s "$subject_dir/manifest.json"
+
+            python - "$subject_dir/manifest.json" <<'PY'
+          import json, pathlib, sys
+          path = pathlib.Path(sys.argv[1])
+          manifest = json.loads(path.read_text(encoding='utf-8'))
+          counts = manifest['counts']
+          if counts['image_download_failures'] != 0:
+              raise SystemExit(f"image download failures for {manifest['legacy_subject']['id']}: {counts['image_download_failures']}")
+          if counts['images_downloaded'] != counts['image_references']:
+              raise SystemExit(f"image count mismatch for {manifest['legacy_subject']['id']}: {counts}")
+          print(json.dumps({'subject': manifest['legacy_subject']['id'], 'status': manifest['status'], 'counts': counts, 'anomalies': manifest['anomalies']}, ensure_ascii=False))
+          PY
+
+            git add "$subject_dir" content-staging/raw/legacy-supabase/inventory
+            if ! git diff --cached --quiet; then
+              git commit -m "data(raw): extract legacy subject $subject_id [skip ci]"
+              git push origin HEAD:content/legacy-staging-rebuild
+            fi
+          done < /tmp/legacy-subjects.txt
+
+      - name: Build and verify global extraction summary
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+
+          root = Path('content-staging/raw/legacy-supabase')
+          inventory = json.loads((root / 'inventory/inventory.json').read_text(encoding='utf-8'))
+          manifests = []
+          totals = {'subjects': 0, 'pages': 0, 'image_references': 0, 'images_downloaded': 0, 'questions': 0, 'image_download_failures': 0}
+
+          for subject in inventory['subjects']:
+              path = root / 'subjects' / subject['id'] / 'manifest.json'
+              if not path.exists():
+                  raise SystemExit(f"missing manifest: {subject['id']}")
+              manifest = json.loads(path.read_text(encoding='utf-8'))
+              counts = manifest['counts']
+              totals['subjects'] += 1
+              for key in ('pages', 'image_references', 'images_downloaded', 'questions', 'image_download_failures'):
+                  totals[key] += int(counts[key])
+              manifests.append({'subject_id': subject['id'], 'manifest_sha256': manifest['manifest_sha256'], 'counts': counts, 'status': manifest['status'], 'anomalies': manifest['anomalies']})
+
+          expected = {'subjects': 58, 'pages': 5273, 'image_references': 5273, 'images_downloaded': 5273, 'questions': 25755, 'image_download_failures': 0}
+          if totals != expected:
+              raise SystemExit(f"global extraction totals mismatch: actual={totals} expected={expected}")
+
+          payload = {'schema_version': 1, 'source_inventory_sha256': inventory['sha256'], 'totals': totals, 'subjects': manifests}
+          canonical = json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf-8')
+          payload['snapshot_sha256'] = hashlib.sha256(canonical).hexdigest()
+          (root / 'FULL_EXTRACTION_REPORT.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + '\n', encoding='utf-8')
+          print(json.dumps({'totals': totals, 'snapshot_sha256': payload['snapshot_sha256']}, ensure_ascii=False))
+          PY
+
+          git add content-staging/raw/legacy-supabase/FULL_EXTRACTION_REPORT.json
+          git commit -m 'data(raw): verify complete legacy extraction'
+          git push origin HEAD:content/legacy-staging-rebuild
