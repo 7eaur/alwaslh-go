@@ -1,0 +1,4271 @@
+[
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "العبارة صحيحة لأن كلمة Non-countable تعني غير معدود وهي عكس كلمة countable التي تعني معدود.",
+        "method": "١- قراءة الجملة وتحديد الكلمتين المقارنتين.\n٢- معرفة أن البادئة non تفيد النفي.\n٣- استنتاج أن الكلمتين متعاكستان في المعنى.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Non-countable\" is the opposite of \"countable\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "العبارة خاطئة لأن كلمة Answer تعني يجيب أو إجابة، بينما كلمة need تعني يحتاج.",
+        "method": "١- ترجمة كلمة Answer ومعرفة معناها.\n٢- ترجمة كلمة need ومعرفة معناها.\n٣- مقارنة المعنيين لتحديد صحة العبارة.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Answer\" means \"need\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "العبارة خاطئة لأن وظيفة طبيب الأسنان (dentist) هي علاج الأسنان، ومساعدة الناس في عبور الشارع ليست من مهامه.",
+        "method": "١- تحديد معنى كلمة dentist (طبيب أسنان).\n٢- قراءة الوصف الوظيفي المذكور في الجملة (مساعدة الناس على عبور الشارع).\n٣- تحديد ما إذا كان الوصف يتطابق مع المهنة.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "A dentist's job is to help people cross the street.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "العبارة صحيحة لأن ربع الساعة (quarter hour) يحتوي على ١٥ دقيقة.",
+        "method": "١- معرفة أن الساعة الكاملة تحتوي على ٦٠ دقيقة.\n٢- حساب ربع الساعة بقسمة ٦٠ على ٤.\n٣- التأكد من أن الناتج هو ١٥ دقيقة.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "There are fifteen minutes in a quarter hour.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "العبارة صحيحة لأن الأزرق (Blue) والأحمر (Red) هما من الألوان المعروفة.",
+        "method": "١- تحديد معاني الكلمات Blue و Red.\n٢- التحقق من تصنيفهما كألوان (colours).",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Blue\" and \"red\" are colours.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "العبارة خاطئة لأن عكس كلمة different (مختلف) هو same (متطابق)، وعكس كلمة difficult (صعب) هو easy (سهل).",
+        "method": "١- تحديد معنى كلمة different (مختلف) وعكسها.\n٢- تحديد معنى كلمة difficult (صعب) وعكسها.\n٣- مقارنة الكلمتين للتأكد من التضاد.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Different\" is the opposite of \"difficult\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "العبارة خاطئة لأن كلمة Big تعني كبير الحجم، بينما كلمة long تعني طويل.",
+        "method": "١- تحديد معنى كلمة Big.\n٢- تحديد معنى كلمة long.\n٣- مقارنة المعنيين لمعرفة ما إذا كانا مترادفين.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Big\" means \"long\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "العبارة صحيحة لأن المجارف (Spades) هي أدوات تستخدم لتقليب وتفتيت التربة في الزراعة.",
+        "method": "١- تحديد معنى كلمة Spades (مجارف).\n٢- فهم الغرض من استخدام هذه الأداة (تفتيت التربة).\n٣- مطابقة الاستخدام مع الأداة.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Spades are tools we use to break the soil up.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "العبارة خاطئة لأن شهر فبراير هو الشهر الثاني من السنة، بينما الشهر الأول هو يناير (January).",
+        "method": "١- استرجاع ترتيب أشهر السنة الميلادية.\n٢- تحديد ترتيب شهر فبراير (الشهر الثاني).\n٣- مقارنة الترتيب بالمعلومة المذكورة في السؤال.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "February is the first month of the year.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "العبارة خاطئة لأن الأسود والجمال حيوانات برية لا تمتلك أجنحة ولا تستطيع الطيران.",
+        "method": "١- تحديد نوع الحيوانات المذكورة (الأسود والجمال).\n٢- معرفة قدراتها الطبيعية (المشي والجري).\n٣- نفي قدرتها على الطيران.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Lions\" and \"camels\" can fly.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "العبارة خاطئة لأن كلمة well هي ظرف (adverb) لكلمة good، وليست عكسها. عكس كلمة good هو bad.",
+        "method": "١- تحديد العلاقة اللغوية بين good و well.\n٢- معرفة أن كلاهما يحمل معنى إيجابياً (جيد / بشكل جيد).\n٣- استنتاج عدم وجود تضاد بينهما.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Well\" is the opposite of \"good\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "العبارة صحيحة لأن التعرف على شيء (recognize) يعني تذكره ومعرفته عند رؤيته مجدداً.",
+        "method": "١- تحديد معنى كلمة recognize (يتعرف على).\n٢- تحديد معنى كلمة remember (يتذكر).\n٣- استنتاج الترابط الوثيق في المعنى بين الكلمتين.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Recognize\" means \"remember\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "العبارة خاطئة لأن التقويم (Calendar) يخبرنا بالتواريخ والأيام، بينما البوصلة (Compass) هي التي تخبرنا بالاتجاهات.",
+        "method": "١- تحديد وظيفة التقويم (Calendars).\n٢- مقارنة هذه الوظيفة مع تحديد الاتجاهات (directions).\n٣- استنتاج عدم صحة العبارة.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Calendars tell us the directions.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "العبارة صحيحة لأن سيارات الجيب تحتوي على أربعة عجلات كمعظم السيارات البرية.",
+        "method": "١- تحديد نوع المركبة المذكورة (Jeeps).\n٢- معرفة عدد عجلات سيارات الجيب القياسية (أربعة عجلات).\n٣- تأكيد صحة المعلومة.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Jeeps have four wheels.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "العبارة صحيحة لأن الصيد وتسلق الجبال يعتبران من الهوايات وأنشطة الترفيه (pastimes).",
+        "method": "١- تحديد معنى كلمة pastimes (هوايات/أنشطة ترفيهية).\n٢- تصنيف الصيد (fishing) والتسلق (climbing) كأنشطة ترفيهية.\n٣- تأكيد صحة التصنيف.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Fishing\" and \"climbing\" are pastimes.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "العبارة خاطئة لأن كلمتي Return و Come back لهما نفس المعنى وهو (يعود/يرجع) وليستا متعاكستين.",
+        "method": "١- تحديد معنى كلمة Return (يعود).\n٢- تحديد معنى عبارة Come back (يرجع).\n٣- استنتاج أنهما مترادفتان وليستا متعاكستين.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Return\" is the opposite of \"come back\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "العبارة صحيحة لأن الكلمتين تعنيان (لحسن الحظ) وتستخدمان كمرادفات.",
+        "method": "١- تحديد معنى كلمة Fortunately.\n٢- تحديد معنى كلمة luckily.\n٣- مطابقة المعنيين للتأكد من الترادف.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Fortunately\" means \"luckily\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "العبارة صحيحة لأنه يمكن استخدام البطانيات لإخماد الحرائق الصغيرة عن طريق حجب الأكسجين عنها.",
+        "method": "١- فهم آلية إخماد الحرائق الصغيرة (خنق اللهب).\n٢- تقييم إمكانية استخدام البطانية (Blanket) لهذا الغرض.\n٣- تأكيد صحة العبارة علمياً وعملياً.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Blankets can be used to put out a small fire.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "العبارة خاطئة لأن خطوط عبور المشاة (zebra crossings) توجد على الطرق والشوارع لتوصيل الأرصفة ببعضها، وليست على الأرصفة (pavements) نفسها.",
+        "method": "١- تحديد معنى كلمة pavements (أرصفة المشاة).\n٢- تحديد معنى zebra crossings (ممرات عبور المشاة المخططة).\n٣- معرفة مكان تواجد ممرات العبور (على الطريق الإسفلتي وليس الرصيف).",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Pavements have zebra crossings.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "العبارة صحيحة لأن الملح والفلفل من التوابل والمكونات الأساسية المستخدمة في الطبخ وتحضير الطعام.",
+        "method": "١- تحديد معاني الكلمات Salt (ملح) و pepper (فلفل).\n٢- معرفة استخداماتهما الشائعة في المطبخ.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "\"Salt\" and \"pepper\" can be used for cooking.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي Yemen لأن النص يذكر في الجملة الأولى مباشرة: \"Zainab is a good Yemeni girl\" (زينب فتاة يمنية طيبة).",
+        "method": "١- قراءة السؤال والبحث عن الكلمات المفتاحية (Where, from, Zainab).\n٢- العودة إلى النص والبحث عن جنسية أو بلد زينب.\n٣- مطابقة كلمة Yemeni مع خيار Yemen.",
+        "options": [
+          "Yemen",
+          "Oman",
+          "Iraq",
+          "Qatar"
+        ],
+        "question": "Where is Zainab from? She is from ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي ١٧ لأن النص يذكر بوضوح في الجملة الثانية: \"She is seventeen\".",
+        "method": "١- تحديد الكلمة المفتاحية في السؤال (How old).\n٢- البحث في النص عن رقم أو كلمة تدل على العمر.\n٣- إيجاد كلمة seventeen ومطابقتها بالرقم ١٧ (١٧).",
+        "options": [
+          "٧١",
+          "٧٠",
+          "١٧",
+          "٧"
+        ],
+        "question": "How old is she? She is ... years old.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي a policewoman لأن النص يذكر: \"She works at the airport as a policewoman\".",
+        "method": "١- تحديد الكلمة المفتاحية (job).\n٢- البحث في النص عن مهنة زينب.\n٣- إيجاد عبارة \"as a policewoman\" واختيارها من الخيارات.",
+        "options": [
+          "an air hostess",
+          "a secretary",
+          "a nurse",
+          "a policewoman"
+        ],
+        "question": "What is her job? She is ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي ladies' لأن النص يذكر: \"because she has to search ladies' hand luggage\".",
+        "method": "١- تحديد الكلمات المفتاحية (important, search, bags).\n٢- البحث في النص عن الجملة التي تحتوي على سبب أهمية عملها.\n٣- استخراج الكلمة التي تسبق كلمة luggage/bags وهي ladies'.",
+        "options": [
+          "mens'",
+          "ladies'",
+          "children's",
+          "boys'"
+        ],
+        "question": "Why Zainab's job is very important? Because she has to search ... bags.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي four لأن النص يذكر أن زينب هي واحدة من أربعة أطفال: \"She is one of four children\".",
+        "method": "١- تحديد الكلمة المفتاحية (How many children).\n٢- البحث في النص عن عدد الأطفال في العائلة.\n٣- إيجاد عبارة \"one of four children\" ومطابقتها بالخيار four.",
+        "options": [
+          "six",
+          "five",
+          "four",
+          "three"
+        ],
+        "question": "How many children has Mr. Mostafa got? He has got ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي Sana'a لأن النص يذكر: \"and she lives in Sana'a\".",
+        "method": "١- تحديد الكلمة المفتاحية (lives in).\n٢- البحث في النص عن اسم المدينة التي تعيش فيها زينب.\n٣- إيجاد اسم المدينة Sana'a واختياره.",
+        "options": [
+          "Aden",
+          "Ibb",
+          "Taiz",
+          "Sana'a"
+        ],
+        "question": "Zainab lives in ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي father لأن النص يذكر أن والدها ضابط وهي أرادت أن تكون مثله: \"Her father, Mr. Mostafa, is an officer. Zainab wanted to be like him\".",
+        "method": "١- تحديد الكلمات المفتاحية (wanted to be like).\n٢- البحث في النص عن الشخص الذي أرادت زينب تقليده.\n٣- ربط الضمير him بوالدها (father).",
+        "options": [
+          "father",
+          "brother",
+          "mother",
+          "sister"
+        ],
+        "question": "Zainab wanted to be like her ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي airport لأن النص يذكر: \"She works at the airport as a policewoman\".",
+        "method": "١- تحديد الكلمة المفتاحية (works at).\n٢- البحث في النص عن مكان عمل زينب.\n٣- إيجاد كلمة airport واختيارها من القائمة.",
+        "options": [
+          "bank",
+          "police station",
+          "airport",
+          "hospital"
+        ],
+        "question": "Zainab works at the ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٨",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245810570-29.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:19.532435+00:00",
+    "extracted_text": null,
+    "id": "1f773b62-9738-4238-b154-e98ca0de1153",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245810570-29.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 1 الورقة 1"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي 'careful' لأن السياق يتطلب صفة تعني الحذر أو الانتباه طوال الوقت.",
+        "method": "١- قراءة الجملة وفهم المعنى العام.\n٢- تحديد الصفة المناسبة للشخص الذي يجب أن يكون منتبهاً.\n٣- اختيار 'careful' كخيار صحيح.",
+        "options": [
+          "helpless",
+          "careful",
+          "careless",
+          "helpful"
+        ],
+        "question": "Zainab has to be very ... all the time.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٩",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي 'bag' بناءً على سياق النص القرائي المعتاد حيث يعود الضمير 'it' على حقيبة زينب.",
+        "method": "١- تحديد الضمير 'it' في النص الأصلي.\n٢- تتبع الاسم المفرد غير العاقل الذي يعود عليه الضمير.\n٣- اختيار 'bag'.",
+        "options": [
+          "luggage",
+          "time",
+          "bag",
+          "job"
+        ],
+        "question": "The word in brackets (it) refers back to Zainab's ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٠",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "التصنيف الصحيح للجملة هو فاعل + فعل + صفة ملكية + مفعول به: 'They did their homework' وهو ما يطابق الترتيب ٢, ٤, ١, ٣.",
+        "method": "١- تحديد الفاعل: 'They' (٢).\n٢- تحديد الفعل: 'did' (٤).\n٣- تحديد المفعول به: 'their homework' (١, ٣).\n٤- ترتيب الأرقام للحصول على الترتيب الصحيح.",
+        "options": [
+          "٤ , ٢ , ١ , ٣",
+          "١ , ٤ , ٢ , ٣",
+          "٢ , ٤ , ١ , ٣",
+          "٤ , ١ , ٢ , ٣"
+        ],
+        "question": "Re-order: ١- their ٢- They ٣- homework ٤- did",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'Jan.' لأنها الاختصار القياسي المتعارف عليه لشهر يناير.",
+        "method": "١- تذكر الاختصارات القياسية لأشهر السنة.\n٢- اختيار الاختصار الصحيح لشهر يناير وهو 'Jan.'.",
+        "options": [
+          "Janu",
+          "Jan.",
+          "Jany",
+          "Jau"
+        ],
+        "question": "The correct short form of \"January\" is...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'one fifty' لأن الساعة تشير إلى الواحدة وخمسين دقيقة.",
+        "method": "١- قراءة خانة الساعات: ١ (one).\n٢- قراءة خانة الدقائق: ٥٠ (fifty).\n٣- دمج القراءتين للحصول على 'one fifty'.",
+        "options": [
+          "ten fifty",
+          "one fifteen",
+          "ten fifteen",
+          "one fifty"
+        ],
+        "question": "٠١:٥٠ It's ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'and' لأنها تستخدم للربط بين مهارتين إيجابيتين متناسقتين (الكتابة والقراءة).",
+        "method": "١- تحليل العلاقة بين الفعلين 'write' و 'read'.\n٢- بما أنهما مهارتان مضافتان لبعضهما، نستخدم أداة الربط 'and'.",
+        "options": [
+          "and",
+          "or",
+          "but",
+          "so"
+        ],
+        "question": "She can write ... read well.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'some' لأنها تستخدم مع الأسماء الجمع المعدودة في الجمل الإثباتية.",
+        "method": "١- تحديد نوع الاسم 'oranges' (جمع معدود).\n٢- تحديد نوع الجملة (مثبتة).\n٣- اختيار 'some' التي تناسب الجمع في الإثبات.",
+        "options": [
+          "an",
+          "any",
+          "some",
+          "a"
+        ],
+        "question": "I bought ... oranges from the market.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي 'at' لأن حرف الجر 'at' يستخدم للتعبير عن الجلوس أمام المكتب للعمل أو الدراسة.",
+        "method": "١- تحديد الكلمة بعد الفراغ 'a desk'.\n٢- اختيار حرف الجر المناسب للجلوس عند المكتب وهو 'at'.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "of"
+        ],
+        "question": "He sits ... a desk in an office.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'help' لأن التركيب 'going to' يتبعه دائماً الفعل في المصدر (Infinitive).",
+        "method": "١- تحديد التركيب القواعدي 'going to'.\n٢- اختيار الفعل المجرد الخالي من الإضافات وهو 'help'.",
+        "options": [
+          "helping",
+          "help",
+          "helped",
+          "helps"
+        ],
+        "question": "Is Ali going to ... us tomorrow?",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'call' لأن الفعل الناقص 'should' يتبعه دائماً الفعل في المصدر بدون 'to'.",
+        "method": "١- تحديد الفعل الناقص 'should'.\n٢- اختيار الفعل في صورته المجردة وهو 'call'.",
+        "options": [
+          "calls",
+          "calling",
+          "called",
+          "call"
+        ],
+        "question": "You should ... the police.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٨",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'faster' لوجود كلمة المقارنة 'than' التي تتطلب صفة مقارنة تنتهي بـ '-er'.",
+        "method": "١- ملاحظة وجود كلمة 'than' بعد الفراغ.\n٢- اختيار صيغة المقارنة المناسبة للصفة القصيرة وهي 'faster'.",
+        "options": [
+          "fast",
+          "faster",
+          "fastest",
+          "the fastest"
+        ],
+        "question": "Who is ... than him?",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٩",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي 'written' لأن السؤال يبدأ بـ 'Has' مما يدل على زمن المضارع التام الذي يتطلب التصريف الثالث للفعل (Past Participle).",
+        "method": "١- تحديد زمن الجملة من خلال الفعل المساعد 'Has'.\n٢- اختيار التصريف الثالث للفعل 'write' وهو 'written'.",
+        "options": [
+          "written",
+          "writes",
+          "write",
+          "writing"
+        ],
+        "question": "Has Ali ... his letter?",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٠",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي 'to' لإكمال التركيب القواعدي 'too + adjective + to + verb'.",
+        "method": "١- ملاحظة وجود 'too' متبوعة بالصفة 'easy'.\n٢- إكمال التركيب باستخدام حرف الجر 'to' المتبوع بالفعل المصدر 'leave'.",
+        "options": [
+          "so",
+          "that",
+          "too",
+          "to"
+        ],
+        "question": "It is not too easy ... leave us.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي 'studying' لأن الجملة تعبر عن حدث مستمر في الماضي (Past Continuous) قطع بحدث آخر، والتركيب يتطلب 'were + verb-ing'.",
+        "method": "١- تحديد زمن الجملة من خلال 'were' والحدث القاطع 'came'.\n٢- اختيار الفعل المضاف إليه '-ing' وهو 'studying'.",
+        "options": [
+          "studying",
+          "study",
+          "studied",
+          "studies"
+        ],
+        "question": "We were ... when my father came home.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي 'went' لأن الحدث الثاني في الماضي بعد استخدام الماضي التام 'had brushed' يجب أن يكون في الماضي البسيط (Past Simple).",
+        "method": "١- ملاحظة الرابط 'after' المتبوع بالماضي التام 'had brushed'.\n٢- اختيار الفعل في التصريف الثاني (الماضي البسيط) وهو 'went'.",
+        "options": [
+          "go",
+          "went",
+          "gone",
+          "goes"
+        ],
+        "question": "Salma ... to bed after she had brushed her teeth.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي 'enjoying' لتكوين زمن المستقبل المستمر (Future Continuous) الذي يتكون من 'will be + verb-ing'.",
+        "method": "١- تحديد التركيب 'Will they be'.\n٢- اختيار الفعل المنتهي بـ '-ing' وهو 'enjoying'.",
+        "options": [
+          "enjoy",
+          "enjoyed",
+          "enjoying",
+          "enjoys"
+        ],
+        "question": "Will they be ... the party?",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'himself' لأن الضمير المنعكس المناسب للفاعل المفرد المذكر 'he' هو 'himself'.",
+        "method": "١- تحديد الفاعل في الجملة وهو الضمير 'he'.\n٢- اختيار الضمير المنعكس المطابق له وهو 'himself'.",
+        "options": [
+          "itself",
+          "herself",
+          "himself",
+          "yourself"
+        ],
+        "question": "Did he do that by ... ",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي 'run' لأن صيغة النهي الإلزامي باستخدام 'Never' يتبعها الفعل في المصدر بدون إضافات.",
+        "method": "١- تحديد أداة النهي 'Never'.\n٢- اختيار الفعل المجرد (المصدر) وهو 'run'.",
+        "options": [
+          "running",
+          "ran",
+          "runs",
+          "run"
+        ],
+        "question": "Never ... when you cross the street.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'who' لأن اسم الموصول المستخدم للإشارة إلى العاقل (the man) هو 'who'.",
+        "method": "١- تحديد الاسم الموصوف قبل الفراغ وهو 'the man' (عاقل).\n٢- اختيار اسم الموصول المناسب للعاقل وهو 'who'.",
+        "options": [
+          "who",
+          "whose",
+          "which",
+          "when"
+        ],
+        "question": "This is the man ... helped me yesterday.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'Sorry' لأنها الكلمة المهذبة المستخدمة للاعتذار عند عدم القدرة على تلبية الطلب (I can't).",
+        "method": "١- قراءة الرد 'I can't' الذي يدل على الرفض أو عدم القدرة.\n٢- اختيار الكلمة المناسبة للاعتذار المهذب وهي 'Sorry'.",
+        "options": [
+          "OK",
+          "Sorry",
+          "Yes",
+          "All right"
+        ],
+        "question": "A) Can you come tomorrow? B) ..., I can't.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٨",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'Let's' لأنها تستخدم لتقديم الاقتراحات ويليها الفعل في المصدر، والرد 'That's a good idea' يؤكد قبول الاقتراح.",
+        "method": "١- تحليل الرد 'That's a good idea' الذي يشير إلى قبول اقتراح.\n٢- اختيار أداة الاقتراح المناسبة التي تتبع بمصدر وهي 'Let's'.",
+        "options": [
+          "Shall",
+          "Can",
+          "Will",
+          "Let's"
+        ],
+        "question": "A) ... go home. B) That's a good idea.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٩",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي 'hot' لأن الرد يتحدث عن حالة الطقس (The weather)، والصفة الوحيدة المتعلقة بالطقس بين الخيارات هي 'hot'.",
+        "method": "١- قراءة الرد وفهم أنه يتحدث عن الطقس 'The weather'.\n٢- البحث عن الصفة المرتبطة بالطقس من بين الخيارات المتاحة واختيار 'hot'.",
+        "options": [
+          "blue",
+          "tall",
+          "hot",
+          "thin"
+        ],
+        "question": "A) Is it ... today? B) No. The weather is very nice today.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٥٠",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245845665-30.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:53.996222+00:00",
+    "extracted_text": null,
+    "id": "98c76afe-d644-4c81-9dd8-1072e98ea554",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245845665-30.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 1 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245828780-31.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:40.451093+00:00",
+    "extracted_text": null,
+    "id": "ac865826-dc19-4dd7-8236-ac2923dad0d6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245828780-31.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 1"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن عكس كلمة \"Good\" (جيد) هو \"bad\" (سيء)، بينما عكس كلمة \"quick\" (سريع) هو \"slow\" (بطيء).",
+        "method": "١- تحديد معنى كلمة Good وعكسها.\n٢- تحديد معنى كلمة quick وعكسها.\n٣- مقارنة العلاقة بين الكلمتين لتحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Good\" is the opposite of \"quick\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن كلمة \"Clever\" تعني ذكي، بينما كلمة \"polite\" تعني مؤدب.",
+        "method": "١- ترجمة كلمة Clever ومعرفة معناها.\n٢- ترجمة كلمة polite ومعرفة معناها.\n٣- مقارنة المعنيين لتحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Clever\" means \"polite\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن الممرض (nurse) هو الشخص الذي يعتني بالمرضى، بينما الشخص الذي يدرس الحيوانات هو عالم الحيوان (zoologist).",
+        "method": "١- تحديد تعريف كلمة nurse (ممرض).\n٢- تحديد تعريف الشخص الذي يدرس الحيوانات (zoologist).\n٣- مقارنة التعريفين للحكم على صحة الجملة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "A nurse is a person who studies animals.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن النمور تتميز بوجود خطوط سوداء على أجسادها.",
+        "method": "١- ترجمة الجملة وفهم معناها (النمور لديها خطوط).\n٢- التحقق من المعلومة علمياً وواقعياً.\n٣- تحديد صحة العبارة بناءً على ذلك.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Tigers have stripes.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن الزرافات والقرود تنتمي إلى الثدييات وليست من الطيور.",
+        "method": "١- تصنيف الزرافات والقرود كحيوانات ثديية.\n٢- مقارنة هذا التصنيف بكلمة birds (طيور).\n٣- استنتاج أن العبارة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Giraffes and monkeys are birds.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن كلمة \"Slim\" تعني نحيف وهي عكس كلمة \"fat\" التي تعني سمين.",
+        "method": "١- تحديد معنى كلمة Slim (نحيف).\n٢- تحديد معنى كلمة fat (سمين).\n٣- التحقق من أن العلاقة بينهما هي علاقة تضاد (opposite).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Slim\" is the opposite of \"fat\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الكلمتين مترادفتان وتعنيان يجيب أو يرد.",
+        "method": "١- تحديد معنى كلمة Answer (يجيب).\n٢- تحديد معنى كلمة reply (يرد/يجيب).\n٣- التحقق من الترادف بين الكلمتين.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Answer\" means \"reply\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن عالم الحيوان (zoologist) يدرس ويعتني بالحيوانات وليس بالناس.",
+        "method": "١- تحديد معنى كلمة zoologist (عالم حيوان).\n٢- تحديد دور عالم الحيوان في دراسة الحيوانات.\n٣- مقارنة ذلك بعبارة \"takes care of people\" واستنتاج الخطأ.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "A zoologist takes care of people.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن شهر فبراير يحتوي على ٢٨ يوماً في السنوات العادية و٢٩ يوماً في السنوات الكبيسة، ولا يحتوي أبداً على ٢٧ يوماً فقط.",
+        "method": "١- استرجاع عدد أيام شهر فبراير (February).\n٢- مقارنة العدد الفعلي (٢٨ أو ٢٩) بالعدد المذكور في السؤال (٢٧).\n٣- تحديد أن العبارة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "There are only ٢٧ days in February.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن المجارف والمساحي (Spades and hoes) هي أدوات زراعية تستخدم في الحديقة وليست أدوات مطبخ.",
+        "method": "١- تحديد معنى كلمتي Spades (مجارف) و hoes (مساحي).\n٢- تحديد تصنيف هذه الأدوات كأدوات زراعية (gardening tools).\n٣- مقارنة التصنيف بعبارة kitchen equipment (أدوات مطبخ) واستنتاج الخطأ.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Spades and hoes are kitchen equipment.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن كلمة \"saw\" (رأى) وكلمة \"noticed\" (لاحظ) متقاربتان في المعنى وليستا متضادتين.",
+        "method": "١- تحديد معنى الفعل saw (رأى).\n٢- تحديد معنى الفعل noticed (لاحظ).\n٣- التحقق من العلاقة بينهما (ترادف تقريبي وليس تضاد).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Saw\" is the opposite of \"noticed\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن كلمة \"Clean\" تعني نظيف، بينما كلمة \"bad\" تعني سيء، ولا توجد علاقة ترادف بينهما.",
+        "method": "١- تحديد معنى كلمة Clean (نظيف).\n٢- تحديد معنى كلمة bad (سيء).\n٣- مقارنة المعنيين لتحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Clean\" means \"bad\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن رجل الإطفاء (fireman) يحتاج إلى أدوات إخماد الحرائق مثل خراطيم المياه والسلالم، بينما المسامير والخشب هي أدوات النجار.",
+        "method": "١- تحديد طبيعة عمل رجل الإطفاء (fireman).\n٢- تحديد الأدوات المذكورة (nails and wood) والمهنة المرتبطة بها (النجارة).\n٣- استنتاج عدم توافق الأدوات مع المهنة المذكورة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "A fireman needs nails and wood for his job.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الدخان (smoke) واللهب (flames) ينتجان عن النار (fire).",
+        "method": "١- ترجمة الكلمات وفهم المعنى الفيزيائي للجملة.\n٢- التحقق من أن الدخان واللهب هما نواتج عملية الاحتراق والنار.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Smoke and flames are made by fire.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن السبت (Saturday) والاثنين (Monday) هما يومان من أيام الأسبوع وليسا من الشهور (months).",
+        "method": "١- تصنيف Saturday و Monday كأيام أسبوع (days of the week).\n٢- مقارنة هذا التصنيف بكلمة months (شهور).\n٣- استنتاج خطأ العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Saturday and Monday are months.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن عكس كلمة \"on\" هو \"off\"، وعكس كلمة \"out\" هو \"in\".",
+        "method": "١- تحديد عكس حرف الجر on وهو off.\n٢- تحديد عكس حرف الجر out وهو in.\n٣- مقارنة المعطيات واستنتاج الخطأ.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"On\" is the opposite of \"out\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن كلمة \"Clean\" تعني نظيف (خالٍ من الأوساخ)، بينما كلمة \"clear\" تعني واضح أو صافٍ، ورغم تداخلهما أحياناً إلا أنهما ليسا مترادفين بشكل مباشر في المنهج الدراسي.",
+        "method": "١- تحديد المعنى الدقيق لكلمة Clean.\n٢- تحديد المعنى الدقيق لكلمة clear.\n٣- مقارنة المعنيين في السياق التعليمي المعتمد.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Clean\" means \"clear\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن من المهام الأساسية لرجل الشرطة (policeman) هي مساعدة الناس وحفظ الأمن.",
+        "method": "١- فهم دور رجل الشرطة في المجتمع.\n٢- مطابقة هذا الدور مع عبارة \"helps people\".\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "A policeman is someone who helps people.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الأدوات (Tools) تُعرّف بأنها الأشياء والمعدات التي يحتاجها الشخص لإنجاز عمل أو وظيفة معينة.",
+        "method": "١- تحديد تعريف كلمة Tools.\n٢- مطابقة التعريف مع الجملة المذكورة.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Tools are things you need to do a job.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن برك السباحة (pools) والسكاكين (knives) تشكل خطراً حقيقياً على سلامة الأطفال.",
+        "method": "١- ترجمة الكلمات وفهم المعنى العام للجملة.\n٢- تقييم مدى خطورة برك السباحة والسكاكين على الأطفال.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Pools and knives are dangerous things for children.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي mother لأن النص يذكر صراحةً: \"Nadia woke up to pray with her mother. Then they started to prepare the breakfast...\" مما يعني أنها أعدت الفطور مع والدتها.",
+        "method": "١- البحث في النص عن الكلمات المفتاحية \"prepared\" و \"breakfast\".\n٢- قراءة الجملة المرتبطة بها: \"Then they started to prepare the breakfast...\" حيث يعود الضمير \"they\" على نادية ووالدتها.\n٣- اختيار الخيار المطابق وهو mother.",
+        "options": [
+          "father",
+          "sister",
+          "mother",
+          "brother"
+        ],
+        "question": "Who prepared the breakfast? Nadia with her ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي Thursday لأن النص يبدأ بعبارة: \"Last Thursday, Nadia woke up...\" ثم يسرد أحداث اليوم والذهاب للرحلة.",
+        "method": "١- البحث في النص عن زمن حدوث القصة.\n٢- قراءة الجملة الأولى في النص: \"Last Thursday...\".\n٣- اختيار الخيار الصحيح وهو Thursday.",
+        "options": [
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "question": "When did the family go for a picnic? Last ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي supermarket لأن النص يذكر: \"Nadia's father went to the supermarket to bring everything they needed.\"",
+        "method": "١- تحديد الفاعل في السؤال وهو \"Nadia's father\".\n٢- البحث في النص عن الجملة التي تصف حركته ومكانه.\n٣- استخراج المكان وهو \"supermarket\" واختياره من الخيارات.",
+        "options": [
+          "park",
+          "supermarket",
+          "bank",
+          "police station"
+        ],
+        "question": "Where did Nadia's father go? He went to the ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي cold لأن النص يذكر بوضوح: \"The weather was cold, so (she) asked her mother...\"",
+        "method": "١- البحث عن الكلمة المفتاحية \"weather\" في النص.\n٢- قراءة الصفة الملحقة بها وهي \"cold\".\n٣- اختيار الخيار المطابق وهو cold.",
+        "options": [
+          "warm",
+          "cool",
+          "hot",
+          "cold"
+        ],
+        "question": "How was the weather? It was ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي ball لأن النص يذكر: \"Her brother likes sport, so he brought a ball.\"",
+        "method": "١- البحث عن الفاعل \"brother\" وما قام بجلبه (brought).\n٢- قراءة الجملة: \"...so he brought a ball.\"\n٣- اختيار الخيار المطابق وهو ball.",
+        "options": [
+          "book",
+          "radio",
+          "ball",
+          "box"
+        ],
+        "question": "What did Nadia's brother bring? He brought a ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي clothes لأن النص يذكر أن نادية طلبت من والدتها إحضار ملابس دافئة: \"so (she) asked her mother to bring some warm clothes.\"",
+        "method": "١- البحث عن العبارة \"warm\" في النص.\n٢- قراءة الكلمة التي تليها مباشرة وهي \"clothes\".\n٣- اختيار الخيار الصحيح وهو clothes.",
+        "options": [
+          "clothes",
+          "food",
+          "water",
+          "blankets"
+        ],
+        "question": "Nadia's mother brought some warm ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي sport لأن النص يذكر صراحةً: \"Her brother likes sport, so he brought a ball.\"",
+        "method": "١- البحث عن الفاعل \"brother\" والفعل \"likes\" في النص.\n٢- قراءة المفعول به المرتبط بالفعل وهو \"sport\".\n٣- اختيار الخيار المطابق وهو sport.",
+        "options": [
+          "photography",
+          "sport",
+          "reading",
+          "climbing"
+        ],
+        "question": "Nadia's brother likes ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي five لأن النص يذكر الشخصيات التالية التي تشكل العائلة: نادية (Nadia)، والدتها (mother)، والدها (father)، شقيقها (brother)، وأختها الصغيرة (little sister)، ومجموعهم خمسة أفراد.",
+        "method": "١- قراءة النص بالكامل وتحديد جميع أفراد العائلة المذكورين.\n٢- عدّ الأفراد: ١- نادية، ٢- الأم، ٣- الأب، ٤- الأخ، ٥- الأخت الصغيرة.\n٣- اختيار الرقم المقابل للعدد خمسة وهو five.",
+        "options": [
+          "three",
+          "four",
+          "five",
+          "six"
+        ],
+        "question": "There are ... people in Nadia's family.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٨",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245810595-35.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:22.930449+00:00",
+    "extracted_text": null,
+    "id": "faadb233-acfa-4df3-a56d-fffff1be8c0d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245810595-35.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 2 الورقة 1"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي happy لأن السياق العام للقصة يعبر عن السعادة والبهجة.",
+        "method": "١- قراءة الجملة وفهم المعنى العام.\n٢- اختيار الصفة المناسبة للسياق.",
+        "options": [
+          "sad",
+          "tired",
+          "angry",
+          "happy"
+        ],
+        "question": "Nadia with her family were very ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٩",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي Nadia لأن الضمير (she) يعود على الفاعل المؤنث المفرد المذكور سابقاً.",
+        "method": "١- تحديد الضمير المطلوب.\n٢- البحث عن الاسم المؤنث المفرد الذي يعود عليه الضمير في السياق.",
+        "options": [
+          "the mother",
+          "Nadia",
+          "the sister",
+          "the doll"
+        ],
+        "question": "The word in brackets (she) refers back to ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٠",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "الترتيب الصحيح للجملة هو: Salem has got three brothers. وهو ما يوافق الأرقام ٢, ١, ٣, ٤, ٥.",
+        "method": "١- تحديد الفاعل (Salem - ٢).\n٢- تحديد الفعل المساعد والأساسي (has got - ١, ٣).\n٣- تحديد المفعول به والصفة (three brothers - ٤, ٥).",
+        "options": [
+          "٣ , ١ , ٢ , ٥ , ٤",
+          "٢ , ١ , ٤ , ٣ , ٥",
+          "٣ , ٢ , ٤ , ٥ , ١",
+          "٢ , ١ , ٣ , ٤ , ٥"
+        ],
+        "question": "Re-order: ١- has ٢- Salem ٣- got ٤- three ٥- brothers.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الرقم ٤١ يُكتب بالإنجليزية forty-one.",
+        "method": "١- قراءة الرقم المعطى (٤١).\n٢- اختيار الكتابة الإملائية الصحيحة له.",
+        "options": [
+          "forty first",
+          "forty-one",
+          "forty-two",
+          "fourteen"
+        ],
+        "question": "The correct spelling of \"٤١\" is ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الوقت ٠٩:٢٢ يُقرأ الساعة أولاً ثم الدقائق: nine twenty-two.",
+        "method": "١- قراءة الساعات (٠٩ -> nine).\n٢- قراءة الدقائق (٢٢ -> twenty-two).",
+        "options": [
+          "twenty-two nine",
+          "nine twenty-one",
+          "nine twenty-two",
+          "twenty nine"
+        ],
+        "question": "٠٩ : ٢٢ It's ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "نستخدم حرف العطف and للربط بين اسمين (Ali and Mohammad).",
+        "method": "١- تحديد العلاقة بين الاسمين (عطف وإضافة).\n٢- اختيار أداة الربط المناسبة (and).",
+        "options": [
+          "and",
+          "so",
+          "because",
+          "but"
+        ],
+        "question": "I invite Ali ... Mohammad to my house.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "كلمة sugar اسم غير معدود، وتأتي معها much في الجمل المثبتة للدلالة على الكثرة، بينما a/an للمعدود المفرد، و any للجمل المنفية والاستفهام.",
+        "method": "١- تحديد نوع الاسم (sugar غير معدود).\n٢- استبعاد الخيارات غير المناسبة (a, an للمعدود).\n٣- اختيار much لأن الجملة مثبتة.",
+        "options": [
+          "a",
+          "an",
+          "much",
+          "any"
+        ],
+        "question": "I need ... sugar to make tea and coffee.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "نستخدم حرف الجر at قبل الأوقات المحددة بالساعات (at ٨ o'clock).",
+        "method": "١- تحديد الكلمة بعد الفراغ (٨ o'clock تدل على وقت محدد).\n٢- اختيار حرف الجر الخاص بالوقت المحدد وهو at.",
+        "options": [
+          "in",
+          "on",
+          "of",
+          "at"
+        ],
+        "question": "Fuad will come ... ٨ o'clock.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "وجود الفعل المساعد are مع الكلمة الدالة now يشير إلى زمن المضارع المستمر (am/is/are + v-ing)، لذا نختار crying.",
+        "method": "١- تحديد الكلمة الدالة (now) والفعل المساعد (are).\n٢- اختيار صيغة الفعل المضاف إليها ing لتكوين المضارع المستمر.",
+        "options": [
+          "cry",
+          "crying",
+          "cried",
+          "cries"
+        ],
+        "question": "Babies are ... now.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "بعد التعبير have to يجب أن يأتي الفعل في المصدر (infinitive)، والمصدر من verb to be هو be.",
+        "method": "١- تحديد القاعدة النحوية لـ have to (يتبعها مصدر الفعل).\n٢- اختيار مصدر verb to be وهو be.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "question": "You have to ... a good student.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٨",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "الجملة تحتوي على صيغة تفضيل عليا (superlative) لمقارنة صنعاء بجميع المدن في اليمن، وصيغة التفضيل لصفة big هي the biggest.",
+        "method": "١- تحديد نوع المقارنة (مقارنة مدينة بكل مدن اليمن -> تفضيل).\n٢- اختيار صيغة التفضيل المناسبة (the + adjective + est).",
+        "options": [
+          "big",
+          "bigger",
+          "biggest",
+          "the biggest"
+        ],
+        "question": "Sana'a is not ... city in Yemen.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٩",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "بعد الفعل المساعد has في زمن المضارع التام (Present Perfect)، يجب استخدام التصريف الثالث للفعل (Past Participle)، والتصريف الثالث لـ write هو written.",
+        "method": "١- تحديد زمن الجملة من خلال الفعل المساعد has (مضارع تام).\n٢- اختيار التصريف الثالث للفعل وهو written.",
+        "options": [
+          "write",
+          "wrote",
+          "written",
+          "writing"
+        ],
+        "question": "Our teacher has ... some questions on the board.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٠",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نستخدم التركيبة too + adjective + to + verb للتعبير عن زيادة الصفة لدرجة تمنع حدوث الفعل (ساخن جداً لدرجة لا يمكن شربه).",
+        "method": "١- ملاحظة وجود الصفة hot متبوعة بـ to drink.\n٢- اختيار too لتكوين التركيبة النحوية الصحيحة (too ... to).",
+        "options": [
+          "too",
+          "so",
+          "to",
+          "that"
+        ],
+        "question": "This tea is ... hot to drink.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "بعد was في زمن الماضي المستمر (Past Continuous) نستخدم الفعل مضافاً إليه ing، ليدل على حدث كان مستمراً عندما قطعه حدث آخر (slept).",
+        "method": "١- تحديد زمن الجملة من خلال الرابط When والماضي البسيط slept والفاعل المتبوع بـ was.\n٢- اختيار الفعل بصيغة ing (working) لإكمال الماضي المستمر.",
+        "options": [
+          "work",
+          "working",
+          "worked",
+          "works"
+        ],
+        "question": "When her baby slept, she was ... in the kitchen.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "بعد had في زمن الماضي التام (Past Perfect) نستخدم التصريف الثالث للفعل (Past Participle)، والتصريف الثالث لـ make هو made.",
+        "method": "١- تحديد زمن الجملة من خلال الرابط Before والماضي البسيط went والفعل المساعد had.\n٢- اختيار التصريف الثالث للفعل وهو made.",
+        "options": [
+          "make",
+          "made",
+          "making",
+          "makes"
+        ],
+        "question": "Before he went out, he had ... some sandwiches.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "بعد will be نستخدم الفعل بصيغة ing للتعبير عن المستقبل المستمر (Future Continuous)، لذا نختار suffering.",
+        "method": "١- تحديد التركيبة الزمنية (will be).\n٢- اختيار الفعل المضاف إليه ing للتعبير عن الاستمرارية في المستقبل.",
+        "options": [
+          "suffer",
+          "suffers",
+          "suffering",
+          "suffered"
+        ],
+        "question": "Many people will be ... from famine.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الفراغ يقع بعد الفعل الرئيسي meets، لذا نحتاج إلى ضمير مفعول به (object pronoun)، وضمير المفعول به المناسب هنا هو them.",
+        "method": "١- تحديد موقع الفراغ في الجملة (بعد الفعل الرئيسي -> مفعول به).\n٢- اختيار ضمير المفعول به المناسب وهو them.",
+        "options": [
+          "they",
+          "their",
+          "theirs",
+          "them"
+        ],
+        "question": "He meets ... in the park.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "بعد أداة النهي Don't يجب أن يأتي الفعل في المصدر بدون أي إضافات (bare infinitive)، لذا نختار play.",
+        "method": "١- تحديد القاعدة النحوية لـ Don't (يتبعها مصدر الفعل).\n٢- اختيار الفعل المجرد وهو play.",
+        "options": [
+          "played",
+          "play",
+          "playing",
+          "plays"
+        ],
+        "question": "Don't ... on the street.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "كلمة village تعبر عن مكان، لذا نستخدم اسم الموصول الخاص بالمكان وهو where.",
+        "method": "١- تحديد الاسم الموصوف قبل الفراغ (village وهو مكان).\n٢- اختيار اسم الموصول المناسب للمكان وهو where.",
+        "options": [
+          "whose",
+          "who",
+          "when",
+          "where"
+        ],
+        "question": "That is the village ... I live.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "السؤال يبدأ بـ Can you، لذا تكون الإجابة بالنفي باستخدام can't.",
+        "method": "١- تحديد الفعل المساعد المستخدم في السؤال (Can).\n٢- صياغة الإجابة المنفية المتطابقة مع الفعل المساعد وهي can't.",
+        "options": [
+          "don't",
+          "didn't",
+          "hadn't",
+          "can't"
+        ],
+        "question": "A) Can you move your leg, please? B) No, I ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٨",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "عند طلب أو اختيار شيء بأدب، نستخدم كلمة please في نهاية الجملة.",
+        "method": "١- فهم سياق الحوار (عرض واختيار مؤدب).\n٢- اختيار الكلمة الدالة على الأدب والطلب وهي please.",
+        "options": [
+          "sorry",
+          "oh",
+          "please",
+          "no"
+        ],
+        "question": "A) Would you like tea or milk? B) Milk, ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٩",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "تساقط الثلوج (snowing) يرتبط بالطقس البارد جداً (cold).",
+        "method": "١- تحديد الكلمة المفتاحية في الجملة الأولى (snowing).\n٢- اختيار الصفة المناسبة لحالة الطقس الثلجي وهي cold.",
+        "options": [
+          "cold",
+          "hot",
+          "warm",
+          "cool"
+        ],
+        "question": "A) It is snowing now. B) Yes. It will be very ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٥٠",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245858030-36.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:43:00.994986+00:00",
+    "extracted_text": null,
+    "id": "098291ff-b09d-4919-b8ab-50af8b61e149",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245858030-36.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 2 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245875492-37.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:43:03.332512+00:00",
+    "extracted_text": null,
+    "id": "31289e5c-05c0-4075-8e56-2ffe63dd487b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245875492-37.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 2"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"صح\" لأن كلمة \"Raw\" تعني نيء وكلمة \"cooked\" تعني مطبوخ، وهما كلمتان متضادتان في المعنى.",
+        "method": "١- قراءة الجملة وفهم معنى الكلمتين.\n٢- تحديد العلاقة بين الكلمتين (تضاد).\n٣- اختيار الإجابة الصحيحة بناءً على ذلك.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Raw\" and \"cooked\" are opposites.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن \"Very small\" تعني صغير جداً، بينما \"huge\" تعني ضخم جداً، فهما متضادتان وليستا مترادفتين.",
+        "method": "١- تحديد معنى العبارة \"Very small\".\n٢- تحديد معنى كلمة \"huge\".\n٣- مقارنة المعنيين لمعرفة ما إذا كانا متطابقين.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Very small\" means \"huge\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن الأعشاب الضارة (Weeds) ليست غذاءً للنباتات، بل هي نباتات ضارة تنافس النباتات الأصلية على الغذاء والماء.",
+        "method": "١- تذكر تعريف الأعشاب الضارة (Weeds) من المنهج الدراسي.\n٢- تحديد دورها وتأثيرها على النباتات الأخرى.\n٣- تقييم صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Weeds are food for plants.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن الأسود هي التي تمتلك لبدة (manes) حول رقابها وليس النمور (Tigers).",
+        "method": "١- تحديد معنى كلمة \"Tigers\" (النمور) و \"manes\" (اللبدة).\n٢- استرجاع الخصائص الشكلية للنمور والأسود.\n٣- تحديد مدى صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Tigers have manes.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"صح\" لأن الفيلة والزرافات تصنف بالفعل كحيوانات.",
+        "method": "١- قراءة الكلمات وتحديد معانيها (الفيلة والزرافات).\n٢- تصنيف هذه الكائنات الحية.\n٣- تأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Elephants and giraffes are animals.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"صح\" لأن كلمة \"Near\" تعني قريب وهي عكس كلمة \"far\" التي تعني بعيد.",
+        "method": "١- تحديد معنى كلمة \"Near\".\n٢- تحديد معنى كلمة \"far\".\n٣- التحقق من العلاقة العكسية بينهما.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Near\" is the opposite of \"far\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"صح\" لأن الفعلين \"Replied\" و \"answered\" مترادفان ويعنيان \"أجاب\" أو \"رد\".",
+        "method": "١- معرفة معنى الفعل \"Replied\".\n٢- معرفة معنى الفعل \"answered\".\n٣- مقارنة المعنيين للتأكد من الترادف.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Replied\" means \"answered\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن الخباز (baker) يحتاج إلى الدقيق والفرن، بينما الرسام أو الصباغ هو من يحتاج إلى الفرشاة والطلاء (brush and paint).",
+        "method": "١- تحديد مهنة الشخص المذكور (baker - خباز).\n٢- تحديد الأدوات المذكورة (brush and paint - فرشاة وطلاء).\n٣- ربط الأدوات بالمهنة المناسبة وتحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "A baker needs a brush and paint for his job.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"صح\" لأن ترك الأطفال بمفردهم في المطابخ يشكل خطراً كبيراً عليهم لوجود أدوات حادة ونار.",
+        "method": "١- فهم معنى الجملة بالكامل.\n٢- تقييم العبارة من الناحية المنطقية والوقائية.\n٣- اختيار الإجابة الصحيحة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Leaving children alone in the kitchens is dangerous.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن أبريل ومايو هما شهران (months) وليسا يومين (days).",
+        "method": "١- تحديد تصنيف الكلمات \"April\" و \"May\".\n٢- مقارنة التصنيف بالكلمة \"days\".\n٣- تحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "April and May are days.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن عكس كلمة \"Alive\" (حي) هو \"dead\" (ميت)، وعكس كلمة \"asleep\" (نائم) هو \"awake\" (مستيقظ).",
+        "method": "١- تحديد معنى كلمة \"Alive\".\n٢- تحديد معنى كلمة \"asleep\".\n٣- التحقق من العلاقة بين الكلمتين وتحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Alive\" is the opposite of \"asleep\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن عبارة \"Frightened of\" تعني خائف من، بينما كلمة \"safe\" تعني آمن، وهما متضادتان وليستا مترادفتين.",
+        "method": "١- تحديد معنى العبارة \"Frightened of\".\n٢- تحديد معنى كلمة \"safe\".\n٣- مقارنة المعنيين لتحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Frightened of\" means \"safe\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي \"صح\" لأن المجرفة أو المعزقة (hoe) هي الأداة الزراعية المستخدمة للتخلص من الأعشاب الضارة.",
+        "method": "١- تحديد معنى كلمة \"hoe\" (مجرفة/معزقة).\n٢- تحديد الغرض من استخدامها.\n٣- مطابقة الاستخدام مع العبارة المذكورة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "We use a hoe to get rid of weeds.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن اليوم يحتوي على أربعة وعشرين ساعة (٢٤ ساعة) وليس عشرين ساعة فقط.",
+        "method": "١- قراءة الرقم المذكور في الجملة (twenty - عشرين).\n٢- استرجاع عدد الساعات الفعلي في اليوم الواحد (٢٤ ساعة).\n٣- مقارنة الرقمين وتحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "There are only twenty hours in a day.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن المقابس والقوابس (Sockets and plugs) هي أدوات كهربائية وليست أدوات صيد أسماك.",
+        "method": "١- تحديد معاني الكلمات \"Sockets\" و \"plugs\".\n٢- تحديد تصنيف هذه الأدوات واستخداماتها.\n٣- مقارنتها بعبارة \"fishing tools\" وتحديد صحة الجملة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Sockets and plugs are fishing tools.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن عكس كلمة \"Lazy\" (كسول) هو \"active\" (نشيط) أو \"hard-working\" (مجتهد)، بينما عكس كلمة \"tidy\" (مرتب) هو \"untidy\" (فوضوي).",
+        "method": "١- تحديد معنى كلمة \"Lazy\".\n٢- تحديد معنى كلمة \"tidy\".\n٣- التحقق من العلاقة بين الكلمتين وتحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Lazy\" is the opposite of \"tidy\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن كلمة \"Far\" تعني بعيد وهي عكس كلمة \"near\" التي تعني قريب وليست مرادفة لها.",
+        "method": "١- تحديد معنى كلمة \"Far\".\n٢- تحديد معنى كلمة \"near\".\n٣- مقارنة المعنيين وتحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Far\" means \"near\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأن الرسامين (Painters) يحتاجون إلى الألوان والفرشاة، بينما الدقيق والماء (flour and water) يحتاجهما الخباز.",
+        "method": "١- تحديد مهنة الشخص المذكور (Painters - رسامون).\n٢- تحديد المواد المذكورة (flour and water - دقيق وماء).\n٣- ربط المواد بالمهنة المناسبة وتحديد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Painters need flour and water for their jobs.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"خطأ\" لأننا نستخدم مرشات الماء أو الخراطيم لري النباتات، بينما الشوكة (forks) تستخدم لتناول الطعام أو لتهوية التربة في الحديقة ولكن ليس للري.",
+        "method": "١- تحديد معنى كلمة \"forks\" (شوك).\n٢- تحديد الغرض من ري النباتات (water plants).\n٣- تقييم مدى ملاءمة الأداة للوظيفة المذكورة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "We use forks to water plants.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي \"صح\" لأن القوارب والمجاديف (Boats and oars) تعتبر من الأدوات والمعدات الأساسية المستخدمة في عملية صيد الأسماك.",
+        "method": "١- تحديد معاني الكلمات \"Boats\" (قوارب) و \"oars\" (مجاديف).\n٢- ربط هذه الأدوات بمهنة الصيد (fishing).\n٣- تحديد صحة العبارة بناءً على المنهج الدراسي.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Boats and oars are fishing tools.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"Sana'a\" لأن النص يذكر بوضوح: \"They live in a small house in Sana'a city\".",
+        "method": "١- البحث في النص عن اسم المدينة التي يعيش فيها ماجد وعائلته.\n٢- العثور على الجملة: \"They live in a small house in Sana'a city\".\n٣- اختيار الخيار المطابق وهو \"Sana'a\".",
+        "options": [
+          "Aden",
+          "Amran",
+          "Sana'a",
+          "Ibb"
+        ],
+        "question": "Where does Majid live? He lives in ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"four\" لأن النص يذكر صراحة: \"There are four people in his family.\".",
+        "method": "١- البحث في النص عن عدد أفراد عائلة ماجد.\n٢- العثور على الجملة: \"There are four people in his family\".\n٣- اختيار الخيار المطابق للعدد وهو \"four\".",
+        "options": [
+          "seven",
+          "six",
+          "five",
+          "four"
+        ],
+        "question": "How many people are there in Majid's family? There are ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"holidays\" لأن النص يذكر: \"They usually go to their village on holidays.\".",
+        "method": "١- البحث في النص عن وقت ذهابهم إلى القرية.\n٢- العثور على الجملة: \"They usually go to their village on holidays\".\n٣- اختيار الخيار المطابق وهو \"holidays\".",
+        "options": [
+          "holidays",
+          "Sundays",
+          "Mondays",
+          "Tuesdays"
+        ],
+        "question": "When do they go to their village? On ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"father\" لأن النص يذكر: \"Majid's father whose name is Khalid is a doctor.\".",
+        "method": "١- البحث في النص عن اسم \"Khalid\" وعلاقته بماجد.\n٢- العثور على الجملة: \"Majid's father whose name is Khalid...\".\n٣- استنتاج أن خالد هو والد ماجد واختيار \"father\".",
+        "options": [
+          "brother",
+          "father",
+          "doctor",
+          "teacher"
+        ],
+        "question": "Who is Khalid? He is Majid's ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"reading\" لأن النص يذكر بوضوح: \"His sister likes reading.\".",
+        "method": "١- البحث في النص عن اهتمامات أخت ماجد.\n٢- العثور على الجملة: \"His sister likes reading\".\n٣- اختيار الخيار المطابق وهو \"reading\".",
+        "options": [
+          "shopping",
+          "climbing",
+          "reading",
+          "driving"
+        ],
+        "question": "What does Majid's sister like? She likes ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"village\" لأن النص يذكر: \"...but they also have a big house in their village...\".",
+        "method": "١- البحث في النص عن موقع المنزل الكبير لعائلة ماجد.\n٢- العثور على الجملة: \"...but they also have a big house in their village...\".\n٣- اختيار الخيار المطابق وهو \"village\".",
+        "options": [
+          "coast",
+          "town",
+          "city",
+          "village"
+        ],
+        "question": "Majid's family has a big house in the ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي \"teacher\" لأن النص يذكر بوضوح: \"His mother is a teacher...\".",
+        "method": "١- البحث في النص عن وظيفة والدة ماجد.\n٢- العثور على الجملة: \"His mother is a teacher...\".\n٣- اختيار الخيار المطابق وهو \"teacher\".",
+        "options": [
+          "teacher",
+          "doctor",
+          "nurse",
+          "dressmaker"
+        ],
+        "question": "Majid's mother is a ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي \"tennis\" لأن النص يذكر: \"Khalid and his son like playing tennis.\" وبما أن ماجد هو ابن خالد، فإنه يحب لعب التنس.",
+        "method": "١- البحث في النص عن الرياضة التي يفضلها ابن خالد (ماجد).\n٢- العثور على الجملة: \"Khalid and his son like playing tennis\".\n٣- استنتاج أن الابن (ماجد) يحب لعب التنس واختيار \"tennis\".",
+        "options": [
+          "football",
+          "tennis",
+          "basketball",
+          "chess"
+        ],
+        "question": "Majid likes playing ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٨",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245810596-1.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:23.988255+00:00",
+    "extracted_text": null,
+    "id": "adc5d37e-5bf9-453f-9e99-de83353da44f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245810596-1.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 3 الورقة 1"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "The correct option is 'bank' based on the standard textbook context where Khalid's occupation is mentioned.",
+        "method": "١. Read the sentence.\n٢. Identify the subject 'Khalid'.\n٣. Recall the textbook context where Khalid works at the bank.",
+        "options": [
+          "bakery",
+          "bank",
+          "hospital",
+          "school"
+        ],
+        "question": "Khalid works at the ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٩",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "The pronoun 'she' refers to a female singular noun, which in this context refers back to Majid's sister.",
+        "method": "١. Analyze the pronoun 'she' (singular female).\n٢. Match with the options representing a female relative.",
+        "options": [
+          "teacher",
+          "sister",
+          "doctor",
+          "mother"
+        ],
+        "question": "The word in brackets (she) refers back to Majid's ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٠",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "The correct question structure is 'What do they look like?', which corresponds to the sequence ٢, ١, ٥, ٣, ٤.",
+        "method": "١. Identify the question word 'What' (٢).\n٢. Follow with the auxiliary verb 'do' (١).\n٣. Add the subject 'they' (٥).\n٤. Add the main verb phrase 'look like?' (٣, ٤).\n٥. The sequence is ٢, ١, ٥, ٣, ٤.",
+        "options": [
+          "٢ , ٥ , ١ , ٤ , ٣",
+          "٥ , ٤ , ٣ , ٢ , ١",
+          "٢ , ١ , ٥ , ٣ , ٤",
+          "٣ , ٤ , ٥ , ١ , ٢"
+        ],
+        "question": "Re-order: ١- do ٢- What ٣- look ٤- like? ٥- they",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "The ordinal number 'thirteenth' is abbreviated as '13th'.",
+        "method": "١. Identify the ordinal number 'thirteenth'.\n٢. Match it with its standard abbreviation '13th'.",
+        "options": [
+          "٣٠",
+          "٣١",
+          "31st",
+          "13th"
+        ],
+        "question": "The correct short form of \"thirteenth\" is ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "The digital time ٠٦:١٠ is read as 'six ten'.",
+        "method": "١. Read the hour: ٠٦ (six).\n٢. Read the minutes: ١٠ (ten).\n٣. Combine them to get 'six ten'.",
+        "options": [
+          "six one",
+          "six ten",
+          "ten six",
+          "one six"
+        ],
+        "question": "٠٦:١٠ It's ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "The conjunction 'and' is used to connect two nouns (Fatima and Amna).",
+        "method": "١. Identify the two proper nouns 'Fatima' and 'Amna'.\n٢. Choose the coordinating conjunction 'and' to join them.",
+        "options": [
+          "but",
+          "and",
+          "because",
+          "so"
+        ],
+        "question": "I met Fatima ... Amna in the park.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "Sugar is an uncountable noun, and 'some' is used in polite requests with uncountable nouns.",
+        "method": "١. Identify 'sugar' as an uncountable noun.\n٢. Eliminate 'a' and 'an' (used with singular countable nouns).\n٣. Eliminate 'many' (used with plural countable nouns).\n٤. Select 'some' as it fits polite requests with uncountable nouns.",
+        "options": [
+          "a",
+          "an",
+          "many",
+          "some"
+        ],
+        "question": "Could you give me ... sugar, please?",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "The preposition 'at' is used with 'home' to indicate location (at home).",
+        "method": "١. Identify the noun 'home'.\n٢. Recall the standard prepositional phrase 'at home'.",
+        "options": [
+          "for",
+          "on",
+          "at",
+          "of"
+        ],
+        "question": "Her children stay ... home.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "The present continuous tense is formed with 'are' + verb-ing, indicated by the time marker 'now'.",
+        "method": "١. Identify the subject 'Ali and his brother' (plural) and the auxiliary verb 'are'.\n٢. Identify the time marker 'now' indicating present continuous.\n٣. Choose the verb form ending in '-ing' ('studying').",
+        "options": [
+          "study",
+          "studying",
+          "studied",
+          "studies"
+        ],
+        "question": "Ali and his brother are ... now.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "The modal/semi-modal 'have to' is followed by the base form of the verb (infinitive without 'to').",
+        "method": "١. Identify the phrase 'have to'.\n٢. Determine that it requires the base form of the verb.\n٣. Select 'help'.",
+        "options": [
+          "helps",
+          "helping",
+          "help",
+          "helped"
+        ],
+        "question": "We have to ... each other.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٨",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "The superlative form 'the best' is used when comparing one entity to all others in a group ('in the world').",
+        "method": "١. Identify the comparison context ('in the world' indicates superlative).\n٢. Recall the superlative form of 'good', which is 'the best'.",
+        "options": [
+          "good",
+          "better",
+          "best",
+          "the best"
+        ],
+        "question": "Yemeni grapes are ... ones in the world.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣٩",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "The present perfect tense is formed with 'has' + past participle (V3), which is 'washed'.",
+        "method": "١. Identify the auxiliary verb 'has'.\n٢. Determine that the main verb must be in the past participle form.\n٣. Select 'washed'.",
+        "options": [
+          "washed",
+          "washes",
+          "washing",
+          "wash"
+        ],
+        "question": "He has ... his car.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٠",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "The structure 'too + adjective + to + verb' is used to indicate excessiveness with a negative result.",
+        "method": "١. Identify the adjective 'difficult' followed by 'to answer'.\n٢. Recognize the 'too ... to' pattern.\n٣. Select 'too'.",
+        "options": [
+          "so",
+          "to",
+          "too",
+          "that"
+        ],
+        "question": "These questions are ... difficult to answer.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "The past continuous tense ('was' + verb-ing) is used to describe an action that was in progress when another action occurred in the past.",
+        "method": "١. Identify the past time clause 'When they arrived'.\n٢. Identify the auxiliary verb 'was'.\n٣. Choose the present participle form 'cleaning' to complete the past continuous tense.",
+        "options": [
+          "clean",
+          "cleaning",
+          "cleans",
+          "cleaned"
+        ],
+        "question": "When they arrived, I was ... the house.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "The past perfect tense is formed with 'had' + past participle (V3), which is 'studied'.",
+        "method": "١. Identify the past perfect auxiliary 'had'.\n٢. Determine that the past participle form of 'study' is required.\n٣. Select 'studied'.",
+        "options": [
+          "study",
+          "studies",
+          "studying",
+          "studied"
+        ],
+        "question": "Before Ali went out, he had ... hard.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "The future continuous tense is formed with 'will be' + verb-ing ('searching').",
+        "method": "١. Identify the future continuous marker 'will be'.\n٢. Choose the verb form ending in '-ing' ('searching').",
+        "options": [
+          "search",
+          "searching",
+          "searches",
+          "searched"
+        ],
+        "question": "We will be ... for jobs.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "The verb 'saw' requires an object pronoun, which is 'them'.",
+        "method": "١. Identify the verb 'saw'.\n٢. Determine that the blank requires an object pronoun.\n٣. Select 'them' (object pronoun) over 'they' (subject), 'their' (possessive), or 'themselves' (reflexive).",
+        "options": [
+          "they",
+          "their",
+          "them",
+          "themselves"
+        ],
+        "question": "I saw ... in the yard.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "Negative imperatives are formed with 'Don't' followed by the base form of the verb ('throw').",
+        "method": "١. Identify the negative imperative marker 'Don't'.\n٢. Choose the base form of the verb 'throw'.",
+        "options": [
+          "throw",
+          "threw",
+          "throws",
+          "thrown"
+        ],
+        "question": "Don't ... water on burning oil.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "The relative pronoun 'where' is used to refer to a place ('the school').",
+        "method": "١. Identify the antecedent 'the school' (a place).\n٢. Select the relative pronoun 'where' which refers to places.",
+        "options": [
+          "whose",
+          "where",
+          "when",
+          "who"
+        ],
+        "question": "This is the school ... I studied.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "The question starts with the modal verb 'Can', so the short answer should also use 'can'.",
+        "method": "١. Identify the modal verb 'Can' in the question.\n٢. Match it with the corresponding modal verb 'can' in the short answer.",
+        "options": [
+          "will",
+          "did",
+          "can",
+          "do"
+        ],
+        "question": "A) Can you help me, please? B) Yes, I ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٨",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "The question starts with 'Would', so the short answer should use 'would'.",
+        "method": "١. Identify the auxiliary/modal verb 'Would' in the question.\n٢. Match it with 'would' in the short answer.",
+        "options": [
+          "could",
+          "will",
+          "can",
+          "would"
+        ],
+        "question": "A) Would you like to sit alone? B) Yes, I ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤٩",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "medium",
+        "explanation": "If someone wants cold water, it implies that the weather or environment is 'hot'.",
+        "method": "١. Analyze the context: Person B offers 'cold water' and Person C accepts.\n٢. Infer that the condition must be 'hot' to prompt a desire for cold water.",
+        "options": [
+          "cold",
+          "wet",
+          "snowy",
+          "hot"
+        ],
+        "question": "A) It is too ... B) Do you want cold water? C) Yes, please.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٥٠",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245874515-2.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:43:01.60764+00:00",
+    "extracted_text": null,
+    "id": "2f1feda5-e6cb-4fc2-8809-35a62a02b1fb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245874515-2.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 3 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245821880-3.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:31.910504+00:00",
+    "extracted_text": null,
+    "id": "c044f303-5a16-4515-9ef6-b24827de0545",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245821880-3.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 3"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن كلمة \"patient\" تعني مريض (كاسم) أو صبور (كصفة)، وليست عكس كلمة \"sick\" التي تعني مريض أيضاً.",
+        "method": "١- تحديد معنى كلمة \"patient\" ومعنى كلمة \"sick\".\n٢- مقارنة المعنيين لمعرفة ما إذا كانا متضادين.\n٣- استنتاج أن الجملة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Patient\" is the opposite of \"sick\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن كلمة \"plant\" تعني يزرع أو نبات، بينما كلمة \"mend\" تعني يصلح.",
+        "method": "١- تحديد معنى كلمة \"plant\".\n٢- تحديد معنى كلمة \"mend\".\n٣- استنتاج أن الكلمتين مختلفتان تماماً في المعنى.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Plant\" means \"mend\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأننا نستخدم مرشات المياه أو الخراطيم لري الزهور، بينما نستخدم المجارف (spades) للحفر.",
+        "method": "١- تحديد وظيفة الأداة \"spades\" (المجارف).\n٢- مقارنة الوظيفة مع عملية ري الزهور (water the flowers).\n٣- استنتاج أن الجملة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "We use spades to water the flowers.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن القرود ليس لديها رقاب طويلة، بل الزرافات هي التي تمتلك رقاباً طويلة.",
+        "method": "١- تحليل الصفة التشريحية للقرود (Monkeys).\n٢- التحقق مما إذا كانت تمتلك رقاباً طويلة (long necks).\n٣- استنتاج أن الجملة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Monkeys have got long necks.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الزرافات والأسود تصنف بالفعل كحيوانات.",
+        "method": "١- تحديد تصنيف الزرافات (Giraffes) والأسود (lions).\n٢- التأكد من أنهما ينتميان إلى فئة الحيوانات (animals).\n٣- استنتاج أن الجملة صحيحة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Giraffes and lions are animals.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن عكس كلمة \"short\" (قصير) هو \"tall\" (طويل) أو \"long\"، وعكس كلمة \"small\" (صغير) هو \"big\" (كبير).",
+        "method": "١- تحديد عكس كلمة \"short\".\n٢- تحديد عكس كلمة \"small\".\n٣- مقارنة النتائج واستنتاج أن الجملة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Short\" is the opposite of \"small\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن كلمة \"whispering\" تعني الهمس (التحدث بصوت منخفض جداً)، ولا تعني يبدو حزيناً.",
+        "method": "١- تحديد معنى كلمة \"whispering\".\n٢- مقارنة المعنى بعبارة \"looking sad\".\n٣- استنتاج أن الجملة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Whispering\" means \"looking sad\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي صح لأن السماد الطبيعي (manure) يعتبر غذاءً طبيعياً ومغذياً للنباتات.",
+        "method": "١- تحديد معنى كلمة \"manure\" (السماد الطبيعي).\n٢- التحقق من فائدته للنباتات كغذاء طبيعي.\n٣- استنتاج أن الجملة صحيحة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Manure is natural food for plants.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن الشهر يحتوي على أربعة أسابيع تقريباً، بينما السنة هي التي تحتوي على اثني عشر شهراً.",
+        "method": "١- حساب عدد الأسابيع في الشهر الواحد.\n٢- مقارنة العدد الفعلي (حوالي ٤ أسابيع) بالعدد المذكور في السؤال (١٢ أسبوعاً).\n٣- استنتاج أن الجملة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "There are twelve weeks in a month.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن سبتمبر وأكتوبر هما شهران من أشهر السنة وليسا فصولاً (seasons).",
+        "method": "١- تحديد تصنيف سبتمبر وأكتوبر.\n٢- التحقق مما إذا كانا فصولاً (seasons) أم أشهراً (months).\n٣- استنتاج أن الجملة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "September and October are seasons.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي صح لأن الطريق المستوي (flat road) هو عكس الطريق الوعر أو المتعرج (rough road).",
+        "method": "١- تحديد معنى \"flat road\" (طريق مستوٍ).\n٢- تحديد معنى \"rough road\" (طريق وعر).\n٣- التحقق من التضاد بينهما واستنتاج صحة الجملة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"A flat road\" is the opposite of \"a rough road\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الفعل \"reach\" يعني يصل، وهو مرادف للفعل \"arrive\".",
+        "method": "١- تحديد معنى الفعل \"reach\".\n٢- تحديد معنى الفعل \"arrive\".\n٣- مقارنة المعنيين واستنتاج أنهما مترادفان.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Reach\" means \"arrive\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن التقويم (calendars) يخبرنا بالتواريخ والأيام، بينما البوصلة (compass) هي التي تخبرنا بالاتجاهات.",
+        "method": "١- تحديد وظيفة التقويم (calendars).\n٢- مقارنة الوظيفة مع تحديد الاتجاهات (directions).\n٣- استنتاج أن الجملة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Calendars tell us the directions.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الشوارع تحتوي على ممرات مشاة (zebra crossings) لعبور المشاة بأمان.",
+        "method": "١- تحديد معنى \"zebra crossings\" (ممرات المشاة).\n٢- التحقق من وجودها في الشوارع (streets).\n٣- استنتاج أن الجملة صحيحة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Streets have zebra crossings.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن المقابس والمفاتيح الكهربائية (plugs and switches) هي أدوات كهربائية وليست أدوات حدائق (gardening tools).",
+        "method": "١- تحديد طبيعة واستخدام \"plugs and switches\".\n٢- التحقق مما إذا كانت تستخدم في الحدائق كأدوات زراعية.\n٣- استنتاج أن الجملة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Plugs and switches are gardening tools.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن كلمتي \"nice\" و \"good\" مترادفتان في المعنى (جميل / جيد) وليستا متضادتين.",
+        "method": "١- تحديد معنى كلمة \"nice\".\n٢- تحديد معنى كلمة \"good\".\n٣- التحقق من العلاقة بينهما واستنتاج أنهما ليسا متضادين.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Nice\" is the opposite of \"good\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي صح لأن كلمة \"extremely\" تعني للغاية أو جداً، وهي مرادفة لكلمة \"too\" عند استخدامها للتوكيد والشدة.",
+        "method": "١- تحديد معنى واستخدام كلمة \"extremely\".\n٢- تحديد معنى واستخدام كلمة \"too\".\n٣- مقارنة المعنيين واستنتاج صحة الترادف.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Extremely\" means \"too\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن زيت الطهي يستخدم بشكل أساسي لإعداد وطهي الطعام.",
+        "method": "١- تحديد استخدام الزيت (oil) في المطبخ.\n٢- التحقق من صحة استخدامه لطهي الطعام (cook our food).\n٣- استنتاج أن الجملة صحيحة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "We use oil to cook our food.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الأشخاص الذين يعانون من ضعف السمع (deaf/hard of hearing) يستخدمون السماعات الطبية (hearing aids) لمساعدتهم على السمع بشكل أفضل.",
+        "method": "١- تحديد معنى \"deaf people\" (الصم/ضعاف السمع) و \"hearing aids\" (سماعات الأذن).\n٢- التحقق من الغرض من ارتداء هذه السماعات.\n٣- استنتاج أن الجملة صحيحة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Deaf people wear hearing aids to hear well.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن السيارات والحافلات تصنف كمركبات ووسائل نقل (vehicles).",
+        "method": "١- تحديد تصنيف السيارات (cars) والحافلات (buses).\n٢- التحقق مما إذا كانت تندرج تحت مسمى المركبات (vehicles).\n٣- استنتاج أن الجملة صحيحة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Cars and buses are vehicles.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي Taiz لأن النص يذكر صراحة في السطر الأول: \"He is ٢٥ years old and he lives in Taiz.\"",
+        "method": "١- البحث في النص عن مكان معيشة أمين (lives in).\n٢- العثور على الجملة: \"...and he lives in Taiz.\"\n٣- اختيار الخيار المطابق وهو Taiz.",
+        "options": [
+          "Sana'a",
+          "Aden",
+          "Taiz",
+          "Ibb"
+        ],
+        "question": "Where does Ameen live? He lives in ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي twenty-five لأن النص يذكر في السطر الأول: \"He is ٢٥ years old\". والرقم ٢٥ يكتب بالإنجليزية twenty-five.",
+        "method": "١- البحث في النص عن عمر أمين (years old).\n٢- العثور على العبارة: \"He is ٢٥ years old\".\n٣- تحويل الرقم ٢٥ إلى كلمات (twenty-five) واختيار الخيار الصحيح.",
+        "options": [
+          "fifty-two",
+          "forty-five",
+          "thirty-five",
+          "twenty-five"
+        ],
+        "question": "How old is he? He is ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي fireman لأن الجملة الأولى في النص تقول: \"Ameen is a fireman.\"",
+        "method": "١- البحث في النص عن وظيفة أمين (job).\n٢- قراءة الجملة الأولى: \"Ameen is a fireman.\"\n٣- اختيار الخيار المطابق وهو fireman.",
+        "options": [
+          "fisherman",
+          "policeman",
+          "cameraman",
+          "fireman"
+        ],
+        "question": "What is his job? He is a ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي firemen لأن النص يذكر: \"They give advice on what to do if there is a fire.\" والضمير They يعود على رجال الإطفاء (firemen).",
+        "method": "١- البحث في النص عن العبارة \"give advice on what to do if there is a fire\".\n٢- تحديد الفاعل الذي يقوم بهذا العمل في النص وهو \"firemen\".\n٣- اختيار الخيار المطابق وهو firemen.",
+        "options": [
+          "policewomen",
+          "firemen",
+          "policemen",
+          "fishermen"
+        ],
+        "question": "Who give advice on what to do if there is a fire? The ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي Monday لأن النص يذكر: \"Last Monday, firemen were called to a house.\"",
+        "method": "١- البحث في النص عن استدعاء رجال الإطفاء للمنزل (called to a house).\n٢- تحديد اليوم المذكور قبلها وهو \"Last Monday\".\n٣- اختيار الخيار المطابق وهو Monday.",
+        "options": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "question": "When were the firemen called to a house? Last ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي bad لأن النص يذكر: \"...because a lot of accidents caused by bad driving.\"",
+        "method": "١- البحث في النص عن سبب الحوادث (accidents caused by).\n٢- تحديد الكلمة التي تصف القيادة وهي \"bad\".\n٣- اختيار الخيار المطابق وهو bad.",
+        "options": [
+          "good",
+          "short",
+          "bad",
+          "long"
+        ],
+        "question": "A lot of accidents are caused by ... driving.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي angry لأن النص يذكر: \"This often makes Ameen angry...\"",
+        "method": "١- البحث في النص عن شعور أمين تجاه الحوادث (makes Ameen).\n٢- تحديد الصفة المذكورة وهي \"angry\".\n٣- اختيار الخيار المطابق وهو angry.",
+        "options": [
+          "angry",
+          "happy",
+          "sad",
+          "hungry"
+        ],
+        "question": "Some accidents make Ameen ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي head لأن النص يذكر: \"A little boy put his head through the bars of the gate...\"",
+        "method": "١- البحث في النص عن الجزء الذي وضعه الولد بين قضبان البوابة (put his... through the bars).\n٢- تحديد الكلمة المذكورة في النص وهي \"head\".\n٣- اختيار الخيار المطابق وهو head.",
+        "options": [
+          "hand",
+          "leg",
+          "head",
+          "arm"
+        ],
+        "question": "A little boy put his ... through the bars of the gate.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٨",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245817343-14.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:26.306473+00:00",
+    "extracted_text": null,
+    "id": "f1a2fdb6-6004-4ce3-9f5b-7da27e6b917c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245817343-14.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 4 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245816884-15.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:25.339892+00:00",
+    "extracted_text": null,
+    "id": "f45aa643-9e52-48a3-9ca4-95721ddfc3d1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245816884-15.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 4 الورقة 2"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن عكس كلمة \"outside\" هو \"inside\"، بينما كلمة \"downside\" تعني الجانب السلبي وعكسها \"upside\".",
+        "method": "١- قراءة الجملة وتحديد الكلمات المراد مقارنتها.\n٢- معرفة معنى كلمة \"outside\" وعكسها وهو \"inside\".\n٣- استنتاج أن العبارة خاطئة واختيار \"خطأ\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Downside\" is the opposite of \"outside\".",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن \"look out\" تعني احذر أو انتبه، بينما العبارة التي تعني البحث عن شيء هي \"look for\".",
+        "method": "١- مراجعة معاني الأفعال الاصطلاحية (Phrasal Verbs).\n٢- تحديد معنى \"look out\" (احذر) ومعنى \"try to find\" (يبحث عن / look for).\n٣- مقارنة المعنيين وتحديد أن العبارة خاطئة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Look out\" means \"try to find\".",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن النشرة الجوية (weather forecast) تخبرنا بحالة الطقس.",
+        "method": "١- فهم معنى مصطلح \"Weather forecast\" (النشرة الجوية).\n٢- فهم معنى الجملة \"تخبرنا كيف يبدو الطقس\".\n٣- مطابقة التعريف بالوظيفة وتأكيد صحة العبارة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Weather forecast tells us what is the weather like.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن الأرانب البرية (hares) تمتلك آذاناً طويلة (long ears) وليس قروناً (horns).",
+        "method": "١- ترجمة الكلمات الأساسية: Hares (الأرانب البرية)، horns (قرون).\n٢- التحقق من الصفات التشريحية للأرانب البرية.\n٣- استنتاج أن العبارة خاطئة واختيار \"خطأ\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Hares have long horns.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الماء والحليب من السوائل وهي أسماء غير معدودة (non-countable nouns).",
+        "method": "١- تحديد نوع الكلمات \"water\" و \"milk\" كأشياء سائلة.\n٢- تذكر قاعدة الأسماء المعدودة وغير المعدودة في اللغة الإنجليزية.\n٣- تأكيد أن السوائل غير معدودة واختيار \"صح\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Water\" and \"milk\" are non-countable nouns.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الهمس (whispering) هو عكس الصراخ (shouting).",
+        "method": "١- تحديد معنى كلمة \"whispering\" (الهمس).\n٢- تحديد معنى كلمة \"shouting\" (الصراخ).\n٣- مقارنة الكلمتين للتأكد من التضاد واختيار \"صح\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Whispering\" is the opposite of \"shouting\".",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن كلمة \"angry\" تعني غاضب، بينما \"very frightened\" تعني خائف جداً (مرعوب).",
+        "method": "١- ترجمة كلمة \"angry\" (غاضب).\n٢- ترجمة عبارة \"very frightened\" (خائف جداً).\n٣- مقارنة المعنيين واستنتاج عدم التطابق واختيار \"خطأ\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Angry\" means \"very frightened\".",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن السماد الطبيعي (manure) يساعد النباتات على النمو بشكل جيد.",
+        "method": "١- فهم معنى كلمة \"manure\" (السماد الطبيعي).\n٢- فهم معنى الجملة \"يجعل النباتات تنمو جيداً\".\n٣- ربط الفائدة العلمية للسماد بالعبارة وتأكيد صحتها.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Manure makes plants grow well.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن الثعالب (foxes) لا تملك أسنمة، بل الجمال (camels) هي التي تملك أسنمة (humps).",
+        "method": "١- ترجمة الكلمات: Foxes (الثعالب)، humps (أسنمة).\n٢- التحقق من الصفات الحيوية للثعالب.\n٣- استنتاج عدم صحة العبارة واختيار \"خطأ\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Foxes have humps.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الفواكه والمكسرات تصنف كأطعمة (food).",
+        "method": "١- تحديد معاني الكلمات: Fruit (فواكه)، nuts (مكسرات).\n٢- تصنيف هذه المواد كأغذية صالحة للأكل.\n٣- تأكيد صحة التصنيف واختيار \"صح\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Fruit\" and \"nuts\" are food.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن يجيب (answer) هي عكس يسأل (ask).",
+        "method": "١- تحديد معنى الفعل \"ask\" (يسأل).\n٢- تحديد معنى الفعل \"answer\" (يجيب).\n٣- التحقق من علاقة التضاد بين الفعلين واختيار \"صح\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Answer\" is the opposite of \"ask\".",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن عبارة \"not so far\" تعني ليس بعيداً جداً (للمسافة أو التقدم)، بينما \"fewer\" تعني أقل (للعدد).",
+        "method": "١- تحليل معنى العبارة \"not so far\".\n٢- تحليل معنى الكلمة المقارنة \"fewer\".\n٣- استنتاج عدم وجود ترابط في المعنى واختيار \"خطأ\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Not so far\" means \"fewer\".",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الأكياس البلاستيكية تشكل خطر الاختناق على الأطفال مما قد يؤدي للوفاة.",
+        "method": "١- قراءة وفهم الجملة (الأكياس البلاستيكية يمكن أن تقتل الأطفال).\n٢- استحضار معلومات السلامة العامة المتعلقة بالأكياس البلاستيكية.\n٣- تأكيد صحة العبارة واختيار \"صح\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Plastic bags can kill children.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن سيارات الجيب (Jeeps) كغيرها من السيارات العادية تمتلك أربع عجلات.",
+        "method": "١- تحديد معنى \"Jeeps\" (سيارات الجيب) و \"four wheels\" (أربع عجلات).\n٢- التحقق من عدد عجلات سيارات الجيب.\n٣- تأكيد صحة العبارة واختيار \"صح\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Jeeps have four wheels.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن القطن والأرز من المحاصيل الزراعية (agricultural things).",
+        "method": "١- ترجمة الكلمات: Cotton (قطن)، rice (أرز).\n٢- تصنيف هذه المواد كمحاصيل زراعية.\n٣- تأكيد صحة التصنيف واختيار \"صح\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Cotton\" and \"rice\" are agricultural things.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن عكس كلمة \"strong\" (قوي) هو \"weak\" (ضعيف)، بينما \"fit\" تعني لائق بدنياً وهي قريبة في المعنى وليست عكساً لها.",
+        "method": "١- تحديد معنى \"strong\" (قوي) وعكسها وهو \"weak\".\n٢- تحديد معنى \"fit\" (لائق بدنياً).\n٣- استنتاج أن الكلمتين ليستا متضادتين واختيار \"خطأ\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Strong\" is the opposite of \"fit\".",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن \"cover\" تعني يغطي، بينما \"to put out\" تعني يطفئ (مثل إطفاء النار).",
+        "method": "١- تحديد معنى الفعل \"cover\" (يغطي).\n٢- تحديد معنى العبارة الفعلية \"put out\" (يطفئ).\n٣- مقارنة المعنيين واستنتاج عدم التطابق واختيار \"خطأ\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Cover\" means \"to put out something\".",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن مساعدة المرضى هي وظيفة الأطباء والممرضين، بينما وظيفة الأخصائي الاجتماعي (social worker) هي مساعدة الناس في حل مشاكلهم الاجتماعية والأسرية.",
+        "method": "١- تحديد معنى \"social worker\" (الأخصائي الاجتماعي).\n٢- تحديد معنى العبارة \"help people who are ill\" (مساعدة المرضى).\n٣- استنتاج أن الوظيفة المذكورة لا تطابق التعريف واختيار \"خطأ\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "A social worker's job is to help people who are ill.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن رجال الإطفاء (firemen) يجب أن يتصفوا بالشجاعة (brave) لمواجهة النيران والأخطار.",
+        "method": "١- ترجمة الكلمات: Firemen (رجال الإطفاء)، brave (شجاع).\n٢- ربط الصفة بطبيعة عمل رجل الإطفاء.\n٣- تأكيد صحة العبارة واختيار \"صح\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Firemen must be brave.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ١٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن الإفطار (breakfast) والعشاء (dinner) هما وجبتان (meals).",
+        "method": "١- ترجمة الكلمات: Breakfast (الإفطار)، dinner (العشاء).\n٢- تصنيف الكلمتين كوجبات طعام (meals).\n٣- تأكيد صحة التصنيف واختيار \"صح\".",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Breakfast\" and \"dinner\" are meals.",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٢٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي Sana'a لأن النص يذكر صراحة: \"They live in a small house in Sana'a city\".",
+        "method": "١- البحث في النص عن مكان معيشة ماجد وعائلته.\n٢- العثور على الجملة: \"They live in a small house in Sana'a city\".\n٣- اختيار الخيار المطابق وهو \"Sana'a\".",
+        "options": [
+          "Aden",
+          "Amran",
+          "Sana'a",
+          "Ibb"
+        ],
+        "question": "Where does Majid live? He lives in ...",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٢١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي four لأن النص يذكر: \"There are four people in his family\".",
+        "method": "١- البحث في النص عن عدد أفراد العائلة.\n٢- العثور على الجملة: \"There are four people in his family\".\n٣- اختيار الخيار المطابق وهو \"four\".",
+        "options": [
+          "seven",
+          "six",
+          "five",
+          "four"
+        ],
+        "question": "How many people are there in Majid's family? There are ...",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٢٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي holidays لأن النص يذكر: \"They usually go to their village on holidays\".",
+        "method": "١- البحث في النص عن وقت ذهابهم إلى القرية.\n٢- العثور على الجملة: \"They usually go to their village on holidays\".\n٣- اختيار الخيار المطابق وهو \"holidays\".",
+        "options": [
+          "holidays",
+          "Sundays",
+          "Mondays",
+          "Tuesdays"
+        ],
+        "question": "When do they go to their village? On ...",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٢٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي father لأن النص يذكر: \"Majid's father whose name is Khalid is a doctor\".",
+        "method": "١- البحث في النص عن اسم خالد وعلاقته بماجد.\n٢- العثور على الجملة: \"Majid's father whose name is Khalid...\".\n٣- استنتاج أن خالد هو والد ماجد واختيار \"father\".",
+        "options": [
+          "brother",
+          "father",
+          "doctor",
+          "teacher"
+        ],
+        "question": "Who is Khalid? He is Majid's ...",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٢٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي reading لأن النص يذكر: \"His sister likes reading\".",
+        "method": "١- البحث في النص عن اهتمامات أخت ماجد.\n٢- العثور على الجملة: \"His sister likes reading\".\n٣- اختيار الخيار المطابق وهو \"reading\".",
+        "options": [
+          "shopping",
+          "climbing",
+          "reading",
+          "driving"
+        ],
+        "question": "What does Majid's sister like? She likes ...",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٢٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي village لأن النص يذكر: \"but they also have a big house in their village\".",
+        "method": "١- البحث في النص عن موقع البيت الكبير للعائلة.\n٢- العثور على الجملة: \"but they also have a big house in their village\".\n٣- اختيار الخيار المطابق وهو \"village\".",
+        "options": [
+          "coast",
+          "town",
+          "city",
+          "village"
+        ],
+        "question": "Majid's family has a big house in the ...",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٢٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي teacher لأن النص يذكر: \"His mother is a teacher\".",
+        "method": "١- البحث في النص عن مهنة والدة ماجد.\n٢- العثور على الجملة: \"His mother is a teacher\".\n٣- اختيار الخيار المطابق وهو \"teacher\".",
+        "options": [
+          "teacher",
+          "doctor",
+          "nurse",
+          "dressmaker"
+        ],
+        "question": "Majid's mother is a ...",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٢٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي tennis لأن النص يذكر: \"Khalid and his son like playing tennis\"، وابنه هو ماجد.",
+        "method": "١- البحث في النص عن الرياضة التي يفضلها ماجد.\n٢- العثور على الجملة: \"Khalid and his son like playing tennis\".\n٣- استنتاج أن الابن (ماجد) يحب لعب التنس واختيار \"tennis\".",
+        "options": [
+          "football",
+          "tennis",
+          "basketball",
+          "chess"
+        ],
+        "question": "Majid likes playing ...",
+        "question_references": [],
+        "source_reference": "صفحة ٤ - السؤال رقم ٢٨",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245823255-32.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:32.535839+00:00",
+    "extracted_text": null,
+    "id": "e1f1fa7f-e4f9-4ce0-affe-03eef000b718",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245823255-32.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 5 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245810595-33.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:22.094841+00:00",
+    "extracted_text": null,
+    "id": "8e40da23-772a-4690-81d3-191933819d99",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245810595-33.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 5 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245841173-34.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:52.246538+00:00",
+    "extracted_text": null,
+    "id": "b0c4f6c7-7b88-4560-907b-8926ea3d562c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245841173-34.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 5"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245823662-4.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:33.25153+00:00",
+    "extracted_text": null,
+    "id": "60d2291d-462b-4d24-a482-0251634ff6da",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245823662-4.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 6 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245831447-5.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:43.624711+00:00",
+    "extracted_text": null,
+    "id": "b6a4b570-c27a-45d4-8993-2605f886a05c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245831447-5.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 6 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245819766-6.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:30.414039+00:00",
+    "extracted_text": null,
+    "id": "bd66dfc3-8aaf-4d89-8432-2a6b009b0c96",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245819766-6.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 6"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245877220-16.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:43:03.91588+00:00",
+    "extracted_text": null,
+    "id": "135082c2-fb9a-4161-a76e-5272f6a30a03",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245877220-16.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 4"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245826848-38.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:37.79356+00:00",
+    "extracted_text": null,
+    "id": "4f57f460-237e-4f56-9ae1-dbe8b5f1d266",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245826848-38.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 7 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245834069-39.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:47.553042+00:00",
+    "extracted_text": null,
+    "id": "c97c6e5d-f44b-4f4c-85e2-d5d2dabc392a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245834069-39.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 7 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245810594-40.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:21.304599+00:00",
+    "extracted_text": null,
+    "id": "039d9554-ebdf-41bc-9ce0-4c26f9fdf705",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245810594-40.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 7"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245832593-20.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:44.541342+00:00",
+    "extracted_text": null,
+    "id": "716fac6f-fd8c-4363-b0c9-c2341d092110",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245832593-20.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 8 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245829136-21.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:41.612664+00:00",
+    "extracted_text": null,
+    "id": "337aba63-1982-47c9-9d2c-52b9eb53fd70",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245829136-21.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 8 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245825832-22.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:35.223072+00:00",
+    "extracted_text": null,
+    "id": "773d4f77-e3bd-410c-a912-b45df5764f97",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245825832-22.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 8"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الكلمتان 'raw' (نيء) و 'cooked' (مطبوخ) هما كلمتان متضادتان في المعنى.",
+        "method": "١- قراءة الجملة وفهم معنى الكلمتين.\n٢- تحديد العلاقة بينهما (تضاد).\n٣- اختيار الإجابة الصحيحة (صح).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Raw\" and \"cooked\" are opposites.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "العبارة 'very small' تعني صغير جداً، بينما 'huge' تعني ضخم جداً، لذا فهما ليسا بنفس المعنى بل متضادان.",
+        "method": "١- قراءة الجملة وتحديد معنى 'very small'.\n٢- تحديد معنى 'huge'.\n٣- مقارنة المعنيين لمعرفة ما إذا كانا متطابقين.\n٤- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Very small\" means \"huge\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الأعشاب الضارة (weeds) ليست غذاءً للنباتات، بل هي نباتات ضارة تنافس النباتات الأصلية على الغذاء والماء.",
+        "method": "١- ترجمة الجملة وفهم معناها.\n٢- تحديد ما إذا كانت الأعشاب الضارة غذاءً للنباتات.\n٣- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Weeds are food for plants.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "النمور (Tigers) ليس لديها لبدة (manes)، بل الأسود الذكور هي التي تمتلك لبدة.",
+        "method": "١- معرفة معنى كلمة 'manes' (لبدة الأسد).\n٢- تحديد ما إذا كانت النمور تمتلكها.\n٣- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Tigers have manes.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الفيلة والزرافات هي بالفعل حيوانات.",
+        "method": "١- قراءة الجملة وتحديد الكلمات الرئيسية.\n٢- التأكد من تصنيف الفيلة والزرافات كحيوانات.\n٣- اختيار الإجابة (صح).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Elephants and giraffes are animals.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "كلمة 'near' تعني قريب وهي عكس كلمة 'far' التي تعني بعيد.",
+        "method": "١- تحديد معنى 'near' ومعنى 'far'.\n٢- التحقق من العلاقة بينهما (تضاد).\n٣- اختيار الإجابة (صح).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Near\" is the opposite of \"far\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "كلمة 'replied' تعني أجاب أو رد، وهي مرادفة لكلمة 'answered'.",
+        "method": "١- تحديد معنى 'replied'.\n٢- تحديد معنى 'answered'.\n٣- التحقق من الترادف.\n٤- اختيار الإجابة (صح).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Replied\" means \"answered\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الخباز (baker) يحتاج إلى الدقيق والفرن، بينما الرسام هو من يحتاج إلى الفرشاة والطلاء (brush and paint).",
+        "method": "١- تحديد مهنة الشخص (baker - خباز).\n٢- تحديد الأدوات المذكورة (brush and paint - فرشاة وطلاء).\n٣- التحقق من ملاءمة الأدوات للمهنة.\n٤- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "A baker needs a brush and paint for his job.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "ترك الأطفال بمفردهم في المطابخ أمر خطير بالفعل بسبب وجود أدوات حادة ونار.",
+        "method": "١- فهم معنى الجملة.\n٢- تقييم مدى صحة العبارة من الناحية الواقعية والمنطقية.\n٣- اختيار الإجابة (صح).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Leaving children alone in the kitchens is dangerous.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "أبريل ومايو هما أشهر (months) وليسا أياماً (days).",
+        "method": "١- تحديد طبيعة 'April' و 'May'.\n٢- مقارنتها بكلمة 'days'.\n٣- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "April and May are days.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "عكس كلمة 'alive' (حي) هو 'dead' (ميت)، وعكس كلمة 'asleep' (نائم) هو 'awake' (مستيقظ).",
+        "method": "١- تحديد معنى 'alive' وعكسها.\n٢- تحديد معنى 'asleep' وعكسها.\n٣- التحقق من صحة العلاقة المذكورة.\n٤- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Alive\" is the opposite of \"asleep\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "كلمة 'frightened of' تعني خائف من، بينما 'safe' تعني آمن، وهما ليسا بنفس المعنى.",
+        "method": "١- تحديد معنى 'frightened of'.\n٢- تحديد معنى 'safe'.\n٣- مقارنة المعنيين.\n٤- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Frightened of\" means \"safe\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نحن نستخدم المجرفة/المعزقة (hoe) للتخلص من الأعشاب الضارة (weeds).",
+        "method": "١- تحديد معنى 'hoe' (معزقة/مجرفة).\n٢- تحديد معنى 'get rid of weeds' (التخلص من الأعشاب الضارة).\n٣- التحقق من الاستخدام الصحيح للأداة.\n٤- اختيار الإجابة (صح).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "We use a hoe to get rid of weeds.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "اليوم يحتوي على ٢٤ ساعة وليس ٢٠ ساعة فقط.",
+        "method": "١- قراءة الجملة وتحديد العدد المذكور (twenty - عشرون).\n٢- مقارنته بالعدد الفعلي لساعات اليوم (٢٤).\n٣- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "There are only twenty hours in a day.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "المقابس والقوابس (sockets and plugs) هي أدوات كهربائية وليست أدوات صيد (fishing tools).",
+        "method": "١- تحديد معنى 'sockets and plugs'.\n٢- تحديد معنى 'fishing tools'.\n٣- التحقق من العلاقة بينهما.\n٤- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Sockets and plugs are fishing tools.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "عكس كلمة 'lazy' (كسول) هو 'active' (نشيط) أو 'hardworking'، وعكس كلمة 'tidy' (مرتب) هو 'untidy' (فوضوي).",
+        "method": "١- تحديد معنى 'lazy' وعكسها.\n٢- تحديد معنى 'tidy' وعكسها.\n٣- التحقق من صحة العلاقة المذكورة.\n٤- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Lazy\" is the opposite of \"tidy\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "كلمة 'far' تعني بعيد وهي عكس كلمة 'near' (قريب) وليست مرادفة لها.",
+        "method": "١- تحديد معنى 'far'.\n٢- تحديد معنى 'near'.\n٣- التحقق من الترادف.\n٤- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "\"Far\" means \"near\".",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الرسامون أو الصباغون (painters) يحتاجون إلى الطلاء والفرشاة، بينما الدقيق والماء (flour and water) يحتاجهما الخباز.",
+        "method": "١- تحديد مهنة الشخص (painters).\n٢- تحديد المواد المذكورة (flour and water).\n٣- التحقق من ملاءمة المواد للمهنة.\n٤- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Painters need flour and water for their jobs.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "نحن نستخدم مرشات الماء أو العلب المخصصة لري النباتات، وليس الشوك (forks).",
+        "method": "١- تحديد معنى 'forks' (شوك طعام).\n٢- تحديد معنى 'water plants' (ري النباتات).\n٣- التحقق من ملاءمة الأداة للوظيفة.\n٤- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "We use forks to water plants.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "القوارب والمجاديف (boats and oars) هي وسائل نقل مائية وليست أدوات صيد (fishing tools) مثل الشباك أو الصنانير.",
+        "method": "١- تحديد معنى 'boats and oars'.\n٢- تحديد معنى 'fishing tools'.\n٣- التحقق من التصنيف الدقيق.\n٤- اختيار الإجابة (خطأ).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "Boats and oars are fishing tools.",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الخيار الصحيح هو 'Sana'a' لأن النص يذكر بوضوح: 'They live in a small house in Sana'a city'.",
+        "method": "١- البحث في النص عن مكان معيشة ماجد.\n٢- العثور على الجملة 'They live in a small house in Sana'a city'.\n٣- اختيار الخيار المطابق (Sana'a).",
+        "options": [
+          "Aden",
+          "Amran",
+          "Sana'a",
+          "Ibb"
+        ],
+        "question": "Where does Majid live? He lives in ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الخيار الصحيح هو 'four' لأن النص يذكر: 'There are four people in his family'.",
+        "method": "١- البحث في النص عن عدد أفراد العائلة.\n٢- العثور على الجملة 'There are four people in his family'.\n٣- اختيار الخيار المطابق (four).",
+        "options": [
+          "seven",
+          "six",
+          "five",
+          "four"
+        ],
+        "question": "How many people are there in Majid's family? There are ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الخيار الصحيح هو 'holidays' لأن النص يذكر: 'They usually go to their village on holidays'.",
+        "method": "١- البحث في النص عن وقت ذهابهم إلى القرية.\n٢- العثور على الجملة 'They usually go to their village on holidays'.\n٣- اختيار الخيار المطابق (holidays).",
+        "options": [
+          "holidays",
+          "Sundays",
+          "Mondays",
+          "Tuesdays"
+        ],
+        "question": "When do they go to their village? On ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الخيار الصحيح هو 'father' لأن النص يذكر: 'Majid's father whose name is Khalid is a doctor'.",
+        "method": "١- البحث في النص عن اسم خالد وعلاقته بماجد.\n٢- العثور على الجملة 'Majid's father whose name is Khalid...'.\n٣- اختيار الخيار المطابق (father).",
+        "options": [
+          "brother",
+          "father",
+          "doctor",
+          "teacher"
+        ],
+        "question": "Who is Khalid? He is Majid's ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الخيار الصحيح هو 'reading' لأن النص يذكر: 'His sister likes reading'.",
+        "method": "١- البحث في النص عن اهتمامات أخت ماجد.\n٢- العثور على الجملة 'His sister likes reading'.\n٣- اختيار الخيار المطابق (reading).",
+        "options": [
+          "shopping",
+          "climbing",
+          "reading",
+          "driving"
+        ],
+        "question": "What does Majid's sister like? She likes ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الخيار الصحيح هو 'village' لأن النص يذكر: 'but they also have a big house in their village'.",
+        "method": "١- البحث في النص عن موقع البيت الكبير.\n٢- العثور على الجملة 'but they also have a big house in their village'.\n٣- اختيار الخيار المطابق (village).",
+        "options": [
+          "coast",
+          "town",
+          "city",
+          "village"
+        ],
+        "question": "Majid's family has a big house in the ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٦",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الخيار الصحيح هو 'teacher' لأن النص يذكر: 'His mother is a teacher'.",
+        "method": "١- البحث في النص عن وظيفة والدة ماجد.\n٢- العثور على الجملة 'His mother is a teacher'.\n٣- اختيار الخيار المطابق (teacher).",
+        "options": [
+          "teacher",
+          "doctor",
+          "nurse",
+          "dressmaker"
+        ],
+        "question": "Majid's mother is a ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٧",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الخيار الصحيح هو 'tennis' لأن النص يذكر: 'Khalid and his son like playing tennis' (وابنه هو ماجد).",
+        "method": "١- البحث في النص عن الرياضة التي يحبها ماجد.\n٢- العثور على الجملة 'Khalid and his son like playing tennis'.\n٣- استنتاج أن الابن هو ماجد واختيار الخيار المطابق (tennis).",
+        "options": [
+          "football",
+          "tennis",
+          "basketball",
+          "chess"
+        ],
+        "question": "Majid likes playing ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٨",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245832909-23.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:45.570823+00:00",
+    "extracted_text": null,
+    "id": "c46915d1-cce3-483c-8124-378bb7763dc7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245832909-23.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 9 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245847701-25.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:56.261069+00:00",
+    "extracted_text": null,
+    "id": "6f462e5f-6f32-4af3-8309-ff51314d5076",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245847701-25.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 9"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245880180-17.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:43:05.949908+00:00",
+    "extracted_text": null,
+    "id": "4beb2b12-6926-409b-8bbb-c3ccc446f156",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245880180-17.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 13 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245840451-41.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:50.731885+00:00",
+    "extracted_text": null,
+    "id": "b8f07b26-f5de-48b0-9e9b-3a08b4578ead",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245840451-41.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 10 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245819730-24.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:29.635203+00:00",
+    "extracted_text": null,
+    "id": "73dc07ad-1f8f-44bc-849b-42ffd4cdfd53",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245819730-24.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 9 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245826850-42.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:38.689521+00:00",
+    "extracted_text": null,
+    "id": "5a19aec6-1b1a-488a-aacc-8a702965c1d2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245826850-42.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 10 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245826430-43.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:36.945259+00:00",
+    "extracted_text": null,
+    "id": "e58f2d63-a5b8-40b0-96fa-00a5df504fe6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245826430-43.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 10"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245845981-7.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:55.28302+00:00",
+    "extracted_text": null,
+    "id": "963aef3f-bc01-4001-8bde-44520ba113cc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245845981-7.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 11 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245810593-8.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:20.251055+00:00",
+    "extracted_text": null,
+    "id": "58c3c3f9-6d55-444d-8a0b-2598aa49d4ea",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245810593-8.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 11 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245833122-10.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:46.525599+00:00",
+    "extracted_text": null,
+    "id": "bd04527f-27ed-485f-a36c-886a76a5e1cc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245833122-10.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 11"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245850799-26.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:58.634796+00:00",
+    "extracted_text": null,
+    "id": "5166ebe2-090d-4084-863b-599ec27fe37e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245850799-26.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 12 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245878881-27.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:43:05.286414+00:00",
+    "extracted_text": null,
+    "id": "532486e6-d635-4a8e-b76a-eb7a3cb8bcbd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245878881-27.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 12 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245838577-28.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:49.676341+00:00",
+    "extracted_text": null,
+    "id": "9a2d6479-2859-4b30-a16e-4d94a8362b65",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245838577-28.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 12"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245818324-18.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:27.811368+00:00",
+    "extracted_text": null,
+    "id": "4ea55b2b-2757-488f-b694-fe437a26980d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245818324-18.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 13 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245849803-19.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:57.275107+00:00",
+    "extracted_text": null,
+    "id": "f7b58900-2bfc-45f5-a67f-fa3c4cbf3f98",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245849803-19.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 13"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245880826-11.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:43:07.627417+00:00",
+    "extracted_text": null,
+    "id": "0e49553f-d2cf-44d3-b485-5ca262dbb09a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245880826-11.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 14 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245843112-12.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:52.969618+00:00",
+    "extracted_text": null,
+    "id": "1f5f5bbd-cc93-444a-af3b-496cc47f7130",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245843112-12.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "النموذج 14 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1787245819323-13.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-20T17:42:28.828182+00:00",
+    "extracted_text": null,
+    "id": "28f1d033-dd6c-403a-b0f0-fd493c16d454",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1787245819323-13.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "da6fc228-1ada-4627-8306-80d9d3401490",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 14"
+  }
+]
