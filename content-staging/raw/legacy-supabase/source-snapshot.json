@@ -1,0 +1,62 @@
+{
+  "captured_date": "2026-09-13",
+  "source_project_ref": "zhbgbmqhonqmzpqfiehs",
+  "source_mode": "read_only",
+  "counts": {
+    "classes": 15,
+    "subjects": 58,
+    "page_rows": 5273,
+    "image_references": 5273,
+    "questions": 25755,
+    "subject_extra_classes": 0,
+    "subjects_without_pages": 2,
+    "duplicate_page_positions": 6
+  },
+  "source_drift": {
+    "detected": true,
+    "note": "The live embedded-question total is 25755. Older audit prose recorded a lower total. Every extraction batch must therefore be digest-locked to its own source snapshot."
+  },
+  "empty_subjects": [
+    {
+      "id": "b6ce737e-26d4-4219-a607-27bfb7d2f518",
+      "name": "كتاب الإسلامية - الجزء الأول",
+      "class": "تاسع الاسلامية"
+    },
+    {
+      "id": "e36ec148-0913-4bcc-a35c-268d464fecab",
+      "name": "كتاب الإسلامية - الجزء الثاني",
+      "class": "تاسع الاسلامية"
+    }
+  ],
+  "subjects_with_duplicate_page_positions": [
+    {
+      "id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+      "name": "الرياضيات نماذج وزارية 1446",
+      "duplicate_positions": 2
+    },
+    {
+      "id": "14ef15e0-5524-473a-bbdb-996df35ba535",
+      "name": "العلوم نماذج وزارية 1447",
+      "duplicate_positions": 1
+    },
+    {
+      "id": "da6fc228-1ada-4627-8306-80d9d3401490",
+      "name": "الانجليزي نماذج وزارية 1447",
+      "duplicate_positions": 3
+    }
+  ],
+  "first_batch": {
+    "legacy_class_id": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+    "legacy_class_name": "تاسع انجليزي",
+    "legacy_subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "legacy_subject_name": "انجليزي الكتاب",
+    "page_rows": 69,
+    "image_references": 69,
+    "questions": 104,
+    "null_page_numbers": 0,
+    "duplicate_page_positions": 0,
+    "raw_summary_count": 0,
+    "raw_extracted_text_count": 0,
+    "status": "ready_for_raw_binary_extraction"
+  }
+}
