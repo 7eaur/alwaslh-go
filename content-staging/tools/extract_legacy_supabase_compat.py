@@ -11,8 +11,10 @@ extract_legacy_supabase.py so the raw export contract stays unchanged.
 
 from __future__ import annotations
 
+import hashlib
 import importlib.util
 import json
+import os
 import pathlib
 import sys
 import urllib.error
@@ -30,14 +32,22 @@ sys.modules["legacy_raw_extractor"] = legacy
 spec.loader.exec_module(legacy)
 
 
+def normalize_api_key(api_key: str) -> str:
+    value = api_key.strip()
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
+        value = value[1:-1].strip()
+    return value
+
+
 def request_headers(api_key: str) -> dict[str, str]:
+    normalized = normalize_api_key(api_key)
     headers = {
-        "apikey": api_key,
+        "apikey": normalized,
         "Accept": "application/json",
         "User-Agent": "alwaslh-content-staging/1.0",
     }
-    if not api_key.startswith("sb_"):
-        headers["Authorization"] = f"Bearer {api_key}"
+    if not normalized.startswith("sb_"):
+        headers["Authorization"] = f"Bearer {normalized}"
     return headers
 
 
@@ -46,7 +56,12 @@ def request_json(self: Any, url: str) -> Any:
     try:
         with urllib.request.urlopen(request, timeout=45) as response:
             return json.loads(response.read().decode("utf-8"))
-    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
+    except urllib.error.HTTPError as exc:
+        body = exc.read(512).decode("utf-8", errors="replace")
+        raise legacy.ExtractionError(
+            f"legacy request failed: {url}: HTTP {exc.code}: {body}"
+        ) from exc
+    except (urllib.error.URLError, json.JSONDecodeError) as exc:
         raise legacy.ExtractionError(f"legacy request failed: {url}: {exc}") from exc
 
 
@@ -54,4 +69,17 @@ legacy.LegacyClient._request_json = request_json
 
 
 if __name__ == "__main__":
+    configured = normalize_api_key(os.getenv("LEGACY_SUPABASE_PUBLISHABLE_KEY", ""))
+    kind = (
+        "publishable"
+        if configured.startswith("sb_publishable_")
+        else "legacy_jwt"
+        if configured.startswith("eyJ")
+        else "other"
+    )
+    fingerprint = hashlib.sha256(configured.encode("utf-8")).hexdigest()[:16] if configured else "missing"
+    print(
+        f"legacy_key_diagnostic kind={kind} length={len(configured)} sha256_prefix={fingerprint}",
+        file=sys.stderr,
+    )
     raise SystemExit(legacy.main())
