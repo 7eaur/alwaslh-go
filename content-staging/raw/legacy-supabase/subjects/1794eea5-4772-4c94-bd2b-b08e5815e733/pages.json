@@ -1,0 +1,2433 @@
+[
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The answer given in the lesson is “Seventeen.”",
+        "options": [
+          "Seventeen",
+          "Fourteen",
+          "Fifteen",
+          "Eighteen"
+        ],
+        "question": "How old is Saleh?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson gives “Seventeen” as Saleh's age.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Saleh is seventeen years old.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text says the family is looking for presents and asks what can be bought for Saleh.",
+        "options": [
+          "presents",
+          "a school uniform",
+          "a bicycle",
+          "a camera"
+        ],
+        "question": "What does Mr Al Sabri want to buy for Saleh?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson states that he likes sport.",
+        "options": [
+          "sport",
+          "reading",
+          "jewellery",
+          "photography"
+        ],
+        "question": "What does Saleh like?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:00.9066+00:00",
+    "extracted_text": null,
+    "id": "2d98475c-91bf-4000-bfbc-79f7a6a854f9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/2d98475c-91bf-4000-bfbc-79f7a6a854f9/page_0005.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Presents from London"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Taha says he works in a clinic and cares for people's teeth.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Taha works in a clinic.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Taha says he works in a clinic and takes care of people's teeth.",
+        "options": [
+          "He is a dentist.",
+          "He is a teacher.",
+          "He is a doctor.",
+          "He is a police officer."
+        ],
+        "question": "What is Taha's job?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The office worker says, “I start work at 8 o'clock.”",
+        "options": [
+          "8 o'clock",
+          "7 o'clock",
+          "9 o'clock",
+          "2 o'clock"
+        ],
+        "question": "What time does the office worker start work?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text describes the doctor working in a clinic.",
+        "options": [
+          "in a clinic",
+          "in an office",
+          "in a hospital",
+          "in a school"
+        ],
+        "question": "Where does the doctor work?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:01.127286+00:00",
+    "extracted_text": null,
+    "id": "5e207993-508f-426b-ae71-f00aa4f782df",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/5e207993-508f-426b-ae71-f00aa4f782df/page_0006.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "What's my job?"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson states that Mr Al Sabri and his family went to London.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "The family went to London for the holidays.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Amna says she went swimming and fishing every day.",
+        "options": [
+          "She went swimming and fishing.",
+          "She stayed at home.",
+          "She went shopping.",
+          "She worked on a farm."
+        ],
+        "question": "What did Amna do every day?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text states that the family went to London for the holidays.",
+        "options": [
+          "London",
+          "Paris",
+          "Tokyo",
+          "Sana'a"
+        ],
+        "question": "Where did Mr Al Sabri and his family go on holiday?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:01.368417+00:00",
+    "extracted_text": null,
+    "id": "dc1d6249-c0cb-4982-9711-092b1dcffee3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/dc1d6249-c0cb-4982-9711-092b1dcffee3/page_0007.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "The holidays"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The page is titled “A postcard from London” and says Amna wrote to Mariam.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Amna wrote a postcard to Mariam.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The page is titled “A postcard from London” and says Amna wrote a postcard to Mariam.",
+        "options": [
+          "a postcard",
+          "a letter",
+          "a message",
+          "a diary"
+        ],
+        "question": "What did Amna write to Mariam?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:01.597172+00:00",
+    "extracted_text": null,
+    "id": "f2947d7f-5697-4bdc-b561-ad880a1afdf1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/f2947d7f-5697-4bdc-b561-ad880a1afdf1/page_0008.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "A postcard from London"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The first description gives a weight of 79 kilos.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "The first person described weighs 79 kilos.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The description says his eyes are brown.",
+        "options": [
+          "brown",
+          "blue",
+          "green",
+          "black"
+        ],
+        "question": "What colour are his eyes?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The first description states that he weighs 79 kilos.",
+        "options": [
+          "79 kilos",
+          "40 kilos",
+          "90 kilos",
+          "46 kilos"
+        ],
+        "question": "What is the weight of the tall, slim person described first?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:01.853367+00:00",
+    "extracted_text": null,
+    "id": "706771c2-2145-4682-9bdd-4e7df5c69bf9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/706771c2-2145-4682-9bdd-4e7df5c69bf9/page_0009.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "What do they look like?"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Tom is described as having a bad memory and forgetting everything.",
+        "options": [
+          "Tom",
+          "Simon",
+          "Jim",
+          "John"
+        ],
+        "question": "Which person has a bad memory?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:02.095975+00:00",
+    "extracted_text": null,
+    "id": "71ba9a99-e009-401f-b65f-8a956218a633",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/71ba9a99-e009-401f-b65f-8a956218a633/page_0010.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Opposites"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text states that Ali weighs 63 kilos.",
+        "options": [
+          "False",
+          "True"
+        ],
+        "question": "Ali weighs 27 kilos.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text explicitly names the black stork as Hassan's favourite bird.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Hassan's favourite bird is the black stork.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text states that Ali weighs 63 kilos.",
+        "options": [
+          "63 kilos",
+          "27 kilos",
+          "55 kilos",
+          "60 kilos"
+        ],
+        "question": "How much does Ali weigh?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text says Fatma has long black hair.",
+        "options": [
+          "long and black",
+          "short and fair",
+          "long and fair",
+          "short and black"
+        ],
+        "question": "What is Fatma's hair like?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The passage explicitly names the black stork as Hassan's favourite bird.",
+        "options": [
+          "the black stork",
+          "the eagle",
+          "the falcon",
+          "the parrot"
+        ],
+        "question": "What is Hassan's favourite bird?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:02.321924+00:00",
+    "extracted_text": null,
+    "id": "710cb3d4-e2c1-4d05-a1ef-2c0a1bbede2b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/710cb3d4-e2c1-4d05-a1ef-2c0a1bbede2b/page_0011.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Describing people"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The description says it has a long tail.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "The animal described has a long tail.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The animal is described as brown.",
+        "options": [
+          "brown",
+          "white",
+          "black",
+          "grey"
+        ],
+        "question": "What colour is the animal described?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text says it eats fruit and nuts.",
+        "options": [
+          "fruit and nuts",
+          "grass and leaves",
+          "fish and meat",
+          "seeds and insects"
+        ],
+        "question": "What does the animal eat?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:02.543129+00:00",
+    "extracted_text": null,
+    "id": "4b6090c2-744e-4fc6-8908-87c211a8713b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/4b6090c2-744e-4fc6-8908-87c211a8713b/page_0012.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Describing animals"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson gives “quarter past twelve” as one way to say 12:15.",
+        "options": [
+          "It’s quarter past twelve.",
+          "It’s half past twelve.",
+          "It’s quarter to twelve.",
+          "It’s fifteen to one."
+        ],
+        "question": "How is 12:15 expressed in the lesson?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson states that there are sixty minutes in an hour.",
+        "options": [
+          "sixty",
+          "thirty",
+          "fifteen",
+          "twenty"
+        ],
+        "question": "How many minutes are there in an hour?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The page states that there are thirty minutes in half an hour.",
+        "options": [
+          "thirty",
+          "sixty",
+          "fifteen",
+          "forty-five"
+        ],
+        "question": "How many minutes are there in half an hour?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The page states that there are sixty minutes in an hour.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "There are sixty minutes in an hour.",
+        "type": "true_false"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:02.772347+00:00",
+    "extracted_text": null,
+    "id": "b2449f0f-71f1-4e36-a739-cf64340f9c90",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/b2449f0f-71f1-4e36-a739-cf64340f9c90/page_0013.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "What's the time?"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The schedule lists Football at 5.15.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Football is scheduled at 5.15.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The schedule lists football at 5.15.",
+        "options": [
+          "5.15",
+          "5.00",
+          "6.30",
+          "7.45"
+        ],
+        "question": "What time is the football activity on the schedule?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Fuad says he is meeting Rashid at six o'clock.",
+        "options": [
+          "at six o'clock",
+          "at five o'clock",
+          "at seven o'clock",
+          "at eight o'clock"
+        ],
+        "question": "When is Rashid meeting mentioned in the dialogue?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:03.00537+00:00",
+    "extracted_text": null,
+    "id": "75616176-b12d-47bb-bb6e-34cc3f902901",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/75616176-b12d-47bb-bb6e-34cc3f902901/page_0014.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Arranging to meet someone"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Tom says he has to wash the dishes.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Tom has to wash the dishes.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Tom says he has to wash the dishes.",
+        "options": [
+          "wash the dishes",
+          "tidy the room",
+          "water the plants",
+          "mend a chair"
+        ],
+        "question": "What does Tom have to do before he can play football?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:03.232205+00:00",
+    "extracted_text": null,
+    "id": "ad939b52-4763-4554-83f1-46429e72adb7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/ad939b52-4763-4554-83f1-46429e72adb7/page_0015.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Things to do"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The first step is to dig the soil; planting seeds is step three.",
+        "options": [
+          "False",
+          "True"
+        ],
+        "question": "Planting the seeds is the first gardening step.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The instructions say first to dig the soil.",
+        "options": [
+          "dig the soil",
+          "plant the seeds",
+          "water the plants",
+          "remove the weeds"
+        ],
+        "question": "What should you do first when planning a garden?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The page labels a watering hose as a gardening tool for watering.",
+        "options": [
+          "a watering hose",
+          "a hoe",
+          "a spade",
+          "a fork"
+        ],
+        "question": "Which tool can be used for watering?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:03.454729+00:00",
+    "extracted_text": null,
+    "id": "2a7ef5ef-e82d-4323-b5ec-1c1adae83fd4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/2a7ef5ef-e82d-4323-b5ec-1c1adae83fd4/page_0016.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Planning a garden"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text says she is very interested in helping people.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Laila is interested in helping people.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text says history is Hassan's favourite school subject.",
+        "options": [
+          "history",
+          "chemistry",
+          "physics",
+          "English"
+        ],
+        "question": "What is Hassan's favourite school subject?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text says Laila's subjects are chemistry and physics.",
+        "options": [
+          "physics and chemistry",
+          "history and English",
+          "biology and maths",
+          "geography and physics"
+        ],
+        "question": "What subjects are Laila's favourites?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:03.686863+00:00",
+    "extracted_text": null,
+    "id": "217653ed-e928-4a0a-a976-6ea8effe094d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/217653ed-e928-4a0a-a976-6ea8effe094d/page_0017.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "What are they going to be?"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The snake bit Khalid in the leg.",
+        "options": [
+          "False",
+          "True"
+        ],
+        "question": "The snake bit Hassan in the leg.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Hassan says the snake bit Khalid in the leg.",
+        "options": [
+          "in the leg",
+          "in the arm",
+          "in the hand",
+          "in the neck"
+        ],
+        "question": "Where did the snake bite Khalid?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The story states that a snake bit Khalid in the leg.",
+        "options": [
+          "Khalid",
+          "Hassan",
+          "Jaufi",
+          "Fuad"
+        ],
+        "question": "Who was bitten by a snake?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:03.908959+00:00",
+    "extracted_text": null,
+    "id": "a90cd2f8-9f38-4f3b-a834-85f0ba104579",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/a90cd2f8-9f38-4f3b-a834-85f0ba104579/page_0018.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "The snake - episode 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:04.134282+00:00",
+    "extracted_text": null,
+    "id": "6679f224-3022-45eb-9f6c-a73b3ec21b76",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/6679f224-3022-45eb-9f6c-a73b3ec21b76/page_0019.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Language review 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:04.349944+00:00",
+    "extracted_text": null,
+    "id": "c91646f9-6ff9-42f1-9a69-c31f943492e8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/c91646f9-6ff9-42f1-9a69-c31f943492e8/page_0020.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "What is the weather like?"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:04.566046+00:00",
+    "extracted_text": null,
+    "id": "d6d8ac40-f3e6-4ba8-93ec-cdcdd6805fd0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/d6d8ac40-f3e6-4ba8-93ec-cdcdd6805fd0/page_0021.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "The months of the year"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:04.78353+00:00",
+    "extracted_text": null,
+    "id": "c70821e4-3ba1-4f13-b1a7-2c8eb099f4c0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/c70821e4-3ba1-4f13-b1a7-2c8eb099f4c0/page_0022.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "The weather in Yemen"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:05.011682+00:00",
+    "extracted_text": null,
+    "id": "909073fc-8ce3-4bf3-805b-ea01fa6b4529",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/909073fc-8ce3-4bf3-805b-ea01fa6b4529/page_0023.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Dates"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:05.227099+00:00",
+    "extracted_text": null,
+    "id": "a5856a71-47a3-44ac-b295-20ae444344cc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/a5856a71-47a3-44ac-b295-20ae444344cc/page_0024.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Four countries"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:05.450827+00:00",
+    "extracted_text": null,
+    "id": "2bf768d8-193b-4b2a-af53-c90fbd58afdd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/2bf768d8-193b-4b2a-af53-c90fbd58afdd/page_0025.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Four countries"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "India is listed with 700 million people, the largest figure shown.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "India has the largest population in the table.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "India has 700 million people in the table, the largest population shown.",
+        "options": [
+          "India",
+          "Oman",
+          "Japan",
+          "France"
+        ],
+        "question": "Which country has the largest population in the table?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Oman is 35°C in July while Japan is 25°C.",
+        "options": [
+          "Oman",
+          "Japan",
+          "France",
+          "India"
+        ],
+        "question": "Which country is hotter in July: Oman or Japan?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:05.674777+00:00",
+    "extracted_text": null,
+    "id": "ca454877-464a-4931-bcb5-aadb93c5e705",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/ca454877-464a-4931-bcb5-aadb93c5e705/page_0026.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Comparing countries"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:05.89325+00:00",
+    "extracted_text": null,
+    "id": "de078106-ecb3-4236-a4ae-04bcbd3d117e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/de078106-ecb3-4236-a4ae-04bcbd3d117e/page_0027.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "The world"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:06.123622+00:00",
+    "extracted_text": null,
+    "id": "533aa25a-6245-4d9a-b1f1-3275c69a2615",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/533aa25a-6245-4d9a-b1f1-3275c69a2615/page_0028.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "The snake - episode 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:06.345411+00:00",
+    "extracted_text": null,
+    "id": "f0815a8f-ed5f-4b4e-b44e-ad38a0779895",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/f0815a8f-ed5f-4b4e-b44e-ad38a0779895/page_0029.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Language review 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:06.572927+00:00",
+    "extracted_text": null,
+    "id": "dfbd5936-34b9-49d6-a573-7f2f524e2658",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/dfbd5936-34b9-49d6-a573-7f2f524e2658/page_0030.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "A Japanese pen-friend"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:06.796095+00:00",
+    "extracted_text": null,
+    "id": "f2b3fb87-4f1d-4714-9efc-c05e505a32fa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/f2b3fb87-4f1d-4714-9efc-c05e505a32fa/page_0031.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "A letter to Yuki"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:07.02531+00:00",
+    "extracted_text": null,
+    "id": "ea054f78-1580-43ab-b1ae-4774509c3eb6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/ea054f78-1580-43ab-b1ae-4774509c3eb6/page_0032.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Travelling by air"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:07.249135+00:00",
+    "extracted_text": null,
+    "id": "b996f87d-8fe1-4ce5-b41c-48c7ef140d07",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/b996f87d-8fe1-4ce5-b41c-48c7ef140d07/page_0033.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Which one is Yuki?"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:07.47296+00:00",
+    "extracted_text": null,
+    "id": "9524ce37-805d-4550-8332-8741849d5f32",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/9524ce37-805d-4550-8332-8741849d5f32/page_0034.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Fuad meets Yuki"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:07.685105+00:00",
+    "extracted_text": null,
+    "id": "f2bdc269-57fe-4f94-936e-4f08ca7713fb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/f2bdc269-57fe-4f94-936e-4f08ca7713fb/page_0035.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Fuad's first meal in Japan"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:07.908902+00:00",
+    "extracted_text": null,
+    "id": "877a4894-20c1-4575-a966-bafc287c4c00",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/877a4894-20c1-4575-a966-bafc287c4c00/page_0036.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Fuad's first meal in Japan"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:08.126516+00:00",
+    "extracted_text": null,
+    "id": "5fcf784a-3f80-47fb-9c7c-0eca098dac50",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/5fcf784a-3f80-47fb-9c7c-0eca098dac50/page_0037.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "The snake - episode 3"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The review defines the past perfect in this way.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "The past perfect shows an event that happened earlier than another past event.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The review explains that the past perfect shows an event that happened earlier than another event.",
+        "options": [
+          "Past perfect",
+          "Present continuous",
+          "Simple present",
+          "Future continuous"
+        ],
+        "question": "What tense is used for an event that happened earlier than another past event?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson uses the present continuous for arranged future events.",
+        "options": [
+          "present continuous",
+          "past perfect",
+          "simple past",
+          "present perfect"
+        ],
+        "question": "Which form is used to talk about arranged future events in the lesson?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:08.356282+00:00",
+    "extracted_text": null,
+    "id": "636b344f-0d8a-4302-8aa6-ffbdc5b83cca",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/636b344f-0d8a-4302-8aa6-ffbdc5b83cca/page_0038.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Language review 3"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The fire instructions say to try to put out a small fire quickly.",
+        "options": [
+          "Try to put it out quickly.",
+          "Pour water on burning oil.",
+          "Open all the doors and windows.",
+          "Run into the fire."
+        ],
+        "question": "What should you do if there is a small fire?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The instructions say “Next, call the fire brigade.”",
+        "options": [
+          "Call the fire brigade.",
+          "Move an injured person.",
+          "Swim to the person.",
+          "Write down a car number."
+        ],
+        "question": "What should you do next if there is a serious fire?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson states that most accidents happen in the home.",
+        "options": [
+          "in the home",
+          "at school",
+          "on the beach",
+          "in the street"
+        ],
+        "question": "Where do most accidents happen according to the lesson?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:08.606496+00:00",
+    "extracted_text": null,
+    "id": "02aa57a2-a361-4dee-a815-deae49f2983b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/02aa57a2-a361-4dee-a815-deae49f2983b/page_0039.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Warnings to children"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson states that most accidents happen in the home.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Most accidents happen in the home.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson warns never to pour water on burning oil.",
+        "options": [
+          "water",
+          "sand",
+          "a blanket",
+          "air"
+        ],
+        "question": "What should you never pour on burning oil?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The safety lesson says never to pour water on burning oil.",
+        "options": [
+          "False",
+          "True"
+        ],
+        "question": "You should pour water on burning oil.",
+        "type": "true_false"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:08.826279+00:00",
+    "extracted_text": null,
+    "id": "af6731a4-07c1-4fc0-8b6b-c52b14b160a5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/af6731a4-07c1-4fc0-8b6b-c52b14b160a5/page_0040.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Warnings to parents"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The advice says to switch off the electricity before changing a bulb.",
+        "options": [
+          "Switch off the electricity.",
+          "Put many plugs in one socket.",
+          "Pour water on burning oil.",
+          "Touch the bulb with wet hands."
+        ],
+        "question": "What advice is given before changing a light bulb?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "This is the safety advice given on the page.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "You should switch off the electricity before changing a bulb.",
+        "type": "true_false"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:09.048492+00:00",
+    "extracted_text": null,
+    "id": "d70002ba-86ee-4271-9478-a1e7f9a033a8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/d70002ba-86ee-4271-9478-a1e7f9a033a8/page_0041.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Giving advice"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The newspaper report says Carol swallowed a small rubber.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Carol swallowed a small rubber.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The accident report says Carol swallowed a small rubber.",
+        "options": [
+          "She swallowed a small rubber.",
+          "She fell from a chair.",
+          "She burned her hand.",
+          "She was bitten by a snake."
+        ],
+        "question": "What happened to Carol Black?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Mrs Fox said she threw water over the pan, which the article identifies as the wrong thing to do.",
+        "options": [
+          "She threw water on burning oil.",
+          "She switched off the electricity.",
+          "She called the fire brigade.",
+          "She left the kitchen immediately."
+        ],
+        "question": "What mistake did Mrs Fox make?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:09.297116+00:00",
+    "extracted_text": null,
+    "id": "72060bb8-c757-4ce7-8e5c-cdf9b0e1d1f5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/72060bb8-c757-4ce7-8e5c-cdf9b0e1d1f5/page_0042.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Accidents in the news"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The road-safety text states that the driver is driving too fast.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "The driver in the picture is driving too fast.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text says the driver is driving too fast.",
+        "options": [
+          "He is driving too fast.",
+          "He is wearing a seat belt.",
+          "He is walking on the pavement.",
+          "He is crossing at a zebra crossing."
+        ],
+        "question": "What is wrong with the driver in the picture?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The road-safety page identifies the handlebars as part of safe cycling.",
+        "options": [
+          "the handlebars",
+          "the seat belt",
+          "the pavement",
+          "the zebra crossing"
+        ],
+        "question": "What must a cyclist hold?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:09.511717+00:00",
+    "extracted_text": null,
+    "id": "56f88185-c4ab-4228-95f7-24d314272930",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/56f88185-c4ab-4228-95f7-24d314272930/page_0043.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Road safety"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The fishing dialogue gives swimming as the response if the boat sinks.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "If the boat sinks, they will swim.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The fishing dialogue says they need life jackets.",
+        "options": [
+          "life jackets",
+          "a television",
+          "a school bag",
+          "a bicycle"
+        ],
+        "question": "What should people have when they go fishing in the boat?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The dialogue says they will swim if the boat sinks.",
+        "options": [
+          "They will swim.",
+          "They will drive away.",
+          "They will call a teacher.",
+          "They will use a camera."
+        ],
+        "question": "What will they use if the boat sinks?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:09.730122+00:00",
+    "extracted_text": null,
+    "id": "2da0fdc5-77a6-49b0-8c12-9ffc032da59a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/2da0fdc5-77a6-49b0-8c12-9ffc032da59a/page_0044.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Going fishing"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The story states that they caught fourteen big fish and twelve small ones.",
+        "options": [
+          "fourteen",
+          "twelve",
+          "twenty-six",
+          "fifteen"
+        ],
+        "question": "How many big fish did the boys catch?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The story says they caught fourteen big fish and twelve small ones.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "The boys caught fourteen big fish.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Peter thought there was going to be a storm, so they went back.",
+        "options": [
+          "A storm was coming.",
+          "They had no boat.",
+          "They were late for school.",
+          "They wanted to buy food."
+        ],
+        "question": "Why did the boys return to the beach?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:09.970263+00:00",
+    "extracted_text": null,
+    "id": "e71e1449-d546-4a67-b100-c7c994e2653a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/e71e1449-d546-4a67-b100-c7c994e2653a/page_0045.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Peter's boat"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:10.197899+00:00",
+    "extracted_text": null,
+    "id": "13110a5a-2644-4795-a1e7-1a1cc5e0f46d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/13110a5a-2644-4795-a1e7-1a1cc5e0f46d/page_0046.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Terry's boat"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Tariq first thought his suitcase was lost and then went with the customs officer; the story does not say it was found there.",
+        "options": [
+          "False",
+          "True"
+        ],
+        "question": "Tariq's suitcase was found at the customs desk.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The customs officer asked Tariq to open his suitcase.",
+        "options": [
+          "open his suitcase",
+          "buy a ticket",
+          "call the airport",
+          "leave the airport"
+        ],
+        "question": "What did the customs officer ask Tariq to do?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Tariq could not find his suitcase when the other cases appeared.",
+        "options": [
+          "It was missing at first.",
+          "It was destroyed.",
+          "It was sent to Japan.",
+          "It was left on the plane."
+        ],
+        "question": "What happened to Tariq's suitcase?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:10.416179+00:00",
+    "extracted_text": null,
+    "id": "a070ac5d-b1d5-4db4-b00c-ea2a53d80c5e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/a070ac5d-b1d5-4db4-b00c-ea2a53d80c5e/page_0047.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Tom and Tariq - the suitcases"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:10.633614+00:00",
+    "extracted_text": null,
+    "id": "b3ddc144-56c5-4b68-b9d8-d4a54afbeacd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/b3ddc144-56c5-4b68-b9d8-d4a54afbeacd/page_0048.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Tom and Tariq - the suitcases"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:10.851608+00:00",
+    "extracted_text": null,
+    "id": "336be8fc-39bf-48df-9ae6-4151e0fdacfb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/336be8fc-39bf-48df-9ae6-4151e0fdacfb/page_0049.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Language review 4"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:11.072534+00:00",
+    "extracted_text": null,
+    "id": "89cb2859-ecb4-44c6-a736-1debaad02ed5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/89cb2859-ecb4-44c6-a736-1debaad02ed5/page_0050.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "People who help others"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:11.296753+00:00",
+    "extracted_text": null,
+    "id": "4488c4b9-cc44-4c50-a9b5-18425d661e33",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/4488c4b9-cc44-4c50-a9b5-18425d661e33/page_0051.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "What to do in an emergency"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:11.522539+00:00",
+    "extracted_text": null,
+    "id": "d9796307-a2e3-4e21-93a6-c980af5adaec",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/d9796307-a2e3-4e21-93a6-c980af5adaec/page_0052.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "People who need help"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:11.741506+00:00",
+    "extracted_text": null,
+    "id": "c1339484-cb43-4129-9510-1a7c5a7481b9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/c1339484-cb43-4129-9510-1a7c5a7481b9/page_0053.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Four special teachers"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The school description says they read Braille by touching dots with their fingers.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Blind pupils learn Braille by touching dots with their fingers.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text says they read Braille by touching dots with their fingers.",
+        "options": [
+          "by touching dots with their fingers",
+          "by watching people's lips",
+          "by listening to a recorder",
+          "by using a wheelchair"
+        ],
+        "question": "How do blind pupils read Braille?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text states there are one hundred and thirty pupils at the school.",
+        "options": [
+          "131",
+          "112",
+          "180",
+          "120"
+        ],
+        "question": "How many pupils are at School Henshaw?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson explains that blind pupils learn Braille by touching dots with their fingers.",
+        "options": [
+          "a language used to read by touching dots",
+          "a type of sports equipment",
+          "a kind of hearing aid",
+          "a method of cooking"
+        ],
+        "question": "What is Braille?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson says School Henshaw is near Manchester.",
+        "options": [
+          "near Manchester",
+          "near Southport",
+          "in London",
+          "in Sana'a"
+        ],
+        "question": "Where is School Henshaw?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:11.964411+00:00",
+    "extracted_text": null,
+    "id": "43af9e5e-6167-42b7-8d68-641f7f331106",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/43af9e5e-6167-42b7-8d68-641f7f331106/page_0054.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Two special schools"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "School Birkdale is near Southport; School Henshaw is near Manchester.",
+        "options": [
+          "False",
+          "True"
+        ],
+        "question": "School Birkdale is near Manchester.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson says they learn how to lip-read and also learn sign language.",
+        "options": [
+          "read lips and use sign language",
+          "read Braille",
+          "swim and dive",
+          "repair cars"
+        ],
+        "question": "What do deaf pupils at School Birkdale learn to do?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The school is described as having special hearing aids, computers and sports equipment.",
+        "options": [
+          "hearing aids",
+          "life jackets",
+          "compasses",
+          "telephones only"
+        ],
+        "question": "What special equipment does School Birkdale have?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:12.184807+00:00",
+    "extracted_text": null,
+    "id": "9cc3fac4-8bba-465c-bec4-72e76274c84d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/9cc3fac4-8bba-465c-bec4-72e76274c84d/page_0055.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Two special schools"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:12.418107+00:00",
+    "extracted_text": null,
+    "id": "759518de-06a1-442b-aea7-a0a888c32c53",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/759518de-06a1-442b-aea7-a0a888c32c53/page_0056.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Tom and Tariq - the eggs"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The story says he put five eggs into the pan.",
+        "options": [
+          "five",
+          "three",
+          "fifty",
+          "twenty"
+        ],
+        "question": "How many eggs did Tariq cook?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The story says he put five eggs into the pan.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Tariq cooked five eggs.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The story says Tariq put butter into a pan before adding the eggs.",
+        "options": [
+          "butter",
+          "water",
+          "oil",
+          "sugar"
+        ],
+        "question": "What did Tariq put into the pan before adding the eggs?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The kangaroo knocked over the tea and the eggs flew into the air.",
+        "options": [
+          "It knocked over the tea.",
+          "It ate the eggs.",
+          "It opened the door.",
+          "It broke the stove."
+        ],
+        "question": "What happened when the kangaroo raced through the kitchen?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:12.652136+00:00",
+    "extracted_text": null,
+    "id": "04e46d6a-de5e-42ef-8e30-aa2169fdfa76",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/04e46d6a-de5e-42ef-8e30-aa2169fdfa76/page_0057.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Tom and Tariq - the eggs"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:12.872618+00:00",
+    "extracted_text": null,
+    "id": "30e36b72-115a-45b4-95c0-25971f10e60c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/30e36b72-115a-45b4-95c0-25971f10e60c/page_0058.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Language review 5"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:13.102745+00:00",
+    "extracted_text": null,
+    "id": "f6b46b2f-529e-45f6-b501-b51985d0d77e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/f6b46b2f-529e-45f6-b501-b51985d0d77e/page_0059.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Signs and messages"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text says the telephone was invented in 1876 by Alexander Bell.",
+        "options": [
+          "Alexander Bell",
+          "Rod Border",
+          "Tariq",
+          "Mike"
+        ],
+        "question": "Who invented the telephone according to the lesson?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:13.696587+00:00",
+    "extracted_text": null,
+    "id": "f8fa9f24-eff3-4712-b662-f672c0a95634",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/f8fa9f24-eff3-4712-b662-f672c0a95634/page_0060.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Sending a letter"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:13.920579+00:00",
+    "extracted_text": null,
+    "id": "8348070b-dc67-4b61-8d7d-fdf1603003cd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/8348070b-dc67-4b61-8d7d-fdf1603003cd/page_0061.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "How letters get to different countries"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:14.155105+00:00",
+    "extracted_text": null,
+    "id": "5719c294-1300-4830-9acc-3c0dddad9497",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/5719c294-1300-4830-9acc-3c0dddad9497/page_0062.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "When and where?"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:14.379284+00:00",
+    "extracted_text": null,
+    "id": "e8833001-3fbc-4971-93f7-3f8d75a40707",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/e8833001-3fbc-4971-93f7-3f8d75a40707/page_0063.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Ways of sending messages"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson states that the telephone was invented in 1876 by Alexander Bell.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Alexander Bell invented the telephone in 1876.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text states that the telex machine was invented in the 1930s.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "The telex machine was invented in the 1930s.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Ed says it is three o'clock.",
+        "options": [
+          "three o'clock",
+          "six o'clock",
+          "eight o'clock",
+          "ten o'clock"
+        ],
+        "question": "What time was it when they were discussing the journey?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The lesson states that the telex machine was invented in the 1930s.",
+        "options": [
+          "in the 1930s",
+          "in 1876",
+          "in 1980",
+          "in 1984"
+        ],
+        "question": "When was the telex machine invented?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:14.593451+00:00",
+    "extracted_text": null,
+    "id": "db6c5fd2-87ef-4530-b793-ff8a9a7bf640",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/db6c5fd2-87ef-4530-b793-ff8a9a7bf640/page_0064.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Ways of sending messages"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Mike says Black Mountain is about eighty kilometres away.",
+        "options": [
+          "about eighty kilometres",
+          "about twenty kilometres",
+          "about fifty kilometres",
+          "about thirty kilometres"
+        ],
+        "question": "How many kilometres was Black Mountain from Mike and Ed?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:14.822729+00:00",
+    "extracted_text": null,
+    "id": "3f47c0b7-0303-40d1-b481-e6691a9eab90",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/3f47c0b7-0303-40d1-b481-e6691a9eab90/page_0065.jpg"
+    ],
+    "page_number": 61,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Flight to Black Mountain"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text says a fire might catch the whole forest.",
+        "options": [
+          "It could catch the whole forest on fire.",
+          "It was too cold.",
+          "There were no matches.",
+          "The airport was too close."
+        ],
+        "question": "Why did Talal reject making a fire in the forest?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:15.079447+00:00",
+    "extracted_text": null,
+    "id": "2e56b220-06a7-4f97-8245-9290ee14bc65",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/2e56b220-06a7-4f97-8245-9290ee14bc65/page_0066.jpg"
+    ],
+    "page_number": 62,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Flight to Black Mountain"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Fuad says he would stay there and wait if he had a tent and food.",
+        "options": [
+          "stay there and wait",
+          "make a fire",
+          "walk to the petrol station",
+          "swim across the river"
+        ],
+        "question": "What would Fuad do if he had a tent and some food?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:15.304437+00:00",
+    "extracted_text": null,
+    "id": "43616465-71f8-4acb-bc5c-475154ac6949",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/43616465-71f8-4acb-bc5c-475154ac6949/page_0067.jpg"
+    ],
+    "page_number": 63,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "What would you do?"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Tariq says he can drive his uncle's tractor to the farm.",
+        "options": [
+          "his uncle's tractor",
+          "a helicopter",
+          "a bus",
+          "a boat"
+        ],
+        "question": "What did Tariq use to take Jim to the farm?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The story says Jim slipped on the mountain and broke his leg.",
+        "options": [
+          "He broke his leg.",
+          "He lost his map.",
+          "He fell into a river.",
+          "He missed the bus."
+        ],
+        "question": "What happened to Jim Cooper?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The story says they needed to send an urgent message because there had been an accident.",
+        "options": [
+          "There had been an accident.",
+          "The camp was closed.",
+          "The bus was late.",
+          "The weather was sunny."
+        ],
+        "question": "What was the message sent to Southport?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:15.524109+00:00",
+    "extracted_text": null,
+    "id": "8eb796ed-e3da-41bc-912b-0080583fb4c3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/8eb796ed-e3da-41bc-912b-0080583fb4c3/page_0068.jpg"
+    ],
+    "page_number": 64,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Tom and Tariq - in the mountains"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:15.742824+00:00",
+    "extracted_text": null,
+    "id": "f55d6c60-2e27-4d4b-a591-d52c8a46caa9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/f55d6c60-2e27-4d4b-a591-d52c8a46caa9/page_0069.jpg"
+    ],
+    "page_number": 65,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Language review 6"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The sports facts explicitly identify the Marathon as the longest Olympic race.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "The Marathon is the longest race in the Olympics.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The text identifies Everest as the highest mountain in the world.",
+        "options": [
+          "Everest",
+          "Black Mountain",
+          "the Pacific",
+          "Mount Hijaz"
+        ],
+        "question": "What is the highest mountain in the world?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The sports facts state that the Marathon is the longest race in the Olympics.",
+        "options": [
+          "the Marathon",
+          "the 100 metres",
+          "the 200 metres",
+          "the long jump"
+        ],
+        "question": "Which race is the longest in the Olympics?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:15.955473+00:00",
+    "extracted_text": null,
+    "id": "a1418757-2a62-4374-ae62-c67fa1d79476",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/a1418757-2a62-4374-ae62-c67fa1d79476/page_0070.jpg"
+    ],
+    "page_number": 66,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Sporting facts"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Simon recorded 26 seconds, the fastest 200-metre time in the table.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Simon won the 200 metres.",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Simon recorded 26 seconds, the fastest time in the 200 metres.",
+        "options": [
+          "Simon",
+          "Tom",
+          "Bill",
+          "Linford Christie"
+        ],
+        "question": "Who won the 200 metres?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Tom's high jump was 1.45 m, higher than Bill's 1.35 m and Simon's 1.40 m.",
+        "options": [
+          "Tom",
+          "Bill",
+          "Simon",
+          "Khaled"
+        ],
+        "question": "Who won the high jump in the school games?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:16.178012+00:00",
+    "extracted_text": null,
+    "id": "41cb360a-e937-4461-b415-68b21ae3f3e5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/41cb360a-e937-4461-b415-68b21ae3f3e5/page_0071.jpg"
+    ],
+    "page_number": 67,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "The school games"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The dialogue says Bill woke up late and missed the race.",
+        "options": [
+          "He woke up late.",
+          "He lost his shoes.",
+          "He had no money.",
+          "He was injured."
+        ],
+        "question": "Why did Bill miss the race?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:16.397488+00:00",
+    "extracted_text": null,
+    "id": "c1325dd1-a526-48df-8111-93716def6313",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/c1325dd1-a526-48df-8111-93716def6313/page_0072.jpg"
+    ],
+    "page_number": 68,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "What went wrong?"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "The story reveals that Tariq shouted “Ants!” after the medal pin pressed him.",
+        "options": [
+          "Tariq shouted because of ants.",
+          "The medal broke.",
+          "Tom ran away.",
+          "Rod dropped the medal."
+        ],
+        "question": "What happened when Rod pressed the medal hard?",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "Rod says Tariq and Tom are going to get a special WYC medal.",
+        "options": [
+          "a special WYC medal",
+          "a gold Olympic medal",
+          "a silver medal",
+          "a school medal"
+        ],
+        "question": "What medal did Tariq receive?",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:44:16.621514+00:00",
+    "extracted_text": null,
+    "id": "1ccf6a68-ce67-4187-95f8-064ecebf1ecb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/1794eea5-4772-4c94-bd2b-b08e5815e733/lesson/1ccf6a68-ce67-4187-95f8-064ecebf1ecb/page_0073.jpg"
+    ],
+    "page_number": 69,
+    "subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "summary": null,
+    "title": "Tom and Tariq - the medals"
+  }
+]
