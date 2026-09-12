@@ -73,8 +73,9 @@ def main() -> int:
         section_title = normalize_title(str(entry["section"]))
         source_title = normalize_title(str(page["title"]))
         manifest_title = normalize_title(str(entry["title"]))
+        candidate_seed = f"{args.subject_id}:{page['id']}"
         candidate = {
-            "candidate_id": f"page-candidate-{stable_id(f'{args.subject_id}:{page[\"id\"]}')}",
+            "candidate_id": f"page-candidate-{stable_id(candidate_seed)}",
             "legacy_page_id": page["id"],
             "book_page": page_number,
             "source_page": entry.get("source_page"),
@@ -91,9 +92,10 @@ def main() -> int:
 
     section_rows = []
     for position, (title, candidates) in enumerate(sections.items()):
+        section_seed = f"{args.subject_id}:{title}"
         section_rows.append(
             {
-                "section_id": f"section-{stable_id(f'{args.subject_id}:{title}')}",
+                "section_id": f"section-{stable_id(section_seed)}",
                 "title": title,
                 "position": position,
                 "first_book_page": candidates[0]["book_page"],
