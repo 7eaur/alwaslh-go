@@ -1,0 +1,946 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:35.089438+00:00",
+    "extracted_text": null,
+    "id": "6a41fa04-855d-47d9-bbf5-a6074c5fd9e2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/6a41fa04-855d-47d9-bbf5-a6074c5fd9e2/page_0007.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "الشباب والعادات غير الصحية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:35.311847+00:00",
+    "extracted_text": null,
+    "id": "91fb135c-4224-49c7-9668-9d660a738711",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/91fb135c-4224-49c7-9668-9d660a738711/page_0008.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مرحلة الشباب"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:35.554565+00:00",
+    "extracted_text": null,
+    "id": "ec65e192-2246-4e25-b0bf-d80b282137b9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/ec65e192-2246-4e25-b0bf-d80b282137b9/page_0009.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مرحلة الشباب"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:35.781051+00:00",
+    "extracted_text": null,
+    "id": "1a46041e-0f6e-4202-8c2f-a1b79afe9a3f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/1a46041e-0f6e-4202-8c2f-a1b79afe9a3f/page_0010.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مرحلة الشباب"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:36.017004+00:00",
+    "extracted_text": null,
+    "id": "9b75bfe0-73a1-4045-9076-f75b85295220",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/9b75bfe0-73a1-4045-9076-f75b85295220/page_0011.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مرحلة الشباب"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:36.250303+00:00",
+    "extracted_text": null,
+    "id": "3f6b120b-d3a7-43fc-8c7b-91e163ec1059",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/3f6b120b-d3a7-43fc-8c7b-91e163ec1059/page_0012.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "عقل الإنسان وجسمه"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:36.482829+00:00",
+    "extracted_text": null,
+    "id": "e43e8a71-2286-4d54-b617-e8dbc5ba9a38",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/e43e8a71-2286-4d54-b617-e8dbc5ba9a38/page_0013.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "عقل الإنسان وجسمه"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:36.718366+00:00",
+    "extracted_text": null,
+    "id": "f32b7600-c8ce-40b6-9971-09370977e58b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/f32b7600-c8ce-40b6-9971-09370977e58b/page_0014.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "عقل الإنسان وجسمه"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:36.944293+00:00",
+    "extracted_text": null,
+    "id": "df2a5f7c-598d-4c72-bca3-51705a5895d6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/df2a5f7c-598d-4c72-bca3-51705a5895d6/page_0015.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "عقل الإنسان وجسمه"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:37.176262+00:00",
+    "extracted_text": null,
+    "id": "cb312fb3-c892-4521-a906-d238b716a1cf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/cb312fb3-c892-4521-a906-d238b716a1cf/page_0016.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "العادات غير الصحية وطرق معالجتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:37.392872+00:00",
+    "extracted_text": null,
+    "id": "04f2bd22-69e9-49d3-88bc-f2338a14bd67",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/04f2bd22-69e9-49d3-88bc-f2338a14bd67/page_0017.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "العادات غير الصحية وطرق معالجتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:37.617812+00:00",
+    "extracted_text": null,
+    "id": "0c7a86c1-30b9-489b-9e23-880a13a4b870",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/0c7a86c1-30b9-489b-9e23-880a13a4b870/page_0018.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "العادات غير الصحية وطرق معالجتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:37.922026+00:00",
+    "extracted_text": null,
+    "id": "eca86654-b24b-466e-9e8d-b65283ea7896",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/eca86654-b24b-466e-9e8d-b65283ea7896/page_0019.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "العادات غير الصحية وطرق معالجتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:38.145041+00:00",
+    "extracted_text": null,
+    "id": "fff89416-0165-48b0-92c6-1089a27ae11d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/fff89416-0165-48b0-92c6-1089a27ae11d/page_0020.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "تقويم الوحدة الأولى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:38.368052+00:00",
+    "extracted_text": null,
+    "id": "a3757c27-f4c6-4703-85e8-c2cb8dfeb225",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/a3757c27-f4c6-4703-85e8-c2cb8dfeb225/page_0021.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "تقويم الوحدة الأولى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:38.58974+00:00",
+    "extracted_text": null,
+    "id": "898e1a7b-dd83-4ca8-b1ee-9282d1208158",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/898e1a7b-dd83-4ca8-b1ee-9282d1208158/page_0022.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "الظواهر الاجتماعية والأسرة اليمنية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:38.809546+00:00",
+    "extracted_text": null,
+    "id": "bef26013-6d4d-460a-a49b-da9f2a7f411c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/bef26013-6d4d-460a-a49b-da9f2a7f411c/page_0023.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "عمل الأطفال"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:39.040813+00:00",
+    "extracted_text": null,
+    "id": "d19c975c-1bbc-45b4-9f67-0231492269de",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/d19c975c-1bbc-45b4-9f67-0231492269de/page_0024.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "عمل الأطفال"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:39.273296+00:00",
+    "extracted_text": null,
+    "id": "573cf175-8bf0-4c48-8cba-ae0ebfdf78a3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/573cf175-8bf0-4c48-8cba-ae0ebfdf78a3/page_0025.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "عمل الأطفال"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:39.49205+00:00",
+    "extracted_text": null,
+    "id": "97f5f39e-6815-4faf-ac02-e63aa71db51f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/97f5f39e-6815-4faf-ac02-e63aa71db51f/page_0026.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "اغتراب رب الأسرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:39.707273+00:00",
+    "extracted_text": null,
+    "id": "acb7286c-128a-44a0-9b6a-8eddebe71663",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/acb7286c-128a-44a0-9b6a-8eddebe71663/page_0027.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "اغتراب رب الأسرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:39.925876+00:00",
+    "extracted_text": null,
+    "id": "eca540b6-12be-4836-8e88-be37b73c9c7f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/eca540b6-12be-4836-8e88-be37b73c9c7f/page_0028.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "اغتراب رب الأسرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:40.153099+00:00",
+    "extracted_text": null,
+    "id": "a763462c-89e7-4398-ab64-5d2aa4a36efe",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/a763462c-89e7-4398-ab64-5d2aa4a36efe/page_0029.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "اغتراب رب الأسرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:40.378599+00:00",
+    "extracted_text": null,
+    "id": "ac1ac0f7-4348-41d5-abc2-ac8329c815e4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/ac1ac0f7-4348-41d5-abc2-ac8329c815e4/page_0030.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "المغالاة في المهور"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:40.625857+00:00",
+    "extracted_text": null,
+    "id": "9e3f3ead-31cd-497c-926f-18768338778a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/9e3f3ead-31cd-497c-926f-18768338778a/page_0031.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "المغالاة في المهور"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:40.8555+00:00",
+    "extracted_text": null,
+    "id": "1611722b-5eff-477c-82a2-275b0bbbfb63",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/1611722b-5eff-477c-82a2-275b0bbbfb63/page_0032.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "المغالاة في المهور"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:41.076426+00:00",
+    "extracted_text": null,
+    "id": "35a31b92-65c6-45e8-84b5-cabbd82e349a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/35a31b92-65c6-45e8-84b5-cabbd82e349a/page_0033.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "تقويم الوحدة الثانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:41.300717+00:00",
+    "extracted_text": null,
+    "id": "d8220d81-fbe0-4f3d-9feb-07125d1104ec",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/d8220d81-fbe0-4f3d-9feb-07125d1104ec/page_0034.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "تقويم الوحدة الثانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:41.527547+00:00",
+    "extracted_text": null,
+    "id": "213f8e11-6adc-4e85-b602-a1afd3514715",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/213f8e11-6adc-4e85-b602-a1afd3514715/page_0035.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل العربي الإسلامي وأهميته ومجالاته"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:41.760731+00:00",
+    "extracted_text": null,
+    "id": "b3760eb9-6111-44f7-b943-46627dcde80d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/b3760eb9-6111-44f7-b943-46627dcde80d/page_0036.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:41.97802+00:00",
+    "extracted_text": null,
+    "id": "96be8e5b-9c9e-441a-a4fb-cae2933ebba3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/96be8e5b-9c9e-441a-a4fb-cae2933ebba3/page_0037.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:42.197685+00:00",
+    "extracted_text": null,
+    "id": "0af6a65f-3fb2-4e71-9939-ef6c44366307",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/0af6a65f-3fb2-4e71-9939-ef6c44366307/page_0038.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:42.422656+00:00",
+    "extracted_text": null,
+    "id": "dcb691c4-dadf-4fbb-be91-fb0b42ecdacb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/dcb691c4-dadf-4fbb-be91-fb0b42ecdacb/page_0039.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:42.646491+00:00",
+    "extracted_text": null,
+    "id": "3be04ccb-dc7c-42e9-8d34-8add70f6e6e5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/3be04ccb-dc7c-42e9-8d34-8add70f6e6e5/page_0040.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل الاقتصادي العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:42.880637+00:00",
+    "extracted_text": null,
+    "id": "a6b61aa7-2a5a-4651-bfc0-880615c3d2de",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/a6b61aa7-2a5a-4651-bfc0-880615c3d2de/page_0041.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل الاقتصادي العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:43.237921+00:00",
+    "extracted_text": null,
+    "id": "ce899213-3535-4811-aed8-e579580a4b75",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/ce899213-3535-4811-aed8-e579580a4b75/page_0042.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل الثقافي والتربوي العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:43.490138+00:00",
+    "extracted_text": null,
+    "id": "8c5cc613-fd57-4d97-8615-4a19874ecaa9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/8c5cc613-fd57-4d97-8615-4a19874ecaa9/page_0043.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل الثقافي والتربوي العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:43.717962+00:00",
+    "extracted_text": null,
+    "id": "bcb2f7b9-1398-4669-a672-7789ae4ace71",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/bcb2f7b9-1398-4669-a672-7789ae4ace71/page_0044.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل الثقافي والتربوي العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:43.948044+00:00",
+    "extracted_text": null,
+    "id": "91ed50e1-947b-40c7-8b0b-f7e92875746f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/91ed50e1-947b-40c7-8b0b-f7e92875746f/page_0045.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل السياسي والعسكري العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:44.165861+00:00",
+    "extracted_text": null,
+    "id": "7783f0b8-8fd2-4ee4-bfa0-0a42c1959d72",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/7783f0b8-8fd2-4ee4-bfa0-0a42c1959d72/page_0046.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل السياسي والعسكري العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:44.392464+00:00",
+    "extracted_text": null,
+    "id": "3acadc46-9a94-4624-8492-bef7dd06e61e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/3acadc46-9a94-4624-8492-bef7dd06e61e/page_0047.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "التكامل السياسي والعسكري العربي الإسلامي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:44.621572+00:00",
+    "extracted_text": null,
+    "id": "f65816e3-5345-4325-a779-02eaca99725e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/f65816e3-5345-4325-a779-02eaca99725e/page_0048.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "تقويم الوحدة الثالثة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:44.854664+00:00",
+    "extracted_text": null,
+    "id": "feb84f68-45a7-4296-80a5-a449c925c391",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/feb84f68-45a7-4296-80a5-a449c925c391/page_0049.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "تقويم الوحدة الثالثة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:45.079254+00:00",
+    "extracted_text": null,
+    "id": "183872fe-5800-45ac-bf9e-d892ee862ecc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/183872fe-5800-45ac-bf9e-d892ee862ecc/page_0050.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "المشاركة المجتمعية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:45.301478+00:00",
+    "extracted_text": null,
+    "id": "3823296c-7e87-421b-89f5-85a3acbca54a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/3823296c-7e87-421b-89f5-85a3acbca54a/page_0051.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مشاركة الفرد في الحياة المجتمعية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:45.521176+00:00",
+    "extracted_text": null,
+    "id": "55693d28-83c4-4e3d-8669-7d5086fb460a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/55693d28-83c4-4e3d-8669-7d5086fb460a/page_0052.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مشاركة الفرد في الحياة المجتمعية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:45.761294+00:00",
+    "extracted_text": null,
+    "id": "a2854778-04e7-4ada-9dc2-eaadd1fae0d3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/a2854778-04e7-4ada-9dc2-eaadd1fae0d3/page_0053.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مشاركة الفرد في الحياة المجتمعية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:45.990803+00:00",
+    "extracted_text": null,
+    "id": "09f2a8e9-c564-45de-aec3-2cedf9303861",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/09f2a8e9-c564-45de-aec3-2cedf9303861/page_0054.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "الآداب العامة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:46.200845+00:00",
+    "extracted_text": null,
+    "id": "8cbcd998-2438-42d0-91bf-22f6b796f8dc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/8cbcd998-2438-42d0-91bf-22f6b796f8dc/page_0055.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "الآداب العامة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:46.418723+00:00",
+    "extracted_text": null,
+    "id": "b8a54c75-def5-4ba6-8690-6abe11cf4f85",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/b8a54c75-def5-4ba6-8690-6abe11cf4f85/page_0056.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "الآداب العامة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:46.635589+00:00",
+    "extracted_text": null,
+    "id": "f56f64a7-cf72-477c-a4be-ec54a1486418",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/f56f64a7-cf72-477c-a4be-ec54a1486418/page_0057.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "الآداب العامة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:46.84726+00:00",
+    "extracted_text": null,
+    "id": "543f1d78-e702-42f1-b4a1-b0ff8c8f4eb6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/543f1d78-e702-42f1-b4a1-b0ff8c8f4eb6/page_0058.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "الحفاظ على الملكية العامة والخاصة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:47.055018+00:00",
+    "extracted_text": null,
+    "id": "c013c1d3-eb1e-4e06-b4cf-869ed1f2f61d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/c013c1d3-eb1e-4e06-b4cf-869ed1f2f61d/page_0059.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "الحفاظ على الملكية العامة والخاصة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:47.271508+00:00",
+    "extracted_text": null,
+    "id": "e8556123-b0f6-434d-98f6-0ae306725e5e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/e8556123-b0f6-434d-98f6-0ae306725e5e/page_0060.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "الحفاظ على الملكية العامة والخاصة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:47.507783+00:00",
+    "extracted_text": null,
+    "id": "4bea9207-6688-47a6-baae-035d6d6354ed",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/4bea9207-6688-47a6-baae-035d6d6354ed/page_0061.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مكافحة الرشوة والغش والاحتكار"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:47.73355+00:00",
+    "extracted_text": null,
+    "id": "97b7e8ce-be66-41f3-98b0-0692285c9c8a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/97b7e8ce-be66-41f3-98b0-0692285c9c8a/page_0062.jpg"
+    ],
+    "page_number": 61,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مكافحة الرشوة والغش والاحتكار"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:47.945923+00:00",
+    "extracted_text": null,
+    "id": "7a260492-a52c-45fe-b9fc-63353d3836e5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/7a260492-a52c-45fe-b9fc-63353d3836e5/page_0063.jpg"
+    ],
+    "page_number": 62,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مكافحة الرشوة والغش والاحتكار"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:48.161057+00:00",
+    "extracted_text": null,
+    "id": "1d6707ca-2757-43e3-b4c7-1f5b9187e505",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/1d6707ca-2757-43e3-b4c7-1f5b9187e505/page_0064.jpg"
+    ],
+    "page_number": 63,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "مكافحة الرشوة والغش والاحتكار"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:45:48.376505+00:00",
+    "extracted_text": null,
+    "id": "0000bfa8-2426-49b6-b2c3-10b38ed2cf7b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7f02b242-5164-46d1-a82d-7f1023cfa8c9/lesson/0000bfa8-2426-49b6-b2c3-10b38ed2cf7b/page_0065.jpg"
+    ],
+    "page_number": 64,
+    "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+    "summary": null,
+    "title": "تقويم الوحدة الرابعة"
+  }
+]
