@@ -1,0 +1,2322 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:13.383942+00:00",
+    "extracted_text": null,
+    "id": "48d5de9b-3d18-4a0a-a1be-56f4b0ca17c3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/48d5de9b-3d18-4a0a-a1be-56f4b0ca17c3/page_0008.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تفاعلات العناصر والمركبات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:13.620406+00:00",
+    "extracted_text": null,
+    "id": "fee80fe2-b811-4f01-84aa-3ffbaae501b1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/fee80fe2-b811-4f01-84aa-3ffbaae501b1/page_0009.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "أكاسيد العناصر"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:13.854049+00:00",
+    "extracted_text": null,
+    "id": "c9a36497-329f-472f-b3a8-026aba6aaf12",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/c9a36497-329f-472f-b3a8-026aba6aaf12/page_0010.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "أكاسيد العناصر"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:14.077129+00:00",
+    "extracted_text": null,
+    "id": "6c218c60-5abc-4b7b-916d-a447fd6cc971",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/6c218c60-5abc-4b7b-916d-a447fd6cc971/page_0011.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "أكاسيد العناصر"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:14.30207+00:00",
+    "extracted_text": null,
+    "id": "54a67b3d-f133-4c20-aac8-2535dcadc800",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/54a67b3d-f133-4c20-aac8-2535dcadc800/page_0012.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "أكاسيد العناصر"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:14.533045+00:00",
+    "extracted_text": null,
+    "id": "6ca3cd53-c018-43dc-bb6d-eb277da2dbdc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/6ca3cd53-c018-43dc-bb6d-eb277da2dbdc/page_0013.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "أكاسيد العناصر"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:14.752578+00:00",
+    "extracted_text": null,
+    "id": "93ba4421-7198-4700-af77-9803a85ff377",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/93ba4421-7198-4700-af77-9803a85ff377/page_0014.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "آثار ضارة للأكسدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:14.982836+00:00",
+    "extracted_text": null,
+    "id": "7bbff7d5-da2c-4ca8-83ff-28fadee34042",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/7bbff7d5-da2c-4ca8-83ff-28fadee34042/page_0015.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "آثار ضارة للأكسدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:15.222134+00:00",
+    "extracted_text": null,
+    "id": "464dd410-1676-43c8-a6a6-ddf7e53d951a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/464dd410-1676-43c8-a6a6-ddf7e53d951a/page_0016.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "آثار ضارة للأكسدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:15.45165+00:00",
+    "extracted_text": null,
+    "id": "880f9c93-2eca-4e4d-9ea1-1473595981b1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/880f9c93-2eca-4e4d-9ea1-1473595981b1/page_0017.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "آثار ضارة للأكسدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:15.670581+00:00",
+    "extracted_text": null,
+    "id": "b94a7045-ca6a-41da-9aea-fe33d9b5259a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b94a7045-ca6a-41da-9aea-fe33d9b5259a/page_0018.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الكربون"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:15.901139+00:00",
+    "extracted_text": null,
+    "id": "8042b4ac-a7e8-45be-a689-b48106959291",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/8042b4ac-a7e8-45be-a689-b48106959291/page_0019.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الكربون"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:16.124518+00:00",
+    "extracted_text": null,
+    "id": "6b6794e4-717e-4010-a669-05f8eb8c3fc3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/6b6794e4-717e-4010-a669-05f8eb8c3fc3/page_0020.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الكربون"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:16.350386+00:00",
+    "extracted_text": null,
+    "id": "bcf71817-5343-4a11-b074-9c778973cb84",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/bcf71817-5343-4a11-b074-9c778973cb84/page_0021.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "غاز ثاني أكسيد الكربون CO2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:16.584883+00:00",
+    "extracted_text": null,
+    "id": "48462351-4395-4350-bdd4-f1be15ac9c28",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/48462351-4395-4350-bdd4-f1be15ac9c28/page_0022.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "غاز ثاني أكسيد الكربون CO2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:16.811216+00:00",
+    "extracted_text": null,
+    "id": "f0a161c8-8ddf-4669-96ce-39b8859945c3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/f0a161c8-8ddf-4669-96ce-39b8859945c3/page_0023.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "غاز ثاني أكسيد الكربون CO2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:17.043888+00:00",
+    "extracted_text": null,
+    "id": "257bb9f5-0bd4-480f-ba5d-866a472f12db",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/257bb9f5-0bd4-480f-ba5d-866a472f12db/page_0024.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "النفط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:17.26406+00:00",
+    "extracted_text": null,
+    "id": "91eb280e-955d-498e-9514-f58952f02c40",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/91eb280e-955d-498e-9514-f58952f02c40/page_0025.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "النفط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:17.488168+00:00",
+    "extracted_text": null,
+    "id": "a642a496-9a62-4ab8-b71f-096bff3f290e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/a642a496-9a62-4ab8-b71f-096bff3f290e/page_0026.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "النفط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:17.705097+00:00",
+    "extracted_text": null,
+    "id": "1d905472-9cbb-478f-ae01-13a86c49e7fc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/1d905472-9cbb-478f-ae01-13a86c49e7fc/page_0027.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "النفط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:18.292553+00:00",
+    "extracted_text": null,
+    "id": "5bdb172f-8313-4235-b025-70802d8fa248",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/5bdb172f-8313-4235-b025-70802d8fa248/page_0028.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "التلوث الناتج عن الصناعات الكيميائية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:18.511889+00:00",
+    "extracted_text": null,
+    "id": "b09995e9-f5ed-4b32-9348-8efb5216c144",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b09995e9-f5ed-4b32-9348-8efb5216c144/page_0029.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "التلوث الناتج عن الصناعات الكيميائية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:18.739825+00:00",
+    "extracted_text": null,
+    "id": "2e548c19-2d32-443a-8260-aa05c2cb28fd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/2e548c19-2d32-443a-8260-aa05c2cb28fd/page_0030.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:19.308064+00:00",
+    "extracted_text": null,
+    "id": "c45734f5-0028-4474-912c-bf3e5fa7d9ec",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/c45734f5-0028-4474-912c-bf3e5fa7d9ec/page_0031.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الهالوجينات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:19.534586+00:00",
+    "extracted_text": null,
+    "id": "ddd06100-5e16-45b1-8ce0-616df72138c8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/ddd06100-5e16-45b1-8ce0-616df72138c8/page_0032.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "خصائص الهالوجينات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:19.750778+00:00",
+    "extracted_text": null,
+    "id": "372dc4c9-2c38-4a4a-85b4-c4a3b1fac596",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/372dc4c9-2c38-4a4a-85b4-c4a3b1fac596/page_0033.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "خصائص الهالوجينات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:19.972726+00:00",
+    "extracted_text": null,
+    "id": "64ce948d-713c-4113-ba87-c05bba156f68",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/64ce948d-713c-4113-ba87-c05bba156f68/page_0034.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الهالوجينات في حياتنا"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:20.195248+00:00",
+    "extracted_text": null,
+    "id": "d5aedd81-7049-4ce9-a647-3bd92bd6e2f1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/d5aedd81-7049-4ce9-a647-3bd92bd6e2f1/page_0035.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الهالوجينات في حياتنا"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:20.425789+00:00",
+    "extracted_text": null,
+    "id": "6505b937-98cf-49ae-b03f-56c5c742d75e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/6505b937-98cf-49ae-b03f-56c5c742d75e/page_0036.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الهالوجينات في حياتنا"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:20.645597+00:00",
+    "extracted_text": null,
+    "id": "b3387055-5caa-4ffd-9f99-9a4ab30c6aff",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b3387055-5caa-4ffd-9f99-9a4ab30c6aff/page_0037.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الكلور"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:20.861478+00:00",
+    "extracted_text": null,
+    "id": "5a8720ee-90fe-4820-814c-3731ccf471a6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/5a8720ee-90fe-4820-814c-3731ccf471a6/page_0038.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الكلور"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:21.077819+00:00",
+    "extracted_text": null,
+    "id": "31d62c93-4790-47e4-a445-776435b1e117",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/31d62c93-4790-47e4-a445-776435b1e117/page_0039.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الكلور"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:21.307405+00:00",
+    "extracted_text": null,
+    "id": "1464e7ba-ba50-42b2-958e-1fde1d0703fb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/1464e7ba-ba50-42b2-958e-1fde1d0703fb/page_0040.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:21.518059+00:00",
+    "extracted_text": null,
+    "id": "8fa3be3f-da70-473d-a8b3-b6170349c6fb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/8fa3be3f-da70-473d-a8b3-b6170349c6fb/page_0041.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "خواص الأجسام"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:21.740839+00:00",
+    "extracted_text": null,
+    "id": "154f0e6e-b287-4021-b5bd-db1f269588a1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/154f0e6e-b287-4021-b5bd-db1f269588a1/page_0042.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:21.958123+00:00",
+    "extracted_text": null,
+    "id": "b6a5f055-1658-4814-b2dd-17f5d31796c9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b6a5f055-1658-4814-b2dd-17f5d31796c9/page_0043.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:22.1824+00:00",
+    "extracted_text": null,
+    "id": "15afa281-e0b0-429a-a057-046d73d29113",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/15afa281-e0b0-429a-a057-046d73d29113/page_0044.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:22.405572+00:00",
+    "extracted_text": null,
+    "id": "2de2783a-8c61-4f39-acf0-7722a21c3948",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/2de2783a-8c61-4f39-acf0-7722a21c3948/page_0045.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:22.639224+00:00",
+    "extracted_text": null,
+    "id": "f9d3d5ea-1499-4f21-bc80-f6cc59b54ccd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/f9d3d5ea-1499-4f21-bc80-f6cc59b54ccd/page_0046.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:22.855196+00:00",
+    "extracted_text": null,
+    "id": "f0b6073c-7071-4df1-b00c-29cd7d768077",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/f0b6073c-7071-4df1-b00c-29cd7d768077/page_0047.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:23.105489+00:00",
+    "extracted_text": null,
+    "id": "11caa843-7cc4-4e57-b7e5-a1a7a806a783",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/11caa843-7cc4-4e57-b7e5-a1a7a806a783/page_0048.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:23.325762+00:00",
+    "extracted_text": null,
+    "id": "855981b1-b6ff-47c6-bb5d-989b810282a5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/855981b1-b6ff-47c6-bb5d-989b810282a5/page_0049.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:23.557443+00:00",
+    "extracted_text": null,
+    "id": "9e9639ef-3ce2-43e4-a9c0-c8e1deee3be3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/9e9639ef-3ce2-43e4-a9c0-c8e1deee3be3/page_0050.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:23.773875+00:00",
+    "extracted_text": null,
+    "id": "af4443b8-940c-4da6-9adc-69cdcbac8986",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/af4443b8-940c-4da6-9adc-69cdcbac8986/page_0051.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:24.010565+00:00",
+    "extracted_text": null,
+    "id": "42c258aa-a95c-4521-8602-3c4845bea08e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/42c258aa-a95c-4521-8602-3c4845bea08e/page_0052.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:24.241717+00:00",
+    "extracted_text": null,
+    "id": "9e49759a-1a8e-4362-a730-0179ec23675e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/9e49759a-1a8e-4362-a730-0179ec23675e/page_0053.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "بعض خواص الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:24.457865+00:00",
+    "extracted_text": null,
+    "id": "5afe7fe0-e476-4261-96e1-dc22d02a6053",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/5afe7fe0-e476-4261-96e1-dc22d02a6053/page_0054.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الغشاء المشدود لسطوح السوائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:24.679866+00:00",
+    "extracted_text": null,
+    "id": "5df0958b-6de9-419f-adfa-a503eaa91184",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/5df0958b-6de9-419f-adfa-a503eaa91184/page_0055.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الغشاء المشدود لسطوح السوائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:24.90093+00:00",
+    "extracted_text": null,
+    "id": "378d80bd-2b90-408c-ba9f-27e58de80996",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/378d80bd-2b90-408c-ba9f-27e58de80996/page_0056.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الغشاء المشدود لسطوح السوائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:25.125209+00:00",
+    "extracted_text": null,
+    "id": "efc79f33-a467-4f4d-b8d5-75457b53480e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/efc79f33-a467-4f4d-b8d5-75457b53480e/page_0057.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الغشاء المشدود لسطوح السوائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:25.36244+00:00",
+    "extracted_text": null,
+    "id": "06450e62-500f-4bca-b63d-50ca5a75f09f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/06450e62-500f-4bca-b63d-50ca5a75f09f/page_0058.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الغشاء المشدود لسطوح السوائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:25.589468+00:00",
+    "extracted_text": null,
+    "id": "b62cf86b-6131-4c12-8fd4-b5aa1a9286b2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b62cf86b-6131-4c12-8fd4-b5aa1a9286b2/page_0059.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الغشاء المشدود لسطوح السوائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:25.798099+00:00",
+    "extracted_text": null,
+    "id": "f48cd8f4-a8d2-44f1-ad9e-1a810e889df5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/f48cd8f4-a8d2-44f1-ad9e-1a810e889df5/page_0060.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "قوى التماسك والتلاصق بين جزيئات السائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:26.019582+00:00",
+    "extracted_text": null,
+    "id": "b4f3f09b-fda9-4fe5-99f5-335609d95146",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b4f3f09b-fda9-4fe5-99f5-335609d95146/page_0061.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "قوى التماسك والتلاصق بين جزيئات السائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:26.245711+00:00",
+    "extracted_text": null,
+    "id": "b0d6210c-8a49-4845-872b-3f2a1206ce3c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b0d6210c-8a49-4845-872b-3f2a1206ce3c/page_0062.jpg"
+    ],
+    "page_number": 61,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "قوى التماسك والتلاصق بين جزيئات السائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:26.45932+00:00",
+    "extracted_text": null,
+    "id": "d2b5fe5d-7181-405d-be8f-90081017d867",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/d2b5fe5d-7181-405d-be8f-90081017d867/page_0063.jpg"
+    ],
+    "page_number": 62,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "ارتفاع الماء في الأنابيب الضيقة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:26.680737+00:00",
+    "extracted_text": null,
+    "id": "7ec32b9d-951f-4a15-b79f-9fda2bc6c578",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/7ec32b9d-951f-4a15-b79f-9fda2bc6c578/page_0064.jpg"
+    ],
+    "page_number": 63,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "ارتفاع الماء في الأنابيب الضيقة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:27.034432+00:00",
+    "extracted_text": null,
+    "id": "098af3fb-63fa-4ebf-9caa-c12bdc35fe07",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/098af3fb-63fa-4ebf-9caa-c12bdc35fe07/page_0065.jpg"
+    ],
+    "page_number": 64,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "ارتفاع الماء في الأنابيب الضيقة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:27.249295+00:00",
+    "extracted_text": null,
+    "id": "dde01333-ec98-4554-aec3-fe794a72f78a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/dde01333-ec98-4554-aec3-fe794a72f78a/page_0066.jpg"
+    ],
+    "page_number": 65,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الجريان الانسيابي المنتظم للسوائل خلال الأنابيب"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:27.472313+00:00",
+    "extracted_text": null,
+    "id": "27903b18-1c54-482d-8dbb-10b32e6e8e82",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/27903b18-1c54-482d-8dbb-10b32e6e8e82/page_0067.jpg"
+    ],
+    "page_number": 66,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الجريان الانسيابي المنتظم للسوائل خلال الأنابيب"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:27.687358+00:00",
+    "extracted_text": null,
+    "id": "7cf0ff5a-528c-43e7-917b-17694710b1db",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/7cf0ff5a-528c-43e7-917b-17694710b1db/page_0068.jpg"
+    ],
+    "page_number": 67,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الجريان الانسيابي المنتظم للسوائل خلال الأنابيب"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:27.90346+00:00",
+    "extracted_text": null,
+    "id": "13d75686-f61f-4c2c-9191-51293ea232d5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/13d75686-f61f-4c2c-9191-51293ea232d5/page_0069.jpg"
+    ],
+    "page_number": 68,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "للسائل خاصية لزوجة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:28.132998+00:00",
+    "extracted_text": null,
+    "id": "6765dd93-54e1-4727-a99e-07ffcde4a775",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/6765dd93-54e1-4727-a99e-07ffcde4a775/page_0070.jpg"
+    ],
+    "page_number": 69,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "للسائل خاصية لزوجة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:28.343868+00:00",
+    "extracted_text": null,
+    "id": "ef0849f2-9fcf-4bf7-bb55-608c88901ea2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/ef0849f2-9fcf-4bf7-bb55-608c88901ea2/page_0071.jpg"
+    ],
+    "page_number": 70,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "للسائل خاصية لزوجة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:28.552895+00:00",
+    "extracted_text": null,
+    "id": "cbdb2830-ddca-4bcb-bd28-3291d81106ee",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/cbdb2830-ddca-4bcb-bd28-3291d81106ee/page_0072.jpg"
+    ],
+    "page_number": 71,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "للسائل خاصية لزوجة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:28.765433+00:00",
+    "extracted_text": null,
+    "id": "f89d2c98-0446-4b96-a310-748ef410d0c5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/f89d2c98-0446-4b96-a310-748ef410d0c5/page_0073.jpg"
+    ],
+    "page_number": 72,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الانتشار في السوائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:28.98169+00:00",
+    "extracted_text": null,
+    "id": "855ed336-df6b-4579-956a-ff182ef5e032",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/855ed336-df6b-4579-956a-ff182ef5e032/page_0074.jpg"
+    ],
+    "page_number": 73,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الانتشار في السوائل"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:29.202858+00:00",
+    "extracted_text": null,
+    "id": "5605e1af-6508-409e-8df3-384a9bfb81ef",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/5605e1af-6508-409e-8df3-384a9bfb81ef/page_0075.jpg"
+    ],
+    "page_number": 74,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:29.418122+00:00",
+    "extracted_text": null,
+    "id": "c2f636c2-1d5b-40ea-85ac-5fd78c12eaf7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/c2f636c2-1d5b-40ea-85ac-5fd78c12eaf7/page_0076.jpg"
+    ],
+    "page_number": 75,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:29.63015+00:00",
+    "extracted_text": null,
+    "id": "2eaf7b61-34f9-4706-95d8-53234c41d6e7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/2eaf7b61-34f9-4706-95d8-53234c41d6e7/page_0077.jpg"
+    ],
+    "page_number": 76,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط في المواد الصلبة والموائع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:29.847177+00:00",
+    "extracted_text": null,
+    "id": "b89c61da-d10e-4d3e-a581-59f5021ea803",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b89c61da-d10e-4d3e-a581-59f5021ea803/page_0078.jpg"
+    ],
+    "page_number": 77,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط في الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:30.061692+00:00",
+    "extracted_text": null,
+    "id": "777fed27-dd88-4f15-80ef-392bbcfb0338",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/777fed27-dd88-4f15-80ef-392bbcfb0338/page_0079.jpg"
+    ],
+    "page_number": 78,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط في الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:30.282148+00:00",
+    "extracted_text": null,
+    "id": "4be24d27-4037-42ea-92a1-97cef566ca3e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/4be24d27-4037-42ea-92a1-97cef566ca3e/page_0080.jpg"
+    ],
+    "page_number": 79,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط في الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:30.496878+00:00",
+    "extracted_text": null,
+    "id": "cc79afdd-45f8-4b01-9bb5-1fd594bab0e0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/cc79afdd-45f8-4b01-9bb5-1fd594bab0e0/page_0081.jpg"
+    ],
+    "page_number": 80,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط في الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:30.724723+00:00",
+    "extracted_text": null,
+    "id": "aa62fe77-d139-4519-a8e1-37f7c804cfb1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/aa62fe77-d139-4519-a8e1-37f7c804cfb1/page_0082.jpg"
+    ],
+    "page_number": 81,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط في الأجسام الصلبة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:30.932772+00:00",
+    "extracted_text": null,
+    "id": "f40fc8e9-7482-44ee-8ce1-3694a99c4551",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/f40fc8e9-7482-44ee-8ce1-3694a99c4551/page_0083.jpg"
+    ],
+    "page_number": 82,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "للسوائل ضغط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:31.142383+00:00",
+    "extracted_text": null,
+    "id": "a3dcf33e-bd36-44f6-a0da-fa889f267778",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/a3dcf33e-bd36-44f6-a0da-fa889f267778/page_0084.jpg"
+    ],
+    "page_number": 83,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "للسوائل ضغط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:31.374652+00:00",
+    "extracted_text": null,
+    "id": "5a4dfaa7-6c0c-4dee-a2b1-2cab8794b8a3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/5a4dfaa7-6c0c-4dee-a2b1-2cab8794b8a3/page_0085.jpg"
+    ],
+    "page_number": 84,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "للسوائل ضغط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:31.592891+00:00",
+    "extracted_text": null,
+    "id": "40bf7aed-ee7a-4e27-85f0-88f93ec71086",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/40bf7aed-ee7a-4e27-85f0-88f93ec71086/page_0086.jpg"
+    ],
+    "page_number": 85,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "للسوائل ضغط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:31.804535+00:00",
+    "extracted_text": null,
+    "id": "b1b88bca-3483-47e3-af73-69e1c1c0bedd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b1b88bca-3483-47e3-af73-69e1c1c0bedd/page_0087.jpg"
+    ],
+    "page_number": 86,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط الجوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:32.018394+00:00",
+    "extracted_text": null,
+    "id": "e707a3bf-2a6a-4f58-a19e-9c61e0bf7541",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/e707a3bf-2a6a-4f58-a19e-9c61e0bf7541/page_0088.jpg"
+    ],
+    "page_number": 87,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط الجوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:32.230401+00:00",
+    "extracted_text": null,
+    "id": "4d7b92a8-9540-43cc-8a53-a28727276bd4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/4d7b92a8-9540-43cc-8a53-a28727276bd4/page_0089.jpg"
+    ],
+    "page_number": 88,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط الجوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:32.447024+00:00",
+    "extracted_text": null,
+    "id": "3d58cea2-6b43-4e72-bef1-62783d575a13",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/3d58cea2-6b43-4e72-bef1-62783d575a13/page_0090.jpg"
+    ],
+    "page_number": 89,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط الجوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:32.668645+00:00",
+    "extracted_text": null,
+    "id": "0607e0b0-03a8-4d09-bcf1-46cbc5c27ae8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/0607e0b0-03a8-4d09-bcf1-46cbc5c27ae8/page_0091.jpg"
+    ],
+    "page_number": 90,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط الجوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:32.884292+00:00",
+    "extracted_text": null,
+    "id": "1fa59e4b-45ad-42db-b3c1-ed302cc26579",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/1fa59e4b-45ad-42db-b3c1-ed302cc26579/page_0092.jpg"
+    ],
+    "page_number": 91,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الضغط الجوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:33.105692+00:00",
+    "extracted_text": null,
+    "id": "4d5e8423-7496-47e6-aeec-6c41486e3e79",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/4d5e8423-7496-47e6-aeec-6c41486e3e79/page_0093.jpg"
+    ],
+    "page_number": 92,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:33.32822+00:00",
+    "extracted_text": null,
+    "id": "d38ee78f-8cd6-419a-aefb-98b31f918505",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/d38ee78f-8cd6-419a-aefb-98b31f918505/page_0094.jpg"
+    ],
+    "page_number": 93,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:33.545495+00:00",
+    "extracted_text": null,
+    "id": "2c894a8b-260e-4057-b16d-15ab8780013a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/2c894a8b-260e-4057-b16d-15ab8780013a/page_0095.jpg"
+    ],
+    "page_number": 94,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الطاقة الشمسية واستغلالها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:33.761341+00:00",
+    "extracted_text": null,
+    "id": "eb92d4f9-5de8-4929-995e-73570ba320ae",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/eb92d4f9-5de8-4929-995e-73570ba320ae/page_0096.jpg"
+    ],
+    "page_number": 95,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الطاقة الشمسية (الإشعاع الشمسي)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:33.986033+00:00",
+    "extracted_text": null,
+    "id": "343b7501-6e53-4933-a22c-505dbc708a5c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/343b7501-6e53-4933-a22c-505dbc708a5c/page_0097.jpg"
+    ],
+    "page_number": 96,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الطاقة الشمسية (الإشعاع الشمسي)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:34.209102+00:00",
+    "extracted_text": null,
+    "id": "1171885e-dd73-4b92-99ff-972a54285005",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/1171885e-dd73-4b92-99ff-972a54285005/page_0098.jpg"
+    ],
+    "page_number": 97,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الطاقة الشمسية (الإشعاع الشمسي)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:34.43005+00:00",
+    "extracted_text": null,
+    "id": "99c7b6eb-aff2-4672-beb8-78311f38550e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/99c7b6eb-aff2-4672-beb8-78311f38550e/page_0099.jpg"
+    ],
+    "page_number": 98,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الطاقة الشمسية (الإشعاع الشمسي)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:34.681285+00:00",
+    "extracted_text": null,
+    "id": "fc1803de-0040-419a-8a9e-005ef6ed42cc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/fc1803de-0040-419a-8a9e-005ef6ed42cc/page_0100.jpg"
+    ],
+    "page_number": 99,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "التحويل الحراري للطاقة الشمسية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:34.907136+00:00",
+    "extracted_text": null,
+    "id": "ebb968fa-f89c-4dc4-843d-8f1042e6d732",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/ebb968fa-f89c-4dc4-843d-8f1042e6d732/page_0101.jpg"
+    ],
+    "page_number": 100,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "التحويل الحراري للطاقة الشمسية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:35.149125+00:00",
+    "extracted_text": null,
+    "id": "a12e1970-7f51-438d-82c3-093b3ee2fe84",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/a12e1970-7f51-438d-82c3-093b3ee2fe84/page_0102.jpg"
+    ],
+    "page_number": 101,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "التحويل الحراري للطاقة الشمسية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:35.389128+00:00",
+    "extracted_text": null,
+    "id": "323e1fd4-acbb-4161-8e95-f7c47196a969",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/323e1fd4-acbb-4161-8e95-f7c47196a969/page_0103.jpg"
+    ],
+    "page_number": 102,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "التحويل الحراري للطاقة الشمسية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:35.62808+00:00",
+    "extracted_text": null,
+    "id": "b2c80492-4306-4158-811a-26da687efa65",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b2c80492-4306-4158-811a-26da687efa65/page_0104.jpg"
+    ],
+    "page_number": 103,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تحويل الطاقة الشمسية إلى طاقة كهربائية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:35.846902+00:00",
+    "extracted_text": null,
+    "id": "42adea0a-1a02-4dce-ac08-87c0bd15903e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/42adea0a-1a02-4dce-ac08-87c0bd15903e/page_0105.jpg"
+    ],
+    "page_number": 104,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تحويل الطاقة الشمسية إلى طاقة كهربائية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:36.083786+00:00",
+    "extracted_text": null,
+    "id": "c20868d7-02a6-402c-81a0-8748d2d7957b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/c20868d7-02a6-402c-81a0-8748d2d7957b/page_0106.jpg"
+    ],
+    "page_number": 105,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تحويل الطاقة الشمسية إلى طاقة كهربائية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:36.310975+00:00",
+    "extracted_text": null,
+    "id": "abd42e6b-cd42-4423-aa3d-5837151b75e5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/abd42e6b-cd42-4423-aa3d-5837151b75e5/page_0107.jpg"
+    ],
+    "page_number": 106,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:36.540334+00:00",
+    "extracted_text": null,
+    "id": "962507b7-4857-46c6-97dc-fd666a8a2153",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/962507b7-4857-46c6-97dc-fd666a8a2153/page_0108.jpg"
+    ],
+    "page_number": 107,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الإنسان يستثمر موارد البيئة الحية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:36.765141+00:00",
+    "extracted_text": null,
+    "id": "ee005983-bd08-49a8-9228-a1e9a707fbcc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/ee005983-bd08-49a8-9228-a1e9a707fbcc/page_0109.jpg"
+    ],
+    "page_number": 108,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "وسائل تنمية الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:36.985488+00:00",
+    "extracted_text": null,
+    "id": "b0ce80ba-d60b-4a36-9a59-a92ba0fc5559",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b0ce80ba-d60b-4a36-9a59-a92ba0fc5559/page_0110.jpg"
+    ],
+    "page_number": 109,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "وسائل تنمية الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:37.209263+00:00",
+    "extracted_text": null,
+    "id": "3eb49952-41e7-45bb-82a4-fe69182a50fc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/3eb49952-41e7-45bb-82a4-fe69182a50fc/page_0111.jpg"
+    ],
+    "page_number": 110,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "وسائل تنمية الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:37.423682+00:00",
+    "extracted_text": null,
+    "id": "e95bf997-777c-4064-bf73-948893187a55",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/e95bf997-777c-4064-bf73-948893187a55/page_0112.jpg"
+    ],
+    "page_number": 111,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "وسائل تنمية الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:37.666482+00:00",
+    "extracted_text": null,
+    "id": "da185428-b241-4c98-b470-c65d386ecfa5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/da185428-b241-4c98-b470-c65d386ecfa5/page_0113.jpg"
+    ],
+    "page_number": 112,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "وسائل تنمية الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:37.896454+00:00",
+    "extracted_text": null,
+    "id": "1ea418a0-c8fb-44e9-b3c7-3eaa9a6b5b84",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/1ea418a0-c8fb-44e9-b3c7-3eaa9a6b5b84/page_0114.jpg"
+    ],
+    "page_number": 113,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "وسائل تنمية الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:38.127072+00:00",
+    "extracted_text": null,
+    "id": "2b0055ac-5dd1-4452-845b-203456cd20c6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/2b0055ac-5dd1-4452-845b-203456cd20c6/page_0115.jpg"
+    ],
+    "page_number": 114,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "وسائل تنمية الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:38.344827+00:00",
+    "extracted_text": null,
+    "id": "d4cd1aa0-c858-4833-adb2-d4f355d57dc3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/d4cd1aa0-c858-4833-adb2-d4f355d57dc3/page_0116.jpg"
+    ],
+    "page_number": 115,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "وسائل تنمية الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:38.57455+00:00",
+    "extracted_text": null,
+    "id": "90ad4ae2-44f8-46cf-9aa0-2a6ff0c68a86",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/90ad4ae2-44f8-46cf-9aa0-2a6ff0c68a86/page_0117.jpg"
+    ],
+    "page_number": 116,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "وسائل تنمية الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:38.79254+00:00",
+    "extracted_text": null,
+    "id": "df476bd3-c35f-4add-98d1-3162a7e619ee",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/df476bd3-c35f-4add-98d1-3162a7e619ee/page_0118.jpg"
+    ],
+    "page_number": 117,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "صناعات تعتمد على الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:39.009973+00:00",
+    "extracted_text": null,
+    "id": "3506f8e6-f52e-4a73-b01d-a077d21b9d45",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/3506f8e6-f52e-4a73-b01d-a077d21b9d45/page_0119.jpg"
+    ],
+    "page_number": 118,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "صناعات تعتمد على الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:39.226896+00:00",
+    "extracted_text": null,
+    "id": "1e50919f-2ef6-4a3f-bd75-186d00558ca2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/1e50919f-2ef6-4a3f-bd75-186d00558ca2/page_0120.jpg"
+    ],
+    "page_number": 119,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "صناعات تعتمد على الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:39.437113+00:00",
+    "extracted_text": null,
+    "id": "b338d80e-256b-44e0-bedf-dfc4c4b8bf12",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/b338d80e-256b-44e0-bedf-dfc4c4b8bf12/page_0121.jpg"
+    ],
+    "page_number": 120,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "صناعات تعتمد على الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:39.650756+00:00",
+    "extracted_text": null,
+    "id": "a5d2de71-7b74-4a3d-ae8c-7e3e6f73dfe9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/a5d2de71-7b74-4a3d-ae8c-7e3e6f73dfe9/page_0122.jpg"
+    ],
+    "page_number": 121,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "صناعات تعتمد على الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:39.866517+00:00",
+    "extracted_text": null,
+    "id": "e0a50f82-467a-4f95-ba38-2456b921d907",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/e0a50f82-467a-4f95-ba38-2456b921d907/page_0123.jpg"
+    ],
+    "page_number": 122,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "صناعات تعتمد على الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:40.100497+00:00",
+    "extracted_text": null,
+    "id": "06681169-57db-4ed3-811f-a65ef015eb55",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/06681169-57db-4ed3-811f-a65ef015eb55/page_0124.jpg"
+    ],
+    "page_number": 123,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "صناعات تعتمد على الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:40.325032+00:00",
+    "extracted_text": null,
+    "id": "dd91fa03-3b2e-4620-8a80-255b138225e2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/dd91fa03-3b2e-4620-8a80-255b138225e2/page_0125.jpg"
+    ],
+    "page_number": 124,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "صناعات تعتمد على الثروة النباتية والحيوانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:40.541726+00:00",
+    "extracted_text": null,
+    "id": "7fe385b1-0a24-44e0-a8dc-7d55fdc34bea",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/7fe385b1-0a24-44e0-a8dc-7d55fdc34bea/page_0126.jpg"
+    ],
+    "page_number": 125,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:40.765915+00:00",
+    "extracted_text": null,
+    "id": "11f0607a-08eb-4b4b-b066-ae7aa8658b5b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/11f0607a-08eb-4b4b-b066-ae7aa8658b5b/page_0127.jpg"
+    ],
+    "page_number": 126,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "رعاية الأمومة والطفولة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:40.984346+00:00",
+    "extracted_text": null,
+    "id": "a8113a0b-fb00-44e9-b457-87ea8a634c72",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/a8113a0b-fb00-44e9-b457-87ea8a634c72/page_0128.jpg"
+    ],
+    "page_number": 127,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "العناية بالأم الحامل والجنين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:41.197245+00:00",
+    "extracted_text": null,
+    "id": "744c53ae-62f5-4fae-a89e-de53232be76f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/744c53ae-62f5-4fae-a89e-de53232be76f/page_0129.jpg"
+    ],
+    "page_number": 128,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "العناية بالأم الحامل والجنين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:41.4126+00:00",
+    "extracted_text": null,
+    "id": "12e5c9c6-499a-4503-9865-393e25556377",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/12e5c9c6-499a-4503-9865-393e25556377/page_0130.jpg"
+    ],
+    "page_number": 129,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "العناية بالأم الحامل والجنين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:41.656005+00:00",
+    "extracted_text": null,
+    "id": "67ddac58-ae25-411b-adec-a868abda28df",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/67ddac58-ae25-411b-adec-a868abda28df/page_0131.jpg"
+    ],
+    "page_number": 130,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الرضاعة الطبيعية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:41.878988+00:00",
+    "extracted_text": null,
+    "id": "1b908100-eeb6-4613-98ea-c46b3c994d87",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/1b908100-eeb6-4613-98ea-c46b3c994d87/page_0132.jpg"
+    ],
+    "page_number": 131,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الرضاعة الطبيعية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:42.09708+00:00",
+    "extracted_text": null,
+    "id": "8fc3f0bc-67fb-4ee8-9c7e-33f6567f16b1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/8fc3f0bc-67fb-4ee8-9c7e-33f6567f16b1/page_0133.jpg"
+    ],
+    "page_number": 132,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الرضاعة الطبيعية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:42.316764+00:00",
+    "extracted_text": null,
+    "id": "f3ac6f83-801c-49bb-8533-9666fdb463c9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/f3ac6f83-801c-49bb-8533-9666fdb463c9/page_0134.jpg"
+    ],
+    "page_number": 133,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تنظيم الأسرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:42.535052+00:00",
+    "extracted_text": null,
+    "id": "a66d1c37-f895-413d-9aeb-f36842f8e6c3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/a66d1c37-f895-413d-9aeb-f36842f8e6c3/page_0135.jpg"
+    ],
+    "page_number": 134,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:42.77075+00:00",
+    "extracted_text": null,
+    "id": "167eda44-80b4-4f31-8e37-aff32b29f579",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/167eda44-80b4-4f31-8e37-aff32b29f579/page_0136.jpg"
+    ],
+    "page_number": 135,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:42.993948+00:00",
+    "extracted_text": null,
+    "id": "e138355e-9587-43bf-a608-815d504185c5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/e138355e-9587-43bf-a608-815d504185c5/page_0137.jpg"
+    ],
+    "page_number": 136,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الوراثة في الكائنات الحية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:43.211665+00:00",
+    "extracted_text": null,
+    "id": "46b401bb-e3e3-48bc-8904-4bb0ae2772fd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/46b401bb-e3e3-48bc-8904-4bb0ae2772fd/page_0138.jpg"
+    ],
+    "page_number": 137,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "ما الوراثة؟"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:43.440318+00:00",
+    "extracted_text": null,
+    "id": "8c3bc17f-44fa-480f-af95-efeadec46341",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/8c3bc17f-44fa-480f-af95-efeadec46341/page_0139.jpg"
+    ],
+    "page_number": 138,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "ما الوراثة؟"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:43.67397+00:00",
+    "extracted_text": null,
+    "id": "7c65b88a-00f9-421c-85dd-559eecdbc101",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/7c65b88a-00f9-421c-85dd-559eecdbc101/page_0140.jpg"
+    ],
+    "page_number": 139,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "ما الوراثة؟"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:43.902736+00:00",
+    "extracted_text": null,
+    "id": "5bb0873a-181d-4ee5-8a9f-67ee1107d1e4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/5bb0873a-181d-4ee5-8a9f-67ee1107d1e4/page_0141.jpg"
+    ],
+    "page_number": 140,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "ما الوراثة؟"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:44.13364+00:00",
+    "extracted_text": null,
+    "id": "01998dce-a97c-4c49-ac43-d664f66bcf38",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/01998dce-a97c-4c49-ac43-d664f66bcf38/page_0142.jpg"
+    ],
+    "page_number": 141,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "ما الوراثة؟"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:44.360272+00:00",
+    "extracted_text": null,
+    "id": "97bce55e-a377-47eb-bb5a-d93017d7672b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/97bce55e-a377-47eb-bb5a-d93017d7672b/page_0143.jpg"
+    ],
+    "page_number": 142,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "زواج الأقارب وما ينجم عنه"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:44.599804+00:00",
+    "extracted_text": null,
+    "id": "5d48b714-4739-4d9e-bdcd-13cc27a35116",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/5d48b714-4739-4d9e-bdcd-13cc27a35116/page_0144.jpg"
+    ],
+    "page_number": 143,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "زواج الأقارب وما ينجم عنه"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:44.824802+00:00",
+    "extracted_text": null,
+    "id": "de854852-919c-496a-af95-fe271a5c9e31",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/de854852-919c-496a-af95-fe271a5c9e31/page_0145.jpg"
+    ],
+    "page_number": 144,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الطفرات الوراثية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:45.054175+00:00",
+    "extracted_text": null,
+    "id": "7b7c7eeb-c9c8-44f5-baef-de46deb66b4b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/7b7c7eeb-c9c8-44f5-baef-de46deb66b4b/page_0146.jpg"
+    ],
+    "page_number": 145,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الطفرات الوراثية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:45.297418+00:00",
+    "extracted_text": null,
+    "id": "5fe48865-2bfe-4c33-8197-daf35d389126",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/5fe48865-2bfe-4c33-8197-daf35d389126/page_0147.jpg"
+    ],
+    "page_number": 146,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الطفرات الوراثية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:45.525295+00:00",
+    "extracted_text": null,
+    "id": "2e697120-ec08-4ed6-9728-d0f06e4b2dfa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/2e697120-ec08-4ed6-9728-d0f06e4b2dfa/page_0148.jpg"
+    ],
+    "page_number": 147,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الأمراض الوراثية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:45.751836+00:00",
+    "extracted_text": null,
+    "id": "d363f921-7e27-4183-97ed-f59284273d96",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/d363f921-7e27-4183-97ed-f59284273d96/page_0149.jpg"
+    ],
+    "page_number": 148,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الأمراض الوراثية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:45.974151+00:00",
+    "extracted_text": null,
+    "id": "9d3b40fa-e400-4a80-9ea0-21febbf88cfb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/9d3b40fa-e400-4a80-9ea0-21febbf88cfb/page_0150.jpg"
+    ],
+    "page_number": 149,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الأمراض الوراثية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:46.200002+00:00",
+    "extracted_text": null,
+    "id": "3c6b21f3-b9e5-462d-9646-0a364bf38b79",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/3c6b21f3-b9e5-462d-9646-0a364bf38b79/page_0151.jpg"
+    ],
+    "page_number": 150,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "الأمراض الوراثية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:40:46.416464+00:00",
+    "extracted_text": null,
+    "id": "9c4328e1-1397-48c3-aa68-271c9da17659",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/81e99fe6-1421-462b-9562-1c0c5053a809/lesson/9c4328e1-1397-48c3-aa68-271c9da17659/page_0152.jpg"
+    ],
+    "page_number": 151,
+    "subject_id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  }
+]
