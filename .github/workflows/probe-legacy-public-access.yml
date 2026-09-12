@@ -1,0 +1,24 @@
+name: Probe Legacy Public Data Access
+
+on:
+  push:
+    branches:
+      - content/legacy-staging-rebuild
+    paths:
+      - 'content-staging/PUBLIC_PROBE_TRIGGER'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe classes without API key
+        shell: bash
+        run: |
+          set -euo pipefail
+          code=$(curl -sS -o /tmp/body.txt -w '%{http_code}' 'https://zhbgbmqhonqmzpqfiehs.supabase.co/rest/v1/classes?select=id&limit=1')
+          echo "http_status=$code"
+          cat /tmp/body.txt
+          test "$code" = "200"
