@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "mappings": {
+    "grade-9-english-pupil-book": {
+      "legacyProjectRef": "zhbgbmqhonqmzpqfiehs",
+      "legacyClassId": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+      "legacyClassName": "تاسع انجليزي",
+      "legacySubjectId": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+      "legacySubjectName": "انجليزي الكتاب",
+      "expectedPages": 69,
+      "expectedQuestions": 104,
+      "target": {
+        "classSlug": "grade-9",
+        "subjectSlug": "english",
+        "documentSlug": "pupil-book",
+        "documentKind": "textbook"
+      },
+      "structure": {
+        "strategy": "manifest_book_page",
+        "manifestPath": "تاسع انجليزي/الانجليزي_تاسع/manifest.json",
+        "sourcePageField": "page_number",
+        "manifestPageField": "book_page",
+        "sectionField": "section",
+        "titleField": "title"
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+name: Content Staging Reconstruction
+
+on:
+  workflow_dispatch:
+    inputs:
+      mapping_key:
+        description: Curated mapping key
+        required: true
+        default: grade-9-english-pupil-book
+      subject_id:
+        description: Legacy Supabase subject UUID
+        required: true
+        default: 1794eea5-4772-4c94-bd2b-b08e5815e733
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-staging-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  extract-reconstruct-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      LEGACY_SUPABASE_URL: https://zhbgbmqhonqmzpqfiehs.supabase.co
+      LEGACY_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.LEGACY_SUPABASE_PUBLISHABLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Guard source credential
+        shell: bash
+        run: |
+          test -n "$LEGACY_SUPABASE_PUBLISHABLE_KEY" || {
+            echo "Missing repository secret LEGACY_SUPABASE_PUBLISHABLE_KEY" >&2
+            exit 2
+          }
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-content.txt
+
+      - name: Install content dependencies
+        run: python -m pip install -r requirements-content.txt
+
+      - name: Extract immutable raw source
+        run: >-
+          python tools/content_pipeline/extract_legacy_supabase.py
+          --subject-id "${{ inputs.subject_id }}"
+          --download-images
+
+      - name: Reconstruct curriculum hierarchy
+        run: >-
+          python tools/content_pipeline/reconstruct_content.py
+          --mapping staging/config/legacy-subject-map.json
+          --key "${{ inputs.mapping_key }}"
+
+      - name: Optimize curated images to WebP
+        run: >-
+          python tools/content_pipeline/optimize_webp.py
+          --root staging/curated/grade-9/english/pupil-book
+
+      - name: Validate staging content
+        run: >-
+          python tools/content_pipeline/validate_staging.py
+          --mapping staging/config/legacy-subject-map.json
+          --key "${{ inputs.mapping_key }}"
+
+      - name: Commit deterministic staging output
+        shell: bash
+        run: |
+          git lfs install --local
+          git config user.name "Al-Waslh Content Bot"
+          git config user.email "content-bot@alwaslh.invalid"
+          git add staging/raw staging/curated staging/reports
+          if git diff --cached --quiet; then
+            echo "No staging changes to commit."
+            exit 0
+          fi
+          git commit -m "content(staging): reconstruct ${{ inputs.mapping_key }}"
+          git push origin HEAD:"${GITHUB_REF_NAME}"
