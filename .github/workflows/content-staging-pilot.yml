@@ -1,0 +1,87 @@
+name: Pilot Content Materialization
+
+on:
+  push:
+    branches:
+      - 'content/legacy-supabase-reconstruction'
+    paths:
+      - 'staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/page-chunks/**'
+      - 'staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/subject.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pilot-content-materialization
+  cancel-in-progress: false
+
+jobs:
+  materialize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-content.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements-content.txt
+
+      - name: Assemble committed raw snapshot
+        run: >-
+          python tools/content_pipeline/assemble_raw_snapshot.py
+          --subject-id 1794eea5-4772-4c94-bd2b-b08e5815e733
+          --expected-pages 69
+          --expected-questions 104
+
+      - name: Download and hash original public images
+        run: >-
+          python tools/content_pipeline/materialize_raw_images.py
+          --mapping staging/config/legacy-subject-map.json
+          --key grade-9-english-pupil-book
+
+      - name: Reconstruct reviewed curriculum hierarchy
+        run: >-
+          python tools/content_pipeline/reconstruct_content.py
+          --mapping staging/config/legacy-subject-map.json
+          --key grade-9-english-pupil-book
+
+      - name: Optimize curated copies to WebP
+        run: >-
+          python tools/content_pipeline/optimize_webp.py
+          --root staging/curated/grade-9/english/pupil-book
+
+      - name: Validate raw + curated staging
+        run: >-
+          python tools/content_pipeline/validate_staging.py
+          --mapping staging/config/legacy-subject-map.json
+          --key grade-9-english-pupil-book
+
+      - name: Commit pilot output through Git LFS
+        shell: bash
+        run: |
+          git lfs install --local
+          git config user.name "Al-Waslh Content Bot"
+          git config user.email "content-bot@alwaslh.invalid"
+          git add \
+            staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/pages.json \
+            staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/questions.json \
+            staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/image-manifest.json \
+            staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/image-anomalies.json \
+            staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/images \
+            staging/curated/grade-9/english/pupil-book \
+            staging/reports/image-optimization.json
+          if git diff --cached --quiet; then
+            echo "Pilot content is already materialized and verified."
+            exit 0
+          fi
+          git commit -m "content(staging): materialize grade 9 English pilot"
+          git push origin HEAD:"${GITHUB_REF_NAME}"
