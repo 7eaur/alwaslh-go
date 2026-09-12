@@ -1,0 +1,98 @@
+name: Extract Legacy Content Batch
+
+on:
+  workflow_dispatch:
+    inputs:
+      subject_id:
+        description: 'Legacy Supabase subject UUID to extract'
+        required: true
+        type: string
+      optimize_webp:
+        description: 'Create reviewed WebP derivatives after raw extraction'
+        required: true
+        default: false
+        type: boolean
+      webp_quality:
+        description: 'WebP quality for textbook pages (75-100)'
+        required: true
+        default: '90'
+        type: string
+
+permissions:
+  contents: write
+
+env:
+  LEGACY_SUPABASE_URL: https://zhbgbmqhonqmzpqfiehs.supabase.co
+  LEGACY_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.LEGACY_SUPABASE_PUBLISHABLE_KEY }}
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/legacy-staging-rebuild
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate required source key
+        shell: bash
+        run: |
+          test -n "$LEGACY_SUPABASE_PUBLISHABLE_KEY" || {
+            echo 'Missing repository secret LEGACY_SUPABASE_PUBLISHABLE_KEY' >&2
+            exit 1
+          }
+
+      - name: Install image dependency
+        if: ${{ inputs.optimize_webp }}
+        run: python -m pip install --disable-pip-version-check 'Pillow==11.3.0'
+
+      - name: Extract immutable raw subject batch
+        run: >-
+          python content-staging/tools/extract_legacy_supabase.py
+          --subject-id '${{ inputs.subject_id }}'
+
+      - name: Create WebP derivatives
+        if: ${{ inputs.optimize_webp }}
+        run: >-
+          python content-staging/tools/optimize_staged_images.py
+          --subject-id '${{ inputs.subject_id }}'
+          --quality '${{ inputs.webp_quality }}'
+
+      - name: Validate generated manifest
+        shell: bash
+        run: |
+          SUBJECT_DIR="content-staging/raw/legacy-supabase/subjects/${{ inputs.subject_id }}"
+          test -s "$SUBJECT_DIR/subject.json"
+          test -s "$SUBJECT_DIR/pages.json"
+          test -s "$SUBJECT_DIR/manifest.json"
+          python - <<'PY'
+          import json
+          import pathlib
+          subject_id = "${{ inputs.subject_id }}"
+          path = pathlib.Path("content-staging/raw/legacy-supabase/subjects") / subject_id / "manifest.json"
+          manifest = json.loads(path.read_text(encoding="utf-8"))
+          counts = manifest["counts"]
+          if counts["image_download_failures"] != 0:
+              raise SystemExit(f"image download failures: {counts['image_download_failures']}")
+          if counts["images_downloaded"] != counts["image_references"]:
+              raise SystemExit("not every image reference was downloaded")
+          print(json.dumps({"status": manifest["status"], "counts": counts, "anomalies": manifest["anomalies"]}, ensure_ascii=False))
+          PY
+
+      - name: Commit bounded extracted batch
+        shell: bash
+        run: |
+          if git diff --quiet -- content-staging && git diff --cached --quiet -- content-staging; then
+            echo 'No staging changes to commit.'
+            exit 0
+          fi
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging
+          git commit -m "data(content): extract legacy subject ${{ inputs.subject_id }}"
+          git push origin HEAD:content/legacy-staging-rebuild
