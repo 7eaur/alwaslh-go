@@ -1,0 +1,2821 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:56.907941+00:00",
+    "extracted_text": null,
+    "id": "f2dbeea2-5db6-4633-b9da-3bf55b52f594",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/f2dbeea2-5db6-4633-b9da-3bf55b52f594/page_0008.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المحاليل وطرق تحضيرها"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "بناءً على النص الوارد في الصفحة ٨، يمكن تصنيف المادة إلى مادة نقية يمكن أن تكون عنصراً أو مركباً، ومادة غير نقية تسمى المخلوط.",
+        "method": "قراءة مباشرة للفقرة الأولى بعد الأهداف في الصفحة ٨ وتحديد التصنيف المذكور للمادة.",
+        "options": [
+          "مادة نقية (عنصر أو مركب) ومادة غير نقية (مخلوط)",
+          "مادة صلبة ومادة سائلة ومادة غازية فقط",
+          "عناصر فلزية وعناصر لا فلزية فقط",
+          "مركبات عضوية ومركبات غير عضوية فقط"
+        ],
+        "question": "كيف تُصنف المادة بشكل عام بناءً على ما درسته سابقاً في الصف السابع؟",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "الفقرة الأولى بعد الأهداف"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - الفقرة الأولى بعد الأهداف",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "ينص الكتاب على أن المخلوط يتكون نتيجة لخلط مادتين أو أكثر، دون حدوث اتحاد كيميائي يحولها لمادة جديدة.",
+        "method": "الاعتماد على تعريف المخلوط الوارد في السطر الثاني من الفقرة الأولى بعد الأهداف.",
+        "options": [
+          "اتحاد كيميائي بين عنصرين بنسب ثابتة",
+          "خلط مادتين أو أكثر دون اتحاد كيميائي وبأي نسبة",
+          "تفكك مركب كيميائي إلى عناصره الأساسية",
+          "تفاعل كيميائي ينتج عنه مادة جديدة تماماً"
+        ],
+        "question": "ينتج المخلوط عن طريق:",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "الفقرة الأولى بعد الأهداف، السطر الثاني"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - الفقرة الأولى بعد الأهداف، السطر الثاني",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "ورد في النص صراحةً: 'والمخلوط يتكون نتيجة لخلط مادتين أو أكثر، ويمكن فصل مكوناته بطرق فيزيائية بسيطة'.",
+        "method": "البحث في النص عن طريقة فصل مكونات المخلوط.",
+        "options": [
+          "طرق كيميائية معقدة جداً",
+          "طرق فيزيائية بسيطة",
+          "تفاعلات الانحلال الحراري",
+          "التحليل الكهربائي فقط"
+        ],
+        "question": "يمكن فصل مكونات المخلوط عن بعضها البعض باستخدام:",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "الفقرة الأولى بعد الأهداف، السطر الثالث"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - الفقرة الأولى بعد الأهداف، السطر الثالث",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "يذكر الكتاب المدرسي في الفقرة الثالثة بعد الأهداف أن 'معظم المواد من حولك عبارة عن مخاليط'.",
+        "method": "استخراج المعلومة المباشرة المتعلقة بوفرة المواد وحالتها في البيئة المحيطة.",
+        "options": [
+          "عناصر نقية منفردة",
+          "مركبات كيميائية نقية بنسبة ١٠٠٪",
+          "مخاليط",
+          "غازات خاملة أحادية الذرة"
+        ],
+        "question": "ما هي الحالة الشائعة لمعظم المواد الموجودة من حولنا في الطبيعة؟",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "الفقرة الثالثة بعد الأهداف، السطر الأول"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - الفقرة الثالثة بعد الأهداف، السطر الأول",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "جاء في النص: 'معظم المواد من حولك عبارة عن مخاليط، وكثيراً من المخاليط تسمى محاليل'. هذا يعني أن المحاليل هي جزء أو نوع من المخاليط وليست كلها.",
+        "method": "تحليل العلاقة اللغوية والعلمية بين مفهومي المخلوط والمحلول من خلال النص.",
+        "options": [
+          "كل المخاليط هي محاليل بالضرورة",
+          "المحاليل والمخاليط مصطلحان منفصلان تماماً ولا علاقة بينهما",
+          "كثيراً من المخاليط تسمى محاليل",
+          "المحاليل هي مواد نقية وليست مخاليط"
+        ],
+        "question": "ما العلاقة بين المخاليط والمحاليل كما وردت في النص؟",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "الفقرة الثالثة بعد الأهداف"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - الفقرة الثالثة بعد الأهداف، السطر الأول والثاني",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "النص يذكر: 'المادة يمكن تصنيفها إلى مادة نقية يمكن أن تكون عنصراً أو مركباً'.",
+        "method": "تحديد أقسام المادة النقية مباشرة من النص.",
+        "options": [
+          "مخلوط متجانس أو مخلوط غير متجانس",
+          "عنصر أو مركب",
+          "محلول ومذيب",
+          "مادة صلبة وسائلة"
+        ],
+        "question": "المادة النقية طبقاً لما ورد في مراجعة الصف السابع يمكن تصنيفها إلى:",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "الفقرة الأولى بعد الأهداف"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - الفقرة الأولى بعد الأهداف، السطر الأول",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "المخاليط تتكون من خلط فيزيائي للمواد دون اتحاد كيميائي، لذا يسهل فصلها بطرق فيزيائية بسيطة (مثل الترشيح أو التبخير)، على عكس المركبات التي تتحد كيميائياً.",
+        "method": "المقارنة بين خصائص المخلوط المذكورة في النص وخصائص المركبات الكيميائية.",
+        "options": [
+          "المخلوط لا يمكن فصل مكوناته بأي طريقة كيميائية أو فيزيائية",
+          "يمكن فصل مكونات المخلوط بطرق فيزيائية بسيطة بينما المركب يتطلب طرقاً كيميائية",
+          "المركب الكيميائي ينفصل تلقائياً بمجرد تركه في الهواء",
+          "المخلوط يتكون دائماً من عنصر واحد فقط فلا يحتاج للفصل"
+        ],
+        "question": "ما الذي يميز المخلوط عن المركب الكيميائي النقي من حيث إمكانية الفصل؟",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "الفقرة الأولى بعد الأهداف"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - الفقرة الأولى بعد الأهداف",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "الأسئلة الثلاثة الأولى هي الأهداف التعليمية المذكورة في الصندوق العلوي من الصفحة ٨، بينما السؤال الرابع لا علاقة له بأهداف هذا الدرس المحددة في الصفحة.",
+        "method": "مطابقة الخيارات مع قائمة الأسئلة المتوقع الإجابة عنها في بداية الصفحة ٨.",
+        "options": [
+          "ما المقصود بالمحلول؟",
+          "كيف تميز بين المذيب والمذاب؟",
+          "كيف يتكون المحلول؟",
+          "ما هي الصيغة الكيميائية لغاز ثاني أكسيد الكربون؟"
+        ],
+        "question": "أي مما يلي ليس من الأسئلة الرئيسة التي يتوقع من الطالب الإجابة عنها بعد الانتهاء من هذا الدرس؟",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "صندوق الأهداف التعليمية العلوي"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - صندوق الأهداف التعليمية العلوي",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "في المخلوط، تحتفظ كل مادة بخصائصها الفيزيائية والكيميائية الأصلية لأنها لم تتحد كيميائياً، وبالتالي يمكن استخدام المغناطيس لجذب الحديد وفصله عن الكبريت كطريقة فيزيائية بسيطة.",
+        "method": "تطبيق مفهوم 'فصل مكونات المخلوط بطرق فيزيائية بسيطة' المذكور في النص على مثال عملي.",
+        "options": [
+          "المادتين اتحدتا كيميائياً لتكوين مركب جديد تماماً",
+          "مكونات المخلوط تحتفظ بخصائصها الأصلية ويمكن فصلها بطرق فيزيائية بسيطة",
+          "الحديد فقد خاصية المغناطيسية بعد عملية الخلط مباشرة",
+          "الكبريت تحول إلى مادة مغناطيسية بفعل عملية الخلط"
+        ],
+        "question": "عند خلط برادة الحديد مع مسحوق الكبريت دون تسخين، يتكون مخلوط يمكن فصل مكوناته بالمغناطيس. يعود ذلك إلى أن:",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "الفقرة الأولى بعد الأهداف"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - الفقرة الأولى بعد الأهداف",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "hard",
+        "explanation": "المحلول هو مخلوط متجانس، ولكي يصبح المخلوط محلولاً يجب أن تتوزع دقائق المذاب بانتظام تام بين دقائق المذيب بحيث يظهر كطور واحد متجانس لا يمكن تمييز مكوناته بالعين المجردة.",
+        "method": "استنتاج المفهوم العلمي للمحلول وعلاقته بالمخلوط المتجانس بناءً على التساؤل المطروح في نهاية الصفحة.",
+        "options": [
+          "أن يتكون من مادتين صلبيتين فقط لا يمكن رؤيتهما بالعين المجردة",
+          "أن تتوزع دقائق المكونات فيه بانتظام وتتجانس تماماً بحيث لا يمكن تمييزها بالعين",
+          "أن يحدث تفاعل كيميائي عنيف ينتج عنه غازات وحرارة عالية",
+          "أن تكون نسبة المذيب دائماً أقل بكثير من نسبة المذاب في المخلوط"
+        ],
+        "question": "بناءً على التساؤل المطروح في نهاية الصفحة 'متى يكون المخلوط محلولاً؟'، ما هو الشرط الأساسي الذي يجب أن يتحقق في المخلوط لكي نطلق عليه اسم 'محلول'؟",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "الفقرة الأخيرة والتساؤل النهائي"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - الفقرة الأخيرة والتساؤل النهائي",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "medium",
+        "explanation": "الصور والأسئلة المرافقة لها ('وصف ما تشاهده فيه'، 'أي من هذه المواد نقية؟ وأي منها غير نقية؟ ولماذا؟') تهدف إلى تحفيز الطالب على التفكير والملاحظة البصرية للتمييز بين المواد النقية والمخاليط والمحاليل.",
+        "method": "تحليل الأسئلة المرافقة للشكل (١) في الصفحة واستنتاج الهدف التعليمي والتربوي منها.",
+        "options": [
+          "توضيح كيفية تحضير الأدوية الطبية في المختبرات الكيميائية",
+          "إثبات أن جميع السوائل في الطبيعة هي مواد نقية بنسبة ١٠٠٪",
+          "إثارة التفكير حول تصنيف هذه المواد إلى نقية وغير نقية، وملاحظة الفروق البصرية بينها تمهيداً لتعريف المحلول",
+          "شرح كيفية حدوث التفاعلات النووية داخل المحاليل المائية"
+        ],
+        "question": "يوضح الشكل (١) في الصفحة عدة كؤوس تحتوي على مواد مختلفة. ما الهدف الأساسي من عرض هذه الصور في بداية درس 'المحلول ومكوناته'؟",
+        "question_references": [
+          {
+            "lesson_title": "المحلول ومكوناته",
+            "page_number": "٨",
+            "paragraph_location": "الأسئلة المرافقة للشكل (١)"
+          }
+        ],
+        "source_reference": "الصفحة ٨ - الأسئلة المرافقة للشكل (١)",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:57.137481+00:00",
+    "extracted_text": null,
+    "id": "c633483b-caa8-431a-917c-132abf0a55c6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/c633483b-caa8-431a-917c-132abf0a55c6/page_0009.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": "الدرس الأول: المحلول ومكوناته (العلوم للصف التاسع الأساسي، صفحة ٨)\n\nأهم النقاط والمفاهيم الأساسية الواردة في الصفحة:\n\n١. تصنيف المادة:\n- مادة نقية: وتشمل العناصر والمركبات.\n- مادة غير نقية (المخلوط): تتكون نتيجة خلط مادتين أو أكثر معاً.\n\n٢. خصائص المخلوط:\n- ينتج عن دمج مادتين أو أكثر بأي نسبة.\n- يمكن فصل مكوناته عن بعضها البعض باستخدام طرق فيزيائية بسيطة.\n- معظم المواد المألوفة في حياتنا اليومية هي عبارة عن مخاليط، وتصنف الكثير من هذه المخاليط على أنها \"محاليل\".\n\n٣. التساؤلات الرئيسية للدرس:\n- ما هو المفهوم العلمي للمحلول؟\n- كيف يمكن التمييز والمقارنة بين المذيب والمذاب؟\n- كيف يتكون المحلول؟ ومتى يمكن اعتبار المخلوط محلولاً؟",
+    "title": "المحلول ومكوناته"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:57.357971+00:00",
+    "extracted_text": null,
+    "id": "bc54af23-cceb-40f8-8674-a644f3964fc9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/bc54af23-cceb-40f8-8674-a644f3964fc9/page_0010.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": "تلخيص محتوى الصفحة ٩ من كتاب العلوم للصف التاسع الأساسي:\n\n**الموضوع الرئيسي: المحاليل وطرق تحضيرها**\n\n**١. نشاط (١): خلط الرمل بالماء**\n* **الأدوات والمواد المستخدمة:** كأس من الزجاج، كمية من الرمل الناعم، ملعقة طعام، ماء نقي.\n* **خطوات العمل:**\n  - يُملأ الكأس بالماء النقي ويُضاف إليه ملعقتان من الرمل الناعم.\n  - يُحرّك الخليط جيداً باستخدام الملعقة، ثم يُترك لفترة من الزمن حتى يسكن تماماً.\n* **الملاحظات والأسئلة المطروحة:**\n  - مراقبة شكل الخليط المتكون في الجزء العلوي، المنتصف، وقرب القاع.\n  - تحديد أي أجزاء الخليط يحتوي على أقل كمية من حبيبات الرمل، وأيها يحتوي على أكبر كمية.\n\n**٢. المفهوم العلمي المستنتج:**\n* يُصنف الخليط الناتج عن خلط الرمل بالماء كـ **مخلوط غير متجانس**.\n* **السبب:** عدم توزع حبيبات الرمل بانتظام في الماء، حيث تترسب معظم الحبيبات في القاع (التركيز الأعلى) بينما يقل تركيزها أو ينعدم في الجزء العلوي، مما يعني أن خواص ومكونات الخليط غير متماثلة في جميع أجزائه.",
+    "title": "المحلول ومكوناته"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:57.584658+00:00",
+    "extracted_text": null,
+    "id": "07663448-bebb-47e2-a28f-9b6c07d43c79",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/07663448-bebb-47e2-a28f-9b6c07d43c79/page_0011.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المحلول ومكوناته"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:57.813648+00:00",
+    "extracted_text": null,
+    "id": "0701fb64-306c-4cd1-a4f9-bb83407dcabc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/0701fb64-306c-4cd1-a4f9-bb83407dcabc/page_0012.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المحلول ومكوناته"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:58.044502+00:00",
+    "extracted_text": null,
+    "id": "72b15990-1c93-4453-a874-4c6d0e15aa5a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/72b15990-1c93-4453-a874-4c6d0e15aa5a/page_0013.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المحلول ومكوناته"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:58.265708+00:00",
+    "extracted_text": null,
+    "id": "ee62f4dd-417b-4083-8349-8b9237b9b721",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/ee62f4dd-417b-4083-8349-8b9237b9b721/page_0014.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المحلول ومكوناته"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:58.48803+00:00",
+    "extracted_text": null,
+    "id": "a2e1276b-5dcf-44e3-8e28-d7c535ffc14d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/a2e1276b-5dcf-44e3-8e28-d7c535ffc14d/page_0015.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المحلول ومكوناته"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:58.709942+00:00",
+    "extracted_text": null,
+    "id": "2bc9cf76-2851-4db2-b419-c5bde68c5cdc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/2bc9cf76-2851-4db2-b419-c5bde68c5cdc/page_0016.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهم أنواع المحاليل وطرق تحضيرها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:58.928479+00:00",
+    "extracted_text": null,
+    "id": "edf4008b-e0da-41a0-a5a1-82ba7fbd507c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/edf4008b-e0da-41a0-a5a1-82ba7fbd507c/page_0017.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهم أنواع المحاليل وطرق تحضيرها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:59.146188+00:00",
+    "extracted_text": null,
+    "id": "50c7d9fd-8bd8-45f1-8764-6406c1655fcc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/50c7d9fd-8bd8-45f1-8764-6406c1655fcc/page_0018.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهم أنواع المحاليل وطرق تحضيرها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:59.366092+00:00",
+    "extracted_text": null,
+    "id": "bf6692ea-1d3d-4479-88eb-764149d2db69",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/bf6692ea-1d3d-4479-88eb-764149d2db69/page_0019.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهم أنواع المحاليل وطرق تحضيرها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:59.595302+00:00",
+    "extracted_text": null,
+    "id": "77d72514-107e-4b4d-86e9-5fc8a913c67f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/77d72514-107e-4b4d-86e9-5fc8a913c67f/page_0020.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهم أنواع المحاليل وطرق تحضيرها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:59.817191+00:00",
+    "extracted_text": null,
+    "id": "59500d43-52b7-43aa-9614-3e3a8f91cdb7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/59500d43-52b7-43aa-9614-3e3a8f91cdb7/page_0021.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:00.051283+00:00",
+    "extracted_text": null,
+    "id": "793bc694-33a1-43c9-8c92-67dfaab9cf70",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/793bc694-33a1-43c9-8c92-67dfaab9cf70/page_0022.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:00.264198+00:00",
+    "extracted_text": null,
+    "id": "ae230764-eaa8-47ae-a26f-7c27d2e4eb47",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/ae230764-eaa8-47ae-a26f-7c27d2e4eb47/page_0023.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:00.47624+00:00",
+    "extracted_text": null,
+    "id": "94095736-ff0d-4765-8263-bc522c6fd024",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/94095736-ff0d-4765-8263-bc522c6fd024/page_0024.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:00.697208+00:00",
+    "extracted_text": null,
+    "id": "8dad6d1d-af00-462f-8b99-d8623ebe5e76",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/8dad6d1d-af00-462f-8b99-d8623ebe5e76/page_0025.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:00.932207+00:00",
+    "extracted_text": null,
+    "id": "4e0a70bc-d05a-450b-9d2d-c50a0d8cd593",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/4e0a70bc-d05a-450b-9d2d-c50a0d8cd593/page_0026.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:01.151987+00:00",
+    "extracted_text": null,
+    "id": "391793d3-9dd9-4bfe-a986-39f15ca27032",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/391793d3-9dd9-4bfe-a986-39f15ca27032/page_0027.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:01.375005+00:00",
+    "extracted_text": null,
+    "id": "0030a7f3-e648-4046-b590-9503422de0e4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/0030a7f3-e648-4046-b590-9503422de0e4/page_0028.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:01.601517+00:00",
+    "extracted_text": null,
+    "id": "d1fcd689-9408-46c7-ad76-8478f17180bf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/d1fcd689-9408-46c7-ad76-8478f17180bf/page_0029.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:01.824378+00:00",
+    "extracted_text": null,
+    "id": "80dcfc28-18fd-488b-9ad1-1bb0a31cbb3f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/80dcfc28-18fd-488b-9ad1-1bb0a31cbb3f/page_0030.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:02.038203+00:00",
+    "extracted_text": null,
+    "id": "aa068a1d-7f28-4df0-850d-64a6f10fe602",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/aa068a1d-7f28-4df0-850d-64a6f10fe602/page_0031.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:02.260493+00:00",
+    "extracted_text": null,
+    "id": "41b9005d-4cd6-44d0-a5ec-cf53f4ddcdee",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/41b9005d-4cd6-44d0-a5ec-cf53f4ddcdee/page_0032.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:02.484017+00:00",
+    "extracted_text": null,
+    "id": "954fd275-33c7-4097-9298-bcc93d69aade",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/954fd275-33c7-4097-9298-bcc93d69aade/page_0033.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:02.706589+00:00",
+    "extracted_text": null,
+    "id": "da7fab9e-62ee-432f-bdf5-c7125d947418",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/da7fab9e-62ee-432f-bdf5-c7125d947418/page_0034.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:02.927377+00:00",
+    "extracted_text": null,
+    "id": "e102cf82-c58d-43bd-ba93-0cd8f75dbd53",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/e102cf82-c58d-43bd-ba93-0cd8f75dbd53/page_0035.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:03.159729+00:00",
+    "extracted_text": null,
+    "id": "8285737d-6524-48d7-b80e-88c2f3650206",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/8285737d-6524-48d7-b80e-88c2f3650206/page_0036.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:03.379201+00:00",
+    "extracted_text": null,
+    "id": "b16baae0-2b45-4da9-9f7a-d3577352349e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/b16baae0-2b45-4da9-9f7a-d3577352349e/page_0037.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:03.589634+00:00",
+    "extracted_text": null,
+    "id": "2b91794c-acc8-4792-9143-ea92455e7187",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/2b91794c-acc8-4792-9143-ea92455e7187/page_0038.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية وصفات الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:03.806833+00:00",
+    "extracted_text": null,
+    "id": "3f126bc6-1a3e-4b07-94de-cd9d8c6224c8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/3f126bc6-1a3e-4b07-94de-cd9d8c6224c8/page_0039.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تدرج الحموض والقواعد في قوتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:04.037514+00:00",
+    "extracted_text": null,
+    "id": "759c0f1f-7afc-4372-8220-7fdfc1d11a7a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/759c0f1f-7afc-4372-8220-7fdfc1d11a7a/page_0040.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تدرج الحموض والقواعد في قوتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:04.252054+00:00",
+    "extracted_text": null,
+    "id": "ddb494c5-0d96-418b-8c83-2729bfa3f8fc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/ddb494c5-0d96-418b-8c83-2729bfa3f8fc/page_0041.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تدرج الحموض والقواعد في قوتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:04.473354+00:00",
+    "extracted_text": null,
+    "id": "4893e1dd-2c53-49c2-b1c7-82fe406964f5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/4893e1dd-2c53-49c2-b1c7-82fe406964f5/page_0042.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تدرج الحموض والقواعد في قوتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:04.683944+00:00",
+    "extracted_text": null,
+    "id": "e0001698-7fd5-48c5-a152-0b47eb274c10",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/e0001698-7fd5-48c5-a152-0b47eb274c10/page_0043.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تدرج الحموض والقواعد في قوتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:04.933048+00:00",
+    "extracted_text": null,
+    "id": "299a7fc7-9292-4fcd-ac57-776804a281f9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/299a7fc7-9292-4fcd-ac57-776804a281f9/page_0044.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تدرج الحموض والقواعد في قوتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:05.148871+00:00",
+    "extracted_text": null,
+    "id": "83fb76a8-c620-4efc-9074-cfd8f7975743",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/83fb76a8-c620-4efc-9074-cfd8f7975743/page_0045.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تدرج الحموض والقواعد في قوتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:05.359142+00:00",
+    "extracted_text": null,
+    "id": "50e764eb-fbf0-4582-b8c5-4c1c2729b2ef",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/50e764eb-fbf0-4582-b8c5-4c1c2729b2ef/page_0046.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تدرج الحموض والقواعد في قوتها"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:05.576567+00:00",
+    "extracted_text": null,
+    "id": "f0fb48b6-51c8-4362-acef-b9a7ef6659cf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/f0fb48b6-51c8-4362-acef-b9a7ef6659cf/page_0047.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:05.802312+00:00",
+    "extracted_text": null,
+    "id": "2464c226-3403-4043-a851-d765e6740a1b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/2464c226-3403-4043-a851-d765e6740a1b/page_0048.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:06.016332+00:00",
+    "extracted_text": null,
+    "id": "62622e9c-c015-44e7-a9cb-213524d54c69",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/62622e9c-c015-44e7-a9cb-213524d54c69/page_0049.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "دور التفاعلات الكيميائية للحموض والقواعد في حياتنا"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:06.233961+00:00",
+    "extracted_text": null,
+    "id": "1b5f1d99-463e-430c-a144-de327cc39148",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/1b5f1d99-463e-430c-a144-de327cc39148/page_0050.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تفاعل الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:06.463064+00:00",
+    "extracted_text": null,
+    "id": "3ab1d861-5ca5-4145-8bbf-c33d471e4ab9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/3ab1d861-5ca5-4145-8bbf-c33d471e4ab9/page_0051.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تفاعل الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:06.680649+00:00",
+    "extracted_text": null,
+    "id": "3e7942f9-bf22-4f0f-99e2-7e04a8b880db",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/3e7942f9-bf22-4f0f-99e2-7e04a8b880db/page_0052.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تفاعل الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:06.895588+00:00",
+    "extracted_text": null,
+    "id": "62864858-c8fe-42e2-849c-510d35aceedc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/62864858-c8fe-42e2-849c-510d35aceedc/page_0053.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تفاعل الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:07.108042+00:00",
+    "extracted_text": null,
+    "id": "ab28330e-8791-4443-aae7-99c667637593",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/ab28330e-8791-4443-aae7-99c667637593/page_0054.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تفاعل الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:07.336967+00:00",
+    "extracted_text": null,
+    "id": "c67a1227-1ef3-495e-946e-e7cf12367172",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/c67a1227-1ef3-495e-946e-e7cf12367172/page_0055.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تفاعل الحموض والقواعد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:07.563592+00:00",
+    "extracted_text": null,
+    "id": "4c1e06a1-a19a-4e74-944c-4cb0ca543cf9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/4c1e06a1-a19a-4e74-944c-4cb0ca543cf9/page_0056.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أثر الحموض في أملاح الفلزات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:07.784838+00:00",
+    "extracted_text": null,
+    "id": "e4ab25c4-f2c4-41d9-9330-e653606dcd1c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/e4ab25c4-f2c4-41d9-9330-e653606dcd1c/page_0057.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أثر الحموض في أملاح الفلزات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:08.010371+00:00",
+    "extracted_text": null,
+    "id": "6d02aca3-2ff0-4720-aef4-193904940cf2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/6d02aca3-2ff0-4720-aef4-193904940cf2/page_0058.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أثر الحموض في أملاح الفلزات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:08.237808+00:00",
+    "extracted_text": null,
+    "id": "8250b1b8-80df-49dc-b76d-c244f9f764bb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/8250b1b8-80df-49dc-b76d-c244f9f764bb/page_0059.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أثر الحموض في أملاح الفلزات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:08.4667+00:00",
+    "extracted_text": null,
+    "id": "81cc3f20-c682-4f7e-a81d-ff9148dc7d22",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/81cc3f20-c682-4f7e-a81d-ff9148dc7d22/page_0060.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أثر الحموض في أملاح الفلزات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:08.692374+00:00",
+    "extracted_text": null,
+    "id": "b8f97f90-6c02-4dc0-9a8d-4625a8869f85",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/b8f97f90-6c02-4dc0-9a8d-4625a8869f85/page_0061.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أثر الحموض في أملاح الفلزات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:08.91552+00:00",
+    "extracted_text": null,
+    "id": "52afe6c2-f025-4d6b-9308-7b0be1f5e8f3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/52afe6c2-f025-4d6b-9308-7b0be1f5e8f3/page_0062.jpg"
+    ],
+    "page_number": 61,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المطر الحمضي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:09.145727+00:00",
+    "extracted_text": null,
+    "id": "ea9eed7d-b183-4fc1-8684-b00472882e8e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/ea9eed7d-b183-4fc1-8684-b00472882e8e/page_0063.jpg"
+    ],
+    "page_number": 62,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المطر الحمضي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:09.370364+00:00",
+    "extracted_text": null,
+    "id": "0da77ad9-9a06-4334-a769-1c54376eb1d7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/0da77ad9-9a06-4334-a769-1c54376eb1d7/page_0064.jpg"
+    ],
+    "page_number": 63,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المطر الحمضي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:09.591546+00:00",
+    "extracted_text": null,
+    "id": "94680e00-f9c0-499f-b55f-e57bf1e9b8f1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/94680e00-f9c0-499f-b55f-e57bf1e9b8f1/page_0065.jpg"
+    ],
+    "page_number": 64,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المطر الحمضي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:09.822056+00:00",
+    "extracted_text": null,
+    "id": "3eabef4c-8eec-4bea-9b04-f64fe0428cbd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/3eabef4c-8eec-4bea-9b04-f64fe0428cbd/page_0066.jpg"
+    ],
+    "page_number": 65,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المطر الحمضي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:10.061815+00:00",
+    "extracted_text": null,
+    "id": "5c874a84-7eaf-42ec-a1b7-2bd4eb62484e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/5c874a84-7eaf-42ec-a1b7-2bd4eb62484e/page_0067.jpg"
+    ],
+    "page_number": 66,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المطر الحمضي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:10.289429+00:00",
+    "extracted_text": null,
+    "id": "b59da777-9c3c-409b-95ef-61ac685671d5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/b59da777-9c3c-409b-95ef-61ac685671d5/page_0068.jpg"
+    ],
+    "page_number": 67,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:10.50885+00:00",
+    "extracted_text": null,
+    "id": "10eefac3-15c8-44b3-9ab4-04805245ee6a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/10eefac3-15c8-44b3-9ab4-04805245ee6a/page_0069.jpg"
+    ],
+    "page_number": 68,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:10.735383+00:00",
+    "extracted_text": null,
+    "id": "af017017-09fc-4460-9dca-7bbd28d85432",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/af017017-09fc-4460-9dca-7bbd28d85432/page_0070.jpg"
+    ],
+    "page_number": 69,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإنسان والفضاء الكوني"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:10.960353+00:00",
+    "extracted_text": null,
+    "id": "3313daae-1ce7-4f41-95ca-e8b08edfd172",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/3313daae-1ce7-4f41-95ca-e8b08edfd172/page_0071.jpg"
+    ],
+    "page_number": 70,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الكون"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:11.188545+00:00",
+    "extracted_text": null,
+    "id": "0a1b89eb-3e99-4e6b-aa12-67a157bff964",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/0a1b89eb-3e99-4e6b-aa12-67a157bff964/page_0072.jpg"
+    ],
+    "page_number": 71,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الكون"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:11.412694+00:00",
+    "extracted_text": null,
+    "id": "19505751-a247-4116-9fea-30308c895b59",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/19505751-a247-4116-9fea-30308c895b59/page_0073.jpg"
+    ],
+    "page_number": 72,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الكون"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:11.638536+00:00",
+    "extracted_text": null,
+    "id": "fed2736a-80a1-4eb1-9027-bdcdabe49ad3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/fed2736a-80a1-4eb1-9027-bdcdabe49ad3/page_0074.jpg"
+    ],
+    "page_number": 73,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "ارتياد الفضاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:11.866099+00:00",
+    "extracted_text": null,
+    "id": "2dd5292e-5664-44a4-97fe-ae5160d58968",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/2dd5292e-5664-44a4-97fe-ae5160d58968/page_0075.jpg"
+    ],
+    "page_number": 74,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "ارتياد الفضاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:12.090972+00:00",
+    "extracted_text": null,
+    "id": "9d190a58-1ad0-40f2-b75e-ec901fc388a9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/9d190a58-1ad0-40f2-b75e-ec901fc388a9/page_0076.jpg"
+    ],
+    "page_number": 75,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "ارتياد الفضاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:12.31892+00:00",
+    "extracted_text": null,
+    "id": "9335135a-62c4-41fb-b684-399450686823",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/9335135a-62c4-41fb-b684-399450686823/page_0077.jpg"
+    ],
+    "page_number": 76,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "ارتياد الفضاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:12.560178+00:00",
+    "extracted_text": null,
+    "id": "efb9685a-aa38-4a2b-a0d1-5bf9da07e9e2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/efb9685a-aa38-4a2b-a0d1-5bf9da07e9e2/page_0078.jpg"
+    ],
+    "page_number": 77,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "ارتياد الفضاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:12.776811+00:00",
+    "extracted_text": null,
+    "id": "7d497f6f-1451-4d85-88d8-0b2fdd0d69c7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/7d497f6f-1451-4d85-88d8-0b2fdd0d69c7/page_0079.jpg"
+    ],
+    "page_number": 78,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "ارتياد الفضاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:12.991545+00:00",
+    "extracted_text": null,
+    "id": "bc28ecb2-9e09-4e6d-a604-f57c2334f8c3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/bc28ecb2-9e09-4e6d-a604-f57c2334f8c3/page_0080.jpg"
+    ],
+    "page_number": 79,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:13.198517+00:00",
+    "extracted_text": null,
+    "id": "5b2db049-f4b9-47f6-b5d8-db13668a098b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/5b2db049-f4b9-47f6-b5d8-db13668a098b/page_0081.jpg"
+    ],
+    "page_number": 80,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المغناطيسية والحث الكهرومغناطيسي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:13.421434+00:00",
+    "extracted_text": null,
+    "id": "a6a478b8-9060-4407-aa1e-90b473f83df7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/a6a478b8-9060-4407-aa1e-90b473f83df7/page_0082.jpg"
+    ],
+    "page_number": 81,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المغناطيس وطرق التمغنط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:13.648046+00:00",
+    "extracted_text": null,
+    "id": "5438ac40-9d8e-4576-b79a-be206c97ab99",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/5438ac40-9d8e-4576-b79a-be206c97ab99/page_0083.jpg"
+    ],
+    "page_number": 82,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المغناطيس وطرق التمغنط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:13.890736+00:00",
+    "extracted_text": null,
+    "id": "fe605166-a9b2-4c3f-a90c-f096de5200e3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/fe605166-a9b2-4c3f-a90c-f096de5200e3/page_0084.jpg"
+    ],
+    "page_number": 83,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المغناطيس وطرق التمغنط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:14.110129+00:00",
+    "extracted_text": null,
+    "id": "6e52b8c4-878b-4dbb-811d-40d40106efc4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/6e52b8c4-878b-4dbb-811d-40d40106efc4/page_0085.jpg"
+    ],
+    "page_number": 84,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المغناطيس وطرق التمغنط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:14.336644+00:00",
+    "extracted_text": null,
+    "id": "7d023253-8677-43d2-9893-8432b6e31f6e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/7d023253-8677-43d2-9893-8432b6e31f6e/page_0086.jpg"
+    ],
+    "page_number": 85,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "المغناطيس وطرق التمغنط"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:14.545858+00:00",
+    "extracted_text": null,
+    "id": "d3e0b297-7c46-4009-b724-558e2f3c8993",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/d3e0b297-7c46-4009-b724-558e2f3c8993/page_0087.jpg"
+    ],
+    "page_number": 86,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية المغناطيس الكهربائي في حياتنا"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:14.763721+00:00",
+    "extracted_text": null,
+    "id": "cca52e2c-616c-46ee-bda3-c75c593492ce",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/cca52e2c-616c-46ee-bda3-c75c593492ce/page_0088.jpg"
+    ],
+    "page_number": 87,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية المغناطيس الكهربائي في حياتنا"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:14.989364+00:00",
+    "extracted_text": null,
+    "id": "eddfd747-3de8-4446-94ba-eb5c1a317b50",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/eddfd747-3de8-4446-94ba-eb5c1a317b50/page_0089.jpg"
+    ],
+    "page_number": 88,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية المغناطيس الكهربائي في حياتنا"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:15.202759+00:00",
+    "extracted_text": null,
+    "id": "4610cc12-09cb-44c9-aecb-26264b4709d4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/4610cc12-09cb-44c9-aecb-26264b4709d4/page_0090.jpg"
+    ],
+    "page_number": 89,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية المغناطيس الكهربائي في حياتنا"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:15.475351+00:00",
+    "extracted_text": null,
+    "id": "25776078-7a3d-4f2c-9a1e-034d97ad0934",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/25776078-7a3d-4f2c-9a1e-034d97ad0934/page_0091.jpg"
+    ],
+    "page_number": 90,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أهمية المغناطيس الكهربائي في حياتنا"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:15.688455+00:00",
+    "extracted_text": null,
+    "id": "b9408082-7842-4491-a095-ba9e681ef004",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/b9408082-7842-4491-a095-ba9e681ef004/page_0092.jpg"
+    ],
+    "page_number": 91,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الحث الكهرومغناطيسي وتطبيقاته في الحياة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:15.910214+00:00",
+    "extracted_text": null,
+    "id": "9990329d-4e68-4322-9679-5779bb067c06",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/9990329d-4e68-4322-9679-5779bb067c06/page_0093.jpg"
+    ],
+    "page_number": 92,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الحث الكهرومغناطيسي وتطبيقاته في الحياة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:16.138362+00:00",
+    "extracted_text": null,
+    "id": "6776b460-3e2c-44b7-92a2-6e548a09f1af",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/6776b460-3e2c-44b7-92a2-6e548a09f1af/page_0094.jpg"
+    ],
+    "page_number": 93,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الحث الكهرومغناطيسي وتطبيقاته في الحياة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:16.351327+00:00",
+    "extracted_text": null,
+    "id": "e25cbc00-2da0-40a7-b76b-59b2b7635029",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/e25cbc00-2da0-40a7-b76b-59b2b7635029/page_0095.jpg"
+    ],
+    "page_number": 94,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الحث الكهرومغناطيسي وتطبيقاته في الحياة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:16.573953+00:00",
+    "extracted_text": null,
+    "id": "df62e4cf-8cfa-4e66-855b-d10ed3ed4ebf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/df62e4cf-8cfa-4e66-855b-d10ed3ed4ebf/page_0096.jpg"
+    ],
+    "page_number": 95,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الحث الكهرومغناطيسي وتطبيقاته في الحياة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:16.789886+00:00",
+    "extracted_text": null,
+    "id": "a9bfb9aa-e529-4a42-af36-6ca6730a31f9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/a9bfb9aa-e529-4a42-af36-6ca6730a31f9/page_0097.jpg"
+    ],
+    "page_number": 96,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الحث الكهرومغناطيسي وتطبيقاته في الحياة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:17.013192+00:00",
+    "extracted_text": null,
+    "id": "7d9fd295-77da-46c1-bb61-7d6303b2953e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/7d9fd295-77da-46c1-bb61-7d6303b2953e/page_0098.jpg"
+    ],
+    "page_number": 97,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الحث الكهرومغناطيسي وتطبيقاته في الحياة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:17.223415+00:00",
+    "extracted_text": null,
+    "id": "a05dd42c-dc50-4981-843f-8fcf62956a23",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/a05dd42c-dc50-4981-843f-8fcf62956a23/page_0099.jpg"
+    ],
+    "page_number": 98,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الحث الكهرومغناطيسي وتطبيقاته في الحياة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:17.441552+00:00",
+    "extracted_text": null,
+    "id": "e3449573-235a-4558-b0aa-98489f224125",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/e3449573-235a-4558-b0aa-98489f224125/page_0100.jpg"
+    ],
+    "page_number": 99,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الحث الكهرومغناطيسي وتطبيقاته في الحياة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:17.657904+00:00",
+    "extracted_text": null,
+    "id": "e3c56f42-d90e-4493-9e71-ca9d76e51ce5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/e3c56f42-d90e-4493-9e71-ca9d76e51ce5/page_0101.jpg"
+    ],
+    "page_number": 100,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الموجات الكهرومغناطيسية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:17.883666+00:00",
+    "extracted_text": null,
+    "id": "fcbc36d5-dae3-4248-82df-830752055fad",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/fcbc36d5-dae3-4248-82df-830752055fad/page_0102.jpg"
+    ],
+    "page_number": 101,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الموجات الكهرومغناطيسية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:18.107788+00:00",
+    "extracted_text": null,
+    "id": "abacdfb1-0fe2-4801-ab1e-6996dfa9f75c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/abacdfb1-0fe2-4801-ab1e-6996dfa9f75c/page_0103.jpg"
+    ],
+    "page_number": 102,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الموجات الكهرومغناطيسية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:18.332811+00:00",
+    "extracted_text": null,
+    "id": "a67c90ee-429b-4d0e-bf1b-7210c1bcb604",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/a67c90ee-429b-4d0e-bf1b-7210c1bcb604/page_0104.jpg"
+    ],
+    "page_number": 103,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الموجات الكهرومغناطيسية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:18.55158+00:00",
+    "extracted_text": null,
+    "id": "d54bf9d4-9b8d-4df8-835e-6d6e693c0a01",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/d54bf9d4-9b8d-4df8-835e-6d6e693c0a01/page_0105.jpg"
+    ],
+    "page_number": 104,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الموجات الكهرومغناطيسية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:18.77321+00:00",
+    "extracted_text": null,
+    "id": "8c9317a5-a391-4c85-8956-dcbb32c22e3f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/8c9317a5-a391-4c85-8956-dcbb32c22e3f/page_0106.jpg"
+    ],
+    "page_number": 105,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الموجات الكهرومغناطيسية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:18.988611+00:00",
+    "extracted_text": null,
+    "id": "dc5dae13-666b-4e1b-8bd3-5eefbc2b6b27",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/dc5dae13-666b-4e1b-8bd3-5eefbc2b6b27/page_0107.jpg"
+    ],
+    "page_number": 106,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:19.198537+00:00",
+    "extracted_text": null,
+    "id": "c20f0fef-223b-403e-90fc-9abefb4bc2ae",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/c20f0fef-223b-403e-90fc-9abefb4bc2ae/page_0108.jpg"
+    ],
+    "page_number": 107,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:19.418751+00:00",
+    "extracted_text": null,
+    "id": "5f60faf4-086c-4b14-994f-3038eb9f78d6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/5f60faf4-086c-4b14-994f-3038eb9f78d6/page_0109.jpg"
+    ],
+    "page_number": 108,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:19.629103+00:00",
+    "extracted_text": null,
+    "id": "8edac441-7d1b-4aca-a6a9-f47996e75492",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/8edac441-7d1b-4aca-a6a9-f47996e75492/page_0110.jpg"
+    ],
+    "page_number": 109,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج في الكائنات الحية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:19.852839+00:00",
+    "extracted_text": null,
+    "id": "4518bb68-29af-4b50-8923-d3898d0ce744",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/4518bb68-29af-4b50-8923-d3898d0ce744/page_0111.jpg"
+    ],
+    "page_number": 110,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج في الطلائعيات (الأميبا)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:20.071142+00:00",
+    "extracted_text": null,
+    "id": "4400743b-2a16-44ba-b1d3-333a83511135",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/4400743b-2a16-44ba-b1d3-333a83511135/page_0112.jpg"
+    ],
+    "page_number": 111,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج في الطلائعيات (الأميبا)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:20.286484+00:00",
+    "extracted_text": null,
+    "id": "c4e82fef-e1a1-4f57-961b-bc2be8626dc0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/c4e82fef-e1a1-4f57-961b-bc2be8626dc0/page_0113.jpg"
+    ],
+    "page_number": 112,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج في النبات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:20.508192+00:00",
+    "extracted_text": null,
+    "id": "d7fa03db-2b68-4dd1-8f6a-cc606a988c24",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/d7fa03db-2b68-4dd1-8f6a-cc606a988c24/page_0114.jpg"
+    ],
+    "page_number": 113,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج في النبات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:20.727508+00:00",
+    "extracted_text": null,
+    "id": "27a1d082-96d6-43a9-88ac-f1f25aeeb465",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/27a1d082-96d6-43a9-88ac-f1f25aeeb465/page_0115.jpg"
+    ],
+    "page_number": 114,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج في النبات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:20.935523+00:00",
+    "extracted_text": null,
+    "id": "0033f9bb-59a6-4005-9266-499f783411b7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/0033f9bb-59a6-4005-9266-499f783411b7/page_0116.jpg"
+    ],
+    "page_number": 115,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج في الإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:21.143247+00:00",
+    "extracted_text": null,
+    "id": "cddbe77a-d333-48a2-8060-8284e56a42ec",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/cddbe77a-d333-48a2-8060-8284e56a42ec/page_0117.jpg"
+    ],
+    "page_number": 116,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج في الإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:21.360458+00:00",
+    "extracted_text": null,
+    "id": "b51df5a8-0d1c-4475-b885-8be1f844b515",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/b51df5a8-0d1c-4475-b885-8be1f844b515/page_0118.jpg"
+    ],
+    "page_number": 117,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج في الإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:21.598049+00:00",
+    "extracted_text": null,
+    "id": "2ec4c2ba-042c-41d0-a0fd-89b10a4ba7b8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/2ec4c2ba-042c-41d0-a0fd-89b10a4ba7b8/page_0119.jpg"
+    ],
+    "page_number": 118,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج في الإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:21.81513+00:00",
+    "extracted_text": null,
+    "id": "8c47e900-c2dc-4ebd-84df-cce3cf3f7d17",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/8c47e900-c2dc-4ebd-84df-cce3cf3f7d17/page_0120.jpg"
+    ],
+    "page_number": 119,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج عن طريق الجلد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:22.025178+00:00",
+    "extracted_text": null,
+    "id": "61de45ef-0907-45dc-aa04-28f32bce6794",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/61de45ef-0907-45dc-aa04-28f32bce6794/page_0121.jpg"
+    ],
+    "page_number": 120,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج عن طريق الجلد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:22.234054+00:00",
+    "extracted_text": null,
+    "id": "851f365c-6314-4ef7-9753-371b8219f8fc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/851f365c-6314-4ef7-9753-371b8219f8fc/page_0122.jpg"
+    ],
+    "page_number": 121,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج عن طريق الجلد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:22.462405+00:00",
+    "extracted_text": null,
+    "id": "92a40312-3beb-4dc5-9deb-78e7945996fc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/92a40312-3beb-4dc5-9deb-78e7945996fc/page_0123.jpg"
+    ],
+    "page_number": 122,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "الإخراج عن طريق الجلد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:22.680745+00:00",
+    "extracted_text": null,
+    "id": "03f12362-40e9-4df2-9a61-b2a53b3e897f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/03f12362-40e9-4df2-9a61-b2a53b3e897f/page_0124.jpg"
+    ],
+    "page_number": 123,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:22.905354+00:00",
+    "extracted_text": null,
+    "id": "0b8d4cef-7987-4889-9fde-870004feb0a0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/0b8d4cef-7987-4889-9fde-870004feb0a0/page_0125.jpg"
+    ],
+    "page_number": 124,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:23.135007+00:00",
+    "extracted_text": null,
+    "id": "0de24909-9a8c-414c-9648-20aa3a67d1ca",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/0de24909-9a8c-414c-9648-20aa3a67d1ca/page_0126.jpg"
+    ],
+    "page_number": 125,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:23.357034+00:00",
+    "extracted_text": null,
+    "id": "89651213-831a-4be9-9705-7a6165fe5e89",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/89651213-831a-4be9-9705-7a6165fe5e89/page_0127.jpg"
+    ],
+    "page_number": 126,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في الكائنات الحية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:23.58112+00:00",
+    "extracted_text": null,
+    "id": "6b7d0c49-87fb-43da-a32a-bdeec5076298",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/6b7d0c49-87fb-43da-a32a-bdeec5076298/page_0128.jpg"
+    ],
+    "page_number": 127,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في النباتات الزهرية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:23.801876+00:00",
+    "extracted_text": null,
+    "id": "cbd1a701-c372-4502-8420-2161d2b98c1d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/cbd1a701-c372-4502-8420-2161d2b98c1d/page_0129.jpg"
+    ],
+    "page_number": 128,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في النباتات الزهرية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:24.027673+00:00",
+    "extracted_text": null,
+    "id": "0adac4a6-f010-4bf7-9c15-2827ee6380c0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/0adac4a6-f010-4bf7-9c15-2827ee6380c0/page_0130.jpg"
+    ],
+    "page_number": 129,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في النباتات الزهرية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:24.242533+00:00",
+    "extracted_text": null,
+    "id": "b3b07cb2-8de7-4fb7-940e-cfcb40c78de3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/b3b07cb2-8de7-4fb7-940e-cfcb40c78de3/page_0131.jpg"
+    ],
+    "page_number": 130,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في النباتات الزهرية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:24.495339+00:00",
+    "extracted_text": null,
+    "id": "57d5cca9-0207-4f51-b681-999bab8bfdb8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/57d5cca9-0207-4f51-b681-999bab8bfdb8/page_0132.jpg"
+    ],
+    "page_number": 131,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في النباتات الزهرية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:24.715253+00:00",
+    "extracted_text": null,
+    "id": "c7f7f1d2-739d-4887-880a-7e64a1387ff3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/c7f7f1d2-739d-4887-880a-7e64a1387ff3/page_0133.jpg"
+    ],
+    "page_number": 132,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في النباتات الزهرية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:24.93451+00:00",
+    "extracted_text": null,
+    "id": "03ab8d20-1129-475b-b8c2-99021f0f2afe",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/03ab8d20-1129-475b-b8c2-99021f0f2afe/page_0134.jpg"
+    ],
+    "page_number": 133,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في النباتات الزهرية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:25.147303+00:00",
+    "extracted_text": null,
+    "id": "0853f290-dc75-47cf-ab41-75b1ece655f8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/0853f290-dc75-47cf-ab41-75b1ece655f8/page_0135.jpg"
+    ],
+    "page_number": 134,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في النباتات الزهرية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:25.363815+00:00",
+    "extracted_text": null,
+    "id": "d2919903-7e03-4e68-87e4-15dc529db0b5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/d2919903-7e03-4e68-87e4-15dc529db0b5/page_0136.jpg"
+    ],
+    "page_number": 135,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في النباتات الزهرية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:25.587596+00:00",
+    "extracted_text": null,
+    "id": "954c0ba1-3be5-449b-987c-a3c1164e2d66",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/954c0ba1-3be5-449b-987c-a3c1164e2d66/page_0137.jpg"
+    ],
+    "page_number": 136,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في الحيوان والإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:25.804999+00:00",
+    "extracted_text": null,
+    "id": "c9df5316-e813-4358-b5e6-d82b8794f141",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/c9df5316-e813-4358-b5e6-d82b8794f141/page_0138.jpg"
+    ],
+    "page_number": 137,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في الحيوان والإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:26.027884+00:00",
+    "extracted_text": null,
+    "id": "85925fe2-2b33-4f82-a8c8-c5c924f822cc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/85925fe2-2b33-4f82-a8c8-c5c924f822cc/page_0139.jpg"
+    ],
+    "page_number": 138,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في الحيوان والإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:26.244085+00:00",
+    "extracted_text": null,
+    "id": "c75dbe24-73ba-4b7b-bf33-df8579ea82bc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/c75dbe24-73ba-4b7b-bf33-df8579ea82bc/page_0140.jpg"
+    ],
+    "page_number": 139,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في الحيوان والإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:26.462408+00:00",
+    "extracted_text": null,
+    "id": "54666ae8-531b-40de-a437-6db5059b7382",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/54666ae8-531b-40de-a437-6db5059b7382/page_0141.jpg"
+    ],
+    "page_number": 140,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في الحيوان والإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:26.685816+00:00",
+    "extracted_text": null,
+    "id": "4baf043b-4eb2-4f8c-a240-dc9f9ebd9d8f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/4baf043b-4eb2-4f8c-a240-dc9f9ebd9d8f/page_0142.jpg"
+    ],
+    "page_number": 141,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في الحيوان والإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:26.908945+00:00",
+    "extracted_text": null,
+    "id": "3aed9ab0-bb57-411d-b9ad-712b28ff7515",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/3aed9ab0-bb57-411d-b9ad-712b28ff7515/page_0143.jpg"
+    ],
+    "page_number": 142,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "التكاثر في الحيوان والإنسان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:27.126897+00:00",
+    "extracted_text": null,
+    "id": "8392b80f-d259-4c02-b404-9e5bbedc57db",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/8392b80f-d259-4c02-b404-9e5bbedc57db/page_0144.jpg"
+    ],
+    "page_number": 143,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:27.34694+00:00",
+    "extracted_text": null,
+    "id": "d25cc0d4-c575-420a-930e-70219046a428",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/d25cc0d4-c575-420a-930e-70219046a428/page_0145.jpg"
+    ],
+    "page_number": 144,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض الجهازين البولي والتناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:27.568141+00:00",
+    "extracted_text": null,
+    "id": "8309e3c5-c1bb-45ff-8de4-f229af782bd5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/8309e3c5-c1bb-45ff-8de4-f229af782bd5/page_0146.jpg"
+    ],
+    "page_number": 145,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز البولي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:27.791295+00:00",
+    "extracted_text": null,
+    "id": "d3a1ba3c-2d78-4be2-8719-ded484eb2e32",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/d3a1ba3c-2d78-4be2-8719-ded484eb2e32/page_0147.jpg"
+    ],
+    "page_number": 146,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز البولي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:28.015608+00:00",
+    "extracted_text": null,
+    "id": "8711025c-dddf-490e-a3bd-14ea57cd6c09",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/8711025c-dddf-490e-a3bd-14ea57cd6c09/page_0148.jpg"
+    ],
+    "page_number": 147,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز البولي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:28.23977+00:00",
+    "extracted_text": null,
+    "id": "04d7b0f9-5eab-4c13-bca7-fa76da873033",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/04d7b0f9-5eab-4c13-bca7-fa76da873033/page_0149.jpg"
+    ],
+    "page_number": 148,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز البولي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:28.454624+00:00",
+    "extracted_text": null,
+    "id": "12b79c75-cdd0-4b60-b450-2a44fcae1abd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/12b79c75-cdd0-4b60-b450-2a44fcae1abd/page_0150.jpg"
+    ],
+    "page_number": 149,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز البولي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:28.681066+00:00",
+    "extracted_text": null,
+    "id": "91d04299-b0af-4c82-ba40-4969f8777ee4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/91d04299-b0af-4c82-ba40-4969f8777ee4/page_0151.jpg"
+    ],
+    "page_number": 150,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز البولي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:28.901627+00:00",
+    "extracted_text": null,
+    "id": "83c26790-ce88-4bd9-a7bc-fff352df2866",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/83c26790-ce88-4bd9-a7bc-fff352df2866/page_0152.jpg"
+    ],
+    "page_number": 151,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز التناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:29.143594+00:00",
+    "extracted_text": null,
+    "id": "28ff29b3-e569-406f-a534-880521669641",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/28ff29b3-e569-406f-a534-880521669641/page_0153.jpg"
+    ],
+    "page_number": 152,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز التناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:29.367722+00:00",
+    "extracted_text": null,
+    "id": "8548aa28-62cd-4e20-a8bf-094e3c709f20",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/8548aa28-62cd-4e20-a8bf-094e3c709f20/page_0154.jpg"
+    ],
+    "page_number": 153,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز التناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:29.589731+00:00",
+    "extracted_text": null,
+    "id": "b4f7d388-59b3-4812-8cf8-8ca4a5267bbb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/b4f7d388-59b3-4812-8cf8-8ca4a5267bbb/page_0155.jpg"
+    ],
+    "page_number": 154,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز التناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:29.809958+00:00",
+    "extracted_text": null,
+    "id": "d95b4701-e160-4233-87ec-a91b5203c82b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/d95b4701-e160-4233-87ec-a91b5203c82b/page_0156.jpg"
+    ],
+    "page_number": 155,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز التناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:30.027639+00:00",
+    "extracted_text": null,
+    "id": "2cc51cba-e574-4743-8785-3ce325a5bd59",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/2cc51cba-e574-4743-8785-3ce325a5bd59/page_0157.jpg"
+    ],
+    "page_number": 156,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز التناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:30.246681+00:00",
+    "extracted_text": null,
+    "id": "7322b105-e3d7-4b9d-b046-aa54c0e98690",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/7322b105-e3d7-4b9d-b046-aa54c0e98690/page_0158.jpg"
+    ],
+    "page_number": 157,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز التناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:30.478898+00:00",
+    "extracted_text": null,
+    "id": "5155133d-6fde-4099-835b-2e60cc061b84",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/5155133d-6fde-4099-835b-2e60cc061b84/page_0159.jpg"
+    ],
+    "page_number": 158,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "أمراض تصيب الجهاز التناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:30.70261+00:00",
+    "extracted_text": null,
+    "id": "824eb5fb-660c-4639-af66-084b1ceecf76",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/824eb5fb-660c-4639-af66-084b1ceecf76/page_0160.jpg"
+    ],
+    "page_number": 159,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "صحة وسلامة الجهازين البولي والتناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:30.924384+00:00",
+    "extracted_text": null,
+    "id": "6cc6cf4c-62bf-4a1b-90b7-5ff47bdf85b5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/6cc6cf4c-62bf-4a1b-90b7-5ff47bdf85b5/page_0161.jpg"
+    ],
+    "page_number": 160,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "صحة وسلامة الجهازين البولي والتناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:31.148075+00:00",
+    "extracted_text": null,
+    "id": "64d89455-fe73-4b3a-a113-70aa842bf057",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/64d89455-fe73-4b3a-a113-70aa842bf057/page_0162.jpg"
+    ],
+    "page_number": 161,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "صحة وسلامة الجهازين البولي والتناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:31.370271+00:00",
+    "extracted_text": null,
+    "id": "a256782b-443c-4a1c-bfca-c9daa031c162",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/a256782b-443c-4a1c-bfca-c9daa031c162/page_0163.jpg"
+    ],
+    "page_number": 162,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "صحة وسلامة الجهازين البولي والتناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:31.583504+00:00",
+    "extracted_text": null,
+    "id": "7d79f41f-63bd-4378-a3a8-ff25586236f9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/7d79f41f-63bd-4378-a3a8-ff25586236f9/page_0164.jpg"
+    ],
+    "page_number": 163,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "صحة وسلامة الجهازين البولي والتناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:31.80658+00:00",
+    "extracted_text": null,
+    "id": "f489911c-dc3f-4d65-b1b1-0c35caaa95f6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/f489911c-dc3f-4d65-b1b1-0c35caaa95f6/page_0165.jpg"
+    ],
+    "page_number": 164,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "صحة وسلامة الجهازين البولي والتناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:32.024276+00:00",
+    "extracted_text": null,
+    "id": "85309ad7-7841-4f7a-9a58-7a66f1cb3ed2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/85309ad7-7841-4f7a-9a58-7a66f1cb3ed2/page_0166.jpg"
+    ],
+    "page_number": 165,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "صحة وسلامة الجهازين البولي والتناسلي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:32.24719+00:00",
+    "extracted_text": null,
+    "id": "389c8687-d39b-4e5d-8f57-2edcf276bff0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/389c8687-d39b-4e5d-8f57-2edcf276bff0/page_0167.jpg"
+    ],
+    "page_number": 166,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:39:32.466854+00:00",
+    "extracted_text": null,
+    "id": "1ecb8ce4-8b90-4aa5-84db-cba048333d20",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/f4b6708c-027f-4883-9e85-e6e7acb52ecc/lesson/1ecb8ce4-8b90-4aa5-84db-cba048333d20/page_0168.jpg"
+    ],
+    "page_number": 167,
+    "subject_id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+    "summary": null,
+    "title": "تقويم الوحدة"
+  }
+]
