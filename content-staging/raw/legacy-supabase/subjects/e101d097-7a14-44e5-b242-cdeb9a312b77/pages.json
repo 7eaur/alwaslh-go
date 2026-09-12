@@ -1,0 +1,962 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:47.799349+00:00",
+    "extracted_text": null,
+    "id": "26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0001.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0001"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:48.799349+00:00",
+    "extracted_text": null,
+    "id": "58c3b1c4-736e-4ccf-9cc9-96f53de758d4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0002.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0002"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:49.799349+00:00",
+    "extracted_text": null,
+    "id": "56cf3434-eff2-4bee-aaa1-b151d53fbdd6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0003.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0003"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:50.799349+00:00",
+    "extracted_text": null,
+    "id": "ff9a8407-cd79-4778-845b-91337e824cb3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0004.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0004"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:51.799349+00:00",
+    "extracted_text": null,
+    "id": "5527c113-5692-42d2-84ec-fd45442bfd09",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0005.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0005"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:52.799349+00:00",
+    "extracted_text": null,
+    "id": "fc32a18f-7b56-4dbb-af63-3c965c283a19",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0006.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0006"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:53.799349+00:00",
+    "extracted_text": null,
+    "id": "d2f1c54a-8fcc-47b7-b5c7-f72350f2f80b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0007.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0007"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:54.799349+00:00",
+    "extracted_text": null,
+    "id": "e3f580cb-f10f-4f77-afd0-8c0da41aa4aa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0008.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0008"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:55.799349+00:00",
+    "extracted_text": null,
+    "id": "d98a0b8d-428f-48e1-a1f2-366ff49d30de",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0009.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0009"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:56.799349+00:00",
+    "extracted_text": null,
+    "id": "388c60fc-e526-48ec-8e78-e063fc719703",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0010.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0010"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:57.799349+00:00",
+    "extracted_text": null,
+    "id": "74c4ae40-6479-429d-bc70-57c25888976f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0011.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0011"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:58.799349+00:00",
+    "extracted_text": null,
+    "id": "27704ae9-7834-4a11-ba3b-4c508edb4d57",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0012.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0012"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:59.799349+00:00",
+    "extracted_text": null,
+    "id": "d22229b8-004a-4a50-9a76-73585d41391b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0013.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0013"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:00.799349+00:00",
+    "extracted_text": null,
+    "id": "8ce81175-9772-4d6b-b20b-53758624e19d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0014.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0014"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:01.799349+00:00",
+    "extracted_text": null,
+    "id": "03146d84-674b-458c-a55a-6c8e4b93d419",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0015.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0015"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:02.799349+00:00",
+    "extracted_text": null,
+    "id": "e55f6648-b430-4e9e-9efe-291c80f7a974",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0016.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0016"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:03.799349+00:00",
+    "extracted_text": null,
+    "id": "9b8e5c8b-4cec-46ee-ac3c-138540e22d77",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0017.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0017"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:04.799349+00:00",
+    "extracted_text": null,
+    "id": "998666f5-42d2-4fec-8b9c-c697d9bc2640",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0018.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0018"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:05.799349+00:00",
+    "extracted_text": null,
+    "id": "2c65dfb0-1075-4761-a742-5d00cf80bfb6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0019.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0019"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:06.799349+00:00",
+    "extracted_text": null,
+    "id": "e5c2aced-f0ef-4ba4-977b-c10c0eeed325",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0020.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0020"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:07.799349+00:00",
+    "extracted_text": null,
+    "id": "8f156165-399f-46ef-885f-6de10d053137",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0021.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0021"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:08.799349+00:00",
+    "extracted_text": null,
+    "id": "2ef215af-cc80-4cf4-98f7-cbdc6ddde640",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0022.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0022"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:09.799349+00:00",
+    "extracted_text": null,
+    "id": "146a0b53-6262-494e-8b38-794245ab45c6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0023.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0023"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:10.799349+00:00",
+    "extracted_text": null,
+    "id": "e3dea711-13c2-4821-aace-7cf824095441",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0024.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0024"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:11.799349+00:00",
+    "extracted_text": null,
+    "id": "fb8ad446-bce2-429f-9ee3-1ed26ddcde86",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0025.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0025"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:12.799349+00:00",
+    "extracted_text": null,
+    "id": "d33019b7-5728-4559-a86e-ce3e4cdad45b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0026.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0026"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:13.799349+00:00",
+    "extracted_text": null,
+    "id": "71e3061b-fc39-4965-953d-18ea7e2e9eea",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0027.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0027"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:14.799349+00:00",
+    "extracted_text": null,
+    "id": "f65cea56-b5cb-4a3f-838a-e1f8b0bb0b33",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0028.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0028"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:15.799349+00:00",
+    "extracted_text": null,
+    "id": "08a278c8-7af9-4377-b319-3ea7590eeb9c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0029.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0029"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:16.799349+00:00",
+    "extracted_text": null,
+    "id": "0a8ac619-1e7e-4016-a126-07dea3685b07",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0030.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0030"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:17.799349+00:00",
+    "extracted_text": null,
+    "id": "309d5c18-5ed8-4419-ad79-e603b2df331f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0031.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0031"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:18.799349+00:00",
+    "extracted_text": null,
+    "id": "27c0ffe0-9154-4bf4-bd8e-cf6e25e61175",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0032.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0032"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:19.799349+00:00",
+    "extracted_text": null,
+    "id": "a7bfaada-abd3-481e-bfbd-1e663b48ac1d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0033.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0033"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:20.799349+00:00",
+    "extracted_text": null,
+    "id": "b0c89d81-1dd4-4127-affb-4b114fe6766e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0034.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0034"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:21.799349+00:00",
+    "extracted_text": null,
+    "id": "4006d155-c24e-439a-81f4-d7cb8bc6dfdf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0035.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0035"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:22.799349+00:00",
+    "extracted_text": null,
+    "id": "60bf5661-227d-4971-bf1b-f88aab2a2c42",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0036.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0036"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:23.799349+00:00",
+    "extracted_text": null,
+    "id": "316b2fdd-eac3-427e-971d-cd3ceadf650c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0037.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0037"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:24.799349+00:00",
+    "extracted_text": null,
+    "id": "561893dd-4b3e-4ac0-9bea-e52ae730e960",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0038.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0038"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:25.799349+00:00",
+    "extracted_text": null,
+    "id": "1cb2d0a4-a1d0-4a20-b059-913d339edc92",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0039.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0039"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:26.799349+00:00",
+    "extracted_text": null,
+    "id": "35ff4cea-ba19-4410-a40e-7c7348376e9d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0040.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0040"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:27.799349+00:00",
+    "extracted_text": null,
+    "id": "afcf8875-1fea-4f2d-962e-b27470438fc3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0041.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0041"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:28.799349+00:00",
+    "extracted_text": null,
+    "id": "4e0cea9a-0078-40ce-91a6-d483e6353e91",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0042.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0042"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:29.799349+00:00",
+    "extracted_text": null,
+    "id": "64b7c9ef-40f9-4edb-8b24-cc44ffbd99f5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0043.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0043"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:30.799349+00:00",
+    "extracted_text": null,
+    "id": "92b4ab48-c94b-4307-b824-cd32ad3906a6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0044.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0044"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:31.799349+00:00",
+    "extracted_text": null,
+    "id": "d14293d7-923f-4723-8b5a-27fae715ce88",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0045.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0045"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:32.799349+00:00",
+    "extracted_text": null,
+    "id": "06a3b571-e584-4f6f-98b0-cdd01d791423",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0046.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0046"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:33.799349+00:00",
+    "extracted_text": null,
+    "id": "e5dc4f00-e1d2-4e87-a20f-f9756431d64d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0047.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0047"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:34.799349+00:00",
+    "extracted_text": null,
+    "id": "7ca9cb04-7bed-417a-bc6e-1974277ca26e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0048.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0048"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:35.799349+00:00",
+    "extracted_text": null,
+    "id": "9347d93f-a58f-450f-8424-dff4ce8160d5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0049.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0049"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:36.799349+00:00",
+    "extracted_text": null,
+    "id": "6367d518-1086-4509-ad8f-080d2a554759",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0050.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0050"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:37.799349+00:00",
+    "extracted_text": null,
+    "id": "2456e36e-2277-4674-bf45-700aa25fa327",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0051.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0051"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:38.799349+00:00",
+    "extracted_text": null,
+    "id": "90f2e437-4140-47f8-a689-e193f57c5ae7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0052.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0052"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:39.799349+00:00",
+    "extracted_text": null,
+    "id": "6af889cc-67bf-41b5-bc34-11c825851b48",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0053.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0053"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:40.799349+00:00",
+    "extracted_text": null,
+    "id": "55f10a7d-e264-4048-904e-83dfc906f625",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0054.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0054"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:41.799349+00:00",
+    "extracted_text": null,
+    "id": "26084131-81f1-4073-ac08-a71752e899b0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0055.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0055"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:42.799349+00:00",
+    "extracted_text": null,
+    "id": "36803dee-f19c-43a7-9c14-8b8e78e0842b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0056.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0056"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:43.799349+00:00",
+    "extracted_text": null,
+    "id": "f6a20372-f1b1-4f62-8369-70c6faf2a163",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0057.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0057"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:44.799349+00:00",
+    "extracted_text": null,
+    "id": "1d37b722-5a8c-447b-99b4-2b4f128f2d72",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0058.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0058"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:45.799349+00:00",
+    "extracted_text": null,
+    "id": "6e339737-2950-48bc-9889-78b5256b5410",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0059.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0059"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:46.799349+00:00",
+    "extracted_text": null,
+    "id": "72b46f0f-9473-4ae6-88c0-c88e436352a7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/14d13673-cd59-4168-a109-929277a71b0a/subject/6dac4c3b-8e4d-488b-8032-e251c19b591f/lesson/26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa/page_0060.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+    "summary": null,
+    "title": "الكيمياء نماذج وزاريه 1445 - الصفحة 0060"
+  }
+]
