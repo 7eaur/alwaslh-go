@@ -1,0 +1,42 @@
+name: Content Staging CI
+
+on:
+  push:
+    branches:
+      - 'content/**'
+    paths:
+      - 'tools/content_pipeline/**'
+      - 'staging/config/**'
+      - 'requirements-content.txt'
+      - '.github/workflows/content-staging-ci.yml'
+  pull_request:
+    paths:
+      - 'tools/content_pipeline/**'
+      - 'staging/config/**'
+      - 'requirements-content.txt'
+      - '.github/workflows/content-staging-ci.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-content.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements-content.txt
+
+      - name: Compile pipeline
+        run: python -m compileall -q tools/content_pipeline
+
+      - name: Run pipeline tests
+        run: python -m unittest discover -s tools/content_pipeline/tests -v
