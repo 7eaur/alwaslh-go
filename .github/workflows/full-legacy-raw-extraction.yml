@@ -41,13 +41,13 @@ jobs:
             echo 'No compatible legacy/Supabase publishable or anon key was found in repository Secrets/Variables.' >&2
             exit 1
           fi
-          python -m py_compile content-staging/tools/extract_legacy_supabase.py
+          python -m py_compile content-staging/tools/extract_legacy_supabase.py content-staging/tools/extract_legacy_supabase_compat.py
 
       - name: Extract inventory
         shell: bash
         run: |
           set -euo pipefail
-          python content-staging/tools/extract_legacy_supabase.py --inventory-only
+          python content-staging/tools/extract_legacy_supabase_compat.py --inventory-only
 
       - name: Commit inventory checkpoint
         shell: bash
@@ -83,7 +83,7 @@ jobs:
           while IFS= read -r subject_id; do
             index=$((index + 1))
             echo "=== [$index/$total] extracting $subject_id ==="
-            python content-staging/tools/extract_legacy_supabase.py --subject-id "$subject_id"
+            python content-staging/tools/extract_legacy_supabase_compat.py --subject-id "$subject_id"
 
             subject_dir="content-staging/raw/legacy-supabase/subjects/$subject_id"
             test -s "$subject_dir/subject.json"
