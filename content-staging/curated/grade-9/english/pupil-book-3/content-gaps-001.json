@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "task": "CONTENT-GAPS-001",
+  "status": "gap_inventory_complete",
+  "target": {
+    "class_slug": "grade-9",
+    "subject_slug": "english",
+    "document_slug": "pupil-book-3",
+    "legacy_subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733"
+  },
+  "live_heads_at_start": {
+    "alwaslh_main": "c5ccbc9b0d0e88ef8798bbae6a3cc0bf933b5a7e",
+    "alwaslh_go_content_branch": "1132773d2fb5b93b6a58a27201d4275b8462c233"
+  },
+  "provenance": {
+    "reconstruction_file": "content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json",
+    "reconstruction_blob_sha": "2d054712b6013675f7ad24d573c3a06745972067",
+    "raw_subject_manifest": "content-staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/manifest.json",
+    "raw_subject_manifest_blob_sha": "70a6c37000eb0dc8249a64fa5cade5d5de61686e",
+    "full_extraction_snapshot_sha256": "2dfde94f6b70c037bb15d2782d11f036441c4abe130295be772c59b5e0131d0c"
+  },
+  "counts": {
+    "raw_page_candidates": 69,
+    "raw_images": 69,
+    "legacy_questions": 104,
+    "recovered_sections": 8,
+    "reviewed_boundary_page_coverage": 10,
+    "unresolved_boundary_page_candidates": 59,
+    "unit2_unresolved_pages": 5,
+    "unit2_unresolved_questions": 11,
+    "source_manifest_only_pages": 1,
+    "grade9_english_duplicate_page_number_anomalies": 0,
+    "corpus_wide_duplicate_position_anomalies_preserved": 6,
+    "verified_modern_page_mappings": 4,
+    "unverified_modern_page_mapping_candidates": 65
+  },
+  "gaps": [
+    {
+      "id": "GAP-UNIT2-BOUNDARY-REMAINDER",
+      "kind": "lesson_activity_boundary_unresolved",
+      "scope": "Unit 2 - Describing: Making plans",
+      "book_pages": [11, 12, 13, 14, 15],
+      "source_pages": [15, 16, 17, 18, 19],
+      "question_count": 11,
+      "status": "review_required",
+      "note": "These five source pages are preserved candidates, not five automatically asserted Lessons.",
+      "items": [
+        {
+          "book_page": 11,
+          "source_page": 15,
+          "candidate_id": "page-candidate-55c4cce3531aeed7dbb0",
+          "legacy_page_id": "ad939b52-4763-4554-83f1-46429e72adb7",
+          "title": "Things to do",
+          "question_count": 2,
+          "raw_sha256": "92d6d0ec4f081aa600a6da3ba18440654eb70b6861121460e26ec733b63f6dd1"
+        },
+        {
+          "book_page": 12,
+          "source_page": 16,
+          "candidate_id": "page-candidate-440643a334add10141bd",
+          "legacy_page_id": "2a7ef5ef-e82d-4323-b5ec-1c1adae83fd4",
+          "title": "Planning a garden",
+          "question_count": 3,
+          "raw_sha256": "56e7b8cc68cb0104319f6f204ab7bc43cb8fcfd661f3693f46893e9b62bb2770"
+        },
+        {
+          "book_page": 13,
+          "source_page": 17,
+          "candidate_id": "page-candidate-cfc43aeb30cd77e9da88",
+          "legacy_page_id": "217653ed-e928-4a0a-a976-6ea8effe094d",
+          "title": "What are they going to be?",
+          "question_count": 3,
+          "raw_sha256": "90187159bd918287e490a2b78632e3c3c2bd2cd55a1340ec1c342010976d7014"
+        },
+        {
+          "book_page": 14,
+          "source_page": 18,
+          "candidate_id": "page-candidate-671ed6e2ad19a5eea7e9",
+          "legacy_page_id": "a90cd2f8-9f38-4f3b-a834-85f0ba104579",
+          "title": "The snake - episode 1",
+          "question_count": 3,
+          "raw_sha256": "f14b18d0ec6db3e2fa6fd43c7edffde4df3d36223afbd3e4bb9e8c5953b93986"
+        },
+        {
+          "book_page": 15,
+          "source_page": 19,
+          "candidate_id": "page-candidate-8b7d08bc21e8bc330646",
+          "legacy_page_id": "6679f224-3022-45eb-9f6c-a73b3ec21b76",
+          "title": "Language review 1",
+          "question_count": 0,
+          "raw_sha256": "ec05c8acffc28da56bb1007b07f076c875667bc7ffdc1d730f6ec2424285084f"
+        }
+      ]
+    },
+    {
+      "id": "GAP-BOUNDARY-REMAINING-CORPUS",
+      "kind": "lesson_activity_boundary_unresolved",
+      "page_candidate_count": 59,
+      "status": "review_required",
+      "note": "69 RAW candidates exist. Reviewed boundary coverage currently accounts for 10 pages: Unit 1 pages 1..4 plus Unit 2 pages 5..10. The remaining 59 require evidence-based grouping before import/publication. This count does not infer a desired lesson count."
+    },
+    {
+      "id": "GAP-SOURCE-MANIFEST-ONLY-70",
+      "kind": "source_manifest_without_immutable_raw_page",
+      "book_page": 70,
+      "source_page": 74,
+      "title": "Blank Final Page",
+      "section": "Back Matter",
+      "relative_path": "الصور/p070 - Blank Final Page.jpg",
+      "status": "evidence_only",
+      "reason": "The reviewed source manifest contains this page, but the immutable legacy RAW subject contains only 69 pages/images and has no corresponding RAW page identity. Do not synthesize or import it as curriculum content without new source evidence."
+    },
+    {
+      "id": "GAP-MODERN-MAPPING-VERIFICATION",
+      "kind": "modern_mapping_unverified",
+      "verified_page_count": 4,
+      "unverified_candidate_count": 65,
+      "status": "verification_required_before_import",
+      "note": "Only the four BATCH-001 Unit 1 page identities have a verified committed modern mapping in this rebuild track. The other 65 RAW candidates are classified as unverified mappings, not as missing rows. Historical '62 draft lessons' is reconciliation evidence only and is not used to infer which candidates belong or should be deleted."
+    }
+  ],
+  "anomaly_scope": {
+    "grade9_english_raw_manifest": {
+      "duplicate_page_numbers": 0,
+      "missing_images": 0,
+      "multiple_images": 0,
+      "malformed_ai_questions": 0,
+      "malformed_image_urls": 0,
+      "null_or_invalid_page_numbers": 0,
+      "image_download_failures": 0
+    },
+    "full_legacy_corpus": {
+      "duplicate_position_anomalies_preserved": 6,
+      "note": "These six anomalies are corpus-wide evidence and must remain preserved. They are not six Grade 9 English anomalies and must not be used to delete or compress this subject."
+    }
+  },
+  "safety_assertions": {
+    "uses_69_to_62_heuristic": false,
+    "raw_mutation": false,
+    "media_mutation": false,
+    "postgresql_mutation": false,
+    "publication_change": false,
+    "anomalies_deleted": false,
+    "unrelated_records_modified": false
+  },
+  "next_gate": "MEDIA-001",
+  "next_gate_constraint": "MEDIA-001 may evaluate derived media only from preserved RAW identities and must accept a derived WebP only when measured size/clarity benefit is real; it must not resolve curriculum or lesson-boundary gaps by media processing."
+}
