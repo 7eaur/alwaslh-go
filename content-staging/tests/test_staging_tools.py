@@ -71,6 +71,34 @@ class CurationTests(unittest.TestCase):
     def test_title_normalization_only_collapses_whitespace(self):
         self.assertEqual(builder.normalize_title("  Unit   1  -  Revision "), "Unit 1 - Revision")
 
+    def test_unique_page_map_rejects_duplicate_positions(self):
+        with self.assertRaises(SystemExit):
+            builder.unique_page_map(
+                [{"page_number": 1, "id": "a"}, {"page_number": 1, "id": "b"}],
+                field="page_number",
+                label="test",
+            )
+
+    def test_raw_image_index_requires_exact_page_provenance(self):
+        pages = {1: {"id": "page-1", "page_number": 1}}
+        raw_manifest = {
+            "images": [
+                {
+                    "legacy_page_id": "page-1",
+                    "page_number": 1,
+                    "raw_path": "raw/page-1.jpg",
+                    "sha256": "a" * 64,
+                    "byte_size": 123,
+                }
+            ]
+        }
+        indexed = builder.index_raw_images(raw_manifest, pages)
+        self.assertEqual(indexed[1]["legacy_page_id"], "page-1")
+
+        raw_manifest["images"][0]["legacy_page_id"] = "wrong-page"
+        with self.assertRaises(SystemExit):
+            builder.index_raw_images(raw_manifest, pages)
+
 
 if __name__ == "__main__":
     unittest.main()
