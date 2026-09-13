@@ -14,12 +14,12 @@ Fixed rules:
 - أي apply يفشل مغلقًا عند identity/count/provenance drift.
 - WebP لا يُقبل لمجرد الامتداد؛ يجب إثبات فائدة الحجم والوضوح.
 
-## Live heads observed at start of MEDIA-001
+## Live heads observed at start of IMPORT-001
 
-- `7eaur/alwaslh main`: `c5ccbc9b0d0e88ef8798bbae6a3cc0bf933b5a7e`
-- `7eaur/alwaslh-go content/legacy-staging-rebuild`: `40a5781577ecfdd6b9783bd22d926e705c7ad940`
+- `7eaur/alwaslh main`: `0c7c9f9c5e4ec6ae020484a9a4892eaf3b8b5194`
+- `7eaur/alwaslh-go content/legacy-staging-rebuild`: `3063e2897a6689674081d2ccdbf17693d4ae078b`
 
-No evidence-invalidating drift was found before starting MEDIA-001.
+No evidence-invalidating drift was found before starting IMPORT-001.
 
 ## BATCH-001 — DONE / COMMITTED_STATE_VERIFIED
 
@@ -171,6 +171,39 @@ Important interpretation:
 - publication change: `0`
 - unrelated-record mutation: `0`
 
+## IMPORT-001 — IN PROGRESS / LIVE_IDENTITY_INSPECTOR_BUILDING
+
+Smallest intended import scope remains CURATION-001 only:
+- one reviewed Lesson: `Describing people and animals`
+- book pages `5..8` / source pages `9..12`
+- four ordered page/activity identities
+- unresolved pages remain excluded
+- no question import/rewrite is authorized by CURATION-001
+
+Progress in this run:
+- live repository heads were re-read before work; no evidence-invalidating drift was found.
+- added read-only runtime inspector `content-staging/runtime/import-001-inspect.mjs`.
+- inspector commit: `6109f7d8dc9dce34f8dfe4c08f748425dfd1edc1`.
+- the inspector validates exact Grade 9/English scope, the four legacy source paths/checksums/presence flags, existing Media/Lesson chains, section membership, target-slug collisions and publication state before any write.
+- Railway service `alwaslh-content-inspector` was switched to `node import-001-inspect.mjs`.
+- auto-deployment: `ab72b35e-990d-4a07-bc10-a875ee6c87cc`.
+- deployment status at checkpoint: `BUILDING` (builder scheduled; no runtime output yet).
+- PostgreSQL mutation: `0`.
+- RAW/Media binary mutation: `0`.
+- publication mutation: `0`.
+- unrelated-record mutation: `0`.
+
+Transient blocker:
+- Railway has not completed the inspector build yet, so live identity/provenance counts are not yet available and controlled dry-run/apply must not proceed.
+
+Exact next action:
+1. read both live heads again;
+2. inspect deployment `ab72b35e-990d-4a07-bc10-a875ee6c87cc` and require `IMPORT001_INSPECT_PASS`;
+3. if the inspector fails, fix the root cause without weakening identity/count/provenance guards;
+4. if it passes, document exact existing Section/Lesson/Asset/Media identities and create/reuse/update counts;
+5. only then build and execute the dry-run/rollback gate for this same four-page reviewed scope;
+6. do not publish, import unresolved pages, mutate RAW, use `69 -> 62`, delete anomalies, or touch unrelated records.
+
 ## Gate checklist
 
 - `BATCH-001` — DONE / COMMITTED_STATE_VERIFIED
@@ -180,19 +213,7 @@ Important interpretation:
 - `CURATION-002` — DONE / LESSON_BOUNDARY_VERIFIED
 - `CONTENT-GAPS-001` — DONE / GAP_INVENTORY_VERIFIED
 - `MEDIA-001` — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
-
-## Exact next action
-
-On the next run:
-1. read both live repository heads + this status + handoff;
-2. do not reopen completed tasks unless live drift invalidates evidence;
-3. execute `IMPORT-001` only and keep the batch as small as reviewable;
-4. import only content whose Lesson/Activity boundaries are already reviewed; unresolved pages remain out of scope;
-5. resolve live modern identities and provenance before mutation and fail closed on drift;
-6. for page 5, regenerate/use the accepted q76/method6 derivative only if the resulting SHA-256 equals `4fdeb9e17a0a269481ee046bcbf67053f834c8e75fdb4d5bda445977b742a5e2`; otherwise fail closed;
-7. pages 6..8 keep RAW/preferred existing media unless a new candidate passes a separate media gate;
-8. do not auto-publish, mutate RAW, apply `69 -> 62`, delete anomalies, or touch unrelated records;
-9. dry-run before controlled apply and document exact create/reuse/update counts plus rollback/verification evidence.
+- `IMPORT-001` — IN PROGRESS / LIVE_IDENTITY_INSPECTOR_BUILDING
 
 ## Remaining ordered queue
 
@@ -203,7 +224,7 @@ On the next run:
 - `CURATION-002` — DONE
 - `CONTENT-GAPS-001` — DONE
 - `MEDIA-001` — DONE
-- `IMPORT-001` — NEXT
+- `IMPORT-001` — IN PROGRESS
 - `VERIFY-001` — TODO
 - `ROADMAP-RETURN -> STUDENT-016I` — TODO
 
