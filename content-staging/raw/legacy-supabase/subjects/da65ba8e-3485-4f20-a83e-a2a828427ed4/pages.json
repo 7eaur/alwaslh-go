@@ -1,0 +1,1202 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:40.770442+00:00",
+    "extracted_text": null,
+    "id": "8b96163d-0679-412f-86ad-99e481491c7b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/8b96163d-0679-412f-86ad-99e481491c7b/page_0005.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Shapes, coverings and materials"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:40.990668+00:00",
+    "extracted_text": null,
+    "id": "45aa9d3c-8259-4dae-b875-6d9ad02eaca1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/45aa9d3c-8259-4dae-b875-6d9ad02eaca1/page_0006.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Lost"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:41.215678+00:00",
+    "extracted_text": null,
+    "id": "ecff0aeb-c3fd-4e2e-976e-0da9ceb49384",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/ecff0aeb-c3fd-4e2e-976e-0da9ceb49384/page_0007.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "An unusual animal"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:41.435086+00:00",
+    "extracted_text": null,
+    "id": "2484be73-d00e-4a71-bad9-2584f579d0ca",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/2484be73-d00e-4a71-bad9-2584f579d0ca/page_0008.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Language review 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:41.659083+00:00",
+    "extracted_text": null,
+    "id": "4328108a-6430-43c9-acae-fe2cd6979d3d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/4328108a-6430-43c9-acae-fe2cd6979d3d/page_0009.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "The countryside"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:41.874285+00:00",
+    "extracted_text": null,
+    "id": "aa521bf3-5e96-4b51-8942-fecb97b2d05e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/aa521bf3-5e96-4b51-8942-fecb97b2d05e/page_0010.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "A drive in the countryside"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:42.09725+00:00",
+    "extracted_text": null,
+    "id": "8418d9df-b11a-41e7-96e3-0a14e6438d20",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/8418d9df-b11a-41e7-96e3-0a14e6438d20/page_0011.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Language review 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:42.322639+00:00",
+    "extracted_text": null,
+    "id": "25f1729d-8a18-48d6-b9b9-10a9dd48a064",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/25f1729d-8a18-48d6-b9b9-10a9dd48a064/page_0012.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "A view from a window"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:42.558867+00:00",
+    "extracted_text": null,
+    "id": "f265f4ba-332a-41a5-8465-463dddeb3c8f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/f265f4ba-332a-41a5-8465-463dddeb3c8f/page_0013.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Newspaper headlines"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:42.779375+00:00",
+    "extracted_text": null,
+    "id": "607630b4-f5f7-4fab-9e62-012f7742b835",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/607630b4-f5f7-4fab-9e62-012f7742b835/page_0014.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Today's news"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:43.002202+00:00",
+    "extracted_text": null,
+    "id": "248a8a45-d70b-45b2-973d-cf7c418b0bb7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/248a8a45-d70b-45b2-973d-cf7c418b0bb7/page_0015.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Don and Debbie: dreamers"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:43.230296+00:00",
+    "extracted_text": null,
+    "id": "d6a9ebf3-3aab-41a5-892c-a49cde6795a3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/d6a9ebf3-3aab-41a5-892c-a49cde6795a3/page_0016.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Language review 3"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:43.448107+00:00",
+    "extracted_text": null,
+    "id": "2988f13d-ffee-450b-8e9d-e259b96e618f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/2988f13d-ffee-450b-8e9d-e259b96e618f/page_0017.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Natural disasters"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:43.681857+00:00",
+    "extracted_text": null,
+    "id": "751f6999-ca8e-472d-a719-8c96f4689de4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/751f6999-ca8e-472d-a719-8c96f4689de4/page_0018.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "A newspaper report"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:43.954429+00:00",
+    "extracted_text": null,
+    "id": "b01824ac-7dbe-4744-862c-0d27d4a5e95c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/b01824ac-7dbe-4744-862c-0d27d4a5e95c/page_0019.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Language review 4"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:44.189397+00:00",
+    "extracted_text": null,
+    "id": "40fca916-e714-47bf-8aca-28f4486ebb2e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/40fca916-e714-47bf-8aca-28f4486ebb2e/page_0020.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Armenia - 7, December 1988"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:44.413312+00:00",
+    "extracted_text": null,
+    "id": "3f7a650c-9880-490b-8b37-f9209251625b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/3f7a650c-9880-490b-8b37-f9209251625b/page_0021.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Getting work experience"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:44.634318+00:00",
+    "extracted_text": null,
+    "id": "6179ccdd-4392-4e30-ad66-a2678df95c6d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/6179ccdd-4392-4e30-ad66-a2678df95c6d/page_0022.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Thinking about the future"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:44.867854+00:00",
+    "extracted_text": null,
+    "id": "fde446a3-7f32-4ad2-a99c-2db7a6390037",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/fde446a3-7f32-4ad2-a99c-2db7a6390037/page_0023.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Getting careers advice"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:45.098307+00:00",
+    "extracted_text": null,
+    "id": "62e5b51e-53b8-465b-8cff-20cbf727de6f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/62e5b51e-53b8-465b-8cff-20cbf727de6f/page_0024.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Language review 5"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:45.323004+00:00",
+    "extracted_text": null,
+    "id": "35e336b4-f955-4637-afa1-f6d190316952",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/35e336b4-f955-4637-afa1-f6d190316952/page_0025.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Jobs and qualities"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:45.550256+00:00",
+    "extracted_text": null,
+    "id": "47b563db-8edc-4956-be6d-362ee403363f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/47b563db-8edc-4956-be6d-362ee403363f/page_0026.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Applying for a job"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:45.775605+00:00",
+    "extracted_text": null,
+    "id": "672ad444-e3dd-47af-92f3-c5248764c045",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/672ad444-e3dd-47af-92f3-c5248764c045/page_0027.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Language review 6"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:45.997668+00:00",
+    "extracted_text": null,
+    "id": "d47d4069-f538-4959-94c9-80abd00bd53d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/d47d4069-f538-4959-94c9-80abd00bd53d/page_0028.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "A business letter"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:46.226283+00:00",
+    "extracted_text": null,
+    "id": "20f54090-05f5-4a29-9b50-f170b0048abc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/20f54090-05f5-4a29-9b50-f170b0048abc/page_0029.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Food"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:46.435957+00:00",
+    "extracted_text": null,
+    "id": "952a67fa-275a-4d9f-be67-1f63e3af7e4e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/952a67fa-275a-4d9f-be67-1f63e3af7e4e/page_0030.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Learning to cook"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:46.654583+00:00",
+    "extracted_text": null,
+    "id": "b4e109c1-093a-49e2-ae11-d20bec8ec718",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/b4e109c1-093a-49e2-ae11-d20bec8ec718/page_0031.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Agriculture in Yemen"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:46.886182+00:00",
+    "extracted_text": null,
+    "id": "1dcc85b9-0e48-49cd-9b2b-7285f171f5c6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/1dcc85b9-0e48-49cd-9b2b-7285f171f5c6/page_0032.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Language review 7"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:47.103509+00:00",
+    "extracted_text": null,
+    "id": "08ae482a-7638-43a6-9187-e4b1093f095b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/08ae482a-7638-43a6-9187-e4b1093f095b/page_0033.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Words and more words"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:47.34328+00:00",
+    "extracted_text": null,
+    "id": "8a8d2351-c3ab-465f-8a7a-cbfaee0b9289",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/8a8d2351-c3ab-465f-8a7a-cbfaee0b9289/page_0034.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Investigating the world around us"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:47.559912+00:00",
+    "extracted_text": null,
+    "id": "ed43032b-9d53-4b80-a5a4-29ba405fc326",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/ed43032b-9d53-4b80-a5a4-29ba405fc326/page_0035.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Language review 8"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:47.772481+00:00",
+    "extracted_text": null,
+    "id": "d4dd3dc2-2067-4c7e-912d-2a04d7c6f7f4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/d4dd3dc2-2067-4c7e-912d-2a04d7c6f7f4/page_0036.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Frozen peas"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:47.99232+00:00",
+    "extracted_text": null,
+    "id": "5426c553-4051-44cc-8df9-7903a947f1ae",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/5426c553-4051-44cc-8df9-7903a947f1ae/page_0037.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Word sets"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:48.215943+00:00",
+    "extracted_text": null,
+    "id": "2b0d9580-ecdb-4713-9b02-710b62f939e6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/2b0d9580-ecdb-4713-9b02-710b62f939e6/page_0038.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Possibilities"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:48.432927+00:00",
+    "extracted_text": null,
+    "id": "4cad52c7-9ec6-4d7b-923e-7307db7a4483",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/4cad52c7-9ec6-4d7b-923e-7307db7a4483/page_0039.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Puzzles and riddles"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:48.648458+00:00",
+    "extracted_text": null,
+    "id": "764ceea4-bd9b-4b55-91f8-86da937a9fd1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/764ceea4-bd9b-4b55-91f8-86da937a9fd1/page_0040.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Language review 9"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:48.872856+00:00",
+    "extracted_text": null,
+    "id": "6f4f4ae6-1e13-47cb-b992-7d5c1381b283",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/6f4f4ae6-1e13-47cb-b992-7d5c1381b283/page_0041.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "The mystery of the Mary Celeste"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:49.094031+00:00",
+    "extracted_text": null,
+    "id": "d677d945-0ccd-49cb-8a92-6a9aa5fce7ad",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/d677d945-0ccd-49cb-8a92-6a9aa5fce7ad/page_0042.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "What could have happened?"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:49.313847+00:00",
+    "extracted_text": null,
+    "id": "88393580-d1f9-450e-bd67-863a4b983d77",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/88393580-d1f9-450e-bd67-863a4b983d77/page_0043.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Language review 10"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:49.537471+00:00",
+    "extracted_text": null,
+    "id": "2c339a24-323f-4af7-b2fd-de692636fe27",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/2c339a24-323f-4af7-b2fd-de692636fe27/page_0044.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Tracks in the sand"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:49.748938+00:00",
+    "extracted_text": null,
+    "id": "b60199ca-aa2a-4a27-a9fa-691cee378484",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/b60199ca-aa2a-4a27-a9fa-691cee378484/page_0045.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Emergencies in the news"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:49.976438+00:00",
+    "extracted_text": null,
+    "id": "4aca6ebe-451a-4955-b6c1-eee4ab485f70",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/4aca6ebe-451a-4955-b6c1-eee4ab485f70/page_0046.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "A lucky escape"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:50.203656+00:00",
+    "extracted_text": null,
+    "id": "76dfca22-b787-4d1b-bc62-ce23b757f25a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/76dfca22-b787-4d1b-bc62-ce23b757f25a/page_0047.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Accident at Jebel Kebir"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:50.448622+00:00",
+    "extracted_text": null,
+    "id": "b7fd5557-9a6e-4ce8-844b-ee7eadd4d48f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/b7fd5557-9a6e-4ce8-844b-ee7eadd4d48f/page_0048.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Saving Anwar"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:50.664485+00:00",
+    "extracted_text": null,
+    "id": "75d5feda-a4e5-42b1-bf60-7477a78e0dbc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/75d5feda-a4e5-42b1-bf60-7477a78e0dbc/page_0049.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "How a hospital works"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:50.884468+00:00",
+    "extracted_text": null,
+    "id": "a8c00603-0c37-4904-a9af-c898d5ec1ae1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/a8c00603-0c37-4904-a9af-c898d5ec1ae1/page_0050.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Working in public service"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:51.113268+00:00",
+    "extracted_text": null,
+    "id": "81436ab3-3362-4438-b6cb-3fc2796cf81c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/81436ab3-3362-4438-b6cb-3fc2796cf81c/page_0051.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Huge changes in Libyan health care"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:51.329664+00:00",
+    "extracted_text": null,
+    "id": "6c669459-f4b0-4e65-bd51-e024bf5193e8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/6c669459-f4b0-4e65-bd51-e024bf5193e8/page_0052.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Discovering Yemen"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:51.573279+00:00",
+    "extracted_text": null,
+    "id": "65599d28-6a63-4004-82db-56f411e245fc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/65599d28-6a63-4004-82db-56f411e245fc/page_0053.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Tourism and the future"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:51.822056+00:00",
+    "extracted_text": null,
+    "id": "0b612282-9304-4a58-85f5-d7a9cc51d682",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/0b612282-9304-4a58-85f5-d7a9cc51d682/page_0054.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Blank Separator Page"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:52.046007+00:00",
+    "extracted_text": null,
+    "id": "0d22ab4f-e9cd-408f-a1bb-42924ca7671f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/0d22ab4f-e9cd-408f-a1bb-42924ca7671f/page_0055.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Arts reader cover"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:52.263747+00:00",
+    "extracted_text": null,
+    "id": "cb55d8eb-c95e-42c5-a86e-f8c12fdb9bb1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/cb55d8eb-c95e-42c5-a86e-f8c12fdb9bb1/page_0056.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "A difficult choice?"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:52.489568+00:00",
+    "extracted_text": null,
+    "id": "1df33326-8548-4e72-87c3-976642a50ffe",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/1df33326-8548-4e72-87c3-976642a50ffe/page_0057.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Proverbs and idioms"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:52.701065+00:00",
+    "extracted_text": null,
+    "id": "1f97b2a8-79fb-44c0-a527-1ea86925ce4d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/1f97b2a8-79fb-44c0-a527-1ea86925ce4d/page_0058.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Telford Hall Episode 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:52.91343+00:00",
+    "extracted_text": null,
+    "id": "4de972db-713c-44e3-8cfd-5016cd9da4c5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/4de972db-713c-44e3-8cfd-5016cd9da4c5/page_0059.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "A famous play by Shakespeare"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:53.124673+00:00",
+    "extracted_text": null,
+    "id": "1a3153b6-9e6c-4025-85aa-751949cb5153",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/1a3153b6-9e6c-4025-85aa-751949cb5153/page_0060.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Telford Hall Episode 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:53.355833+00:00",
+    "extracted_text": null,
+    "id": "1f9b0dbd-09a8-4bf6-946a-7a211990b18a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/1f9b0dbd-09a8-4bf6-946a-7a211990b18a/page_0061.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Telford Hall Episode 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:53.566545+00:00",
+    "extracted_text": null,
+    "id": "c8b08971-b46c-49bd-9625-23ed95ab5a99",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/c8b08971-b46c-49bd-9625-23ed95ab5a99/page_0062.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Critics and criticism"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:53.777528+00:00",
+    "extracted_text": null,
+    "id": "0439f84f-409a-4027-8dce-a4ee0768b163",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/0439f84f-409a-4027-8dce-a4ee0768b163/page_0063.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Telford Hall Episode 3"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:54.014733+00:00",
+    "extracted_text": null,
+    "id": "49ed256b-d1c9-4a02-ac2b-b217a21f67e9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/49ed256b-d1c9-4a02-ac2b-b217a21f67e9/page_0064.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Telford Hall Episode 3"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:54.234608+00:00",
+    "extracted_text": null,
+    "id": "29857654-1b63-4cff-9424-aca0b5913622",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/29857654-1b63-4cff-9424-aca0b5913622/page_0065.jpg"
+    ],
+    "page_number": 61,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Calligraphy"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:54.454184+00:00",
+    "extracted_text": null,
+    "id": "798a452e-d598-4318-bf15-de96afcc014b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/798a452e-d598-4318-bf15-de96afcc014b/page_0066.jpg"
+    ],
+    "page_number": 62,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "A poem"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:54.682039+00:00",
+    "extracted_text": null,
+    "id": "eaaf7300-5055-4eed-831d-f283799283a3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/eaaf7300-5055-4eed-831d-f283799283a3/page_0067.jpg"
+    ],
+    "page_number": 63,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Strange happenings"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:54.915048+00:00",
+    "extracted_text": null,
+    "id": "e8cc23b0-4d05-4211-b4bb-c424c1cc86a1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/e8cc23b0-4d05-4211-b4bb-c424c1cc86a1/page_0068.jpg"
+    ],
+    "page_number": 64,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Blank Separator Page"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:55.193659+00:00",
+    "extracted_text": null,
+    "id": "c1e986b0-55b3-4e93-91c6-d1ecf8899b10",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/c1e986b0-55b3-4e93-91c6-d1ecf8899b10/page_0069.jpg"
+    ],
+    "page_number": 65,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Science reader cover"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:55.41611+00:00",
+    "extracted_text": null,
+    "id": "f54aff48-3b6e-42e8-9b8e-139014ea5d4d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/f54aff48-3b6e-42e8-9b8e-139014ea5d4d/page_0070.jpg"
+    ],
+    "page_number": 66,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Acids and alkalis"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:55.64671+00:00",
+    "extracted_text": null,
+    "id": "29ce4dc2-0d5b-4b98-be26-3f3ecf2cf105",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/29ce4dc2-0d5b-4b98-be26-3f3ecf2cf105/page_0071.jpg"
+    ],
+    "page_number": 67,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "States of matter"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:55.856086+00:00",
+    "extracted_text": null,
+    "id": "400aa93b-9940-4526-8f95-53491ec27ae7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/400aa93b-9940-4526-8f95-53491ec27ae7/page_0072.jpg"
+    ],
+    "page_number": 68,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Light"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:56.085308+00:00",
+    "extracted_text": null,
+    "id": "79b66d60-c529-4c55-b3ee-a54dc0e52d25",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/79b66d60-c529-4c55-b3ee-a54dc0e52d25/page_0073.jpg"
+    ],
+    "page_number": 69,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Sound"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:56.301072+00:00",
+    "extracted_text": null,
+    "id": "0f3a286a-9b05-4a86-9422-b4a80f454655",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/0f3a286a-9b05-4a86-9422-b4a80f454655/page_0074.jpg"
+    ],
+    "page_number": 70,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Arab scientists"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:56.518883+00:00",
+    "extracted_text": null,
+    "id": "2f4777f1-95d5-480c-8706-315d7f3a401f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/2f4777f1-95d5-480c-8706-315d7f3a401f/page_0075.jpg"
+    ],
+    "page_number": 71,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Vaccinations"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:56.740491+00:00",
+    "extracted_text": null,
+    "id": "18e84908-f82a-49dc-9cb9-423d32d4288f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/18e84908-f82a-49dc-9cb9-423d32d4288f/page_0076.jpg"
+    ],
+    "page_number": 72,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Experimental procedures"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:56.957497+00:00",
+    "extracted_text": null,
+    "id": "3618d536-5856-4663-b417-79782d4408ae",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/3618d536-5856-4663-b417-79782d4408ae/page_0077.jpg"
+    ],
+    "page_number": 73,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Internal combustion engine"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:57.21482+00:00",
+    "extracted_text": null,
+    "id": "42663da9-de4a-4e60-a6ee-0e11be1ba312",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/42663da9-de4a-4e60-a6ee-0e11be1ba312/page_0078.jpg"
+    ],
+    "page_number": 74,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "The Moon"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:29:57.434335+00:00",
+    "extracted_text": null,
+    "id": "71b1b65f-5d86-453b-acd8-2178bfd59391",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/da65ba8e-3485-4f20-a83e-a2a828427ed4/lesson/71b1b65f-5d86-453b-acd8-2178bfd59391/page_0079.jpg"
+    ],
+    "page_number": 75,
+    "subject_id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+    "summary": null,
+    "title": "Radioactivity"
+  }
+]
