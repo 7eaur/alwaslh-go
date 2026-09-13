@@ -1,2 +1,3 @@
-grade9-english-curation-v1
+grade9-english-curation-v2
 raw_snapshot_sha256=2dfde94f6b70c037bb15d2782d11f036441c4abe130295be772c59b5e0131d0c
+manifest_only_policy=preserve-as-unresolved-evidence
