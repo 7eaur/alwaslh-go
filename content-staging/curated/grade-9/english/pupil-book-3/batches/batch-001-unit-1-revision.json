@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "batch_id": "BATCH-001-G9-EN-PB3-U1",
+  "status": "prepared_for_db_import",
+  "source": {
+    "repository": "7eaur/alwaslh-go",
+    "branch": "content/legacy-staging-rebuild",
+    "legacy_subject_id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+    "structural_manifest": "تاسع انجليزي/الانجليزي_تاسع/manifest.json",
+    "raw_pages": "content-staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/pages.json",
+    "raw_manifest": "content-staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/manifest.json",
+    "curated_candidates": "content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json"
+  },
+  "target": {
+    "class_slug": "grade-9",
+    "subject_slug": "english",
+    "section": {
+      "slug": "curated-english9-pb3-unit-1-revision",
+      "title": "Unit 1 - Revision",
+      "position": 1
+    },
+    "lesson_publication": "unpublished",
+    "lesson_asset_publication": "draft",
+    "question_bank_origin": "ai",
+    "question_bank_revision_status": "review",
+    "question_bank_answer_status": "known",
+    "quiz_policy": "defer_snapshot_until_question_revisions_are_approved_and_published"
+  },
+  "boundary_decision": {
+    "lesson_count": 4,
+    "basis": [
+      "Manifest assigns book pages 1-4 to Unit 1 - Revision.",
+      "Each selected legacy row has content_type=lesson and a distinct title.",
+      "No repeated-title continuation exists inside this batch.",
+      "This is batch-specific; it is not a global one-page-equals-one-lesson rule."
+    ]
+  },
+  "media_policy": {
+    "reuse_existing_ready_media": true,
+    "match_by_exact_content_source_asset_path": true,
+    "require_display_webp_variant": true,
+    "do_not_duplicate_existing_media": true,
+    "raw_immutable": true
+  },
+  "lessons": [
+    {
+      "position": 0,
+      "book_page": 1,
+      "legacy_page_id": "2d98475c-91bf-4000-bfbc-79f7a6a854f9",
+      "slug": "curated-english9-pb3-u1-p001-presents-from-london",
+      "title": "Presents from London",
+      "source_asset_position": 4,
+      "source_path": "تاسع انجليزي/الانجليزي_تاسع/الصور/p001 - Presents from London.jpg",
+      "source_sha256": "ae3e89be65d1c9ec5f70e361a5e78ea903d6e305f22d399e2c88bf864f6c3a4f",
+      "source_bytes": 103737,
+      "question_source_indices": [0, 1, 2, 3]
+    },
+    {
+      "position": 1,
+      "book_page": 2,
+      "legacy_page_id": "5e207993-508f-426b-ae71-f00aa4f782df",
+      "slug": "curated-english9-pb3-u1-p002-whats-my-job",
+      "title": "What's my job?",
+      "source_asset_position": 5,
+      "source_path": "تاسع انجليزي/الانجليزي_تاسع/الصور/p002 - What's my job -.jpg",
+      "source_sha256": "1df05a27195e28e5543747c1f827a4d32c2bf937476c91ae69b0f4fe8b61b413",
+      "source_bytes": 125483,
+      "question_source_indices": [0, 1, 2, 3]
+    },
+    {
+      "position": 2,
+      "book_page": 3,
+      "legacy_page_id": "dc1d6249-c0cb-4982-9711-092b1dcffee3",
+      "slug": "curated-english9-pb3-u1-p003-the-holidays",
+      "title": "The holidays",
+      "source_asset_position": 6,
+      "source_path": "تاسع انجليزي/الانجليزي_تاسع/الصور/p003 - The holidays.jpg",
+      "source_sha256": "78741ebd493e6b7dbbc05115472fec173edbeab9e05079b806a61acd1d7d13ac",
+      "source_bytes": 109229,
+      "question_source_indices": [0, 1, 2]
+    },
+    {
+      "position": 3,
+      "book_page": 4,
+      "legacy_page_id": "f2947d7f-5697-4bdc-b561-ad880a1afdf1",
+      "slug": "curated-english9-pb3-u1-p004-a-postcard-from-london",
+      "title": "A postcard from London",
+      "source_asset_position": 7,
+      "source_path": "تاسع انجليزي/الانجليزي_تاسع/الصور/p004 - A postcard from London.jpg",
+      "source_sha256": "86d655468bfbc73248da92e0d16d4b4dcccc0217df241e69bac94f6cee6cf321",
+      "source_bytes": 102053,
+      "question_source_indices": [0, 1]
+    }
+  ],
+  "question_normalization": {
+    "expected_question_count": 13,
+    "multiple_choice": "Preserve four source options and source semantic answer.",
+    "true_false": "Normalize options to [صح, خطأ] and map by semantic source answer True/False, never by raw index alone.",
+    "publication": "Keep revisions in review. No legacy AI-derived revision is published automatically."
+  },
+  "expected_effect": {
+    "reuse_existing_media_assets": 4,
+    "new_curriculum_sections_max": 1,
+    "new_lessons": 4,
+    "new_lesson_assets": 4,
+    "new_question_bank_items": 13,
+    "new_question_bank_revisions": 13,
+    "new_revision_lesson_links": 13,
+    "new_revision_source_links": 13,
+    "new_quiz_rows": 0
+  },
+  "rollback_scope": {
+    "marker": "BATCH-001-G9-EN-PB3-U1",
+    "section_slug": "curated-english9-pb3-unit-1-revision",
+    "lesson_slug_prefix": "curated-english9-pb3-u1-",
+    "preserve_existing_media_and_source_assets": true,
+    "preserve_raw": true
+  },
+  "validation": {
+    "source_page_count": 4,
+    "source_question_count": 13,
+    "question_shape_checked_against_main": "343ff1fd7b3d64d7e990b72606695365f520fa58",
+    "database_apply_status": "NOT_YET_APPLIED"
+  }
+}
