@@ -1,0 +1,54 @@
+{
+  "task_id": "STRUCTURE-001",
+  "scope": {
+    "grade": 9,
+    "subject": "English",
+    "document": "Pupil Book 3",
+    "section": "Unit 2 - Describing: Making plans"
+  },
+  "status": "section_boundary_verified",
+  "evidence_basis": [
+    "source manifest section mapping",
+    "legacy reconstruction candidate continuity",
+    "explicit next-section transition at book page 16"
+  ],
+  "boundary": {
+    "first_book_page": 5,
+    "last_book_page": 15,
+    "first_source_page": 9,
+    "last_source_page": 19,
+    "page_count": 11,
+    "next_book_page": 16,
+    "next_section": "Unit 3 - Other countries"
+  },
+  "question_count_preserved": 30,
+  "pages": [
+    {"book_page":5,"source_page":9,"title":"What do they look like?","question_count":3,"legacy_page_id":"706771c2-2145-4682-9bdd-4e7df5c69bf9"},
+    {"book_page":6,"source_page":10,"title":"Opposites","question_count":1,"legacy_page_id":"71ba9a99-e009-401f-b65f-8a956218a633"},
+    {"book_page":7,"source_page":11,"title":"Describing people","question_count":5,"legacy_page_id":"710cb3d4-e2c1-4d05-a1ef-2c0a1bbede2b"},
+    {"book_page":8,"source_page":12,"title":"Describing animals","question_count":3,"legacy_page_id":"4b6090c2-744e-4fc6-8908-87c211a8713b"},
+    {"book_page":9,"source_page":13,"title":"What's the time?","question_count":4,"legacy_page_id":"b2449f0f-71f1-4e36-a739-cf64340f9c90"},
+    {"book_page":10,"source_page":14,"title":"Arranging to meet someone","question_count":3,"legacy_page_id":"75616176-b12d-47bb-bb6e-34cc3f902901"},
+    {"book_page":11,"source_page":15,"title":"Things to do","question_count":2,"legacy_page_id":"ad939b52-4763-4554-83f1-46429e72adb7"},
+    {"book_page":12,"source_page":16,"title":"Planning a garden","question_count":3,"legacy_page_id":"2a7ef5ef-e82d-4323-b5ec-1c1adae83fd4"},
+    {"book_page":13,"source_page":17,"title":"What are they going to be?","question_count":3,"legacy_page_id":"217653ed-e928-4a0a-a976-6ea8effe094d"},
+    {"book_page":14,"source_page":18,"title":"The snake - episode 1","question_count":3,"legacy_page_id":"a90cd2f8-9f38-4f3b-a834-85f0ba104579"},
+    {"book_page":15,"source_page":19,"title":"Language review 1","question_count":0,"legacy_page_id":"6679f224-3022-45eb-9f6c-a73b3ec21b76"}
+  ],
+  "assertions": {
+    "page_membership_verified": true,
+    "page_order_contiguous": true,
+    "section_transition_verified": true,
+    "lesson_boundaries_approved": false,
+    "questions_rewritten": false,
+    "raw_mutated": false,
+    "database_mutated": false,
+    "publication_changed": false
+  },
+  "notes": [
+    "This task establishes Unit/Section membership only.",
+    "Page titles remain activity/lesson candidates until CURATION review.",
+    "No one-page-equals-one-lesson rule is inferred.",
+    "All anomalies and source identities remain preserved."
+  ]
+}
