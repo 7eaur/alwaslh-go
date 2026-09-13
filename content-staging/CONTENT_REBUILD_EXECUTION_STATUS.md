@@ -6,30 +6,30 @@
 
 `Legacy Supabase -> Immutable RAW -> Reviewed CURATED -> Media Decision -> Dry Run -> Controlled Transaction -> Modern PostgreSQL -> Verification -> Publication`
 
-Rules remain fixed:
+Fixed rules:
 - لا تستخدم heuristic القديم `69 -> 62` كحقيقة منهجية.
 - RAW immutable.
 - لا auto-publish لأي AI/legacy content غير مراجع.
 - لا حذف anomalies أو تعديل بيانات غير مرتبطة لتجميل الأرقام.
 - أي apply يفشل مغلقًا عند identity/count/provenance drift.
+- WebP لا يُقبل لمجرد الامتداد؛ يجب إثبات فائدة الحجم والوضوح.
 
-## Live repository heads observed at start of CONTENT-GAPS-001
+## Live heads observed at start of MEDIA-001
 
 - `7eaur/alwaslh main`: `c5ccbc9b0d0e88ef8798bbae6a3cc0bf933b5a7e`
-- `7eaur/alwaslh-go work branch`: `content/legacy-staging-rebuild` = `1132773d2fb5b93b6a58a27201d4275b8462c233`
-- CONTENT-GAPS-001 inventory commit: `dd86641decbcb3e3345d1aacfea7e2363fc60474`
+- `7eaur/alwaslh-go content/legacy-staging-rebuild`: `40a5781577ecfdd6b9783bd22d926e705c7ad940`
 
-## BATCH-001 — CLOSED / COMMITTED STATE VERIFIED
+No evidence-invalidating drift was found before starting MEDIA-001.
 
-Batch: `BATCH-001-G9-EN-PB3-U1`
+## BATCH-001 — DONE / COMMITTED_STATE_VERIFIED
 
-Target: Grade 9 / English / Pupil Book 3 / `Unit 1 - Revision`.
+`BATCH-001-G9-EN-PB3-U1`
 
-Verified committed state retained:
+Verified retained state:
 - target Section: exactly `1`
-- exact reused Lessons: `4`
-- exact Lesson Assets: `4`, all `draft`
-- exact Media Assets: `4`, all `ready`
+- reused Lessons: `4`
+- Lesson Assets: `4`, all `draft`
+- Media Assets: `4`, all `ready`
 - Question Revisions: `13` = `7 corrected + 6 unchanged`
 - question provenance links: `13/13`
 - target-slug duplicates: `0`
@@ -38,15 +38,15 @@ Verified committed state retained:
 - final verifier deployment: `c3e609b3-f632-46e9-9fde-680330512eee`
 - marker: `BATCH001_POST_APPLY_VERIFY_PASS`
 
-Media decision remains unchanged:
+Prior media decision retained:
 - RAW JPEG total: `440,502` bytes
 - existing display WebP total: `549,794` bytes
 - delta: `+24.81%`
-- current WebP profile is not an optimization success
+- current BATCH-001 WebP profile is not an optimization success
 
-Do not perform more BATCH-001 mutation.
+Do not perform more BATCH-001 mutation unless fresh drift invalidates this evidence.
 
-## STRUCTURE-001 — DONE / SECTION BOUNDARY VERIFIED
+## STRUCTURE-001 — DONE / SECTION_BOUNDARY_VERIFIED
 
 Grade 9 / English / Pupil Book 3 / `Unit 2 - Describing: Making plans`.
 
@@ -59,9 +59,9 @@ Evidence:
 - preserved legacy questions `30`
 - book page `16` explicitly transitions to `Unit 3 - Other countries`
 
-Lesson boundaries were intentionally unresolved at this stage; no RAW/DB/publication mutation occurred.
+No RAW/DB/publication mutation occurred.
 
-## STRUCTURE-002 — DONE / SECTION BOUNDARY VERIFIED
+## STRUCTURE-002 — DONE / SECTION_BOUNDARY_VERIFIED
 
 Grade 9 / English / Pupil Book 3 / `Unit 3 - Other countries`.
 
@@ -72,11 +72,11 @@ Evidence:
 - source pages `20..29`
 - page count `10`
 - preserved legacy questions `3`
-- next book page `26` / source page `30` explicitly belongs to `Unit 4 - Visiting Japan`
+- page `26` / source `30` explicitly starts `Unit 4 - Visiting Japan`
 
-All source identities/checksums remain preserved; no question rewrite, RAW/DB/publication mutation, anomaly deletion or unrelated-record mutation occurred.
+No question rewrite, RAW/DB/publication mutation, anomaly deletion or unrelated-record mutation occurred.
 
-## CURATION-001 — DONE / LESSON BOUNDARY VERIFIED
+## CURATION-001 — DONE / LESSON_BOUNDARY_VERIFIED
 
 Evidence:
 - commit `67f630f42913528405246fad7c541b091a47959e`
@@ -86,12 +86,12 @@ Reviewed Lesson:
 - title `Describing people and animals`
 - book pages `5..8`
 - source pages `9..12`
-- ordered source/activity pages `4`
+- ordered activity/page assets `4`
 - legacy questions preserved `12`
 
 Page 9/source 13 changes to time expressions and starts the next boundary. No question semantics were approved/re-written; no RAW/DB/publication mutation occurred.
 
-## CURATION-002 — DONE / LESSON BOUNDARY VERIFIED
+## CURATION-002 — DONE / LESSON_BOUNDARY_VERIFIED
 
 Evidence:
 - commit `d14774adc68470e9eea48a1c388a14a66111bf57`
@@ -101,118 +101,110 @@ Reviewed Lesson:
 - title `Telling time and arranging a meeting`
 - book pages `9..10`
 - source pages `13..14`
-- ordered source/activity pages `2`
+- ordered activity/page assets `2`
 - legacy questions preserved `7`
 
-Page 11/source 15 changes focus to obligations/tasks (`Things to do`) and remains outside this Lesson. No question semantics were approved/re-written; no RAW/Media/DB/publication mutation occurred.
+Page 11/source 15 changes focus to obligations/tasks and remains outside this Lesson. No question semantics were approved/re-written; no RAW/Media/DB/publication mutation occurred.
 
-## CONTENT-GAPS-001 — DONE / GAP INVENTORY VERIFIED
+## CONTENT-GAPS-001 — DONE / GAP_INVENTORY_VERIFIED
 
 Evidence:
 - inventory commit `dd86641decbcb3e3345d1aacfea7e2363fc60474`
 - `content-staging/curated/grade-9/english/pupil-book-3/content-gaps-001.json`
 - reconstruction blob `2d054712b6013675f7ad24d573c3a06745972067`
-- Grade 9 English RAW manifest blob `70a6c37000eb0dc8249a64fa5cade5d5de61686e`
 
 Exact Grade 9 English inventory:
-- RAW page candidates: `69`
-- RAW images: `69`
+- RAW page candidates/images: `69 / 69`
 - legacy questions: `104`
 - recovered sections: `8`
-- reviewed boundary coverage: `10` pages = Unit 1 pages `1..4` + Unit 2 pages `5..10`
+- reviewed boundary coverage: `10` pages
 - unresolved boundary candidates: `59` pages
-- Unit 2 immediate unresolved remainder: book pages `11..15` / source pages `15..19` = `5` pages / `11` questions
-- source-manifest-only evidence: `1` page = book page `70`, source page `74`, `Blank Final Page`, Back Matter
+- Unit 2 immediate unresolved remainder: pages `11..15` / source `15..19` = `5` pages / `11` questions
+- source-manifest-only evidence: book page `70`, source page `74`, `Blank Final Page`; evidence-only, no RAW identity
 - Grade 9 English RAW duplicate page-number anomalies: `0`
-- corpus-wide duplicate-position anomalies remain preserved: `6`; they are not Grade 9 English anomalies
-- verified modern page mappings in this rebuild track: `4` (BATCH-001)
-- remaining modern page mappings not yet verified by this rebuild track: `65`; this means `unverified`, not `missing`
+- corpus-wide duplicate-position anomalies remain preserved: `6`
+- verified modern page mappings in this rebuild track: `4`
+- other `65` mappings remain `unverified`, not asserted missing
 
-Important scope correction:
-- the legacy Grade 9 English RAW manifest itself reports no duplicate page numbers, missing images, multiple images, malformed AI questions, malformed image URLs or invalid page numbers, and `0` image download failures;
-- the corpus-wide `6` duplicate-position anomalies must stay preserved in corpus evidence and must not be projected onto Grade 9 English or deleted;
-- historical `62 Draft lessons` remains reconciliation evidence only and is not used to derive `69 -> 62`, deletion, curriculum membership or mapping truth.
+No PostgreSQL/RAW/Media/publication mutation occurred.
 
-Manifest-only page 70 handling:
-- source manifest contains `Blank Final Page` at book page `70` / source page `74`;
-- immutable legacy RAW subject has only `69` page/image identities and no RAW identity for that entry;
-- therefore it remains evidence-only and must not be synthesized/imported as curriculum content without new source evidence.
+## MEDIA-001 — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
 
-Modern mapping handling:
-- only the four Unit 1 page identities have verified committed modern mappings in this rebuild track;
-- the other `65` candidates require identity-by-identity mapping verification before import;
-- no claim is made that 65 rows are absent from PostgreSQL.
+Scope: smallest reviewed media batch only — CURATION-001, book pages `5..8` / source pages `9..12`.
 
-CONTENT-GAPS-001 safety result:
-- heuristic `69 -> 62`: not used
+Evidence:
+- deterministic probe script commit: `2f1849536738e3f877018539a80b73e83a969c3f`
+- workflow commit: `10ce6c2b250de28b5de9389cbcaf9b2e7cddad09`
+- GitHub Actions run: `34761171601` — SUCCESS
+- artifact: `media-001-evidence`, ID `10318976732`
+- artifact digest: `sha256:9702cbac1ed18e1be1809eaf844685b78c24c150958da1781ce0b7f1ad75e91a`
+- decision contract commit: `bb3dbbeff5d866930c1921124a8868b79af5703e`
+- `content-staging/curated/grade-9/english/pupil-book-3/media-001-unit2-describing.json`
+
+Probe rules:
+- dimensions must match RAW
+- PSNR >= `32 dB`
+- byte reduction >= `20%`
+- accepted candidate requires manual contact-sheet legibility review
+
+Measured aggregate:
+- RAW JPEG total: `457,747` bytes
+- WebP q82/method6 total: `464,290` bytes = `+1.43%` larger than RAW -> profile not accepted
+- WebP q76/method6 total: `387,774` bytes = `15.29%` smaller overall, but page-level acceptance remains mandatory
+
+Page-level decisions:
+- page 5 RAW `93,793` -> q76 WebP `74,416` bytes, reduction `20.66%`, PSNR `39.52 dB`, dimensions `962x1360` unchanged; manual side-by-side review retained readable headings/body/labels/numbers and no material readability regression -> `ACCEPTED_AS_REPRODUCIBLE_DERIVED_CANDIDATE`
+- page 6 q76 reduction `15.83%` -> rejected; q82 is larger than RAW
+- page 7 q76 reduction `9.61%` -> rejected; q82 is larger than RAW
+- page 8 q76 reduction `17.42%` -> rejected; q82 reduction only `0.24%`
+
+Candidate count:
+- accepted: `1`
+- rejected: `7`
+
+Important interpretation:
+- q76 is **not** a global profile; only page 5 passed all gates.
+- pages 6..8 retain RAW as the preferred media until a better candidate is verified.
+- accepted page 5 derivative is reproducible from immutable RAW using the exact tested profile/checksum; no binary was pushed to production by MEDIA-001.
 - RAW mutation: `0`
-- Media mutation: `0`
 - PostgreSQL mutation: `0`
 - publication change: `0`
-- anomaly deletion: `0`
 - unrelated-record mutation: `0`
 
 ## Gate checklist
 
-### BATCH-001
-1. `[DONE]` Reviewed Unit 1 boundaries and 13 questions.
-2. `[DONE]` Duplicate-safe dry-run + controlled transaction verification.
-3. `[DONE]` Committed target state verification with publication closed.
-
-### STRUCTURE-001
-1. `[DONE]` Verify Unit 2 structural boundary and preserve source/question identities.
-2. `[DONE]` Keep Lesson boundaries unresolved and DB/RAW/publication untouched.
-
-### STRUCTURE-002
-1. `[DONE]` Verify Unit 3 structural boundary and transition to Unit 4.
-2. `[DONE]` Preserve source/question identities and keep DB/RAW/publication untouched.
-
-### CURATION-001
-1. `[DONE]` Review smallest coherent describing cluster pages 5..8.
-2. `[DONE]` Preserve activity/page identities and question provenance without semantic rewrite.
-
-### CURATION-002
-1. `[DONE]` Review time/meeting cluster pages 9..10.
-2. `[DONE]` Preserve page identities and keep page 11 as next unresolved boundary.
-
-### CONTENT-GAPS-001
-1. `[DONE]` Inventory Unit 2 unresolved pages 11..15 with exact identities/checksums/questions.
-2. `[DONE]` Quantify total reviewed vs unresolved boundary coverage without inferring desired lesson count.
-3. `[DONE]` Preserve manifest-only page 70 as evidence-only.
-4. `[DONE]` Separate Grade 9 English anomaly truth (`0` duplicate page numbers) from corpus-wide preserved anomalies (`6`).
-5. `[DONE]` Classify non-BATCH-001 modern mappings as unverified, not missing, and avoid `69 -> 62` inference.
-6. `[DONE]` Keep PostgreSQL/RAW/Media/publication untouched.
-
-Current task status: `CONTENT-GAPS-001 = DONE / GAP_INVENTORY_VERIFIED`.
+- `BATCH-001` — DONE / COMMITTED_STATE_VERIFIED
+- `STRUCTURE-001` — DONE / SECTION_BOUNDARY_VERIFIED
+- `STRUCTURE-002` — DONE / SECTION_BOUNDARY_VERIFIED
+- `CURATION-001` — DONE / LESSON_BOUNDARY_VERIFIED
+- `CURATION-002` — DONE / LESSON_BOUNDARY_VERIFIED
+- `CONTENT-GAPS-001` — DONE / GAP_INVENTORY_VERIFIED
+- `MEDIA-001` — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
 
 ## Exact next action
 
 On the next run:
 1. read both live repository heads + this status + handoff;
-2. do not reopen completed tasks unless live drift invalidates their evidence;
-3. execute `MEDIA-001` only, using the smallest reviewable media batch;
-4. start from preserved RAW identities and evaluate derived media candidates with measured byte-size and visual-legibility evidence;
-5. do not accept WebP merely because of format; BATCH-001 already proved the current profile can be larger than RAW (`+24.81%`);
-6. never overwrite/recompress RAW in place;
-7. do not use media work to decide curriculum membership or unresolved Lesson boundaries;
-8. do not publish or mutate unrelated PostgreSQL content merely to close MEDIA-001;
-9. document exact input/output byte counts, checksums, acceptance/rejection reasons and next action.
+2. do not reopen completed tasks unless live drift invalidates evidence;
+3. execute `IMPORT-001` only and keep the batch as small as reviewable;
+4. import only content whose Lesson/Activity boundaries are already reviewed; unresolved pages remain out of scope;
+5. resolve live modern identities and provenance before mutation and fail closed on drift;
+6. for page 5, regenerate/use the accepted q76/method6 derivative only if the resulting SHA-256 equals `4fdeb9e17a0a269481ee046bcbf67053f834c8e75fdb4d5bda445977b742a5e2`; otherwise fail closed;
+7. pages 6..8 keep RAW/preferred existing media unless a new candidate passes a separate media gate;
+8. do not auto-publish, mutate RAW, apply `69 -> 62`, delete anomalies, or touch unrelated records;
+9. dry-run before controlled apply and document exact create/reuse/update counts plus rollback/verification evidence.
 
 ## Remaining ordered queue
 
-- `BATCH-001` — DONE: `CLOSED / COMMITTED_STATE_VERIFIED`
-- `STRUCTURE-001` — DONE: `SECTION_BOUNDARY_VERIFIED`
-- `STRUCTURE-002` — DONE: `SECTION_BOUNDARY_VERIFIED`
-- `CURATION-001` — DONE: `LESSON_BOUNDARY_VERIFIED`
-- `CURATION-002` — DONE: `LESSON_BOUNDARY_VERIFIED`
-- `CONTENT-GAPS-001` — DONE: `GAP_INVENTORY_VERIFIED`
-- `MEDIA-001` — NEXT
-- `IMPORT-001` — TODO
+- `BATCH-001` — DONE
+- `STRUCTURE-001` — DONE
+- `STRUCTURE-002` — DONE
+- `CURATION-001` — DONE
+- `CURATION-002` — DONE
+- `CONTENT-GAPS-001` — DONE
+- `MEDIA-001` — DONE
+- `IMPORT-001` — NEXT
 - `VERIFY-001` — TODO
 - `ROADMAP-RETURN -> STUDENT-016I` — TODO
 
-## Run rules
-
-At every run: read live heads + this file + handoff; continue the first incomplete task only; use the smallest reviewable batch; verify before declaring pass; update this file with exact SHAs, deployment IDs/counts/failures when relevant, and next action.
-
-Never mutate RAW in place, auto-publish legacy/AI content, use `69 -> 62` as curriculum truth, delete anomalies for cosmetic counts, import unreviewed candidates, or mutate unrelated records.
+At every run: read live heads + this file + handoff; continue the first incomplete task only; use the smallest reviewable batch; verify before declaring pass; update this file with exact SHAs/run IDs/counts/failures and next action.
