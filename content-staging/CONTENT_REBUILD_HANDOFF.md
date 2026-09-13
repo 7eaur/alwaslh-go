@@ -54,61 +54,58 @@ Retained verified state:
 - final verifier deployment `c3e609b3-f632-46e9-9fde-680330512eee`
 - marker `BATCH001_POST_APPLY_VERIFY_PASS`
 
-Do not redo BATCH-001 review, dry-run, transaction gate, import, or verification unless fresh drift invalidates evidence.
+Do not redo BATCH-001 unless fresh drift invalidates evidence.
 
 ## STRUCTURE-001 — DONE
 
-Smallest structural batch completed:
-`Unit 2 - Describing: Making plans`.
-
-Evidence contract:
-`content-staging/curated/grade-9/english/pupil-book-3/structure-001-unit-2.json`
-
-Creation commit:
-`4ff71ca280c432392c8d91737374c77232b3fe69`
-
-Verified structural boundary:
+`Unit 2 - Describing: Making plans`:
+- evidence: `content-staging/curated/grade-9/english/pupil-book-3/structure-001-unit-2.json`
+- creation commit: `4ff71ca280c432392c8d91737374c77232b3fe69`
 - book pages `5..15`
 - source pages `9..19`
-- `11` page/source identities preserved
-- `30` legacy questions remain attached to their exact pages
-- book page `16` begins `Unit 3 - Other countries`, providing the explicit next-section boundary
+- 11 source identities
+- 30 legacy question attachments preserved
+- page 16 starts Unit 3
+- Lesson boundaries intentionally unresolved
 
-Important interpretation:
-- this approves Unit/Section membership only;
-- page titles remain Lesson/Activity candidates;
-- final Lesson boundaries are NOT approved;
-- no one-page-equals-one-lesson inference is permitted;
-- no question rewrite occurred;
-- no RAW, PostgreSQL, publication, or unrelated-record mutation occurred.
+## STRUCTURE-002 — DONE
 
-Execution status update commit:
-`bb833a9f1cb3ce084feb3526d4ab4bfa4b6c4431`
+`Unit 3 - Other countries`:
+- evidence: `content-staging/curated/grade-9/english/pupil-book-3/structure-002-unit-3.json`
+- creation commit: `9e92a4b4d7658f6ea43f1f0727ffb19e922c66cb`
+- book pages `16..25`
+- source pages `20..29`
+- 10 source identities with RAW SHA-256 references preserved
+- 3 legacy questions preserved on book page 22/source page 26
+- page 26/source page 30 starts `Unit 4 - Visiting Japan` (`A Japanese pen-friend`)
+- repeated `Four countries` pages remain distinct source identities
+- Lesson boundaries intentionally unresolved
+- no question rewrite, RAW mutation, PostgreSQL mutation, publication change, anomaly deletion, or unrelated-record mutation
 
 ## Current checkpoint
 
 - `BATCH-001 = DONE / COMMITTED_STATE_VERIFIED`
 - `STRUCTURE-001 = DONE / SECTION_BOUNDARY_VERIFIED`
-- `STRUCTURE-002 = NEXT`
+- `STRUCTURE-002 = DONE / SECTION_BOUNDARY_VERIFIED`
+- `CURATION-001 = NEXT`
 
 ## Exact resume action
 
 On the next run:
 1. read live heads for `7eaur/alwaslh` and `7eaur/alwaslh-go` plus status/handoff;
-2. if no evidence-invalidating drift exists, execute `STRUCTURE-002` only;
-3. choose the smallest next reviewable structural batch;
-4. recover/verify only Unit/Section membership and exact page/source boundaries;
+2. if no evidence-invalidating drift exists, execute `CURATION-001` only;
+3. choose the smallest reviewable curation batch;
+4. determine actual Lesson/Activity boundaries from content evidence, not page-title heuristics;
 5. preserve every source identity, anomaly, checksum and question-to-page provenance;
-6. do not promote page candidates to final Lessons during STRUCTURE work;
-7. do not mutate PostgreSQL or publish content as part of structural reconstruction;
-8. document the exact result before moving to CURATION-001.
+6. do not publish unreviewed content or mutate PostgreSQL merely to complete curation;
+7. document the exact result before moving to CURATION-002.
 
 ## Ordered queue
 
 - `BATCH-001` — DONE
 - `STRUCTURE-001` — DONE
-- `STRUCTURE-002` — NEXT
-- `CURATION-001` — TODO
+- `STRUCTURE-002` — DONE
+- `CURATION-001` — NEXT
 - `CURATION-002` — TODO
 - `CONTENT-GAPS-001` — TODO
 - `MEDIA-001` — TODO
