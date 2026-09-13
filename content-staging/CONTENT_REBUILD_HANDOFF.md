@@ -61,69 +61,62 @@ Do not redo BATCH-001 unless fresh drift invalidates evidence.
 `Unit 2 - Describing: Making plans`:
 - evidence: `content-staging/curated/grade-9/english/pupil-book-3/structure-001-unit-2.json`
 - creation commit: `4ff71ca280c432392c8d91737374c77232b3fe69`
-- book pages `5..15`
-- source pages `9..19`
-- 11 source identities
-- 30 legacy question attachments preserved
+- book pages `5..15`; source pages `9..19`
+- 11 source identities; 30 legacy question attachments preserved
 - page 16 starts Unit 3
-- Lesson boundaries intentionally unresolved at this stage
 
 ## STRUCTURE-002 — DONE
 
 `Unit 3 - Other countries`:
 - evidence: `content-staging/curated/grade-9/english/pupil-book-3/structure-002-unit-3.json`
 - creation commit: `9e92a4b4d7658f6ea43f1f0727ffb19e922c66cb`
-- book pages `16..25`
-- source pages `20..29`
-- 10 source identities with RAW SHA-256 references preserved
-- 3 legacy questions preserved on book page 22/source page 26
-- page 26/source page 30 starts `Unit 4 - Visiting Japan` (`A Japanese pen-friend`)
-- repeated `Four countries` pages remain distinct source identities
-- no question rewrite, RAW mutation, PostgreSQL mutation, publication change, anomaly deletion, or unrelated-record mutation
+- book pages `16..25`; source pages `20..29`
+- 10 source identities; 3 legacy questions preserved
+- page 26/source 30 starts Unit 4
 
 ## CURATION-001 — DONE
 
-First reviewed Lesson boundary inside Unit 2:
 - evidence: `content-staging/curated/grade-9/english/pupil-book-3/curation-001-unit-2-describing.json`
 - creation commit: `67f630f42913528405246fad7c541b091a47959e`
-- reviewed Lesson: `Describing people and animals`
-- book pages `5..8`
-- source pages `9..12`
-- four ordered source pages retained as activities/page assets, not four automatically promoted Lessons
-- attached legacy questions preserved: `12`
-- all four RAW SHA-256 values preserved
-
-Boundary evidence retained:
-- page 5 introduces physical description;
-- page 6 develops descriptive vocabulary/opposites;
-- page 7 applies description to people;
-- page 8 applies description to animals;
-- page 9/source page 13 changes topic to `What's the time?`, so it begins the next curation boundary.
-
-Question text was used only as supporting boundary evidence. The 12 legacy AI questions were not semantically approved, corrected, rejected or published in CURATION-001.
-
-No PostgreSQL, RAW, Media or publication mutation occurred.
+- Lesson: `Describing people and animals`
+- book pages `5..8`; source pages `9..12`
+- 4 ordered activities/page assets; 12 attached legacy questions preserved
 
 ## CURATION-002 — DONE
 
-Second reviewed Lesson boundary inside Unit 2:
 - evidence: `content-staging/curated/grade-9/english/pupil-book-3/curation-002-unit-2-time-and-meeting.json`
 - creation commit: `d14774adc68470e9eea48a1c388a14a66111bf57`
-- reviewed Lesson: `Telling time and arranging a meeting`
-- book pages `9..10`
-- source pages `13..14`
-- two ordered source pages retained as activities/page assets, not two auto-promoted Lessons
-- attached legacy questions preserved: `7`
-- RAW SHA-256 values preserved for both pages
+- Lesson: `Telling time and arranging a meeting`
+- book pages `9..10`; source pages `13..14`
+- 2 ordered activities/page assets; 7 attached legacy questions preserved
+- page 11/source 15 begins the next unresolved boundary
 
-Boundary evidence retained:
-- page 9 establishes clock/time expressions;
-- page 10 applies those expressions to a schedule and arranging a meeting;
-- page 11/source page 15 changes instructional focus to `Things to do` and obligation/task language, so it begins the next unresolved boundary.
+## CONTENT-GAPS-001 — DONE
 
-The 7 legacy AI questions were used only as supporting boundary evidence; none was semantically approved, corrected, rejected or published in CURATION-002.
+Status: `GAP_INVENTORY_VERIFIED`.
 
-Unit 2 pages `11..15` remain unresolved and preserved. No PostgreSQL, RAW, Media or publication mutation occurred.
+Evidence:
+- `content-staging/curated/grade-9/english/pupil-book-3/content-gaps-001.json`
+- inventory commit `dd86641decbcb3e3345d1aacfea7e2363fc60474`
+- status close commit `34d194f48a9c4da87352ed3be58d6f06f8b14e40`
+
+Exact inventory:
+- 69 RAW page candidates / 69 RAW images / 104 legacy questions / 8 recovered sections
+- reviewed Lesson-boundary page coverage: 10 pages
+- unresolved boundary candidates: 59 pages
+- immediate Unit 2 unresolved remainder: book pages `11..15` / source pages `15..19` = 5 pages / 11 questions
+- source-manifest-only evidence: one entry, book page `70` / source page `74`, `Blank Final Page`, Back Matter; it has no corresponding immutable RAW identity and is not importable as curriculum content without new evidence
+- Grade 9 English RAW subject anomaly truth: duplicate page numbers 0; missing images 0; multiple images 0; malformed AI questions 0; malformed image URLs 0; invalid/null page numbers 0; download failures 0
+- corpus-wide duplicate-position anomalies remain preserved at 6; they are not Grade 9 English anomalies
+- verified modern page mappings in this rebuild track: 4 (BATCH-001)
+- other 65 RAW candidates: modern mapping `unverified`, not asserted missing
+
+Important interpretation:
+- do not derive a desired count from historical `62 Draft lessons`;
+- do not infer `69 -> 62` deletion, curriculum membership or missing mappings;
+- anomalies remain visible and preserved rather than being removed to normalize counts.
+
+No PostgreSQL, RAW, Media or publication mutation occurred in CONTENT-GAPS-001.
 
 ## Current checkpoint
 
@@ -132,19 +125,21 @@ Unit 2 pages `11..15` remain unresolved and preserved. No PostgreSQL, RAW, Media
 - `STRUCTURE-002 = DONE / SECTION_BOUNDARY_VERIFIED`
 - `CURATION-001 = DONE / LESSON_BOUNDARY_VERIFIED`
 - `CURATION-002 = DONE / LESSON_BOUNDARY_VERIFIED`
-- `CONTENT-GAPS-001 = NEXT`
+- `CONTENT-GAPS-001 = DONE / GAP_INVENTORY_VERIFIED`
+- `MEDIA-001 = NEXT`
 
 ## Exact resume action
 
 On the next run:
 1. read live heads for `7eaur/alwaslh` and `7eaur/alwaslh-go` plus status/handoff;
-2. if no evidence-invalidating drift exists, execute `CONTENT-GAPS-001` only;
-3. inventory explicit unresolved/missing content evidence rather than guessing curriculum membership;
-4. include at minimum unresolved Unit 2 book pages `11..15`, manifest-only page 70, preserved duplicate-position anomalies, and missing/ambiguous modern mappings;
-5. do not use `69 -> 62` as deletion or curriculum logic;
-6. preserve source identities, anomalies, checksums and question provenance;
-7. do not publish or mutate PostgreSQL/RAW merely to close the inventory;
-8. document exact gap counts before moving to `MEDIA-001`.
+2. if no evidence-invalidating drift exists, execute `MEDIA-001` only;
+3. choose the smallest reviewable media batch from preserved RAW identities;
+4. measure RAW vs derived candidate byte counts and verify visual legibility before accepting a derivative;
+5. do not accept WebP merely because it is WebP; BATCH-001 existing WebP was `+24.81%` larger than RAW;
+6. never overwrite RAW in place;
+7. do not use media processing to resolve curriculum membership or Lesson boundaries;
+8. do not publish or mutate unrelated PostgreSQL content to close MEDIA-001;
+9. document input/output checksums, byte counts, acceptance/rejection reason and exact next action.
 
 ## Ordered queue
 
@@ -153,8 +148,8 @@ On the next run:
 - `STRUCTURE-002` — DONE
 - `CURATION-001` — DONE
 - `CURATION-002` — DONE
-- `CONTENT-GAPS-001` — NEXT
-- `MEDIA-001` — TODO
+- `CONTENT-GAPS-001` — DONE
+- `MEDIA-001` — NEXT
 - `IMPORT-001` — TODO
 - `VERIFY-001` — TODO
 - `ROADMAP-RETURN -> STUDENT-016I` — TODO
