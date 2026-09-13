@@ -1,0 +1,3093 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:34.673879+00:00",
+    "extracted_text": null,
+    "id": "32f65557-08c8-4a0e-ac4f-3f81ba410a41",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/32f65557-08c8-4a0e-ac4f-3f81ba410a41/page_0001.jpg"
+    ],
+    "page_number": 0,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "غلاف الكتاب"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:34.893396+00:00",
+    "extracted_text": null,
+    "id": "d281f530-6767-4ba9-84a4-f85e57176426",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/d281f530-6767-4ba9-84a4-f85e57176426/page_0002.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "صفحة العنوان"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:35.110911+00:00",
+    "extracted_text": null,
+    "id": "5871cb4b-8d91-4311-be33-a92ecc8854e8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/5871cb4b-8d91-4311-be33-a92ecc8854e8/page_0003.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النشيد الوطني"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:35.339073+00:00",
+    "extracted_text": null,
+    "id": "c6a1b3b1-340a-4809-9057-4ece100242ad",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/c6a1b3b1-340a-4809-9057-4ece100242ad/page_0004.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تصدير"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:35.558501+00:00",
+    "extracted_text": null,
+    "id": "66f16a3b-08ea-4ea0-ac8b-9300c4862479",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/66f16a3b-08ea-4ea0-ac8b-9300c4862479/page_0005.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "مقدمة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:35.782633+00:00",
+    "extracted_text": null,
+    "id": "16973463-162a-426f-8b38-1d18c07b107b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/16973463-162a-426f-8b38-1d18c07b107b/page_0006.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "مقدمة - تابع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:36.003645+00:00",
+    "extracted_text": null,
+    "id": "81c8143a-acdc-4db4-b0a0-099b6640cafa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/81c8143a-acdc-4db4-b0a0-099b6640cafa/page_0007.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "المحتويات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:36.228657+00:00",
+    "extracted_text": null,
+    "id": "1f2ec442-843a-4c48-a8a4-324a8569a449",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/1f2ec442-843a-4c48-a8a4-324a8569a449/page_0008.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تابع المحتويات"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:36.450479+00:00",
+    "extracted_text": null,
+    "id": "f7ec19d4-b790-48cd-aaff-5aed171a0e4a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/f7ec19d4-b790-48cd-aaff-5aed171a0e4a/page_0009.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "التربية الإيمانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:36.671349+00:00",
+    "extracted_text": null,
+    "id": "373feb08-4f13-4902-acb9-0b7b499065b0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/373feb08-4f13-4902-acb9-0b7b499065b0/page_0010.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "التربية الإيمانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:36.893975+00:00",
+    "extracted_text": null,
+    "id": "b4989a91-415e-4c69-b484-d8833498cdbd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/b4989a91-415e-4c69-b484-d8833498cdbd/page_0011.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "التربية الإيمانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:37.11394+00:00",
+    "extracted_text": null,
+    "id": "11401d91-d590-4547-a8cc-2a3c310ef849",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/11401d91-d590-4547-a8cc-2a3c310ef849/page_0012.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "التربية الإيمانية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:37.335257+00:00",
+    "extracted_text": null,
+    "id": "a349b4aa-5944-4110-a854-8c195042d5d2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/a349b4aa-5944-4110-a854-8c195042d5d2/page_0013.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الفهم والاستيعاب"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:37.564222+00:00",
+    "extracted_text": null,
+    "id": "49d13ee4-a5a6-41e3-8a1c-66dba5aa974f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/49d13ee4-a5a6-41e3-8a1c-66dba5aa974f/page_0014.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الفهم والاستيعاب"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:37.779772+00:00",
+    "extracted_text": null,
+    "id": "90478b37-4cb0-49ef-b8a8-efaccd47c5aa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/90478b37-4cb0-49ef-b8a8-efaccd47c5aa/page_0015.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (المجرد والمزيد)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:38.015496+00:00",
+    "extracted_text": null,
+    "id": "c3d2b8d7-b874-4279-b393-2ff5e7d1c32c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/c3d2b8d7-b874-4279-b393-2ff5e7d1c32c/page_0016.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (المجرد والمزيد)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:38.241665+00:00",
+    "extracted_text": null,
+    "id": "a2ea2a1b-e4ed-4f98-9bfa-01905231945e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/a2ea2a1b-e4ed-4f98-9bfa-01905231945e/page_0017.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (المجرد والمزيد)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:38.472648+00:00",
+    "extracted_text": null,
+    "id": "66e5b4f8-840d-44a6-9224-9c8044db6caf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/66e5b4f8-840d-44a6-9224-9c8044db6caf/page_0018.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (المجرد والمزيد)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:38.702937+00:00",
+    "extracted_text": null,
+    "id": "23180829-c54a-4783-95fe-efe5b7bfa079",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/23180829-c54a-4783-95fe-efe5b7bfa079/page_0019.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (المجرد والمزيد)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:38.929065+00:00",
+    "extracted_text": null,
+    "id": "01f6d1ef-e32f-4eab-a687-adea83a92c66",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/01f6d1ef-e32f-4eab-a687-adea83a92c66/page_0020.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (المجرد والمزيد)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:39.152771+00:00",
+    "extracted_text": null,
+    "id": "a231db6c-8030-49be-8171-aff247cd3a0e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/a231db6c-8030-49be-8171-aff247cd3a0e/page_0021.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على همزتي الوصل والقطع)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:39.37136+00:00",
+    "extracted_text": null,
+    "id": "6abe995c-777c-46de-a5b2-394228885e4f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/6abe995c-777c-46de-a5b2-394228885e4f/page_0022.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على همزتي الوصل والقطع)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:39.592772+00:00",
+    "extracted_text": null,
+    "id": "170a9879-5a91-49a0-97e2-8a135c7d8f4c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/170a9879-5a91-49a0-97e2-8a135c7d8f4c/page_0023.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الثالثة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:39.818518+00:00",
+    "extracted_text": null,
+    "id": "a0c0a41e-bc3f-4313-a606-59d6732c5e1e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/a0c0a41e-bc3f-4313-a606-59d6732c5e1e/page_0024.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الثالثة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:40.049578+00:00",
+    "extracted_text": null,
+    "id": "ce2e9d06-0afe-4251-b945-22b397d2ebbc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/ce2e9d06-0afe-4251-b945-22b397d2ebbc/page_0025.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الثالثة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:40.274259+00:00",
+    "extracted_text": null,
+    "id": "8d2db92a-8189-4e12-88ae-7f07d722a2d0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/8d2db92a-8189-4e12-88ae-7f07d722a2d0/page_0026.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الثالثة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:40.503238+00:00",
+    "extracted_text": null,
+    "id": "1a6132be-3afc-447d-a75d-125ebce067b6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/1a6132be-3afc-447d-a75d-125ebce067b6/page_0027.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "ثقافة الاتباع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:40.763382+00:00",
+    "extracted_text": null,
+    "id": "01fbb198-90c8-4c99-8bc7-fed7525cb53a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/01fbb198-90c8-4c99-8bc7-fed7525cb53a/page_0028.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "ثقافة الاتباع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:40.993397+00:00",
+    "extracted_text": null,
+    "id": "17930fe8-c471-48ca-ac65-aa94b5498a4b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/17930fe8-c471-48ca-ac65-aa94b5498a4b/page_0029.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "ثقافة الاتباع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:41.219921+00:00",
+    "extracted_text": null,
+    "id": "60d7e803-2257-41dc-8b8d-0bd3da631bba",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/60d7e803-2257-41dc-8b8d-0bd3da631bba/page_0030.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "ثقافة الاتباع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:41.44879+00:00",
+    "extracted_text": null,
+    "id": "eba7790a-3f30-4146-bc85-27be59a188b3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/eba7790a-3f30-4146-bc85-27be59a188b3/page_0031.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "ثقافة الاتباع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:41.669739+00:00",
+    "extracted_text": null,
+    "id": "cf850791-2c8e-465c-896b-82510a09cf15",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/cf850791-2c8e-465c-896b-82510a09cf15/page_0032.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "ثقافة الاتباع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:41.889206+00:00",
+    "extracted_text": null,
+    "id": "6749f72c-3e55-43fb-b091-5f5aafc2f9af",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/6749f72c-3e55-43fb-b091-5f5aafc2f9af/page_0033.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الجامد والمشتق)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:42.112785+00:00",
+    "extracted_text": null,
+    "id": "7d65a99a-f197-4e25-8371-f18ca3a4d8d9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/7d65a99a-f197-4e25-8371-f18ca3a4d8d9/page_0034.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الجامد والمشتق)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:42.364496+00:00",
+    "extracted_text": null,
+    "id": "f7b32858-1a05-471a-8303-d154f676b6d0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/f7b32858-1a05-471a-8303-d154f676b6d0/page_0035.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الجامد والمشتق)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:42.587372+00:00",
+    "extracted_text": null,
+    "id": "abf69ea0-ab7b-439b-9a2c-cfa3d829b2a3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/abf69ea0-ab7b-439b-9a2c-cfa3d829b2a3/page_0036.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على الهمزة المتوسطة)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:42.808104+00:00",
+    "extracted_text": null,
+    "id": "42fa12b5-2bfc-4299-a765-fb2329b35d37",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/42fa12b5-2bfc-4299-a765-fb2329b35d37/page_0037.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على الهمزة المتوسطة)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:43.039582+00:00",
+    "extracted_text": null,
+    "id": "593b887e-c7f6-4034-91d1-0c0e0e2e19aa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/593b887e-c7f6-4034-91d1-0c0e0e2e19aa/page_0038.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الرابعة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:43.268809+00:00",
+    "extracted_text": null,
+    "id": "8283940e-a9b1-4ca8-917b-95097bad82e4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/8283940e-a9b1-4ca8-917b-95097bad82e4/page_0039.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الرابعة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:43.493731+00:00",
+    "extracted_text": null,
+    "id": "9d91b037-2647-4c65-8ae4-699489b9688d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/9d91b037-2647-4c65-8ae4-699489b9688d/page_0040.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "صناعة الأدوية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:43.71631+00:00",
+    "extracted_text": null,
+    "id": "6ff43344-61f5-435b-8833-c3c8b32e7661",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/6ff43344-61f5-435b-8833-c3c8b32e7661/page_0041.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "صناعة الأدوية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:43.943578+00:00",
+    "extracted_text": null,
+    "id": "69455e24-5a78-42fd-b527-665de43e9e37",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/69455e24-5a78-42fd-b527-665de43e9e37/page_0042.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "صناعة الأدوية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:44.179938+00:00",
+    "extracted_text": null,
+    "id": "ae06b131-ef11-4ac3-8cbe-db8aa59758c4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/ae06b131-ef11-4ac3-8cbe-db8aa59758c4/page_0043.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "صناعة الأدوية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:44.40336+00:00",
+    "extracted_text": null,
+    "id": "98968f84-de2b-4018-a10f-f48b87b2943c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/98968f84-de2b-4018-a10f-f48b87b2943c/page_0044.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "صناعة الأدوية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:44.628451+00:00",
+    "extracted_text": null,
+    "id": "4a05e351-bec3-4589-b4fd-fca810828748",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/4a05e351-bec3-4589-b4fd-fca810828748/page_0045.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الميزان الصرفي)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:44.863708+00:00",
+    "extracted_text": null,
+    "id": "438bb8bf-6091-4aee-b5ce-20a9d5fd6cf4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/438bb8bf-6091-4aee-b5ce-20a9d5fd6cf4/page_0046.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الميزان الصرفي)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:45.116442+00:00",
+    "extracted_text": null,
+    "id": "eb600b37-e13d-4988-9bff-cb88bdcf6e59",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/eb600b37-e13d-4988-9bff-cb88bdcf6e59/page_0047.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الميزان الصرفي)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:45.347131+00:00",
+    "extracted_text": null,
+    "id": "e03465a7-0ac3-4883-a1e2-46cb1a1174c5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/e03465a7-0ac3-4883-a1e2-46cb1a1174c5/page_0048.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الميزان الصرفي)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:45.57115+00:00",
+    "extracted_text": null,
+    "id": "09be4480-5c0d-4766-a51d-bfa289e5c604",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/09be4480-5c0d-4766-a51d-bfa289e5c604/page_0049.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الميزان الصرفي)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:45.795405+00:00",
+    "extracted_text": null,
+    "id": "f94162aa-234f-4f15-99a2-ff05378ed2d0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/f94162aa-234f-4f15-99a2-ff05378ed2d0/page_0050.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (إملاء اختباري)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:46.023708+00:00",
+    "extracted_text": null,
+    "id": "d16ec0cd-f96c-4728-a1a4-64ef50050cf4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/d16ec0cd-f96c-4728-a1a4-64ef50050cf4/page_0051.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الخامسة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:46.27238+00:00",
+    "extracted_text": null,
+    "id": "3c7afc8e-5c6a-4cd7-9c50-91377dfe711f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/3c7afc8e-5c6a-4cd7-9c50-91377dfe711f/page_0052.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النخلة الحمقاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:46.527259+00:00",
+    "extracted_text": null,
+    "id": "165c95fb-b3d0-4633-827e-d27a88b511b2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/165c95fb-b3d0-4633-827e-d27a88b511b2/page_0053.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النخلة الحمقاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:46.759565+00:00",
+    "extracted_text": null,
+    "id": "690d357b-f5bd-4c89-b323-c307add48278",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/690d357b-f5bd-4c89-b323-c307add48278/page_0054.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النخلة الحمقاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:46.99788+00:00",
+    "extracted_text": null,
+    "id": "be454892-9395-444a-9ac9-5a6abd12d256",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/be454892-9395-444a-9ac9-5a6abd12d256/page_0055.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النخلة الحمقاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:47.230554+00:00",
+    "extracted_text": null,
+    "id": "758cf822-2fbb-405a-9d51-a277e7a529e5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/758cf822-2fbb-405a-9d51-a277e7a529e5/page_0056.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النخلة الحمقاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:47.468279+00:00",
+    "extracted_text": null,
+    "id": "bb2ba4bf-d6c8-4656-9f99-1c961179bc29",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/bb2ba4bf-d6c8-4656-9f99-1c961179bc29/page_0057.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النخلة الحمقاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:47.698748+00:00",
+    "extracted_text": null,
+    "id": "04049d95-be6a-404f-b476-0e6ca69ec994",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/04049d95-be6a-404f-b476-0e6ca69ec994/page_0058.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النخلة الحمقاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:47.930509+00:00",
+    "extracted_text": null,
+    "id": "322fce10-8bbe-46ce-aee4-b239d1768db5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/322fce10-8bbe-46ce-aee4-b239d1768db5/page_0059.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النخلة الحمقاء"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:48.157512+00:00",
+    "extracted_text": null,
+    "id": "1922f75a-cbaf-4025-88a3-2d2c550b1ce2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/1922f75a-cbaf-4025-88a3-2d2c550b1ce2/page_0060.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (مصادر الأفعال الثلاثية والرباعية)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:48.380063+00:00",
+    "extracted_text": null,
+    "id": "e64c4d98-9fb4-41b0-87be-2d7691eadddc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/e64c4d98-9fb4-41b0-87be-2d7691eadddc/page_0061.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (مصادر الأفعال الثلاثية والرباعية)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:48.597881+00:00",
+    "extracted_text": null,
+    "id": "68a19fd3-d999-4c1a-bf92-cb04de704492",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/68a19fd3-d999-4c1a-bf92-cb04de704492/page_0062.jpg"
+    ],
+    "page_number": 61,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (مصادر الأفعال الثلاثية والرباعية)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:48.821103+00:00",
+    "extracted_text": null,
+    "id": "5bcfe8af-1525-4bee-9df6-a152916c55e8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/5bcfe8af-1525-4bee-9df6-a152916c55e8/page_0063.jpg"
+    ],
+    "page_number": 62,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (مصادر الأفعال الثلاثية والرباعية)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:49.039459+00:00",
+    "extracted_text": null,
+    "id": "c4c1b588-5bbe-45ae-b6fa-92f8b5735d61",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/c4c1b588-5bbe-45ae-b6fa-92f8b5735d61/page_0064.jpg"
+    ],
+    "page_number": 63,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (مصادر الأفعال الثلاثية والرباعية)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:49.259104+00:00",
+    "extracted_text": null,
+    "id": "126c27e5-3645-4783-8fe0-50e75ad73100",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/126c27e5-3645-4783-8fe0-50e75ad73100/page_0065.jpg"
+    ],
+    "page_number": 64,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (مصادر الأفعال الثلاثية والرباعية)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:49.480837+00:00",
+    "extracted_text": null,
+    "id": "74ee175e-2560-45dd-b39a-434a6773b67c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/74ee175e-2560-45dd-b39a-434a6773b67c/page_0066.jpg"
+    ],
+    "page_number": 65,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على الألف اللينة في الأسماء)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:49.709213+00:00",
+    "extracted_text": null,
+    "id": "90ee3582-28d7-44d0-abe8-8b01615e6971",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/90ee3582-28d7-44d0-abe8-8b01615e6971/page_0067.jpg"
+    ],
+    "page_number": 66,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على الألف اللينة في الأسماء)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:49.932576+00:00",
+    "extracted_text": null,
+    "id": "12945bc9-4027-44a6-9614-4322728a1f56",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/12945bc9-4027-44a6-9614-4322728a1f56/page_0068.jpg"
+    ],
+    "page_number": 67,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على الألف اللينة في الأسماء)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:50.15072+00:00",
+    "extracted_text": null,
+    "id": "c98ac8b1-ef27-4568-9ed8-fd67173cb01e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/c98ac8b1-ef27-4568-9ed8-fd67173cb01e/page_0069.jpg"
+    ],
+    "page_number": 68,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة السادسة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:50.422936+00:00",
+    "extracted_text": null,
+    "id": "e5a8eb24-e1b6-4d40-a5d7-d82f9b67c731",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/e5a8eb24-e1b6-4d40-a5d7-d82f9b67c731/page_0070.jpg"
+    ],
+    "page_number": 69,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "التواضع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:50.639355+00:00",
+    "extracted_text": null,
+    "id": "f8e3a8dd-c97f-4b65-9aa9-a2262e4c8bad",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/f8e3a8dd-c97f-4b65-9aa9-a2262e4c8bad/page_0071.jpg"
+    ],
+    "page_number": 70,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "التواضع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:50.868102+00:00",
+    "extracted_text": null,
+    "id": "bf28963d-f18f-4d67-b262-8a33db07ec77",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/bf28963d-f18f-4d67-b262-8a33db07ec77/page_0072.jpg"
+    ],
+    "page_number": 71,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "التواضع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:51.093529+00:00",
+    "extracted_text": null,
+    "id": "7bb649e5-f295-4be2-ac57-b706d2835fff",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/7bb649e5-f295-4be2-ac57-b706d2835fff/page_0073.jpg"
+    ],
+    "page_number": 72,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "التواضع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:51.316177+00:00",
+    "extracted_text": null,
+    "id": "d7c8b167-944c-42a6-b764-725ee12d5d31",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/d7c8b167-944c-42a6-b764-725ee12d5d31/page_0074.jpg"
+    ],
+    "page_number": 73,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "التواضع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:51.532134+00:00",
+    "extracted_text": null,
+    "id": "02f98810-6d7f-468a-867a-5cdf4a10b5c2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/02f98810-6d7f-468a-867a-5cdf4a10b5c2/page_0075.jpg"
+    ],
+    "page_number": 74,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "التواضع"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:51.755774+00:00",
+    "extracted_text": null,
+    "id": "56cbcf60-e8b0-454d-96cc-1c467b8b5796",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/56cbcf60-e8b0-454d-96cc-1c467b8b5796/page_0076.jpg"
+    ],
+    "page_number": 75,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (تطبيقات على ما سبقت دراسته)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:51.969078+00:00",
+    "extracted_text": null,
+    "id": "98503f8c-d075-4f00-92e1-cc7f5aee93f4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/98503f8c-d075-4f00-92e1-cc7f5aee93f4/page_0077.jpg"
+    ],
+    "page_number": 76,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (إملاء اختباري)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:52.193727+00:00",
+    "extracted_text": null,
+    "id": "1a2a8cbd-521f-4c73-b095-c6f238572f31",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/1a2a8cbd-521f-4c73-b095-c6f238572f31/page_0078.jpg"
+    ],
+    "page_number": 77,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (إملاء اختباري)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:52.404111+00:00",
+    "extracted_text": null,
+    "id": "7b9cbd2b-eb13-47b5-b9fd-0dc2e1b46c56",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/7b9cbd2b-eb13-47b5-b9fd-0dc2e1b46c56/page_0079.jpg"
+    ],
+    "page_number": 78,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة السابعة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:52.62121+00:00",
+    "extracted_text": null,
+    "id": "97159392-85c3-4e19-98e3-47605b6c0452",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/97159392-85c3-4e19-98e3-47605b6c0452/page_0080.jpg"
+    ],
+    "page_number": 79,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة السابعة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:52.837843+00:00",
+    "extracted_text": null,
+    "id": "9eca1587-cee9-4673-9a6d-ebcb68645a7b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/9eca1587-cee9-4673-9a6d-ebcb68645a7b/page_0081.jpg"
+    ],
+    "page_number": 80,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "مدينة براقش"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:53.054699+00:00",
+    "extracted_text": null,
+    "id": "17070bfe-e33f-43f4-81ef-f0582e615d60",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/17070bfe-e33f-43f4-81ef-f0582e615d60/page_0082.jpg"
+    ],
+    "page_number": 81,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "مدينة براقش"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:53.265713+00:00",
+    "extracted_text": null,
+    "id": "2237c6d7-9dfe-42a5-84d3-6879fa2906b7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/2237c6d7-9dfe-42a5-84d3-6879fa2906b7/page_0083.jpg"
+    ],
+    "page_number": 82,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "مدينة براقش"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:53.483606+00:00",
+    "extracted_text": null,
+    "id": "6c0ae62b-e2f8-4cde-a1b4-749dbe837693",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/6c0ae62b-e2f8-4cde-a1b4-749dbe837693/page_0084.jpg"
+    ],
+    "page_number": 83,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "مدينة براقش"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:53.699135+00:00",
+    "extracted_text": null,
+    "id": "76d3c017-c84e-445b-b725-5a367247beed",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/76d3c017-c84e-445b-b725-5a367247beed/page_0085.jpg"
+    ],
+    "page_number": 84,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "مدينة براقش"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:53.921002+00:00",
+    "extracted_text": null,
+    "id": "6bcd69e9-dff9-44a6-b088-2a2e31a0872f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/6bcd69e9-dff9-44a6-b088-2a2e31a0872f/page_0086.jpg"
+    ],
+    "page_number": 85,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (مصادر الأفعال الخماسية والسداسية)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:54.135486+00:00",
+    "extracted_text": null,
+    "id": "fba03151-c466-460e-bf1d-7450c7346259",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/fba03151-c466-460e-bf1d-7450c7346259/page_0087.jpg"
+    ],
+    "page_number": 86,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (مصادر الأفعال الخماسية والسداسية)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:54.360472+00:00",
+    "extracted_text": null,
+    "id": "57ad1941-a9ef-4b09-8753-9332ca12183a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/57ad1941-a9ef-4b09-8753-9332ca12183a/page_0088.jpg"
+    ],
+    "page_number": 87,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (مصادر الأفعال الخماسية والسداسية)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:54.575187+00:00",
+    "extracted_text": null,
+    "id": "9f6599ce-efd7-430a-a382-aad0b95812d1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/9f6599ce-efd7-430a-a382-aad0b95812d1/page_0089.jpg"
+    ],
+    "page_number": 88,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (مصادر الأفعال الخماسية والسداسية)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:54.793062+00:00",
+    "extracted_text": null,
+    "id": "a0b65a26-39b1-4399-bfd3-9bf82b7d9b92",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/a0b65a26-39b1-4399-bfd3-9bf82b7d9b92/page_0090.jpg"
+    ],
+    "page_number": 89,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على الألف اللينة في الأفعال)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:55.007291+00:00",
+    "extracted_text": null,
+    "id": "77c95025-0c18-449f-a075-1cd334d5962b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/77c95025-0c18-449f-a075-1cd334d5962b/page_0091.jpg"
+    ],
+    "page_number": 90,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على الألف اللينة في الأفعال)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:55.230833+00:00",
+    "extracted_text": null,
+    "id": "2ee9741c-5265-4513-8463-2de1bc918029",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/2ee9741c-5265-4513-8463-2de1bc918029/page_0092.jpg"
+    ],
+    "page_number": 91,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الثامنة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:55.44831+00:00",
+    "extracted_text": null,
+    "id": "1afeeda3-4e28-4a24-8eb6-f1e4a31443dc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/1afeeda3-4e28-4a24-8eb6-f1e4a31443dc/page_0093.jpg"
+    ],
+    "page_number": 92,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الثامنة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:55.664756+00:00",
+    "extracted_text": null,
+    "id": "4168a94f-e8db-44d0-9233-8fd1fab3d9a1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/4168a94f-e8db-44d0-9233-8fd1fab3d9a1/page_0094.jpg"
+    ],
+    "page_number": 93,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "زخرفة المساجد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:55.87307+00:00",
+    "extracted_text": null,
+    "id": "598cd608-81e7-4467-bc69-fb39e60d5445",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/598cd608-81e7-4467-bc69-fb39e60d5445/page_0095.jpg"
+    ],
+    "page_number": 94,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "زخرفة المساجد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:56.086628+00:00",
+    "extracted_text": null,
+    "id": "99b5c3e7-26d5-4425-a634-6582fc79ff27",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/99b5c3e7-26d5-4425-a634-6582fc79ff27/page_0096.jpg"
+    ],
+    "page_number": 95,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "زخرفة المساجد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:56.304487+00:00",
+    "extracted_text": null,
+    "id": "1ade3add-30d9-42a7-99a5-88c9df6f2170",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/1ade3add-30d9-42a7-99a5-88c9df6f2170/page_0097.jpg"
+    ],
+    "page_number": 96,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "زخرفة المساجد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:56.52298+00:00",
+    "extracted_text": null,
+    "id": "b5d04d6c-3c30-4c4f-8b33-8574b9d4435e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/b5d04d6c-3c30-4c4f-8b33-8574b9d4435e/page_0098.jpg"
+    ],
+    "page_number": 97,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "زخرفة المساجد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:56.752926+00:00",
+    "extracted_text": null,
+    "id": "7c068c9c-3e22-4ab8-baa2-02443a062c8b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/7c068c9c-3e22-4ab8-baa2-02443a062c8b/page_0099.jpg"
+    ],
+    "page_number": 98,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "زخرفة المساجد"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:56.97399+00:00",
+    "extracted_text": null,
+    "id": "be1df310-1506-4fb9-9784-e6d199adce73",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/be1df310-1506-4fb9-9784-e6d199adce73/page_0100.jpg"
+    ],
+    "page_number": 99,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الكشف في المعاجم)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:57.197717+00:00",
+    "extracted_text": null,
+    "id": "f57b12c1-0d26-449b-b893-45f56523a80f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/f57b12c1-0d26-449b-b893-45f56523a80f/page_0101.jpg"
+    ],
+    "page_number": 100,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الكشف في المعاجم)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:57.439635+00:00",
+    "extracted_text": null,
+    "id": "631ef048-45b4-450d-8527-cea56fb074bf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/631ef048-45b4-450d-8527-cea56fb074bf/page_0102.jpg"
+    ],
+    "page_number": 101,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الكشف في المعاجم)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:57.664206+00:00",
+    "extracted_text": null,
+    "id": "887e22a4-bfe7-4bd3-b625-4193330b6ccf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/887e22a4-bfe7-4bd3-b625-4193330b6ccf/page_0103.jpg"
+    ],
+    "page_number": 102,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الكشف في المعاجم)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:57.890011+00:00",
+    "extracted_text": null,
+    "id": "2605ab69-86cf-40a4-b1ea-bf64f35d34ff",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/2605ab69-86cf-40a4-b1ea-bf64f35d34ff/page_0104.jpg"
+    ],
+    "page_number": 103,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (الكشف في المعاجم)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:58.11293+00:00",
+    "extracted_text": null,
+    "id": "eb18cc5c-e124-4c60-a767-3c09ca06ea00",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/eb18cc5c-e124-4c60-a767-3c09ca06ea00/page_0105.jpg"
+    ],
+    "page_number": 104,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (إملاء اختباري)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:58.335798+00:00",
+    "extracted_text": null,
+    "id": "19197f27-c115-47dc-902c-3285a823ceda",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/19197f27-c115-47dc-902c-3285a823ceda/page_0106.jpg"
+    ],
+    "page_number": 105,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (إملاء اختباري)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:58.551283+00:00",
+    "extracted_text": null,
+    "id": "4783a681-84cd-4226-b55f-1507c3312365",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/4783a681-84cd-4226-b55f-1507c3312365/page_0107.jpg"
+    ],
+    "page_number": 106,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة التاسعة عشرة"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:58.78136+00:00",
+    "extracted_text": null,
+    "id": "3bf2074d-c68f-4181-81ba-adfaf621e5f7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/3bf2074d-c68f-4181-81ba-adfaf621e5f7/page_0108.jpg"
+    ],
+    "page_number": 107,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "سيف التابعين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:59.006046+00:00",
+    "extracted_text": null,
+    "id": "88e3ae9b-af93-498b-982a-94e343b6d2b5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/88e3ae9b-af93-498b-982a-94e343b6d2b5/page_0109.jpg"
+    ],
+    "page_number": 108,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "سيف التابعين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:59.229042+00:00",
+    "extracted_text": null,
+    "id": "79dc36dd-ab85-4fa9-9538-0b683f26565b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/79dc36dd-ab85-4fa9-9538-0b683f26565b/page_0110.jpg"
+    ],
+    "page_number": 109,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "سيف التابعين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:59.457665+00:00",
+    "extracted_text": null,
+    "id": "9bbf368c-6bbc-4dee-a34c-ad345fa38d46",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/9bbf368c-6bbc-4dee-a34c-ad345fa38d46/page_0111.jpg"
+    ],
+    "page_number": 110,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "سيف التابعين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:59.681821+00:00",
+    "extracted_text": null,
+    "id": "f60dbd77-a792-4b0a-a2d5-ee75cb3c171f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/f60dbd77-a792-4b0a-a2d5-ee75cb3c171f/page_0112.jpg"
+    ],
+    "page_number": 111,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "سيف التابعين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:37:59.904071+00:00",
+    "extracted_text": null,
+    "id": "9b4ecaa8-16c4-42c8-9cd8-35671a034cbd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/9b4ecaa8-16c4-42c8-9cd8-35671a034cbd/page_0113.jpg"
+    ],
+    "page_number": 112,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "سيف التابعين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:00.137327+00:00",
+    "extracted_text": null,
+    "id": "da831ef1-29b1-46e9-9991-af6bf37be066",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/da831ef1-29b1-46e9-9991-af6bf37be066/page_0114.jpg"
+    ],
+    "page_number": 113,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم الفاعل وصيغ المبالغة)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:00.38342+00:00",
+    "extracted_text": null,
+    "id": "05b1a0ab-7654-461f-973a-2c9aa0a3730c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/05b1a0ab-7654-461f-973a-2c9aa0a3730c/page_0115.jpg"
+    ],
+    "page_number": 114,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم الفاعل وصيغ المبالغة)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:00.614085+00:00",
+    "extracted_text": null,
+    "id": "80b85726-fb44-4158-897d-a7d501d0863e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/80b85726-fb44-4158-897d-a7d501d0863e/page_0116.jpg"
+    ],
+    "page_number": 115,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم الفاعل وصيغ المبالغة)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:00.836192+00:00",
+    "extracted_text": null,
+    "id": "f8d30e9a-72e1-4cbb-93d0-e8ead8e1b944",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/f8d30e9a-72e1-4cbb-93d0-e8ead8e1b944/page_0117.jpg"
+    ],
+    "page_number": 116,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم الفاعل وصيغ المبالغة)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:01.063602+00:00",
+    "extracted_text": null,
+    "id": "9cd8b51a-303a-4de6-927a-8e8ae9b49257",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/9cd8b51a-303a-4de6-927a-8e8ae9b49257/page_0118.jpg"
+    ],
+    "page_number": 117,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على الحذف في الألف والواو والياء)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:01.285513+00:00",
+    "extracted_text": null,
+    "id": "648a89e3-b1ac-485f-89e1-8de4dcec8ba8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/648a89e3-b1ac-485f-89e1-8de4dcec8ba8/page_0119.jpg"
+    ],
+    "page_number": 118,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على الحذف في الألف والواو والياء)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:01.504741+00:00",
+    "extracted_text": null,
+    "id": "6007d455-e776-4bc3-ab3c-b8abed3eb634",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/6007d455-e776-4bc3-ab3c-b8abed3eb634/page_0120.jpg"
+    ],
+    "page_number": 119,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة العشرين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:01.758463+00:00",
+    "extracted_text": null,
+    "id": "4fcfce81-6c5f-4d18-9fce-54dbc4ea9843",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/4fcfce81-6c5f-4d18-9fce-54dbc4ea9843/page_0121.jpg"
+    ],
+    "page_number": 120,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة العشرين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:01.98269+00:00",
+    "extracted_text": null,
+    "id": "45474e8c-2192-4cda-a6c9-59e8359f87eb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/45474e8c-2192-4cda-a6c9-59e8359f87eb/page_0122.jpg"
+    ],
+    "page_number": 121,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "المولد النبوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:02.216705+00:00",
+    "extracted_text": null,
+    "id": "7dd430d5-ef93-4221-892f-ecf6899511ee",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/7dd430d5-ef93-4221-892f-ecf6899511ee/page_0123.jpg"
+    ],
+    "page_number": 122,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "المولد النبوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:02.429664+00:00",
+    "extracted_text": null,
+    "id": "a8307bf6-5d6a-456d-ae1b-8f1b0c47c10d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/a8307bf6-5d6a-456d-ae1b-8f1b0c47c10d/page_0124.jpg"
+    ],
+    "page_number": 123,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "المولد النبوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:02.641054+00:00",
+    "extracted_text": null,
+    "id": "1b9b9729-6dc3-4389-b5dc-7f04592bab84",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/1b9b9729-6dc3-4389-b5dc-7f04592bab84/page_0125.jpg"
+    ],
+    "page_number": 124,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "المولد النبوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:02.848203+00:00",
+    "extracted_text": null,
+    "id": "c3aa5999-ade4-40ff-8302-e2d713c83773",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/c3aa5999-ade4-40ff-8302-e2d713c83773/page_0126.jpg"
+    ],
+    "page_number": 125,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "المولد النبوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:03.062536+00:00",
+    "extracted_text": null,
+    "id": "6b025bec-e259-487c-894b-a0b4855e3467",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/6b025bec-e259-487c-894b-a0b4855e3467/page_0127.jpg"
+    ],
+    "page_number": 126,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "المولد النبوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:03.281615+00:00",
+    "extracted_text": null,
+    "id": "047a3588-9ecf-4c87-8c38-a9ea5cf12f1f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/047a3588-9ecf-4c87-8c38-a9ea5cf12f1f/page_0128.jpg"
+    ],
+    "page_number": 127,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "المولد النبوي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:03.498926+00:00",
+    "extracted_text": null,
+    "id": "5f8a5c20-7a54-4fee-9e0a-8e79c0721e10",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/5f8a5c20-7a54-4fee-9e0a-8e79c0721e10/page_0129.jpg"
+    ],
+    "page_number": 128,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم المفعول)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:03.717757+00:00",
+    "extracted_text": null,
+    "id": "8d917768-f4eb-4c7a-8886-9c04b4b902b0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/8d917768-f4eb-4c7a-8886-9c04b4b902b0/page_0130.jpg"
+    ],
+    "page_number": 129,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم المفعول)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:03.935057+00:00",
+    "extracted_text": null,
+    "id": "e2efd528-4cc1-4eaa-933e-0625d487516f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/e2efd528-4cc1-4eaa-933e-0625d487516f/page_0131.jpg"
+    ],
+    "page_number": 130,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم المفعول)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:04.151647+00:00",
+    "extracted_text": null,
+    "id": "4784e486-6383-41d0-916b-01188f1fdb0c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/4784e486-6383-41d0-916b-01188f1fdb0c/page_0132.jpg"
+    ],
+    "page_number": 131,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على زيادة بعض الحروف)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:04.366907+00:00",
+    "extracted_text": null,
+    "id": "55428bfe-9ce1-4bc6-bf9e-c8ebd5198efe",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/55428bfe-9ce1-4bc6-bf9e-c8ebd5198efe/page_0133.jpg"
+    ],
+    "page_number": 132,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على زيادة بعض الحروف)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:04.590706+00:00",
+    "extracted_text": null,
+    "id": "a1505a6b-9372-4bf3-8da8-8233a11a9892",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/a1505a6b-9372-4bf3-8da8-8233a11a9892/page_0134.jpg"
+    ],
+    "page_number": 133,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الحادية والعشرين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:04.803815+00:00",
+    "extracted_text": null,
+    "id": "f740c3ed-527b-4835-ad10-a4d6bf30ac6e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/f740c3ed-527b-4835-ad10-a4d6bf30ac6e/page_0135.jpg"
+    ],
+    "page_number": 134,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الصمود الأسطوري"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:05.018452+00:00",
+    "extracted_text": null,
+    "id": "a210e40d-dab7-433b-8e3b-9648049956e2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/a210e40d-dab7-433b-8e3b-9648049956e2/page_0136.jpg"
+    ],
+    "page_number": 135,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الصمود الأسطوري"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:05.235744+00:00",
+    "extracted_text": null,
+    "id": "4f5d74b0-0c25-4948-bf2a-d883a4f68276",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/4f5d74b0-0c25-4948-bf2a-d883a4f68276/page_0137.jpg"
+    ],
+    "page_number": 136,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الصمود الأسطوري"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:05.450587+00:00",
+    "extracted_text": null,
+    "id": "781ec6d0-71dd-423a-8e5f-cc0b93fccbaa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/781ec6d0-71dd-423a-8e5f-cc0b93fccbaa/page_0138.jpg"
+    ],
+    "page_number": 137,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الصمود الأسطوري"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:05.700526+00:00",
+    "extracted_text": null,
+    "id": "24415876-3843-4582-b22a-ba0e8200ff18",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/24415876-3843-4582-b22a-ba0e8200ff18/page_0139.jpg"
+    ],
+    "page_number": 138,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الصمود الأسطوري"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:05.919+00:00",
+    "extracted_text": null,
+    "id": "a82319ea-709a-4276-bf40-c1d38796c234",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/a82319ea-709a-4276-bf40-c1d38796c234/page_0140.jpg"
+    ],
+    "page_number": 139,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الصمود الأسطوري"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:06.135115+00:00",
+    "extracted_text": null,
+    "id": "789e3ee7-f1fe-4ee8-b29d-6694e003174f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/789e3ee7-f1fe-4ee8-b29d-6694e003174f/page_0141.jpg"
+    ],
+    "page_number": 140,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الصمود الأسطوري"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:06.349886+00:00",
+    "extracted_text": null,
+    "id": "2f052aaa-52c6-43aa-ac38-1f426cddd716",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/2f052aaa-52c6-43aa-ac38-1f426cddd716/page_0142.jpg"
+    ],
+    "page_number": 141,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الصمود الأسطوري"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:06.57263+00:00",
+    "extracted_text": null,
+    "id": "2a0764f8-f3b6-4bc3-a17f-0c9423680669",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/2a0764f8-f3b6-4bc3-a17f-0c9423680669/page_0143.jpg"
+    ],
+    "page_number": 142,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم التفضيل)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:06.791261+00:00",
+    "extracted_text": null,
+    "id": "47fa82a1-488d-4d55-bd03-6de1f89438e2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/47fa82a1-488d-4d55-bd03-6de1f89438e2/page_0144.jpg"
+    ],
+    "page_number": 143,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم التفضيل)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:07.007199+00:00",
+    "extracted_text": null,
+    "id": "2a56f910-6b76-4064-a68a-fc81e646c6e8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/2a56f910-6b76-4064-a68a-fc81e646c6e8/page_0145.jpg"
+    ],
+    "page_number": 144,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم التفضيل)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:07.226469+00:00",
+    "extracted_text": null,
+    "id": "3f583d3f-a23d-48a3-8626-6f62bcfad8ae",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/3f583d3f-a23d-48a3-8626-6f62bcfad8ae/page_0146.jpg"
+    ],
+    "page_number": 145,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم التفضيل)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:07.447324+00:00",
+    "extracted_text": null,
+    "id": "2bd79928-28be-465c-9e7f-1e8f1cfdf8e4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/2bd79928-28be-465c-9e7f-1e8f1cfdf8e4/page_0147.jpg"
+    ],
+    "page_number": 146,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم التفضيل)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:07.666289+00:00",
+    "extracted_text": null,
+    "id": "46680b70-ec2a-4609-8f19-80de92632c41",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/46680b70-ec2a-4609-8f19-80de92632c41/page_0148.jpg"
+    ],
+    "page_number": 147,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسم التفضيل)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:07.881525+00:00",
+    "extracted_text": null,
+    "id": "2d0c6519-38d1-4dfd-b228-3de206dc1a5a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/2d0c6519-38d1-4dfd-b228-3de206dc1a5a/page_0149.jpg"
+    ],
+    "page_number": 148,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على علامات الترقيم)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:08.099015+00:00",
+    "extracted_text": null,
+    "id": "de0a9ae6-fe8d-4979-92d2-0c94f932e020",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/de0a9ae6-fe8d-4979-92d2-0c94f932e020/page_0150.jpg"
+    ],
+    "page_number": 149,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على علامات الترقيم)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:08.320477+00:00",
+    "extracted_text": null,
+    "id": "56744021-ae8a-4cab-a3d8-ddb6a0e550c0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/56744021-ae8a-4cab-a3d8-ddb6a0e550c0/page_0151.jpg"
+    ],
+    "page_number": 150,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الثانية والعشرين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:08.549589+00:00",
+    "extracted_text": null,
+    "id": "cca8e80b-f000-47bd-80a5-5aadd19f8b02",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/cca8e80b-f000-47bd-80a5-5aadd19f8b02/page_0152.jpg"
+    ],
+    "page_number": 151,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الفضاء الخارجي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:08.767938+00:00",
+    "extracted_text": null,
+    "id": "b7313d8f-7854-470c-ac47-bfc07c6d5eae",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/b7313d8f-7854-470c-ac47-bfc07c6d5eae/page_0153.jpg"
+    ],
+    "page_number": 152,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الفضاء الخارجي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:08.985095+00:00",
+    "extracted_text": null,
+    "id": "e4ba0729-5bb2-4569-a5b7-7a63ecc2805a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/e4ba0729-5bb2-4569-a5b7-7a63ecc2805a/page_0154.jpg"
+    ],
+    "page_number": 153,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الفضاء الخارجي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:09.201317+00:00",
+    "extracted_text": null,
+    "id": "cb4cbbe6-e6fd-4b60-b728-edceaa84bc6f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/cb4cbbe6-e6fd-4b60-b728-edceaa84bc6f/page_0155.jpg"
+    ],
+    "page_number": 154,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الفضاء الخارجي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:09.424878+00:00",
+    "extracted_text": null,
+    "id": "13237544-a166-4d58-b43b-1c889209443c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/13237544-a166-4d58-b43b-1c889209443c/page_0156.jpg"
+    ],
+    "page_number": 155,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الفضاء الخارجي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:09.654+00:00",
+    "extracted_text": null,
+    "id": "050339e3-1634-49b2-b5da-569d9b94125c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/050339e3-1634-49b2-b5da-569d9b94125c/page_0157.jpg"
+    ],
+    "page_number": 156,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسما الزمان والمكان)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:09.877885+00:00",
+    "extracted_text": null,
+    "id": "11ce644f-bab2-4612-a28c-3270b9d94808",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/11ce644f-bab2-4612-a28c-3270b9d94808/page_0158.jpg"
+    ],
+    "page_number": 157,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسما الزمان والمكان)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:10.099868+00:00",
+    "extracted_text": null,
+    "id": "408587bf-0cbc-47ff-9be2-8ef05d75498d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/408587bf-0cbc-47ff-9be2-8ef05d75498d/page_0159.jpg"
+    ],
+    "page_number": 158,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسما الزمان والمكان)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:10.319305+00:00",
+    "extracted_text": null,
+    "id": "5f604360-1916-4169-9ca3-576ce3979436",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/5f604360-1916-4169-9ca3-576ce3979436/page_0160.jpg"
+    ],
+    "page_number": 159,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسما الزمان والمكان)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:10.542933+00:00",
+    "extracted_text": null,
+    "id": "b5fa1607-c775-4fa8-94ef-6252f098e75e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/b5fa1607-c775-4fa8-94ef-6252f098e75e/page_0161.jpg"
+    ],
+    "page_number": 160,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (اسما الزمان والمكان)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:10.765235+00:00",
+    "extracted_text": null,
+    "id": "30be45a3-771c-4a1a-87d5-ada180156503",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/30be45a3-771c-4a1a-87d5-ada180156503/page_0162.jpg"
+    ],
+    "page_number": 161,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على المد والتنوين)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:10.984524+00:00",
+    "extracted_text": null,
+    "id": "ef0003ea-bc1a-4c9c-8047-cae49c355667",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/ef0003ea-bc1a-4c9c-8047-cae49c355667/page_0163.jpg"
+    ],
+    "page_number": 162,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على المد والتنوين)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:11.211293+00:00",
+    "extracted_text": null,
+    "id": "d23c7b7e-5ef8-4671-8799-0618286b1414",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/d23c7b7e-5ef8-4671-8799-0618286b1414/page_0164.jpg"
+    ],
+    "page_number": 163,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الثالثة والعشرين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:11.439457+00:00",
+    "extracted_text": null,
+    "id": "9e6f4080-d8c8-4d66-a86d-a55359062660",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/9e6f4080-d8c8-4d66-a86d-a55359062660/page_0165.jpg"
+    ],
+    "page_number": 164,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الثالثة والعشرين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:11.667176+00:00",
+    "extracted_text": null,
+    "id": "7c33fad2-7785-4db9-adff-e339c90912bb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/7c33fad2-7785-4db9-adff-e339c90912bb/page_0166.jpg"
+    ],
+    "page_number": 165,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "طرائف عربية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:11.890565+00:00",
+    "extracted_text": null,
+    "id": "740d34f0-4a77-40f9-99b8-d332272f67b1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/740d34f0-4a77-40f9-99b8-d332272f67b1/page_0167.jpg"
+    ],
+    "page_number": 166,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "طرائف عربية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:12.131989+00:00",
+    "extracted_text": null,
+    "id": "abb60db1-ce13-4925-aa12-1ee8e1a7e3c6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/abb60db1-ce13-4925-aa12-1ee8e1a7e3c6/page_0168.jpg"
+    ],
+    "page_number": 167,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "طرائف عربية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:12.36262+00:00",
+    "extracted_text": null,
+    "id": "9937fcdf-977a-4efc-b8e1-0cec8b1a139d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/9937fcdf-977a-4efc-b8e1-0cec8b1a139d/page_0169.jpg"
+    ],
+    "page_number": 168,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "طرائف عربية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:12.597531+00:00",
+    "extracted_text": null,
+    "id": "c9a07d36-0c79-4b8c-b059-c1fdcb86bf00",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/c9a07d36-0c79-4b8c-b059-c1fdcb86bf00/page_0170.jpg"
+    ],
+    "page_number": 169,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (تطبيقات)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:12.823618+00:00",
+    "extracted_text": null,
+    "id": "84a2c165-b0ec-433b-9e91-d424ec840923",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/84a2c165-b0ec-433b-9e91-d424ec840923/page_0171.jpg"
+    ],
+    "page_number": 170,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "النحو والصرف (تطبيقات)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:13.052433+00:00",
+    "extracted_text": null,
+    "id": "79bb1911-67a6-44e1-9edc-1df2678462c1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/79bb1911-67a6-44e1-9edc-1df2678462c1/page_0172.jpg"
+    ],
+    "page_number": 171,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "الإملاء (تطبيقات على ما سبقت دراسته)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:13.271856+00:00",
+    "extracted_text": null,
+    "id": "944215d1-7610-46a5-8ae2-0b94e753bb2c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/944215d1-7610-46a5-8ae2-0b94e753bb2c/page_0173.jpg"
+    ],
+    "page_number": 172,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الرابعة والعشرين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:13.489028+00:00",
+    "extracted_text": null,
+    "id": "5a2aa473-11de-4c36-ba85-9369514e846e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/5a2aa473-11de-4c36-ba85-9369514e846e/page_0174.jpg"
+    ],
+    "page_number": 173,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الرابعة والعشرين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:13.706481+00:00",
+    "extracted_text": null,
+    "id": "5725bd62-974e-4a49-9d7d-e0d2e2be8964",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/5725bd62-974e-4a49-9d7d-e0d2e2be8964/page_0175.jpg"
+    ],
+    "page_number": 174,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الرابعة والعشرين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:13.925133+00:00",
+    "extracted_text": null,
+    "id": "ce7c6c1b-480a-4efb-aa6b-8af7e1d7a14c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/ce7c6c1b-480a-4efb-aa6b-8af7e1d7a14c/page_0176.jpg"
+    ],
+    "page_number": 175,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الرابعة والعشرين"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:14.149965+00:00",
+    "extracted_text": null,
+    "id": "c633228a-dfc0-4a7e-8264-d6c95878e935",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/c633228a-dfc0-4a7e-8264-d6c95878e935/page_0177.jpg"
+    ],
+    "page_number": 176,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الرابعة والعشرين"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الآية الكريمة {وَأَعِدُّوا لَهُم مَّا اسْتَطَعْتُم مِّن قُوَّةٍ وَمِن رِّبَاطِ الْخَيْلِ تُرْهِبُونَ بِهِ عَدُوَّ اللَّهِ وَعَدُوَّكُمْ} هي الآية رقم ٦٠ من سورة الأنفال، وتظهر مكتوبة على لافتة الشاحنة في مقدمة العرض العسكري.",
+        "method": "تحديد النص القرآني المكتوب على الشاحنة والبحث عن السورة التي تحتوي عليه.",
+        "options": [
+          "سورة التوبة",
+          "سورة الأنفال",
+          "سورة آل عمران",
+          "سورة الفتح"
+        ],
+        "question": "ما هي السورة الكريمة التي وردت فيها الآية المكتوبة على مقدمة الشاحنة في الصورة: {وَأَعِدُّوا لَهُم مَّا اسْتَطَعْتُم مِّن قُوَّةٍ}؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "اللافتة على الشاحنة الأولى في أسفل المنتصف"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - الشاحنة في أسفل منتصف الصورة",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الشعار الدائري في منتصف الصورة يعود لوزارة التربية والتعليم في الجمهورية اليمنية (المطبعة العامة للكتب المدرسية).",
+        "method": "قراءة النص المكتوب داخل الشعار الدائري في منتصف الغلاف.",
+        "options": [
+          "وزارة الدفاع - الجمهورية اليمنية",
+          "وزارة التربية والتعليم - الجمهورية اليمنية",
+          "وزارة الثقافة - الجمهورية اليمنية",
+          "جامعة صنعاء"
+        ],
+        "question": "يظهر في منتصف الغلاف شعار رسمي دائري، ما هي الجهة صاحبة هذا الشعار؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "الشعار الدائري في منتصف الغلاف"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - الشعار الدائري في المنتصف",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الرابط المكتوب بوضوح أسفل يسار الغلاف بجانب أيقونة الكتاب هو http://E-learning-moe.edu.ye التابع للإدارة العامة للتعليم الإلكتروني.",
+        "method": "قراءة الرابط الإلكتروني المكتوب بالخط الصغير أسفل يسار الغلاف.",
+        "options": [
+          "http://yemen-edu.org",
+          "http://moe.gov.ye",
+          "http://E-learning-moe.edu.ye",
+          "http://e-learning-yemen.com"
+        ],
+        "question": "ما هو الموقع الإلكتروني المكتوب أسفل يسار الغلاف والمخصص للتعليم الإلكتروني في اليمن؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "أسفل يسار الغلاف بجانب رمز الكتاب"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - أسفل اليسار بجانب رمز الكتاب",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "easy",
+        "explanation": "علم الجمهورية اليمنية يظهر في منصة العرض العسكري ويتكون من ثلاثة ألوان مرتبة أفقياً من الأعلى للأسفل: الأحمر، ثم الأبيض، ثم الأسود.",
+        "method": "ملاحظة ألوان العلم اليمني الممتد على طول المنصة في يمين الصورة.",
+        "options": [
+          "أحمر، أسود، أبيض",
+          "أخضر، أبيض، أسود",
+          "أحمر، أبيض، أخضر",
+          "أحمر، أبيض، أسود"
+        ],
+        "question": "يظهر في خلفية العرض العسكري علم وطني مكون من ثلاثة ألوان أفقية. ما هو ترتيب هذه الألوان من الأعلى إلى الأسفل؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "المنصة الخلفية للعرض العسكري في يمين الصورة"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - يمين المنتصف (المنصة الخلفية للعرض)",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "النص المكتوب كعلامة مائية مائلة على الغلاف هو 'الإدارة العامة للتعليم الإلكتروني'.",
+        "method": "قراءة النص المائي المكتوب بخط كبير ومائل يمتد من أعلى اليمين إلى أسفل اليسار.",
+        "options": [
+          "الإدارة العامة للتعليم الإلكتروني",
+          "الإدارة العامة للمناهج",
+          "الإدارة العامة للامتحانات",
+          "الإدارة العامة للأنشطة المدرسية"
+        ],
+        "question": "ما هي الإدارة العامة التي يظهر اسمها كعلامة مائية مائلة باللون الأزرق الفاتح على خلفية الغلاف؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "العلامة المائية الممتدة عبر خلفية الغلاف"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - الخلفية المائية للغلاف",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الشاحنات المعروضة في الموكب العسكري تحمل صواريخ مغطاة بشباك التمويه، وهي تمثل راجمات أو منصات إطلاق صواريخ.",
+        "method": "تمييز شكل المقذوفات الأسطوانية الطويلة المحمولة على الشاحنات العسكرية.",
+        "options": [
+          "دبابات قتالية",
+          "صواريخ / راجمات صواريخ",
+          "مدافع ميدانية",
+          "مضادات طائرات تقليدية"
+        ],
+        "question": "تظهر في الصورة شاحنات عسكرية تحمل عتاداً حربياً. ما هو نوع السلاح الرئيسي البارز المحمول على هذه الشاحنات؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "الشاحنات العسكرية في مقدمة الموكب العسكري"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - الشاحنات العسكرية في مقدمة الموكب",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الأيقونة الخضراء الصغيرة التي تمثل كتاباً مدرسياً تحمل الرقم '١' باللون الأحمر، مما يشير إلى الصف الأول أو الجزء الأول.",
+        "method": "قراءة الرقم المكتوب داخل أيقونة الكتاب الأخضر الصغيرة في منتصف الصورة فوق منصة العرض.",
+        "options": [
+          "٢",
+          "٣",
+          "١",
+          "٤"
+        ],
+        "question": "ما هو الرمز الرقمي المكتوب داخل أيقونة الكتاب الأخضر الصغير الموجود في منتصف الصورة فوق العرض العسكري؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "الأيقونة الخضراء الصغيرة في منتصف الصورة"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - الأيقونة الخضراء في المنتصف فوق منصة العرض",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 3,
+        "difficulty": "hard",
+        "explanation": "قال رسول الله صلى الله عليه وسلم: 'ألا إن القوة الرمي، ألا إن القوة الرمي، ألا إن القوة الرمي' (رواه مسلم)، وهو ما يتناسب مع الصواريخ والأسلحة المعروضة.",
+        "method": "ربط الآية الكريمة المكتوبة على الشاحنة بالتفسير النبوي الشريف لكلمة 'القوة'.",
+        "options": [
+          "الخيل",
+          "الحصون",
+          "السيوف",
+          "الرمي"
+        ],
+        "question": "في الآية الكريمة المكتوبة على الشاحنة {وَأَعِدُّوا لَهُم مَّا اسْتَطَعْتُم مِّن قُوَّةٍ}، ما المعنى اللغوي المقصود بكلمة 'قُوَّةٍ' كما فسرها النبي صلى الله عليه وسلم في الحديث الشريف؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "اللافتة على الشاحنة الأولى في أسفل المنتصف"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - النص القرآني على الشاحنة الأولى",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الشعار الوطني للجمهورية اليمنية يتكون من نسر يمني يبسط جناحيه، ويحمل درعاً عليه سد مأرب وشجرة البن.",
+        "method": "تحليل مكونات الشعار الوطني اليمني الموجود داخل الختم الدائري في منتصف الغلاف.",
+        "options": [
+          "الصقر",
+          "النسر",
+          "العقاب",
+          "الهدهد"
+        ],
+        "question": "يظهر في الشعار الدائري لوزارة التربية والتعليم في اليمن طائر يمثل الشعار الوطني للجمهورية. ما هو هذا الطائر؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "الشعار الدائري في منتصف الغلاف"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - الشعار الدائري في المنتصف",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "تظهر السماء في الجزء العلوي من الغلاف بلون بنفسجي متدرج يميل إلى الوردي عند الأفق.",
+        "method": "ملاحظة اللون السائد في النصف العلوي من الصورة.",
+        "options": [
+          "الأزرق الصافي",
+          "البنفسجي المتدرج",
+          "الأصفر الفاتح",
+          "الأحمر القاني"
+        ],
+        "question": "ما هو اللون السائد في الجزء العلوي من خلفية الغلاف (السماء)؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "النصف العلوي من صورة الغلاف"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - الجزء العلوي من الصورة",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "يظهر على يمين الصورة طابور منظم من جنود القوات المسلحة يرتدون الزي العسكري الرسمي ويقفون في صفوف متراصة أثناء العرض العسكري.",
+        "method": "تمييز الزي والترتيب المنظم للأفراد على يمين الصورة.",
+        "options": [
+          "طابور من جنود القوات المسلحة",
+          "تجمع لطلاب المدارس",
+          "مجموعة من المواطنين المدنيين",
+          "فرق كشفية مدرسية"
+        ],
+        "question": "ما هو المظهر الأساسي الذي يمثله التجمع البشري المنظم على يمين الصورة في العرض العسكري؟",
+        "question_references": [
+          {
+            "lesson_title": "غلاف الكتاب المدرسي",
+            "page_number": "١",
+            "paragraph_location": "الجانب الأيمن من ساحة العرض العسكري"
+          }
+        ],
+        "source_reference": "غلاف الكتاب - يمين الصورة",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:38:14.366506+00:00",
+    "extracted_text": null,
+    "id": "d79b9858-a33a-413b-9740-06a40f2e1eba",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/9fd10c3f-f6cb-435e-98e5-978042ec76e1/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/d79b9858-a33a-413b-9740-06a40f2e1eba/page_0178.jpg"
+    ],
+    "page_number": 177,
+    "subject_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+    "summary": null,
+    "title": "تقويم الوحدة الرابعة والعشرين"
+  }
+]
