@@ -100,7 +100,7 @@ Do not redo BATCH-001 unless fresh drift invalidates evidence.
 
 No PostgreSQL/RAW/Media/publication mutation occurred in the structural/curation/gap tasks.
 
-## MEDIA-001 — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
+### MEDIA-001 — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
 
 Scope: smallest reviewed batch only — CURATION-001 pages `5..8`.
 
@@ -123,19 +123,31 @@ Measured result:
 - four RAW JPEGs total `457,747` bytes
 - q82/method6 total `464,290` bytes = `+1.43%`; reject as a batch profile
 - q76/method6 total `387,774` bytes = `15.29%` reduction overall; page-level gate still applies
-- book page 5: RAW `93,793` -> q76 `74,416`, reduction `20.66%`, PSNR `39.52 dB`, unchanged `962x1360`; manual contact-sheet review passed for headings/body/labels/numbers -> accepted as a reproducible derived candidate
+- book page 5: RAW `93,793` -> q76 `74,416`, reduction `20.66%`, PSNR `39.52 dB`, unchanged `962x1360`; manual contact-sheet review passed -> accepted as a reproducible derived candidate
 - page 6 q76 `15.83%` reduction -> reject
 - page 7 q76 `9.61%` reduction -> reject
 - page 8 q76 `17.42%` reduction -> reject
-- all q82 candidates rejected for insufficient savings; pages 6 and 7 q82 are larger than RAW
+- exact accepted page-5 derived SHA-256: `4fdeb9e17a0a269481ee046bcbf67053f834c8e75fdb4d5bda445977b742a5e2`
+- no binary media was committed/uploaded to production in MEDIA-001
+- RAW/DB/publication/unrelated mutation: 0
 
-Important:
-- q76 is not a global profile.
-- only page 5 passed every gate.
-- pages 6..8 keep RAW/preferred existing media until another candidate is separately verified.
-- exact accepted page-5 derived SHA-256: `4fdeb9e17a0a269481ee046bcbf67053f834c8e75fdb4d5bda445977b742a5e2`.
-- no binary media was committed/uploaded to production in MEDIA-001.
-- RAW/DB/publication/unrelated mutation: 0.
+## IMPORT-001 — IN PROGRESS / LIVE_IDENTITY_INSPECTOR_BUILDING
+
+IMPORT-001 has started with the smallest already-reviewed scope only: CURATION-001 `Describing people and animals`, book pages `5..8` / source pages `9..12`.
+
+Current evidence:
+- starting live heads: `alwaslh/main@0c7c9f9c5e4ec6ae020484a9a4892eaf3b8b5194`, `alwaslh-go/content/legacy-staging-rebuild@3063e2897a6689674081d2ccdbf17693d4ae078b`;
+- no evidence-invalidating drift detected at start;
+- read-only inspector added at `content-staging/runtime/import-001-inspect.mjs`;
+- inspector commit `6109f7d8dc9dce34f8dfe4c08f748425dfd1edc1`;
+- Railway service `alwaslh-content-inspector` start command switched to `node import-001-inspect.mjs`;
+- deployment `ab72b35e-990d-4a07-bc10-a875ee6c87cc` is currently `BUILDING`;
+- no live inspector output has been accepted yet;
+- PostgreSQL/RAW/media/publication/unrelated mutation remains `0`.
+
+The inspector is deliberately strict: it resolves the exact Grade 9/English offering, the four legacy source paths/checksums/presence flags, existing Media/Lesson chains, target-slug collisions, Section state and publication state before any dry-run or mutation.
+
+Transient blocker: Railway has not completed the inspector deployment. Do not proceed to controlled dry-run/apply until the deployment finishes and emits `IMPORT001_INSPECT_PASS`.
 
 ## Current checkpoint
 
@@ -146,20 +158,20 @@ Important:
 - `CURATION-002 = DONE / LESSON_BOUNDARY_VERIFIED`
 - `CONTENT-GAPS-001 = DONE / GAP_INVENTORY_VERIFIED`
 - `MEDIA-001 = DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE`
-- `IMPORT-001 = NEXT`
+- `IMPORT-001 = IN PROGRESS / LIVE_IDENTITY_INSPECTOR_BUILDING`
 
 ## Exact resume action
 
 On the next run:
-1. read live heads for both repositories + execution status + this handoff;
-2. if no evidence-invalidating drift exists, execute `IMPORT-001` only;
-3. choose the smallest controlled import from content whose Lesson/Activity boundaries are already reviewed;
-4. resolve live modern identities/provenance and fail closed on ambiguity or count drift;
-5. dry-run before any controlled apply;
-6. page 5 may use the tested q76/method6 derivative only if deterministic regeneration yields SHA-256 `4fdeb9e17a0a269481ee046bcbf67053f834c8e75fdb4d5bda445977b742a5e2`; otherwise fail closed;
-7. pages 6..8 do not inherit q76 automatically; retain RAW/preferred media unless another candidate passes a separate media gate;
+1. read both live heads + execution status + this handoff;
+2. inspect Railway deployment `ab72b35e-990d-4a07-bc10-a875ee6c87cc`;
+3. require `IMPORT001_INSPECT_PASS` and capture exact live identity/provenance/create-reuse-update counts;
+4. if it fails, fix the root cause without weakening guards;
+5. if it passes, build and run a rollback-only controlled dry-run for the same four-page reviewed Lesson;
+6. page 5 may use the accepted q76/method6 derivative only if deterministic regeneration yields SHA-256 `4fdeb9e17a0a269481ee046bcbf67053f834c8e75fdb4d5bda445977b742a5e2`; otherwise fail closed;
+7. pages 6..8 retain RAW/preferred media unless another candidate passes a separate media gate;
 8. do not import unresolved pages, auto-publish, mutate RAW, use `69 -> 62`, delete anomalies, or touch unrelated records;
-9. document exact create/reuse/update counts, rollback evidence, verification evidence, failures and next action.
+9. update execution status with exact deployment IDs/counts/failures and only then continue IMPORT-001.
 
 ## Ordered queue
 
@@ -170,7 +182,7 @@ On the next run:
 - `CURATION-002` — DONE
 - `CONTENT-GAPS-001` — DONE
 - `MEDIA-001` — DONE
-- `IMPORT-001` — NEXT
+- `IMPORT-001` — IN PROGRESS
 - `VERIFY-001` — TODO
 - `ROADMAP-RETURN -> STUDENT-016I` — TODO
 
