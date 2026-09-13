@@ -131,23 +131,59 @@ Measured result:
 - no binary media was committed/uploaded to production in MEDIA-001
 - RAW/DB/publication/unrelated mutation: 0
 
-## IMPORT-001 — IN PROGRESS / LIVE_IDENTITY_INSPECTOR_BUILDING
+## IMPORT-001 — IN PROGRESS / ROLLBACK_GATE_VERIFIED
 
-IMPORT-001 has started with the smallest already-reviewed scope only: CURATION-001 `Describing people and animals`, book pages `5..8` / source pages `9..12`.
+IMPORT-001 continues only on CURATION-001 `Describing people and animals`, book pages `5..8` / source pages `9..12`.
 
-Current evidence:
-- starting live heads: `alwaslh/main@0c7c9f9c5e4ec6ae020484a9a4892eaf3b8b5194`, `alwaslh-go/content/legacy-staging-rebuild@3063e2897a6689674081d2ccdbf17693d4ae078b`;
-- no evidence-invalidating drift detected at start;
-- read-only inspector added at `content-staging/runtime/import-001-inspect.mjs`;
-- inspector commit `6109f7d8dc9dce34f8dfe4c08f748425dfd1edc1`;
-- Railway service `alwaslh-content-inspector` start command switched to `node import-001-inspect.mjs`;
-- deployment `ab72b35e-990d-4a07-bc10-a875ee6c87cc` is currently `BUILDING`;
-- no live inspector output has been accepted yet;
-- PostgreSQL/RAW/media/publication/unrelated mutation remains `0`.
+Live identity inspection passed:
+- deployment `4cf8665b-4dd1-4e90-9ec8-92d897c34f59` — SUCCESS
+- marker `IMPORT001_INSPECT_PASS`
+- exact active Grade 9/English offering: 1
+- exact source identities/checksums: 4/4
+- Media Assets: 4, all ready
+- Lesson Assets: 4, all draft/unpublished
+- legacy Lessons: 4, active/unpublished/sectionless
+- target Unit 2 Section absent
+- target curated Lesson slug absent
+- publication count lessons/assets: 0/0
 
-The inspector is deliberately strict: it resolves the exact Grade 9/English offering, the four legacy source paths/checksums/presence flags, existing Media/Lesson chains, target-slug collisions, Section state and publication state before any dry-run or mutation.
+Rollback-only transaction gate passed:
+- script `content-staging/runtime/import-001-transaction-gate.mjs`
+- script commit `177b91572ac6fe3b37acd9bcc094876a1cbb3beb`
+- deployment `8e4cdcbb-2783-4dca-b025-e1191fa9e330` — SUCCESS
+- marker `IMPORT001_TRANSACTION_GATE_PASS`
+- rollback verified: true
+- committed business writes: 0
 
-Transient blocker: Railway has not completed the inspector deployment. Do not proceed to controlled dry-run/apply until the deployment finishes and emits `IMPORT001_INSPECT_PASS`.
+Validated eventual mutation boundary:
+- create 1 Section: `curated-english9-pb3-unit-2-describing-making-plans`
+- create 1 Lesson: `curated-english9-pb3-u2-describing-people-and-animals`
+- reassign exactly 4 existing Lesson Assets into reviewed order 0..3
+- create/mutate Media Assets: 0/0
+- mutate legacy Lessons: 0
+- mutate Questions: 0
+- publication changes: 0
+- unrelated rows: 0
+- preserved legacy Question Revisions: 12
+
+Reused Media IDs:
+- `3d53954b-95ef-4833-ae06-407f2325e28e`
+- `9d4f61a2-8c00-44cf-9baa-7e48740e0ef6`
+- `3aadf23a-432d-4391-bd2f-467eaefe486b`
+- `b0b1d37e-1b9f-43a3-9987-4973423d822c`
+
+Reused Lesson Asset IDs:
+- `d8dfb014-23bb-4db0-b6c2-3aa8e98862eb`
+- `b474bec6-8828-45e9-8b28-40ff0b52a9c2`
+- `cec764c8-dce3-4917-8dea-66a36165ec89`
+- `bdaca047-29a2-4730-81d5-2abd173a93ce`
+
+Media policy retained:
+- structural import reuses existing Media chains; it does not silently replace media binaries.
+- accepted page-5 q76 derivative remains a reproducible verified candidate, not a production mutation in this gate.
+- pages 6..8 remain on current source/preferred media state.
+
+No PostgreSQL committed business write, RAW mutation, media binary mutation, publication mutation, question mutation, anomaly deletion or unrelated mutation occurred in this checkpoint.
 
 ## Current checkpoint
 
@@ -158,20 +194,18 @@ Transient blocker: Railway has not completed the inspector deployment. Do not pr
 - `CURATION-002 = DONE / LESSON_BOUNDARY_VERIFIED`
 - `CONTENT-GAPS-001 = DONE / GAP_INVENTORY_VERIFIED`
 - `MEDIA-001 = DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE`
-- `IMPORT-001 = IN PROGRESS / LIVE_IDENTITY_INSPECTOR_BUILDING`
+- `IMPORT-001 = IN PROGRESS / ROLLBACK_GATE_VERIFIED`
 
 ## Exact resume action
 
 On the next run:
 1. read both live heads + execution status + this handoff;
-2. inspect Railway deployment `ab72b35e-990d-4a07-bc10-a875ee6c87cc`;
-3. require `IMPORT001_INSPECT_PASS` and capture exact live identity/provenance/create-reuse-update counts;
-4. if it fails, fix the root cause without weakening guards;
-5. if it passes, build and run a rollback-only controlled dry-run for the same four-page reviewed Lesson;
-6. page 5 may use the accepted q76/method6 derivative only if deterministic regeneration yields SHA-256 `4fdeb9e17a0a269481ee046bcbf67053f834c8e75fdb4d5bda445977b742a5e2`; otherwise fail closed;
-7. pages 6..8 retain RAW/preferred media unless another candidate passes a separate media gate;
-8. do not import unresolved pages, auto-publish, mutate RAW, use `69 -> 62`, delete anomalies, or touch unrelated records;
-9. update execution status with exact deployment IDs/counts/failures and only then continue IMPORT-001.
+2. re-run strict identity/count/checksum/provenance/publication guards immediately before writing;
+3. derive a controlled apply from the verified rollback gate with exactly `1 Section + 1 Lesson + 4 Lesson Asset reassignments`;
+4. fail closed on any drift;
+5. do not mutate legacy Lessons, Questions, Media binaries/assets, RAW, publication, anomalies or unrelated rows;
+6. after commit, run an independent post-apply verifier and only then close IMPORT-001;
+7. do not start VERIFY-001 until IMPORT-001 committed state is verified.
 
 ## Ordered queue
 
