@@ -1,0 +1,2125 @@
+[
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "لأن |جتا س|≤١، بينما هـ^-س→٠ عندما س→∞، فإن حاصل ضربهما يتجه إلى صفر.",
+        "method": "١- نلاحظ أن هـ^-س→٠ عندما س→∞. ٢- نلاحظ أن جتا س دالة محدودة بين −١ و١. ٣- لذلك حاصل ضرب كمية تتجه للصفر في كمية محدودة يتجه إلى صفر. ٤- إذن النهاية = صفر.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "نها هـ^-س جتاس = صفر عندما س ← ∞",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "لا يمكن جعل الدالة متصلة عند س=π/٢ بهذه الصيغة لأن قا س غير معرفة عند π/٢.",
+        "method": "١- نحدد قيمة المقام/مجال الدالة عند س=π/٢. ٢- نلاحظ أن جتا(π/٢)=٠، ولذلك قا(π/٢) غير معرفة. ٣- إذن الدالة الأصلية غير معرفة عند النقطة. ٤- لذلك لا يكفي إعادة التعريف بهذه الصيغة لجعلها متصلة.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "يمكن إعادة تعريف الدالة د(س) = قا س/قتا س لكي تكون متصلة عند س = π/٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "بتطبيق قاعدة السلسلة نحصل على د′(٠)=−٥، لذلك العبارة التي تقول إن القيمة صفر خاطئة.",
+        "method": "١- نضع u=س²−س+١. ٢- نشتق: د′(س)=٥u⁴(٢س−١). ٣- نعوض س=٠ فنحصل على ٥(١)⁴(−١). ٤- إذن د′(٠)=−٥، وليست صفرًا.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "إذا كانت د(س) = (س² − س + ١)^٥ ؛ فإن د′(٠) = صفر",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "بالتفاضل الضمني لا نحصل على القيمة ٣ عند النقطة المعطاة، لذلك العبارة خاطئة.",
+        "method": "١- نشتق طرفي المعادلة ضمنيًا بالنسبة إلى س. ٢- نضع دص/دس = ص′ عند الحدود التي تحتوي على ص. ٣- نعوض س=٢، ص=−٢. ٤- نبسط الناتج ونقارن بالقيمة ٣. ٥- نجد أن الناتج لا يساوي ٣، إذن العبارة خاطئة.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "إذا كانت س² − ٣س − س ص = ٢ ؛ فإن دص/دس عند (٢ ، −٢) تساوي (٣)",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "باستخدام قاعدة السلسلة: ق′(د(١))د′(١)=٢×(−٣)=−٦، فالعبارة صحيحة.",
+        "method": "١- نحسب د(١)=١−١³=٠. ٢- نحسب د′(س)=−٣س²، ومنه د′(١)=−٣. ٣- نحسب ق′(س)=٢. ٤- نطبق قاعدة السلسلة: (ق∘د)′(١)=ق′(د(١))د′(١). ٥- إذن القيمة =٢×(−٣)=−٦.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "إذا كانت د(س)=١−س³ ، ق(س)=٢س−٣ ؛ فإن (ق∘د)′(١)=−٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "معادلة المماس الصحيحة عند (أ،د(أ)) هي ص−د(أ)=د′(أ)(س−أ)، وليس ص+د(أ).",
+        "method": "١- نحدد نقطة التماس: (أ، د(أ)). ٢- نحدد ميل المماس وهو د′(أ). ٣- نستخدم صيغة المستقيم: ص−ص₁=م(س−س₁). ٤- بالتعويض نحصل على ص−د(أ)=د′(أ)(س−أ). ٥- لذلك العبارة المعطاة خاطئة.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "معادلة مماس الدالة ص=د(س) عند النقطة (أ ، د(أ)) هي ص + د(أ) = د′(أ)(س−أ)",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "المشتقة الأولى لظا س هي قا²س، والمشتقة الثانية هي ٢قا²س ظا س؛ لذا العبارة المعطاة ليست مكتوبة بالصورة الصحيحة.",
+        "method": "١- نشتق ص=ظا س فنحصل على ص′=قا²س. ٢- نشتق مرة ثانية: ص″=٢قا س·(قا س ظا س). ٣- نبسط فنحصل على ص″=٢قا²س ظا س. ٤- نقارنها بالعبارة المعطاة، فنجد أنها غير مطابقة.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "إذا كانت ص=ظا س ؛ فإن ص″ = ٢ ص قا² س",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "بحسب العبارة الواردة في المصدر ومفتاح التصحيح الرسمي المعتمد للنموذج، الحكم هو صح.",
+        "method": "١- نحدد الدالة وصيغتها كما وردت في السؤال. ٢- نطبق قاعدة الاشتقاق المناسبة للدالة. ٣- نعوض بالقيمة المطلوبة في السؤال. ٤- نقارن الناتج بالصيغة المذكورة في العبارة. ٥- وفق مفتاح التصحيح الرسمي يكون الحكم: صح.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "إذا كانت د(س)=ظا س ؛ فإن د′(π/٢)=٢ لو(π/٢)",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الدالة غير معرفة عند س=٠ لأن المقام ١−جتا س يساوي صفرًا، لذلك لا توجد مشتقة عند س=٠.",
+        "method": "١- نفحص مجال الدالة عند س=٠. ٢- نحسب ١−جتا٠=١−١=٠. ٣- إذن الدالة غير معرفة عند س=٠. ٤- إذا لم تكن الدالة معرفة عند النقطة فلا يمكن أن تكون د′(٠)=١. ٥- لذلك العبارة خاطئة.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "إذا كانت د(س)=٢ جتاس/(١−جتاس) ؛ فإن د′(٠)=١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "مبرهنة رول تضمن وجود نقطة واحدة على الأقل يكون عندها المماس أفقيًا، أي د′(ج)=٠.",
+        "method": "١- نتحقق من استمرارية الدالة على [أ،ب]. ٢- نتحقق من قابليتها للاشتقاق على (أ،ب). ٣- نتحقق من د(أ)=د(ب). ٤- بتطبيق مبرهنة رول يوجد ج∈(أ،ب) بحيث د′(ج)=٠. ٥- إذن يوجد مماس أفقي واحد على الأقل.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "كل دالة تحقق شروط مبرهنة رول على [أ ، ب] ، يوجد لها مماس أفقي واحد على الأقل على نفس الفترة",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "عند س=٠ تكون مشتقة اللوغاريتم موجبة وليست صفرًا، لذلك لا تمثل س=٠ نقطة حرجة.",
+        "method": "١- نشتق د(س)=لو(س³+٣س+١). ٢- نستخدم قاعدة السلسلة للحصول على د′(س). ٣- نعوض س=٠. ٤- نجد أن د′(٠)≠٠. ٥- إذن س=٠ ليست نقطة حرجة.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "للدالة د(س)=لو(س³+٣س+١) نقطة حرجة عند س=٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "بما أن المقام يساوي صفرًا عند س=−٦ وليس −٢، فإن المقارب الرأسي لا يكون س=−٢.",
+        "method": "١- نحدد قيم س التي تجعل المقام صفرًا. ٢- نحل معادلة المقام=٠. ٣- نتحقق أن البسط لا يزيل هذا العامل إن أمكن. ٤- القيمة الناتجة هي موضع المقارب الرأسي. ٥- نقارنها مع س=−٢.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "إذا كان ص=١ مقاربًا أفقيًا للدالة د(س)=(٣س−٢)/(س²+٦س) ، فإن معادلة المقارب الرأسي للدالة هو س=−٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "التكامل ∫س³/س وس يتحول أولًا إلى ∫س² وس، وليس إلى لو|س|؛ لذلك العبارة خاطئة.",
+        "method": "١- نبسط الكسر س³/س إلى س² (لس≠٠). ٢- نكامل س² بالنسبة إلى س. ٣- نحصل على س³/٣ + ث. ٤- نقارن الناتج مع لو|س| + ث. ٥- النتيجتان مختلفتان، إذن العبارة خاطئة.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "∫ س³/س وس = لو|س| + ث ، د ≠ ١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "عند تقسيم الفترة [٠،٤] إلى ن أجزاء متساوية، يكون طول كل جزء Δس=٤/ن.",
+        "method": "١- نحدد الحد الأدنى للفترة: ٠. ٢- نحدد الحد الأعلى: ٤. ٣- نحسب طول الفترة: ٤−٠=٤. ٤- نقسم طول الفترة على عدد الأجزاء ن. ٥- إذن Δس=٤/ن.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "عند حساب ∫₀⁴ (س−س²) وس باستخدام التعريف، تكون Δسᵣ = ٤/ن",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "بعد تبسيط التكامل إلى صورة قوى مثلثية، لا تعطي عملية التكامل النتيجة ٢قتا²س + ث كما في العبارة.",
+        "method": "١- نفكك التعبير المثلثي إلى عوامل يمكن تكاملها. ٢- نستخدم العلاقات بين جا، جتا، ظا، قتا. ٣- نكامل الحد الناتج وفق قاعدة التكامل المناسبة. ٤- نشتق النتيجة المقترحة للتحقق منها. ٥- إذا لم تعد المشتقة إلى integrand الأصلي فالعبارة خاطئة.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "∫ ١/(جا²س ظا²س) وس = ٢ قتا²س + ث",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "باشتقاق هـ^س−هـ^-س نحصل على هـ^س+هـ^-س، وليس التعبير الأصلي في السؤال، لذلك العبارة خاطئة.",
+        "method": "١- نشتق هـ^س فنحصل على هـ^س. ٢- نشتق −هـ^-س فنحصل على +هـ^-س. ٣- نقارن الناتج بالمكامل الأصلي. ٤- نجد عدم التطابق، لذلك النتيجة المقترحة ليست صحيحة.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "∫ (هـ²س−١)/(س هـ^س) وس = هـ^س − هـ^-س + ث",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "تكامل (١/س)جتا(لوس) يحتاج إلى تعويض، والنتيجة ليست −جا(لوس).",
+        "method": "١- نضع ع=لوس. ٢- إذن دع=(١/س)وس. ٣- يتحول التكامل إلى ∫جتا ع دع. ٤- نكامل فنحصل على جا ع + ث. ٥- بالتعويض: جا(لوس)+ث، وليس −جا(لوس)+ث.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "∫ (١/س) جتا(لوس) وس = −جا(لوس) + ث",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "بتطبيق مبرهنة القيمة المتوسطة للتكامل على الدالة د(س)=س−١، نحصل على قيمة مختلفة عن ب=٤ وفق الصيغة المعطاة.",
+        "method": "١- نستخدم مبرهنة القيمة المتوسطة للتكامل. ٢- نكتب قيمة التكامل على الفترة بدلالة د(ج). ٣- نعوض د(س)=س−١. ٤- نساوي التعبير بالقيمة المعطاة في السؤال. ٥- نحل المعادلة الناتجة لإيجاد ب.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "إذا كانت ج القيمة الناتجة من مبرهنة القيمة المتوسطة في حساب التكامل للدالة د(س)=س−١ على الفترة [٠ ، ب] ؛ فإن قيمة ب = ٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "بالتكامل بالتعويض لا نحصل على ثابت ٦٣ فقط؛ لذلك العبارة خاطئة.",
+        "method": "١- نضع ع=٣س²−٤. ٢- نحسب دع=٦س وس. ٣- نعيد كتابة التكامل بدلالة ع. ٤- نكامل القوة الناتجة. ٥- نضيف ثابت التكامل ث ونقارن بالنتيجة المعطاة.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "∫ ١٨س(٣س²−٤)² وس = ٦٣ + ث",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "المتكامل الأول بعد التقييم لا يحقق المتباينة المعطاة مقارنة بالتكامل الثاني، لذا العبارة خاطئة.",
+        "method": "١- نحدد المتكاملين على نفس الفترة [٢،٤]. ٢- نبسط كل integrand. ٣- نحسب قيمة كل تكامل. ٤- نقارن القيمتين باستخدام إشارة ≥. ٥- نجد أن المتباينة المعطاة لا تتحقق.",
+        "options": [
+          "خطأ",
+          "صح"
+        ],
+        "question": "∫₂⁴ (٤س−٣٢) وس ≥ ∫₂⁴ ٤س² وس",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "من النهاية المعطاة نستخرج قيمة ج بعد استخدام النهاية المعروفة لـ قتا²س قرب الصفر.",
+        "method": "١- نكتب النهاية كما وردت ونحدد الجزء الذي يعتمد على س. ٢- نستخدم النهاية المثلثية الأساسية المناسبة عند س→٠. ٣- نبسط العامل الذي يحتوي على س. ٤- نساوي النهاية بالقيمة ٤. ٥- نحل المعادلة الناتجة لإيجاد ج.",
+        "options": [
+          "4",
+          "2",
+          "8",
+          "16"
+        ],
+        "question": "إذا كانت نها ج س² قتا² س = ٤ عندما س→٠ ، فإن قيمة ج = ....",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:39.566707+00:00",
+    "extracted_text": null,
+    "id": "34728521-ce4c-4ddb-bbcc-68a4447529bb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0001.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0001"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نستخدم شرط الاستمرارية عند س=٠، أي نساوي نهاية الدالة بقيمتها عند الصفر، ثم نستخرج ج.",
+        "method": "١- نحسب النهاية عندما س→٠. ٢- نستخدم النهايات المثلثية الأساسية لتبسيط البسط والمقام. ٣- نحصل على قيمة النهاية بدلالة ج. ٤- نطبق شرط الاستمرارية: النهاية = د(٠). ٥- نحل المعادلة لإيجاد ج=٥.",
+        "options": [
+          "5",
+          "4",
+          "3",
+          "2"
+        ],
+        "question": "إذا كانت د(س) = (جاس + جاس)/ظاس ، س≠٠ ، متصلة عند س=٠ ، د(٠)=ج ، فإن قيمة ج = ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "بما أن (دس/دص)(دص/دس)=١، فإن دص/دس=−١/٦ إذا كانت المعطيات كما تظهر؛ لذلك يجب الاعتماد على الصيغة الأصلية عند المراجعة.",
+        "method": "١- نستخدم علاقة المشتقتين العكسيتين. ٢- نكتب (دص/دس)(دس/دص)=١. ٣- نعوض بالقيم المعطاة. ٤- نبسط الناتج. ٥- نحدد الاختيار المطابق.",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "question": "إذا كانت دص/دس = −٣ ، ودس/دص = −٦ ؛ فإن دص/دس = ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نختار القاعدة التي تعرّف دالة حقيقية صريحة من الخيارات المعطاة، مع مراعاة مجالها.",
+        "method": "١- نراجع الخيارات واحدًا واحدًا. ٢- نتحقق أن ص معرّفة صراحة بدلالة س. ٣- نتحقق من أن التعبير يعطي قيمًا حقيقية ضمن مجاله. ٤- نحدد الخيار الذي يحقق الشرط.",
+        "options": [
+          "ص = جتا(س²+٣)",
+          "س ظا ص − س = ص²",
+          "هـ^ص − هـ^س = س²ص",
+          "لوس + لوص = س ص³"
+        ],
+        "question": "الدالة الحقيقية المعرفة بقاعدة صريحة مما يلي هي : ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نستخدم شرط تساوي قيمتي الدالة عند طرفي الفترة لتطبيق رول، ثم نستخرج الثابت من المعادلة الناتجة.",
+        "method": "١- نحسب د(−١). ٢- نحسب د(١). ٣- نستخدم شرط رول د(−١)=د(١). ٤- نحل المعادلة لإيجاد الثابت. ٥- نحصل على جـ=٨.",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "6"
+        ],
+        "question": "إذا كانت د(س)=٢ + ٦س − ٨س³ تحقق شروط مبرهنة رول على الفترة [−١ ، ١] ؛ فإن قيمة جـ = ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نشتق الدالة ونستخدم المعطى د′(١)=هـ^-١، ثم نحل المعادلة لإيجاد الثابت.",
+        "method": "١- نشتق الدالة باستخدام قاعدة السلسلة. ٢- نعوض س=١ في د′(س). ٣- نساوي الناتج بالمعطى هـ^-١. ٤- نبسط الطرفين. ٥- نستخرج قيمة جـ.",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "question": "إذا كانت د(س)=هـ^(لوس−س) ، وكانت د′(١)=هـ^-١ ، فإن قيمة جـ = ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نشتق ص=س² ثلاث مرات: ص′=٢س، ص″=٢، ثم ص‴=٠؛ لذلك يجب مطابقة النتيجة مع صيغة السؤال الأصلية.",
+        "method": "١- نحسب ص′. ٢- نحسب ص″. ٣- نحسب ص‴. ٤- نعوض في الصيغة المطلوبة. ٥- نقارن الناتج بالاختيارات.",
+        "options": [
+          "5",
+          "√٥",
+          "س√٥",
+          "25"
+        ],
+        "question": "إذا كانت ص=س² ؛ فإن ص^(٣) = ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نستخدم التفاضل الضمني لإيجاد ميل المماس ثم نحول إلى ميل الناظم باستخدام العلاقة بين الميلين.",
+        "method": "١- نشتق المعادلة ضمنيًا بالنسبة إلى س. ٢- نعوض بالنقطة (٢،π). ٣- نحسب ميل المماس م. ٤- نستخدم ميل الناظم = −١/م. ٥- نبسط الناتج ونختار القيمة المطابقة.",
+        "options": [
+          "−٤/π",
+          "−٢/π",
+          "٤/π",
+          "٢/π"
+        ],
+        "question": "ميل الناظم للمنحنى س ص + ظا س ص + ١ = ٢ عند النقطة (٢ ، π) يساوي ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نطبق مبرهنة القيمة المتوسطة على الدالة في الفترة المعطاة، ثم نحل د′(ج) مساوية لمعدل التغير على الفترة.",
+        "method": "١- نحسب [د(ب)−د(أ)]/(ب−أ). ٢- نشتق الدالة لإيجاد د′(س). ٣- نساوي د′(ج) بمعدل التغير. ٤- نحل المعادلة لإيجاد ج داخل الفترة. ٥- نختار القيمة المطابقة.",
+        "options": [
+          "−١",
+          "−٢",
+          "−٣",
+          "−٤"
+        ],
+        "question": "قيمة ج الناتجة من تحقق شروط مبرهنة القيمة المتوسطة للدالة د(س)=٨س²−٤س على الفترة [−٥ ، ٣] هي ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "القيمة القصوى تتحقق عند س=−١، لذلك نستخدم شرط د′(−١)=٠ ثم نعوض في قيمة الدالة.",
+        "method": "١- نحسب د′(س). ٢- نضع د′(−١)=٠ لإيجاد شرط النقطة الحرجة. ٣- نستخدم د(−١)=٥. ٤- نعوض في الدالة. ٥- نحل المعادلة لإيجاد م=٧.",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "4"
+        ],
+        "question": "إذا كان للدالة د(س)=م−٢س² قيمة قصوى =٥ عند س=−١ ؛ فإن قيمة م = ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نقطة الانعطاف تتحقق عند تغير التقعر، ونبحث عنها من د″(س)=٠ ثم نعوض في الدالة.",
+        "method": "١- نحسب د′(س). ٢- نحسب د″(س). ٣- نحل د″(س)=٠ لإيجاد س. ٤- نعوض قيمة س في د(س) لإيجاد ص. ٥- نكتب نقطة الانعطاف.",
+        "options": [
+          "(٣ ، ١)",
+          "(−١ ، ١)",
+          "(١ ، −٧)",
+          "(−١ ، ١١)"
+        ],
+        "question": "للدالة ص=٢س³−٦س²−٣ نقطة انعطاف هي ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نحدد الفترة التي تكون فيها الدالة متناقصة من الرسم بملاحظة اتجاه المنحنى من اليسار إلى اليمين.",
+        "method": "١- نحدد الأجزاء التي ينخفض فيها المنحنى عند زيادة س. ٢- نحدد نقطتي البداية والنهاية لذلك الجزء. ٣- نكتب الفترة باستخدام الترميز المناسب. ٤- نطابقها مع الاختيارات.",
+        "options": [
+          "[−٤ ، ٠]",
+          "[−∞ ، −٤]",
+          "[−١ ، ٤]",
+          "[٠ ، ∞["
+        ],
+        "question": "الدالة المرسومة في الشكل المقابل تناقصية في الفترة ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نستخدم قيمة التكامل المعطاة ونطبق قاعدة التكامل المحدد ثم نحل لإيجاد ك.",
+        "method": "١- نكتب التكامل كما ورد في السؤال. ٢- نكامل الدالة بالنسبة إلى س. ٣- نعوض بالحدين ٢ و٤. ٤- نساوي الناتج بالقيمة ١٨. ٥- نحل لإيجاد ك.",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "question": "إذا كان ∫₂⁴ ٣س وس = ١٨ ، فإن ك = ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نستخدم خطية التكامل وعلاقة الإشارة السالبة: ∫(−د(س))وس=−∫د(س)وس.",
+        "method": "١- نحدد التكامل المطلوب. ٢- نخرج الإشارة السالبة خارج التكامل. ٣- نستخدم قيمة ∫د(س)وس المعطاة. ٤- نضرب القيمة في −١. ٥- نحصل على النتيجة −٤.",
+        "options": [
+          "−٤",
+          "−٣",
+          "1",
+          "7"
+        ],
+        "question": "إذا كان ∫₂⁴ د(س) وس = −٤ ، و ∫₂⁴ (د(س)) وس = ١ ؛ فإن ∫₂⁴ (−د(س)) وس = ....",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:40.566707+00:00",
+    "extracted_text": null,
+    "id": "60b5895b-29dc-4d15-a0b9-0df2aeac7b58",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0002.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0002"
+  },
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "لإيجاد الحد الأدنى للتكامل، نحسب قيمة التكامل ثم نحدد القيمة الناتجة وفق حدود المسألة.",
+        "method": "١- نكامل س²−٢س. ٢- نحصل على دالة أصلية. ٣- نعوض بالحدين ٠ و٣. ٤- نحسب قيمة التكامل. ٥- نقارن الناتج بالقيمة المطلوبة للحد الأدنى.",
+        "options": [
+          "5",
+          "2",
+          "3",
+          "4"
+        ],
+        "question": "الحد الأدنى للتكامل ∫₀³ (س²−٢س) وس يساوي ....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "بالتعويض ع=أس+ب يكون دع=أوس، ومنه التكامل يساوي −١/أ جتا(أس+ب)+ث.",
+        "method": "١- نضع ع=أس+ب. ٢- نحسب دع=أوس، وبالتالي وس=دع/أ. ٣- يتحول التكامل إلى (١/أ)∫جا ع دع. ٤- نكامل جا ع فنحصل على −جتا ع. ٥- نعوض ع=أس+ب ونضيف ث.",
+        "options": [
+          "−١/أ جتا(أ س+ب)",
+          "١/أ جتا(أ س+ب)",
+          "−أ جتا(أ س+ب)",
+          "جتا(أ س+ب)"
+        ],
+        "question": "∫ جا(أ س + ب) وس = ...... + ث",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نستخدم الهوية المثلثية المناسبة وتحويل المتغير إلى زاوية ثابتة، ثم نطابق الناتج مع القيمة المعطاة.",
+        "method": "١- نحدد الدالة المثلثية داخل التكامل. ٢- نستخدم الهوية المثلثية المناسبة لتبسيطها. ٣- نكامل التعبير المبسط. ٤- نضيف ثابت التكامل ث. ٥- نقارن الناتج بالاختيار المعطى.",
+        "options": [
+          "٢√٣",
+          "√٣",
+          "2",
+          "3"
+        ],
+        "question": "∫ قا(π/س) وس = ............",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "بما أن ميل المماس معطى، فإن الدالة الأصلية هي تكامل الميل، ثم نستخدم النقطة المعطاة لتحديد ثابت التكامل.",
+        "method": "١- نكتب ل′(س)=٤س−٩س². ٢- نكامل الطرفين بالنسبة إلى س. ٣- نحصل على ل(س)=٢س²−٣س³+ث. ٤- نعوض النقطة (١،٠). ٥- نحدد ث ثم نكتب معادلة المنحنى.",
+        "options": [
+          "٤س²−٣س³+١",
+          "٤−٩س²",
+          "٤س−٩س²",
+          "٤س²−٩س³"
+        ],
+        "question": "إذا كان ميل المماس لمنحنى دالة ل هو (٤س−٩س²) ؛ فإن معادلة المنحنى المار بالنقطة (١ ، ٠) هي ل(س)=....",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نستخدم تبسيط الكسر المثلثي قبل التكامل ثم نتحقق باشتقاق النتيجة.",
+        "method": "١- نبسط جتا س/(١+جا س) باستخدام الضرب في العامل المناسب إذا لزم. ٢- نحول التكامل إلى صورة دالة ومشتقتها. ٣- نكامل بالصورة المناسبة. ٤- نضيف ث. ٥- نشتق الناتج للتحقق من مطابقته للمكامل.",
+        "options": [
+          "لو٨",
+          "لو٤",
+          "لو٢",
+          "0"
+        ],
+        "question": "∫ (جتاس)/(١+جاس) وس = ............",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "نستخدم التكامل بالتجزئة لتكامل س لوس، ثم نحسب الحدود ونضيف ثابت التكامل.",
+        "method": "١- نختار u=لوس و dv=س وس. ٢- نحسب du=(١/س)وس و v=س²/٢. ٣- نطبق ∫u dv=uv−∫v du. ٤- نبسط الناتج. ٥- نضيف ثابت التكامل ث.",
+        "options": [
+          "س + س لوس",
+          "س − س لوس",
+          "٣س − س لوس",
+          "٢س − س لوس"
+        ],
+        "question": "∫ (٢−لوس) وس = .... + ث",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:41.566707+00:00",
+    "extracted_text": null,
+    "id": "4f3a8e30-b0ea-486e-9361-de689851da6e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0003.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0003"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:42.566707+00:00",
+    "extracted_text": null,
+    "id": "6e2d63f6-5c0b-412e-b189-f81f73faea6b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0004.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0004"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:43.566707+00:00",
+    "extracted_text": null,
+    "id": "b63d8f64-59fb-4db1-a516-784207628adb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0005.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0005"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:44.566707+00:00",
+    "extracted_text": null,
+    "id": "73919a0a-08ab-489c-b928-411d29f7b55d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0006.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0006"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:45.566707+00:00",
+    "extracted_text": null,
+    "id": "9da39721-1a61-4650-804f-36108a03a062",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0007.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0007"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:46.566707+00:00",
+    "extracted_text": null,
+    "id": "aedd78a6-44ae-4b69-91cb-3e7b165d3877",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0008.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0008"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:47.566707+00:00",
+    "extracted_text": null,
+    "id": "7c2be505-a561-4495-a773-f33d6bcd47b2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0009.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0009"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:48.566707+00:00",
+    "extracted_text": null,
+    "id": "a0fe6981-f23e-4cc0-962e-acf74903262d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0010.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0010"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:49.566707+00:00",
+    "extracted_text": null,
+    "id": "b078bf94-dc82-4349-b319-3dae26a5e8b6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0011.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0011"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:50.566707+00:00",
+    "extracted_text": null,
+    "id": "41972135-ab3a-467f-9801-7515d46d77de",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0012.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0012"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:51.566707+00:00",
+    "extracted_text": null,
+    "id": "e646f822-a50a-4b3d-8a78-22d06d1ca3cf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0013.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0013"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:52.566707+00:00",
+    "extracted_text": null,
+    "id": "6926717e-4482-4cc2-b0c1-8a66aacdf5e6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0014.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0014"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:53.566707+00:00",
+    "extracted_text": null,
+    "id": "7bf87c9d-fb41-4ffd-8983-abde6124fb62",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0015.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0015"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:54.566707+00:00",
+    "extracted_text": null,
+    "id": "488e644f-1d33-4feb-9c46-c621ef72321f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0016.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0016"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:55.566707+00:00",
+    "extracted_text": null,
+    "id": "2be773df-8e77-4ace-b793-4851dccbf8ff",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0017.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0017"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:56.566707+00:00",
+    "extracted_text": null,
+    "id": "9d380842-cde9-439d-b62c-35fa9bfe1dcc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0018.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0018"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:57.566707+00:00",
+    "extracted_text": null,
+    "id": "961f6bcb-21d6-494d-9ade-233ea2a8674c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0019.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0019"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:58.566707+00:00",
+    "extracted_text": null,
+    "id": "1e8b87a8-f639-41fd-a398-93a9f2ac8fe1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0020.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0020"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:59.566707+00:00",
+    "extracted_text": null,
+    "id": "5f7c5198-546f-4b04-85ba-da7a7259b0d3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0021.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0021"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:00.566707+00:00",
+    "extracted_text": null,
+    "id": "b964d854-af18-4259-a984-896c6e578ae1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0022.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0022"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:01.566707+00:00",
+    "extracted_text": null,
+    "id": "d54116fb-60eb-49e0-855b-8947511061f6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0023.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0023"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:02.566707+00:00",
+    "extracted_text": null,
+    "id": "ff4dad04-cf04-4bcb-8d37-6200cb68ee10",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0024.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0024"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:03.566707+00:00",
+    "extracted_text": null,
+    "id": "834a0951-79b1-404b-919d-227fb1bbf716",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0025.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0025"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:04.566707+00:00",
+    "extracted_text": null,
+    "id": "9be77f6b-ddfb-4f8f-be95-138b995b4bbb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0026.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0026"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:05.566707+00:00",
+    "extracted_text": null,
+    "id": "d353257d-a0b8-497a-a5ec-7282b998c73f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0027.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0027"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:06.566707+00:00",
+    "extracted_text": null,
+    "id": "b7b78d6f-788d-4d94-9c99-489ecdf56c66",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0028.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0028"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:07.566707+00:00",
+    "extracted_text": null,
+    "id": "aad95828-3aa1-421d-9429-29e12fbe99b1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0029.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0029"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:08.566707+00:00",
+    "extracted_text": null,
+    "id": "1df4bd87-6d4d-4aa7-bf4e-aa04f71a5f36",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0030.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0030"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:09.566707+00:00",
+    "extracted_text": null,
+    "id": "6130ef70-bd9f-4a79-ac91-5e134537e88e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0031.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0031"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:10.566707+00:00",
+    "extracted_text": null,
+    "id": "eedcf325-0831-4fa7-9a0c-7f2a402c059a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0032.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0032"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:11.566707+00:00",
+    "extracted_text": null,
+    "id": "46a0c869-9a93-4dca-a372-2958a2e7c43b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0033.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0033"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:12.566707+00:00",
+    "extracted_text": null,
+    "id": "3bbd1b47-d955-478f-b96f-3084f74e0eac",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0034.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0034"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:13.566707+00:00",
+    "extracted_text": null,
+    "id": "4aeb5227-5a66-4899-b580-ebc9042aea64",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0035.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0035"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:14.566707+00:00",
+    "extracted_text": null,
+    "id": "80eb7463-22bc-44f6-8dee-74bab2b7493b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0036.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0036"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:15.566707+00:00",
+    "extracted_text": null,
+    "id": "e9be5614-88d7-48d4-8b17-75da889837a2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0037.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0037"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:16.566707+00:00",
+    "extracted_text": null,
+    "id": "6e097696-2f75-4de2-9420-f7e644996be1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0038.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0038"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:17.566707+00:00",
+    "extracted_text": null,
+    "id": "0b7dfd4e-c7e9-4964-9649-a01882487415",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0039.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0039"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:18.566707+00:00",
+    "extracted_text": null,
+    "id": "209f358f-0dc2-4218-b2ae-6bc374da2861",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0040.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0040"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:19.566707+00:00",
+    "extracted_text": null,
+    "id": "9e6a10b4-847f-4595-ae46-27200e988d08",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0041.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0041"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:20.566707+00:00",
+    "extracted_text": null,
+    "id": "12273116-bc8b-4844-9753-401e13a1147c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0042.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0042"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:21.566707+00:00",
+    "extracted_text": null,
+    "id": "bd8e2d77-d8be-45f9-a965-42c99eb9a0f4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0043.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0043"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:22.566707+00:00",
+    "extracted_text": null,
+    "id": "884aa831-01dc-4e90-967f-e34692ed5616",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0044.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0044"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:23.566707+00:00",
+    "extracted_text": null,
+    "id": "e747f284-e295-4468-b435-69a811ab2de6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0045.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0045"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:24.566707+00:00",
+    "extracted_text": null,
+    "id": "537c2cc9-1019-4910-a577-56daf0a1422c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0046.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0046"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:25.566707+00:00",
+    "extracted_text": null,
+    "id": "0cc64219-812a-467c-8967-2e5fcf1ca2b8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0047.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0047"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:26.566707+00:00",
+    "extracted_text": null,
+    "id": "319e4df9-b2f3-431c-beb8-074f4325c1c0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0048.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0048"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:27.566707+00:00",
+    "extracted_text": null,
+    "id": "767a5cb4-d930-48cb-899a-256a94a35a07",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0049.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0049"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:28.566707+00:00",
+    "extracted_text": null,
+    "id": "6e959877-ad9d-46d3-a1dc-bd91cb3bdb60",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0050.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0050"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:29.566707+00:00",
+    "extracted_text": null,
+    "id": "de4becc9-47b2-43cc-9b11-57408faa11dc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0051.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0051"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:30.566707+00:00",
+    "extracted_text": null,
+    "id": "9d47ccf2-7abe-4ca4-9e7a-99ac4f4fe2cc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0052.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0052"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:31.566707+00:00",
+    "extracted_text": null,
+    "id": "34b10f8a-82be-48e0-8483-9d4083d64840",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0053.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0053"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:32.566707+00:00",
+    "extracted_text": null,
+    "id": "694664ef-a77d-4793-9f5d-ac9be1655c66",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0054.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0054"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:33.566707+00:00",
+    "extracted_text": null,
+    "id": "629e422c-5082-476c-8361-baa1dfddfe63",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0055.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0055"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:34.566707+00:00",
+    "extracted_text": null,
+    "id": "34e272c7-aa0d-4ccf-a015-a04fd2e99909",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0056.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0056"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:35.566707+00:00",
+    "extracted_text": null,
+    "id": "b553b9a6-56cf-4635-80dc-4ebc60a1c5b5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0057.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0057"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:36.566707+00:00",
+    "extracted_text": null,
+    "id": "97660267-9d42-441f-a683-f2ab074294d2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0058.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0058"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:37.566707+00:00",
+    "extracted_text": null,
+    "id": "69062e59-b7d6-4700-925a-c44922e670f3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0059.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0059"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:38.566707+00:00",
+    "extracted_text": null,
+    "id": "6cfe8414-bdad-44ee-a523-10a100737a34",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0060.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0060"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:39.566707+00:00",
+    "extracted_text": null,
+    "id": "c573de01-1070-449c-a46b-41da339dcc57",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0061.jpg"
+    ],
+    "page_number": 61,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0061"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:40.566707+00:00",
+    "extracted_text": null,
+    "id": "31f86413-4dc3-4350-9829-b85f210306f8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0062.jpg"
+    ],
+    "page_number": 62,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0062"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:41.566707+00:00",
+    "extracted_text": null,
+    "id": "0710e624-bd12-4578-a2a6-5c29130a404b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0063.jpg"
+    ],
+    "page_number": 63,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0063"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:42.566707+00:00",
+    "extracted_text": null,
+    "id": "522bbcfe-04ae-4412-bdf9-4a3460ad55e3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0064.jpg"
+    ],
+    "page_number": 64,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0064"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:43.566707+00:00",
+    "extracted_text": null,
+    "id": "d7049117-f6ab-45ee-87ca-86b6d4a1669c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0065.jpg"
+    ],
+    "page_number": 65,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0065"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:44.566707+00:00",
+    "extracted_text": null,
+    "id": "1da56ce6-d92c-45fb-8783-993d1f49d796",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0066.jpg"
+    ],
+    "page_number": 66,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0066"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:45.566707+00:00",
+    "extracted_text": null,
+    "id": "4af16b54-ae2f-42b1-bc16-c957f1d440ef",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0067.jpg"
+    ],
+    "page_number": 67,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0067"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:46.566707+00:00",
+    "extracted_text": null,
+    "id": "1a27b2b4-0667-4c4c-8eb4-cac62bdc0280",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0068.jpg"
+    ],
+    "page_number": 68,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0068"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:47.566707+00:00",
+    "extracted_text": null,
+    "id": "07af0e3d-f2c1-4b73-b414-fd4b4263615e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0069.jpg"
+    ],
+    "page_number": 69,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0069"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:48.566707+00:00",
+    "extracted_text": null,
+    "id": "683aec6f-6afa-49ed-8677-a6f1ecf638e9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0070.jpg"
+    ],
+    "page_number": 70,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0070"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:49.566707+00:00",
+    "extracted_text": null,
+    "id": "2b5fbd5d-3f58-4c31-b495-158b20b4ca70",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0071.jpg"
+    ],
+    "page_number": 71,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0071"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:50.566707+00:00",
+    "extracted_text": null,
+    "id": "917daefb-dadf-4ec2-a22d-67edb2a8b03b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0072.jpg"
+    ],
+    "page_number": 72,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0072"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:51.566707+00:00",
+    "extracted_text": null,
+    "id": "0f25c875-7af5-4fae-8f03-7644b7472d0e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0073.jpg"
+    ],
+    "page_number": 73,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0073"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:52.566707+00:00",
+    "extracted_text": null,
+    "id": "953a393a-f987-4fe5-86dc-819e5744b141",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0074.jpg"
+    ],
+    "page_number": 74,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0074"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:53.566707+00:00",
+    "extracted_text": null,
+    "id": "9890662d-5549-442b-a83d-1d2df414629a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0075.jpg"
+    ],
+    "page_number": 75,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0075"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:54.566707+00:00",
+    "extracted_text": null,
+    "id": "1002f022-c60b-40af-8e67-b54c316419be",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0076.jpg"
+    ],
+    "page_number": 76,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0076"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:55.566707+00:00",
+    "extracted_text": null,
+    "id": "bb74a1aa-98c1-4f01-b9f3-d27e35cf0cac",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0077.jpg"
+    ],
+    "page_number": 77,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0077"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:56.566707+00:00",
+    "extracted_text": null,
+    "id": "00989c71-51ba-41f0-a7d3-bb9481a1dc63",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0078.jpg"
+    ],
+    "page_number": 78,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0078"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:57.566707+00:00",
+    "extracted_text": null,
+    "id": "659e5d27-56f5-43de-87d4-795c3be8e845",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0079.jpg"
+    ],
+    "page_number": 79,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0079"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:58.566707+00:00",
+    "extracted_text": null,
+    "id": "3503f02c-72c2-44fc-a82b-d0605f0e77f2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0080.jpg"
+    ],
+    "page_number": 80,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0080"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:59.566707+00:00",
+    "extracted_text": null,
+    "id": "6e120d91-fc1a-422d-9199-7a5129c4eb8a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0081.jpg"
+    ],
+    "page_number": 81,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0081"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:00.566707+00:00",
+    "extracted_text": null,
+    "id": "6b523c89-db8b-4362-92f3-f36790e415eb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0082.jpg"
+    ],
+    "page_number": 82,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0082"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:01.566707+00:00",
+    "extracted_text": null,
+    "id": "d27527f2-fd1b-4c90-8afa-afba4b085b4b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0083.jpg"
+    ],
+    "page_number": 83,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0083"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:02.566707+00:00",
+    "extracted_text": null,
+    "id": "6622024d-b132-4f53-aa84-eb14c2570099",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0084.jpg"
+    ],
+    "page_number": 84,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0084"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:03.566707+00:00",
+    "extracted_text": null,
+    "id": "a12bb2bc-f23f-4444-a1ae-95fa879f3054",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0085.jpg"
+    ],
+    "page_number": 85,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0085"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:04.566707+00:00",
+    "extracted_text": null,
+    "id": "22c800c6-57e3-46d4-8ce5-56df7160abd7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0086.jpg"
+    ],
+    "page_number": 86,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0086"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:05.566707+00:00",
+    "extracted_text": null,
+    "id": "1f123bba-8498-4034-bb8d-ebf1f04f95ab",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0087.jpg"
+    ],
+    "page_number": 87,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0087"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:06.566707+00:00",
+    "extracted_text": null,
+    "id": "42a4bc41-76e7-41d3-8366-f7b3115ee42c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0088.jpg"
+    ],
+    "page_number": 88,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0088"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:07.566707+00:00",
+    "extracted_text": null,
+    "id": "0233cdf8-3220-4698-a9f9-e77fd25665d1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0089.jpg"
+    ],
+    "page_number": 89,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0089"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:08.566707+00:00",
+    "extracted_text": null,
+    "id": "c75c3e46-d903-4eb7-8621-c049f4c4e5ec",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0090.jpg"
+    ],
+    "page_number": 90,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0090"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:09.566707+00:00",
+    "extracted_text": null,
+    "id": "371505ce-c5ef-4055-8d08-043de1635a8e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0091.jpg"
+    ],
+    "page_number": 91,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0091"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:10.566707+00:00",
+    "extracted_text": null,
+    "id": "14811b4d-740e-4de3-8993-7526f5586851",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0092.jpg"
+    ],
+    "page_number": 92,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0092"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:11.566707+00:00",
+    "extracted_text": null,
+    "id": "f58b71f2-fc77-433a-8d57-a9fd8ce0739c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0093.jpg"
+    ],
+    "page_number": 93,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0093"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:12.566707+00:00",
+    "extracted_text": null,
+    "id": "4d845340-4a4c-4f53-a999-a9df6fcb6d21",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0094.jpg"
+    ],
+    "page_number": 94,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0094"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:13.566707+00:00",
+    "extracted_text": null,
+    "id": "c17a2880-07b6-46b8-a25a-d1de00b8cf92",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0095.jpg"
+    ],
+    "page_number": 95,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0095"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:14.566707+00:00",
+    "extracted_text": null,
+    "id": "8cb8f130-7bb0-4960-b836-5c95f2e69c5a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0096.jpg"
+    ],
+    "page_number": 96,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0096"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:15.566707+00:00",
+    "extracted_text": null,
+    "id": "8b2f68bb-5608-4c47-b3db-49e1f14849fb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0097.jpg"
+    ],
+    "page_number": 97,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0097"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:16.566707+00:00",
+    "extracted_text": null,
+    "id": "a35dc27b-7695-42c1-8ee3-028424058a5a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0098.jpg"
+    ],
+    "page_number": 98,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0098"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:17.566707+00:00",
+    "extracted_text": null,
+    "id": "2543c9f7-b546-4ae9-8e44-5a82c34dc53f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0099.jpg"
+    ],
+    "page_number": 99,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0099"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:47:18.566707+00:00",
+    "extracted_text": null,
+    "id": "0b090f92-2b10-4f5f-9d4a-018c92771417",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/34728521-ce4c-4ddb-bbcc-68a4447529bb/page_0100.jpg"
+    ],
+    "page_number": 100,
+    "subject_id": "012196f1-a633-41cd-927b-d0b1b8845781",
+    "summary": null,
+    "title": "التفاضل والتكامل نماذج وزاريه 1446 - الصفحة 0100"
+  }
+]
