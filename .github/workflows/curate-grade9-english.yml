@@ -77,11 +77,17 @@ jobs:
           path = Path('content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json')
           data = json.loads(path.read_text(encoding='utf-8'))
           counts = data['counts']
-          expected = {'raw_pages': 69, 'raw_images': 69, 'page_candidates': 69, 'questions': 104}
+          expected = {
+              'raw_pages': 69,
+              'raw_images': 69,
+              'page_candidates': 69,
+              'questions': 104,
+              'source_manifest_only_pages': 1,
+          }
           for key, value in expected.items():
               if counts.get(key) != value:
                   raise SystemExit(f"unexpected {key}: {counts.get(key)} != {value}")
-          if data.get('schema_version') != 2:
+          if data.get('schema_version') != 3:
               raise SystemExit('unexpected reconstruction schema_version')
           if data.get('legacy_subject_id') != '1794eea5-4772-4c94-bd2b-b08e5815e733':
               raise SystemExit('unexpected legacy subject id')
@@ -98,7 +104,13 @@ jobs:
               image = candidate.get('raw_image') or {}
               if not image.get('raw_path') or len(image.get('sha256', '')) != 64 or int(image.get('byte_size', 0)) <= 0:
                   raise SystemExit(f"incomplete raw provenance: {candidate.get('candidate_id')}")
-          print(json.dumps({'counts': counts, 'sections': [s['title'] for s in data['sections']]}, ensure_ascii=False))
+          manifest_only = data.get('unresolved', {}).get('source_manifest_only_pages', [])
+          if len(manifest_only) != 1:
+              raise SystemExit(f"unexpected manifest-only evidence: {manifest_only}")
+          final_page = manifest_only[0]
+          if final_page.get('book_page') != 70 or final_page.get('section') != 'Back Matter' or final_page.get('title') != 'Blank Final Page':
+              raise SystemExit(f"unexpected manifest-only page: {final_page}")
+          print(json.dumps({'counts': counts, 'sections': [s['title'] for s in data['sections']], 'manifest_only': manifest_only}, ensure_ascii=False))
           PY
 
       - name: Commit curated reconstruction checkpoint
