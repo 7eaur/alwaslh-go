@@ -104,25 +104,47 @@ Question text was used only as supporting boundary evidence. The 12 legacy AI qu
 
 No PostgreSQL, RAW, Media or publication mutation occurred.
 
+## CURATION-002 — DONE
+
+Second reviewed Lesson boundary inside Unit 2:
+- evidence: `content-staging/curated/grade-9/english/pupil-book-3/curation-002-unit-2-time-and-meeting.json`
+- creation commit: `d14774adc68470e9eea48a1c388a14a66111bf57`
+- reviewed Lesson: `Telling time and arranging a meeting`
+- book pages `9..10`
+- source pages `13..14`
+- two ordered source pages retained as activities/page assets, not two auto-promoted Lessons
+- attached legacy questions preserved: `7`
+- RAW SHA-256 values preserved for both pages
+
+Boundary evidence retained:
+- page 9 establishes clock/time expressions;
+- page 10 applies those expressions to a schedule and arranging a meeting;
+- page 11/source page 15 changes instructional focus to `Things to do` and obligation/task language, so it begins the next unresolved boundary.
+
+The 7 legacy AI questions were used only as supporting boundary evidence; none was semantically approved, corrected, rejected or published in CURATION-002.
+
+Unit 2 pages `11..15` remain unresolved and preserved. No PostgreSQL, RAW, Media or publication mutation occurred.
+
 ## Current checkpoint
 
 - `BATCH-001 = DONE / COMMITTED_STATE_VERIFIED`
 - `STRUCTURE-001 = DONE / SECTION_BOUNDARY_VERIFIED`
 - `STRUCTURE-002 = DONE / SECTION_BOUNDARY_VERIFIED`
 - `CURATION-001 = DONE / LESSON_BOUNDARY_VERIFIED`
-- `CURATION-002 = NEXT`
+- `CURATION-002 = DONE / LESSON_BOUNDARY_VERIFIED`
+- `CONTENT-GAPS-001 = NEXT`
 
 ## Exact resume action
 
 On the next run:
 1. read live heads for `7eaur/alwaslh` and `7eaur/alwaslh-go` plus status/handoff;
-2. if no evidence-invalidating drift exists, execute `CURATION-002` only;
-3. begin at book page `9` / source page `13` (`What's the time?`);
-4. identify the smallest coherent next Lesson/Activity boundary from actual content evidence, especially the time/meeting/planning sequence;
-5. preserve every source identity, anomaly, checksum and question-to-page provenance;
-6. do not treat the legacy AI questions as trusted merely because they are useful boundary evidence;
-7. do not publish or mutate PostgreSQL during curation;
-8. document the exact result before moving to `CONTENT-GAPS-001`.
+2. if no evidence-invalidating drift exists, execute `CONTENT-GAPS-001` only;
+3. inventory explicit unresolved/missing content evidence rather than guessing curriculum membership;
+4. include at minimum unresolved Unit 2 book pages `11..15`, manifest-only page 70, preserved duplicate-position anomalies, and missing/ambiguous modern mappings;
+5. do not use `69 -> 62` as deletion or curriculum logic;
+6. preserve source identities, anomalies, checksums and question provenance;
+7. do not publish or mutate PostgreSQL/RAW merely to close the inventory;
+8. document exact gap counts before moving to `MEDIA-001`.
 
 ## Ordered queue
 
@@ -130,8 +152,8 @@ On the next run:
 - `STRUCTURE-001` — DONE
 - `STRUCTURE-002` — DONE
 - `CURATION-001` — DONE
-- `CURATION-002` — NEXT
-- `CONTENT-GAPS-001` — TODO
+- `CURATION-002` — DONE
+- `CONTENT-GAPS-001` — NEXT
 - `MEDIA-001` — TODO
 - `IMPORT-001` — TODO
 - `VERIFY-001` — TODO
