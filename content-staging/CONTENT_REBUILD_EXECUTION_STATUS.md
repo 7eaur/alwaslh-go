@@ -13,12 +13,13 @@
 ## Repository checkpoints
 
 - Application repo: `7eaur/alwaslh`
-- Live `main` observed at start of latest run: `54491c1b619322709fc5273eebadecf9f27fe4fb`
+- Live `main` observed at start of latest run: `343ff1fd7b3d64d7e990b72606695365f520fa58`
 - Content repo: `7eaur/alwaslh-go`
-- Live `master` observed at start of latest run: `f81ec3935bb363401950978014244720deb56cdc`
+- Live `master` observed at start of latest run: `f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23`
 - Working branch: `content/legacy-staging-rebuild`
-- Latest completed BATCH-001 work commit: `df3d7a795954143442b41697cb1fbb2f88f1e66b`
-- Validation report commit: `e90891c6395813609d0f0cefe726c1cc3d4ac893`
+- Latest BATCH-001 semantic-review data commit: `4f2fb8d0a559add5b6c2e75c92bf075fabae32f5`
+- Question-review artifact commit: `eae7b9d8b3b61b20f4ca74cb75f222aa5b6f9e60`
+- Previous DB/media validation report commit: `e90891c6395813609d0f0cefe726c1cc3d4ac893`
 - Legacy snapshot SHA-256: `2dfde94f6b70c037bb15d2782d11f036441c4abe130295be772c59b5e0131d0c`
 
 ## First real batch — ACTIVE
@@ -31,6 +32,7 @@ Target source:
 - Structural manifest: `تاسع انجليزي/الانجليزي_تاسع/manifest.json`
 - Curated evidence: `content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json`
 - Bounded batch contract: `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-unit-1-revision.json`
+- Question semantic review: `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-question-review.json`
 - DB/media validation report: `content-staging/curated/grade-9/english/pupil-book-3/batches/BATCH-001_DB_MEDIA_VALIDATION.md`
 
 Known corpus facts:
@@ -94,6 +96,27 @@ Decision:
 - Do not regenerate/overwrite RAW.
 - A later derived profile may be accepted only if it is measurably smaller while preserving educational readability; otherwise retain the smaller readable source/delivery choice allowed by the application media contract.
 
+### Semantic question review — COMPLETED
+
+All 13 legacy AI questions in the four-page slice were reviewed against the matching Unit 1 source-page content and page structure.
+
+Result:
+
+- reviewed: **13**
+- approved unchanged: **6**
+- corrected with source-grounded wording/options: **7**
+- rejected: **0**
+- auto-published: **0**
+
+Material findings:
+
+- Page 1 contained one misleading buyer/answer formulation; it was corrected to the source-supported suggestion of a pair of shorts.
+- Page 2 contained fabricated attribution to Taha and an unsupported doctor/clinic attribution; three items were corrected to the actual job descriptions (dentist / office worker scope).
+- Page 3 contained cross-page leakage from the London family narrative and an unsupported attribution to Amna; all three items were corrected to facts actually present on `The holidays` page.
+- Page 4's two postcard questions were supported and kept unchanged.
+
+The machine-readable reviewed set is the only question input permitted for the next dry-run. Legacy raw questions remain immutable evidence and are not overwritten.
+
 ### Gate for first batch
 
 Completed for bounded BATCH-001:
@@ -102,11 +125,11 @@ Completed for bounded BATCH-001:
 2. `[DONE]` Verify DB linkage, RAW/source checksums, media provenance and question-source linkage read-only.
 3. `[DONE]` Record exact current media sizes and reject the existing WebP profile as a size-reduction claim.
 4. `[DONE]` Keep publication state closed: lessons unpublished, assets/questions draft.
+5. `[DONE]` Semantically review all 13 prompts/options/answers; 6 approved unchanged, 7 corrected, 0 rejected.
 
 Still required before direct DB mutation:
 
-5. `[NEXT]` Semantically review the 13 prompts/options/answers against the four source pages; record approved/corrected/rejected decisions.
-6. `[PENDING]` Produce modern target dry-run for one section + four curated lesson slugs, including handling of the existing unpublished legacy import so no duplicate semantic content is created.
+6. `[NEXT]` Produce modern target dry-run for one section + four curated lesson slugs + the reviewed 13-question set, including duplicate-safe handling of the existing unpublished legacy import so no duplicate semantic content is created.
 7. `[PENDING]` Produce exact mutation/rollback counts from that dry-run.
 8. `[PENDING]` Apply controlled PostgreSQL mutation only after all BATCH-001 gates pass.
 9. `[PENDING]` Verify resulting records, publication visibility rules, idempotency/replay, and unrelated-row invariance.
@@ -152,4 +175,4 @@ Never:
 
 ## Latest execution note
 
-2026-09-13 — BATCH-001 advanced from a misleading `prepared_for_db_import` state back to the correct `validation_in_progress` gate after a successful production read-only inventory. The four-page Unit 1 slice has valid provenance/media/question linkage, but its 13 questions still require semantic source-page review and the existing display WebP profile is 24.81% larger than RAW in aggregate. No DB mutation or publication occurred. Next action is question-by-question semantic review, then modern target dry-run with duplicate-safe handling of the prior unpublished legacy import.
+2026-09-13 — BATCH-001 semantic review gate completed. The 13 legacy AI questions were reviewed against the four Unit 1 source pages: 6 are source-supported unchanged and 7 required source-grounded corrections due to misleading attribution or cross-page leakage; 0 were auto-published and RAW evidence was not modified. Review artifact commit: `eae7b9d8b3b61b20f4ca74cb75f222aa5b6f9e60`; batch-contract checkpoint: `4f2fb8d0a559add5b6c2e75c92bf075fabae32f5`. Next action is the modern duplicate-safe target dry-run; no PostgreSQL mutation occurred in this run.
