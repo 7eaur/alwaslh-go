@@ -1,196 +1,183 @@
 # Alwaslh Content Rebuild — Shared Execution Status
 
-> الملف المشترك لجميع جولات التنفيذ المجدولة. يجب قراءة آخر نسخة منه + آخر commits قبل أي عمل، ثم تحديثه في نهاية كل دفعة. لا تعتمد على ذاكرة المحادثة.
+> الملف المشترك لجميع جولات التنفيذ. اقرأ هذه النسخة + live heads قبل أي عمل، ثم أكمل أول مهمة غير مكتملة فقط. لا تعتمد على ذاكرة المحادثة.
 
 ## Current direction — 2026-09-13
 
-- Product Owner ألغى فكرة Published Student Demo المعزول.
-- PR `7eaur/alwaslh#56` أُغلق بدون merge.
-- المطلوب الآن: تجهيز **أول دفعة حقيقية** من المحتوى الموجود في `7eaur/alwaslh-go` ثم إدخالها مباشرة إلى قاعدة Alwaslh الحديثة بعد اجتياز validation الخاصة بهذه الدفعة.
-- لا يتم إدخال RAW كما هو، ولا يتم الرجوع إلى heuristic `69 pages -> 62 lessons`.
-- RAW يبقى immutable.
+- المطلوب تجهيز دفعات محتوى حقيقية ومراجعة من `7eaur/alwaslh-go` ثم إدخالها إلى PostgreSQL الحديثة فقط بعد validation + dry-run + controlled transaction gate.
+- لا يتم إدخال RAW كما هو، ولا يتم استخدام heuristic القديم `69 -> 62`.
+- RAW immutable.
+- لا auto-publish لأي محتوى AI/legacy غير مراجع.
+- لا حذف anomalies أو بيانات غير مرتبطة لإخفاء المشاكل.
 
 ## Repository checkpoints
 
-- Application repo: `7eaur/alwaslh`
-- Live `main` observed at start of latest run: `343ff1fd7b3d64d7e990b72606695365f520fa58`
-- Content repo: `7eaur/alwaslh-go`
-- Working branch: `content/legacy-staging-rebuild`
-- Live working-branch HEAD observed at start of latest run: `3c6f8f2f5d549a1ee0b6f41f50a9abf1dc9b9c11`
-- BATCH-001 dry-run report commit: `557527bf59c71fdeb05c095bda1b4dedc94f8ea2`
-- Duplicate-safe batch-contract commit: `e008731860612a58d7e3b4a29ec97222ceb62305`
-- Previous semantic-review data commit: `4f2fb8d0a559add5b6c2e75c92bf075fabae32f5`
-- Question-review artifact commit: `eae7b9d8b3b61b20f4ca74cb75f222aa5b6f9e60`
-- DB/media validation report commit: `e90891c6395813609d0f0cefe726c1cc3d4ac893`
-- Legacy snapshot SHA-256: `2dfde94f6b70c037bb15d2782d11f036441c4abe130295be772c59b5e0131d0c`
+Live heads observed at start of this run:
 
-## First real batch — ACTIVE
+- `7eaur/alwaslh main`: `691263d816185447a173ec80ccc82e58cec2325f`
+- `7eaur/alwaslh-go master`: `eec62d26193164c6be91c0ade36805abfd3687d0`
+- `7eaur/alwaslh-go content/legacy-staging-rebuild`: `219b5347d4a6be7c6bf5113247a6e046152d3835`
 
-Target source:
+This run advanced the working branch with:
 
-- Batch: `BATCH-001-G9-EN-PB3-U1`
-- Grade 9 English
-- Legacy subject UUID: `1794eea5-4772-4c94-bd2b-b08e5815e733`
-- Structural manifest: `تاسع انجليزي/الانجليزي_تاسع/manifest.json`
-- Curated evidence: `content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json`
-- Bounded batch contract: `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-unit-1-revision.json`
-- Question semantic review: `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-question-review.json`
-- DB/media validation report: `content-staging/curated/grade-9/english/pupil-book-3/batches/BATCH-001_DB_MEDIA_VALIDATION.md`
-- Modern target dry-run: `content-staging/curated/grade-9/english/pupil-book-3/batches/BATCH-001_MODERN_TARGET_DRY_RUN.md`
+- controlled SQL executor: `fa661bd9dfa2551a19d1163752dcaa605af74ee7`
+  - `content-staging/tools/batch-001-controlled-apply.sql`
+- live rollback-gate runtime: `c782755e5fc213b0018d7aeaa569d5e521b5d5e5`
+  - `content-staging/runtime/batch-001-transaction-gate.mjs`
 
-Known corpus facts:
+Previous validated checkpoints:
 
-- 69 RAW pages / images
-- 8 recovered sections
-- 104 questions
-- page 70 = manifest-only `Back Matter / Blank Final Page` evidence only
-- full reconstruction candidates are page candidates, **not final lessons**
-- full curated publication status remains `not_importable`
+- modern target dry-run report: `557527bf59c71fdeb05c095bda1b4dedc94f8ea2`
+- duplicate-safe batch contract: `e008731860612a58d7e3b4a29ec97222ceb62305`
+- semantic review artifact: `eae7b9d8b3b61b20f4ca74cb75f222aa5b6f9e60`
+- DB/media validation report: `e90891c6395813609d0f0cefe726c1cc3d4ac893`
+- legacy snapshot SHA-256: `2dfde94f6b70c037bb15d2782d11f036441c4abe130295be772c59b5e0131d0c`
 
-### BATCH-001 bounded decision
+## BATCH-001 — ACTIVE
 
-For the first bounded slice only, manifest + source evidence supports one section `Unit 1 - Revision` containing four distinct lesson/activity boundaries:
+Batch: `BATCH-001-G9-EN-PB3-U1`
 
-1. `Presents from London` — book page 1 — 4 questions
-2. `What's my job?` — book page 2 — 4 questions
-3. `The holidays` — book page 3 — 3 questions
-4. `A postcard from London` — book page 4 — 2 questions
+Target: Grade 9 / English / Pupil Book 3 / `Unit 1 - Revision`.
 
-This is **not** a global one-page-equals-one-lesson rule.
+Bounded reviewed structure:
 
-### Latest production read-only validation
+1. `Presents from London` — page 1 — 4 questions
+2. `What's my job?` — page 2 — 4 questions
+3. `The holidays` — page 3 — 3 questions
+4. `A postcard from London` — page 4 — 2 questions
 
-Inspector source checkpoint: `a4ec103a0bb36a40f144a65ee6635a70f15f059a`
+This is batch-specific and is not a global one-page-equals-one-lesson rule.
 
-Railway deployment: `00e69a2d-05f4-4e22-9449-5d82f80c8849`
+### Production pre-state already validated
 
-Result:
+- active `grade-9` class + active `english` subject + active offering
+- matching curriculum section: `0`
+- exact existing target lessons: `4`, all unpublished
+- lesson assets: `4`, all `draft`
+- ready media/source provenance chains: `4`
+- reviewed Question Bank draft revisions: `13`, all unpublished
+- question source links: present for all `13`
+- active student entitlements observed: `2`; publication gates remain closed
 
-- modern `grade-9` class: active
-- modern `english` subject: active
-- offering: active
-- curriculum sections currently present for this scope: 0
-- four corresponding legacy-import lessons found: 4, all unpublished
-- lesson assets: 4, all draft
-- ready media assets with immutable source provenance: 4
-- source media variants: 4
-- display WebP variants: 4
-- thumbnail variants: 4
-- AI variants: 4
-- question revisions linked to the four pages: 13, all draft/unpublished
-- source links for those 13 question revisions: present
-- active student entitlements observed: 2; this does not bypass publication gates
-- PostgreSQL writes during this validation: **0**
-
-### Media result
-
-Existing display WebP profile is readable/derived but is **not a size optimization** for these four pages:
+### Media decision
 
 - RAW JPEG total: `440,502` bytes
 - current display WebP total: `549,794` bytes
-- delta: `+24.81%`
+- current WebP delta: `+24.81%`
 
-Decision:
+Therefore current WebP profile is not accepted as an optimization success. RAW remains immutable and no media transformation belongs in BATCH-001 apply.
 
-- RAW remains immutable.
-- Do not claim current WebP profile as optimization success.
-- Do not regenerate/overwrite RAW.
-- No media transformation belongs in BATCH-001's controlled apply unless a later profile proves smaller and readable.
+### Semantic question gate — COMPLETE
 
-### Semantic question review — COMPLETED
+- reviewed: `13`
+- approved unchanged: `6`
+- corrected from source evidence: `7`
+- rejected: `0`
+- auto-published: `0`
 
-All 13 legacy AI questions in the four-page slice were reviewed against the matching Unit 1 source-page content and page structure.
+Authoritative input: `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-question-review.json`.
 
-Result:
+### Modern target dry-run — COMPLETE
 
-- reviewed: **13**
-- approved unchanged: **6**
-- corrected with source-grounded wording/options: **7**
-- rejected: **0**
-- auto-published: **0**
+Duplicate-safe target:
 
-The machine-readable reviewed set is the only question input permitted for apply planning. Legacy raw questions remain immutable evidence and are not overwritten.
+- insert section: `1`
+- insert lessons: `0`; reuse/update exact existing lessons: `4`
+- insert lesson assets/media/source rows: `0`
+- insert Question Bank items/revisions/links: `0`
+- update reviewed draft revisions: `7`
+- question no-ops: `6`
+- expected direct business-row mutations: `12` = `1 + 4 + 7`
+- unrelated mutations: `0`
+- publication mutations: `0`
 
-### Modern target dry-run — COMPLETED
+No archive/deactivate/delete is used to erase the legacy `62` count.
 
-Dry-run result: `MODERN_TARGET_DRY_RUN_PASS / APPLY_NOT_AUTHORIZED_YET`.
+## Controlled apply / rollback gate — IMPLEMENTED, LIVE VERIFICATION PENDING
 
-The previous contract incorrectly projected creation of 4 new lessons + 13 new Question Bank identities even though the production inventory already contains the matching unpublished semantic rows. That projection is now corrected to duplicate-safe reuse.
+Schema contracts were re-read from current `7eaur/alwaslh main` migrations before implementation:
 
-Verified target effect under the documented pre-state:
+- `database/migrations/0001_core.sql`
+- `0008_content_source_import.sql`
+- `0009_media_pipeline.sql`
+- `0016_curriculum_structure.sql`
+- `0017_content_ingestion_publication.sql`
+- `0019_question_bank.sql`
+- `0026_legacy_supabase_import_support.sql`
 
-- new curriculum section: **1 max / expected 1**
-- new lessons: **0**; reuse/update existing: **4**
-- new lesson assets: **0**; reuse existing draft assets: **4**
-- new media/source rows: **0**; reuse existing ready media: **4**
-- new Question Bank items/revisions: **0**
-- existing reviewed question revisions: **13**
-  - semantic no-op: **6**
-  - source-grounded content updates: **7**
-- new revision lesson/source links: **0**
-- direct business-row mutations expected: **12** = 1 section insert + 4 lesson structural updates + 7 draft revision content updates
-- unrelated rows changed: **0**
-- publication changes: **0**
+### Executor guarantees
 
-All other legacy-import lesson/question rows remain untouched. No archive/deactivate/delete is used to hide the old `62` count.
+`content-staging/tools/batch-001-controlled-apply.sql` now:
 
-Rollback is value-restoring for the four reused lessons and seven corrected draft revisions; it must not delete those pre-existing identities. The newly created section is removable only after restoring lesson section references. Media/source/RAW remain preserved.
+- defaults to `apply=false` and ends in `ROLLBACK`;
+- requires explicit `-v apply=true` before a COMMIT is possible;
+- resolves the active `grade-9 / english` offering immediately before mutation;
+- locks scope, 4 exact lesson identities, and 13 exact draft revisions;
+- fails closed if the target section already exists, if an identity resolves zero/multiple rows, or if counts drift;
+- validates exact lesson -> lesson_asset -> ready media -> content_source_asset provenance path/checksum for all 4 pages;
+- validates all 13 question locators by exact lesson linkage + current prompt + page/checksum provenance;
+- creates no replacement lesson/question/media identity on drift;
+- exercises only the planned `1 section + 4 lesson + 7 question` changes;
+- post-validates publication remains closed;
+- accounts for audit rows explicitly: `0` required by schema for this migration gate. `question_bank_events` requires a real actor and none is fabricated because lifecycle state is not changed; review/publish events remain application-owned.
 
-### Gate for first batch
+`content-staging/runtime/batch-001-transaction-gate.mjs` mirrors the same bounded transaction for a live Railway rollback test and deliberately throws a sentinel after post-validation so postgres.js rolls the transaction back. It then performs an out-of-transaction post-check requiring the target section count to return to `0`.
 
-Completed for bounded BATCH-001:
+### Live verification state in this run
 
-1. `[DONE]` Identify smallest coherent structural slice: Unit 1 / four distinct boundaries.
-2. `[DONE]` Verify DB linkage, RAW/source checksums, media provenance and question-source linkage read-only.
-3. `[DONE]` Record exact current media sizes and reject the existing WebP profile as a size-reduction claim.
-4. `[DONE]` Keep publication state closed: lessons unpublished, assets/questions draft.
-5. `[DONE]` Semantically review all 13 prompts/options/answers; 6 approved unchanged, 7 corrected, 0 rejected.
-6. `[DONE]` Produce duplicate-safe modern target dry-run and correct the batch contract away from duplicate creation.
-7. `[DONE]` Produce dry-run mutation/rollback counts: 12 expected direct business-row mutations; 0 unrelated mutations.
+Railway project: `charming-peace`
 
-Still required before direct DB mutation:
+Existing utility service reused: `alwaslh-content-inspector`.
 
-8. `[NEXT]` Build/verify an executable controlled PostgreSQL apply + rollback transaction that re-resolves all live identities immediately before mutation and aborts on drift/ambiguity; enumerate any required append-only curriculum/question audit-event rows explicitly.
-9. `[PENDING]` Apply controlled PostgreSQL mutation only after that executable transaction gate passes.
-10. `[PENDING]` Verify resulting records, publication visibility rules, idempotency/replay, and unrelated-row invariance.
+- No new Railway service/resource was created.
+- Service source already points to `7eaur/alwaslh-go`, branch `content/legacy-staging-rebuild`, root `content-staging/runtime`.
+- Start command was staged/changed to `node batch-001-transaction-gate.mjs` for the rollback-only gate.
+- Deployment `21020740-d3ff-4848-bf87-6cb2a4299021` was still `BUILDING` at the end of this checkpoint and had not produced execution logs yet.
+- Two Railway Agent one-off execution attempts timed out and were not counted as verification success.
+- PostgreSQL committed writes from this run: **0 known/authorized**.
+- Publication changes from this run: **0**.
 
-Current batch contract status: `dry_run_validated`.
+Do **not** mark transaction gate PASS until Railway logs contain both:
+
+1. `BATCH001_GATE_MUTATION_PHASE_PASS` with counts `sectionInserts=1`, `lessonUpdates=4`, `questionUpdates=7`, `questionNoops=6`, `publicationChanges=0`, `unrelatedRows=0`.
+2. `BATCH001_GATE_PASS_ROLLBACK_VERIFIED` with `postRollbackSectionCount=0`.
+
+The Railway build wait is treated as a transient execution blocker, not authorization to skip verification or apply the batch.
+
+## Gate checklist
+
+1. `[DONE]` Bound Unit 1 into 4 reviewed Lesson/Activity boundaries.
+2. `[DONE]` Verify DB/media/provenance read-only.
+3. `[DONE]` Reject current oversized WebP profile as optimization success.
+4. `[DONE]` Keep publication closed.
+5. `[DONE]` Review all 13 questions: 6 unchanged / 7 corrected / 0 rejected.
+6. `[DONE]` Produce duplicate-safe modern target dry-run.
+7. `[DONE]` Fix expected effect at exactly 12 direct business-row mutations.
+8. `[PARTIAL]` Controlled apply/rollback executor implemented and schema-audited; live rollback execution is waiting on Railway deployment completion.
+9. `[PENDING]` Only after step 8 passes, perform controlled PostgreSQL apply of the same bounded set.
+10. `[PENDING]` Verify resulting rows, publication rules, replay/idempotency, and unrelated-row invariance.
+
+Current batch status: `controlled_transaction_implemented_live_rollback_pending`.
+
+## Exact next action
+
+On the next run, first re-read live heads. Then inspect Railway deployment `21020740-d3ff-4848-bf87-6cb2a4299021` for completion/logs. If it did not execute the gate because the start-command change landed after that build, trigger a redeploy of the existing inspector service only; do not create a service. Require the two PASS log markers above. If the live rollback gate reveals a real schema/data drift, fix that root cause in the executor and repeat rollback-only verification. Do **not** apply/commit BATCH-001 in the same step unless the transaction gate is first proven clean and the next-task boundary is reached.
 
 ## Remaining work queue
 
-- `BATCH-001` — First real Grade 9 English content batch: DRY_RUN_VALIDATED / APPLY_TRANSACTION_NEXT
-- `STRUCTURE-001` — Structural Manifest Coverage Inventory for all 58 sources: TODO
-- `STRUCTURE-002` — Canonical Document Boundaries: TODO
-- `CURATION-001` — Complete Grade 9 English Lesson/Activity boundaries: TODO
-- `CURATION-002` — Reusable Curated Contract: TODO
-- `CONTENT-GAPS-001` — Missing content classification: TODO
-- `MEDIA-001` — Derived image optimization after curation gate: TODO
-- `IMPORT-001` — Incremental production import of reviewed batches: TODO
-- `VERIFY-001` — Student/Admin/runtime verification after each imported batch: TODO
-- `ROADMAP-RETURN` — Return to `STUDENT-016I` only after content work reaches its documented gate: TODO
+- `BATCH-001` — `CONTROLLED_TRANSACTION_IMPLEMENTED / LIVE_ROLLBACK_PENDING`
+- `STRUCTURE-001` — TODO
+- `STRUCTURE-002` — TODO
+- `CURATION-001` — TODO
+- `CURATION-002` — TODO
+- `CONTENT-GAPS-001` — TODO
+- `MEDIA-001` — TODO
+- `IMPORT-001` — TODO
+- `VERIFY-001` — TODO
+- `ROADMAP-RETURN` to `STUDENT-016I` — TODO
 
-## Scheduled-run coordination rules
+## Run rules
 
-At the start of every run:
+At every run: read live heads + this file + handoff; continue first incomplete task only; use smallest reviewable batch; verify before declaring pass; update this file with commit/deployment/count/failure/next action.
 
-1. Read this file, `CONTENT_REBUILD_HANDOFF.md`, live `alwaslh main`, live `alwaslh-go master`, and live `alwaslh-go/content/legacy-staging-rebuild` HEADs.
-2. Compare the latest commits with the checkpoint recorded here.
-3. Continue the **first incomplete task** only; never redo completed work.
-4. If another run already advanced the same task, continue from its newest checkpoint instead of overwriting it.
-5. Work in one bounded, reviewable batch.
-6. Run relevant verification/tests before declaring a batch complete.
-7. Update this file with evidence, commit SHA, counts, failures, and exact next action.
-8. Also update `CONTENT_REBUILD_HANDOFF.md` when a product/content truth changes materially.
-
-Never:
-
-- mutate RAW in-place;
-- publish AI-generated content automatically;
-- delete anomalies to make counts look clean;
-- import unreviewed page candidates as lessons;
-- assume a legacy Subject equals one final Document;
-- continue from memory when repository evidence differs.
-
-## Latest execution note
-
-2026-09-13 — BATCH-001 modern target dry-run completed without PostgreSQL writes. Dry-run report commit `557527bf59c71fdeb05c095bda1b4dedc94f8ea2`; duplicate-safe contract correction commit `e008731860612a58d7e3b4a29ec97222ceb62305`. The plan now reuses the four existing unpublished lessons, four draft lesson assets, four ready media identities and thirteen existing draft Question Bank identities; it creates no duplicate lesson/question/media rows. Expected direct future business-row mutation set is exactly 12 under the verified pre-state: 1 section insert + 4 lesson structural updates + 7 reviewed draft question corrections. PostgreSQL writes in this run: **0**. Next action is executable controlled apply/rollback transaction verification against live identities immediately before mutation.
+Never mutate RAW in place, auto-publish legacy/AI content, use `69 -> 62`, delete anomalies for cosmetic counts, import unreviewed candidates, or mutate unrelated records.
