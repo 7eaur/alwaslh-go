@@ -1,0 +1,8 @@
+{
+  "name": "alwaslh-content-batch-runtime",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "postgres": "^3.4.7"
+  }
+}
