@@ -16,7 +16,8 @@ Rules remain fixed:
 ## Live repository heads observed at start of this run
 
 - `7eaur/alwaslh main`: `c5ccbc9b0d0e88ef8798bbae6a3cc0bf933b5a7e`
-- `7eaur/alwaslh-go work branch at start`: `content/legacy-staging-rebuild` = `0c4a307a1db1ab02370d0be0741e2481087a0fa1`
+- `7eaur/alwaslh-go default master`: `f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23`
+- `7eaur/alwaslh-go work branch at start`: `content/legacy-staging-rebuild` = `6e4b5e9710ee1b9d3d737235abb5e714f751b01d`
 
 ## BATCH-001 — CLOSED / COMMITTED STATE VERIFIED
 
@@ -90,7 +91,39 @@ Structural safety assertions:
 - no publication state change;
 - no anomaly deletion or unrelated-record mutation.
 
-This closes only the Unit 3 Section boundary task. It does not curate Lesson boundaries or approve questions.
+## CURATION-001 — DONE / LESSON BOUNDARY VERIFIED
+
+Smallest curation batch: first coherent Lesson inside Unit 2 only.
+
+Evidence file:
+- creation commit: `67f630f42913528405246fad7c541b091a47959e`
+- `content-staging/curated/grade-9/english/pupil-book-3/curation-001-unit-2-describing.json`
+
+Reviewed Lesson boundary:
+- reviewed title: `Describing people and animals`
+- book pages: `5..8`
+- source pages: `9..12`
+- ordered page/activity count: `4`
+- attached legacy questions preserved: `12`
+
+Boundary evidence:
+- page 5 introduces physical description (`What do they look like?`) with evidence around height/build/weight/eye colour;
+- page 6 develops descriptive vocabulary through `Opposites`;
+- page 7 applies description language to people;
+- page 8 applies the same describing skill to animals;
+- book page 9/source page 13 changes topic to `What's the time?`, with question evidence about hour/minute/quarter-past expressions, and is therefore the next Lesson boundary rather than part of the describing Lesson.
+
+Curation safety assertions:
+- the four legacy page identities remain separate ordered page assets/activities; they were not promoted to four Lessons merely because they have four titles;
+- all four RAW SHA-256 values remain preserved;
+- all 12 attached questions remain on their exact source pages;
+- question semantics were not approved, corrected, rejected or rewritten in this task;
+- no RAW mutation;
+- no PostgreSQL mutation;
+- no publication state change;
+- no anomaly deletion or unrelated-record mutation.
+
+This closes only the first Lesson/Activity boundary in Unit 2.
 
 ## Gate checklist
 
@@ -115,26 +148,36 @@ This closes only the Unit 3 Section boundary task. It does not curate Lesson bou
 5. `[DONE]` Preserve all 3 question attachments without review/rewrite.
 6. `[DONE]` Keep Lesson boundaries unresolved and DB/RAW/publication untouched.
 
-Current task status: `STRUCTURE-002 = DONE / SECTION_BOUNDARY_VERIFIED`.
+### CURATION-001
+1. `[DONE]` Select the smallest coherent curation cluster inside Unit 2.
+2. `[DONE]` Verify pages 5..8 form one describing-skill sequence from content/question evidence.
+3. `[DONE]` Verify page 9 starts a different time/making-plans sequence.
+4. `[DONE]` Preserve four source identities, ordering and RAW SHA-256 provenance.
+5. `[DONE]` Preserve 12 question attachments without semantic approval/rewrite.
+6. `[DONE]` Keep PostgreSQL/RAW/publication untouched.
+
+Current task status: `CURATION-001 = DONE / LESSON_BOUNDARY_VERIFIED`.
 
 ## Exact next action
 
 On the next run:
 1. read live heads + this status + handoff;
-2. do not reopen BATCH-001, STRUCTURE-001 or STRUCTURE-002 unless live drift invalidates evidence;
-3. execute `CURATION-001` only, using the smallest reviewable curation batch;
-4. determine Lesson/Activity boundaries from actual content evidence rather than page-title heuristics;
-5. preserve source identities, RAW and question provenance;
-6. do not publish unreviewed content;
-7. document results before moving to CURATION-002.
+2. do not reopen completed tasks unless live drift invalidates evidence;
+3. execute `CURATION-002` only;
+4. start at book page `9` / source page `13` (`What's the time?`);
+5. determine the next smallest Lesson/Activity boundary from actual content evidence, including where the time/meeting/planning sequence ends;
+6. preserve source identities, RAW checksums and exact question provenance;
+7. do not approve legacy questions merely because they support boundary evidence;
+8. do not mutate PostgreSQL or publication state during curation;
+9. document results before moving to `CONTENT-GAPS-001`.
 
 ## Remaining ordered queue
 
 - `BATCH-001` — DONE: `CLOSED / COMMITTED_STATE_VERIFIED`
 - `STRUCTURE-001` — DONE: `SECTION_BOUNDARY_VERIFIED`
 - `STRUCTURE-002` — DONE: `SECTION_BOUNDARY_VERIFIED`
-- `CURATION-001` — NEXT
-- `CURATION-002` — TODO
+- `CURATION-001` — DONE: `LESSON_BOUNDARY_VERIFIED`
+- `CURATION-002` — NEXT
 - `CONTENT-GAPS-001` — TODO
 - `MEDIA-001` — TODO
 - `IMPORT-001` — TODO
