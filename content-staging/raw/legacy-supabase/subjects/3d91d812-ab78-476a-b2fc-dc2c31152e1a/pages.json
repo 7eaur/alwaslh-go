@@ -1,0 +1,962 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:31.546527+00:00",
+    "extracted_text": null,
+    "id": "158ac12d-701a-4e63-ad23-0f687df8ab52",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0001.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0001"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:32.546527+00:00",
+    "extracted_text": null,
+    "id": "b78fd2b2-32c3-4983-91e6-84f186b0a6ac",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0002.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0002"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:33.546527+00:00",
+    "extracted_text": null,
+    "id": "4052d527-7b61-4849-adb0-aa722662bff9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0003.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0003"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:34.546527+00:00",
+    "extracted_text": null,
+    "id": "e0ff3518-5ba6-4df4-bb61-4b1e43d4195e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0004.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0004"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:35.546527+00:00",
+    "extracted_text": null,
+    "id": "f9e923d4-3128-4eae-9103-4daf09d23b5f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0005.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0005"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:36.546527+00:00",
+    "extracted_text": null,
+    "id": "9d3bf8ed-9000-4a15-9e57-e5810aef2dc8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0006.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0006"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:37.546527+00:00",
+    "extracted_text": null,
+    "id": "7967c9f5-275d-414b-ac77-ca02054c7bbf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0007.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0007"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:38.546527+00:00",
+    "extracted_text": null,
+    "id": "5f170ffd-1524-43e3-bc40-1caf270c873f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0008.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0008"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:39.546527+00:00",
+    "extracted_text": null,
+    "id": "bf6724bb-c78a-4840-a496-e8b8dc052941",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0009.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0009"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:40.546527+00:00",
+    "extracted_text": null,
+    "id": "8b23ff87-578a-49a3-a762-d8bfa71c1b33",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0010.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0010"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:41.546527+00:00",
+    "extracted_text": null,
+    "id": "4eb6704e-08ac-4ed5-84a1-f19e106d2873",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0011.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0011"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:42.546527+00:00",
+    "extracted_text": null,
+    "id": "84313e14-a83c-41ad-9267-749b0d881f8e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0012.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0012"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:43.546527+00:00",
+    "extracted_text": null,
+    "id": "0857a85c-f7b1-48fd-b9dd-5a5fdc2e1a57",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0013.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0013"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:44.546527+00:00",
+    "extracted_text": null,
+    "id": "97e26dde-ca42-4763-81e1-6077e9f6d818",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0014.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0014"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:45.546527+00:00",
+    "extracted_text": null,
+    "id": "3c210efc-53b6-4932-ad15-3c05a6d84ab7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0015.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0015"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:46.546527+00:00",
+    "extracted_text": null,
+    "id": "dd677f03-fb6f-4f34-91de-0a4a7980ed28",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0016.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0016"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:47.546527+00:00",
+    "extracted_text": null,
+    "id": "96add7dd-ca15-48a0-b5e8-a4557d94dcde",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0017.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0017"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:48.546527+00:00",
+    "extracted_text": null,
+    "id": "325e80b5-96c2-483e-887c-8fcbe5cdeb88",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0018.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0018"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:49.546527+00:00",
+    "extracted_text": null,
+    "id": "39ef5403-48c0-49cf-96cb-9eda07f06f6d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0019.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0019"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:50.546527+00:00",
+    "extracted_text": null,
+    "id": "eb4d1ea2-94dd-4bc3-91fa-96e84e27c10e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0020.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0020"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:51.546527+00:00",
+    "extracted_text": null,
+    "id": "164c454a-b115-4518-ab23-c8f4c24a78aa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0021.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0021"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:52.546527+00:00",
+    "extracted_text": null,
+    "id": "f91ce798-12cb-4125-bd39-3b1f97c302bb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0022.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0022"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:53.546527+00:00",
+    "extracted_text": null,
+    "id": "efb00954-2d53-4953-874a-4791974b9ff0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0023.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0023"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:54.546527+00:00",
+    "extracted_text": null,
+    "id": "52e64a73-8cc0-4725-9160-d81026810ce7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0024.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0024"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:55.546527+00:00",
+    "extracted_text": null,
+    "id": "fc356a34-c024-4dca-88c2-2f1eacc31264",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0025.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0025"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:56.546527+00:00",
+    "extracted_text": null,
+    "id": "c254c957-1147-40f6-9fa2-2cfd7deb496f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0026.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0026"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:57.546527+00:00",
+    "extracted_text": null,
+    "id": "6be90dfe-ed64-4e99-a147-62b92ad1d167",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0027.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0027"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:58.546527+00:00",
+    "extracted_text": null,
+    "id": "a955fa47-cfab-45a2-943a-8dfded069fd2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0028.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0028"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:59.546527+00:00",
+    "extracted_text": null,
+    "id": "e4b0b013-9fe0-4af7-a0de-96d10c834431",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0029.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0029"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:00.546527+00:00",
+    "extracted_text": null,
+    "id": "e4cba153-f603-4ed5-893a-27bb25f3c227",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0030.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0030"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:01.546527+00:00",
+    "extracted_text": null,
+    "id": "6926da2c-d361-4a75-a5c1-49c9e5a8ee32",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0031.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0031"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:02.546527+00:00",
+    "extracted_text": null,
+    "id": "771e3da2-cb47-4055-87ef-93ed7c370bd4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0032.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0032"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:03.546527+00:00",
+    "extracted_text": null,
+    "id": "1de4543f-af9d-4af3-922a-c9c74b133988",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0033.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0033"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:04.546527+00:00",
+    "extracted_text": null,
+    "id": "d305a9b4-1653-402a-9133-a52a0633956e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0034.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0034"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:05.546527+00:00",
+    "extracted_text": null,
+    "id": "3f792a93-0237-4189-bbdc-c449b7e1856d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0035.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0035"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:06.546527+00:00",
+    "extracted_text": null,
+    "id": "7d628102-e652-41f9-b802-da4a8bb2f30e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0036.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0036"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:07.546527+00:00",
+    "extracted_text": null,
+    "id": "3c252d14-0b26-4d6b-9116-99ef0b93eacd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0037.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0037"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:08.546527+00:00",
+    "extracted_text": null,
+    "id": "2bf8d59b-a6d7-4483-8d1b-5c9ba6a36a73",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0038.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0038"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:09.546527+00:00",
+    "extracted_text": null,
+    "id": "80ce5dd8-f614-4a1d-8308-559b6aa172b0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0039.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0039"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:10.546527+00:00",
+    "extracted_text": null,
+    "id": "97970f4e-2ceb-4908-8dfe-74e710279c4f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0040.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0040"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:11.546527+00:00",
+    "extracted_text": null,
+    "id": "71e67368-5e7c-4131-a988-9373184736de",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0041.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0041"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:12.546527+00:00",
+    "extracted_text": null,
+    "id": "fcba04f2-3cc4-405a-a428-63163f6dec5d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0042.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0042"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:13.546527+00:00",
+    "extracted_text": null,
+    "id": "dfd8363a-4b29-4307-a93c-597a89c01979",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0043.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0043"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:14.546527+00:00",
+    "extracted_text": null,
+    "id": "c631eefa-16c3-4412-a996-aa0bebd178fc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0044.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0044"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:15.546527+00:00",
+    "extracted_text": null,
+    "id": "23e6414d-e96f-4ef5-8edf-dac134cd1086",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0045.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0045"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:16.546527+00:00",
+    "extracted_text": null,
+    "id": "e9694623-7904-4a91-bd69-cb3372b4d95e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0046.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0046"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:17.546527+00:00",
+    "extracted_text": null,
+    "id": "bfd1531d-0ac4-45dc-8a1d-40253a6b7bd1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0047.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0047"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:18.546527+00:00",
+    "extracted_text": null,
+    "id": "50cd5673-25b6-4364-9bc1-43b378f59455",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0048.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0048"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:19.546527+00:00",
+    "extracted_text": null,
+    "id": "f4604f82-a5c7-4913-b8b7-382174fa9f7d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0049.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0049"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:20.546527+00:00",
+    "extracted_text": null,
+    "id": "a1aca1b9-583e-4171-8dbc-df932d49af86",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0050.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0050"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:21.546527+00:00",
+    "extracted_text": null,
+    "id": "06ca3ac2-6281-4c58-8559-0c06fcdf22c9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0051.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0051"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:22.546527+00:00",
+    "extracted_text": null,
+    "id": "da2b11e4-5994-4751-9271-340d54b1edc5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0052.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0052"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:23.546527+00:00",
+    "extracted_text": null,
+    "id": "1c469386-1612-449f-bba1-4d28364750bf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0053.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0053"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:24.546527+00:00",
+    "extracted_text": null,
+    "id": "1001541d-cab2-42e1-90b1-0506d59adeed",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0054.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0054"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:25.546527+00:00",
+    "extracted_text": null,
+    "id": "1e846935-4a2c-4600-a69e-7c473e0ca153",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0055.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0055"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:26.546527+00:00",
+    "extracted_text": null,
+    "id": "2e36e17d-3b8c-4e0a-a670-e0af157ed268",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0056.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0056"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:27.546527+00:00",
+    "extracted_text": null,
+    "id": "dc0a095e-1517-483f-8038-730f6d54f381",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0057.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0057"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:28.546527+00:00",
+    "extracted_text": null,
+    "id": "b86e89d4-f399-418b-99a6-01719d5cc8c6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0058.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0058"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:29.546527+00:00",
+    "extracted_text": null,
+    "id": "a2cfc2d4-d268-4eae-8e67-df9ce1a2aa79",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0059.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0059"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:30.546527+00:00",
+    "extracted_text": null,
+    "id": "4331eb12-be90-4c09-884b-1a74a933961f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/bac44a0b-4a4c-4467-8d7f-36dacb87a1ed/subject/d905651d-3469-4be2-a3d6-15463b67dd21/lesson/158ac12d-701a-4e63-ad23-0f687df8ab52/page_0060.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+    "summary": null,
+    "title": "الاحياء نماذج وزاريه 1445 - الصفحة 0060"
+  }
+]
