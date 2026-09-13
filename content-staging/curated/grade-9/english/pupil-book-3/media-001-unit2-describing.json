@@ -1,0 +1,126 @@
+{
+  "task_id": "MEDIA-001",
+  "scope": {
+    "grade": 9,
+    "subject": "English",
+    "document": "Pupil Book 3",
+    "reviewed_lesson": "Describing people and animals",
+    "book_pages": [5, 6, 7, 8],
+    "source_pages": [9, 10, 11, 12],
+    "batch_rule": "smallest reviewed media batch only"
+  },
+  "status": "media_profile_verified_partial_acceptance",
+  "policy": {
+    "raw_immutable": true,
+    "webp_not_accepted_by_format_alone": true,
+    "curriculum_membership_not_decided_by_media": true,
+    "database_mutation_allowed": false,
+    "publication_allowed": false
+  },
+  "probe": {
+    "script_commit": "2f1849536738e3f877018539a80b73e83a969c3f",
+    "workflow_commit": "10ce6c2b250de28b5de9389cbcaf9b2e7cddad09",
+    "workflow_run_id": 34761171601,
+    "workflow_conclusion": "success",
+    "artifact_id": 10318976732,
+    "artifact_name": "media-001-evidence",
+    "artifact_digest": "sha256:9702cbac1ed18e1be1809eaf844685b78c24c150958da1781ce0b7f1ad75e91a",
+    "profiles_tested": [
+      {"name": "webp-q82-m6", "quality": 82, "method": 6},
+      {"name": "webp-q76-m6", "quality": 76, "method": 6}
+    ],
+    "acceptance_rule": {
+      "dimensions_must_match": true,
+      "minimum_psnr_db": 32.0,
+      "minimum_byte_reduction_percent": 20.0,
+      "manual_contact_sheet_review_required_for_acceptance": true
+    }
+  },
+  "aggregate": {
+    "raw_jpeg_bytes": 457747,
+    "webp_q82_m6_bytes": 464290,
+    "webp_q82_m6_delta_percent": 1.43,
+    "webp_q76_m6_bytes": 387774,
+    "webp_q76_m6_reduction_percent": 15.29,
+    "accepted_candidates": 1,
+    "rejected_candidates": 7
+  },
+  "pages": [
+    {
+      "book_page": 5,
+      "source_page": 9,
+      "legacy_page_id": "706771c2-2145-4682-9bdd-4e7df5c69bf9",
+      "raw": {
+        "sha256": "fc9e15f23d3f5c9a7928aecc70888e30be2c454ab16883e1a3c82290fd581fdb",
+        "byte_size": 93793,
+        "width": 962,
+        "height": 1360
+      },
+      "candidates": [
+        {
+          "profile": "webp-q82-m6",
+          "sha256": "5abd17ad42d37cc624f014b7b7360ebb62a58803b19907bb677c007e40f79313",
+          "byte_size": 89840,
+          "byte_reduction_percent": 4.21,
+          "psnr_db": 41.42,
+          "decision": "rejected",
+          "reason": "quality is high but byte reduction is below the 20% gate"
+        },
+        {
+          "profile": "webp-q76-m6",
+          "sha256": "4fdeb9e17a0a269481ee046bcbf67053f834c8e75fdb4d5bda445977b742a5e2",
+          "byte_size": 74416,
+          "byte_reduction_percent": 20.66,
+          "psnr_db": 39.52,
+          "dimensions_match": true,
+          "manual_contact_sheet_review": "passed; headings, body text, labels, numbers and illustration boundaries remain legible with no material readability regression observed",
+          "decision": "accepted_as_reproducible_derived_candidate"
+        }
+      ]
+    },
+    {
+      "book_page": 6,
+      "source_page": 10,
+      "legacy_page_id": "71ba9a99-e009-401f-b65f-8a956218a633",
+      "raw": {"sha256": "fd99f85698dd4870bf8fccf85aa53f47bf484d19b2052473155540627f6aa420", "byte_size": 116886, "width": 962, "height": 1360},
+      "candidates": [
+        {"profile": "webp-q82-m6", "sha256": "e0620addadff4e6d7a7f90ac3cfd81556ed451345216f96b87a1a7833626e68e", "byte_size": 118392, "byte_reduction_percent": -1.29, "psnr_db": 40.18, "decision": "rejected", "reason": "larger than RAW"},
+        {"profile": "webp-q76-m6", "sha256": "3a08f297831643087e406fbee276aec3ba2a48c0eaaa6c6fe9a804f5cf65bcd7", "byte_size": 98378, "byte_reduction_percent": 15.83, "psnr_db": 38.40, "decision": "rejected", "reason": "byte reduction is below the 20% gate"}
+      ]
+    },
+    {
+      "book_page": 7,
+      "source_page": 11,
+      "legacy_page_id": "710cb3d4-e2c1-4d05-a1ef-2c0a1bbede2b",
+      "raw": {"sha256": "3b7415622af90557ad09585eef776b5ce3fe2c68776a1963b4a2cbf677f5ba61", "byte_size": 140264, "width": 962, "height": 1360},
+      "candidates": [
+        {"profile": "webp-q82-m6", "sha256": "3024f493ce524e64f366ad7cb948e23cdc1745243c364fb82707d3f4bbcaecb2", "byte_size": 149508, "byte_reduction_percent": -6.59, "psnr_db": 40.33, "decision": "rejected", "reason": "larger than RAW"},
+        {"profile": "webp-q76-m6", "sha256": "af69cd15cc867209fcef8597a87fd70f3170c54ce362d00bc12804cb4a738ff2", "byte_size": 126786, "byte_reduction_percent": 9.61, "psnr_db": 38.28, "decision": "rejected", "reason": "byte reduction is below the 20% gate"}
+      ]
+    },
+    {
+      "book_page": 8,
+      "source_page": 12,
+      "legacy_page_id": "4b6090c2-744e-4fc6-8908-87c211a8713b",
+      "raw": {"sha256": "3678974564e2a219840da4fc175d62d9811bd80666d01c81d4f9b49f2328e258", "byte_size": 106804, "width": 962, "height": 1360},
+      "candidates": [
+        {"profile": "webp-q82-m6", "sha256": "91e57f94b68cc16c0ec4dc8f24d6be41658407105d9ce3c597c8ff58c0fa4c08", "byte_size": 106550, "byte_reduction_percent": 0.24, "psnr_db": 40.56, "decision": "rejected", "reason": "byte reduction is below the 20% gate"},
+        {"profile": "webp-q76-m6", "sha256": "69338dc96b78a97322840805c35de947118c16212f12751029b86dc07c537144", "byte_size": 88194, "byte_reduction_percent": 17.42, "psnr_db": 38.80, "decision": "rejected", "reason": "byte reduction is below the 20% gate"}
+      ]
+    }
+  ],
+  "decision": {
+    "accepted_profile_is_not_global": true,
+    "accepted_page_5_candidate_can_be_regenerated_deterministically": true,
+    "pages_6_8_keep_raw_as_preferred_media_until_a_better_candidate_is_verified": true,
+    "no_binary_media_was_committed_or_uploaded_to_production_in_this_task": true,
+    "raw_mutated": false,
+    "database_mutated": false,
+    "publication_changed": false,
+    "unrelated_records_mutated": false
+  },
+  "next_scope": {
+    "task": "IMPORT-001",
+    "instruction": "Prepare the smallest controlled import using only already reviewed curriculum boundaries and verified media decisions; preserve RAW and regenerate/use the accepted derived candidate only where its exact checksum/profile is verified."
+  }
+}
