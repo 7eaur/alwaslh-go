@@ -1,0 +1,135 @@
+{
+  "task": "STRUCTURE-002",
+  "scope": {
+    "grade": 9,
+    "subject": "English",
+    "book": "Pupil Book 3",
+    "section": "Unit 3 - Other countries"
+  },
+  "status": "section_boundary_verified",
+  "structural_decision": {
+    "first_book_page": 16,
+    "last_book_page": 25,
+    "first_source_page": 20,
+    "last_source_page": 29,
+    "page_count": 10,
+    "legacy_question_count": 3,
+    "next_section_evidence": {
+      "book_page": 26,
+      "source_page": 30,
+      "section": "Unit 4 - Visiting Japan",
+      "title": "A Japanese pen-friend",
+      "legacy_page_id": "dfbd5936-34b9-49d6-a573-7f2f524e2658"
+    }
+  },
+  "page_candidates": [
+    {
+      "book_page": 16,
+      "source_page": 20,
+      "candidate_id": "page-candidate-6abcb7330e81aaee00a1",
+      "legacy_page_id": "c91646f9-6ff9-42f1-9a69-c31f943492e8",
+      "title": "What is the weather like?",
+      "question_count": 0,
+      "raw_sha256": "f78eb330e9a1c663332530d0a2faa7319c391942d731f623feff3b7ab3300660"
+    },
+    {
+      "book_page": 17,
+      "source_page": 21,
+      "candidate_id": "page-candidate-8c4f7e793a0cbf1bfcd0",
+      "legacy_page_id": "d6d8ac40-f3e6-4ba8-93ec-cdcdd6805fd0",
+      "title": "The months of the year",
+      "question_count": 0,
+      "raw_sha256": "53bfeb39485a60c7482c7f78f569987b644eda1550f28db70188209fb8d5193b"
+    },
+    {
+      "book_page": 18,
+      "source_page": 22,
+      "candidate_id": "page-candidate-0e7afddb88d8d95a60c4",
+      "legacy_page_id": "c70821e4-3ba1-4f13-b1a7-2c8eb099f4c0",
+      "title": "The weather in Yemen",
+      "question_count": 0,
+      "raw_sha256": "5e6896dfc00b73dd14e59dd8135791f3dc86836892364f4d0c46dc10e2efb5d7"
+    },
+    {
+      "book_page": 19,
+      "source_page": 23,
+      "candidate_id": "page-candidate-726bef647bc3135c44fd",
+      "legacy_page_id": "909073fc-8ce3-4bf3-805b-ea01fa6b4529",
+      "title": "Dates",
+      "question_count": 0,
+      "raw_sha256": "e297b09b774057519469c25bc7ad7282ad0a0d4d6bc0eb68a0c48796cf9789ba"
+    },
+    {
+      "book_page": 20,
+      "source_page": 24,
+      "candidate_id": "page-candidate-1308d5ed8319e6c90673",
+      "legacy_page_id": "a5856a71-47a3-44ac-b295-20ae444344cc",
+      "title": "Four countries",
+      "question_count": 0,
+      "raw_sha256": "87978dd56f22ab7dd556b7f95095d8a150f9b28439d8b52ec33d966638d37c90"
+    },
+    {
+      "book_page": 21,
+      "source_page": 25,
+      "candidate_id": "page-candidate-6c05469845a6c4bc751f",
+      "legacy_page_id": "2bf768d8-193b-4b2a-af53-c90fbd58afdd",
+      "title": "Four countries",
+      "question_count": 0,
+      "raw_sha256": "e217365587af53874701db82304ed1f58648dc137fd612e619ccf57ef76fc2fc"
+    },
+    {
+      "book_page": 22,
+      "source_page": 26,
+      "candidate_id": "page-candidate-ad61571e3e3d8197d165",
+      "legacy_page_id": "ca454877-464a-4931-bcb5-aadb93c5e705",
+      "title": "Comparing countries",
+      "question_count": 3,
+      "raw_sha256": "c3b61258e439f770867af88101a27be68ebeb7a7ace176a0e00d175a1b0aa011"
+    },
+    {
+      "book_page": 23,
+      "source_page": 27,
+      "candidate_id": "page-candidate-1f3a7df5ca8759f234d9",
+      "legacy_page_id": "de078106-ecb3-4236-a4ae-04bcbd3d117e",
+      "title": "The world",
+      "question_count": 0,
+      "raw_sha256": "e408708e1a3146b4e7cf6afe8deabab7a8bf6be336671fdcf0477a5ab8cffeaf"
+    },
+    {
+      "book_page": 24,
+      "source_page": 28,
+      "candidate_id": "page-candidate-c3c7ca28c8c8873cffa5",
+      "legacy_page_id": "533aa25a-6245-4d9a-b1f1-3275c69a2615",
+      "title": "The snake - episode 2",
+      "question_count": 0,
+      "raw_sha256": "2363e4302b442cfaab177ee5c58821acfe0dc69cfdee274741db20b0d6fcf62a"
+    },
+    {
+      "book_page": 25,
+      "source_page": 29,
+      "candidate_id": "page-candidate-5d4f227f0ce570de30ba",
+      "legacy_page_id": "f0815a8f-ed5f-4b4e-b44e-ad38a0779895",
+      "title": "Language review 2",
+      "question_count": 0,
+      "raw_sha256": "be4a9cc23f9b3b708375e5cffd613731aae2db0e99fbfa8f4fc3fbf0f36e982e"
+    }
+  ],
+  "assertions": {
+    "section_membership_verified": true,
+    "lesson_boundaries_approved": false,
+    "one_page_equals_one_lesson_inferred": false,
+    "question_content_reviewed": false,
+    "question_to_page_provenance_preserved": true,
+    "raw_mutated": false,
+    "postgres_mutated": false,
+    "publication_changed": false,
+    "anomalies_deleted": false,
+    "unrelated_records_modified": false
+  },
+  "source": "content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json",
+  "notes": [
+    "This contract approves only Unit/Section membership and exact source/page boundaries.",
+    "Repeated page titles such as Four countries remain separate source identities; no Lesson merge/split decision is made here.",
+    "The three legacy questions stay attached to book page 22/source page 26 and remain unreviewed until curation."
+  ]
+}
