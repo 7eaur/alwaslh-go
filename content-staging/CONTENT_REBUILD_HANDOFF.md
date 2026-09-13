@@ -1,59 +1,47 @@
 # الوسيلة الذكية — Content Rebuild Handoff
 
-> نقطة الاستئناف الرسمية لمسار إعادة بناء المحتوى. الحقيقة التنفيذية الأدق توجد أيضًا في `CONTENT_REBUILD_EXECUTION_STATUS.md`. ابدأ دائمًا من live heads ولا تعتمد على ذاكرة المحادثات.
+> نقطة الاستئناف الرسمية لمسار إعادة بناء المحتوى. اقرأ live heads ثم `CONTENT_REBUILD_EXECUTION_STATUS.md` أولًا؛ هو المرجع التنفيذي الأدق إذا اختلفا.
 
-## 1. الهدف والعقود الثابتة
+## 1. العقود الثابتة
 
 المستودع: `7eaur/alwaslh-go`
 
 فرع العمل: `content/legacy-staging-rebuild`
 
-المسار المعتمد:
+المسار:
 
 `Legacy Supabase -> Immutable RAW -> Reviewed CURATED -> Media Decision -> Dry Run -> Controlled Transaction -> Modern PostgreSQL -> Verification -> Publication`
 
-قواعد غير قابلة للكسر:
+قواعد لا تكسر:
 
-- RAW immutable؛ لا overwrite ولا recompress in-place.
-- لا page-title -> Lesson تلقائيًا؛ الحدود تأتي من manifest/source evidence/review.
-- provenance وSHA-256 محفوظان عبر كل transform.
+- RAW immutable؛ لا overwrite/recompress in-place.
+- لا page-title -> Lesson تلقائيًا؛ الحدود تأتي من evidence + review.
+- provenance وSHA-256 محفوظان.
 - Media ready لا يعني Published.
 - لا auto-publish لأي AI/legacy output.
-- لا heuristic `69 -> 62` لبناء المنهج النهائي.
-- لا حذف anomalies أو بيانات غير مرتبطة لتجميل الأرقام.
+- لا تستخدم `69 -> 62` كحقيقة منهجية.
+- لا تحذف anomalies أو بيانات غير مرتبطة لتجميل الأرقام.
 - أي DB apply يفشل مغلقًا عند identity/count/provenance drift.
 
-## 2. Corpus / RAW truth
+## 2. Corpus truth
 
-Legacy Supabase snapshot المعتمد:
+Legacy snapshot SHA-256:
 
 `2dfde94f6b70c037bb15d2782d11f036441c4abe130295be772c59b5e0131d0c`
 
-Full RAW extraction الموثق:
+Full RAW extraction:
 
 - Subjects: 58
 - Pages: 5,273
-- Image references/downloads: 5,273 / 5,273
+- Images: 5,273 / 5,273
 - Questions: 25,755
 - Download failures: 0
 - Empty subjects preserved: 2
 - Duplicate page-position anomalies preserved: 6
 
-الـRAW يحتفظ بالمشاكل كما هي بدل إخفائها.
-
-## 3. Grade 9 English reconstruction truth
-
-Legacy subject UUID:
+Grade 9 English legacy subject UUID:
 
 `1794eea5-4772-4c94-bd2b-b08e5815e733`
-
-Structural manifest:
-
-`تاسع انجليزي/الانجليزي_تاسع/manifest.json`
-
-Curated candidates:
-
-`content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json`
 
 Corpus facts:
 
@@ -61,17 +49,13 @@ Corpus facts:
 - questions: 104
 - sections recovered: 8
 - manifest-only page 70: `Back Matter / Blank Final Page` evidence only
-- full candidate set remains review-required / not globally importable
+- old importer produced 62 Draft/unpublished lessons by heuristic; those 62 are reconciliation state only, not curriculum truth.
 
-المستورد القديم أنشأ 62 Lesson من 69 صفحة باستخدام grouping heuristic. هذه الـ62 بقيت Draft/unpublished وهي evidence/state للمصالحة، وليست curriculum truth نهائية.
+## 3. BATCH-001 — ACTIVE
 
-## 4. BATCH-001 — ACTIVE
+Batch: `BATCH-001-G9-EN-PB3-U1`
 
-Batch:
-
-`BATCH-001-G9-EN-PB3-U1`
-
-الحدود المراجعة للدفعة فقط:
+Reviewed structure for this batch only:
 
 - Section: `Unit 1 - Revision`
 - page 1 — `Presents from London` — 4 questions
@@ -79,134 +63,163 @@ Batch:
 - page 3 — `The holidays` — 3 questions
 - page 4 — `A postcard from London` — 2 questions
 
-لا تعمم one-page=one-lesson على بقية الكتاب.
+Do not generalize one-page=one-lesson.
 
-ملفات الدفعة:
+Authoritative artifacts:
 
 - `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-unit-1-revision.json`
 - `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-question-review.json`
 - `content-staging/curated/grade-9/english/pupil-book-3/batches/BATCH-001_DB_MEDIA_VALIDATION.md`
 - `content-staging/curated/grade-9/english/pupil-book-3/batches/BATCH-001_MODERN_TARGET_DRY_RUN.md`
+- `content-staging/tools/batch-001-controlled-apply.sql`
+- `content-staging/runtime/batch-001-transaction-gate.mjs`
 
-### DB / media / provenance gate — DONE
+## 4. Completed gates
 
-Production read-only validation أثبت:
+### DB / media / provenance — DONE
 
-- active grade-9 + english offering
-- target section existing before apply: 0
-- exact matching lessons: 4, active/unpublished
-- lesson assets: 4, draft
-- ready media/source provenance chains: 4
-- linked Question Bank revisions: 13, draft/unpublished
-- source links: 13/13
+- active grade-9/english offering
+- target section count: 0
+- 4 exact existing lessons, active/unpublished
+- 4 lesson assets, draft
+- 4 ready media/source chains
+- 13 linked Question Bank draft revisions, unpublished
+- 13/13 source links
+- 2 active student entitlements observed; publication remains closed
 
-Media decision:
+Media:
 
-- RAW JPEG: 440,502 bytes
-- current display WebP: 549,794 bytes
+- RAW JPEG total: 440,502 bytes
+- current display WebP total: 549,794 bytes
 - WebP delta: +24.81%
 
-لذلك current WebP profile ليس optimization ناجحًا. لا media mutation في BATCH-001.
+Therefore no media mutation in BATCH-001. RAW remains immutable.
 
-### Semantic question gate — DONE
+### Semantic questions — DONE
 
 - reviewed: 13
-- approved unchanged: 6
-- corrected source-grounded: 7
+- unchanged: 6
+- corrected: 7
 - rejected: 0
-- auto-published: 0
-
-التصحيحات عالجت buyer attribution في page 1، doctor/dentist/Taha attribution في page 2، وcross-page London/Amna leakage في page 3. RAW questions لم تُعدّل؛ curated review هو المدخل الوحيد للدفعة.
+- published: 0
 
 ### Modern target dry-run — DONE
 
-Duplicate-safe target النهائي لهذه الدفعة:
+Exact duplicate-safe target:
 
-- create curriculum section: 1
-- create lessons: 0; reuse/update existing exact lessons: 4
-- create lesson assets/media/source rows: 0
-- create Question Bank items/revisions/links: 0
-- update existing reviewed draft revisions: 7
-- no-op reviewed revisions: 6
-- expected direct business-row mutations: 12 = 1 + 4 + 7
+- section insert: 1
+- lesson inserts: 0
+- reuse/update lessons: 4
+- lesson asset/media/source inserts: 0
+- Question Bank identity/revision/link inserts: 0
+- corrected revision updates: 7
+- question no-ops: 6
+- total direct business-row mutations: 12
 - publication changes: 0
-- unrelated mutations: 0
+- unrelated changes: 0
 
-Rollback يعيد قيم الـ4 lessons والـ7 corrected draft revisions؛ لا يحذف identities القديمة. القسم الجديد فقط يمكن حذفه بعد فك مراجع lessons عند rollback خارجي مخطط.
+## 5. Controlled rollback transaction — DONE
 
-## 5. Controlled transaction gate — CURRENT CHECKPOINT
+### Important root-cause correction
 
-تمت قراءة عقود schema الحالية من `7eaur/alwaslh main` ثم تنفيذ gate حقيقية بدل الاعتماد على تقرير نظري.
+A pre-fix deployment failed closed because the transaction gate used the local RAW extraction path as `content_source_assets.source_path`.
 
-### Implemented artifacts
+That was incorrect for the modern PostgreSQL import. The canonical DB source identities are:
 
-Commit `fa661bd9dfa2551a19d1163752dcaa605af74ee7`:
+- `public.lessons/2d98475c-91bf-4000-bfbc-79f7a6a854f9/image/0`
+- `public.lessons/5e207993-508f-426b-ae71-f00aa4f782df/image/0`
+- `public.lessons/dc1d6249-c0cb-4982-9711-092b1dcffee3/image/0`
+- `public.lessons/f2947d7f-5697-4bdc-b561-ad880a1afdf1/image/0`
 
-`content-staging/tools/batch-001-controlled-apply.sql`
+The local paths under `تاسع انجليزي/.../الصور/...` remain immutable RAW evidence only.
 
-خصائصه:
+Fixes:
 
-- default = rollback-only؛ COMMIT يحتاج `-v apply=true` صريح.
-- re-resolve active grade-9/english offering before write.
-- lock exact scope + 4 lessons + 13 draft revisions.
-- verify target section absent under validated pre-state.
-- verify exact lesson -> draft lesson_asset -> ready media -> exact content_source_asset path/checksum chains.
-- resolve all reviewed questions by exact lesson + current prompt + page/checksum provenance.
-- abort on zero/multiple identity match, count drift, slug collision, provenance drift, or publication drift.
-- exercise exactly 1 section insert + 4 lesson structural updates + 7 question corrections.
-- no lesson/question/media identity creation on mismatch.
+- runtime gate commit: `3cd817414275aa31bcd67e7015ce48740409a43c`
+- SQL parity commit: `c8c15e1d04b7bb353f6ee0755beec7b33c66a7c2`
+
+The fixed gate requires:
+
+- canonical source path + immutable SHA-256;
+- expected legacy lesson slug before mutation;
+- exact lesson -> draft lesson_asset -> ready media -> content_source_asset chain;
+- question source page + checksum + same `content_source_asset_id`;
+- 13 exact draft revisions;
+- no target section before apply;
+- no target slug collision;
 - no publish/status promotion.
-- audit accounting explicit: schema requires 0 event rows for this migration gate; no actor is fabricated for `question_bank_events`.
 
-Commit `c782755e5fc213b0018d7aeaa569d5e521b5d5e5`:
+### Live proof
 
-`content-staging/runtime/batch-001-transaction-gate.mjs`
+Existing Railway utility service reused: `alwaslh-content-inspector`.
 
-هذه نسخة live rollback-only لخدمة Railway inspector: تنفذ نفس mutation set داخل transaction، تعمل post-validation، ثم ترمي sentinel متعمدًا ليقوم postgres.js بالـROLLBACK، وبعده تتحقق خارج transaction أن target section count عاد إلى 0.
+Successful rollback-only deployment:
 
-### Live verification state
+`a79244c2-731a-4573-b86b-089d31254933`
 
-Existing Railway utility service: `alwaslh-content-inspector` — reused؛ لم يتم إنشاء خدمة جديدة.
+Commit:
 
-تم ضبط start command للـgate إلى:
+`3cd817414275aa31bcd67e7015ce48740409a43c`
 
-`node batch-001-transaction-gate.mjs`
+Observed markers:
 
-Deployment الجاري لهذا checkpoint:
+`BATCH001_GATE_MUTATION_PHASE_PASS`
 
-`21020740-d3ff-4848-bf87-6cb2a4299021`
+- section inserts: 1
+- lesson updates: 4
+- question updates: 7
+- question no-ops: 6
+- corrected post-checks: 7
+- publication changes: 0
+- unrelated rows: 0
+- audit rows required by schema: 0
 
-عند آخر تحقق كان `BUILDING` ولم يصدر runtime log بعد. محاولتا Railway Agent one-off انتهتا بtimeout ولم تُحتسبا نجاحًا.
+`BATCH001_GATE_PASS_ROLLBACK_VERIFIED`
 
-لا تعتبر transaction gate ناجحة حتى يظهر كلا السطرين:
+- post-rollback section count: 0
+- post-rollback lessons verified: 4
+- post-rollback corrected questions verified: 7
 
-- `BATCH001_GATE_MUTATION_PHASE_PASS` مع `1 / 4 / 7`, question no-ops 6, publication 0, unrelated 0.
-- `BATCH001_GATE_PASS_ROLLBACK_VERIFIED` مع `postRollbackSectionCount=0`.
+Resolved lesson IDs:
 
-حتى الآن لا يوجد DB apply مصرح أو publication change في هذا checkpoint.
+- `767ec1b0-1447-4cb6-824f-4a544d709837`
+- `2959accf-c984-44f1-9959-c3d1507c8ce7`
+- `bb066699-f2ba-4b7e-bcdb-d6b313cdbc84`
+- `df8d57bd-ff0c-4303-abe1-83874838bc88`
 
-## 6. Exact resume action
+Committed DB writes from this gate: 0.
+Publication changes: 0.
+RAW/media changes: 0.
 
-1. اقرأ live heads للمستودعين والـworking branch.
-2. اقرأ `CONTENT_REBUILD_EXECUTION_STATUS.md` أولًا؛ هو أحدث من هذا handoff إذا اختلفا.
-3. افحص deployment `21020740-d3ff-4848-bf87-6cb2a4299021`.
-4. إذا اكتمل build لكنه لم يشغّل start command الجديد، redeploy **نفس** inspector service فقط؛ لا تنشئ service جديدًا.
-5. اقرأ logs واطلب PASS markers الاثنين أعلاه.
-6. إذا ظهر drift حقيقي، أصلح root cause في executor ثم أعد rollback-only gate.
-7. إذا PASS فقط: حدّث status/handoff وأغلق خطوة transaction gate. لا تعد تنفيذ semantic review أو dry-run.
-8. الخطوة التالية بعد إغلاق gate هي controlled PostgreSQL apply لنفس set فقط، ثم VERIFY؛ لا توسع الدفعة.
+## 6. Current checkpoint
 
-## 7. Remaining ordered queue
+`BATCH-001 = CONTROLLED_TRANSACTION_VERIFIED / APPLY_PENDING`
 
-- `BATCH-001` — `CONTROLLED_TRANSACTION_IMPLEMENTED / LIVE_ROLLBACK_PENDING`
-- `STRUCTURE-001`
-- `STRUCTURE-002`
-- `CURATION-001`
-- `CURATION-002`
-- `CONTENT-GAPS-001`
-- `MEDIA-001`
-- `IMPORT-001`
-- `VERIFY-001`
-- `ROADMAP-RETURN -> STUDENT-016I`
+Do not redo semantic review, media validation, or target dry-run.
 
-لا تنتقل إلى المهمة التالية قبل إغلاق المهمة الحالية بأدلتها.
+`PROJECT_STATUS.md` and `PROJECT_ENGINEERING_LOG.md` were intentionally not changed at this checkpoint because no product/runtime business data was committed and publication truth did not change.
+
+## 7. Exact resume action
+
+1. Read live heads for `7eaur/alwaslh`, `7eaur/alwaslh-go`, and the working branch.
+2. Read `CONTENT_REBUILD_EXECUTION_STATUS.md` + this handoff.
+3. Reconfirm immediate pre-apply drift guards only: target section still 0; four canonical source identities uniquely resolve; 13 revisions remain draft; publication is still closed.
+4. Execute the existing controlled PostgreSQL apply for exactly `1 section + 4 lesson updates + 7 corrected revisions`; no expansion.
+5. Immediately VERIFY committed counts, publication invariants, replay/idempotency, RAW/media immutability, and unrelated-row invariance.
+6. Update execution status, handoff, and product/project logs only where committed truth changes.
+7. Only after BATCH-001 closes, move to `STRUCTURE-001`.
+
+## 8. Ordered queue
+
+- `BATCH-001` — `CONTROLLED_TRANSACTION_VERIFIED / APPLY_PENDING`
+- `STRUCTURE-001` — TODO
+- `STRUCTURE-002` — TODO
+- `CURATION-001` — TODO
+- `CURATION-002` — TODO
+- `CONTENT-GAPS-001` — TODO
+- `MEDIA-001` — TODO
+- `IMPORT-001` — TODO
+- `VERIFY-001` — TODO
+- `ROADMAP-RETURN -> STUDENT-016I` — TODO
+
+لا تنتقل للمهمة التالية قبل إغلاق الحالية بأدلتها.
