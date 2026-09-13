@@ -2,7 +2,7 @@
 
 > اقرأ هذه النسخة + live heads قبل أي عمل. Code/DB/runtime evidence outrank stale prose.
 
-Last synchronized: **2026-09-13 — full Grade 9 English bulk import verified**.
+Last synchronized: **2026-09-14 — Grade 9 English full import verified; CURATION-002 committed state verified**.
 
 ## Fixed execution contract
 
@@ -20,10 +20,11 @@ Last synchronized: **2026-09-13 — full Grade 9 English bulk import verified**.
 Working repository/branch:
 
 - `7eaur/alwaslh-go@content/legacy-staging-rebuild`
-- bulk source commit: `9e58ab3e882b883bddd016099949881801eedc28`
-- bulk close-report commit: `fe9ad7cb6f32af22e9a56c84c1839e1e6b0f5f1b`
+- full-bulk source commit: `9e58ab3e882b883bddd016099949881801eedc28`
+- CURATION-002 implementation commit: `8e7b6c242a810aeb9d56e50277bc4d55aa66a3c6`
+- CURATION-002 reconciliation verifier commit: `2575d399db03be62911a927d5ce15bb8614fa9e8`
 
-Railway content service was returned to idle after the run; documentation commits must not replay the apply pipeline.
+Railway content service is configured to return to idle after this checkpoint; documentation commits must not replay import/apply logic.
 
 ## FULL-GRADE9-ENGLISH-BULK-IMPORT — DONE / FULL_ASSET_COVERAGE_VERIFIED / UNPUBLISHED
 
@@ -51,8 +52,9 @@ Recovered units:
 
 Source clarification:
 
-- `master` contains the separate Third Secondary/Pupil's Book 6 corpus; it was not used as Grade 9 evidence.
-- Grade 9 source evidence comes from `content/legacy-supabase-reconstruction`, immutable RAW, and `content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json`.
+- `master` contains the original Grade 9 English reference under `تاسع انجليزي/الانجليزي_تاسع` (`manifest.json`, page-by-page guide and source images). It is valid structural/reference evidence and was used to cross-check page/unit/title layout.
+- `master` also contains other corpora (including Third Secondary/Pupil's Book 6); those must not be confused with Grade 9.
+- Immutable RAW + reconstruction manifest + modern PostgreSQL remain the write/import authority; the original `master` corpus is reference evidence, not permission to overwrite modern state blindly.
 
 ### Runtime execution
 
@@ -89,7 +91,7 @@ Committed apply then verified:
 - ready Media Assets `69/69`
 - Lesson Assets `69/69`
 - Sections `8/8`
-- involved Lesson identities `59`
+- involved Lesson identities at bulk checkpoint `59`
 - new Sections created `6`
 - existing Sections reused `2`
 - Lessons newly assigned to recovered Section `54`
@@ -109,28 +111,63 @@ Publication/isolation state:
 
 ### Lesson-count interpretation
 
-`59` is **not** derived from `69 -> 62` or another arithmetic heuristic. It is the live set of Lesson identities owning the 69 verified Lesson Assets after earlier reviewed curation/reassignment. Every RAW-backed page/image identity is represented exactly once.
+`59` was the observed asset-owning Lesson identity count at the full bulk-import checkpoint. It was **not** derived from `69 -> 62` or another arithmetic heuristic. Every RAW-backed page/image identity was represented exactly once.
 
-The legacy extraction itself stores source rows as `content_type = lesson` page records. Modern curation may group multiple source pages into one Lesson (for example the already-reviewed Unit 2 slice) without losing page/image provenance.
+Modern curation may reduce the number of asset-owning Lessons by grouping multiple source pages into one reviewed Lesson while preserving the original page/image provenance and legacy question records.
 
-Therefore:
+Detailed bulk evidence: `content-staging/BULK_GRADE9_ENGLISH_IMPORT_REPORT.md`.
 
-- full book data import = **complete**;
-- full page/image coverage = **complete**;
-- unit assignment = **complete**;
-- provenance/checksum verification = **complete**;
-- publication = **closed intentionally**;
-- further pedagogical Lesson merge/rename refinement = optional follow-up, not missing-content import work.
+## CURATION-001 structural state — DONE / COMMITTED_STATE_VERIFIED
 
-Detailed evidence: `content-staging/BULK_GRADE9_ENGLISH_IMPORT_REPORT.md`.
+Previously reviewed Unit 2 pages `5..8` are one modern Lesson:
+
+- slug: `curated-english9-pb3-u2-describing-people-and-animals`
+- title: `Describing people and animals`
+- Lesson Assets: `4` ordered pages `5,6,7,8`
+- source legacy question revisions preserved: `12`
+- target question links intentionally remain `0` pending explicit semantic question curation
+- publication changes: `0`
+
+This grouping is backed by the reviewed `curation-001-unit-2-describing.json` contract and verified import/runtime evidence.
+
+## CURATION-002 structural state — DONE / COMMITTED_STATE_VERIFIED
+
+Reviewed Unit 2 pages `9..10` are now verified as one modern Lesson:
+
+- slug: `curated-english9-pb3-u2-time-and-meeting`
+- title: `Telling time and arranging a meeting`
+- target Lesson ID: `4e106cb7-bc27-4e0d-bd51-d401bc7e980e`
+- Lesson Assets: `2`, positions `0..1`, exact pages `9,10`
+- provenance/SHA verified: `2/2`
+- source legacy Lesson rows preserved: `2`, active/unpublished, sectionless and no longer owning those assets
+- source question revisions preserved unchanged/unpublished: `7/7`
+- target question links: `0` (semantic question migration remains intentionally separate)
+- publication changes: `0`
+- RAW mutations: `0`
+- media mutations: `0`
+
+Concurrency handling:
+
+- first controlled apply attempt failed closed because the target Lesson already existed (`target lesson already exists count=1`); no write was made by that attempt.
+- read-only reconciliation then verified the committed state instead of overwriting it.
+
+Railway verification deployment:
+
+`484f49af-01b4-4755-b8e3-d107641605b5` — `SUCCESS`
+
+Markers:
+
+- `CURATION002_RECONCILE_PASS`
+- `CURATION002_FULL_PASS`
+- status: `COMMITTED_STATE_VERIFIED`
 
 ## Prior closed checkpoints retained
 
 - `BATCH-001` — DONE / COMMITTED_STATE_VERIFIED
 - `STRUCTURE-001` — DONE / SECTION_BOUNDARY_VERIFIED
 - `STRUCTURE-002` — DONE / SECTION_BOUNDARY_VERIFIED
-- `CURATION-001` — DONE / LESSON_BOUNDARY_VERIFIED
-- `CURATION-002` — DONE / LESSON_BOUNDARY_VERIFIED
+- `CURATION-001` — DONE / LESSON_BOUNDARY_VERIFIED + COMMITTED_STATE_VERIFIED
+- `CURATION-002` — DONE / LESSON_BOUNDARY_VERIFIED + COMMITTED_STATE_VERIFIED
 - `CONTENT-GAPS-001` — DONE / GAP_INVENTORY_VERIFIED
 - `MEDIA-001` — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
 - `IMPORT-001` — DONE / COMMITTED_STATE_VERIFIED
@@ -139,13 +176,17 @@ Detailed evidence: `content-staging/BULK_GRADE9_ENGLISH_IMPORT_REPORT.md`.
 
 Do not repeat them unless fresh evidence invalidates their results.
 
-## Exact next action
+## Exact next Content action
 
-Do **not** rerun bulk import. Grade 9 English technical import is complete and verified.
+Do **not** rerun the full Grade 9 English bulk import.
 
-Next Content action, only if explicitly requested, is one of:
+Continue pedagogical refinement only from evidence-backed boundaries. The original `master` Grade 9 reference may be used to accelerate unit/page/title cross-checking, but differing adjacent page titles must not be merged solely by guesswork.
 
-- pedagogical curation refinement of Lesson grouping/naming on the already-imported 69 pages; or
-- explicit publication review/gate.
+Highest-value remaining Content work:
 
-Neither action may delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 62` heuristic, or auto-publish legacy/AI content.
+1. inventory the remaining Unit 2+ lesson boundaries against the original Grade 9 source and existing multi-page legacy groupings;
+2. apply only reviewed/evidence-backed grouping/renaming through rollback gate + controlled apply + post-verify;
+3. separately curate/migrate question semantics where required; do not infer question ownership from page grouping alone;
+4. keep publication locked until an explicit publication gate is approved.
+
+Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 62` heuristic, or auto-publish legacy/AI content.
