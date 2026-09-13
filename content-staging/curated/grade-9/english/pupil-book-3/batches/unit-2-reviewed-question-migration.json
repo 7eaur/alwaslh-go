@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "batch_id": "G9-EN-PB3-U2-REVIEWED-QUESTIONS",
+  "reviewed_at": "2026-09-14",
+  "status": "semantic_review_complete",
+  "scope": {
+    "grade": 9,
+    "subject": "English",
+    "document": "Pupil Book 3",
+    "unit": "Unit 2 - Describing: Making plans",
+    "book_pages": [5, 6, 7, 8, 9, 10],
+    "curated_lessons": [
+      "curated-english9-pb3-u2-describing-people-and-animals",
+      "curated-english9-pb3-u2-time-and-meeting"
+    ]
+  },
+  "review_basis": {
+    "raw_questions": "content-staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/pages.json",
+    "original_grade9_reference": "master:تاسع انجليزي/الانجليزي_تاسع",
+    "structural_manifest": "content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json",
+    "curation_contracts": [
+      "curation-001-unit-2-describing.json",
+      "curation-002-unit-2-time-and-meeting.json"
+    ],
+    "policy": "Approve only when prompt, options and keyed answer are supported by the same source page. Correct source-grounding errors without inventing facts. Keep every revision unpublished and preserve exact source provenance."
+  },
+  "counts": {
+    "reviewed": 19,
+    "approved_unchanged": 18,
+    "corrected": 1,
+    "rejected": 0
+  },
+  "pages": [
+    {
+      "book_page": 5,
+      "legacy_page_id": "706771c2-2145-4682-9bdd-4e7df5c69bf9",
+      "title": "What do they look like?",
+      "target_lesson": "curated-english9-pb3-u2-describing-people-and-animals",
+      "questions": [
+        {"decision":"approved","question":"The first person described weighs 79 kilos.","reason":"The first description states a weight of 79 kilos."},
+        {"decision":"approved","question":"What colour are his eyes?","reason":"The first description states that his eyes are brown."},
+        {"decision":"approved","question":"What is the weight of the tall, slim person described first?","reason":"The first tall, slim description explicitly gives 79 kilos."}
+      ]
+    },
+    {
+      "book_page": 6,
+      "legacy_page_id": "71ba9a99-e009-401f-b65f-8a956218a633",
+      "title": "Opposites",
+      "target_lesson": "curated-english9-pb3-u2-describing-people-and-animals",
+      "questions": [
+        {"decision":"approved","question":"Which person has a bad memory?","reason":"The page explicitly says Tom has got a bad memory and forgets everything."}
+      ]
+    },
+    {
+      "book_page": 7,
+      "legacy_page_id": "710cb3d4-e2c1-4d05-a1ef-2c0a1bbede2b",
+      "title": "Describing people",
+      "target_lesson": "curated-english9-pb3-u2-describing-people-and-animals",
+      "questions": [
+        {"decision":"approved","question":"Ali weighs 27 kilos.","reason":"False is correctly keyed: Fatma weighs 27 kilos while Ali weighs 63 kilos."},
+        {"decision":"approved","question":"Hassan's favourite bird is the black stork.","reason":"The page explicitly identifies the black stork as Hassan's favourite bird."},
+        {"decision":"approved","question":"How much does Ali weigh?","reason":"The page explicitly gives Ali's weight as 63 kilos."},
+        {"decision":"approved","question":"What is Fatma's hair like?","reason":"The page describes Fatma as having long black hair."},
+        {"decision":"approved","question":"What is Hassan's favourite bird?","reason":"The page explicitly gives the black stork."}
+      ]
+    },
+    {
+      "book_page": 8,
+      "legacy_page_id": "4b6090c2-744e-4fc6-8908-87c211a8713b",
+      "title": "Describing animals",
+      "target_lesson": "curated-english9-pb3-u2-describing-people-and-animals",
+      "questions": [
+        {"decision":"approved","question":"The animal described has a long tail.","reason":"The page explicitly describes a long tail."},
+        {"decision":"approved","question":"What colour is the animal described?","reason":"The described animal is explicitly brown."},
+        {"decision":"approved","question":"What does the animal eat?","reason":"The source explicitly says it eats fruit and nuts."}
+      ]
+    },
+    {
+      "book_page": 9,
+      "legacy_page_id": "b2449f0f-71f1-4e36-a739-cf64340f9c90",
+      "title": "What's the time?",
+      "target_lesson": "curated-english9-pb3-u2-time-and-meeting",
+      "questions": [
+        {"decision":"approved","question":"How is 12:15 expressed in the lesson?","reason":"The page explicitly presents 12:15 as quarter past twelve."},
+        {"decision":"approved","question":"How many minutes are there in an hour?","reason":"The page states sixty minutes in an hour."},
+        {"decision":"approved","question":"How many minutes are there in half an hour?","reason":"The page states thirty minutes in half an hour."},
+        {"decision":"approved","question":"There are sixty minutes in an hour.","reason":"The statement is explicitly supported by the page."}
+      ]
+    },
+    {
+      "book_page": 10,
+      "legacy_page_id": "75616176-b12d-47bb-bb6e-34cc3f902901",
+      "title": "Arranging to meet someone",
+      "target_lesson": "curated-english9-pb3-u2-time-and-meeting",
+      "questions": [
+        {"decision":"approved","question":"Football is scheduled at 5.15.","reason":"Sunday's diary explicitly lists football at 5.15."},
+        {"decision":"approved","question":"What time is the football activity on the schedule?","reason":"The schedule explicitly gives 5.15."},
+        {
+          "decision":"corrected",
+          "original_question":"When is Rashid meeting mentioned in the dialogue?",
+          "question":"When is Fuad helping Dad on Saturday?",
+          "options":["at six o'clock","at five o'clock","at seven o'clock","at eight o'clock"],
+          "correct_option_index":0,
+          "reason":"The legacy prompt incorrectly associates six o'clock with meeting Rashid. The dialogue says Fuad is helping Dad at six o'clock and meeting Rashid later in the evening. Rewording the prompt makes the existing keyed answer and options source-grounded."
+        }
+      ]
+    }
+  ],
+  "migration_contract": {
+    "revision_text_updates": 1,
+    "lesson_link_updates": 19,
+    "source_provenance_rows_must_remain_unchanged": true,
+    "question_revision_ids_must_be_reused": true,
+    "publication_changes_allowed": false,
+    "raw_mutation_allowed": false,
+    "media_mutation_allowed": false,
+    "requires_transaction_rollback_gate": true,
+    "requires_post_apply_verification": true
+  },
+  "publication": {
+    "auto_publish": false,
+    "required_state": "draft/unpublished"
+  }
+}
