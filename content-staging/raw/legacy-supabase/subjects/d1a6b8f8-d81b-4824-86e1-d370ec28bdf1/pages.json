@@ -1,0 +1,758 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891369949-37.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:17.831438+00:00",
+    "extracted_text": null,
+    "id": "7e1195dc-f5b9-433c-8bb2-042441e64676",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891369949-37.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 1 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891385130-38.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:35.448353+00:00",
+    "extracted_text": null,
+    "id": "8e6c5b87-e685-4c31-890e-e05601baa2b8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891385130-38.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 1 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891369982-39.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:22.259583+00:00",
+    "extracted_text": null,
+    "id": "1fe71d38-fd31-4459-8574-e8bb066a7a16",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891369982-39.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891369972-10.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:20.328754+00:00",
+    "extracted_text": null,
+    "id": "e14f1bb8-605c-4e6a-b01c-4ddca679af78",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891369972-10.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 2 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891391628-11.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:45.475944+00:00",
+    "extracted_text": null,
+    "id": "99739620-abe1-4d3e-8829-dbc472301b3f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891391628-11.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 2 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891395473-12.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:51.247394+00:00",
+    "extracted_text": null,
+    "id": "26ccb876-2d2b-4737-8df5-dea8a6b58d2b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891395473-12.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891369981-28.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:21.388814+00:00",
+    "extracted_text": null,
+    "id": "333ab343-7a37-4dbd-8091-5f005940f52f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891369981-28.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 3 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891387490-29.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:38.41317+00:00",
+    "extracted_text": null,
+    "id": "ac7dcfef-8924-4c5a-89e8-8290dc5d975d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891387490-29.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 3 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891381933-30.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:31.075014+00:00",
+    "extracted_text": null,
+    "id": "fbf82532-d9fb-45b7-a477-240d35eeb7b6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891381933-30.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 3"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891376143-25.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:23.617708+00:00",
+    "extracted_text": null,
+    "id": "e527ba89-cefd-4e89-a4ac-ad7c0f94feb1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891376143-25.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 4 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891380144-26.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:30.458372+00:00",
+    "extracted_text": null,
+    "id": "762e55a2-8cdb-414f-b06a-d58e8b0d89e1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891380144-26.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 4 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891376362-27.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:24.657993+00:00",
+    "extracted_text": null,
+    "id": "2aa7649b-3546-4083-8d3b-12b6a1c65fba",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891376362-27.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 4"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891385585-16.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:36.485936+00:00",
+    "extracted_text": null,
+    "id": "cfd05217-fff5-42d1-9502-e0f31432cf69",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891385585-16.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 5 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891377153-17.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:26.335653+00:00",
+    "extracted_text": null,
+    "id": "11807dc3-0021-4bbc-8845-3316697b639b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891377153-17.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 5 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891382747-18.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:32.710232+00:00",
+    "extracted_text": null,
+    "id": "885e273e-877a-46cb-84d4-4021f712b9ed",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891382747-18.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 5"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891386738-22.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:37.132842+00:00",
+    "extracted_text": null,
+    "id": "5b956caa-742c-45d9-830d-05c92800d87a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891386738-22.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 6 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891398578-23.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:55.245649+00:00",
+    "extracted_text": null,
+    "id": "1fba3b74-f17b-4f39-af76-7dc5542e1901",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891398578-23.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 6 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891382901-24.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:33.310312+00:00",
+    "extracted_text": null,
+    "id": "e52910c2-8c89-4dc5-bde8-ce24b7eab542",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891382901-24.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 6"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891389125-1.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:39.86692+00:00",
+    "extracted_text": null,
+    "id": "769652a1-36ff-4689-9bd4-c28911f7d729",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891389125-1.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 7 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891369971-2.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:18.650813+00:00",
+    "extracted_text": null,
+    "id": "c0ec4770-ce67-4cab-a548-847b82c9d00d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891369971-2.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 7 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891395076-3.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:49.345644+00:00",
+    "extracted_text": null,
+    "id": "d1f75d4a-b84e-4590-b283-04d4633e233d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891395076-3.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 7"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891389357-40.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:41.214643+00:00",
+    "extracted_text": null,
+    "id": "aab9c0d1-f0cb-429e-9a03-be822c50e34b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891389357-40.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 8 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891395336-41.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:50.406806+00:00",
+    "extracted_text": null,
+    "id": "2ead5286-f720-4811-9946-ff1125000123",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891395336-41.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 8 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891369972-42.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:19.466802+00:00",
+    "extracted_text": null,
+    "id": "da392ec0-0f5f-4089-9cf9-a57ef80479cc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891369972-42.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 8"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891391120-13.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:44.395086+00:00",
+    "extracted_text": null,
+    "id": "437e70eb-3913-41c8-b531-f1c1eba782ea",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891391120-13.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 9 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891377169-14.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:28.795857+00:00",
+    "extracted_text": null,
+    "id": "3e30236c-7109-4b0e-92ce-569e69cff792",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891377169-14.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 9 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891384796-15.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:34.808986+00:00",
+    "extracted_text": null,
+    "id": "cfa9395c-8087-4798-ae9c-c64a729c20cb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891384796-15.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 9"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891393769-31.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:48.628681+00:00",
+    "extracted_text": null,
+    "id": "7459a9e1-c8ec-41d1-bb57-523159cc1ab3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891393769-31.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 10 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891397331-32.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:53.407252+00:00",
+    "extracted_text": null,
+    "id": "24474e08-c1e4-4431-956b-3f235a3d0853",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891397331-32.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 10 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891389488-33.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:42.513906+00:00",
+    "extracted_text": null,
+    "id": "74514a66-9020-4974-9e37-271c7e4328cf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891389488-33.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 10"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891396959-4.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:52.086906+00:00",
+    "extracted_text": null,
+    "id": "a3ab7b0a-fc75-4bb1-8c1d-fa6272a12f3e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891396959-4.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 11 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891393715-5.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:47.845973+00:00",
+    "extracted_text": null,
+    "id": "8c771d79-3f1d-44cb-add9-b1ba5db2cfdd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891393715-5.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 11 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891390681-6.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:43.213666+00:00",
+    "extracted_text": null,
+    "id": "ada1d79f-8da8-44b6-8294-1a641af4bac1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891390681-6.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 11"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891399353-34.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:56.066873+00:00",
+    "extracted_text": null,
+    "id": "011bc792-a979-4466-991a-54b5a785162c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891399353-34.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 12 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891387928-35.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:39.052052+00:00",
+    "extracted_text": null,
+    "id": "372c884b-f347-450f-97e2-bdf2eefbdd1a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891387928-35.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 12 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891377166-36.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:27.044983+00:00",
+    "extracted_text": null,
+    "id": "e332d064-2366-43ac-aa99-6b4f41b9710f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891377166-36.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 12"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891399733-7.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:57.190195+00:00",
+    "extracted_text": null,
+    "id": "e6fc2b7b-0e38-4d37-a029-87223faf7b7d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891399733-7.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 13 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891382467-8.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:31.62454+00:00",
+    "extracted_text": null,
+    "id": "a5366f66-cd45-440c-8f66-ed0a8fec4a6d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891382467-8.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 13 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891376901-9.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:25.276821+00:00",
+    "extracted_text": null,
+    "id": "6e4878cc-2caa-44a3-bb37-881a0fd0e4d8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891376901-9.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 13"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891379736-19.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:29.787374+00:00",
+    "extracted_text": null,
+    "id": "27a66e9a-8324-4e84-9240-f8a32f2b3691",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891379736-19.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 14 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891398101-20.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:54.428681+00:00",
+    "extracted_text": null,
+    "id": "0fe017b9-6e10-4798-91dc-f4d3b0f9578f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891398101-20.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "النموذج 14 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786891393383-21.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T15:34:46.7884+00:00",
+    "extracted_text": null,
+    "id": "26e00a56-c8f6-41c1-b1dc-fa808a359c7b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786891393383-21.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 14"
+  }
+]
