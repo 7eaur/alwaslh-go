@@ -7,7 +7,9 @@
 -- BATCH-001-G9-EN-PB3-U1
 -- Default mode is transactional verification + ROLLBACK.
 -- COMMIT requires an explicit: psql -v apply=true -f content-staging/tools/batch-001-controlled-apply.sql
--- Legacy page UUIDs are provenance keys only. Modern lessons are resolved through exact source path/checksum.
+-- Legacy page UUIDs are provenance keys only. Modern lessons are resolved through the canonical
+-- PostgreSQL source identity public.lessons/<legacy page UUID>/image/0 plus immutable SHA-256.
+-- RAW extraction paths remain documentary evidence and are never mutated by this executor.
 
 BEGIN;
 SET LOCAL lock_timeout = '5s';
@@ -48,6 +50,7 @@ FOR UPDATE;
 
 CREATE TEMP TABLE _batch001_expected_lessons (
   legacy_page_id uuid PRIMARY KEY,
+  legacy_slug text NOT NULL,
   position int NOT NULL,
   book_page int NOT NULL,
   target_slug text NOT NULL,
@@ -57,10 +60,10 @@ CREATE TEMP TABLE _batch001_expected_lessons (
 ) ON COMMIT DROP;
 
 INSERT INTO _batch001_expected_lessons VALUES
-('2d98475c-91bf-4000-bfbc-79f7a6a854f9',0,1,'curated-english9-pb3-u1-p001-presents-from-london','Presents from London','تاسع انجليزي/الانجليزي_تاسع/الصور/p001 - Presents from London.jpg','ae3e89be65d1c9ec5f70e361a5e78ea903d6e305f22d399e2c88bf864f6c3a4f'),
-('5e207993-508f-426b-ae71-f00aa4f782df',1,2,'curated-english9-pb3-u1-p002-whats-my-job','What''s my job?','تاسع انجليزي/الانجليزي_تاسع/الصور/p002 - What''s my job -.jpg','1df05a27195e28e5543747c1f827a4d32c2bf937476c91ae69b0f4fe8b61b413'),
-('dc1d6249-c0cb-4982-9711-092b1dcffee3',2,3,'curated-english9-pb3-u1-p003-the-holidays','The holidays','تاسع انجليزي/الانجليزي_تاسع/الصور/p003 - The holidays.jpg','78741ebd493e6b7dbbc05115472fec173edbeab9e05079b806a61acd1d7d13ac'),
-('f2947d7f-5697-4bdc-b561-ad880a1afdf1',3,4,'curated-english9-pb3-u1-p004-a-postcard-from-london','A postcard from London','تاسع انجليزي/الانجليزي_تاسع/الصور/p004 - A postcard from London.jpg','86d655468bfbc73248da92e0d16d4b4dcccc0217df241e69bac94f6cee6cf321');
+('2d98475c-91bf-4000-bfbc-79f7a6a854f9','legacy-sb-2d53aec17e54f46db304',0,1,'curated-english9-pb3-u1-p001-presents-from-london','Presents from London','public.lessons/2d98475c-91bf-4000-bfbc-79f7a6a854f9/image/0','ae3e89be65d1c9ec5f70e361a5e78ea903d6e305f22d399e2c88bf864f6c3a4f'),
+('5e207993-508f-426b-ae71-f00aa4f782df','legacy-sb-908a58f8e7b25f82c787',1,2,'curated-english9-pb3-u1-p002-whats-my-job','What''s my job?','public.lessons/5e207993-508f-426b-ae71-f00aa4f782df/image/0','1df05a27195e28e5543747c1f827a4d32c2bf937476c91ae69b0f4fe8b61b413'),
+('dc1d6249-c0cb-4982-9711-092b1dcffee3','legacy-sb-4e1131b5222334610174',2,3,'curated-english9-pb3-u1-p003-the-holidays','The holidays','public.lessons/dc1d6249-c0cb-4982-9711-092b1dcffee3/image/0','78741ebd493e6b7dbbc05115472fec173edbeab9e05079b806a61acd1d7d13ac'),
+('f2947d7f-5697-4bdc-b561-ad880a1afdf1','legacy-sb-840f23a0e0a98aaa674e',3,4,'curated-english9-pb3-u1-p004-a-postcard-from-london','A postcard from London','public.lessons/f2947d7f-5697-4bdc-b561-ad880a1afdf1/image/0','86d655468bfbc73248da92e0d16d4b4dcccc0217df241e69bac94f6cee6cf321');
 
 CREATE TEMP TABLE _batch001_lessons ON COMMIT DROP AS
 SELECT e.*, l.id AS lesson_id, la.id AS lesson_asset_id, ma.id AS media_asset_id, csa.id AS source_asset_id
@@ -71,7 +74,7 @@ JOIN media_assets ma
   ON ma.content_source_asset_id = csa.id AND ma.status = 'ready' AND ma.source_checksum_sha256 = e.source_sha256
 JOIN lesson_assets la
   ON la.media_asset_id = ma.id AND la.publication_status = 'draft' AND la.asset_published_at IS NULL
-JOIN lessons l ON l.id = la.lesson_id
+JOIN lessons l ON l.id = la.lesson_id AND l.slug = e.legacy_slug
 JOIN _batch001_scope sc ON sc.class_id = l.class_id AND sc.subject_id = l.subject_id
 WHERE l.status = 'active' AND l.published_at IS NULL;
 
@@ -127,7 +130,7 @@ INSERT INTO _batch001_questions VALUES
 ('f2947d7f-5697-4bdc-b561-ad880a1afdf1',1,'What did Amna write to Mariam?','approved','multiple_choice','What did Amna write to Mariam?',NULL,NULL);
 
 CREATE TEMP TABLE _batch001_question_resolution ON COMMIT DROP AS
-SELECT q.*, l.lesson_id, l.book_page, l.source_sha256, r.id AS revision_id
+SELECT q.*, l.lesson_id, l.book_page, l.source_sha256, l.source_asset_id, r.id AS revision_id
 FROM _batch001_questions q
 JOIN _batch001_lessons l USING (legacy_page_id)
 JOIN question_bank_revision_lessons rl ON rl.lesson_id = l.lesson_id
@@ -149,7 +152,8 @@ DO $$ DECLARE n int; BEGIN
   FROM _batch001_question_resolution q
   WHERE 1 <> (SELECT count(*) FROM question_bank_revision_sources rs
               WHERE rs.revision_id=q.revision_id AND rs.page_number=q.book_page
-                AND rs.input_checksum_sha256=q.source_sha256);
+                AND rs.input_checksum_sha256=q.source_sha256
+                AND rs.content_source_asset_id=q.source_asset_id);
   IF n <> 0 THEN RAISE EXCEPTION 'BATCH-001 question provenance ambiguity/missing count %', n; END IF;
 END $$;
 
