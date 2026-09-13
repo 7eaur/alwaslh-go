@@ -15,9 +15,9 @@ Rules remain fixed:
 
 ## Live repository heads observed at start of this run
 
-- `7eaur/alwaslh main`: `343ff1fd7b3d64d7e990b72606695365f520fa58`
+- `7eaur/alwaslh main`: `c5ccbc9b0d0e88ef8798bbae6a3cc0bf933b5a7e`
 - `7eaur/alwaslh-go master`: `f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23`
-- work branch at start: `content/legacy-staging-rebuild` = `0f6b7036ae025071bce7d25f535868a1369f7b15`
+- work branch at start: `content/legacy-staging-rebuild` = `ff1671eded69b2a50bb031a10aa816be32bf3a71`
 
 ## BATCH-001 — CLOSED / COMMITTED STATE VERIFIED
 
@@ -25,141 +25,89 @@ Batch: `BATCH-001-G9-EN-PB3-U1`
 
 Target: Grade 9 / English / Pupil Book 3 / `Unit 1 - Revision`.
 
-Reviewed boundaries:
-1. `Presents from London` — page 1 — 4 questions
-2. `What's my job?` — page 2 — 4 questions
-3. `The holidays` — page 3 — 3 questions
-4. `A postcard from London` — page 4 — 2 questions
+Verified committed state retained:
+- target Section: exactly `1`
+- exact reused Lessons: `4`
+- exact Lesson Assets: `4`, all `draft`
+- exact Media Assets: `4`, all `ready`
+- Question Revisions: `13` = `7 corrected + 6 unchanged`
+- question provenance links: `13/13`
+- target-slug duplicates: `0`
+- publication: lessons `0`, lesson assets `0`, questions `0`
+- RAW/media mutation: `0`
+- final verifier deployment: `c3e609b3-f632-46e9-9fde-680330512eee`
+- marker: `BATCH001_POST_APPLY_VERIFY_PASS`
 
-This does not establish a global one-page-equals-one-lesson rule.
-
-### Prior completed gates retained
-
-- semantic review: `13` reviewed = `6` unchanged + `7` corrected + `0` rejected
-- duplicate-safe dry-run: exact intended business effect `12 = 1 section + 4 lesson updates + 7 question corrections`
-- publication mutations expected: `0`
-- unrelated mutations expected: `0`
-- rollback transaction gate previously verified live
-- runtime gate root-cause fix: `3cd817414275aa31bcd67e7015ce48740409a43c`
-- controlled SQL parity: `c8c15e1d04b7bb353f6ee0755beec7b33c66a7c2`
-- modern target dry-run: `557527bf59c71fdeb05c095bda1b4dedc94f8ea2`
-- duplicate-safe contract: `e008731860612a58d7e3b4a29ec97222ceb62305`
-- semantic review: `eae7b9d8b3b61b20f4ca74cb75f222aa5b6f9e60`
-- DB/media validation: `e90891c6395813609d0f0cefe726c1cc3d4ac893`
-- immutable legacy snapshot SHA-256: `2dfde94f6b70c037bb15d2782d11f036441c4abe130295be772c59b5e0131d0c`
-
-### Media decision remains unchanged
-
+Media decision remains unchanged:
 - RAW JPEG total: `440,502` bytes
 - existing display WebP total: `549,794` bytes
 - delta: `+24.81%`
 - current WebP profile is not an optimization success
-- BATCH-001 performed no RAW/media mutation
 
-## This run — concurrent advancement detected and handled safely
+Do not perform more BATCH-001 mutation.
 
-A bounded commit executor was added in commit:
-- `cebde403957b5932d4dd123784a6684e1be77bd3`
+## STRUCTURE-001 — DONE / SECTION BOUNDARY VERIFIED
 
-Its explicit Railway apply deployment:
-- `90867b02-30af-4886-9dbf-b26f0c1d8281`
+Smallest reviewable structural batch: Grade 9 / English / Pupil Book 3 / `Unit 2 - Describing: Making plans`.
 
-failed closed before mutation because the first lesson no longer had its expected legacy slug. No writes from that executor were committed.
+Evidence file created in commit:
+- `4ff71ca280c432392c8d91737374c77232b3fe69`
+- file: `content-staging/curated/grade-9/english/pupil-book-3/structure-001-unit-2.json`
 
-The failure was treated as live-state drift, not bypassed.
+Verified section boundary:
+- first book page: `5`
+- last book page: `15`
+- first source page: `9`
+- last source page: `19`
+- page count: `11`
+- preserved legacy questions across these pages: `30`
+- next book page `16` explicitly transitions to `Unit 3 - Other countries`
 
-A read-only state inspector was added in:
-- `d0a7efff94683d5647c81b0589c6b2bfab822fa6`
+Structural safety assertions:
+- Unit/Section membership verified from manifest structural evidence + contiguous reconstruction candidates.
+- Page titles remain Lesson/Activity candidates only.
+- `lesson_boundaries_approved = false`.
+- No one-page-equals-one-lesson rule inferred.
+- No question rewriting performed.
+- No RAW mutation performed.
+- No PostgreSQL mutation performed.
+- No publication state changed.
+- No anomaly or unrelated record removed.
 
-Railway deployment:
-- `bb20e38e-4167-4706-9e0d-b3e514206704`
-- result: `SUCCESS`
-
-It proved that the exact intended BATCH-001 target state had already advanced in PostgreSQL through another concurrent path before this run's apply could execute. We did not overwrite or re-apply it.
-
-Observed committed state:
-- target Section: exactly `1`
-- Section ID: `1b4a98df-014d-4815-b496-46891df3f3f7`
-- exact reused Lessons: `4`
-- exact Lesson Assets: `4`, all still `draft`
-- exact Media Assets: `4`, all `ready`
-- Question Revisions: `13`
-- corrected questions present: `7`
-- unchanged questions present: `6`
-- publication: lessons `0`, lesson assets `0`, questions `0`
-
-Exact lesson IDs remained:
-- `767ec1b0-1447-4cb6-824f-4a544d709837`
-- `2959accf-c984-44f1-9959-c3d1507c8ce7`
-- `bb066699-f2ba-4b7e-bcdb-d6b313cdbc84`
-- `df8d57bd-ff0c-4303-abe1-83874838bc88`
-
-## Post-apply committed-state verification — PASS
-
-Read-only verifier added in:
-- `1fdbb809da5030ce32a283c3765f90847d76ba0b`
-
-Verified Railway deployment:
-- `c3e609b3-f632-46e9-9fde-680330512eee`
-- result: `SUCCESS`
-- required marker: `BATCH001_POST_APPLY_VERIFY_PASS`
-
-Verified counts/invariants:
-- curriculum sections: target exactly `1`
-- lessons: `4`
-- lesson assets: `4`
-- media assets: `4`
-- question revisions: `13`
-- question source/provenance links: `13/13`
-- corrected: `7`
-- unchanged: `6`
-- target-slug duplicates: `0`
-- display variants: `4`
-- display WebP bytes: `549,794` unchanged
-- all media variant rows for the 4 media assets: `16`
-- published lessons: `0`
-- published lesson assets: `0`
-- published questions: `0`
-
-Canonical source path + immutable SHA-256 chains still resolve uniquely for all four lessons. Question provenance remains bound to the matching canonical source asset/checksum.
-
-### Mutation attribution for this run
-
-- writes committed by this run's explicit apply executor: `0`
-- reason: fail-closed drift guard triggered before mutation
-- target state found already committed by concurrent advancement: exact intended BATCH-001 state
-- no duplicate apply attempted after detection
-- publication changes by this run: `0`
-- RAW/media changes by this run: `0`
+This closes only the Unit 2 Section boundary task. It does not curate Lesson boundaries or approve questions.
 
 ## Gate checklist
 
-1. `[DONE]` Bound Unit 1 into 4 reviewed Lesson/Activity boundaries.
-2. `[DONE]` Verify DB/media/provenance read-only.
-3. `[DONE]` Reject oversized current WebP profile as optimization success.
-4. `[DONE]` Keep publication closed.
-5. `[DONE]` Review all 13 questions: 6 unchanged / 7 corrected / 0 rejected.
-6. `[DONE]` Produce duplicate-safe modern target dry-run.
-7. `[DONE]` Fix expected direct effect at exactly 12 business rows.
-8. `[DONE]` Controlled rollback executor verified live.
-9. `[DONE]` Detect committed target state without re-applying concurrent work.
-10. `[DONE]` Verify committed rows, provenance, duplicates, publication and media invariants.
+### BATCH-001
+1. `[DONE]` Reviewed Unit 1 boundaries and 13 questions.
+2. `[DONE]` Duplicate-safe dry-run + controlled transaction verification.
+3. `[DONE]` Committed target state verification with publication closed.
 
-Current batch status: `BATCH-001 = CLOSED / COMMITTED_STATE_VERIFIED`.
+### STRUCTURE-001
+1. `[DONE]` Select smallest structural batch: Unit 2 only.
+2. `[DONE]` Verify book/source page start and end.
+3. `[DONE]` Verify explicit transition to the next section.
+4. `[DONE]` Preserve all 11 source identities and 30 question attachments.
+5. `[DONE]` Keep Lesson boundaries unresolved for later curation.
+6. `[DONE]` Keep DB/RAW/publication untouched.
+
+Current task status: `STRUCTURE-001 = DONE / SECTION_BOUNDARY_VERIFIED`.
 
 ## Exact next action
 
-Do not perform more BATCH-001 mutation. On the next run:
-1. read live heads + status + handoff;
-2. confirm BATCH-001 remains stable if any new drift is visible;
-3. start `STRUCTURE-001` only, using the smallest reviewable structural batch;
-4. keep BATCH-001 content unpublished until its later explicit publication gate.
+On the next run:
+1. read live heads + this status + handoff;
+2. do not reopen BATCH-001 or STRUCTURE-001 unless live drift invalidates evidence;
+3. execute `STRUCTURE-002` only, using the smallest next structural batch;
+4. preserve source identities, anomalies, RAW and question-to-page provenance;
+5. do not infer final Lesson boundaries during structural reconstruction;
+6. document results before moving to CURATION-001.
 
 ## Remaining ordered queue
 
 - `BATCH-001` — DONE: `CLOSED / COMMITTED_STATE_VERIFIED`
-- `STRUCTURE-001` — NEXT
-- `STRUCTURE-002` — TODO
+- `STRUCTURE-001` — DONE: `SECTION_BOUNDARY_VERIFIED`
+- `STRUCTURE-002` — NEXT
 - `CURATION-001` — TODO
 - `CURATION-002` — TODO
 - `CONTENT-GAPS-001` — TODO
@@ -170,6 +118,6 @@ Do not perform more BATCH-001 mutation. On the next run:
 
 ## Run rules
 
-At every run: read live heads + this file + handoff; continue the first incomplete task only; use the smallest reviewable batch; verify before declaring pass; update this file with exact SHAs, deployment IDs, counts, failures, and next action.
+At every run: read live heads + this file + handoff; continue the first incomplete task only; use the smallest reviewable batch; verify before declaring pass; update this file with exact SHAs, deployment IDs/counts/failures when relevant, and next action.
 
 Never mutate RAW in place, auto-publish legacy/AI content, use `69 -> 62` as curriculum truth, delete anomalies for cosmetic counts, import unreviewed candidates, or mutate unrelated records.
