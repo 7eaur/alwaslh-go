@@ -1,0 +1,898 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:02.87792+00:00",
+    "extracted_text": null,
+    "id": "a8b527c9-c8bb-4fb1-9049-854aef47e066",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/a8b527c9-c8bb-4fb1-9049-854aef47e066/page_0009.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الأول - من آيات الله تعالى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:03.102887+00:00",
+    "extracted_text": null,
+    "id": "4ab75f52-e31b-4f7b-9cf6-edbcaa8cfa35",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/4ab75f52-e31b-4f7b-9cf6-edbcaa8cfa35/page_0010.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الأول - من آيات الله تعالى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:03.323505+00:00",
+    "extracted_text": null,
+    "id": "db7de716-ed81-4a4a-bd63-9c76d18b0211",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/db7de716-ed81-4a4a-bd63-9c76d18b0211/page_0011.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الأول - من آيات الله تعالى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:03.551475+00:00",
+    "extracted_text": null,
+    "id": "b042e3ba-0429-41a8-ab04-f8960ecb78dd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/b042e3ba-0429-41a8-ab04-f8960ecb78dd/page_0012.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الأول - من آيات الله تعالى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:03.774108+00:00",
+    "extracted_text": null,
+    "id": "31027f4b-c019-4de2-9d22-a34fe6f570b4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/31027f4b-c019-4de2-9d22-a34fe6f570b4/page_0013.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الأول - من آيات الله تعالى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:04.000528+00:00",
+    "extracted_text": null,
+    "id": "4d0ba93f-f0cd-4c4e-b248-eab900f5c706",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/4d0ba93f-f0cd-4c4e-b248-eab900f5c706/page_0014.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الأول - من آيات الله تعالى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:04.239913+00:00",
+    "extracted_text": null,
+    "id": "29e60761-1d4a-4c90-b5b0-da69ce44cce6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/29e60761-1d4a-4c90-b5b0-da69ce44cce6/page_0015.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثاني - إرشادات نبوية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:04.462859+00:00",
+    "extracted_text": null,
+    "id": "29b3e869-ec32-4f80-aa09-6b8a32d57a5a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/29b3e869-ec32-4f80-aa09-6b8a32d57a5a/page_0016.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثاني - إرشادات نبوية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:04.682674+00:00",
+    "extracted_text": null,
+    "id": "3469b953-c6cc-4f4a-9757-804d8fd875cb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/3469b953-c6cc-4f4a-9757-804d8fd875cb/page_0017.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثاني - إرشادات نبوية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:04.905345+00:00",
+    "extracted_text": null,
+    "id": "a8851141-b61d-4f7d-aa30-a77fa95c1b22",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/a8851141-b61d-4f7d-aa30-a77fa95c1b22/page_0018.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثاني - إرشادات نبوية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:05.133286+00:00",
+    "extracted_text": null,
+    "id": "dc62c883-cae6-4ad2-8ab5-9d1cdc6bba70",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/dc62c883-cae6-4ad2-8ab5-9d1cdc6bba70/page_0019.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثالث - الثروة الحيوانية والسمكية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:05.364776+00:00",
+    "extracted_text": null,
+    "id": "be4a2c2f-913a-47ae-bab3-036313845e4a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/be4a2c2f-913a-47ae-bab3-036313845e4a/page_0020.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثالث - الثروة الحيوانية والسمكية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:05.592008+00:00",
+    "extracted_text": null,
+    "id": "fd4f58e9-576d-487b-be39-cf061f4289cb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/fd4f58e9-576d-487b-be39-cf061f4289cb/page_0021.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثالث - الثروة الحيوانية والسمكية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:05.820959+00:00",
+    "extracted_text": null,
+    "id": "dc68bf0c-3ee9-4e89-8a45-ec4b5aa5289d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/dc68bf0c-3ee9-4e89-8a45-ec4b5aa5289d/page_0022.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثالث - الثروة الحيوانية والسمكية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:06.038954+00:00",
+    "extracted_text": null,
+    "id": "df9c9ef8-6255-4e04-830a-6498a0238634",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/df9c9ef8-6255-4e04-830a-6498a0238634/page_0023.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثالث - الثروة الحيوانية والسمكية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:06.247048+00:00",
+    "extracted_text": null,
+    "id": "788c332d-a905-44dd-94dd-cb421dad34c5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/788c332d-a905-44dd-94dd-cb421dad34c5/page_0024.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثالث - الثروة الحيوانية والسمكية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:06.467719+00:00",
+    "extracted_text": null,
+    "id": "9e76bf82-98dd-4d6c-9ba2-648e728ea671",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/9e76bf82-98dd-4d6c-9ba2-648e728ea671/page_0025.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثالث - الثروة الحيوانية والسمكية"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:06.689474+00:00",
+    "extracted_text": null,
+    "id": "797ffcc9-b1bf-4271-bf5f-b0600c7eaec0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/797ffcc9-b1bf-4271-bf5f-b0600c7eaec0/page_0026.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الرابع - من معلقة زهير بن أبي سلمى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:06.906004+00:00",
+    "extracted_text": null,
+    "id": "e998c57a-47e7-4686-9603-a9215a7ad1fa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/e998c57a-47e7-4686-9603-a9215a7ad1fa/page_0027.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الرابع - من معلقة زهير بن أبي سلمى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:07.130431+00:00",
+    "extracted_text": null,
+    "id": "a13cf7a9-27f3-492b-9f12-79869b88139c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/a13cf7a9-27f3-492b-9f12-79869b88139c/page_0028.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الرابع - من معلقة زهير بن أبي سلمى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:07.366396+00:00",
+    "extracted_text": null,
+    "id": "25c8bdcc-cdcc-4b5a-a99c-967799c900b7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/25c8bdcc-cdcc-4b5a-a99c-967799c900b7/page_0029.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الرابع - من معلقة زهير بن أبي سلمى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:07.5886+00:00",
+    "extracted_text": null,
+    "id": "462ae3c6-a077-4768-96cc-aae9e5db7c44",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/462ae3c6-a077-4768-96cc-aae9e5db7c44/page_0030.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الرابع - من معلقة زهير بن أبي سلمى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:07.819118+00:00",
+    "extracted_text": null,
+    "id": "44e093c8-96a0-4764-9888-9514b8d9b28c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/44e093c8-96a0-4764-9888-9514b8d9b28c/page_0031.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الرابع - من معلقة زهير بن أبي سلمى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:08.048512+00:00",
+    "extracted_text": null,
+    "id": "dafb4988-5ba6-4bf3-b1fd-5a441e284ccd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/dafb4988-5ba6-4bf3-b1fd-5a441e284ccd/page_0032.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الرابع - من معلقة زهير بن أبي سلمى"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:08.288356+00:00",
+    "extracted_text": null,
+    "id": "9204e610-f419-4e6c-8937-2f7e3e6fd273",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/9204e610-f419-4e6c-8937-2f7e3e6fd273/page_0033.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الخامس - الأمن السيبراني درع العصر الرقمي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:08.508465+00:00",
+    "extracted_text": null,
+    "id": "0e9c8e67-f223-46bb-a9e1-6b0fafc737a5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/0e9c8e67-f223-46bb-a9e1-6b0fafc737a5/page_0034.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الخامس - الأمن السيبراني درع العصر الرقمي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:08.725242+00:00",
+    "extracted_text": null,
+    "id": "41d72e80-3f62-464e-ab7e-7008ec0e3b42",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/41d72e80-3f62-464e-ab7e-7008ec0e3b42/page_0035.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الخامس - الأمن السيبراني درع العصر الرقمي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:08.950398+00:00",
+    "extracted_text": null,
+    "id": "e6f58aef-5109-4637-8402-5df001d7214b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/e6f58aef-5109-4637-8402-5df001d7214b/page_0036.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الخامس - الأمن السيبراني درع العصر الرقمي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:09.166768+00:00",
+    "extracted_text": null,
+    "id": "1c73cd83-1379-4740-8263-c4cc305af875",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/1c73cd83-1379-4740-8263-c4cc305af875/page_0037.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الخامس - الأمن السيبراني درع العصر الرقمي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:09.394804+00:00",
+    "extracted_text": null,
+    "id": "7a2543e4-9120-49b5-b969-da28ae98288b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/7a2543e4-9120-49b5-b969-da28ae98288b/page_0038.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الخامس - الأمن السيبراني درع العصر الرقمي"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:09.6143+00:00",
+    "extracted_text": null,
+    "id": "d6e13838-fe99-4012-9274-09645cecd2f5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/d6e13838-fe99-4012-9274-09645cecd2f5/page_0039.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السادس - الهجمة الصهيونية على أمتنا (1)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:09.833376+00:00",
+    "extracted_text": null,
+    "id": "5b13e29d-d3f0-4f0a-84a8-6613b4a165ea",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/5b13e29d-d3f0-4f0a-84a8-6613b4a165ea/page_0040.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السادس - الهجمة الصهيونية على أمتنا (1)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:10.050918+00:00",
+    "extracted_text": null,
+    "id": "514b83d4-0d71-43cd-9c36-ff74584fd8d2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/514b83d4-0d71-43cd-9c36-ff74584fd8d2/page_0041.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السادس - الهجمة الصهيونية على أمتنا (1)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:10.277313+00:00",
+    "extracted_text": null,
+    "id": "e43099a3-f6ac-4ccb-bc28-af679d015a4c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/e43099a3-f6ac-4ccb-bc28-af679d015a4c/page_0042.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السادس - الهجمة الصهيونية على أمتنا (1)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:10.502076+00:00",
+    "extracted_text": null,
+    "id": "17332f31-8fb3-483b-9db0-81c895499ea4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/17332f31-8fb3-483b-9db0-81c895499ea4/page_0043.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السادس - الهجمة الصهيونية على أمتنا (1)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:10.73374+00:00",
+    "extracted_text": null,
+    "id": "d30873cd-ef94-404d-8778-6d5b4f657005",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/d30873cd-ef94-404d-8778-6d5b4f657005/page_0044.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السادس - الهجمة الصهيونية على أمتنا (1)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:10.959343+00:00",
+    "extracted_text": null,
+    "id": "97e22d3e-7df4-414c-a477-f945715d4229",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/97e22d3e-7df4-414c-a477-f945715d4229/page_0045.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السابع - الهجمة الصهيونية على أمتنا (2)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:11.187379+00:00",
+    "extracted_text": null,
+    "id": "2fc68905-7e81-48e5-a8b0-c2dce31f6682",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/2fc68905-7e81-48e5-a8b0-c2dce31f6682/page_0046.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السابع - الهجمة الصهيونية على أمتنا (2)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:11.413513+00:00",
+    "extracted_text": null,
+    "id": "9a86848c-cf42-4981-afa2-1e24cd68c399",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/9a86848c-cf42-4981-afa2-1e24cd68c399/page_0047.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السابع - الهجمة الصهيونية على أمتنا (2)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:11.628004+00:00",
+    "extracted_text": null,
+    "id": "cae6f6b8-b782-4f65-bc73-8a2e263aea9b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/cae6f6b8-b782-4f65-bc73-8a2e263aea9b/page_0048.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السابع - الهجمة الصهيونية على أمتنا (2)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:11.842377+00:00",
+    "extracted_text": null,
+    "id": "84921605-7047-4ad5-9226-71d380f6de0d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/84921605-7047-4ad5-9226-71d380f6de0d/page_0049.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السابع - الهجمة الصهيونية على أمتنا (2)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:12.060019+00:00",
+    "extracted_text": null,
+    "id": "2f6e08ca-cc17-48e5-98f5-a6d1436fb5f7",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/2f6e08ca-cc17-48e5-98f5-a6d1436fb5f7/page_0050.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس السابع - الهجمة الصهيونية على أمتنا (2)"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:12.28834+00:00",
+    "extracted_text": null,
+    "id": "741ac1f2-e2a3-4ea2-9520-386c02d9a21d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/741ac1f2-e2a3-4ea2-9520-386c02d9a21d/page_0051.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثامن - المشروع القرآني في مواجهة المشروع الصهيوني"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:12.51539+00:00",
+    "extracted_text": null,
+    "id": "0976f613-be2a-4cfc-b1bc-30e5d4001d8d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/0976f613-be2a-4cfc-b1bc-30e5d4001d8d/page_0052.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثامن - المشروع القرآني في مواجهة المشروع الصهيوني"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:12.74579+00:00",
+    "extracted_text": null,
+    "id": "c9d4a352-93d0-4972-9ccc-19865cafb5c4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/c9d4a352-93d0-4972-9ccc-19865cafb5c4/page_0053.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثامن - المشروع القرآني في مواجهة المشروع الصهيوني"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:12.970857+00:00",
+    "extracted_text": null,
+    "id": "4070d538-7941-4feb-bcad-f0bde6226416",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/4070d538-7941-4feb-bcad-f0bde6226416/page_0054.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثامن - المشروع القرآني في مواجهة المشروع الصهيوني"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:13.191008+00:00",
+    "extracted_text": null,
+    "id": "6d2d3476-5975-495a-9f84-088be6bfbb38",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/6d2d3476-5975-495a-9f84-088be6bfbb38/page_0055.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثامن - المشروع القرآني في مواجهة المشروع الصهيوني"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:13.418021+00:00",
+    "extracted_text": null,
+    "id": "fb890154-7f7f-49b5-afa0-575c65a74063",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/fb890154-7f7f-49b5-afa0-575c65a74063/page_0056.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثامن - المشروع القرآني في مواجهة المشروع الصهيوني"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:13.634095+00:00",
+    "extracted_text": null,
+    "id": "5bb93f33-c85f-4a09-b8b8-2ef459e86d1a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/5bb93f33-c85f-4a09-b8b8-2ef459e86d1a/page_0057.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثامن - المشروع القرآني في مواجهة المشروع الصهيوني"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:13.850986+00:00",
+    "extracted_text": null,
+    "id": "a933712d-d3dc-456a-b5cf-311ffc69bc58",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/a933712d-d3dc-456a-b5cf-311ffc69bc58/page_0058.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس الثامن - المشروع القرآني في مواجهة المشروع الصهيوني"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:14.058823+00:00",
+    "extracted_text": null,
+    "id": "605c951f-b5ca-4930-b291-9dd23dd5b338",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/605c951f-b5ca-4930-b291-9dd23dd5b338/page_0059.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس التاسع - مواجهة الأمراض"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:14.286891+00:00",
+    "extracted_text": null,
+    "id": "f84200c4-911c-48fc-a7ec-0df708cf7629",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/f84200c4-911c-48fc-a7ec-0df708cf7629/page_0060.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس التاسع - مواجهة الأمراض"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:14.503419+00:00",
+    "extracted_text": null,
+    "id": "95ab251c-4e6c-44bd-8aea-40abd5d1cb0f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/95ab251c-4e6c-44bd-8aea-40abd5d1cb0f/page_0061.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس التاسع - مواجهة الأمراض"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:14.722426+00:00",
+    "extracted_text": null,
+    "id": "d9b26899-fb5d-4b4d-94af-d37271c81bf6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/d9b26899-fb5d-4b4d-94af-d37271c81bf6/page_0062.jpg"
+    ],
+    "page_number": 61,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس التاسع - مواجهة الأمراض"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:14.932902+00:00",
+    "extracted_text": null,
+    "id": "3519f80e-faf2-4d7c-b682-538ad5190c8f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/3519f80e-faf2-4d7c-b682-538ad5190c8f/page_0063.jpg"
+    ],
+    "page_number": 62,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس التاسع - مواجهة الأمراض"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-13T04:27:15.161676+00:00",
+    "extracted_text": null,
+    "id": "1f3c1529-8418-4c8b-94ac-9bedd6f4b900",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/489a5448-7ae1-48d1-8518-8a2402c1a82c/subject/0e2ef342-f18c-445d-bf37-d98ee1e306bc/lesson/1f3c1529-8418-4c8b-94ac-9bedd6f4b900/page_0064.jpg"
+    ],
+    "page_number": 63,
+    "subject_id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+    "summary": null,
+    "title": "الدرس التاسع - مواجهة الأمراض"
+  }
+]
