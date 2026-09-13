@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "batch_id": "BATCH-001-G9-EN-PB3-U1",
-  "status": "validation_in_progress",
+  "status": "dry_run_validated",
   "source": {
     "repository": "7eaur/alwaslh-go",
     "branch": "content/legacy-staging-rebuild",
@@ -22,7 +22,7 @@
     "lesson_publication": "unpublished",
     "lesson_asset_publication": "draft",
     "question_bank_origin": "ai",
-    "question_bank_revision_status": "review",
+    "question_bank_revision_status": "non_published_controlled_review_lifecycle",
     "question_bank_answer_status": "known",
     "quiz_policy": "defer_snapshot_until_question_revisions_are_approved_and_published"
   },
@@ -38,7 +38,7 @@
   "media_policy": {
     "reuse_existing_ready_media": true,
     "match_by_exact_content_source_asset_path": true,
-    "require_display_webp_variant": true,
+    "require_display_webp_variant": false,
     "do_not_duplicate_existing_media": true,
     "raw_immutable": true,
     "current_display_webp_size_optimization": "failed_current_profile",
@@ -98,7 +98,7 @@
     "expected_question_count": 13,
     "multiple_choice": "Preserve four source options and source semantic answer unless source-grounded semantic review records an explicit correction.",
     "true_false": "Normalize options to [صح, خطأ] and map by semantic source answer True/False, never by raw index alone.",
-    "publication": "Keep revisions in review. No legacy AI-derived revision is published automatically.",
+    "publication": "No legacy AI-derived revision is published automatically. Existing draft identities are reused; review/publish lifecycle requires authorized actors.",
     "semantic_review_status": "complete",
     "semantic_review_report": "content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-question-review.json",
     "semantic_review_counts": {
@@ -111,18 +111,29 @@
   "expected_effect": {
     "reuse_existing_media_assets": 4,
     "new_curriculum_sections_max": 1,
-    "new_lessons": 4,
-    "new_lesson_assets": 4,
-    "new_question_bank_items": 13,
-    "new_question_bank_revisions": 13,
-    "new_revision_lesson_links": 13,
-    "new_revision_source_links": 13,
-    "new_quiz_rows": 0
+    "reuse_existing_lessons": 4,
+    "update_existing_lessons_max": 4,
+    "new_lessons": 0,
+    "reuse_existing_lesson_assets": 4,
+    "new_lesson_assets": 0,
+    "reuse_existing_question_bank_items": 13,
+    "new_question_bank_items": 0,
+    "reuse_existing_question_bank_revisions": 13,
+    "update_existing_question_bank_revisions": 7,
+    "question_revision_noops": 6,
+    "new_question_bank_revisions": 0,
+    "new_revision_lesson_links": 0,
+    "new_revision_source_links": 0,
+    "new_quiz_rows": 0,
+    "expected_direct_business_row_mutations": 12,
+    "unrelated_rows_mutated": 0
   },
   "rollback_scope": {
     "marker": "BATCH-001-G9-EN-PB3-U1",
     "section_slug": "curated-english9-pb3-unit-1-revision",
     "lesson_slug_prefix": "curated-english9-pb3-u1-",
+    "restore_reused_lessons_instead_of_deleting": true,
+    "restore_corrected_draft_revisions_instead_of_deleting": true,
     "preserve_existing_media_and_source_assets": true,
     "preserve_raw": true
   },
@@ -139,7 +150,9 @@
     "current_display_webp_delta_percent": 24.81,
     "semantic_question_review": "COMPLETE_13_REVIEWED_6_APPROVED_7_CORRECTED_0_REJECTED",
     "semantic_question_review_commit": "eae7b9d8b3b61b20f4ca74cb75f222aa5b6f9e60",
-    "modern_target_dry_run": "PENDING",
+    "modern_target_dry_run": "PASS_DUPLICATE_SAFE_12_DIRECT_BUSINESS_ROW_MUTATIONS",
+    "modern_target_dry_run_report": "content-staging/curated/grade-9/english/pupil-book-3/batches/BATCH-001_MODERN_TARGET_DRY_RUN.md",
+    "modern_target_dry_run_report_commit": "557527bf59c71fdeb05c095bda1b4dedc94f8ea2",
     "database_apply_status": "NOT_YET_APPLIED"
   }
 }
