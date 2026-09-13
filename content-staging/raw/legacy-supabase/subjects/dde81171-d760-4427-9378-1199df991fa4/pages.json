@@ -1,0 +1,834 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:36.429915+00:00",
+    "extracted_text": null,
+    "id": "55658b36-1487-4f92-a43f-eb91a094e3cc",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0001.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0001"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:37.429915+00:00",
+    "extracted_text": null,
+    "id": "53de2587-6dd0-4f54-a12b-64a9b6fa31bf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0002.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0002"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:38.429915+00:00",
+    "extracted_text": null,
+    "id": "0f70f4fe-c30a-4bcc-b234-15bb66df19e6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0003.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0003"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:39.429915+00:00",
+    "extracted_text": null,
+    "id": "0b0076ee-2fd9-4ff5-a9e9-909ef2c8fe19",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0004.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0004"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:40.429915+00:00",
+    "extracted_text": null,
+    "id": "8b80764a-f855-476c-892c-712c8d9f1832",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0005.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0005"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:41.429915+00:00",
+    "extracted_text": null,
+    "id": "000945b0-c047-4192-9285-4e1930a6fbc0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0006.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0006"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:42.429915+00:00",
+    "extracted_text": null,
+    "id": "033878fe-4a7b-4410-9193-90b22c78df01",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0007.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0007"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:43.429915+00:00",
+    "extracted_text": null,
+    "id": "4e583480-097f-4e26-b71b-1f6257997447",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0008.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0008"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:44.429915+00:00",
+    "extracted_text": null,
+    "id": "d9be8ebc-a696-47af-bfcc-938900071132",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0009.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0009"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:45.429915+00:00",
+    "extracted_text": null,
+    "id": "d5fcc1ad-072f-4c71-ac28-ef5585829588",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0010.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0010"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:46.429915+00:00",
+    "extracted_text": null,
+    "id": "1e264871-955a-4b48-916f-33e016a37b1a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0011.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0011"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:47.429915+00:00",
+    "extracted_text": null,
+    "id": "873ec6a3-5af0-442e-b565-89c244fe82ff",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0012.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0012"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:48.429915+00:00",
+    "extracted_text": null,
+    "id": "bd4d9d67-ab21-4903-a80d-32c7bc03ccd1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0013.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0013"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:49.429915+00:00",
+    "extracted_text": null,
+    "id": "2e4adc08-c9ce-41c8-8cf4-4f775636d334",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0014.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0014"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:50.429915+00:00",
+    "extracted_text": null,
+    "id": "d29cff93-67e1-434f-b383-b8df62f964b0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0015.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0015"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:51.429915+00:00",
+    "extracted_text": null,
+    "id": "4e3decbb-a270-4921-b64e-5fc8c1fd0fb0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0016.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0016"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:52.429915+00:00",
+    "extracted_text": null,
+    "id": "7d8fda78-d221-484c-b072-d75b18b8f8e1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0017.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0017"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:53.429915+00:00",
+    "extracted_text": null,
+    "id": "1737515e-55d5-4039-8cb1-9a48dd8c0b79",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0018.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0018"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:54.429915+00:00",
+    "extracted_text": null,
+    "id": "60a9595d-2a8f-49c1-9909-4ac6b9137145",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0019.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0019"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:55.429915+00:00",
+    "extracted_text": null,
+    "id": "4106c584-dc98-46cc-9186-1fe75438595b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0020.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0020"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:56.429915+00:00",
+    "extracted_text": null,
+    "id": "93324eb5-32b3-4efe-b539-e99f25534f05",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0021.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0021"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:57.429915+00:00",
+    "extracted_text": null,
+    "id": "854bfd9f-b968-4243-bedf-d13467c6d761",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0022.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0022"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:58.429915+00:00",
+    "extracted_text": null,
+    "id": "0983c030-8d74-43bb-bbe2-36e753106c4a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0023.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0023"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:59.429915+00:00",
+    "extracted_text": null,
+    "id": "b6e14501-81ed-4bcb-a076-13894bc83e26",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0024.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0024"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:00.429915+00:00",
+    "extracted_text": null,
+    "id": "8362d6e8-26dc-45b4-b44c-858a5acb3cf3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0025.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0025"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:01.429915+00:00",
+    "extracted_text": null,
+    "id": "b80edfc1-bfb8-4b5b-89c1-01498acb8193",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0026.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0026"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:02.429915+00:00",
+    "extracted_text": null,
+    "id": "f1e05cbd-b074-4a31-b473-2c02cdd0ce38",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0027.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0027"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:03.429915+00:00",
+    "extracted_text": null,
+    "id": "30f55525-4119-4426-8f67-3b7346f36eb0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0028.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0028"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:04.429915+00:00",
+    "extracted_text": null,
+    "id": "9e2cd5b5-7d5e-4ff0-9a7b-47643196f386",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0029.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0029"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:05.429915+00:00",
+    "extracted_text": null,
+    "id": "3be4b0ff-7d4c-43c1-a221-436bdf621dee",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0030.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0030"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:06.429915+00:00",
+    "extracted_text": null,
+    "id": "b4be83d7-9ccd-49ee-8579-ff428366346e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0031.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0031"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:07.429915+00:00",
+    "extracted_text": null,
+    "id": "a58b0990-3a53-4eb9-b490-108d56feebfa",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0032.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0032"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:08.429915+00:00",
+    "extracted_text": null,
+    "id": "3b2ff61a-0b06-4abd-a06a-f86c0c67d11c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0033.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0033"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:09.429915+00:00",
+    "extracted_text": null,
+    "id": "8f8fa935-9788-49ce-b145-559ac6ecdd8a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0034.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0034"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:10.429915+00:00",
+    "extracted_text": null,
+    "id": "9f267e15-eb66-4d73-8f4f-df8fa4992f39",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0035.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0035"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:11.429915+00:00",
+    "extracted_text": null,
+    "id": "95ac7cd7-5df6-41c3-82e1-73ba7645cef0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0036.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0036"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:12.429915+00:00",
+    "extracted_text": null,
+    "id": "02bdd0f9-147e-488a-a289-33f6b488d05b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0037.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0037"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:13.429915+00:00",
+    "extracted_text": null,
+    "id": "b06e818d-056d-455d-901a-0ff5fb18a6b6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0038.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0038"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:14.429915+00:00",
+    "extracted_text": null,
+    "id": "f900286d-f1e0-468d-9d5d-ebb36fe4190d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0039.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0039"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:15.429915+00:00",
+    "extracted_text": null,
+    "id": "b078ca5a-a171-4818-bf43-60c4b05589a1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0040.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0040"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:16.429915+00:00",
+    "extracted_text": null,
+    "id": "f9f5a867-a5d1-430e-988a-83c8d8890c58",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0041.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0041"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:17.429915+00:00",
+    "extracted_text": null,
+    "id": "0ed191e9-cbd1-4f59-bbcb-203758868e18",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0042.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0042"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:18.429915+00:00",
+    "extracted_text": null,
+    "id": "3e9b1caa-a555-4e89-bc15-a08781806d1a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0043.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0043"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:19.429915+00:00",
+    "extracted_text": null,
+    "id": "b31cba9b-69af-4977-82e3-294e941d04fb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0044.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0044"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:20.429915+00:00",
+    "extracted_text": null,
+    "id": "ec3a6dcf-e620-4251-8cdf-d04dfd39ecff",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0045.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0045"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:21.429915+00:00",
+    "extracted_text": null,
+    "id": "52b0541d-e4ce-42e7-b80d-9703601b1fc2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0046.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0046"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:22.429915+00:00",
+    "extracted_text": null,
+    "id": "3c03bbe6-bacc-42e0-af27-f26be580a98e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0047.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0047"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:23.429915+00:00",
+    "extracted_text": null,
+    "id": "984770ef-d269-49a7-9b51-6ac8b88c9910",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0048.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0048"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:24.429915+00:00",
+    "extracted_text": null,
+    "id": "137c928b-4a3f-4d2d-a8b0-74dcc5aef435",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0049.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0049"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:25.429915+00:00",
+    "extracted_text": null,
+    "id": "7face799-1278-4ce0-8fef-d08b677ee939",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0050.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0050"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:26.429915+00:00",
+    "extracted_text": null,
+    "id": "9ccb86c0-814b-46c1-b4f1-c3f1ef09e392",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0051.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0051"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:27.429915+00:00",
+    "extracted_text": null,
+    "id": "f8168cf2-b4b9-442a-94b9-c2fb4b95d613",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/d1bdb013-e75a-4ba5-bdb0-ce6ad41727c0/subject/ea954f79-8602-4ce9-82fb-18c9e0d60bd1/lesson/55658b36-1487-4f92-a43f-eb91a094e3cc/page_0052.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "dde81171-d760-4427-9378-1199df991fa4",
+    "summary": null,
+    "title": "انجليزي ثانوي نماذج وزاريه 1446 - الصفحة 0052"
+  }
+]
