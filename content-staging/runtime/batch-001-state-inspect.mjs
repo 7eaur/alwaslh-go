@@ -1,0 +1,14 @@
+import postgres from 'postgres';
+const sql=postgres(process.env.DATABASE_URL,{max:1,connect_timeout:15,idle_timeout:5,prepare:false});
+const sources=[
+['public.lessons/2d98475c-91bf-4000-bfbc-79f7a6a854f9/image/0','ae3e89be65d1c9ec5f70e361a5e78ea903d6e305f22d399e2c88bf864f6c3a4f'],
+['public.lessons/5e207993-508f-426b-ae71-f00aa4f782df/image/0','1df05a27195e28e5543747c1f827a4d32c2bf937476c91ae69b0f4fe8b61b413'],
+['public.lessons/dc1d6249-c0cb-4982-9711-092b1dcffee3/image/0','78741ebd493e6b7dbbc05115472fec173edbeab9e05079b806a61acd1d7d13ac'],
+['public.lessons/f2947d7f-5697-4bdc-b561-ad880a1afdf1/image/0','86d655468bfbc73248da92e0d16d4b4dcccc0217df241e69bac94f6cee6cf321']];
+const out={sources:[],sections:[],questions:[],publication:{}};
+for(const [path,sha] of sources){const rows=await sql`select csa.id source_asset_id,csa.source_path,csa.checksum_sha256,ma.id media_asset_id,ma.status media_status,ma.source_checksum_sha256,la.id lesson_asset_id,la.publication_status,la.asset_published_at,l.id lesson_id,l.slug,l.title,l.position,l.status,l.published_at,cs.slug section_slug,cs.title section_title from content_source_assets csa join media_assets ma on ma.content_source_asset_id=csa.id join lesson_assets la on la.media_asset_id=ma.id join lessons l on l.id=la.lesson_id left join curriculum_sections cs on cs.id=l.section_id where csa.source_path=${path} and csa.checksum_sha256=${sha}`;out.sources.push({path,sha,rows});}
+out.sections=await sql`select cs.id,cs.slug,cs.title,cs.position,cs.status,c.slug class_slug,s.slug subject_slug from curriculum_sections cs join classes c on c.id=cs.class_id join subjects s on s.id=cs.subject_id where c.slug='grade-9' and s.slug='english' order by cs.position,cs.slug`;
+const lessonIds=out.sources.flatMap(x=>x.rows.map(r=>r.lesson_id));
+if(lessonIds.length){out.questions=await sql`select r.id,r.prompt,r.type,r.options,r.correct_option_index,r.answer_text,r.status,r.published_at,rl.lesson_id from question_bank_revisions r join question_bank_revision_lessons rl on rl.revision_id=r.id where rl.lesson_id in ${sql(lessonIds)} order by rl.lesson_id,r.created_at,r.id`;const [pa]=await sql`select count(*)::int count from lesson_assets where lesson_id in ${sql(lessonIds)} and (publication_status<>'draft' or asset_published_at is not null)`;const [pl]=await sql`select count(*)::int count from lessons where id in ${sql(lessonIds)} and published_at is not null`;const [pq]=await sql`select count(*)::int count from question_bank_revisions r join question_bank_revision_lessons rl on rl.revision_id=r.id where rl.lesson_id in ${sql(lessonIds)} and (r.status<>'draft' or r.published_at is not null)`;out.publication={lessonAssets:pa.count,lessons:pl.count,questions:pq.count};}
+console.log('BATCH001_STATE',JSON.stringify(out));
+await sql.end({timeout:1});
