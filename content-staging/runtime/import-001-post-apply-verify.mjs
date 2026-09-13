@@ -15,10 +15,16 @@ const targetLesson = {
   position: 4,
 };
 const pages = [
-  { order: 0, path: 'public.lessons/706771c2-2145-4682-9bdd-4e7df5c69bf9/image/0', sha256: 'fc9e15f23d3f5c9a7928aecc70888e30be2c454ab16883e1a3c82290fd581fdb' },
-  { order: 1, path: 'public.lessons/71ba9a99-e009-401f-b65f-8a956218a633/image/0', sha256: 'fd99f85698dd4870bf8fccf85aa53f47bf484d19b2052473155540627f6aa420' },
-  { order: 2, path: 'public.lessons/710cb3d4-e2c1-4d05-a1ef-2c0a1bbede2b/image/0', sha256: '3b7415622af90557ad09585eef776b5ce3fe2c68776a1963b4a2cbf677f5ba61' },
-  { order: 3, path: 'public.lessons/4b6090c2-744e-4fc6-8908-87c211a8713b/image/0', sha256: '3678974564e2a219840da4fc175d62d9811bd80666d01c81d4f9b49f2328e258' },
+  { order: 0, lessonAssetId: 'd8dfb014-23bb-4db0-b6c2-3aa8e98862eb', mediaAssetId: '3d53954b-95ef-4833-ae06-407f2325e28e', path: 'public.lessons/706771c2-2145-4682-9bdd-4e7df5c69bf9/image/0', sha256: 'fc9e15f23d3f5c9a7928aecc70888e30be2c454ab16883e1a3c82290fd581fdb' },
+  { order: 1, lessonAssetId: 'b474bec6-8828-45e9-8b28-40ff0b52a9c2', mediaAssetId: '9d4f61a2-8c00-44cf-9baa-7e48740e0ef6', path: 'public.lessons/71ba9a99-e009-401f-b65f-8a956218a633/image/0', sha256: 'fd99f85698dd4870bf8fccf85aa53f47bf484d19b2052473155540627f6aa420' },
+  { order: 2, lessonAssetId: 'cec764c8-dce3-4917-8dea-66a36165ec89', mediaAssetId: '3aadf23a-432d-4391-bd2f-467eaefe486b', path: 'public.lessons/710cb3d4-e2c1-4d05-a1ef-2c0a1bbede2b/image/0', sha256: '3b7415622af90557ad09585eef776b5ce3fe2c68776a1963b4a2cbf677f5ba61' },
+  { order: 3, lessonAssetId: 'bdaca047-29a2-4730-81d5-2abd173a93ce', mediaAssetId: 'b0b1d37e-1b9f-43a3-9987-4973423d822c', path: 'public.lessons/4b6090c2-744e-4fc6-8908-87c211a8713b/image/0', sha256: '3678974564e2a219840da4fc175d62d9811bd80666d01c81d4f9b49f2328e258' },
+];
+const legacyLessonIds = [
+  'faddefc5-b895-4d33-8f18-fa3577ca4040',
+  'c97f39b2-0adc-4a25-813e-82eb23d5cf64',
+  'e417646b-c7e9-4e66-be41-6938794f3c3e',
+  '061af5a7-4871-462d-8ebd-0a083b66d9f3',
 ];
 
 function assert(condition, message) {
@@ -71,40 +77,33 @@ for (let i = 0; i < assets.length; i++) {
   const a = assets[i];
   const p = pages[i];
   assert(a.position === i, `asset position mismatch at ${i}`);
+  assert(a.lesson_asset_id === p.lessonAssetId, `lesson asset identity mismatch at ${i}`);
+  assert(a.media_asset_id === p.mediaAssetId, `media asset identity mismatch at ${i}`);
   assert(a.source_path === p.path, `source path mismatch at ${i}`);
   assert(a.checksum_sha256 === p.sha256 && a.source_checksum_sha256 === p.sha256 && a.is_present === true, `checksum/presence mismatch at ${i}`);
   assert(a.media_status === 'ready', `media status mismatch at ${i}`);
   assert(a.publication_status === 'draft' && a.asset_published_at === null, `asset publication mismatch at ${i}`);
 }
-assert(new Set(assets.map((x) => x.lesson_asset_id)).size === 4, 'lesson asset identities are not unique');
-assert(new Set(assets.map((x) => x.media_asset_id)).size === 4, 'media asset identities are not unique');
-assert(new Set(assets.map((x) => x.source_asset_id)).size === 4, 'source asset identities are not unique');
 
-const legacyLessonRows = await sql`
-  select distinct l.id
+const legacyLessons = await sql`
+  select id, section_id, status, published_at,
+         (select count(*)::int from lesson_assets la where la.lesson_id = l.id) asset_count
   from lessons l
-  join question_bank_revision_lessons rl on rl.lesson_id = l.id
-  join question_bank_revisions r on r.id = rl.revision_id
-  where l.class_id = ${classId} and l.subject_id = ${subjectId}
-    and l.id <> ${lesson.id}
-    and r.published_at is null
-    and exists (
-      select 1 from question_bank_revision_lessons rl2
-      where rl2.lesson_id = l.id
-    )
-    and not exists (
-      select 1 from lesson_assets la2 where la2.lesson_id = l.id
-    )
+  where id in ${sql(legacyLessonIds)}
+  order by id
 `;
+assert(legacyLessons.length === 4, `preserved legacy lesson count=${legacyLessons.length}`);
+assert(legacyLessons.every((l) => l.status === 'active' && l.published_at === null && l.section_id === null && l.asset_count === 0), 'legacy lesson state drift');
 
 const linkedQuestions = await sql`
   select r.id, rl.lesson_id, r.status, r.published_at
   from question_bank_revisions r
   join question_bank_revision_lessons rl on rl.revision_id = r.id
-  where rl.lesson_id in ${sql(legacyLessonRows.map((x) => x.id))}
+  where rl.lesson_id in ${sql(legacyLessonIds)}
+  order by r.id
 `;
-const sourceQuestionRows = linkedQuestions.filter((q) => q.published_at === null);
-assert(sourceQuestionRows.length >= 12, `preserved unpublished legacy question revisions below expected floor: ${sourceQuestionRows.length}`);
+assert(linkedQuestions.length === 12, `preserved legacy question revision count=${linkedQuestions.length}`);
+assert(linkedQuestions.every((q) => q.published_at === null), 'legacy question publication drift');
 
 const targetQuestionLinks = await sql`
   select count(*)::int count
@@ -122,7 +121,8 @@ console.log('IMPORT001_POST_APPLY_VERIFY_PASS', JSON.stringify({
   draftUnpublishedAssets: assets.filter((x) => x.publication_status === 'draft' && x.asset_published_at === null).length,
   targetPublished: lesson.published_at !== null,
   unauthorizedTargetQuestionLinks: targetQuestionLinks[0].count,
-  preservedLegacyQuestionRevisionFloor: sourceQuestionRows.length,
+  preservedLegacyLessons: legacyLessons.length,
+  preservedLegacyQuestionRevisions: linkedQuestions.length,
 }));
 
 await sql.end({ timeout: 1 });
