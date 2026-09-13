@@ -1,0 +1,39 @@
+{
+  "anomalies": {
+    "duplicate_page_numbers": [],
+    "invalid_subject_ids": [],
+    "malformed_ai_questions": [],
+    "malformed_image_urls": [],
+    "missing_images": [],
+    "multiple_images": [],
+    "null_or_invalid_page_numbers": []
+  },
+  "counts": {
+    "image_download_failures": 0,
+    "image_references": 0,
+    "images_downloaded": 0,
+    "pages": 0,
+    "questions": 0
+  },
+  "image_download_failures": [],
+  "images": [],
+  "legacy_class": {
+    "created_at": "2026-08-19T00:38:47.963294+00:00",
+    "id": "99a42878-2d3f-473c-936c-8d9999afdcf4",
+    "name": "تاسع الاسلامية"
+  },
+  "legacy_subject": {
+    "class_id": "99a42878-2d3f-473c-936c-8d9999afdcf4",
+    "created_at": "2026-08-13T04:41:21.907227+00:00",
+    "id": "b6ce737e-26d4-4219-a607-27bfb7d2f518",
+    "name": "كتاب الإسلامية - الجزء الأول"
+  },
+  "manifest_sha256": "045e554cca1f61c897540696b12028a156603ba964542ffed0e7456556cddd7f",
+  "pages_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "source": {
+    "project_url": "https://zhbgbmqhonqmzpqfiehs.supabase.co",
+    "storage_bucket": "lesson_content",
+    "table": "public.lessons"
+  },
+  "status": "empty"
+}
