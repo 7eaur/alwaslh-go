@@ -1,0 +1,1065 @@
+[
+  {
+    "ai_questions": [
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن الفرق بين المجموعتين { ٣ ، ٤ ، ٥ ، ٦ } و { ٤ ، ٥ ، ٦ ، ٧ } هو العناصر الموجودة في المجموعة الأولى وليست في الثانية، وهو { ٣ } وليس { ٧ }.",
+        "method": "١- تحديد عناصر المجموعة الأولى أ = { ٣ ، ٤ ، ٥ ، ٦ }\n٢- تحديد عناصر المجموعة الثانية ب = { ٤ ، ٥ ، ٦ ، ٧ }\n٣- إيجاد أ \\ ب = { ٣ }",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "{ ٣ ، ٤ ، ٥ ، ٦ } \\ { ٤ ، ٥ ، ٦ ، ٧ } = { ٧ }",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي صح لأن العلاقة ع تحقق شروط الانعكاس والتماثل والتعدي على المجموعة س.",
+        "method": "١- العلاقة انعكاسية لأن (٥، ٥) ينتمي لـ ع.\n٢- العلاقة متناظرة ومتعدية بشكل بديهي لعدم وجود عناصر أخرى.\n٣- بما أنها انعكاسية ومتناظرة ومتعدية فهي علاقة تكافؤ.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "إذا كانت س = { ٥ } ، ع = { ( ٥ ، ٥ ) } ؛ فإن ع علاقة تكافؤ على س",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن تعويض قيم س (١، ٢، ٣) في القاعدة ت(س) = س - ١ يعطي قيم ص المقابلة (٠، ١، ٢) على الترتيب.",
+        "method": "١- ت(١) = ١ - ١ = ٠\n٢- ت(٢) = ٢ - ١ = ١\n٣- ت(٣) = ٣ - ١ = ٤\n٤- جميع الأزواج المرتبة تحقق القاعدة.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "إذا كان { ( ١ ، ٠ ) ، ( ٢ ، ١ ) ، ( ٣ ، ٢ ) } مجموعة جزئية من تطبيق فإن قاعدة التطبيق هي ت(س) = س - ١",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن التطبيق ت(س) = ٢ هو تطبيق ثابت، وبالتالي فإن أي نقطة تقع على مخططه البياني يجب أن يكون مسقطها الصادي يساوي ٢، بينما المسقط الصادي للنقطة المعطاة هو ١.",
+        "method": "١- قاعدة التطبيق هي ت(س) = ٢ (دالة ثابتة).\n٢- المسقط الصادي للنقطة (٢، ١) هو ١.\n٣- بما أن ١ ≠ ٢، فإن النقطة لا تقع على المخطط البياني.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "النقطة ( ٢ ، ١ ) تقع على المخطط البياني للتطبيق ت(س) = ٢",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن تحليل المقدار ١٦ س² - ٤ س بإخراج العامل المشترك الأكبر ٤س يعطي ٤س( ٤س - ١ ) فقط.",
+        "method": "١- تحديد العامل المشترك الأكبر وهو ٤س.\n٢- قسمة حدود المقدار على العامل المشترك: (١٦س² ÷ ٤س) - (٤س ÷ ٤س) = ٤س - ١.\n٣- المقدار المحلل هو ٤س(٤س - ١).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "المقدار ١٦ س² - ٤ س يحلل إلى ٤س( ٤س - ١ ) ( ٤س + ١ )",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن حاصل ضرب ( ص - ٤ ) ( ص + ٩ ) يساوي ص² + ٥ص - ٣٦، بينما التحليل الصحيح للمقدار ص² + ١٣ص + ٣٦ هو ( ص + ٤ ) ( ص + ٩ ).",
+        "method": "١- نبحث عن عددين حاصل ضربهما ٣٦ ومجموعهما ١٣.\n٢- العددان هما ٤ و ٩.\n٣- التحليل الصحيح هو (ص + ٤)(ص + ٩).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "المقدار ص² + ١٣ص + ٣٦ يحلل إلى ( ص - ٤ ) ( ص + ٩ )",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي صح لأنه عندما أ = ١ يصبح المقدار س² - ٦س + ٩ وهو مربع كامل يساوي (س - ٣)².",
+        "method": "١- شرط المربع الكامل: (معامل س)² = ٤ × معامل س² × الحد المطلق.\n٢- (-٦)² = ٤ × أ × ٩\n٣- ٣٦ = ٣٦ أ  => أ = ١.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "يكون المقدار أ س² - ٦س + ٩ مربعاً كاملاً؛ إذا كان أ = ١",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن المقدار يتكون من حدين مكعبين وبينهما علامة طرح (س³ - ١³).",
+        "method": "١- الحد الأول س³ هو مكعب كامل.\n٢- الحد الثاني ١ هو مكعب كامل (١³).\n٣- الإشارة بينهما سالبة، إذن هو فرق بين مكعبين.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "المقدار ( س³ - ١ ) يسمى فرق بين مكعبين",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "hard",
+        "explanation": "الإجابة الصحيحة هي صح لأن الحدود الثلاثة الأولى تشكل مربعاً كاملاً (٢س + ٥ص)²، وبطرح ٣٦ (٦²) يصبح المقدار فرقاً بين مربعين يحلل إلى (٢س + ٥ص + ٦)(٢س + ٥ص - ٦).",
+        "method": "١- تحليل المقدار الثلاثي المربع الكامل: ٤س² + ٢٠س ص + ٢٥ص² = (٢س + ٥ص)².\n٢- كتابة المقدار بالكامل: (٢س + ٥ص)² - ٣٦.\n٣- تحليل الفرق بين مربعين: (٢س + ٥ص - ٦)(٢س + ٥ص + ٦).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "المقدار ٤س² + ٢٠ س ص + ٢٥ص² - ٣٦ يحلل إلى ( ٢س + ٥ص + ٦)( ٢س + ٥ص - ٦)",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "hard",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن تبسيط المقدار الكسري يعطي (س - ٣)² / (س - ٢) وليس س - ٣.",
+        "method": "١- تحليل البسط والمقام للكسر الأول: (س - ٣)(س + ٣) / (س + ٣) = س - ٣.\n٢- تحليل البسط والمقام للكسر الثاني: (س - ٣)(س + ٢) / (س - ٢)(س + ٢) = (س - ٣) / (س - ٢).\n٣- ضرب الناتجين: (س - ٣) × (س - ٣) / (س - ٢) = (س - ٣)² / (س - ٢).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "( س² - ٩ ) / ( س + ٣ ) × ( س² - س - ٦ ) / ( س² - ٤ ) يساوي س - ٣",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن حل المعادلة خطوة بخطوة يعطي س = ٥.",
+        "method": "١- نقل الحدود المتشابهة: ٣س - ٢س = ٩ - ٤.\n٢- التبسيط: س = ٥.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "إذا كان ٣س + ٤ = ٢س + ٩ فإن س = ٥",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن المعادلة يكون لها حلان حقيقيان مختلفان إذا كان المميز أكبر من الصفر (Δ > ٠)، بينما إذا كان Δ = ٠ يكون لها حلان حقيقيان متساويان (حل وحيد).",
+        "method": "١- مراجعة حالات المميز Δ:\n- Δ > ٠: حلان حقيقيان مختلفان.\n- Δ = ٠: حلان حقيقيان متساويان.\n- Δ < ٠: لا توجد حلول حقيقية.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "يكون لمعادلة الدرجة الثانية في متغير واحد، حلان حقيقيان مختلفان إذا كان مميزها Δ = ٠",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن هذه القياسات تحقق نظرية فيثاغورث (٦² + ٨² = ١٠²).",
+        "method": "١- تربيع الأضلاع: ٦² = ٣٦، ٨² = ٦٤، ١٠² = ١٠٠.\n٢- جمع مربعي الضلعين الأصغرين: ٣٦ + ٦٤ = ١٠٠.\n٣- بما أن مجموع مربعي الضلعين يساوي مربع الضلع الأكبر، فالمثلث قائم الزاوية.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "القياسات ( ٦سم ، ٨سم ، ١٠سم ) تمثل أطوال أضلاع مثلث قائم الزاوية",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن جيب الزاوية (جا) في المثلث قائم الزاوية يُعرّف بأنه النسبة بين طول الضلع المقابل للزاوية وطول الوتر.",
+        "method": "١- تعريف جيب الزاوية: جا(هـ) = المقابل ÷ الوتر (sin(θ) = opposite / hypotenuse).",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "إذا كانت هـ زاوية حادة في مثلث قائم الزاوية؛ فإن جاهـ هي نسبة طول الضلع المقابل لها إلى طول الوتر",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن ظل الزاوية ٤٥ درجة يساوي ١.",
+        "method": "١- ظا(٤٥°) = جا(٤٥°) ÷ جتا(٤٥°).\n٢- بما أن جا(٤٥°) = ١/√٢ وجتا(٤٥°) = ١/√٢.\n٣- إذن ظا(٤٥°) = ١.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "ظا٤٥° = ١",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن القطعة المستقيمة الواصلة بين نقطتين على الدائرة تسمى وتراً، بينما المماس هو مستقيم يقطع الدائرة في نقطة واحدة فقط.",
+        "method": "١- تعريف الوتر: قطعة مستقيمة تصل بين نقطتين على الدائرة.\n٢- تعريف المماس: مستقيم يشترك مع الدائرة في نقطة واحدة فقط.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "القطعة المستقيمة الواصلة بين أي نقطتين من الدائرة تعد مماساً للدائرة",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي صح لأن المستقيم العمودي المار بمركز الدائرة على أي وتر فيها ينصف ذلك الوتر.",
+        "method": "١- م هـ عمودي على الوتر ب جـ ويمر بالمركز م.\n٢- إذن هـ هي منتصف ب جـ.\n٣- |هـ جـ| = |ب جـ| ÷ ٢ = ٦ ÷ ٢ = ٣سم.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "ب جـ وتر في دائرة م ، م هـ ⊥ ب جـ فإذا كان |ب جـ| = ٦سم فإن |هـ جـ| = ٣سم",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي صح لأن تطبيق قانون طول القوس يعطي ٢π سم.",
+        "method": "١- قانون طول القوس = (قياس الزاوية المركزية ÷ ٣٦٠) × ٢ × π × نق.\n٢- طول القوس = (٣٠ ÷ ٣٦٠) × ٢ × π × ١٢.\n٣- طول القوس = (١ ÷ ١٢) × ٢٤π = ٢π سم.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "ب ء قوس في دائرة م نصف قطرها ١٢سم؛ فإذا كان ق < ب م ء = ٣٠° فإن طول القوس = ٢π سم",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي خطأ لأن مجموع كل زاويتين متقابلتين في الشكل الرباعي الدائري يجب أن يساوي ١٨٠°، وهنا قياس س + قياس ع = ٧١° + ٩٩° = ١٧٠° ≠ ١٨٠°.",
+        "method": "١- الزوايا المتقابلة هي (س، ع) و (ص، ل).\n٢- نجمع س + ع = ٧١° + ٩٩° = ١٧٠°.\n٣- بما أن المجموع لا يساوي ١٨٠°، فالشكل ليس رباعياً دائرياً.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "إذا كان قياس زوايا الشكل س ص ع ل على الترتيب ٧١° ، ١٠١° ، ٩٩° ، ٨٩° فإن الشكل رباعي دائري",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي صح لأن هذا يمثل النظرية الأساسية للمماس، حيث يكون المماس عمودياً على نصف القطر عند نقطة التماس.",
+        "method": "١- نقطة التقاطع تقع على الدائرة.\n٢- المستقيم العمودي على نصف القطر عند هذه النقطة يمس الدائرة في نقطة واحدة فقط، فهو مماس.",
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "question": "المستقيم العمودي على نصف قطر دائرة عند نقطة تقاطعهما مع الدائرة يكون مماساً لهذه الدائرة",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "type": "true_false"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي { ٥ } لأن حل المتباينة يعطي ٤ < س < ٧، والعدد الفردي الوحيد المحصور بين ٤ و ٧ هو ٥.",
+        "method": "١- حل المتباينة: ٥ < س + ١ < ٨  => طرح ١ من جميع الأطراف.\n٢- ٤ < س < ٧.\n٣- الأعداد الصحيحة المحصورة هي ٥، ٦.\n٤- بما أن س عدد فردي، فإن س = ٥. إذن المجموعة هي { ٥ }.",
+        "options": [
+          "{ ٥ }",
+          "{ ٦ }",
+          "{ ٧ }",
+          "{ ٨ }"
+        ],
+        "question": "{ س: س عدد فردي، ٥ < س + ١ < ٨ } = ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 2,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي { ٤ ، ٥ } لأن متممة المجموعة س هي مجموعة العناصر الموجودة في المجموعة الشاملة ش وغير الموجودة في س.",
+        "method": "١- ش = { ٣، ٤، ٥، ٦ }\n٢- س = { ٣، ٦ }\n٣- سَ = ش \\ س = { ٤، ٥ }.",
+        "options": [
+          "{ ٣ ، ٦ }",
+          "{ ٣ ، ٤ }",
+          "{ ٤ ، ٥ }",
+          "{ ٥ ، ٦ }"
+        ],
+        "question": "إذا كان ش = { ٣ ، ٤ ، ٥ ، ٦ } ، س = { ٣ ، ٦ } فإن سَ = ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي متعدية لأنه إذا كان الطالب أ أطول من الطالب ب، وكان الطالب ب أطول من الطالب جـ، فإن الطالب أ يكون بالتأكيد أطول من الطالب جـ.",
+        "method": "١- اختبار الانعكاس: لا يمكن للطالب أن يكون أطول من نفسه (ليست انعكاسية).\n٢- اختبار التناظر: إذا كان أ أطول من ب، فلا يمكن لـ ب أن يكون أطول من أ (ليست متناظرة).\n٣- اختبار التعدي: إذا كان أ أطول من ب و ب أطول من جـ، فإن أ أطول من جـ (متعدية).",
+        "options": [
+          "تكافؤ",
+          "متعدية",
+          "متناظرة",
+          "انعكاسية"
+        ],
+        "question": "علاقة ( أطول من ) المعرفة على مجموعة طلاب صفك هي علاقة ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 0,
+        "difficulty": "easy",
+        "explanation": "الإجابة الصحيحة هي ط لأن مجموعة الأعداد الطبيعية (ط) تحتوي فقط على الأعداد الصحيحة غير السالبة (٠، ١، ٢، ...)، والعدد -٧ هو عدد سالب.",
+        "method": "١- ط = { ٠، ١، ٢، ٣، ... } (الأعداد الطبيعية).\n٢- -٧ عدد سالب، إذن -٧ ∉ ط.",
+        "options": [
+          "ط",
+          "ص",
+          "ح",
+          "ن"
+        ],
+        "question": "العدد ( -٧ ) لا ينتمي إلى ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "type": "mcq"
+      },
+      {
+        "correct_option_index": 1,
+        "difficulty": "medium",
+        "explanation": "الإجابة الصحيحة هي [ ٤ ، ∞ [ لأن المتباينة ٤ ≤ س تعني جميع الأعداد الحقيقية الأكبر من أو تساوي ٤، وبما أن هناك علامة يساوي (≤) فإن الفترة تكون مغلقة عند ٤ ومفتوحة عند المالانهاية.",
+        "method": "١- المتباينة هي س ≥ ٤.\n٢- البداية من العدد ٤ (مغلق لوجود مساواة) والاتجاه نحو المالانهاية الموجبة.\n٣- التعبير بالفترة هو [ ٤ ، ∞ [.",
+        "options": [
+          "] ٤ ، ∞ [",
+          "[ ٤ ، ∞ [",
+          "] -∞ ، ٤ [",
+          "] -∞ ، ٤ ]"
+        ],
+        "question": "المجموعة { س: س ∋ ح ، ٤ ≤ س } تمثلها الفترة ...",
+        "question_references": [],
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "type": "mcq"
+      }
+    ],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900643393-13.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:25.545027+00:00",
+    "extracted_text": null,
+    "id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900643393-13.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 1 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900670367-14.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:53.271355+00:00",
+    "extracted_text": null,
+    "id": "83eaac21-2078-4841-b265-f8790cdd7f63",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900670367-14.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 1 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900667598-15.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:51.109688+00:00",
+    "extracted_text": null,
+    "id": "6def6009-9848-4732-b90c-20186603680b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900667598-15.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900643395-31.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:29.194996+00:00",
+    "extracted_text": null,
+    "id": "46bd041f-3265-4734-8256-46cf34283379",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900643395-31.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": "ملخص شامل ومُنظّم لمحتوى اختبار الشهادة الأساسية (الصف التاسع) في مادة الرياضيات للعام الدراسي ١٤٤٦ هـ / ٢٠٢٤ - ٢٠٢٥ م:\n\n١. المجموعات والعلاقات والتطبيقات:\n- العمليات على المجموعات: تشمل مفاهيم الفرق والتقاطع والاتحاد بين المجموعات، مثل تحديد العناصر التي تنتمي لمجموعة ولا تنتمي لأخرى.\n- علاقات التكافؤ: لكي تكون العلاقة علاقة تكافؤ على مجموعة ما، يجب أن تحقق ثلاثة شروط معاً وهي: أن تكون انعكاسية، ومتناظرة، ومتعدية.\n- التطبيقات والدوال: دراسة قاعدة التطبيق ت(س) وتحديد صور العناصر والمدى، والمخطط البياني للتطبيق والأزواج المرتبطة به.\n\n٢. الجبر والمقادير الجبرية وتحليلها:\n- تحليل الفرق بين مربعين: الصيغة العامة هي: أ٢ - ب٢ = (أ - ب)(أ + ب). مثال: ٨١ س٢ - ٩ = ٩ (٩ س٢ - ١) = ٩ (٣ س - ١)(٣ س + ١).\n- تحليل المقدار الثلاثي: تحليل المقادير من الدرجة الثانية مثل ص٢ + ٥ ص - ٣٦ إلى عواملها الأولية.\n- المربع الكامل: شروط كون المقدار الثلاثي مربعاً كاملاً وتحديد قيمة المعاملات المجهولة لتوفير هذا الشرط.\n- مجموع وفرق مكعبين: قانون الفرق بين مكعبين هو: س٣ - ص٣ = (س - ص)(س٢ + س ص + ص٢)، ومثال عليه ضرب القوسين (س - ٣)(س٢ + ٣ س + ٩) ليعطي س٣ - ٢٧.\n- تبسيط المقادير الكسرية: استخدام التحليل واختصار العوامل المشتركة لبسط ومقام المقادير الكسرية.\n\n٣. المعادلات والمتباينات والمجموعات العددية:\n- معادلة الدرجة الثانية في متغير واحد: يكون للمعادلة حلان حقيقيان متساويان عندما تكون قيمة المميز (Δ) مساوية للصفر (Δ = ٠).\n- المجموعات العددية: تصنيف الأعداد وانتمائها إلى المجموعات المختلفة مثل مجموعة الأعداد الطبيعية (ط)، الأعداد الصحيحة (ص)، والأعداد الحقيقية (ح).\n- الفترات والمتباينات: تمثيل مجموعات الحل للمتباينات باستخدام الفترات المغلقة والمفتوحة على خط الأعداد.\n\n٤. حساب المثلثات:\n- نظرية فيثاغورث: تحديد نوع المثلث (قائم الزاوية) من خلال التحقق من أطوال أضلاعه.\n- النسب المثلثية للزاوية الحادة (هـ): \n  * جيب الزاوية: جا هـ = المقابل ÷ الوتر.\n  * جيب تمام الزاوية: جتا هـ = المجاور ÷ الوتر.\n  * العلاقة الأساسية: جا٢ هـ + جتا٢ هـ = ١.\n\n٥. الهندسة والدائرة:\n- الدائرة وعناصرها: مفاهيم الأوتار، الأقواس، والمماسات.\n- نظريات الأوتار والأعمدة: العمود النازل من مركز الدائرة على أي وتر فيها ينصف ذلك الوتر.\n- قياسات الأقواس: حساب طول القوس بدلالة قياس الزاوية المركزية المقابلة له ونصف قطر الدائرة (نق).\n- الشكل الرباعي الدائري: يتميز بأن كل زاويتين متقابلتين فيه متكاملتان (مجموع قياسهما = ١٨٠ درجة).\n- مماس الدائرة: يكون المماس عمودياً على نصف القطر المار بنقطة التماس، أي يصنع مع نصف القطر زاوية قياسها ٩٠ درجة.",
+    "title": "النموذج 2 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900651468-32.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:33.64348+00:00",
+    "extracted_text": null,
+    "id": "a10c61c2-a7df-4c69-a5a0-0d2f6656c889",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900651468-32.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 2 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900698122-33.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:53:06.984946+00:00",
+    "extracted_text": null,
+    "id": "2e5ef2d3-a9c3-46b6-8bf6-39de0b1f1d66",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900698122-33.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900651284-4.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:32.16598+00:00",
+    "extracted_text": null,
+    "id": "5ea91b0d-ef98-4a32-84ea-878cf9ad6370",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900651284-4.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 3 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900643395-5.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:27.413675+00:00",
+    "extracted_text": null,
+    "id": "d9cfc446-1dc7-4937-bf4e-b54b35f8faac",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900643395-5.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 3 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900643394-6.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:26.459798+00:00",
+    "extracted_text": null,
+    "id": "1afead10-c3af-41b8-a596-0779c99e9663",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900643394-6.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 3"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900688463-35.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:53:03.435406+00:00",
+    "extracted_text": null,
+    "id": "adb9f918-fb79-48d4-a919-b9d2278d6e65",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900688463-35.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 4 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900659243-36.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:40.999394+00:00",
+    "extracted_text": null,
+    "id": "386b4fbb-783f-427b-bac3-f7d8b437bef6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900659243-36.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 4"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900657737-7.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:39.579374+00:00",
+    "extracted_text": null,
+    "id": "eee3d12b-4215-47bb-a2c6-9af8f5b6c02c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900657737-7.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 5 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900677595-8.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:58.002283+00:00",
+    "extracted_text": null,
+    "id": "1dcb1c2e-b7fb-4bf3-9202-c442ce9463be",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900677595-8.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 5 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900664701-9.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:48.070084+00:00",
+    "extracted_text": null,
+    "id": "9aae9023-da7e-40de-bb55-ffbefda8a1bb",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900664701-9.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 5"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900657184-34.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:37.353854+00:00",
+    "extracted_text": null,
+    "id": "46bae689-36e3-4f89-8964-590c460c376c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900657184-34.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 4 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900660367-37.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:42.873199+00:00",
+    "extracted_text": null,
+    "id": "0d0e9b9c-f61b-4607-9ea2-30a171e9c49d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900660367-37.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 6 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900679963-38.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:53:00.493056+00:00",
+    "extracted_text": null,
+    "id": "9a78f1a6-ed8b-4f8b-bd3b-72f81131f675",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900679963-38.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 6 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900662729-39.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:43.688135+00:00",
+    "extracted_text": null,
+    "id": "578c9098-5122-4a29-85e2-1311e3a23492",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900662729-39.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 6"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900663207-28.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:44.961122+00:00",
+    "extracted_text": null,
+    "id": "2fcd2fbd-fbcd-4aab-8ae0-bfcd961c5991",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900663207-28.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 7 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900693203-29.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:53:05.777493+00:00",
+    "extracted_text": null,
+    "id": "1d475826-36ec-49f6-af7d-f567bd04432a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900693203-29.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 7 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900663405-30.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:46.776143+00:00",
+    "extracted_text": null,
+    "id": "1ab68f92-7057-4237-b560-872ff34a56dd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900663405-30.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 7"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900665451-25.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:49.195498+00:00",
+    "extracted_text": null,
+    "id": "048cdb1f-4432-493c-b057-06c31c409f0d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900665451-25.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 8 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900670728-26.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:55.237895+00:00",
+    "extracted_text": null,
+    "id": "9c906a80-8932-4943-a80b-eaefa3378f73",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900670728-26.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 8 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900666402-27.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:50.159561+00:00",
+    "extracted_text": null,
+    "id": "0ce4344c-3b90-4fd2-86bd-7d39c52df003",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900666402-27.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 8"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900670707-19.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:54.316115+00:00",
+    "extracted_text": null,
+    "id": "345f33dc-cde0-4d2b-988f-a1851cb55931",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900670707-19.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 9 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900643386-21.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:24.530926+00:00",
+    "extracted_text": null,
+    "id": "63bb80ee-de49-4d14-bff0-139e70c2296b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900643386-21.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 9"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900671988-40.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:56.180815+00:00",
+    "extracted_text": null,
+    "id": "f7125e92-ec6f-4b38-a83d-6375062c8783",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900671988-40.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 10 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900649277-41.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:30.683113+00:00",
+    "extracted_text": null,
+    "id": "99fff071-60ca-48ec-98ff-c7244ee9376c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900649277-41.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 10 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900651642-20.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:35.798092+00:00",
+    "extracted_text": null,
+    "id": "31a4a09f-d61c-4e0a-9f80-ded8124ad92e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900651642-20.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 9 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900659952-42.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:41.708553+00:00",
+    "extracted_text": null,
+    "id": "d3bdc357-8fdc-4b3d-bf32-96d582e9a4a2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900659952-42.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 10"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900683539-22.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:53:02.487809+00:00",
+    "extracted_text": null,
+    "id": "3bccdd14-4237-46dd-99c2-c39581385ace",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900683539-22.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 11 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900651578-23.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:34.700243+00:00",
+    "extracted_text": null,
+    "id": "ed0f547f-5891-4101-b56e-67c93b7a104d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900651578-23.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 11 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900679359-24.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:58.833089+00:00",
+    "extracted_text": null,
+    "id": "2ad958e7-b35a-4049-88d7-18b19f0cf8db",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900679359-24.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 11"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900692296-16.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:53:04.680622+00:00",
+    "extracted_text": null,
+    "id": "a716785e-307c-45b7-a7cd-3ba00275742e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900692296-16.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 12 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900668411-17.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:51.895696+00:00",
+    "extracted_text": null,
+    "id": "de68ce8d-a255-414c-840f-f1afb56be397",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900668411-17.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 12 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900677268-18.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:57.186311+00:00",
+    "extracted_text": null,
+    "id": "95bfa872-ec8f-470a-b5a2-939f2e381398",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900677268-18.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 12"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900699282-1.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:53:08.201098+00:00",
+    "extracted_text": null,
+    "id": "a954f4ac-ce7b-47b8-bf70-7a6d040f2aa3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900699282-1.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 13 الورقة 1"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900657522-2.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:52:38.239479+00:00",
+    "extracted_text": null,
+    "id": "e7df2c52-87b8-4eaa-a28d-2861a1597b89",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900657522-2.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "النموذج 13 الورقة 2"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/ai-1786900680164-3.jpg"
+    ],
+    "audio_url": null,
+    "content_type": "lesson",
+    "created_at": "2026-08-16T17:53:01.32893+00:00",
+    "extracted_text": null,
+    "id": "a3d2321f-9f88-4f10-8f69-999cfae389ac",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786900680164-3.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+    "summary": null,
+    "title": "نموذج التصحيح النموذج 13"
+  }
+]
