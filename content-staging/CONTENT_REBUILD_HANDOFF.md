@@ -201,9 +201,90 @@ Commits مهمة قبل ذلك:
 - `91d3576bba57958dcdabd25d94db309a2f0ce4b4` — workflow validation.
 - `e6913278c44f74ed246ff39a36c037e99d5393d6` — curation v2 trigger.
 
-## 7) ما لم يتم بعد — IMPORTANT
+## 7) BATCH-001 — First real Grade 9 English batch — ACTIVE
 
-### STRUCTURE-001 — P1 — IN PROGRESS
+الدفعة الحالية:
+
+`BATCH-001-G9-EN-PB3-U1`
+
+النطاق المعتمد فقط لهذه الدفعة:
+
+- Section: `Unit 1 - Revision`
+- `Presents from London` — page 1
+- `What's my job?` — page 2
+- `The holidays` — page 3
+- `A postcard from London` — page 4
+- total questions: 13
+
+هذه الحدود مثبتة لهذه الدفعة فقط، ولا تعني اعتماد `one page = one lesson` لبقية الكتاب.
+
+ملفات التنفيذ:
+
+- Contract: `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-unit-1-revision.json`
+- Semantic question review: `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-question-review.json`
+- DB/media validation: `content-staging/curated/grade-9/english/pupil-book-3/batches/BATCH-001_DB_MEDIA_VALIDATION.md`
+- Shared live status: `content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md`
+
+### BATCH-001 DB/media gate — DONE
+
+Production read-only validation أثبت:
+
+- 4 matching prior legacy-import lessons, all unpublished.
+- 4 lesson assets, all draft.
+- 4 ready media assets with source provenance.
+- 13 linked question revisions, all draft/unpublished.
+- 0 PostgreSQL writes during validation.
+
+Current display WebP profile is not a size optimization:
+
+- RAW JPEG total: `440,502` bytes
+- existing display WebP total: `549,794` bytes
+- delta: `+24.81%`
+
+لذلك RAW يبقى immutable ولا تُقبل صيغة WebP لمجرد الامتداد؛ أي derived profile لاحق يجب أن يكون أصغر فعلًا مع الحفاظ على وضوح المحتوى التعليمي.
+
+### BATCH-001 semantic question gate — DONE
+
+تمت مراجعة الأسئلة الـ13 سؤالًا بسؤال مقابل محتوى الصفحات الأربع المتطابقة مع manifest والنسخة المصدرية للكتاب:
+
+- reviewed: **13**
+- approved unchanged: **6**
+- corrected source-grounded: **7**
+- rejected: **0**
+- published automatically: **0**
+
+أهم الأخطاء المكتشفة:
+
+- سؤال في page 1 غيّر المشتري وجعل الإجابة عامة بدل الاقتراح الفعلي.
+- page 2 احتوت attribution غير صحيح إلى Taha وخلطًا بين doctor/dentist؛ صُححت 3 أسئلة إلى أوصاف الوظائف الموجودة فعلًا.
+- page 3 احتوت cross-page leakage من قصة London ونسبت نشاطًا إلى Amna دون دليل؛ صُححت الأسئلة الثلاثة إلى حقائق موجودة فعلًا في صفحة `The holidays`.
+- page 4: السؤالان صحيحان وبقيا دون تغيير.
+
+Commits:
+
+- reviewed question set: `eae7b9d8b3b61b20f4ca74cb75f222aa5b6f9e60`
+- batch contract after semantic gate: `4f2fb8d0a559add5b6c2e75c92bf075fabae32f5`
+
+الـRAW questions لم تُعدل؛ ملف review هو الطبقة curated التي يجب أن يستخدمها الـdry-run والاستيراد.
+
+### BATCH-001 immediate next action
+
+`[NEXT]` Modern target dry-run فقط، بدون mutation:
+
+- one curriculum section
+- four curated lesson slugs
+- four lesson assets reusing exact existing media/source provenance
+- reviewed 13-question set فقط
+- duplicate-safe handling of the existing unpublished 62-lesson legacy import
+- exact create/reuse/update/deactivate counts
+- exact rollback scope/counts
+- prove unrelated rows remain untouched
+
+لا توجد صلاحية لعمل PostgreSQL mutation قبل نجاح هذه البوابة وتوثيق أعدادها.
+
+## 8) Remaining content work after BATCH-001
+
+### STRUCTURE-001 — P1 — TODO AFTER BATCH-001
 
 بناء inventory لتغطية الـstructural manifests على كل الـ58 subject/document.
 
@@ -214,8 +295,6 @@ Commits مهمة قبل ذلك:
 - `NEEDS_STRUCTURE_EXTRACTION`
 - `EMPTY_SOURCE`
 - `ANOMALOUS_SOURCE`
-
-هذه المهمة كانت النقطة التالية المباشرة عند إنشاء هذا handoff.
 
 ### STRUCTURE-002 — P1 — TODO
 
@@ -230,11 +309,9 @@ Commits مهمة قبل ذلك:
 
 ### CURATION-001 — P1 — TODO
 
-مراجعة Lesson/Activity boundaries داخل Grade 9 English.
+مراجعة بقية Lesson/Activity boundaries داخل Grade 9 English.
 
-الـ69 عنصر الحالية Page Candidates فقط؛ لم يتم اعتماد 69 Lesson ولا 62 Lesson.
-
-يجب استخدام Unit structure + عناوين الصفحات + الكتاب الفعلي لتحديد ما إذا كانت الصفحات المتجاورة تمثل Lesson واحدًا أو أنشطة مستقلة.
+الـ69 عنصر الكاملة Page Candidates فقط؛ BATCH-001 اعتمد أول 4 فقط كحدود موثقة.
 
 ### CURATION-002 — P1 — TODO
 
@@ -265,21 +342,22 @@ Generated content يبقى `review_required` ولا يصبح Truth أو Publishe
 - verify decodability/readability.
 - derive output; never overwrite evidence.
 
-### IMPORT-001 — P1 — BLOCKED BY CURATION
+### IMPORT-001 — P1 — BLOCKED BY BATCH/STRUCTURE GATES
 
-لا تستورد curated legacy content إلى PostgreSQL الحديث بعد.
+لا تستورد أي curated legacy content غير مراجع إلى PostgreSQL الحديث.
 
-قبل الاستيراد:
+قبل كل import:
 
-- full structural verification
+- structural verification
 - dry-run counts
 - provenance verification
-- media transformation verification
+- media transformation/delivery verification
 - question validity/report
-- controlled cleanup/reset للدفعة التجريبية legacy القديمة إن لزم
+- duplicate-safe handling of prior legacy import
+- rollback plan
 - replay/idempotency verification
 
-## 8) Modern Alwaslh DB facts التي يجب الحفاظ عليها
+## 9) Modern Alwaslh DB facts التي يجب الحفاظ عليها
 
 المستودع الرئيسي للتطبيق:
 
@@ -304,7 +382,7 @@ Question Bank:
 
 Quiz Builder يفرض scope integrity على class/subject/lesson/questions، والـpublished structure immutable.
 
-Student Reader/Student Catalog لا يعرضان المحتوى لمجرد وجوده. يلزم على الأقل التحقق من العقود الفعلية التالية قبل أي demo/production publication:
+Student Reader/Student Catalog لا يعرضان المحتوى لمجرد وجوده. يلزم على الأقل التحقق من العقود الفعلية التالية قبل أي publication:
 
 - active class
 - active subject
@@ -316,49 +394,25 @@ Student Reader/Student Catalog لا يعرضان المحتوى لمجرد وج�
 - media asset ready
 - media bytes/variants valid
 
-## 9) Published Student Demo Data — TASK REQUESTED / NOT YET VERIFIED HERE
-
-طلب المستخدم إضافة بيانات تجريبية منشورة صحيحة End-to-End حتى يرى الشكل الحقيقي عند الطالب:
-
-- Section
-- Lesson
-- صور/Pages
-- Questions مرتبطة بشكل صحيح
-- Training/Quiz حسب ما يدعمه runtime الفعلي
-- Published correctly
-- Student-visible with proper entitlement
-
-قواعد التنفيذ:
-
-- لا تستخدم Legacy RAW كبيانات Demo منشورة مباشرة.
-- افحص schema + services + student UI + quiz/training runtime قبل الإنشاء.
-- استخدم scope واضح مثل `DEMO-PUBLISHED-CONTENT` وقابل للإزالة.
-- لا تضف migration دائمة تحقن demo data في كل بيئة إلا إذا أثبتت بنية المشروع أن هذا هو الأسلوب المعتمد.
-- فضّل seed/admin/runtime operation قابلة للتراجع.
-- استخدم canonical media pipeline/storage، لا external image URLs.
-- وثّق IDs غير الحساسة، verification، وطريقة cleanup.
-- حدّث `PROJECT_ENGINEERING_LOG.md` و`PROJECT_STATUS.md` في `7eaur/alwaslh` عند تنفيذ التغيير.
-
-حالة هذه المهمة عند كتابة هذا الملف: **NOT YET VERIFIED / التنفيذ جارٍ في المحادثة التي أنشأت الـhandoff**.
-
 ## 10) UX/Product roadmap isolation
 
 الـcontent rebuild ليس تصريحًا لتغيير الـUX roadmap أو دمج تغييرات واجهة غير مرتبطة.
 
-في `7eaur/alwaslh` كان Stage 17/UX refoundation جارٍ في مسار منفصل. لا تخلط changeset المحتوى/seed التجريبي مع refactor الواجهة إلا عند الحاجة للتحقق المرئي فقط.
+في `7eaur/alwaslh` كان Stage 17/UX refoundation جارٍ في مسار منفصل. لا تخلط changeset المحتوى مع refactor الواجهة إلا عند الحاجة للتحقق المرئي فقط.
 
-بعد اكتمال مسار UX الحالي، نقطة استئناف roadmap الطبيعية المحفوظة سابقًا هي `STUDENT-016I` وفق skill/project docs، لكن تحقّق من `PROJECT_STATUS.md` الحي قبل أي قرار.
+بعد الوصول إلى content gate الموثق، نقطة العودة المطلوبة هي `STUDENT-016I`، لكن يجب التحقق من `PROJECT_STATUS.md` الحي قبل أي قرار.
 
 ## 11) Verification gates الحالية
 
 قبل أي خطوة جديدة:
 
-1. اقرأ `.agents/skills/alwaslh-product-engineering/SKILL.md` من `7eaur/alwaslh`.
-2. اقرأ `PROJECT_STATUS.md` و`PROJECT_ENGINEERING_LOG.md`.
-3. تحقق من live branch SHA في `alwaslh-go/content/legacy-staging-rebuild`.
-4. تحقق من `FULL_EXTRACTION_REPORT.json` وأن snapshot SHA يساوي القيمة المعتمدة أعلاه.
-5. تحقق أن Grade 9 English reconstruction ما زال schema v3 / not_importable / 69 candidates / 8 sections / 104 questions / 1 manifest-only page.
+1. اقرأ `.agents/skills/alwaslh-product-engineering/SKILL.md` من `7eaur/alwaslh` عند الحاجة إلى تعديل التطبيق/DB tooling.
+2. اقرأ `PROJECT_STATUS.md` و`PROJECT_ENGINEERING_LOG.md` عند أي تغيير في حقيقة التطبيق أو runtime.
+3. تحقق من live heads لـ`alwaslh main` و`alwaslh-go master` و`alwaslh-go/content/legacy-staging-rebuild`.
+4. اقرأ `CONTENT_REBUILD_EXECUTION_STATUS.md` وابدأ من أول `[NEXT]` فقط.
+5. تحقق من `FULL_EXTRACTION_REPORT.json` وأن snapshot SHA يساوي القيمة المعتمدة أعلاه إذا دخلت في corpus-wide work.
 6. لا تعتمد على أرقام المحادثة إذا اختلفت عن live repo/report.
+7. لا تنشر محتوى غير مراجع تلقائيًا.
 
 ## 12) Definition of Done لمسار إعادة بناء المحتوى
 
@@ -369,7 +423,7 @@ Student Reader/Student Catalog لا يعرضان المحتوى لمجرد وج�
 - Lesson/activity boundaries reviewed.
 - Questions mapped and invalid/unknown answers isolated.
 - Missing content explicitly classified and reviewed.
-- Optimized media derived with checksum/readability validation.
+- Optimized media derived with checksum/readability validation where it is actually beneficial.
 - Curated repository passes machine validation.
 - Production dry-run passes.
 - Controlled import passes.
@@ -380,15 +434,19 @@ Student Reader/Student Catalog لا يعرضان المحتوى لمجرد وج�
 
 ## 13) Immediate next execution order
 
-1. Finish live Published Student Demo Data task in `7eaur/alwaslh` and document it.
-2. Finish structural-manifest coverage inventory for all RAW subjects/documents.
-3. Review Grade 9 English lesson/activity boundaries.
-4. Build reusable curated document contract from verified evidence.
-5. Expand reconstruction incrementally across documents.
-6. Only after content structure is stable: derive WebP/optimized media.
-7. Run full curated validation/report.
-8. Design controlled Production import/reset plan.
-9. Import only after explicit gates pass.
+1. `BATCH-001`: modern target dry-run using the reviewed 13-question set.
+2. `BATCH-001`: exact mutation/rollback counts.
+3. `BATCH-001`: controlled PostgreSQL mutation only if every gate passes.
+4. `BATCH-001`: verify records, visibility rules, idempotency, and unrelated-row invariance.
+5. `STRUCTURE-001`.
+6. `STRUCTURE-002`.
+7. `CURATION-001`.
+8. `CURATION-002`.
+9. `CONTENT-GAPS-001`.
+10. `MEDIA-001`.
+11. `IMPORT-001`.
+12. `VERIFY-001`.
+13. `ROADMAP-RETURN` to `STUDENT-016I` when the content gate is documented as reached.
 
 ---
 
