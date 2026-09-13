@@ -33,6 +33,7 @@
 - `MEDIA-001 = DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE`
 - `IMPORT-001 = DONE / COMMITTED_STATE_VERIFIED`
 - `VERIFY-001 = DONE / DELIVERY_ISOLATION_AND_PROVENANCE_VERIFIED`
+- `ROADMAP-RETURN = DONE / STUDENT-016I_HANDOFF_VERIFIED`
 
 Do not repeat completed tasks unless fresh drift invalidates their evidence.
 
@@ -78,14 +79,26 @@ This independently proves the imported slice is structurally/provenance-consiste
 
 The Railway content inspector was returned to idle after the verification run so later documentation commits do not replay the verifier.
 
+## ROADMAP-RETURN close evidence
+
+Live state observed on 2026-09-13:
+
+- `7eaur/alwaslh main` began at `8d11cddb2cde510f233926d394434a384d480745`;
+- `7eaur/alwaslh-go content/legacy-staging-rebuild` began at `61bb699b1dbb421f3ca031b8f8d3f53c48235678`;
+- PR #55 is already merged: accepted head `8ceb4d5a5f70f7896f6cb358e05605479942d442`, merge commit `343ff1fd7b3d64d7e990b72606695365f520fa58`;
+- current Student architecture still identifies `STUDENT-016I` as the first unfinished Stage16 item;
+- concurrent Student execution already opened PR #57 on `stage16/student-016i`, exact head `4624dcc824555c1d29e9d697a7474bf76223468b`;
+- PR #57 owns true cold-start offline Reader closure and must be continued from its live evidence rather than duplicated here;
+- exact-head PR #57 CI is not fully green at this checkpoint: `Stage 8 · Student activation browser E2E` is failing;
+- no Content Rebuild data, media binary, RAW, question, or publication mutation occurred during roadmap return.
+
 ## Exact resume action
 
-`ROADMAP-RETURN -> STUDENT-016I` only:
-1. read live heads for `7eaur/alwaslh` and `7eaur/alwaslh-go`;
-2. read current `PROJECT_HANDOFF.md`, `PROJECT_STATUS.md`, `PROJECT_ENGINEERING_LOG.md` and Student product overrides/architecture docs;
-3. verify that no newer Student checkpoint supersedes `STUDENT-016I`;
-4. resume the first incomplete Student roadmap item from live evidence only;
-5. keep Content Rebuild publication closed unless a separate explicit review/publication gate is executed.
+The ordered Content Rebuild sequence requested for this workstream is complete through `ROADMAP-RETURN`.
+
+Continue **Student workstream PR #57 / `STUDENT-016I`** from its current exact head and CI evidence. Do not start a second 016I implementation from the Content Rebuild branch.
+
+Content publication remains closed. If Content Rebuild is explicitly resumed later, re-read both live heads plus this handoff/status before editing and preserve all completed checkpoints.
 
 ## Ordered queue
 
@@ -95,7 +108,7 @@ The Railway content inspector was returned to idle after the verification run so
 - `CURATION-001` — DONE
 - `CURATION-002` — DONE
 - `CONTENT-GAPS-001` — DONE
-- `MEDIA-001` — DONE
+- `MEDIA-001` — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
 - `IMPORT-001` — DONE / COMMITTED_STATE_VERIFIED
 - `VERIFY-001` — DONE / DELIVERY_ISOLATION_AND_PROVENANCE_VERIFIED
-- `ROADMAP-RETURN -> STUDENT-016I` — TODO
+- `ROADMAP-RETURN -> STUDENT-016I` — DONE / STUDENT-016I_HANDOFF_VERIFIED
