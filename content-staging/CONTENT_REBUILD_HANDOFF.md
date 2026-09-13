@@ -66,7 +66,7 @@ Do not redo BATCH-001 unless fresh drift invalidates evidence.
 - 11 source identities
 - 30 legacy question attachments preserved
 - page 16 starts Unit 3
-- Lesson boundaries intentionally unresolved
+- Lesson boundaries intentionally unresolved at this stage
 
 ## STRUCTURE-002 — DONE
 
@@ -79,34 +79,58 @@ Do not redo BATCH-001 unless fresh drift invalidates evidence.
 - 3 legacy questions preserved on book page 22/source page 26
 - page 26/source page 30 starts `Unit 4 - Visiting Japan` (`A Japanese pen-friend`)
 - repeated `Four countries` pages remain distinct source identities
-- Lesson boundaries intentionally unresolved
 - no question rewrite, RAW mutation, PostgreSQL mutation, publication change, anomaly deletion, or unrelated-record mutation
+
+## CURATION-001 — DONE
+
+First reviewed Lesson boundary inside Unit 2:
+- evidence: `content-staging/curated/grade-9/english/pupil-book-3/curation-001-unit-2-describing.json`
+- creation commit: `67f630f42913528405246fad7c541b091a47959e`
+- reviewed Lesson: `Describing people and animals`
+- book pages `5..8`
+- source pages `9..12`
+- four ordered source pages retained as activities/page assets, not four automatically promoted Lessons
+- attached legacy questions preserved: `12`
+- all four RAW SHA-256 values preserved
+
+Boundary evidence retained:
+- page 5 introduces physical description;
+- page 6 develops descriptive vocabulary/opposites;
+- page 7 applies description to people;
+- page 8 applies description to animals;
+- page 9/source page 13 changes topic to `What's the time?`, so it begins the next curation boundary.
+
+Question text was used only as supporting boundary evidence. The 12 legacy AI questions were not semantically approved, corrected, rejected or published in CURATION-001.
+
+No PostgreSQL, RAW, Media or publication mutation occurred.
 
 ## Current checkpoint
 
 - `BATCH-001 = DONE / COMMITTED_STATE_VERIFIED`
 - `STRUCTURE-001 = DONE / SECTION_BOUNDARY_VERIFIED`
 - `STRUCTURE-002 = DONE / SECTION_BOUNDARY_VERIFIED`
-- `CURATION-001 = NEXT`
+- `CURATION-001 = DONE / LESSON_BOUNDARY_VERIFIED`
+- `CURATION-002 = NEXT`
 
 ## Exact resume action
 
 On the next run:
 1. read live heads for `7eaur/alwaslh` and `7eaur/alwaslh-go` plus status/handoff;
-2. if no evidence-invalidating drift exists, execute `CURATION-001` only;
-3. choose the smallest reviewable curation batch;
-4. determine actual Lesson/Activity boundaries from content evidence, not page-title heuristics;
+2. if no evidence-invalidating drift exists, execute `CURATION-002` only;
+3. begin at book page `9` / source page `13` (`What's the time?`);
+4. identify the smallest coherent next Lesson/Activity boundary from actual content evidence, especially the time/meeting/planning sequence;
 5. preserve every source identity, anomaly, checksum and question-to-page provenance;
-6. do not publish unreviewed content or mutate PostgreSQL merely to complete curation;
-7. document the exact result before moving to CURATION-002.
+6. do not treat the legacy AI questions as trusted merely because they are useful boundary evidence;
+7. do not publish or mutate PostgreSQL during curation;
+8. document the exact result before moving to `CONTENT-GAPS-001`.
 
 ## Ordered queue
 
 - `BATCH-001` — DONE
 - `STRUCTURE-001` — DONE
 - `STRUCTURE-002` — DONE
-- `CURATION-001` — NEXT
-- `CURATION-002` — TODO
+- `CURATION-001` — DONE
+- `CURATION-002` — NEXT
 - `CONTENT-GAPS-001` — TODO
 - `MEDIA-001` — TODO
 - `IMPORT-001` — TODO
