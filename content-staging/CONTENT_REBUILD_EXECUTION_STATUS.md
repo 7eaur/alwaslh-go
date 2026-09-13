@@ -14,12 +14,12 @@ Fixed rules:
 - أي apply يفشل مغلقًا عند identity/count/provenance drift.
 - WebP لا يُقبل لمجرد الامتداد؛ يجب إثبات فائدة الحجم والوضوح.
 
-## Live heads observed at start of IMPORT-001
+## Live heads observed at start of current IMPORT-001 continuation
 
 - `7eaur/alwaslh main`: `0c7c9f9c5e4ec6ae020484a9a4892eaf3b8b5194`
-- `7eaur/alwaslh-go content/legacy-staging-rebuild`: `3063e2897a6689674081d2ccdbf17693d4ae078b`
+- `7eaur/alwaslh-go content/legacy-staging-rebuild`: `b51cc0df7a127f8d2f458850eed395732ddc8075`
 
-No evidence-invalidating drift was found before starting IMPORT-001.
+No evidence-invalidating drift was found before continuing IMPORT-001.
 
 ## BATCH-001 — DONE / COMMITTED_STATE_VERIFIED
 
@@ -171,38 +171,75 @@ Important interpretation:
 - publication change: `0`
 - unrelated-record mutation: `0`
 
-## IMPORT-001 — IN PROGRESS / LIVE_IDENTITY_INSPECTOR_BUILDING
+## IMPORT-001 — IN PROGRESS / ROLLBACK_GATE_VERIFIED
 
-Smallest intended import scope remains CURATION-001 only:
+Smallest import scope remains CURATION-001 only:
 - one reviewed Lesson: `Describing people and animals`
 - book pages `5..8` / source pages `9..12`
 - four ordered page/activity identities
-- unresolved pages remain excluded
-- no question import/rewrite is authorized by CURATION-001
+- unresolved pages excluded
+- no question import/rewrite authorized
 
-Progress in this run:
-- live repository heads were re-read before work; no evidence-invalidating drift was found.
-- added read-only runtime inspector `content-staging/runtime/import-001-inspect.mjs`.
-- inspector commit: `6109f7d8dc9dce34f8dfe4c08f748425dfd1edc1`.
-- the inspector validates exact Grade 9/English scope, the four legacy source paths/checksums/presence flags, existing Media/Lesson chains, section membership, target-slug collisions and publication state before any write.
-- Railway service `alwaslh-content-inspector` was switched to `node import-001-inspect.mjs`.
-- auto-deployment: `ab72b35e-990d-4a07-bc10-a875ee6c87cc`.
-- deployment status at checkpoint: `BUILDING` (builder scheduled; no runtime output yet).
-- PostgreSQL mutation: `0`.
-- RAW/Media binary mutation: `0`.
-- publication mutation: `0`.
-- unrelated-record mutation: `0`.
+Live identity inspection:
+- successful deployment: `4cf8665b-4dd1-4e90-9ec8-92d897c34f59`
+- marker: `IMPORT001_INSPECT_PASS`
+- Grade 9/English active offering count: `1`
+- Unit 1 existing Section count in scope: `1`
+- Unit 2 target Section count: `0`
+- target curated Lesson slug count: `0`
+- exact source assets: `4`, all present with expected immutable checksums
+- Media Assets: `4`, all `ready`
+- existing Lesson Assets: `4`, all `draft` and unpublished
+- legacy Lessons: `4`, active/unpublished and sectionless
+- published lesson/asset count in scope: `0/0`
 
-Transient blocker:
-- Railway has not completed the inspector build yet, so live identity/provenance counts are not yet available and controlled dry-run/apply must not proceed.
+Rollback-only transaction gate:
+- gate script commit: `177b91572ac6fe3b37acd9bcc094876a1cbb3beb`
+- script: `content-staging/runtime/import-001-transaction-gate.mjs`
+- Railway deployment: `8e4cdcbb-2783-4dca-b025-e1191fa9e330` — SUCCESS
+- marker: `IMPORT001_TRANSACTION_GATE_PASS`
+- rollback verified: `true`
+- committed business writes: `0`
+
+Exact validated intended PostgreSQL mutation for the eventual controlled apply:
+- create Sections: `1`
+- create Lessons: `1`
+- reassign existing Lesson Assets: `4` in reviewed order `0..3`
+- create Media Assets: `0`
+- mutate Media Assets: `0`
+- mutate legacy Lessons: `0`
+- mutate Questions: `0`
+- publication changes: `0`
+- unrelated rows: `0`
+- preserved legacy Question Revisions on old lessons: `12`
+
+Reused Media Asset IDs:
+- `3d53954b-95ef-4833-ae06-407f2325e28e`
+- `9d4f61a2-8c00-44cf-9baa-7e48740e0ef6`
+- `3aadf23a-432d-4391-bd2f-467eaefe486b`
+- `b0b1d37e-1b9f-43a3-9987-4973423d822c`
+
+Reused Lesson Asset IDs:
+- `d8dfb014-23bb-4db0-b6c2-3aa8e98862eb`
+- `b474bec6-8828-45e9-8b28-40ff0b52a9c2`
+- `cec764c8-dce3-4917-8dea-66a36165ec89`
+- `bdaca047-29a2-4730-81d5-2abd173a93ce`
+
+Media interpretation for this import gate:
+- existing Media Assets/variants are reused; no binary/media mutation occurs in this structural import transaction.
+- page 5 accepted derived WebP remains a verified reproducible candidate, not silently substituted into production storage by IMPORT-001.
+- pages 6..8 retain their current source/preferred media state.
+
+No RAW/Media binary/PostgreSQL committed/publication/unrelated mutation occurred in the inspector or rollback gate.
 
 Exact next action:
 1. read both live heads again;
-2. inspect deployment `ab72b35e-990d-4a07-bc10-a875ee6c87cc` and require `IMPORT001_INSPECT_PASS`;
-3. if the inspector fails, fix the root cause without weakening identity/count/provenance guards;
-4. if it passes, document exact existing Section/Lesson/Asset/Media identities and create/reuse/update counts;
-5. only then build and execute the dry-run/rollback gate for this same four-page reviewed scope;
-6. do not publish, import unresolved pages, mutate RAW, use `69 -> 62`, delete anomalies, or touch unrelated records.
+2. re-run strict identity/count/provenance drift guards immediately before write;
+3. build controlled apply from the verified rollback gate with exactly `1 Section + 1 Lesson + 4 Lesson Asset reassignments`;
+4. fail closed on any identity/count/checksum/publication drift;
+5. perform no Question/Media/RAW/publication/unrelated mutation;
+6. verify committed state independently before closing IMPORT-001;
+7. do not start VERIFY-001 until IMPORT-001 committed state is verified.
 
 ## Gate checklist
 
@@ -213,7 +250,7 @@ Exact next action:
 - `CURATION-002` — DONE / LESSON_BOUNDARY_VERIFIED
 - `CONTENT-GAPS-001` — DONE / GAP_INVENTORY_VERIFIED
 - `MEDIA-001` — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
-- `IMPORT-001` — IN PROGRESS / LIVE_IDENTITY_INSPECTOR_BUILDING
+- `IMPORT-001` — IN PROGRESS / ROLLBACK_GATE_VERIFIED
 
 ## Remaining ordered queue
 
