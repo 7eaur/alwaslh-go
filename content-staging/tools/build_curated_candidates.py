@@ -94,6 +94,32 @@ def full_report_subject(full_report: dict[str, Any], subject_id: str) -> dict[st
     return matches[0]
 
 
+def source_manifest_only_pages(
+    page_by_number: dict[int, dict[str, Any]],
+    structural_by_book_page: dict[int, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Preserve reviewed structural pages that have no legacy raw page.
+
+    These are evidence only. They MUST NOT become page/lesson candidates because
+    there is no corresponding immutable legacy page/image to import.
+    """
+    rows: list[dict[str, Any]] = []
+    for book_page in sorted(set(structural_by_book_page) - set(page_by_number)):
+        entry = structural_by_book_page[book_page]
+        rows.append(
+            {
+                "book_page": book_page,
+                "source_page": entry.get("source_page"),
+                "section": normalize_title(str(entry.get("section", ""))),
+                "title": normalize_title(str(entry.get("title", ""))),
+                "relative_path": entry.get("relative_path"),
+                "status": "source_manifest_only",
+                "reason": "reviewed source manifest contains this page but the immutable legacy raw subject does not",
+            }
+        )
+    return rows
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--subject-id", required=True)
@@ -141,11 +167,10 @@ def main() -> int:
     structural = [entry for entry in source_manifest if isinstance(entry.get("book_page"), int)]
     structural_by_book_page = unique_page_map(structural, field="book_page", label="source manifest")
     missing_structure = sorted(set(page_by_number) - set(structural_by_book_page))
-    extra_structure = sorted(set(structural_by_book_page) - set(page_by_number))
-    if missing_structure or extra_structure:
-        raise SystemExit(
-            f"source manifest/raw page coverage mismatch: missing={missing_structure} extra={extra_structure}"
-        )
+    if missing_structure:
+        raise SystemExit(f"raw pages missing reviewed source structure: {missing_structure}")
+
+    manifest_only_pages = source_manifest_only_pages(page_by_number, structural_by_book_page)
 
     sections: dict[str, list[dict[str, Any]]] = defaultdict(list)
     page_candidates: list[dict[str, Any]] = []
@@ -202,7 +227,7 @@ def main() -> int:
 
     title_mismatches = [candidate for candidate in page_candidates if not candidate["title_match"]]
     result = {
-        "schema_version": 2,
+        "schema_version": 3,
         "target": {
             "class_slug": args.class_slug,
             "subject_slug": args.subject_slug,
@@ -226,11 +251,13 @@ def main() -> int:
             "page_candidates": len(page_candidates),
             "questions": total_questions,
             "title_mismatches": len(title_mismatches),
+            "source_manifest_only_pages": len(manifest_only_pages),
         },
         "sections": section_rows,
         "page_candidates": page_candidates,
         "unresolved": {
             "title_mismatches": title_mismatches,
+            "source_manifest_only_pages": manifest_only_pages,
             "lesson_boundaries": "all page candidates require reviewed grouping before production import",
         },
         "publication_status": "not_importable",
