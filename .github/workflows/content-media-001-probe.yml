@@ -1,0 +1,39 @@
+name: content-media-001-probe
+
+on:
+  push:
+    branches:
+      - content/legacy-staging-rebuild
+    paths:
+      - 'content-staging/tools/media_001_probe.py'
+      - '.github/workflows/content-media-001-probe.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  media-probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check pillow==11.3.0
+
+      - name: Run deterministic MEDIA-001 probe
+        run: python content-staging/tools/media_001_probe.py
+
+      - name: Upload MEDIA-001 evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: media-001-evidence
+          path: content-staging/runtime/media-001/
+          if-no-files-found: error
+          retention-days: 7
