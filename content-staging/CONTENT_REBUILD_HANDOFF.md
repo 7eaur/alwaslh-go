@@ -2,7 +2,7 @@
 
 > نقطة الاستئناف الرسمية لمسار المحتوى. اقرأ live heads ثم `CONTENT_REBUILD_EXECUTION_STATUS.md` أولًا.
 
-Last synchronized: **2026-09-14 — Grade 9 English full technical import complete; reviewed Unit 2 CURATION-001/002 structurally verified**.
+Last synchronized: **2026-09-14 — full Grade 9 English technical import complete; only reviewed Unit 2 pages 5..10 published**.
 
 ## العقود الثابتة
 
@@ -11,22 +11,22 @@ Last synchronized: **2026-09-14 — Grade 9 English full technical import comple
 - RAW immutable؛ لا overwrite/recompress in-place.
 - provenance وSHA-256 محفوظان.
 - `media ready != published`.
-- لا auto-publish لأي AI/legacy output.
+- لا auto-publish لأي AI/legacy output غير مراجع.
 - لا تستخدم `69 -> 62` كحقيقة منهجية.
 - لا تحذف anomalies أو بيانات غير مرتبطة لتجميل الأرقام.
 - أي DB apply يفشل مغلقًا عند identity/count/provenance/publication drift.
 
 ## Current Grade 9 English truth
 
-`FULL-GRADE9-ENGLISH-BULK-IMPORT = DONE / FULL_ASSET_COVERAGE_VERIFIED / UNPUBLISHED`
+`FULL-GRADE9-ENGLISH-BULK-IMPORT = DONE / FULL_ASSET_COVERAGE_VERIFIED`
 
-Scope:
+Full imported scope:
 
 - 69 RAW-backed pages
 - 69 RAW images
 - 104 Question Revisions
 - 8 recovered Units/Sections
-- 1 manifest-only final page (page 70) preserved as evidence-only because no RAW identity exists
+- page 70 remains manifest-only/evidence-only because no RAW identity exists
 
 Units:
 
@@ -41,119 +41,128 @@ Units:
 
 Source authority:
 
-- Legacy subject: `1794eea5-4772-4c94-bd2b-b08e5815e733`
+- legacy subject: `1794eea5-4772-4c94-bd2b-b08e5815e733`
 - immutable reconstruction manifest: `content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json`
-- source extraction: branch `content/legacy-supabase-reconstruction`
-- original Grade 9 reference on `master`: `تاسع انجليزي/الانجليزي_تاسع` (`manifest.json`, page-by-page guide and source images)
-- `master` also contains unrelated corpora; always resolve the exact Grade 9 path before using it as reference evidence.
+- source extraction: `content/legacy-supabase-reconstruction`
+- exact original Grade 9 reference on `master`: `تاسع انجليزي/الانجليزي_تاسع`
+- `master` contains other corpora too; never use an adjacent corpus as Grade 9 evidence.
 
-## Full import runtime evidence
+Bulk import runtime evidence remains:
 
-Source commit:
-
-`9e58ab3e882b883bddd016099949881801eedc28`
-
-Railway deployment:
-
-`de7f9883-b2f0-483d-a7c1-ffbfb15ac30c` — `SUCCESS`
-
-Markers:
-
+- source commit `9e58ab3e882b883bddd016099949881801eedc28`
+- Railway deployment `de7f9883-b2f0-483d-a7c1-ffbfb15ac30c`
 - `BULK_G9_EN_INSPECT_PASS`
 - `BULK_G9_EN_TRANSACTION_GATE_PASS`
 - `BULK_G9_EN_APPLY_PASS`
 - `BULK_G9_EN_VERIFY_PASS`
 - `BULK_G9_EN_RUNNER_PASS`
 
-Verified bulk state:
+Do not rerun that import.
 
-- 69/69 pages verified
-- 69/69 RAW image SHA-256 checks verified
-- 69/69 source identities
-- 69/69 ready Media Assets
-- 69/69 Lesson Assets
-- 8/8 Sections
-- 59 asset-owning Lesson identities at the bulk checkpoint
-- 104/104 Question Revisions preserved
-- manifest-only page 70 remains evidence-only
-- published Lessons = 0
-- published Lesson Assets = 0
-- published Questions = 0
-- RAW/media/question/unrelated mutation counts = 0
+## Reviewed and now published slice
 
-`59` was an observed checkpoint count, not a `69 -> 62` heuristic. Later reviewed curation may consolidate source pages into fewer asset-owning modern Lessons without losing provenance.
+User explicitly authorized publishing the Lessons/questions that had completed review.
+
+### CURATION-001
+
+Pages `5..8`:
+
+- Lesson: `curated-english9-pb3-u2-describing-people-and-animals`
+- title: `Describing people and animals`
+- 4 published Lesson Assets
+- 12 published reviewed Question Revisions
+
+### CURATION-002
+
+Pages `9..10`:
+
+- Lesson: `curated-english9-pb3-u2-time-and-meeting`
+- title: `Telling time and arranging a meeting`
+- 2 published Lesson Assets
+- 7 published reviewed Question Revisions
+
+Question review total: `19`.
+
+- `18` approved unchanged
+- `1` corrected before publication
+
+Corrected page-10 item:
+
+- reviewed prompt: `When is Fuad helping Dad on Saturday?`
+- answer: `at six o'clock`
+- reviewed explanation: `Fuad says he is helping Dad at six o'clock.`
+
+## Publication runtime evidence
+
+Publisher commit:
+
+`ea5a19b7086eb8779701be2b1f47fc073b38aa12`
+
+Reviewed correction/final execution head:
+
+`7d17e19bef37835d500de492053e728f0cdb9f1b`
+
+Railway deployment:
+
+`5024b218-32e0-49fe-b9f8-20ee82c5bcd0` — `SUCCESS`
+
+Verified final markers:
+
+- `G9_U2_PUBLISH_APPLY_PASS`
+- `G9_U2_PUBLISH_FULL_PASS`
+- `COMMITTED_STATE_VERIFIED_AND_PUBLISHED`
+
+Post-verify result:
+
+- published Grade 9 English Lessons: `2`
+- published Grade 9 English Lesson Assets: `6`
+- published Grade 9 English Question Revisions: `19`
+- Reader-eligible target assets: `6`
+- Quiz-Builder-eligible reviewed questions: `19`
+- question links: `12 + 7` to the two modern Lessons
+
+Because the total Grade 9 English published counts after the gate are exactly `2 / 6 / 19`, all other imported Grade 9 English content remains Draft/unpublished.
+
+Student delivery note:
+
+- the two Lessons are now student Reader eligible under normal entitlement/auth rules;
+- the 19 Question Revisions are published to Question Bank and available for Quiz Builder;
+- no standalone Quiz/version is claimed to have been built or published by this gate.
 
 Detailed report:
 
-`content-staging/BULK_GRADE9_ENGLISH_IMPORT_REPORT.md`
+`content-staging/GRADE9_UNIT2_REVIEWED_PUBLICATION_REPORT.md`
 
-## Reviewed Unit 2 structural curation
+## Isolation retained
 
-### CURATION-001 — committed and verified
+- RAW mutations: `0`
+- media-binary mutations: `0`
+- unrelated publication: `0`
+- page 70 fabrication: `0`
+- prohibited `69 -> 62` heuristic: not used
+- source/provenance identities retained
 
-Pages `5..8` are one reviewed Lesson:
-
-- `curated-english9-pb3-u2-describing-people-and-animals`
-- `Describing people and animals`
-- 4 ordered Lesson Assets
-- 12 source legacy Question Revisions preserved/unpublished
-- target question links intentionally remain 0 pending semantic question curation
-- no publication/RAW/media mutation
-
-### CURATION-002 — committed and verified
-
-Pages `9..10` are one reviewed Lesson:
-
-- `curated-english9-pb3-u2-time-and-meeting`
-- `Telling time and arranging a meeting`
-- target Lesson ID `4e106cb7-bc27-4e0d-bd51-d401bc7e980e`
-- 2 ordered Lesson Assets with exact source paths/SHA-256 verified
-- 2 source legacy Lessons preserved active/unpublished, sectionless and asset-free
-- 7 source legacy Question Revisions preserved unchanged/unpublished
-- target question links = 0
-- publication changes = 0
-- RAW/media mutations = 0
-
-Concurrency note:
-
-- a write attempt detected the target Lesson already existed and failed closed before mutation;
-- read-only reconciliation verified the live state rather than overwriting it.
-
-Verifier commit:
-
-`2575d399db03be62911a927d5ce15bb8614fa9e8`
-
-Railway verification deployment:
-
-`484f49af-01b4-4755-b8e3-d107641605b5` — `SUCCESS`
-
-Markers:
-
-- `CURATION002_RECONCILE_PASS`
-- `CURATION002_FULL_PASS`
-- `COMMITTED_STATE_VERIFIED`
+The Railway content service was returned to an idle start command after publication verification; documentation commits must not replay the publisher.
 
 ## Previous checkpoints retained
 
 - `BATCH-001 = DONE / COMMITTED_STATE_VERIFIED`
 - `STRUCTURE-001 = DONE / SECTION_BOUNDARY_VERIFIED`
 - `STRUCTURE-002 = DONE / SECTION_BOUNDARY_VERIFIED`
-- `CURATION-001 = DONE / LESSON_BOUNDARY_VERIFIED + COMMITTED_STATE_VERIFIED`
-- `CURATION-002 = DONE / LESSON_BOUNDARY_VERIFIED + COMMITTED_STATE_VERIFIED`
+- `CURATION-001 = DONE / COMMITTED_STATE_VERIFIED / PUBLISHED`
+- `CURATION-002 = DONE / COMMITTED_STATE_VERIFIED / PUBLISHED`
 - `CONTENT-GAPS-001 = DONE / GAP_INVENTORY_VERIFIED`
 - `MEDIA-001 = DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE`
 - `IMPORT-001 = DONE / COMMITTED_STATE_VERIFIED`
 - `VERIFY-001 = DONE / DELIVERY_ISOLATION_AND_PROVENANCE_VERIFIED`
 - `ROADMAP-RETURN = DONE / STUDENT-016I_HANDOFF_VERIFIED`
+- `FULL-GRADE9-ENGLISH-BULK-IMPORT = DONE / FULL_ASSET_COVERAGE_VERIFIED`
+- `REVIEWED-UNIT2-PUBLICATION = DONE / COMMITTED_STATE_VERIFIED_AND_PUBLISHED`
 
 ## Exact resume rule
 
-Do not rerun Grade 9 English bulk import or CURATION-001/002 unless fresh drift invalidates verifier evidence.
+Do not rerun the bulk import, CURATION-001/002 structural apply, or the reviewed Unit 2 publication gate unless fresh runtime evidence shows drift.
 
-Continue only with the first remaining evidence-backed pedagogical boundary. Use the exact Grade 9 source on `master` to accelerate page/unit/title comparison, then require a rollback gate before any structural write.
+Continue only from the first unresolved pedagogical boundary in the still-unpublished Grade 9 English corpus. Future Lessons/questions must complete review before any explicit publication gate.
 
-Question migration remains a separate semantic step: preserving source questions does not automatically authorize relinking them to a curated Lesson.
-
-Publication remains locked until an explicit publication review/gate is approved.
-
-Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-publish legacy/AI content.
+Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-publish unreviewed AI/legacy content.
