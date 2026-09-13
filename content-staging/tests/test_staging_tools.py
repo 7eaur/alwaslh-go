@@ -99,6 +99,24 @@ class CurationTests(unittest.TestCase):
         with self.assertRaises(SystemExit):
             builder.index_raw_images(raw_manifest, pages)
 
+    def test_manifest_only_pages_are_preserved_as_evidence(self):
+        pages = {1: {"id": "page-1", "page_number": 1}}
+        structural = {
+            1: {"book_page": 1, "source_page": 5, "section": "Unit 1", "title": "Lesson"},
+            2: {
+                "book_page": 2,
+                "source_page": 6,
+                "section": "Back Matter",
+                "title": "Blank Final Page",
+                "relative_path": "images/p002.jpg",
+            },
+        }
+        result = builder.source_manifest_only_pages(pages, structural)
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0]["book_page"], 2)
+        self.assertEqual(result[0]["status"], "source_manifest_only")
+        self.assertEqual(result[0]["title"], "Blank Final Page")
+
 
 if __name__ == "__main__":
     unittest.main()
