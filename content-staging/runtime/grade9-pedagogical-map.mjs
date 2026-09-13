@@ -1,12 +1,17 @@
-import { readFile } from 'node:fs/promises';
 import postgres from 'postgres';
 
 const databaseUrl = process.env.DATABASE_URL;
 if (!databaseUrl) throw new Error('DATABASE_URL is required');
 
-const manifest = JSON.parse(await readFile(new URL('../curated/grade-9/english/pupil-book-3/reconstruction-candidates.json', import.meta.url), 'utf8'));
+const manifestRef = process.env.BULK_G9_EN_MANIFEST_REF ?? 'a2e1f9b23aebc28ed0b750688a0fe525bae68bcd';
+const manifestUrl = `https://raw.githubusercontent.com/7eaur/alwaslh-go/${manifestRef}/content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json`;
+const response = await fetch(manifestUrl, { signal: AbortSignal.timeout(20_000) });
+if (!response.ok) throw new Error(`G9_PED_MAP_FAIL: manifest fetch status=${response.status}`);
+const manifest = await response.json();
 const pages = manifest.page_candidates ?? [];
-if (pages.length !== 69) throw new Error(`G9_PED_MAP_FAIL: expected 69 pages, got ${pages.length}`);
+if (manifest?.counts?.page_candidates !== 69 || manifest?.counts?.raw_pages !== 69 || manifest?.counts?.raw_images !== 69 || manifest?.counts?.questions !== 104 || manifest?.counts?.sections !== 8 || manifest?.counts?.source_manifest_only_pages !== 1 || pages.length !== 69) {
+  throw new Error(`G9_PED_MAP_FAIL: pinned manifest invariant drift ${JSON.stringify(manifest?.counts ?? null)}`);
+}
 
 const sql = postgres(databaseUrl, { max: 1, connect_timeout: 15, idle_timeout: 5, prepare: false });
 
@@ -72,6 +77,7 @@ try {
     const row = byPath.get(p.path);
     if (!row) throw new Error(`G9_PED_MAP_FAIL: missing ${p.path}`);
     if (row.section_title !== p.section) throw new Error(`G9_PED_MAP_FAIL: section mismatch page=${p.bookPage} db=${row.section_title} manifest=${p.section}`);
+    if (row.publication_status !== 'draft' || row.lesson_published_at !== null) throw new Error(`G9_PED_MAP_FAIL: publication drift page=${p.bookPage}`);
     return { ...p, ...row };
   });
 
@@ -107,14 +113,18 @@ try {
   }
   lessons.sort((a, b) => a.pages[0].bookPage - b.pages[0].bookPage);
 
+  const sourceQuestionTotal = mappedPages.reduce((n, p) => n + p.source_question_revisions, 0);
+  if (sourceQuestionTotal !== 104) throw new Error(`G9_PED_MAP_FAIL: source question revisions=${sourceQuestionTotal}`);
+
   const result = {
     task: 'GRADE9-PEDAGOGICAL-MAP',
     mode: 'read-only',
+    manifestRef,
     counts: {
       pages: mappedPages.length,
       lessons: lessons.length,
       sections: new Set(mappedPages.map((p) => p.section_title)).size,
-      sourceQuestionRevisions: mappedPages.reduce((n, p) => n + p.source_question_revisions, 0),
+      sourceQuestionRevisions: sourceQuestionTotal,
       linkedQuestionRevisions: mappedPages.reduce((n, p) => n + p.linked_question_revisions, 0),
       publishedLessons: lessons.filter((l) => l.published).length,
     },
