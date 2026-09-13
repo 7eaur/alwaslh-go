@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "batch_id": "BATCH-001-G9-EN-PB3-U1",
+  "reviewed_at": "2026-09-13",
+  "status": "semantic_review_complete",
+  "review_basis": {
+    "raw_questions": "content-staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/pages.json",
+    "structural_manifest": "تاسع انجليزي/الانجليزي_تاسع/manifest.json",
+    "raw_page_hashes": "batch-001-unit-1-revision.json",
+    "source_text_crosscheck": "Yemen Grade 9 English Pupil's Book 3, 2026/1447 edition; page titles and book-page numbers matched the repository manifest before semantic decisions.",
+    "policy": "A legacy AI question is approved only when the prompt, subject/person reference, options, and answer are supported by the same source page. Cross-page leakage or fabricated attribution is corrected using source-grounded wording; nothing is auto-published."
+  },
+  "counts": {
+    "reviewed": 13,
+    "approved_unchanged": 6,
+    "corrected": 7,
+    "rejected": 0
+  },
+  "lessons": [
+    {
+      "book_page": 1,
+      "legacy_page_id": "2d98475c-91bf-4000-bfbc-79f7a6a854f9",
+      "title": "Presents from London",
+      "questions": [
+        {
+          "source_index": 0,
+          "decision": "approved",
+          "question": "How old is Saleh?",
+          "type": "mcq",
+          "options": ["Seventeen", "Fourteen", "Fifteen", "Eighteen"],
+          "correct_option_index": 0,
+          "reason": "Saleh's age is explicitly established on this page."
+        },
+        {
+          "source_index": 1,
+          "decision": "approved",
+          "question": "Saleh is seventeen years old.",
+          "type": "true_false",
+          "options": ["True", "False"],
+          "correct_option_index": 0,
+          "reason": "The statement is explicitly supported by this page."
+        },
+        {
+          "source_index": 2,
+          "decision": "corrected",
+          "original_question": "What does Mr Al Sabri want to buy for Saleh?",
+          "question": "What does Mr Al Sabri suggest Taha buy for Saleh?",
+          "type": "mcq",
+          "options": ["a pair of shorts", "a school uniform", "a bicycle", "a camera"],
+          "correct_option_index": 0,
+          "reason": "The legacy wording changes the buyer and its answer 'presents' is too generic; the page supports Mr Al Sabri suggesting a pair of shorts to Taha."
+        },
+        {
+          "source_index": 3,
+          "decision": "approved",
+          "question": "What does Saleh like?",
+          "type": "mcq",
+          "options": ["sport", "reading", "jewellery", "photography"],
+          "correct_option_index": 0,
+          "reason": "Saleh's preference for sport is explicitly supported by this page."
+        }
+      ]
+    },
+    {
+      "book_page": 2,
+      "legacy_page_id": "5e207993-508f-426b-ae71-f00aa4f782df",
+      "title": "What's my job?",
+      "questions": [
+        {
+          "source_index": 0,
+          "decision": "corrected",
+          "original_question": "Taha works in a clinic.",
+          "question": "The dentist works in a clinic.",
+          "type": "true_false",
+          "options": ["True", "False"],
+          "correct_option_index": 0,
+          "reason": "The page describes an unnamed dentist working in a clinic; it does not say that Taha works there."
+        },
+        {
+          "source_index": 1,
+          "decision": "corrected",
+          "original_question": "What is Taha's job?",
+          "question": "What is the job of the person who takes care of people's teeth?",
+          "type": "mcq",
+          "options": ["a dentist", "a teacher", "a doctor", "a police officer"],
+          "correct_option_index": 0,
+          "reason": "The legacy attribution to Taha is unsupported. The page's job description clearly identifies a dentist."
+        },
+        {
+          "source_index": 2,
+          "decision": "approved",
+          "question": "What time does the office worker start work?",
+          "type": "mcq",
+          "options": ["8 o'clock", "7 o'clock", "9 o'clock", "2 o'clock"],
+          "correct_option_index": 0,
+          "reason": "The office-worker description explicitly gives an 8 o'clock start."
+        },
+        {
+          "source_index": 3,
+          "decision": "corrected",
+          "original_question": "Where does the doctor work?",
+          "question": "Where does the dentist work?",
+          "type": "mcq",
+          "options": ["in a clinic", "in an office", "in a hospital", "in a school"],
+          "correct_option_index": 0,
+          "reason": "The page explicitly associates the clinic with the dentist; the legacy doctor attribution is not supported by the same description."
+        }
+      ]
+    },
+    {
+      "book_page": 3,
+      "legacy_page_id": "dc1d6249-c0cb-4982-9711-092b1dcffee3",
+      "title": "The holidays",
+      "questions": [
+        {
+          "source_index": 0,
+          "decision": "corrected",
+          "original_question": "The family went to London for the holidays.",
+          "question": "One speaker went to a village by the sea in the holidays.",
+          "type": "true_false",
+          "options": ["True", "False"],
+          "correct_option_index": 0,
+          "reason": "The legacy item leaks a fact from another Unit 1 page. This page instead states that a speaker went to a village by the sea."
+        },
+        {
+          "source_index": 1,
+          "decision": "corrected",
+          "original_question": "What did Amna do every day?",
+          "question": "What did the first speaker do every day?",
+          "type": "mcq",
+          "options": ["went swimming and fishing", "stayed at home", "went shopping", "worked on a farm"],
+          "correct_option_index": 0,
+          "reason": "The page does not identify the speaker as Amna; it does support swimming every day and fishing."
+        },
+        {
+          "source_index": 2,
+          "decision": "corrected",
+          "original_question": "Where did Mr Al Sabri and his family go on holiday?",
+          "question": "Where did the first speaker go in the holidays?",
+          "type": "mcq",
+          "options": ["a village by the sea", "London", "Paris", "Sana'a"],
+          "correct_option_index": 0,
+          "reason": "The legacy item again imports a family/London fact from another page; this page supports a village by the sea."
+        }
+      ]
+    },
+    {
+      "book_page": 4,
+      "legacy_page_id": "f2947d7f-5697-4bdc-b561-ad880a1afdf1",
+      "title": "A postcard from London",
+      "questions": [
+        {
+          "source_index": 0,
+          "decision": "approved",
+          "question": "Amna wrote a postcard to Mariam.",
+          "type": "true_false",
+          "options": ["True", "False"],
+          "correct_option_index": 0,
+          "reason": "The page explicitly identifies Amna as writing a postcard to Mariam."
+        },
+        {
+          "source_index": 1,
+          "decision": "approved",
+          "question": "What did Amna write to Mariam?",
+          "type": "mcq",
+          "options": ["a postcard", "a letter", "a message", "a diary"],
+          "correct_option_index": 0,
+          "reason": "The page explicitly identifies the item as a postcard."
+        }
+      ]
+    }
+  ],
+  "publication": {
+    "question_revision_status": "review",
+    "auto_publish": false,
+    "note": "Semantic review completion permits the modern target dry-run; it does not itself permit publication."
+  }
+}
