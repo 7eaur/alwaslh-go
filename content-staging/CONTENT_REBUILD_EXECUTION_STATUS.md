@@ -13,10 +13,14 @@
 - أي apply يفشل مغلقًا عند identity/count/provenance/publication drift.
 - WebP لا يُقبل إلا بعد إثبات فائدة الحجم والوضوح.
 
-## Live heads observed in VERIFY-001 — 2026-09-13
+## Live heads observed in ROADMAP-RETURN — 2026-09-13
 
-- `7eaur/alwaslh main`: `3fe51062aa9c5ed0c39682f0da8e814ece0b0c62`
-- `7eaur/alwaslh-go content/legacy-staging-rebuild`: `5f249172857039cf23b6f2686f6bb2b00a3d6657` at run start; verifier source committed as `12fb1a5268e97f0a0d70eee4d33322c139e3deb5`.
+- `7eaur/alwaslh main`: `8d11cddb2cde510f233926d394434a384d480745`.
+- `7eaur/alwaslh-go content/legacy-staging-rebuild`: `61bb699b1dbb421f3ca031b8f8d3f53c48235678` at run start.
+- PR #55 is already `MERGED`; accepted PR head `8ceb4d5a5f70f7896f6cb358e05605479942d442`, merge commit `343ff1fd7b3d64d7e990b72606695365f520fa58`.
+- Current Student continuation already exists as PR #57 `feat(student): close cold-start offline Reader gap`, branch `stage16/student-016i`, head `4624dcc824555c1d29e9d697a7474bf76223468b`.
+- PR #57 explicitly owns `STUDENT-016I`; therefore Content Rebuild must not duplicate that implementation.
+- Exact-head PR #57 checks are not fully green at this checkpoint: at least `Stage 8 · Student activation browser E2E` is failing. That is Student-workstream evidence, not a Content Rebuild blocker.
 
 ## Completed checkpoints
 
@@ -29,6 +33,7 @@
 - `MEDIA-001` — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
 - `IMPORT-001` — DONE / COMMITTED_STATE_VERIFIED
 - `VERIFY-001` — DONE / DELIVERY_ISOLATION_AND_PROVENANCE_VERIFIED
+- `ROADMAP-RETURN` — DONE / STUDENT-016I_HANDOFF_VERIFIED
 
 Do not repeat them unless fresh evidence-invalidating drift is demonstrated.
 
@@ -105,9 +110,25 @@ Interpretation:
 - it remains intentionally invisible to Student Reader delivery because both Lesson and Lesson Assets are unpublished;
 - this gate did not publish, repair, delete, rewrite, or mutate business data.
 
+## ROADMAP-RETURN — DONE / STUDENT-016I_HANDOFF_VERIFIED
+
+The Content Rebuild return gate was reconciled against live GitHub state rather than stale prose.
+
+Verified:
+- PR #55 is merged, so the Library workstream no longer blocks roadmap return;
+- current Student architecture still lists `STUDENT-016I` as the first unfinished backend/offline item;
+- no newer Student checkpoint superseded it;
+- concurrent Student work has already opened PR #57 for exactly `STUDENT-016I`;
+- Content Rebuild publication remains closed and no content mutation/publication occurred during roadmap return.
+
+Handoff rule:
+- Content Rebuild queue is now complete through `ROADMAP-RETURN` for this execution sequence.
+- Student work continues from live PR #57 and its exact-head CI evidence; do not start a second `STUDENT-016I` implementation from this branch.
+- Do not auto-publish the verified content slice.
+
 ## Exact next action
 
-`ROADMAP-RETURN -> STUDENT-016I` only. Before resuming that roadmap item, read both live heads and current Student source-of-truth documents, and confirm no newer Student checkpoint supersedes `STUDENT-016I`. Content publication remains closed; do not auto-publish this verified slice.
+No further Content Rebuild queue item is authorized by this sequence. Continue the Student roadmap from live PR #57 (`STUDENT-016I`) in the Student workstream. If Content Rebuild is explicitly resumed later, start from both live heads and these closed checkpoints; publication remains a separate explicit review gate.
 
 ## Ordered queue
 
@@ -117,7 +138,7 @@ Interpretation:
 - `CURATION-001` — DONE
 - `CURATION-002` — DONE
 - `CONTENT-GAPS-001` — DONE
-- `MEDIA-001` — DONE
+- `MEDIA-001` — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
 - `IMPORT-001` — DONE / COMMITTED_STATE_VERIFIED
 - `VERIFY-001` — DONE / DELIVERY_ISOLATION_AND_PROVENANCE_VERIFIED
-- `ROADMAP-RETURN -> STUDENT-016I` — TODO
+- `ROADMAP-RETURN -> STUDENT-016I` — DONE / STUDENT-016I_HANDOFF_VERIFIED
