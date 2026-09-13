@@ -15,11 +15,13 @@
 - Application repo: `7eaur/alwaslh`
 - Live `main` observed at start of latest run: `343ff1fd7b3d64d7e990b72606695365f520fa58`
 - Content repo: `7eaur/alwaslh-go`
-- Live `master` observed at start of latest run: `f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23`
 - Working branch: `content/legacy-staging-rebuild`
-- Latest BATCH-001 semantic-review data commit: `4f2fb8d0a559add5b6c2e75c92bf075fabae32f5`
+- Live working-branch HEAD observed at start of latest run: `3c6f8f2f5d549a1ee0b6f41f50a9abf1dc9b9c11`
+- BATCH-001 dry-run report commit: `557527bf59c71fdeb05c095bda1b4dedc94f8ea2`
+- Duplicate-safe batch-contract commit: `e008731860612a58d7e3b4a29ec97222ceb62305`
+- Previous semantic-review data commit: `4f2fb8d0a559add5b6c2e75c92bf075fabae32f5`
 - Question-review artifact commit: `eae7b9d8b3b61b20f4ca74cb75f222aa5b6f9e60`
-- Previous DB/media validation report commit: `e90891c6395813609d0f0cefe726c1cc3d4ac893`
+- DB/media validation report commit: `e90891c6395813609d0f0cefe726c1cc3d4ac893`
 - Legacy snapshot SHA-256: `2dfde94f6b70c037bb15d2782d11f036441c4abe130295be772c59b5e0131d0c`
 
 ## First real batch — ACTIVE
@@ -34,6 +36,7 @@ Target source:
 - Bounded batch contract: `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-unit-1-revision.json`
 - Question semantic review: `content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-question-review.json`
 - DB/media validation report: `content-staging/curated/grade-9/english/pupil-book-3/batches/BATCH-001_DB_MEDIA_VALIDATION.md`
+- Modern target dry-run: `content-staging/curated/grade-9/english/pupil-book-3/batches/BATCH-001_MODERN_TARGET_DRY_RUN.md`
 
 Known corpus facts:
 
@@ -87,14 +90,12 @@ Existing display WebP profile is readable/derived but is **not a size optimizati
 - current display WebP total: `549,794` bytes
 - delta: `+24.81%`
 
-Per page the display WebP is larger by approximately +24.01%, +26.38%, +18.39%, and +30.57%.
-
 Decision:
 
 - RAW remains immutable.
 - Do not claim current WebP profile as optimization success.
 - Do not regenerate/overwrite RAW.
-- A later derived profile may be accepted only if it is measurably smaller while preserving educational readability; otherwise retain the smaller readable source/delivery choice allowed by the application media contract.
+- No media transformation belongs in BATCH-001's controlled apply unless a later profile proves smaller and readable.
 
 ### Semantic question review — COMPLETED
 
@@ -108,14 +109,32 @@ Result:
 - rejected: **0**
 - auto-published: **0**
 
-Material findings:
+The machine-readable reviewed set is the only question input permitted for apply planning. Legacy raw questions remain immutable evidence and are not overwritten.
 
-- Page 1 contained one misleading buyer/answer formulation; it was corrected to the source-supported suggestion of a pair of shorts.
-- Page 2 contained fabricated attribution to Taha and an unsupported doctor/clinic attribution; three items were corrected to the actual job descriptions (dentist / office worker scope).
-- Page 3 contained cross-page leakage from the London family narrative and an unsupported attribution to Amna; all three items were corrected to facts actually present on `The holidays` page.
-- Page 4's two postcard questions were supported and kept unchanged.
+### Modern target dry-run — COMPLETED
 
-The machine-readable reviewed set is the only question input permitted for the next dry-run. Legacy raw questions remain immutable evidence and are not overwritten.
+Dry-run result: `MODERN_TARGET_DRY_RUN_PASS / APPLY_NOT_AUTHORIZED_YET`.
+
+The previous contract incorrectly projected creation of 4 new lessons + 13 new Question Bank identities even though the production inventory already contains the matching unpublished semantic rows. That projection is now corrected to duplicate-safe reuse.
+
+Verified target effect under the documented pre-state:
+
+- new curriculum section: **1 max / expected 1**
+- new lessons: **0**; reuse/update existing: **4**
+- new lesson assets: **0**; reuse existing draft assets: **4**
+- new media/source rows: **0**; reuse existing ready media: **4**
+- new Question Bank items/revisions: **0**
+- existing reviewed question revisions: **13**
+  - semantic no-op: **6**
+  - source-grounded content updates: **7**
+- new revision lesson/source links: **0**
+- direct business-row mutations expected: **12** = 1 section insert + 4 lesson structural updates + 7 draft revision content updates
+- unrelated rows changed: **0**
+- publication changes: **0**
+
+All other legacy-import lesson/question rows remain untouched. No archive/deactivate/delete is used to hide the old `62` count.
+
+Rollback is value-restoring for the four reused lessons and seven corrected draft revisions; it must not delete those pre-existing identities. The newly created section is removable only after restoring lesson section references. Media/source/RAW remain preserved.
 
 ### Gate for first batch
 
@@ -126,19 +145,20 @@ Completed for bounded BATCH-001:
 3. `[DONE]` Record exact current media sizes and reject the existing WebP profile as a size-reduction claim.
 4. `[DONE]` Keep publication state closed: lessons unpublished, assets/questions draft.
 5. `[DONE]` Semantically review all 13 prompts/options/answers; 6 approved unchanged, 7 corrected, 0 rejected.
+6. `[DONE]` Produce duplicate-safe modern target dry-run and correct the batch contract away from duplicate creation.
+7. `[DONE]` Produce dry-run mutation/rollback counts: 12 expected direct business-row mutations; 0 unrelated mutations.
 
 Still required before direct DB mutation:
 
-6. `[NEXT]` Produce modern target dry-run for one section + four curated lesson slugs + the reviewed 13-question set, including duplicate-safe handling of the existing unpublished legacy import so no duplicate semantic content is created.
-7. `[PENDING]` Produce exact mutation/rollback counts from that dry-run.
-8. `[PENDING]` Apply controlled PostgreSQL mutation only after all BATCH-001 gates pass.
-9. `[PENDING]` Verify resulting records, publication visibility rules, idempotency/replay, and unrelated-row invariance.
+8. `[NEXT]` Build/verify an executable controlled PostgreSQL apply + rollback transaction that re-resolves all live identities immediately before mutation and aborts on drift/ambiguity; enumerate any required append-only curriculum/question audit-event rows explicitly.
+9. `[PENDING]` Apply controlled PostgreSQL mutation only after that executable transaction gate passes.
+10. `[PENDING]` Verify resulting records, publication visibility rules, idempotency/replay, and unrelated-row invariance.
 
-Current batch contract status: `validation_in_progress`.
+Current batch contract status: `dry_run_validated`.
 
 ## Remaining work queue
 
-- `BATCH-001` — First real Grade 9 English content batch: VALIDATION_IN_PROGRESS
+- `BATCH-001` — First real Grade 9 English content batch: DRY_RUN_VALIDATED / APPLY_TRANSACTION_NEXT
 - `STRUCTURE-001` — Structural Manifest Coverage Inventory for all 58 sources: TODO
 - `STRUCTURE-002` — Canonical Document Boundaries: TODO
 - `CURATION-001` — Complete Grade 9 English Lesson/Activity boundaries: TODO
@@ -150,8 +170,6 @@ Current batch contract status: `validation_in_progress`.
 - `ROADMAP-RETURN` — Return to `STUDENT-016I` only after content work reaches its documented gate: TODO
 
 ## Scheduled-run coordination rules
-
-Both scheduled workers MUST use this same file.
 
 At the start of every run:
 
@@ -175,4 +193,4 @@ Never:
 
 ## Latest execution note
 
-2026-09-13 — BATCH-001 semantic review gate completed. The 13 legacy AI questions were reviewed against the four Unit 1 source pages: 6 are source-supported unchanged and 7 required source-grounded corrections due to misleading attribution or cross-page leakage; 0 were auto-published and RAW evidence was not modified. Review artifact commit: `eae7b9d8b3b61b20f4ca74cb75f222aa5b6f9e60`; batch-contract checkpoint: `4f2fb8d0a559add5b6c2e75c92bf075fabae32f5`. Next action is the modern duplicate-safe target dry-run; no PostgreSQL mutation occurred in this run.
+2026-09-13 — BATCH-001 modern target dry-run completed without PostgreSQL writes. Dry-run report commit `557527bf59c71fdeb05c095bda1b4dedc94f8ea2`; duplicate-safe contract correction commit `e008731860612a58d7e3b4a29ec97222ceb62305`. The plan now reuses the four existing unpublished lessons, four draft lesson assets, four ready media identities and thirteen existing draft Question Bank identities; it creates no duplicate lesson/question/media rows. Expected direct future business-row mutation set is exactly 12 under the verified pre-state: 1 section insert + 4 lesson structural updates + 7 reviewed draft question corrections. PostgreSQL writes in this run: **0**. Next action is executable controlled apply/rollback transaction verification against live identities immediately before mutation.
