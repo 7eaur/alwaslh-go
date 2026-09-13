@@ -1,0 +1,117 @@
+name: Curate Grade 9 English
+
+on:
+  push:
+    branches:
+      - content/legacy-staging-rebuild
+    paths:
+      - 'content-staging/CURATE_GRADE9_ENGLISH_TRIGGER'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: curate-grade9-english
+  cancel-in-progress: false
+
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/legacy-staging-rebuild
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compile and test staging tools
+        run: |
+          python -m py_compile content-staging/tools/*.py
+          python -m unittest discover -s content-staging/tests -p 'test_*.py' -v
+
+      - name: Verify immutable raw snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path('content-staging/raw/legacy-supabase/FULL_EXTRACTION_REPORT.json').read_text(encoding='utf-8'))
+          expected = {
+              'subjects': 58,
+              'pages': 5273,
+              'image_references': 5273,
+              'images_downloaded': 5273,
+              'questions': 25755,
+              'image_download_failures': 0,
+          }
+          if report.get('totals') != expected:
+              raise SystemExit(f"raw snapshot totals changed: {report.get('totals')} != {expected}")
+          if report.get('snapshot_sha256') != '2dfde94f6b70c037bb15d2782d11f036441c4abe130295be772c59b5e0131d0c':
+              raise SystemExit('unexpected full extraction snapshot sha256')
+          print(json.dumps({'totals': report['totals'], 'snapshot_sha256': report['snapshot_sha256']}, ensure_ascii=False))
+          PY
+
+      - name: Build reviewable reconstruction candidates
+        run: >-
+          python content-staging/tools/build_curated_candidates.py
+          --subject-id 1794eea5-4772-4c94-bd2b-b08e5815e733
+          --source-manifest 'تاسع انجليزي/الانجليزي_تاسع/manifest.json'
+          --class-slug grade-9
+          --subject-slug english
+          --document-slug pupil-book-3
+          --document-type textbook
+
+      - name: Validate reconstruction contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path('content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          counts = data['counts']
+          expected = {'raw_pages': 69, 'raw_images': 69, 'page_candidates': 69, 'questions': 104}
+          for key, value in expected.items():
+              if counts.get(key) != value:
+                  raise SystemExit(f"unexpected {key}: {counts.get(key)} != {value}")
+          if data.get('schema_version') != 2:
+              raise SystemExit('unexpected reconstruction schema_version')
+          if data.get('legacy_subject_id') != '1794eea5-4772-4c94-bd2b-b08e5815e733':
+              raise SystemExit('unexpected legacy subject id')
+          if data.get('publication_status') != 'not_importable':
+              raise SystemExit('curation output must remain not_importable')
+          if not data.get('sections'):
+              raise SystemExit('no curriculum sections recovered')
+          candidates = data.get('page_candidates', [])
+          if len(candidates) != 69:
+              raise SystemExit('candidate count mismatch')
+          for candidate in candidates:
+              if candidate.get('status') != 'review_required':
+                  raise SystemExit(f"candidate was prematurely approved: {candidate.get('candidate_id')}")
+              image = candidate.get('raw_image') or {}
+              if not image.get('raw_path') or len(image.get('sha256', '')) != 64 or int(image.get('byte_size', 0)) <= 0:
+                  raise SystemExit(f"incomplete raw provenance: {candidate.get('candidate_id')}")
+          print(json.dumps({'counts': counts, 'sections': [s['title'] for s in data['sections']]}, ensure_ascii=False))
+          PY
+
+      - name: Commit curated reconstruction checkpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          target='content-staging/curated/grade-9/english/pupil-book-3'
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add "$target"
+          if ! git diff --cached --quiet; then
+            git commit -m 'data(curated): reconstruct grade 9 English source hierarchy [skip ci]'
+            git push origin HEAD:content/legacy-staging-rebuild
+          else
+            echo 'Curated reconstruction is unchanged.'
+          fi
