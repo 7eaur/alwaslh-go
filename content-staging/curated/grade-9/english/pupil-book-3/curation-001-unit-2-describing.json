@@ -1,0 +1,137 @@
+{
+  "task_id": "CURATION-001",
+  "scope": {
+    "grade": 9,
+    "subject": "English",
+    "document": "Pupil Book 3",
+    "section": "Unit 2 - Describing: Making plans",
+    "curation_batch": "first reviewed lesson boundary only"
+  },
+  "status": "lesson_boundary_verified",
+  "policy": {
+    "source_page_is_not_automatically_a_lesson": true,
+    "raw_immutable": true,
+    "question_semantics_reviewed_in_this_task": false,
+    "database_mutation_allowed": false,
+    "publication_allowed": false
+  },
+  "reviewed_lesson": {
+    "provisional_key": "g9-en-pb3-u2-describing",
+    "reviewed_title": "Describing people and animals",
+    "first_book_page": 5,
+    "last_book_page": 8,
+    "first_source_page": 9,
+    "last_source_page": 12,
+    "page_count": 4,
+    "question_count_preserved": 12,
+    "boundary_decision": "Pages 5-8 form one coherent describing-skill sequence. Page 9 changes domain to telling time and begins the making-plans sequence, so it is excluded from this lesson.",
+    "boundary_evidence": [
+      "book page 5 introduces physical description through What do they look like? and legacy question evidence about height/build/weight/eye colour",
+      "book page 6 develops descriptive vocabulary through Opposites",
+      "book page 7 applies description vocabulary to people, including weight, hair and identifying characteristics",
+      "book page 8 applies the same describing skill to animals, including physical characteristics, colour and diet",
+      "book page 9 explicitly changes topic to What's the time? and its attached question evidence concerns quarter-past/hour/minute expressions"
+    ],
+    "activities": [
+      {
+        "order": 1,
+        "book_page": 5,
+        "source_page": 9,
+        "activity_title": "What do they look like?",
+        "activity_role": "introduce_and_practise_physical_description",
+        "legacy_page_id": "706771c2-2145-4682-9bdd-4e7df5c69bf9",
+        "candidate_id": "page-candidate-fa9da9ae20399803687f",
+        "question_count": 3,
+        "raw_image": {
+          "sha256": "fc9e15f23d3f5c9a7928aecc70888e30be2c454ab16883e1a3c82290fd581fdb",
+          "byte_size": 93793,
+          "mime_type": "image/jpeg",
+          "raw_path": "raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/images/page-00005-706771c2-2145-4682-9bdd-4e7df5c69bf9-image-00.jpg"
+        }
+      },
+      {
+        "order": 2,
+        "book_page": 6,
+        "source_page": 10,
+        "activity_title": "Opposites",
+        "activity_role": "develop_descriptive_vocabulary",
+        "legacy_page_id": "71ba9a99-e009-401f-b65f-8a956218a633",
+        "candidate_id": "page-candidate-4beeaad26a5b1e608d26",
+        "question_count": 1,
+        "raw_image": {
+          "sha256": "fd99f85698dd4870bf8fccf85aa53f47bf484d19b2052473155540627f6aa420",
+          "byte_size": 116886,
+          "mime_type": "image/jpeg",
+          "raw_path": "raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/images/page-00006-71ba9a99-e009-401f-b65f-8a956218a633-image-00.jpg"
+        }
+      },
+      {
+        "order": 3,
+        "book_page": 7,
+        "source_page": 11,
+        "activity_title": "Describing people",
+        "activity_role": "apply_description_to_people",
+        "legacy_page_id": "710cb3d4-e2c1-4d05-a1ef-2c0a1bbede2b",
+        "candidate_id": "page-candidate-151a2c4ae5b692970b7d",
+        "question_count": 5,
+        "raw_image": {
+          "sha256": "3b7415622af90557ad09585eef776b5ce3fe2c68776a1963b4a2cbf677f5ba61",
+          "byte_size": 140264,
+          "mime_type": "image/jpeg",
+          "raw_path": "raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/images/page-00007-710cb3d4-e2c1-4d05-a1ef-2c0a1bbede2b-image-00.jpg"
+        }
+      },
+      {
+        "order": 4,
+        "book_page": 8,
+        "source_page": 12,
+        "activity_title": "Describing animals",
+        "activity_role": "apply_description_to_animals",
+        "legacy_page_id": "4b6090c2-744e-4fc6-8908-87c211a8713b",
+        "candidate_id": "page-candidate-d27c56c43ab65d4691ff",
+        "question_count": 3,
+        "raw_image": {
+          "sha256": "3678974564e2a219840da4fc175d62d9811bd80666d01c81d4f9b49f2328e258",
+          "byte_size": 106804,
+          "mime_type": "image/jpeg",
+          "raw_path": "raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/images/page-00008-4b6090c2-744e-4fc6-8908-87c211a8713b-image-00.jpg"
+        }
+      }
+    ],
+    "next_page_boundary_evidence": {
+      "book_page": 9,
+      "source_page": 13,
+      "title": "What's the time?",
+      "legacy_page_id": "b2449f0f-71f1-4e36-a739-cf64340f9c90",
+      "candidate_id": "page-candidate-15ac9f56ef455c22bc33",
+      "reason": "topic transition from describing to time/making-plans language; not part of this reviewed lesson"
+    }
+  },
+  "question_provenance": {
+    "preserved_on_exact_source_pages": true,
+    "total_attached_questions": 12,
+    "approved": 0,
+    "corrected": 0,
+    "rejected": 0,
+    "review_status": "deferred_to_question_curation",
+    "note": "Legacy AI question text is evidence for topic/boundary review only here; it is not trusted or publication-approved by this task."
+  },
+  "assertions": {
+    "lesson_boundary_approved": true,
+    "ordered_activity_membership_approved": true,
+    "page_order_contiguous": true,
+    "all_source_identities_preserved": true,
+    "raw_checksums_preserved": true,
+    "questions_rewritten": false,
+    "raw_mutated": false,
+    "database_mutated": false,
+    "publication_changed": false,
+    "unrelated_records_mutated": false
+  },
+  "next_scope": {
+    "task": "CURATION-002",
+    "start_book_page": 9,
+    "start_source_page": 13,
+    "instruction": "Continue from the time/making-plans sequence and determine the next smallest reviewed Lesson/Activity boundary from content evidence."
+  }
+}
