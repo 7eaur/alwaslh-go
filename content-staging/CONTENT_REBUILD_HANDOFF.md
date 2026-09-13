@@ -8,7 +8,7 @@
 - Working branch: `content/legacy-staging-rebuild`
 - Flow: `Legacy Supabase -> Immutable RAW -> Reviewed CURATED -> Media Decision -> Dry Run -> Controlled Transaction -> Modern PostgreSQL -> Verification -> Publication`
 - RAW immutable؛ لا overwrite/recompress in-place.
-- لا page-title -> Lesson تلقائيًا؛ الحدود تأتي من evidence + review.
+- لا page-title -> Lesson تلقائيًا.
 - provenance وSHA-256 محفوظان.
 - Media ready لا يعني Published.
 - لا auto-publish لأي AI/legacy output.
@@ -31,45 +31,52 @@
 - `CURATION-002 = DONE / LESSON_BOUNDARY_VERIFIED`
 - `CONTENT-GAPS-001 = DONE / GAP_INVENTORY_VERIFIED`
 - `MEDIA-001 = DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE`
+- `IMPORT-001 = DONE / COMMITTED_STATE_VERIFIED`
 
-Do not repeat those tasks unless fresh drift invalidates their evidence.
+Do not repeat completed tasks unless fresh drift invalidates their evidence.
 
-## IMPORT-001 — IN PROGRESS / CONTROLLED_APPLY_BUILDING
+## IMPORT-001 close evidence
 
-Scope remains only CURATION-001 `Describing people and animals`, book pages `5..8` / source pages `9..12`.
+Scope: CURATION-001 `Describing people and animals`, book pages `5..8` / source pages `9..12`.
 
-Verified evidence retained:
-- identity inspector deployment `4cf8665b-4dd1-4e90-9ec8-92d897c34f59` — marker `IMPORT001_INSPECT_PASS`.
-- rollback gate script commit `177b91572ac6fe3b37acd9bcc094876a1cbb3beb`.
-- rollback deployment `8e4cdcbb-2783-4dca-b025-e1191fa9e330` — marker `IMPORT001_TRANSACTION_GATE_PASS`.
-- validated mutation boundary: create exactly 1 Section + 1 Lesson; reassign exactly 4 existing Lesson Assets in reviewed order 0..3.
-- create/mutate Media Assets: 0/0.
-- mutate legacy Lessons: 0.
-- mutate Questions: 0.
-- publication changes: 0.
-- unrelated rows: 0.
-- preserved legacy Question Revisions: 12.
+Pre-apply:
+- identity inspector `4cf8665b-4dd1-4e90-9ec8-92d897c34f59` — `IMPORT001_INSPECT_PASS`.
+- rollback gate commit `177b91572ac6fe3b37acd9bcc094876a1cbb3beb`.
+- rollback deployment `8e4cdcbb-2783-4dca-b025-e1191fa9e330` — `IMPORT001_TRANSACTION_GATE_PASS`.
+- allowed boundary: create 1 Section + 1 Lesson, reassign 4 existing Lesson Assets; zero Media/Question/publication/unrelated mutations.
 
-Current run added the controlled apply gate:
-- file `content-staging/runtime/import-001-apply.mjs`
-- commit `2af3b935512c853eb4c2b1f3767766f8513a1c0a`
-- fail-closed guards mirror the verified rollback gate and re-check identities/checksums/publication immediately inside the transaction.
-- Railway service `alwaslh-content-inspector` start command is now `node import-001-apply.mjs`.
-- deployment `026bfc1b-8ba0-4ae8-a74b-7170086f45e1` is the only apply deployment for this checkpoint.
-- latest observed state: `BUILDING`.
-- no `IMPORT001_APPLY_PASS` marker observed yet; therefore no committed PostgreSQL mutation is claimed yet.
+Concurrent advancement was handled fail-closed:
+- apply script commit `2af3b935512c853eb4c2b1f3767766f8513a1c0a`.
+- deployment `026bfc1b-8ba0-4ae8-a74b-7170086f45e1` still used the old rollback command, so it did not apply.
+- later apply deployment `efb92e21-e8df-4674-92d9-041321da9f92` aborted before mutation because the target Section already existed.
+- do not claim that this run's apply executor created the rows; PostgreSQL advanced concurrently and the duplicate apply was refused.
 
-Important: do not trigger another apply while deployment `026bfc1b-8ba0-4ae8-a74b-7170086f45e1` remains non-terminal.
+Independent verification then established the committed target state:
+- initial verifier commit `3727dde8f6f037d34691a75feae3d46d164f1041`, deployment `4144bf3c-1eeb-4c9f-8a77-65e60b1ed1c8`, PASS.
+- exact-identity verifier commit `2f3d0fa9923f9dceb692477c2fd1a0fd89d2b0c8`, deployment `3e1ce24a-39ca-498c-b219-8ceb895eda84`, marker `IMPORT001_POST_APPLY_VERIFY_PASS`.
+
+Verified exact state:
+- Section ID `434f9978-efae-471e-b37d-6b151edecc5b`, one exact target Section.
+- Lesson ID `1a6e3a6e-06e8-496e-8d18-c8d4545d1da9`, one exact target Lesson under that Section.
+- 4 exact reviewed Lesson Assets ordered 0..3.
+- 4 exact ready Media Assets and exact source paths/checksums.
+- Lesson unpublished; all 4 assets draft/unpublished.
+- 0 unauthorized target Question links.
+- 4 legacy source Lessons preserved active/unpublished/sectionless with 0 reviewed page assets remaining on them.
+- exactly 12 legacy Question Revisions preserved and unpublished on the legacy Lessons.
+- no RAW/media-binary/question/publication/unrelated repair was made by the close step.
+
+Railway inspector start command was returned to idle after verification.
 
 ## Exact resume action
 
-1. Read both live heads + execution status + this handoff.
-2. Inspect Railway deployment `026bfc1b-8ba0-4ae8-a74b-7170086f45e1`.
-3. On SUCCESS, inspect deploy logs and require `IMPORT001_APPLY_PASS` with exact counts: createSections=1, createLessons=1, reassignLessonAssets=4, forbidden mutation counters all zero, preservedQuestionRevisions=12.
-4. On FAILED/CRASHED, inspect root cause; do not weaken identity/checksum/publication guards and do not issue a second write blindly.
-5. After confirmed apply, create/run an independent read-only post-apply verifier against the committed state.
-6. Only after verifier PASS, close `IMPORT-001`, update execution status/handoff, and update `PROJECT_STATUS.md` + `PROJECT_ENGINEERING_LOG.md` because PostgreSQL product truth will then have changed.
-7. Do not start `VERIFY-001` before `IMPORT-001` committed state is independently verified.
+Start `VERIFY-001` only:
+1. read live heads for `7eaur/alwaslh` and `7eaur/alwaslh-go`;
+2. read execution status + this handoff + project status/log as needed;
+3. verify the smallest independent end-to-end slice for the just-imported Unit 2 lesson against modern PostgreSQL contracts and provenance/publication invariants;
+4. do not publish automatically;
+5. update status after the batch and project docs only if product/runtime truth changes;
+6. only after `VERIFY-001` reaches its documented gate, proceed to `ROADMAP-RETURN -> STUDENT-016I`.
 
 ## Ordered queue
 
@@ -80,6 +87,6 @@ Important: do not trigger another apply while deployment `026bfc1b-8ba0-4ae8-a74
 - `CURATION-002` — DONE
 - `CONTENT-GAPS-001` — DONE
 - `MEDIA-001` — DONE
-- `IMPORT-001` — IN PROGRESS / CONTROLLED_APPLY_BUILDING
+- `IMPORT-001` — DONE / COMMITTED_STATE_VERIFIED
 - `VERIFY-001` — TODO
 - `ROADMAP-RETURN -> STUDENT-016I` — TODO
