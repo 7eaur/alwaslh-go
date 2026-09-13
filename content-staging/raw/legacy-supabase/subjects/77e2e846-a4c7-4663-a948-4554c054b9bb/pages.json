@@ -1,0 +1,962 @@
+[
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:41.126637+00:00",
+    "extracted_text": null,
+    "id": "5991114e-0931-4d72-b778-8562e73e9105",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0001.jpg"
+    ],
+    "page_number": 1,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0001"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:42.126637+00:00",
+    "extracted_text": null,
+    "id": "ead908c8-224a-4867-abed-d7638266917b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0002.jpg"
+    ],
+    "page_number": 2,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0002"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:43.126637+00:00",
+    "extracted_text": null,
+    "id": "213acd98-7b5d-4b5d-b2ea-6652d207ce36",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0003.jpg"
+    ],
+    "page_number": 3,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0003"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:44.126637+00:00",
+    "extracted_text": null,
+    "id": "fb5d138b-6a3e-4404-a47d-dc90be0d69bf",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0004.jpg"
+    ],
+    "page_number": 4,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0004"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:45.126637+00:00",
+    "extracted_text": null,
+    "id": "effc2379-be66-47a8-bb37-c08db62475d2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0005.jpg"
+    ],
+    "page_number": 5,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0005"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:46.126637+00:00",
+    "extracted_text": null,
+    "id": "af0b8463-feff-4e5b-bfa3-c0f7b007086f",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0006.jpg"
+    ],
+    "page_number": 6,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0006"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:47.126637+00:00",
+    "extracted_text": null,
+    "id": "4e07a698-2a15-4e42-b142-9283ada7e502",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0007.jpg"
+    ],
+    "page_number": 7,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0007"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:48.126637+00:00",
+    "extracted_text": null,
+    "id": "13153449-a988-4a78-a029-bead1aef21ae",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0008.jpg"
+    ],
+    "page_number": 8,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0008"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:49.126637+00:00",
+    "extracted_text": null,
+    "id": "b6b27c97-0f25-4f7e-bc18-ca94b6cb7c07",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0009.jpg"
+    ],
+    "page_number": 9,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0009"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:50.126637+00:00",
+    "extracted_text": null,
+    "id": "ec2e9311-ecd6-4d34-85cd-7ca734beb58d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0010.jpg"
+    ],
+    "page_number": 10,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0010"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:51.126637+00:00",
+    "extracted_text": null,
+    "id": "70074405-b6c0-4b51-bd1d-1a37062311b5",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0011.jpg"
+    ],
+    "page_number": 11,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0011"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:52.126637+00:00",
+    "extracted_text": null,
+    "id": "93d5adcb-9751-4e0c-acbc-9b4d0bb6d2c6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0012.jpg"
+    ],
+    "page_number": 12,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0012"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:53.126637+00:00",
+    "extracted_text": null,
+    "id": "9864b896-25dd-4c20-a700-d683f4a4ae8b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0013.jpg"
+    ],
+    "page_number": 13,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0013"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:54.126637+00:00",
+    "extracted_text": null,
+    "id": "00b048ff-8288-47c5-a0d1-d677739ebff3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0014.jpg"
+    ],
+    "page_number": 14,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0014"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:55.126637+00:00",
+    "extracted_text": null,
+    "id": "dd5eba8b-b434-46e3-a258-5e5f00a7df5c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0015.jpg"
+    ],
+    "page_number": 15,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0015"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:56.126637+00:00",
+    "extracted_text": null,
+    "id": "642ccb45-ce07-49d2-adb6-9a0596beb9ae",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0016.jpg"
+    ],
+    "page_number": 16,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0016"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:57.126637+00:00",
+    "extracted_text": null,
+    "id": "87dfff42-0461-4447-a992-20d8d7341a5e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0017.jpg"
+    ],
+    "page_number": 17,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0017"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:58.126637+00:00",
+    "extracted_text": null,
+    "id": "fbbc24d4-32a7-4a76-8fea-d5044438c52d",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0018.jpg"
+    ],
+    "page_number": 18,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0018"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:45:59.126637+00:00",
+    "extracted_text": null,
+    "id": "37cdaf7b-915e-4c08-b238-2eb86c07a48b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0019.jpg"
+    ],
+    "page_number": 19,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0019"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:00.126637+00:00",
+    "extracted_text": null,
+    "id": "731bed28-0d37-4c78-bbd8-426ef1b20751",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0020.jpg"
+    ],
+    "page_number": 20,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0020"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:01.126637+00:00",
+    "extracted_text": null,
+    "id": "769264e1-8c43-4b77-bbec-611b4bdf730a",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0021.jpg"
+    ],
+    "page_number": 21,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0021"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:02.126637+00:00",
+    "extracted_text": null,
+    "id": "ac3775f6-325c-4ca1-93cb-909b2722c23e",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0022.jpg"
+    ],
+    "page_number": 22,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0022"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:03.126637+00:00",
+    "extracted_text": null,
+    "id": "75b0f7c8-51dd-4d30-9b99-52abc9a9b3db",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0023.jpg"
+    ],
+    "page_number": 23,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0023"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:04.126637+00:00",
+    "extracted_text": null,
+    "id": "3fa2b65f-2ebe-4fd9-a42c-7cc42bcfc5f1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0024.jpg"
+    ],
+    "page_number": 24,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0024"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:05.126637+00:00",
+    "extracted_text": null,
+    "id": "e6b23ca6-a8db-4bb4-b818-5b093dc32923",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0025.jpg"
+    ],
+    "page_number": 25,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0025"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:06.126637+00:00",
+    "extracted_text": null,
+    "id": "60e9c9eb-5ddb-4a46-a8ea-f0cac466d983",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0026.jpg"
+    ],
+    "page_number": 26,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0026"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:07.126637+00:00",
+    "extracted_text": null,
+    "id": "e0392627-ac54-4b22-997f-f5c568421f36",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0027.jpg"
+    ],
+    "page_number": 27,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0027"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:08.126637+00:00",
+    "extracted_text": null,
+    "id": "f3994773-9e42-40c9-b9b8-7ff801fb49ba",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0028.jpg"
+    ],
+    "page_number": 28,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0028"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:09.126637+00:00",
+    "extracted_text": null,
+    "id": "fc9c4994-1403-44a2-8277-5928d2b2f8b4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0029.jpg"
+    ],
+    "page_number": 29,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0029"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:10.126637+00:00",
+    "extracted_text": null,
+    "id": "f3ca5058-7f77-4c85-8c51-00d4aee4c1c6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0030.jpg"
+    ],
+    "page_number": 30,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0030"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:11.126637+00:00",
+    "extracted_text": null,
+    "id": "13350ac2-7372-4d94-95aa-dbb6dc4dff55",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0031.jpg"
+    ],
+    "page_number": 31,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0031"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:12.126637+00:00",
+    "extracted_text": null,
+    "id": "384ae347-57c3-46b6-834c-a622a4e04fb2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0032.jpg"
+    ],
+    "page_number": 32,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0032"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:13.126637+00:00",
+    "extracted_text": null,
+    "id": "46fa9537-cb54-44f0-9294-001121ea6285",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0033.jpg"
+    ],
+    "page_number": 33,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0033"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:14.126637+00:00",
+    "extracted_text": null,
+    "id": "b5b0837c-f114-4093-9257-069755220ef1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0034.jpg"
+    ],
+    "page_number": 34,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0034"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:15.126637+00:00",
+    "extracted_text": null,
+    "id": "a978903a-7a03-4aa7-921b-04f6c4b9b4c6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0035.jpg"
+    ],
+    "page_number": 35,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0035"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:16.126637+00:00",
+    "extracted_text": null,
+    "id": "e6b4d075-9b7f-4aa6-add0-13f844e4cf69",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0036.jpg"
+    ],
+    "page_number": 36,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0036"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:17.126637+00:00",
+    "extracted_text": null,
+    "id": "98f2ad65-0862-4431-b1a5-c1e2674100e1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0037.jpg"
+    ],
+    "page_number": 37,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0037"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:18.126637+00:00",
+    "extracted_text": null,
+    "id": "5db65aba-cc9f-40ce-a1a4-2658a0e9f2e8",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0038.jpg"
+    ],
+    "page_number": 38,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0038"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:19.126637+00:00",
+    "extracted_text": null,
+    "id": "15892e1f-eeb1-45d8-b774-c7494c9ad836",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0039.jpg"
+    ],
+    "page_number": 39,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0039"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:20.126637+00:00",
+    "extracted_text": null,
+    "id": "3e02a7fd-f2fc-4a6e-b6f6-9bc6c35d3221",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0040.jpg"
+    ],
+    "page_number": 40,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0040"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:21.126637+00:00",
+    "extracted_text": null,
+    "id": "fac58837-8f18-4641-8446-cac95de73360",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0041.jpg"
+    ],
+    "page_number": 41,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0041"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:22.126637+00:00",
+    "extracted_text": null,
+    "id": "84a33a2f-0034-4f57-8431-d326c24129e0",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0042.jpg"
+    ],
+    "page_number": 42,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0042"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:23.126637+00:00",
+    "extracted_text": null,
+    "id": "82c173c2-e2ef-4769-954f-4023fa79962c",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0043.jpg"
+    ],
+    "page_number": 43,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0043"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:24.126637+00:00",
+    "extracted_text": null,
+    "id": "c46bc02a-b64b-4224-accd-c78e6116aba1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0044.jpg"
+    ],
+    "page_number": 44,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0044"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:25.126637+00:00",
+    "extracted_text": null,
+    "id": "711bbb77-d919-451a-b049-19ed7ced4e54",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0045.jpg"
+    ],
+    "page_number": 45,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0045"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:26.126637+00:00",
+    "extracted_text": null,
+    "id": "cced6b2f-f081-426d-b5ea-750ed73300cd",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0046.jpg"
+    ],
+    "page_number": 46,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0046"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:27.126637+00:00",
+    "extracted_text": null,
+    "id": "bbe90e1d-de73-4ce8-98f6-8f2f5dbfeff6",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0047.jpg"
+    ],
+    "page_number": 47,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0047"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:28.126637+00:00",
+    "extracted_text": null,
+    "id": "e7def5ac-f660-484a-bd8b-a7b59a9b8415",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0048.jpg"
+    ],
+    "page_number": 48,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0048"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:29.126637+00:00",
+    "extracted_text": null,
+    "id": "7679cfde-f32e-4b16-810a-d25a593d87b1",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0049.jpg"
+    ],
+    "page_number": 49,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0049"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:30.126637+00:00",
+    "extracted_text": null,
+    "id": "465b72bb-12d1-45e9-a210-9783e71288f4",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0050.jpg"
+    ],
+    "page_number": 50,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0050"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:31.126637+00:00",
+    "extracted_text": null,
+    "id": "d6b20efd-7e9c-45ce-909a-a31ec0a8e229",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0051.jpg"
+    ],
+    "page_number": 51,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0051"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:32.126637+00:00",
+    "extracted_text": null,
+    "id": "f5d1cd49-45a9-47cb-b1d4-97436f2aa603",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0052.jpg"
+    ],
+    "page_number": 52,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0052"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:33.126637+00:00",
+    "extracted_text": null,
+    "id": "c444d254-3a0a-4f5c-a66a-28766b8072c9",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0053.jpg"
+    ],
+    "page_number": 53,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0053"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:34.126637+00:00",
+    "extracted_text": null,
+    "id": "3c50e9bc-dd3d-4db1-b23d-524710b22396",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0054.jpg"
+    ],
+    "page_number": 54,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0054"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:35.126637+00:00",
+    "extracted_text": null,
+    "id": "67d54345-9158-4854-871e-c2a427c4ec35",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0055.jpg"
+    ],
+    "page_number": 55,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0055"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:36.126637+00:00",
+    "extracted_text": null,
+    "id": "1e69afaf-6e92-4b08-bc43-d67a7b5ddc8b",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0056.jpg"
+    ],
+    "page_number": 56,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0056"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:37.126637+00:00",
+    "extracted_text": null,
+    "id": "cd9d3a20-7140-48f6-8d05-e85a6f9d09f3",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0057.jpg"
+    ],
+    "page_number": 57,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0057"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:38.126637+00:00",
+    "extracted_text": null,
+    "id": "712b7fe6-142a-4d88-a391-cbd2e67b50e2",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0058.jpg"
+    ],
+    "page_number": 58,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0058"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:39.126637+00:00",
+    "extracted_text": null,
+    "id": "19f1cec5-bfdf-4bd1-80d0-f9cf06a374ef",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0059.jpg"
+    ],
+    "page_number": 59,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0059"
+  },
+  {
+    "ai_questions": [],
+    "ai_thumbnails": null,
+    "audio_url": null,
+    "content_type": "exam_model",
+    "created_at": "2026-08-14T04:46:40.126637+00:00",
+    "extracted_text": null,
+    "id": "5c352854-25c6-40ca-972f-1be6152bc6ec",
+    "image_urls": [
+      "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/class/a0f8185a-3830-4b5f-b9be-4ae17dc15c69/subject/e85a28dc-af9f-48c9-bb6d-fbbf7acc2e76/lesson/5991114e-0931-4d72-b778-8562e73e9105/page_0060.jpg"
+    ],
+    "page_number": 60,
+    "subject_id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+    "summary": null,
+    "title": "الجبر والهندسة نماذج وزاريه 1445 - الصفحة 0060"
+  }
+]
