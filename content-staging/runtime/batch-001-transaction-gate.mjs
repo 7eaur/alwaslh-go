@@ -9,25 +9,25 @@ const sql = postgres(process.env.DATABASE_URL, {
 
 const lessons = [
   {
-    id: '2d98475c-91bf-4000-bfbc-79f7a6a854f9', position: 0, page: 1,
+    legacyPageId: '2d98475c-91bf-4000-bfbc-79f7a6a854f9', position: 0, page: 1,
     slug: 'curated-english9-pb3-u1-p001-presents-from-london', title: 'Presents from London',
     path: 'تاسع انجليزي/الانجليزي_تاسع/الصور/p001 - Presents from London.jpg',
     sha: 'ae3e89be65d1c9ec5f70e361a5e78ea903d6e305f22d399e2c88bf864f6c3a4f',
   },
   {
-    id: '5e207993-508f-426b-ae71-f00aa4f782df', position: 1, page: 2,
+    legacyPageId: '5e207993-508f-426b-ae71-f00aa4f782df', position: 1, page: 2,
     slug: 'curated-english9-pb3-u1-p002-whats-my-job', title: "What's my job?",
     path: "تاسع انجليزي/الانجليزي_تاسع/الصور/p002 - What's my job -.jpg",
     sha: '1df05a27195e28e5543747c1f827a4d32c2bf937476c91ae69b0f4fe8b61b413',
   },
   {
-    id: 'dc1d6249-c0cb-4982-9711-092b1dcffee3', position: 2, page: 3,
+    legacyPageId: 'dc1d6249-c0cb-4982-9711-092b1dcffee3', position: 2, page: 3,
     slug: 'curated-english9-pb3-u1-p003-the-holidays', title: 'The holidays',
     path: 'تاسع انجليزي/الانجليزي_تاسع/الصور/p003 - The holidays.jpg',
     sha: '78741ebd493e6b7dbbc05115472fec173edbeab9e05079b806a61acd1d7d13ac',
   },
   {
-    id: 'f2947d7f-5697-4bdc-b561-ad880a1afdf1', position: 3, page: 4,
+    legacyPageId: 'f2947d7f-5697-4bdc-b561-ad880a1afdf1', position: 3, page: 4,
     slug: 'curated-english9-pb3-u1-p004-a-postcard-from-london', title: 'A postcard from London',
     path: 'تاسع انجليزي/الانجليزي_تاسع/الصور/p004 - A postcard from London.jpg',
     sha: '86d655468bfbc73248da92e0d16d4b4dcccc0217df241e69bac94f6cee6cf321',
@@ -35,19 +35,19 @@ const lessons = [
 ];
 
 const questions = [
-  ['2d98475c-91bf-4000-bfbc-79f7a6a854f9', 0, 'How old is Saleh?', 'approved', 'multiple_choice', 'How old is Saleh?', null, null],
-  ['2d98475c-91bf-4000-bfbc-79f7a6a854f9', 1, 'Saleh is seventeen years old.', 'approved', 'true_false', 'Saleh is seventeen years old.', null, null],
-  ['2d98475c-91bf-4000-bfbc-79f7a6a854f9', 2, 'What does Mr Al Sabri want to buy for Saleh?', 'corrected', 'multiple_choice', 'What does Mr Al Sabri suggest Taha buy for Saleh?', ['a pair of shorts','a school uniform','a bicycle','a camera'], 0],
-  ['2d98475c-91bf-4000-bfbc-79f7a6a854f9', 3, 'What does Saleh like?', 'approved', 'multiple_choice', 'What does Saleh like?', null, null],
-  ['5e207993-508f-426b-ae71-f00aa4f782df', 0, 'Taha works in a clinic.', 'corrected', 'true_false', 'The dentist works in a clinic.', null, null],
-  ['5e207993-508f-426b-ae71-f00aa4f782df', 1, "What is Taha's job?", 'corrected', 'multiple_choice', "What is the job of the person who takes care of people's teeth?", ['a dentist','a teacher','a doctor','a police officer'], 0],
-  ['5e207993-508f-426b-ae71-f00aa4f782df', 2, 'What time does the office worker start work?', 'approved', 'multiple_choice', 'What time does the office worker start work?', null, null],
-  ['5e207993-508f-426b-ae71-f00aa4f782df', 3, 'Where does the doctor work?', 'corrected', 'multiple_choice', 'Where does the dentist work?', ['in a clinic','in an office','in a hospital','in a school'], 0],
-  ['dc1d6249-c0cb-4982-9711-092b1dcffee3', 0, 'The family went to London for the holidays.', 'corrected', 'true_false', 'One speaker went to a village by the sea in the holidays.', null, null],
-  ['dc1d6249-c0cb-4982-9711-092b1dcffee3', 1, 'What did Amna do every day?', 'corrected', 'multiple_choice', 'What did the first speaker do every day?', ['went swimming and fishing','stayed at home','went shopping','worked on a farm'], 0],
-  ['dc1d6249-c0cb-4982-9711-092b1dcffee3', 2, 'Where did Mr Al Sabri and his family go on holiday?', 'corrected', 'multiple_choice', 'Where did the first speaker go in the holidays?', ['a village by the sea','London','Paris',"Sana'a"], 0],
-  ['f2947d7f-5697-4bdc-b561-ad880a1afdf1', 0, 'Amna wrote a postcard to Mariam.', 'approved', 'true_false', 'Amna wrote a postcard to Mariam.', null, null],
-  ['f2947d7f-5697-4bdc-b561-ad880a1afdf1', 1, 'What did Amna write to Mariam?', 'approved', 'multiple_choice', 'What did Amna write to Mariam?', null, null],
+  [0, 0, 'How old is Saleh?', 'approved', 'multiple_choice', 'How old is Saleh?', null, null],
+  [0, 1, 'Saleh is seventeen years old.', 'approved', 'true_false', 'Saleh is seventeen years old.', null, null],
+  [0, 2, 'What does Mr Al Sabri want to buy for Saleh?', 'corrected', 'multiple_choice', 'What does Mr Al Sabri suggest Taha buy for Saleh?', ['a pair of shorts','a school uniform','a bicycle','a camera'], 0],
+  [0, 3, 'What does Saleh like?', 'approved', 'multiple_choice', 'What does Saleh like?', null, null],
+  [1, 0, 'Taha works in a clinic.', 'corrected', 'true_false', 'The dentist works in a clinic.', null, null],
+  [1, 1, "What is Taha's job?", 'corrected', 'multiple_choice', "What is the job of the person who takes care of people's teeth?", ['a dentist','a teacher','a doctor','a police officer'], 0],
+  [1, 2, 'What time does the office worker start work?', 'approved', 'multiple_choice', 'What time does the office worker start work?', null, null],
+  [1, 3, 'Where does the doctor work?', 'corrected', 'multiple_choice', 'Where does the dentist work?', ['in a clinic','in an office','in a hospital','in a school'], 0],
+  [2, 0, 'The family went to London for the holidays.', 'corrected', 'true_false', 'One speaker went to a village by the sea in the holidays.', null, null],
+  [2, 1, 'What did Amna do every day?', 'corrected', 'multiple_choice', 'What did the first speaker do every day?', ['went swimming and fishing','stayed at home','went shopping','worked on a farm'], 0],
+  [2, 2, 'Where did Mr Al Sabri and his family go on holiday?', 'corrected', 'multiple_choice', 'Where did the first speaker go in the holidays?', ['a village by the sea','London','Paris',"Sana'a"], 0],
+  [3, 0, 'Amna wrote a postcard to Mariam.', 'approved', 'true_false', 'Amna wrote a postcard to Mariam.', null, null],
+  [3, 1, 'What did Amna write to Mariam?', 'approved', 'multiple_choice', 'What did Amna write to Mariam?', null, null],
 ];
 
 function assert(condition, message) {
@@ -73,17 +73,39 @@ try {
     assert(scope.length === 1, `expected 1 active grade-9/english offering, got ${scope.length}`);
     const { class_id: classId, subject_id: subjectId } = scope[0];
 
-    const lessonIds = lessons.map((x) => x.id);
-    const liveLessons = await tx`
-      select id, class_id, subject_id, slug, title, position, section_id, status, published_at
-      from lessons where id in ${tx(lessonIds)} for update
-    `;
-    assert(liveLessons.length === 4, `expected 4 exact lesson ids, got ${liveLessons.length}`);
-    for (const row of liveLessons) {
-      assert(row.class_id === classId && row.subject_id === subjectId, `lesson ${row.id} scope mismatch`);
-      assert(row.status === 'active' && row.published_at === null, `lesson ${row.id} is not active+unpublished`);
+    // IMPORTANT: legacyPageId is provenance identity, not lessons.id. Resolve each modern lesson through
+    // exact source path + checksum -> media -> lesson_asset -> lesson, then lock that modern lesson row.
+    const resolvedLessons = [];
+    for (let lessonIndex = 0; lessonIndex < lessons.length; lessonIndex++) {
+      const e = lessons[lessonIndex];
+      const rows = await tx`
+        select l.id as lesson_id, l.class_id, l.subject_id, l.slug as current_slug,
+               l.title as current_title, l.position as current_position, l.section_id,
+               l.status, l.published_at, la.id as lesson_asset_id, ma.id as media_asset_id,
+               csa.id as source_asset_id
+        from content_source_assets csa
+        join media_assets ma on ma.content_source_asset_id = csa.id
+        join lesson_assets la on la.media_asset_id = ma.id
+        join lessons l on l.id = la.lesson_id
+        where csa.is_present = true
+          and csa.source_path = ${e.path}
+          and csa.checksum_sha256 = ${e.sha}
+          and ma.source_checksum_sha256 = ${e.sha}
+          and ma.status = 'ready'
+          and la.publication_status = 'draft'
+          and la.asset_published_at is null
+      `;
+      assert(rows.length === 1, `source ${e.path} resolved ${rows.length} modern lessons; expected exactly 1`);
+      const row = rows[0];
+      assert(row.class_id === classId && row.subject_id === subjectId, `resolved lesson ${row.lesson_id} scope mismatch`);
+      assert(row.status === 'active' && row.published_at === null, `resolved lesson ${row.lesson_id} is not active+unpublished`);
+      const locked = await tx`select id from lessons where id = ${row.lesson_id} for update`;
+      assert(locked.length === 1, `could not lock resolved lesson ${row.lesson_id}`);
+      resolvedLessons.push({ ...e, lessonIndex, lessonId: row.lesson_id, currentSlug: row.current_slug });
     }
+    assert(new Set(resolvedLessons.map((x) => x.lessonId)).size === 4, 'four sources did not resolve to four unique modern lessons');
 
+    const lessonIds = resolvedLessons.map((x) => x.lessonId);
     const existingSection = await tx`
       select id from curriculum_sections
       where class_id = ${classId} and subject_id = ${subjectId}
@@ -99,23 +121,6 @@ try {
     `;
     assert(slugCollisions.length === 0, `target lesson slug collision count ${slugCollisions.length}`);
 
-    for (const e of lessons) {
-      const chain = await tx`
-        select la.id as lesson_asset_id, ma.id as media_asset_id, csa.id as source_asset_id
-        from lesson_assets la
-        join media_assets ma on ma.id = la.media_asset_id
-        join content_source_assets csa on csa.id = ma.content_source_asset_id
-        where la.lesson_id = ${e.id}
-          and la.publication_status = 'draft' and la.asset_published_at is null
-          and ma.status = 'ready'
-          and csa.is_present = true
-          and csa.source_path = ${e.path}
-          and csa.checksum_sha256 = ${e.sha}
-          and ma.source_checksum_sha256 = ${e.sha}
-      `;
-      assert(chain.length === 1, `lesson ${e.id} exact provenance chain count ${chain.length}`);
-    }
-
     const allDraft = await tx`
       select r.id, r.prompt, r.type, r.options, r.correct_option_index, r.answer_text,
              r.status, r.published_at, rl.lesson_id
@@ -126,13 +131,13 @@ try {
     `;
     assert(allDraft.length === 13, `expected exactly 13 draft question revisions, got ${allDraft.length}`);
 
-    const resolved = [];
+    const resolvedQuestions = [];
     for (const q of questions) {
-      const [lessonId, sourceIndex, currentPrompt, decision, targetType, targetPrompt, targetOptions, targetIndex] = q;
-      const matches = allDraft.filter((r) => r.lesson_id === lessonId && r.prompt === currentPrompt);
-      assert(matches.length === 1, `question locator ${lessonId}/${sourceIndex} resolved ${matches.length} rows`);
+      const [lessonIndex, sourceIndex, currentPrompt, decision, targetType, targetPrompt, targetOptions, targetIndex] = q;
+      const lesson = resolvedLessons[lessonIndex];
+      const matches = allDraft.filter((r) => r.lesson_id === lesson.lessonId && r.prompt === currentPrompt);
+      assert(matches.length === 1, `question locator page${lesson.page}/${sourceIndex} resolved ${matches.length} rows`);
       const rev = matches[0];
-      const lesson = lessons.find((x) => x.id === lessonId);
       const source = await tx`
         select revision_id
         from question_bank_revision_sources
@@ -141,10 +146,10 @@ try {
           and input_checksum_sha256 = ${lesson.sha}
       `;
       assert(source.length === 1, `question ${rev.id} provenance count ${source.length}`);
-      resolved.push({ rev, lessonId, sourceIndex, decision, targetType, targetPrompt, targetOptions, targetIndex });
+      resolvedQuestions.push({ rev, lesson, sourceIndex, decision, targetType, targetPrompt, targetOptions, targetIndex });
     }
-    assert(new Set(resolved.map((x) => x.rev.id)).size === 13, 'reviewed locators do not map to 13 unique revisions');
-    assert(resolved.filter((x) => x.decision === 'corrected').length === 7, 'correction count is not 7');
+    assert(new Set(resolvedQuestions.map((x) => x.rev.id)).size === 13, 'reviewed locators do not map to 13 unique revisions');
+    assert(resolvedQuestions.filter((x) => x.decision === 'corrected').length === 7, 'correction count is not 7');
 
     const [section] = await tx`
       insert into curriculum_sections (class_id, subject_id, slug, title, position, status)
@@ -153,11 +158,11 @@ try {
     `;
 
     let lessonUpdates = 0;
-    for (const e of lessons) {
+    for (const e of resolvedLessons) {
       const rows = await tx`
         update lessons
         set section_id = ${section.id}, slug = ${e.slug}, title = ${e.title}, position = ${e.position}
-        where id = ${e.id}
+        where id = ${e.lessonId}
         returning id
       `;
       lessonUpdates += rows.length;
@@ -165,7 +170,7 @@ try {
     assert(lessonUpdates === 4, `lesson update count ${lessonUpdates}, expected 4`);
 
     let questionUpdates = 0;
-    for (const x of resolved.filter((r) => r.decision === 'corrected')) {
+    for (const x of resolvedQuestions.filter((r) => r.decision === 'corrected')) {
       let rows;
       if (x.targetOptions) {
         const answer = x.targetOptions[x.targetIndex];
@@ -196,13 +201,13 @@ try {
     `;
     assert(postLessons.length === 4, `post lesson count ${postLessons.length}`);
     for (const row of postLessons) {
-      const e = lessons.find((x) => x.id === row.id);
+      const e = resolvedLessons.find((x) => x.lessonId === row.id);
       assert(row.slug === e.slug && row.title === e.title && row.position === e.position, `post lesson ${row.id} target mismatch`);
       assert(row.published_at === null && row.section_slug === 'curated-english9-pb3-unit-1-revision', `post lesson ${row.id} publication/section mismatch`);
     }
 
     let correctedPostCount = 0;
-    for (const x of resolved.filter((r) => r.decision === 'corrected')) {
+    for (const x of resolvedQuestions.filter((r) => r.decision === 'corrected')) {
       const [row] = await tx`
         select prompt, type, options, correct_option_index, answer_text, status, published_at
         from question_bank_revisions where id = ${x.rev.id}
@@ -216,15 +221,17 @@ try {
       correctedPostCount++;
     }
 
-    const publishedAssets = await tx`
+    const [publishedAssets] = await tx`
       select count(*)::int as count from lesson_assets
       where lesson_id in ${tx(lessonIds)}
         and (publication_status <> 'draft' or asset_published_at is not null)
     `;
-    assert(publishedAssets[0].count === 0, 'lesson asset publication invariant changed');
+    assert(publishedAssets.count === 0, 'lesson asset publication invariant changed');
 
     passSummary = {
       scope: 'grade-9/english',
+      lessonIdentityMode: 'source_path+sha256->media->lesson_asset->lesson',
+      resolvedLessonIds: resolvedLessons.map((x) => x.lessonId),
       sectionInserts: 1,
       lessonUpdates,
       questionUpdates,
