@@ -17,7 +17,7 @@ Rules remain fixed:
 
 - `7eaur/alwaslh main`: `c5ccbc9b0d0e88ef8798bbae6a3cc0bf933b5a7e`
 - `7eaur/alwaslh-go default master`: `f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23`
-- `7eaur/alwaslh-go work branch at start`: `content/legacy-staging-rebuild` = `6e4b5e9710ee1b9d3d737235abb5e714f751b01d`
+- `7eaur/alwaslh-go work branch at start`: `content/legacy-staging-rebuild` = `b4f304b59bfaf82ed75012e8426da07e57f8f4e3`
 
 ## BATCH-001 — CLOSED / COMMITTED STATE VERIFIED
 
@@ -123,7 +123,37 @@ Curation safety assertions:
 - no publication state change;
 - no anomaly deletion or unrelated-record mutation.
 
-This closes only the first Lesson/Activity boundary in Unit 2.
+## CURATION-002 — DONE / LESSON BOUNDARY VERIFIED
+
+Smallest next coherent Lesson inside Unit 2 only.
+
+Evidence file:
+- creation commit: `d14774adc68470e9eea48a1c388a14a66111bf57`
+- `content-staging/curated/grade-9/english/pupil-book-3/curation-002-unit-2-time-and-meeting.json`
+
+Reviewed Lesson boundary:
+- reviewed title: `Telling time and arranging a meeting`
+- book pages: `9..10`
+- source pages: `13..14`
+- ordered page/activity count: `2`
+- attached legacy questions preserved: `7`
+
+Boundary evidence:
+- page 9 introduces and practises clock/time expressions, including quarter-past, minutes per hour and half-hour evidence;
+- page 10 applies clock language to schedules and arranging a meeting;
+- page 11/source page 15 changes instructional focus to `Things to do`, with obligation/task evidence (`has to do` before football), so it is excluded from this Lesson and remains the next unresolved boundary.
+
+Curation safety assertions:
+- both source identities remain separate ordered activity/page assets;
+- both RAW SHA-256 values are preserved exactly;
+- all 7 attached legacy AI questions remain on their exact source pages;
+- the questions were not semantically approved, corrected, rejected or rewritten;
+- no RAW or Media mutation;
+- no PostgreSQL mutation;
+- no publication state change;
+- no anomaly deletion or unrelated-record mutation.
+
+This closes CURATION-002 only. Unit 2 book pages `11..15` remain explicitly unresolved and preserved for later review; they are not silently converted into Lessons.
 
 ## Gate checklist
 
@@ -156,20 +186,27 @@ This closes only the first Lesson/Activity boundary in Unit 2.
 5. `[DONE]` Preserve 12 question attachments without semantic approval/rewrite.
 6. `[DONE]` Keep PostgreSQL/RAW/publication untouched.
 
-Current task status: `CURATION-001 = DONE / LESSON_BOUNDARY_VERIFIED`.
+### CURATION-002
+1. `[DONE]` Start from book page 9/source page 13 as required.
+2. `[DONE]` Verify pages 9..10 form the smallest coherent time-to-meeting Lesson sequence.
+3. `[DONE]` Verify book page 11/source page 15 changes instructional focus to obligations/tasks and remains outside this Lesson.
+4. `[DONE]` Preserve both source identities, order and RAW SHA-256 provenance.
+5. `[DONE]` Preserve 7 question attachments without semantic approval/rewrite.
+6. `[DONE]` Keep PostgreSQL/RAW/Media/publication untouched.
+
+Current task status: `CURATION-002 = DONE / LESSON_BOUNDARY_VERIFIED`.
 
 ## Exact next action
 
 On the next run:
 1. read live heads + this status + handoff;
 2. do not reopen completed tasks unless live drift invalidates evidence;
-3. execute `CURATION-002` only;
-4. start at book page `9` / source page `13` (`What's the time?`);
-5. determine the next smallest Lesson/Activity boundary from actual content evidence, including where the time/meeting/planning sequence ends;
-6. preserve source identities, RAW checksums and exact question provenance;
-7. do not approve legacy questions merely because they support boundary evidence;
-8. do not mutate PostgreSQL or publication state during curation;
-9. document results before moving to `CONTENT-GAPS-001`.
+3. execute `CONTENT-GAPS-001` only;
+4. begin by inventorying explicit content gaps/unresolved evidence from the reviewed Grade 9 English corpus, including Unit 2 pages `11..15`, manifest-only page 70, duplicate-position anomalies and any missing modern mappings;
+5. do not infer deletion or curriculum membership from the old `69 -> 62` heuristic;
+6. preserve anomalies and provenance rather than hiding them;
+7. do not mutate PostgreSQL, RAW or publication state merely to close the gap inventory;
+8. document the exact gap counts and evidence before moving to `MEDIA-001`.
 
 ## Remaining ordered queue
 
@@ -177,8 +214,8 @@ On the next run:
 - `STRUCTURE-001` — DONE: `SECTION_BOUNDARY_VERIFIED`
 - `STRUCTURE-002` — DONE: `SECTION_BOUNDARY_VERIFIED`
 - `CURATION-001` — DONE: `LESSON_BOUNDARY_VERIFIED`
-- `CURATION-002` — NEXT
-- `CONTENT-GAPS-001` — TODO
+- `CURATION-002` — DONE: `LESSON_BOUNDARY_VERIFIED`
+- `CONTENT-GAPS-001` — NEXT
 - `MEDIA-001` — TODO
 - `IMPORT-001` — TODO
 - `VERIFY-001` — TODO
