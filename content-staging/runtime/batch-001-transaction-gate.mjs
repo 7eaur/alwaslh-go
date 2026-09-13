@@ -10,26 +10,34 @@ const sql = postgres(process.env.DATABASE_URL, {
 const lessons = [
   {
     legacyPageId: '2d98475c-91bf-4000-bfbc-79f7a6a854f9', position: 0, page: 1,
+    legacySlug: 'legacy-sb-2d53aec17e54f46db304',
     slug: 'curated-english9-pb3-u1-p001-presents-from-london', title: 'Presents from London',
-    path: 'تاسع انجليزي/الانجليزي_تاسع/الصور/p001 - Presents from London.jpg',
+    sourcePath: 'public.lessons/2d98475c-91bf-4000-bfbc-79f7a6a854f9/image/0',
+    rawPath: 'تاسع انجليزي/الانجليزي_تاسع/الصور/p001 - Presents from London.jpg',
     sha: 'ae3e89be65d1c9ec5f70e361a5e78ea903d6e305f22d399e2c88bf864f6c3a4f',
   },
   {
     legacyPageId: '5e207993-508f-426b-ae71-f00aa4f782df', position: 1, page: 2,
+    legacySlug: 'legacy-sb-908a58f8e7b25f82c787',
     slug: 'curated-english9-pb3-u1-p002-whats-my-job', title: "What's my job?",
-    path: "تاسع انجليزي/الانجليزي_تاسع/الصور/p002 - What's my job -.jpg",
+    sourcePath: 'public.lessons/5e207993-508f-426b-ae71-f00aa4f782df/image/0',
+    rawPath: "تاسع انجليزي/الانجليزي_تاسع/الصور/p002 - What's my job -.jpg",
     sha: '1df05a27195e28e5543747c1f827a4d32c2bf937476c91ae69b0f4fe8b61b413',
   },
   {
     legacyPageId: 'dc1d6249-c0cb-4982-9711-092b1dcffee3', position: 2, page: 3,
+    legacySlug: 'legacy-sb-4e1131b5222334610174',
     slug: 'curated-english9-pb3-u1-p003-the-holidays', title: 'The holidays',
-    path: 'تاسع انجليزي/الانجليزي_تاسع/الصور/p003 - The holidays.jpg',
+    sourcePath: 'public.lessons/dc1d6249-c0cb-4982-9711-092b1dcffee3/image/0',
+    rawPath: 'تاسع انجليزي/الانجليزي_تاسع/الصور/p003 - The holidays.jpg',
     sha: '78741ebd493e6b7dbbc05115472fec173edbeab9e05079b806a61acd1d7d13ac',
   },
   {
     legacyPageId: 'f2947d7f-5697-4bdc-b561-ad880a1afdf1', position: 3, page: 4,
+    legacySlug: 'legacy-sb-840f23a0e0a98aaa674e',
     slug: 'curated-english9-pb3-u1-p004-a-postcard-from-london', title: 'A postcard from London',
-    path: 'تاسع انجليزي/الانجليزي_تاسع/الصور/p004 - A postcard from London.jpg',
+    sourcePath: 'public.lessons/f2947d7f-5697-4bdc-b561-ad880a1afdf1/image/0',
+    rawPath: 'تاسع انجليزي/الانجليزي_تاسع/الصور/p004 - A postcard from London.jpg',
     sha: '86d655468bfbc73248da92e0d16d4b4dcccc0217df241e69bac94f6cee6cf321',
   },
 ];
@@ -73,8 +81,8 @@ try {
     assert(scope.length === 1, `expected 1 active grade-9/english offering, got ${scope.length}`);
     const { class_id: classId, subject_id: subjectId } = scope[0];
 
-    // IMPORTANT: legacyPageId is provenance identity, not lessons.id. Resolve each modern lesson through
-    // exact source path + checksum -> media -> lesson_asset -> lesson, then lock that modern lesson row.
+    // The RAW extraction path is documentary evidence only. PostgreSQL canonical source identity for
+    // the legacy importer is public.lessons/<legacy page UUID>/image/0 plus the immutable byte SHA-256.
     const resolvedLessons = [];
     for (let lessonIndex = 0; lessonIndex < lessons.length; lessonIndex++) {
       const e = lessons[lessonIndex];
@@ -88,20 +96,21 @@ try {
         join lesson_assets la on la.media_asset_id = ma.id
         join lessons l on l.id = la.lesson_id
         where csa.is_present = true
-          and csa.source_path = ${e.path}
+          and csa.source_path = ${e.sourcePath}
           and csa.checksum_sha256 = ${e.sha}
           and ma.source_checksum_sha256 = ${e.sha}
           and ma.status = 'ready'
           and la.publication_status = 'draft'
           and la.asset_published_at is null
       `;
-      assert(rows.length === 1, `source ${e.path} resolved ${rows.length} modern lessons; expected exactly 1`);
+      assert(rows.length === 1, `source ${e.sourcePath} resolved ${rows.length} modern lessons; expected exactly 1`);
       const row = rows[0];
       assert(row.class_id === classId && row.subject_id === subjectId, `resolved lesson ${row.lesson_id} scope mismatch`);
       assert(row.status === 'active' && row.published_at === null, `resolved lesson ${row.lesson_id} is not active+unpublished`);
+      assert(row.current_slug === e.legacySlug, `resolved lesson ${row.lesson_id} legacy slug drift: ${row.current_slug}`);
       const locked = await tx`select id from lessons where id = ${row.lesson_id} for update`;
       assert(locked.length === 1, `could not lock resolved lesson ${row.lesson_id}`);
-      resolvedLessons.push({ ...e, lessonIndex, lessonId: row.lesson_id, currentSlug: row.current_slug });
+      resolvedLessons.push({ ...e, lessonIndex, lessonId: row.lesson_id, sourceAssetId: row.source_asset_id });
     }
     assert(new Set(resolvedLessons.map((x) => x.lessonId)).size === 4, 'four sources did not resolve to four unique modern lessons');
 
@@ -144,6 +153,7 @@ try {
         where revision_id = ${rev.id}
           and page_number = ${lesson.page}
           and input_checksum_sha256 = ${lesson.sha}
+          and content_source_asset_id = ${lesson.sourceAssetId}
       `;
       assert(source.length === 1, `question ${rev.id} provenance count ${source.length}`);
       resolvedQuestions.push({ rev, lesson, sourceIndex, decision, targetType, targetPrompt, targetOptions, targetIndex });
@@ -228,10 +238,14 @@ try {
     `;
     assert(publishedAssets.count === 0, 'lesson asset publication invariant changed');
 
+    const corrected = resolvedQuestions.filter((x) => x.decision === 'corrected');
     passSummary = {
       scope: 'grade-9/english',
-      lessonIdentityMode: 'source_path+sha256->media->lesson_asset->lesson',
+      lessonIdentityMode: 'canonical_content_source_path+sha256->media->lesson_asset->lesson',
+      rawPathRole: 'documentary_only_immutable',
       resolvedLessonIds: resolvedLessons.map((x) => x.lessonId),
+      correctedRevisionIds: corrected.map((x) => x.rev.id),
+      correctedOriginalPrompts: corrected.map((x) => x.rev.prompt),
       sectionInserts: 1,
       lessonUpdates,
       questionUpdates,
@@ -263,5 +277,26 @@ const [post] = await sql`
 `;
 assert(post.section_count === 0, `rollback verification expected target section count 0, got ${post.section_count}`);
 
-console.log('BATCH001_GATE_PASS_ROLLBACK_VERIFIED', JSON.stringify({ ...passSummary, postRollbackSectionCount: post.section_count }));
+let postRollbackLessonCount = 0;
+for (let i = 0; i < lessons.length; i++) {
+  const [row] = await sql`select slug, section_id, published_at from lessons where id = ${passSummary.resolvedLessonIds[i]}`;
+  assert(row?.slug === lessons[i].legacySlug && row.section_id === null && row.published_at === null,
+    `rollback verification failed for lesson ${passSummary.resolvedLessonIds[i]}`);
+  postRollbackLessonCount++;
+}
+
+let postRollbackQuestionCount = 0;
+for (let i = 0; i < passSummary.correctedRevisionIds.length; i++) {
+  const [row] = await sql`select prompt, status, published_at from question_bank_revisions where id = ${passSummary.correctedRevisionIds[i]}`;
+  assert(row?.prompt === passSummary.correctedOriginalPrompts[i] && row.status === 'draft' && row.published_at === null,
+    `rollback verification failed for question revision ${passSummary.correctedRevisionIds[i]}`);
+  postRollbackQuestionCount++;
+}
+
+console.log('BATCH001_GATE_PASS_ROLLBACK_VERIFIED', JSON.stringify({
+  ...passSummary,
+  postRollbackSectionCount: post.section_count,
+  postRollbackLessonCount,
+  postRollbackQuestionCount,
+}));
 await sql.end({ timeout: 1 });
