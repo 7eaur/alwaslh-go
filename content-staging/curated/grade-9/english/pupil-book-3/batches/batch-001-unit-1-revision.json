@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "batch_id": "BATCH-001-G9-EN-PB3-U1",
-  "status": "prepared_for_db_import",
+  "status": "validation_in_progress",
   "source": {
     "repository": "7eaur/alwaslh-go",
     "branch": "content/legacy-staging-rebuild",
@@ -40,7 +40,9 @@
     "match_by_exact_content_source_asset_path": true,
     "require_display_webp_variant": true,
     "do_not_duplicate_existing_media": true,
-    "raw_immutable": true
+    "raw_immutable": true,
+    "current_display_webp_size_optimization": "failed_current_profile",
+    "size_policy": "Do not claim or require WebP as an optimization unless the derived readable variant is measurably smaller than the immutable source."
   },
   "lessons": [
     {
@@ -96,7 +98,8 @@
     "expected_question_count": 13,
     "multiple_choice": "Preserve four source options and source semantic answer.",
     "true_false": "Normalize options to [صح, خطأ] and map by semantic source answer True/False, never by raw index alone.",
-    "publication": "Keep revisions in review. No legacy AI-derived revision is published automatically."
+    "publication": "Keep revisions in review. No legacy AI-derived revision is published automatically.",
+    "semantic_review_status": "pending_source_page_review"
   },
   "expected_effect": {
     "reuse_existing_media_assets": 4,
@@ -120,6 +123,15 @@
     "source_page_count": 4,
     "source_question_count": 13,
     "question_shape_checked_against_main": "343ff1fd7b3d64d7e990b72606695365f520fa58",
+    "database_inventory_checkpoint": "a4ec103a0bb36a40f144a65ee6635a70f15f059a",
+    "database_inventory_result": "DB_MEDIA_PROVENANCE_VALIDATED",
+    "database_inspector_deployment": "00e69a2d-05f4-4e22-9449-5d82f80c8849",
+    "media_size_validation_report": "content-staging/curated/grade-9/english/pupil-book-3/batches/BATCH-001_DB_MEDIA_VALIDATION.md",
+    "raw_total_bytes": 440502,
+    "current_display_webp_total_bytes": 549794,
+    "current_display_webp_delta_percent": 24.81,
+    "semantic_question_review": "PENDING",
+    "modern_target_dry_run": "PENDING",
     "database_apply_status": "NOT_YET_APPLIED"
   }
 }
