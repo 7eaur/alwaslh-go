@@ -1,0 +1,103 @@
+{
+  "task_id": "CURATION-002",
+  "scope": {
+    "grade": 9,
+    "subject": "English",
+    "document": "Pupil Book 3",
+    "section": "Unit 2 - Describing: Making plans",
+    "curation_batch": "next smallest reviewed lesson boundary only"
+  },
+  "status": "lesson_boundary_verified",
+  "policy": {
+    "source_page_is_not_automatically_a_lesson": true,
+    "raw_immutable": true,
+    "question_semantics_reviewed_in_this_task": false,
+    "database_mutation_allowed": false,
+    "publication_allowed": false
+  },
+  "reviewed_lesson": {
+    "provisional_key": "g9-en-pb3-u2-time-and-meeting",
+    "reviewed_title": "Telling time and arranging a meeting",
+    "first_book_page": 9,
+    "last_book_page": 10,
+    "first_source_page": 13,
+    "last_source_page": 14,
+    "page_count": 2,
+    "question_count_preserved": 7,
+    "boundary_decision": "Book pages 9-10 form one coherent sequence: page 9 establishes time expressions and page 10 applies them to schedules and arranging a meeting. Book page 11 changes the instructional focus to obligations/tasks (Things to do, including what someone has to do before playing football), so it begins the next curation boundary rather than remaining inside this time/meeting lesson.",
+    "boundary_evidence": [
+      "book page 9 is titled What's the time? and its attached legacy question evidence concerns 12:15/quarter-past, minutes in an hour, and half-hour expressions",
+      "book page 10 is titled Arranging to meet someone and its attached legacy question evidence applies clock times to a schedule and a meeting time",
+      "the time expressions on page 9 are therefore prerequisite language directly applied by the meeting/schedule activity on page 10",
+      "book page 11 is titled Things to do and its attached legacy question evidence shifts to obligation/task language (for example, what Tom has to do before playing football), marking a distinct instructional focus"
+    ],
+    "activities": [
+      {
+        "order": 1,
+        "book_page": 9,
+        "source_page": 13,
+        "activity_title": "What's the time?",
+        "activity_role": "introduce_and_practise_time_expressions",
+        "legacy_page_id": "b2449f0f-71f1-4e36-a739-cf64340f9c90",
+        "candidate_id": "page-candidate-15ac9f56ef455c22bc33",
+        "question_count": 4,
+        "raw_image": {
+          "sha256": "28ad2275248bb707102b4025d97d083d1da7685730fd2772034383b8d9df7208",
+          "byte_size": 87383,
+          "mime_type": "image/jpeg",
+          "raw_path": "raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/images/page-00009-b2449f0f-71f1-4e36-a739-cf64340f9c90-image-00.jpg"
+        }
+      },
+      {
+        "order": 2,
+        "book_page": 10,
+        "source_page": 14,
+        "activity_title": "Arranging to meet someone",
+        "activity_role": "apply_time_language_to_schedules_and_meetings",
+        "legacy_page_id": "75616176-b12d-47bb-bb6e-34cc3f902901",
+        "candidate_id": "page-candidate-a6f1884b4bce0b65e763",
+        "question_count": 3,
+        "raw_image": {
+          "sha256": "2a05b5dcb686f4de391ec22c297fdab382d7506c1bbe3281d63caa96bcd8d36f",
+          "byte_size": 91305,
+          "mime_type": "image/jpeg",
+          "raw_path": "raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/images/page-00010-75616176-b12d-47bb-bb6e-34cc3f902901-image-00.jpg"
+        }
+      }
+    ],
+    "next_page_boundary_evidence": {
+      "book_page": 11,
+      "source_page": 15,
+      "title": "Things to do",
+      "legacy_page_id": "ad939b52-4763-4554-83f1-46429e72adb7",
+      "candidate_id": "page-candidate-55c4cce3531aeed7dbb0",
+      "reason": "instructional shift from telling time/arranging meetings to obligation and task language; treat as the next unresolved Lesson/Activity boundary"
+    }
+  },
+  "question_provenance": {
+    "preserved_on_exact_source_pages": true,
+    "total_attached_questions": 7,
+    "approved": 0,
+    "corrected": 0,
+    "rejected": 0,
+    "review_status": "deferred_to_question_curation",
+    "note": "Legacy AI question text is used only as supporting topic/boundary evidence in CURATION-002; none of these questions is trusted or publication-approved by this task."
+  },
+  "assertions": {
+    "lesson_boundary_approved": true,
+    "ordered_activity_membership_approved": true,
+    "page_order_contiguous": true,
+    "all_source_identities_preserved": true,
+    "raw_checksums_preserved": true,
+    "questions_rewritten": false,
+    "raw_mutated": false,
+    "media_mutated": false,
+    "database_mutated": false,
+    "publication_changed": false,
+    "unrelated_records_mutated": false
+  },
+  "next_scope": {
+    "task": "CONTENT-GAPS-001",
+    "instruction": "Begin the documented content-gap pass from the latest reviewed boundaries. Do not infer missing curriculum from the old 69->62 heuristic; preserve unresolved Unit 2 pages 11-15 and all anomalies until explicitly reviewed."
+  }
+}
