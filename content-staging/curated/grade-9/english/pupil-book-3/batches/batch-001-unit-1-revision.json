@@ -96,10 +96,17 @@
   ],
   "question_normalization": {
     "expected_question_count": 13,
-    "multiple_choice": "Preserve four source options and source semantic answer.",
+    "multiple_choice": "Preserve four source options and source semantic answer unless source-grounded semantic review records an explicit correction.",
     "true_false": "Normalize options to [صح, خطأ] and map by semantic source answer True/False, never by raw index alone.",
     "publication": "Keep revisions in review. No legacy AI-derived revision is published automatically.",
-    "semantic_review_status": "pending_source_page_review"
+    "semantic_review_status": "complete",
+    "semantic_review_report": "content-staging/curated/grade-9/english/pupil-book-3/batches/batch-001-question-review.json",
+    "semantic_review_counts": {
+      "reviewed": 13,
+      "approved_unchanged": 6,
+      "corrected": 7,
+      "rejected": 0
+    }
   },
   "expected_effect": {
     "reuse_existing_media_assets": 4,
@@ -130,7 +137,8 @@
     "raw_total_bytes": 440502,
     "current_display_webp_total_bytes": 549794,
     "current_display_webp_delta_percent": 24.81,
-    "semantic_question_review": "PENDING",
+    "semantic_question_review": "COMPLETE_13_REVIEWED_6_APPROVED_7_CORRECTED_0_REJECTED",
+    "semantic_question_review_commit": "eae7b9d8b3b61b20f4ca74cb75f222aa5b6f9e60",
     "modern_target_dry_run": "PENDING",
     "database_apply_status": "NOT_YET_APPLIED"
   }
