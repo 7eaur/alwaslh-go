@@ -32,51 +32,60 @@
 - `CONTENT-GAPS-001 = DONE / GAP_INVENTORY_VERIFIED`
 - `MEDIA-001 = DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE`
 - `IMPORT-001 = DONE / COMMITTED_STATE_VERIFIED`
+- `VERIFY-001 = DONE / DELIVERY_ISOLATION_AND_PROVENANCE_VERIFIED`
 
 Do not repeat completed tasks unless fresh drift invalidates their evidence.
 
-## IMPORT-001 close evidence
+## IMPORT-001 retained close evidence
 
 Scope: CURATION-001 `Describing people and animals`, book pages `5..8` / source pages `9..12`.
 
-Pre-apply:
-- identity inspector `4cf8665b-4dd1-4e90-9ec8-92d897c34f59` — `IMPORT001_INSPECT_PASS`.
-- rollback gate commit `177b91572ac6fe3b37acd9bcc094876a1cbb3beb`.
-- rollback deployment `8e4cdcbb-2783-4dca-b025-e1191fa9e330` — `IMPORT001_TRANSACTION_GATE_PASS`.
-- allowed boundary: create 1 Section + 1 Lesson, reassign 4 existing Lesson Assets; zero Media/Question/publication/unrelated mutations.
+- exact Section ID `434f9978-efae-471e-b37d-6b151edecc5b`;
+- exact Lesson ID `1a6e3a6e-06e8-496e-8d18-c8d4545d1da9`;
+- 4 exact reviewed Lesson Assets ordered 0..3;
+- 4 exact ready Media Assets and exact source paths/checksums;
+- Lesson unpublished; all 4 assets draft/unpublished;
+- 0 unauthorized target Question links;
+- exactly 12 legacy Question Revisions preserved unpublished on legacy Lessons.
 
-Concurrent advancement was handled fail-closed:
-- apply script commit `2af3b935512c853eb4c2b1f3767766f8513a1c0a`.
-- deployment `026bfc1b-8ba0-4ae8-a74b-7170086f45e1` still used the old rollback command, so it did not apply.
-- later apply deployment `efb92e21-e8df-4674-92d9-041321da9f92` aborted before mutation because the target Section already existed.
-- do not claim that this run's apply executor created the rows; PostgreSQL advanced concurrently and the duplicate apply was refused.
+Concurrent advancement had been handled fail-closed and no duplicate apply was attempted. The exact-state close marker was `IMPORT001_POST_APPLY_VERIFY_PASS` in deployment `3e1ce24a-39ca-498c-b219-8ceb895eda84`.
 
-Independent verification then established the committed target state:
-- initial verifier commit `3727dde8f6f037d34691a75feae3d46d164f1041`, deployment `4144bf3c-1eeb-4c9f-8a77-65e60b1ed1c8`, PASS.
-- exact-identity verifier commit `2f3d0fa9923f9dceb692477c2fd1a0fd89d2b0c8`, deployment `3e1ce24a-39ca-498c-b219-8ceb895eda84`, marker `IMPORT001_POST_APPLY_VERIFY_PASS`.
+## VERIFY-001 close evidence
 
-Verified exact state:
-- Section ID `434f9978-efae-471e-b37d-6b151edecc5b`, one exact target Section.
-- Lesson ID `1a6e3a6e-06e8-496e-8d18-c8d4545d1da9`, one exact target Lesson under that Section.
-- 4 exact reviewed Lesson Assets ordered 0..3.
-- 4 exact ready Media Assets and exact source paths/checksums.
-- Lesson unpublished; all 4 assets draft/unpublished.
-- 0 unauthorized target Question links.
-- 4 legacy source Lessons preserved active/unpublished/sectionless with 0 reviewed page assets remaining on them.
-- exactly 12 legacy Question Revisions preserved and unpublished on the legacy Lessons.
-- no RAW/media-binary/question/publication/unrelated repair was made by the close step.
+The verification batch remained limited to the same imported CURATION-001 slice and did not mutate business data.
 
-Railway inspector start command was returned to idle after verification.
+Verifier:
+- `content-staging/runtime/verify-001-unit2-describing.mjs`
+- source commit `12fb1a5268e97f0a0d70eee4d33322c139e3deb5`
+- Railway deployment `e5e8fef8-f8e7-467e-b3d8-60529c1a652a` — SUCCESS
+- marker `VERIFY001_PASS`
+
+Verified:
+- exact Section identity count `1` and exact Lesson identity count `1`;
+- Lesson content revision `1`;
+- 4/4 exact Lesson Assets;
+- 4/4 ready Media Assets;
+- 4/4 exact source path + source/media checksum provenance;
+- 4/4 assets remain draft/unpublished;
+- Student Reader base-contract eligible lesson rows `0`;
+- Student Reader publication-guard eligible asset rows `0`;
+- unauthorized Question links to curated Lesson `0`;
+- 12 preserved legacy Question Revisions remain unpublished;
+- publication/RAW/media-binary/question mutation counts `0`;
+- failures `0`.
+
+This independently proves the imported slice is structurally/provenance-consistent while still isolated from Student delivery. It does not authorize publication.
+
+The Railway content inspector was returned to idle after the verification run so later documentation commits do not replay the verifier.
 
 ## Exact resume action
 
-Start `VERIFY-001` only:
+`ROADMAP-RETURN -> STUDENT-016I` only:
 1. read live heads for `7eaur/alwaslh` and `7eaur/alwaslh-go`;
-2. read execution status + this handoff + project status/log as needed;
-3. verify the smallest independent end-to-end slice for the just-imported Unit 2 lesson against modern PostgreSQL contracts and provenance/publication invariants;
-4. do not publish automatically;
-5. update status after the batch and project docs only if product/runtime truth changes;
-6. only after `VERIFY-001` reaches its documented gate, proceed to `ROADMAP-RETURN -> STUDENT-016I`.
+2. read current `PROJECT_HANDOFF.md`, `PROJECT_STATUS.md`, `PROJECT_ENGINEERING_LOG.md` and Student product overrides/architecture docs;
+3. verify that no newer Student checkpoint supersedes `STUDENT-016I`;
+4. resume the first incomplete Student roadmap item from live evidence only;
+5. keep Content Rebuild publication closed unless a separate explicit review/publication gate is executed.
 
 ## Ordered queue
 
@@ -88,5 +97,5 @@ Start `VERIFY-001` only:
 - `CONTENT-GAPS-001` — DONE
 - `MEDIA-001` — DONE
 - `IMPORT-001` — DONE / COMMITTED_STATE_VERIFIED
-- `VERIFY-001` — TODO
+- `VERIFY-001` — DONE / DELIVERY_ISOLATION_AND_PROVENANCE_VERIFIED
 - `ROADMAP-RETURN -> STUDENT-016I` — TODO
