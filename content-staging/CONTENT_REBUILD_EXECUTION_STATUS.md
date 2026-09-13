@@ -1,10 +1,12 @@
 # Alwaslh Content Rebuild — Shared Execution Status
 
-> اقرأ هذه النسخة + live heads قبل أي عمل، ثم أكمل أول مهمة غير مكتملة فقط. لا تعتمد على ذاكرة المحادثة.
+> اقرأ هذه النسخة + live heads قبل أي عمل. Code/DB/runtime evidence outrank stale prose.
+
+Last synchronized: **2026-09-13 — full Grade 9 English bulk import verified**.
 
 ## Fixed execution contract
 
-`Legacy Supabase -> Immutable RAW -> Reviewed CURATED -> Media Decision -> Dry Run -> Controlled Transaction -> Modern PostgreSQL -> Verification -> Publication`
+`Legacy Supabase -> Immutable RAW -> Reviewed/Recovered Structure -> Dry Run -> Controlled Transaction -> Modern PostgreSQL -> Verification -> Publication`
 
 - لا تستخدم heuristic القديم `69 -> 62` كحقيقة منهجية.
 - RAW immutable.
@@ -13,16 +15,116 @@
 - أي apply يفشل مغلقًا عند identity/count/provenance/publication drift.
 - WebP لا يُقبل إلا بعد إثبات فائدة الحجم والوضوح.
 
-## Live heads observed in ROADMAP-RETURN — 2026-09-13
+## Current live checkpoint
 
-- `7eaur/alwaslh main`: `8d11cddb2cde510f233926d394434a384d480745`.
-- `7eaur/alwaslh-go content/legacy-staging-rebuild`: `61bb699b1dbb421f3ca031b8f8d3f53c48235678` at run start.
-- PR #55 is already `MERGED`; accepted PR head `8ceb4d5a5f70f7896f6cb358e05605479942d442`, merge commit `343ff1fd7b3d64d7e990b72606695365f520fa58`.
-- Current Student continuation already exists as PR #57 `feat(student): close cold-start offline Reader gap`, branch `stage16/student-016i`, head `4624dcc824555c1d29e9d697a7474bf76223468b`.
-- PR #57 explicitly owns `STUDENT-016I`; therefore Content Rebuild must not duplicate that implementation.
-- Exact-head PR #57 checks are not fully green at this checkpoint: at least `Stage 8 · Student activation browser E2E` is failing. That is Student-workstream evidence, not a Content Rebuild blocker.
+Working repository/branch:
 
-## Completed checkpoints
+- `7eaur/alwaslh-go@content/legacy-staging-rebuild`
+- bulk source commit: `9e58ab3e882b883bddd016099949881801eedc28`
+- bulk close-report commit: `fe9ad7cb6f32af22e9a56c84c1839e1e6b0f5f1b`
+
+Railway content service was returned to idle after the run; documentation commits must not replay the apply pipeline.
+
+## FULL-GRADE9-ENGLISH-BULK-IMPORT — DONE / FULL_ASSET_COVERAGE_VERIFIED / UNPUBLISHED
+
+The user explicitly resumed Content Rebuild and authorized the fastest safe complete import of Grade 9 English pages/images/lessons into modern PostgreSQL.
+
+Authoritative reconstruction scope:
+
+- Legacy subject ID: `1794eea5-4772-4c94-bd2b-b08e5815e733`
+- RAW-backed pages: `69`
+- RAW images: `69`
+- Question revisions: `104`
+- recovered Sections/Units: `8`
+- source-manifest-only page: `1` (`Blank Final Page`, page 70), evidence-only because no RAW identity exists
+
+Recovered units:
+
+1. `Unit 1 - Revision`
+2. `Unit 2 - Describing: Making plans`
+3. `Unit 3 - Other countries`
+4. `Unit 4 - Visiting Japan`
+5. `Unit 5 - Safety`
+6. `Unit 6 - Helping others`
+7. `Unit 7 - Communications`
+8. `Unit 8 - Winning medals`
+
+Source clarification:
+
+- `master` contains the separate Third Secondary/Pupil's Book 6 corpus; it was not used as Grade 9 evidence.
+- Grade 9 source evidence comes from `content/legacy-supabase-reconstruction`, immutable RAW, and `content-staging/curated/grade-9/english/pupil-book-3/reconstruction-candidates.json`.
+
+### Runtime execution
+
+Railway deployment:
+
+`de7f9883-b2f0-483d-a7c1-ffbfb15ac30c` — `SUCCESS`
+
+Verified runtime sequence:
+
+- `BULK_G9_EN_INSPECT_PASS`
+- `BULK_G9_EN_TRANSACTION_GATE_PASS`
+- `BULK_G9_EN_APPLY_PASS`
+- `BULK_G9_EN_VERIFY_PASS`
+- `BULK_G9_EN_RUNNER_PASS`
+
+Rollback gate before commit proved:
+
+- manifest pages `69`
+- source/media/lesson assets `69/69/69`
+- involved Lessons `59`
+- Sections resolved `8`
+- create Sections `6`
+- assign Lessons `54`
+- reuse Lessons `5`
+- question revisions preserved `104`
+- publication/media/RAW/question/unrelated mutations `0`
+- rollback verified `true`
+- committed business writes during gate `0`
+
+Committed apply then verified:
+
+- pages verified `69/69`
+- RAW images verified by SHA-256 `69/69`
+- ready Media Assets `69/69`
+- Lesson Assets `69/69`
+- Sections `8/8`
+- involved Lesson identities `59`
+- new Sections created `6`
+- existing Sections reused `2`
+- Lessons newly assigned to recovered Section `54`
+- existing correct Lesson assignments reused `5`
+- Question Revisions preserved `104/104`
+- page 70 preserved evidence-only `1`
+
+Publication/isolation state:
+
+- published Lessons `0`
+- published Lesson Assets `0`
+- published Questions `0`
+- RAW mutations `0`
+- media-binary mutations `0`
+- question mutations `0`
+- unrelated mutations `0`
+
+### Lesson-count interpretation
+
+`59` is **not** derived from `69 -> 62` or another arithmetic heuristic. It is the live set of Lesson identities owning the 69 verified Lesson Assets after earlier reviewed curation/reassignment. Every RAW-backed page/image identity is represented exactly once.
+
+The legacy extraction itself stores source rows as `content_type = lesson` page records. Modern curation may group multiple source pages into one Lesson (for example the already-reviewed Unit 2 slice) without losing page/image provenance.
+
+Therefore:
+
+- full book data import = **complete**;
+- full page/image coverage = **complete**;
+- unit assignment = **complete**;
+- provenance/checksum verification = **complete**;
+- publication = **closed intentionally**;
+- further pedagogical Lesson merge/rename refinement = optional follow-up, not missing-content import work.
+
+Detailed evidence: `content-staging/BULK_GRADE9_ENGLISH_IMPORT_REPORT.md`.
+
+## Prior closed checkpoints retained
 
 - `BATCH-001` — DONE / COMMITTED_STATE_VERIFIED
 - `STRUCTURE-001` — DONE / SECTION_BOUNDARY_VERIFIED
@@ -35,110 +137,15 @@
 - `VERIFY-001` — DONE / DELIVERY_ISOLATION_AND_PROVENANCE_VERIFIED
 - `ROADMAP-RETURN` — DONE / STUDENT-016I_HANDOFF_VERIFIED
 
-Do not repeat them unless fresh evidence-invalidating drift is demonstrated.
-
-## IMPORT-001 — DONE / COMMITTED_STATE_VERIFIED
-
-Scope closed only for CURATION-001:
-- target Section `Unit 2 - Describing: Making plans`
-- target Lesson `Describing people and animals`
-- book pages `5..8` / source pages `9..12`
-- 4 existing reviewed Lesson Assets / 4 existing ready Media Assets
-- 12 legacy Question Revisions preserved on their legacy Lessons
-- publication remains closed.
-
-Pre-apply evidence retained:
-- identity inspector deployment `4cf8665b-4dd1-4e90-9ec8-92d897c34f59`; marker `IMPORT001_INSPECT_PASS`.
-- rollback gate commit `177b91572ac6fe3b37acd9bcc094876a1cbb3beb`.
-- rollback deployment `8e4cdcbb-2783-4dca-b025-e1191fa9e330`; marker `IMPORT001_TRANSACTION_GATE_PASS`.
-- intended mutation boundary was exactly `1 Section + 1 Lesson + 4 Lesson Asset reassignments`; Media/Question/publication/unrelated mutation counts = `0`.
-
-Current-run apply handling retained:
-- fail-closed apply script commit `2af3b935512c853eb4c2b1f3767766f8513a1c0a`.
-- deployment `026bfc1b-8ba0-4ae8-a74b-7170086f45e1` built with the prior rollback command and therefore did not perform the controlled apply.
-- later apply deployment `efb92e21-e8df-4674-92d9-041321da9f92` failed closed before mutation with `IMPORT001_APPLY_FAIL: target section already exists count=1`.
-- therefore the closing IMPORT-001 run does **not** claim that its apply executor committed the target rows. The database had advanced concurrently to the target shape; duplicate write was intentionally not attempted.
-
-Independent committed-state verification retained:
-- verifier file `content-staging/runtime/import-001-post-apply-verify.mjs`.
-- initial verifier commit `3727dde8f6f037d34691a75feae3d46d164f1041`; deployment `4144bf3c-1eeb-4c9f-8a77-65e60b1ed1c8`; marker `IMPORT001_POST_APPLY_VERIFY_PASS`.
-- tightened exact-identity verifier commit `2f3d0fa9923f9dceb692477c2fd1a0fd89d2b0c8`; deployment `3e1ce24a-39ca-498c-b219-8ceb895eda84`; marker `IMPORT001_POST_APPLY_VERIFY_PASS`.
-
-Verified committed state retained:
-- target Section count: `1`; ID `434f9978-efae-471e-b37d-6b151edecc5b`.
-- target Lesson count: `1`; ID `1a6e3a6e-06e8-496e-8d18-c8d4545d1da9`.
-- target Lesson Assets: `4`, exact previously reviewed asset IDs, ordered `0..3`.
-- ready Media Assets: `4`, exact previously reviewed media IDs.
-- source paths + source/media checksums + presence: exact match for all 4 pages.
-- target Lesson published: `false`.
-- target Lesson Assets draft/unpublished: `4/4`.
-- unauthorized Question links to target Lesson: `0`.
-- preserved legacy Lessons: `4`, still active/unpublished/sectionless and now holding `0` reviewed page assets.
-- preserved legacy Question Revisions: exactly `12`, still unpublished and still linked to the legacy Lessons.
-
-## VERIFY-001 — DONE / DELIVERY_ISOLATION_AND_PROVENANCE_VERIFIED
-
-Scope remained the smallest imported slice only: Grade 9 English / Unit 2 / `Describing people and animals` / book pages `5..8`.
-
-Independent verifier:
-- file `content-staging/runtime/verify-001-unit2-describing.mjs`.
-- source commit `12fb1a5268e97f0a0d70eee4d33322c139e3deb5`.
-- Railway deployment `e5e8fef8-f8e7-467e-b3d8-60529c1a652a` — `SUCCESS`.
-- runtime marker: `VERIFY001_PASS`.
-
-Verified results:
-- exact Section identity: `434f9978-efae-471e-b37d-6b151edecc5b`; count `1`.
-- exact Lesson identity: `1a6e3a6e-06e8-496e-8d18-c8d4545d1da9`; count `1`; content revision `1`.
-- exact Lesson Assets: `4/4`.
-- ready Media Assets: `4/4`.
-- exact source path + source/media checksum provenance: `4/4`.
-- draft/unpublished Lesson Assets: `4/4`.
-- Student Reader base-contract eligible Lesson rows: `0`.
-- Student Reader publication-guard eligible Asset rows: `0`.
-- unauthorized Question links to curated Lesson: `0`.
-- preserved legacy Question Revisions: `12`, all still unpublished.
-- duplicate target Section identities: `0` beyond the one expected row.
-- duplicate target Lesson identities: `0` beyond the one expected row.
-- publication mutation: `0`.
-- RAW mutation: `0`.
-- media-binary mutation: `0`.
-- Question mutation: `0`.
-- failures: `0`.
-
-Interpretation:
-- the imported CURATION-001 slice is internally consistent against modern PostgreSQL identity/provenance contracts;
-- it remains intentionally invisible to Student Reader delivery because both Lesson and Lesson Assets are unpublished;
-- this gate did not publish, repair, delete, rewrite, or mutate business data.
-
-## ROADMAP-RETURN — DONE / STUDENT-016I_HANDOFF_VERIFIED
-
-The Content Rebuild return gate was reconciled against live GitHub state rather than stale prose.
-
-Verified:
-- PR #55 is merged, so the Library workstream no longer blocks roadmap return;
-- current Student architecture still lists `STUDENT-016I` as the first unfinished backend/offline item;
-- no newer Student checkpoint superseded it;
-- concurrent Student work has already opened PR #57 for exactly `STUDENT-016I`;
-- Content Rebuild publication remains closed and no content mutation/publication occurred during roadmap return.
-
-Handoff rule:
-- Content Rebuild queue is now complete through `ROADMAP-RETURN` for this execution sequence.
-- Student work continues from live PR #57 and its exact-head CI evidence; do not start a second `STUDENT-016I` implementation from this branch.
-- Do not auto-publish the verified content slice.
+Do not repeat them unless fresh evidence invalidates their results.
 
 ## Exact next action
 
-No further Content Rebuild queue item is authorized by this sequence. Continue the Student roadmap from live PR #57 (`STUDENT-016I`) in the Student workstream. If Content Rebuild is explicitly resumed later, start from both live heads and these closed checkpoints; publication remains a separate explicit review gate.
+Do **not** rerun bulk import. Grade 9 English technical import is complete and verified.
 
-## Ordered queue
+Next Content action, only if explicitly requested, is one of:
 
-- `BATCH-001` — DONE
-- `STRUCTURE-001` — DONE
-- `STRUCTURE-002` — DONE
-- `CURATION-001` — DONE
-- `CURATION-002` — DONE
-- `CONTENT-GAPS-001` — DONE
-- `MEDIA-001` — DONE / MEDIA_PROFILE_VERIFIED_PARTIAL_ACCEPTANCE
-- `IMPORT-001` — DONE / COMMITTED_STATE_VERIFIED
-- `VERIFY-001` — DONE / DELIVERY_ISOLATION_AND_PROVENANCE_VERIFIED
-- `ROADMAP-RETURN -> STUDENT-016I` — DONE / STUDENT-016I_HANDOFF_VERIFIED
+- pedagogical curation refinement of Lesson grouping/naming on the already-imported 69 pages; or
+- explicit publication review/gate.
+
+Neither action may delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 62` heuristic, or auto-publish legacy/AI content.
