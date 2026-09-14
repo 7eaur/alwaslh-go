@@ -1,0 +1,957 @@
+{
+  "schema_version": 1,
+  "source_group_id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+  "source_group_name": "العلوم نماذج وزارية 1446",
+  "class_id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+  "class_name": "تاسع العلوم",
+  "subject": "العلوم",
+  "classification": "exam_source_group",
+  "academic_year_hijri": "1446",
+  "academic_year_gregorian": "2024-2025",
+  "source_pages": 39,
+  "source_questions": 30,
+  "source_blocks_reviewed": 13,
+  "verified_source_occurrence_count": 13,
+  "review_required_block_count": 0,
+  "individual_exam_model_count": 13,
+  "finalized_exam_page_count": 39,
+  "review_required_page_count": 0,
+  "correction_sheet_candidate_count": 13,
+  "verified_answer_key_count": 0,
+  "duplicate_sha256_groups_within_source": 0,
+  "models": [
+    {
+      "id": "science-1446-exam-01",
+      "internal_ordinal": 1,
+      "source_model_label": "النموذج 1",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 1,
+      "last_page": 3,
+      "page_count": 3,
+      "question_pages": [
+        1,
+        2
+      ],
+      "correction_sheet_candidate_page": 3,
+      "ordered_page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "ordered_legacy_page_ids": [
+        "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "266ee949-04e5-47df-bb43-bd0646eb103b",
+        "2a2be091-313c-42b9-a1dc-6eaebee27be3"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00001-a68e8ff6-5fe2-403f-99e6-4bf8ba546427-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00002-266ee949-04e5-47df-bb43-bd0646eb103b-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00003-2a2be091-313c-42b9-a1dc-6eaebee27be3-image-00.jpg"
+      ],
+      "sha256": [
+        "e30b2664a5b9d1b389d0e9ddba666ca9085b666d1bc424dedb54bb08d40b9a72",
+        "0313851cf740bc6b287041d6ad3b92af28e5e1f5bb4d931ee6109347ae545451",
+        "218359b108ae50ec937a308fc8de372aaa805f8938b4e3ea6f037c0032883854"
+      ],
+      "associated_legacy_questions": 30,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 1 and 2 as model 1 papers 1 and 2 and page 3 as the correction model for model 1.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-02",
+      "internal_ordinal": 2,
+      "source_model_label": "النموذج 2",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 4,
+      "last_page": 6,
+      "page_count": 3,
+      "question_pages": [
+        4,
+        5
+      ],
+      "correction_sheet_candidate_page": 6,
+      "ordered_page_numbers": [
+        4,
+        5,
+        6
+      ],
+      "ordered_legacy_page_ids": [
+        "baf8e352-6518-41d2-88c1-05e59c0babe9",
+        "49a598be-777a-4ba7-b6a7-f07b60d68dc8",
+        "14bab0ea-5f5d-46ee-ab86-39e681341d2a"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00004-baf8e352-6518-41d2-88c1-05e59c0babe9-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00005-49a598be-777a-4ba7-b6a7-f07b60d68dc8-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00006-14bab0ea-5f5d-46ee-ab86-39e681341d2a-image-00.jpg"
+      ],
+      "sha256": [
+        "2f0e3122a7eb2b62d5bffca1eafb86f0e3d6518ed1a9a67e62d49f22c45c7d64",
+        "625836ff6f6c5b3b55e58d92376d1b151552ede270cd33c6d983cbbed7d94ddb",
+        "3c8254728e6d2a84f391251eb224ae04b2d5c6d858c39a0d7811b922d4df9b5b"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 4 and 5 as model 2 papers 1 and 2 and page 6 as the correction model for model 2.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-03",
+      "internal_ordinal": 3,
+      "source_model_label": "النموذج 3",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 7,
+      "last_page": 9,
+      "page_count": 3,
+      "question_pages": [
+        7,
+        8
+      ],
+      "correction_sheet_candidate_page": 9,
+      "ordered_page_numbers": [
+        7,
+        8,
+        9
+      ],
+      "ordered_legacy_page_ids": [
+        "4f3ac31b-d405-4440-9064-c8ffd7a1f3c0",
+        "a06f864d-5a83-498d-8d36-334f6375353d",
+        "00b9da6c-9357-4c5e-be83-222a55ed5cd8"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00007-4f3ac31b-d405-4440-9064-c8ffd7a1f3c0-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00008-a06f864d-5a83-498d-8d36-334f6375353d-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00009-00b9da6c-9357-4c5e-be83-222a55ed5cd8-image-00.jpg"
+      ],
+      "sha256": [
+        "2ca5cbf8e20016822ae5c51d856841e21d9a02e9b0539ac64c3766185206c3e5",
+        "004ccd3dea9962c70341278dc19b83d5983648e3938e4a4d758718d867e2774f",
+        "76a96f66549c497893f295428b12a1a694c6be4e3eaffb64d189d78ee3ff3877"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 7 and 8 as model 3 papers 1 and 2 and page 9 as the correction model for model 3.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-04",
+      "internal_ordinal": 4,
+      "source_model_label": "النموذج 4",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 10,
+      "last_page": 12,
+      "page_count": 3,
+      "question_pages": [
+        10,
+        11
+      ],
+      "correction_sheet_candidate_page": 12,
+      "ordered_page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "ordered_legacy_page_ids": [
+        "c42ef756-56a6-48d1-aa75-5ee10327a594",
+        "7159ca38-8f15-4ba9-aff0-cfbd3bc0f1d9",
+        "a7643149-d1ab-436f-aefb-c789162eae80"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00010-c42ef756-56a6-48d1-aa75-5ee10327a594-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00011-7159ca38-8f15-4ba9-aff0-cfbd3bc0f1d9-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00012-a7643149-d1ab-436f-aefb-c789162eae80-image-00.jpg"
+      ],
+      "sha256": [
+        "f573ba2a20439b3575af47dbc7eb30f376e72f81ee30c00db2d7fa979b93a33f",
+        "7ec2a339ade0ebcbacbe1f01c90ae317be9a4229c4966a0bc415b297797644ed",
+        "4a3579e31c9691c17c2a600678d1b10b96720ee4d9f754c0ffcc4abec11610c0"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 10 and 11 as model 4 papers 1 and 2 and page 12 as the correction model for model 4.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-05",
+      "internal_ordinal": 5,
+      "source_model_label": "النموذج 5",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 13,
+      "last_page": 15,
+      "page_count": 3,
+      "question_pages": [
+        13,
+        14
+      ],
+      "correction_sheet_candidate_page": 15,
+      "ordered_page_numbers": [
+        13,
+        14,
+        15
+      ],
+      "ordered_legacy_page_ids": [
+        "ac4f5d8c-eca5-44fb-abb6-8e32d15109d4",
+        "ea3f838a-5399-4530-95df-066a23c7847d",
+        "4691e124-75e4-495c-8961-74b48d6da90d"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00013-ac4f5d8c-eca5-44fb-abb6-8e32d15109d4-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00014-ea3f838a-5399-4530-95df-066a23c7847d-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00015-4691e124-75e4-495c-8961-74b48d6da90d-image-00.jpg"
+      ],
+      "sha256": [
+        "ac4f09702d4b0fdfd4df8d23cbd683eb2e9ab1fbff7e871add2a6873d95c5645",
+        "c3200323a3694c0cd6a12c6dbfa9e3352e0c015a36668b25d6b816b9f5fd25e7",
+        "d4c7e74a4fa744363066c48cca12cd6e281ce096ac2dd73f9cc3824a4e891436"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 13 and 14 as model 5 papers 1 and 2 and page 15 as the correction model for model 5.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-06",
+      "internal_ordinal": 6,
+      "source_model_label": "النموذج 6",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 16,
+      "last_page": 18,
+      "page_count": 3,
+      "question_pages": [
+        16,
+        17
+      ],
+      "correction_sheet_candidate_page": 18,
+      "ordered_page_numbers": [
+        16,
+        17,
+        18
+      ],
+      "ordered_legacy_page_ids": [
+        "437240f1-ad92-499c-adae-787e89279acc",
+        "df6336c8-efd5-45a4-9f86-7f9133170157",
+        "e95b99a4-138f-49a3-a058-d52e71846e58"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00016-437240f1-ad92-499c-adae-787e89279acc-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00017-df6336c8-efd5-45a4-9f86-7f9133170157-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00018-e95b99a4-138f-49a3-a058-d52e71846e58-image-00.jpg"
+      ],
+      "sha256": [
+        "de4eb5ca6c8b1f5451ecc21784107b05539e477cdb0404f993bb545f1c4236e0",
+        "cb44b5a9597a7db9ea4d4381d4088accbfef18b2a3811e9f1e78116a3762cae5",
+        "3b4a3316e3149e072e869457bc5ec768fe5d3dfc1eaf0b5d724f22f3ea7e44dc"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 16 and 17 as model 6 papers 1 and 2 and page 18 as the correction model for model 6.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-07",
+      "internal_ordinal": 7,
+      "source_model_label": "النموذج 7",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 19,
+      "last_page": 21,
+      "page_count": 3,
+      "question_pages": [
+        19,
+        20
+      ],
+      "correction_sheet_candidate_page": 21,
+      "ordered_page_numbers": [
+        19,
+        20,
+        21
+      ],
+      "ordered_legacy_page_ids": [
+        "681d92bb-4b4e-46b2-8d78-00c43c5e5030",
+        "db6dbeab-d7bb-4599-9d1e-2b2f492d6847",
+        "3fe3b32c-9720-4a34-b329-f02c73cae571"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00019-681d92bb-4b4e-46b2-8d78-00c43c5e5030-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00020-db6dbeab-d7bb-4599-9d1e-2b2f492d6847-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00021-3fe3b32c-9720-4a34-b329-f02c73cae571-image-00.jpg"
+      ],
+      "sha256": [
+        "f109943f7207f4cb05a1d6ebc1061b61b5d32c667a2a1885805de1a935cada2d",
+        "0a4e132508baf8b8c6d157715e0792736dd0d129f10bb2938404823c3601ccfe",
+        "3694c8a5b1e15f3fa381990f43a4c2f8b54b6882474968e8720c6414ebea5465"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 19 and 20 as model 7 papers 1 and 2 and page 21 as the correction model for model 7.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-08",
+      "internal_ordinal": 8,
+      "source_model_label": "النموذج 8",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 22,
+      "last_page": 24,
+      "page_count": 3,
+      "question_pages": [
+        22,
+        23
+      ],
+      "correction_sheet_candidate_page": 24,
+      "ordered_page_numbers": [
+        22,
+        23,
+        24
+      ],
+      "ordered_legacy_page_ids": [
+        "3bce4c86-372f-434c-821d-b2ce07f35cae",
+        "36059b48-73f9-46f7-b6e2-aab440218b14",
+        "ef349a47-db94-4c20-8f34-b68122452dcc"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00022-3bce4c86-372f-434c-821d-b2ce07f35cae-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00023-36059b48-73f9-46f7-b6e2-aab440218b14-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00024-ef349a47-db94-4c20-8f34-b68122452dcc-image-00.jpg"
+      ],
+      "sha256": [
+        "2d47e01ff1e9d89e1818bcafaa90b2f4e7656830811259ad48904ae3e8940b0b",
+        "df88b8f4e391ef174a64b3531c1ed2c275814d21155e380184fa6975365ef3c0",
+        "e31dd1a176fbbd891e8136d123ddda502bd78f9f2624b2e3b431e040495de5c7"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 22 and 23 as model 8 papers 1 and 2 and page 24 as the correction model for model 8.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-09",
+      "internal_ordinal": 9,
+      "source_model_label": "النموذج 9",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 25,
+      "last_page": 27,
+      "page_count": 3,
+      "question_pages": [
+        25,
+        26
+      ],
+      "correction_sheet_candidate_page": 27,
+      "ordered_page_numbers": [
+        25,
+        26,
+        27
+      ],
+      "ordered_legacy_page_ids": [
+        "79836117-c89c-4c11-8b25-f96c10359b23",
+        "02f2e8d1-bd3c-4f24-bcec-545ac5d365d4",
+        "87741cd5-3c1c-43d5-b586-c0b6c532a7b6"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00025-79836117-c89c-4c11-8b25-f96c10359b23-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00026-02f2e8d1-bd3c-4f24-bcec-545ac5d365d4-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00027-87741cd5-3c1c-43d5-b586-c0b6c532a7b6-image-00.jpg"
+      ],
+      "sha256": [
+        "0d8952032e9d6c31123bb6a53bb7fb582886bedc09c8cfdeea5783e7bbbb655d",
+        "d4ae52695ce2dd14b24c4463232660d4aa109938cf4d15a26b4571c2450019ce",
+        "a298028c873c7d7249ba8742ef9a6d60201a6a40ac8efd7453c300f33011f372"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 25 and 26 as model 9 papers 1 and 2 and page 27 as the correction model for model 9.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-10",
+      "internal_ordinal": 10,
+      "source_model_label": "النموذج 10",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 28,
+      "last_page": 30,
+      "page_count": 3,
+      "question_pages": [
+        28,
+        29
+      ],
+      "correction_sheet_candidate_page": 30,
+      "ordered_page_numbers": [
+        28,
+        29,
+        30
+      ],
+      "ordered_legacy_page_ids": [
+        "abfcf1e1-cbcf-47e9-a347-cc3a75bc0e8d",
+        "edd41bc2-7c9f-490c-b4fb-f92022c2e0b2",
+        "06ef1a24-1d50-4a59-b0ae-ef8860240092"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00028-abfcf1e1-cbcf-47e9-a347-cc3a75bc0e8d-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00029-edd41bc2-7c9f-490c-b4fb-f92022c2e0b2-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00030-06ef1a24-1d50-4a59-b0ae-ef8860240092-image-00.jpg"
+      ],
+      "sha256": [
+        "ef38eb05607a56e794251997982949dc0751521944837aba29985c2fa41a982e",
+        "6c8db283796f45a619312a8c420b303df47820827bb0561eec348d98f1719141",
+        "ac292a50066da6bcba6abd10f048767093272000c67492f22d75f3300023544f"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 28 and 29 as model 10 papers 1 and 2 and page 30 as the correction model for model 10.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-11",
+      "internal_ordinal": 11,
+      "source_model_label": "النموذج 11",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 31,
+      "last_page": 33,
+      "page_count": 3,
+      "question_pages": [
+        31,
+        32
+      ],
+      "correction_sheet_candidate_page": 33,
+      "ordered_page_numbers": [
+        31,
+        32,
+        33
+      ],
+      "ordered_legacy_page_ids": [
+        "d07529ce-f1bd-43c6-8ac0-cca50fe21f3a",
+        "ebdd97cd-30ba-44e5-b1b8-b7dd77967834",
+        "e6fa1242-b3f4-417c-9585-9e6f00b3d3fb"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00031-d07529ce-f1bd-43c6-8ac0-cca50fe21f3a-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00032-ebdd97cd-30ba-44e5-b1b8-b7dd77967834-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00033-e6fa1242-b3f4-417c-9585-9e6f00b3d3fb-image-00.jpg"
+      ],
+      "sha256": [
+        "62a77972b7c113647d6c729f04984702847a2fa5f3043e6f9b39eaf729e6e2a7",
+        "4bb7687b74bd95f1f49296b9a450542ef3944a4aff58f99bf2e8a0aed2c1ac34",
+        "b6399b9dc8f9a25da68c4eeecd282e3f009b7f20aca137098efa81128b68cfcb"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 31 and 32 as model 11 papers 1 and 2 and page 33 as the correction model for model 11.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-12",
+      "internal_ordinal": 12,
+      "source_model_label": "النموذج 12",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 34,
+      "last_page": 36,
+      "page_count": 3,
+      "question_pages": [
+        34,
+        35
+      ],
+      "correction_sheet_candidate_page": 36,
+      "ordered_page_numbers": [
+        34,
+        35,
+        36
+      ],
+      "ordered_legacy_page_ids": [
+        "861cef62-428a-4177-bb6c-9935e1b8f63c",
+        "30b22783-3aac-4f75-bc96-8ae473975caf",
+        "b6c2de81-3510-4fa3-909b-fc82e5fcf792"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00034-861cef62-428a-4177-bb6c-9935e1b8f63c-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00035-30b22783-3aac-4f75-bc96-8ae473975caf-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00036-b6c2de81-3510-4fa3-909b-fc82e5fcf792-image-00.jpg"
+      ],
+      "sha256": [
+        "72cab966d8dd1aade58fbd1a434db1225060b5f3072ada5453df655ff1950206",
+        "2546386b9f2e4e0a9852318d6b13f245d16d1d4c7c75df712837e1f3bd864f70",
+        "645bd01d49f031d87696cb456740885325902d4b6084d7b1ad5b3a93ea608457"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 34 and 35 as model 12 papers 1 and 2 and page 36 as the correction model for model 12.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1446-exam-13",
+      "internal_ordinal": 13,
+      "source_model_label": "النموذج 13",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 37,
+      "last_page": 39,
+      "page_count": 3,
+      "question_pages": [
+        37,
+        38
+      ],
+      "correction_sheet_candidate_page": 39,
+      "ordered_page_numbers": [
+        37,
+        38,
+        39
+      ],
+      "ordered_legacy_page_ids": [
+        "95b6a373-e854-4815-b59b-d7acbba620a5",
+        "950aed74-b643-49d8-b9b5-12a9ec71b988",
+        "3a04caac-2491-4ed0-b691-3bb1a6a1b9da"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00037-95b6a373-e854-4815-b59b-d7acbba620a5-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00038-950aed74-b643-49d8-b9b5-12a9ec71b988-image-00.jpg",
+        "raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/images/page-00039-3a04caac-2491-4ed0-b691-3bb1a6a1b9da-image-00.jpg"
+      ],
+      "sha256": [
+        "7c2f590728f2455656d4f395e6bc7678fa5e02df39a5a2c944ee3f6c8d19e70c",
+        "e1ee0fa16d2f95d813e183b09f12ff93e2d02d904ef07efc985130242637c8f5",
+        "556cb873f70d53338fe478829680710e890f6aa821e4c821bf9f1212ccbcdb7d"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet paired with the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 39 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 37 and 38 as model 13 papers 1 and 2 and page 39 as the correction model for model 13.",
+        "Visual review independently confirms two question-form pages followed by an electronic correction/result sheet for every one of the 13 source-local blocks.",
+        "The source-local three-page pattern is verified independently for Science 1446 and is not inherited from Science 1445 or Chemistry."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    }
+  ],
+  "question_mapping": {
+    "exam_linked_structural": 30,
+    "review_required": 0,
+    "unassigned_within_source": 0,
+    "semantic_correctness": "NOT VERIFIED",
+    "records": [
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 1,
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 2,
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 3,
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 4,
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 5,
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 6,
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 7,
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 8,
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 9,
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 10,
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 11,
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 12,
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 13,
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 14,
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 15,
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 16,
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 17,
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 18,
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 19,
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 20,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 21,
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 22,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 23,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 24,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 25,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 26,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 27,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 28,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 29,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      },
+      {
+        "page_number": 1,
+        "legacy_page_id": "a68e8ff6-5fe2-403f-99e6-4bf8ba546427",
+        "question_ordinal_on_page": 30,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1446-exam-01"
+      }
+    ]
+  },
+  "evidence": {
+    "technical_report": "content-staging/reconstruction/technical/004c02be-3f55-49e1-bbdc-b0824491bd68.json",
+    "discovery_report": "content-staging/reconstruction/exams/source-groups/004c02be-3f55-49e1-bbdc-b0824491bd68-discovery.json",
+    "visual_review": "all 39 pages reviewed in contact sheets 001-012, 013-024, 025-036, 037-039",
+    "discovery_workflow_run": 34811638024,
+    "storage_identity_used_as_final_boundary": false,
+    "raw_mutations": 0
+  },
+  "status": "boundary_verified_questions_structurally_mapped_answer_keys_not_verified"
+}
