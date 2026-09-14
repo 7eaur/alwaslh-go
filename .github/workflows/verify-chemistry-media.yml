@@ -8,6 +8,7 @@ on:
       - '.github/workflows/verify-chemistry-media.yml'
       - 'content-staging/tools/verify_subject_media.py'
       - 'content-staging/tools/reconstruct_chemistry_source.py'
+      - 'content-staging/tools/record_chemistry_reconstruction_checkpoint.py'
 
 permissions:
   contents: write
@@ -53,17 +54,28 @@ jobs:
           test "$(git -C master-reference rev-parse HEAD)" = "f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23"
           python content-staging/tools/reconstruct_chemistry_source.py
 
-      - name: Commit derived verification and reconstruction reports
+      - name: Record reconstruction checkpoint in source-of-truth reports
+        run: |
+          set -euo pipefail
+          python content-staging/tools/record_chemistry_reconstruction_checkpoint.py
+
+      - name: Commit derived reconstruction and checkpoint reports
         run: |
           set -euo pipefail
           git config user.name 'alwaslh-content-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add \
             content-staging/reconstruction/technical/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4.json \
-            content-staging/reconstruction/educational/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4.json
+            content-staging/reconstruction/educational/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+            content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md \
+            content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md
           if git diff --cached --quiet; then
             echo 'Derived reports unchanged.'
             exit 0
           fi
-          git commit -m 'content: reconstruct chemistry book boundaries [skip ci]'
+          git commit -m 'docs(content): record chemistry reconstruction checkpoint [skip ci]'
           git push origin HEAD:content/corpus-inventory-20260914
