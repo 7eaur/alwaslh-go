@@ -1,0 +1,48 @@
+name: Record Worker A Faith Handoff
+on:
+  push:
+    branches: [content/corpus-inventory-20260914]
+    paths:
+      - '.github/workflows/record-worker-a-faith-handoff.yml'
+permissions:
+  contents: write
+concurrency:
+  group: content-reconstruction-handoff
+  cancel-in-progress: false
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: content/corpus-inventory-20260914, fetch-depth: 0}
+      - name: Re-fetch live HEAD before shared-log mutation
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "$(git rev-parse HEAD)" || exit 23
+      - name: Record Worker A run and active checkpoint
+        run: python content-staging/tools/record_worker_a_faith_handoff.py
+      - name: Verify baton points away from completed Faith source
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          t=Path('content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md').read_text()
+          assert 'last completed source: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`' in t
+          assert 'Sources processed: 16/58' in t
+          assert 'Lesson-linked: 3,350' in t
+          print('WORKER_A_FAITH_HANDOFF_VERIFY_PASS')
+          PY
+      - name: Re-fetch immediately before shared-log write
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "$(git rev-parse HEAD)" || exit 24
+      - name: Commit shared baton
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          git commit -m 'content: hand off Faith completion to Worker B [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
