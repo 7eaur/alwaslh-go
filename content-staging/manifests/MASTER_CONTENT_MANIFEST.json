@@ -1,0 +1,2365 @@
+{
+  "version": 1,
+  "status": "METADATA_INVENTORY_VERIFIED_NOT_IMPORT_READY",
+  "repository": "7eaur/alwaslh-go",
+  "source_commit": "041cb0738f3a76600eebde29dfb0181ef7e76255",
+  "reference_commit": "f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23",
+  "counts": {
+    "legacy_class_groups": 15,
+    "legacy_sources": 58,
+    "non_exam_source_candidates": 26,
+    "exam_collection_candidates": 32,
+    "raw_image_references": 5273,
+    "legacy_questions_recorded": 25755,
+    "exam_collection_pages": 2286,
+    "exam_collection_legacy_questions": 2715,
+    "grades": null,
+    "subjects": null,
+    "books": null,
+    "units": null,
+    "lessons": null,
+    "exam_models": null,
+    "answer_keys": null,
+    "imported_current_run": 0,
+    "published_current_run": 0
+  },
+  "sources": [
+    {
+      "id": "f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:21:05.543534+00:00",
+        "id": "075b135c-8159-4727-a365-f7396690fb3f",
+        "name": "الكيمياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "075b135c-8159-4727-a365-f7396690fb3f",
+        "created_at": "2026-08-13T04:23:47.887366+00:00",
+        "id": "f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4",
+        "name": "الكيمياء الكتاب المدرسي"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4/manifest.json",
+      "manifest_sha256_recorded": "635b80e9a734edefc523fcdccbc72ca4402e1efe40f5f9b700d95ff8e9dfa364",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 178,
+        "images_downloaded": 178,
+        "pages": 178,
+        "questions": 2576
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:21:05.543534+00:00",
+        "id": "075b135c-8159-4727-a365-f7396690fb3f",
+        "name": "الكيمياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "075b135c-8159-4727-a365-f7396690fb3f",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+        "name": "الكيمياء نماذج وزاريه 1445"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/manifest.json",
+      "manifest_sha256_recorded": "973f9afef4b3f1bc627eb9670528c25964ef7ba3a715656858cdde90b58d6039",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 60,
+        "images_downloaded": 60,
+        "pages": 60,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "c09ce569-ea42-4f0b-997f-95b029a7e6ea",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:21:05.543534+00:00",
+        "id": "075b135c-8159-4727-a365-f7396690fb3f",
+        "name": "الكيمياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "075b135c-8159-4727-a365-f7396690fb3f",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "c09ce569-ea42-4f0b-997f-95b029a7e6ea",
+        "name": "الكيمياء نماذج وزاريه 1446"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/manifest.json",
+      "manifest_sha256_recorded": "702446bec9106aa8e24dee74824ba6efb6691300b93c91a6fe75f93155b4cf88",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 60,
+        "images_downloaded": 60,
+        "pages": 60,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "e7c8291c-e904-4e8c-9cd8-2753818cedf3",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:21:05.543534+00:00",
+        "id": "075b135c-8159-4727-a365-f7396690fb3f",
+        "name": "الكيمياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "075b135c-8159-4727-a365-f7396690fb3f",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "e7c8291c-e904-4e8c-9cd8-2753818cedf3",
+        "name": "الكيمياء نماذج وزاريه 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/e7c8291c-e904-4e8c-9cd8-2753818cedf3/manifest.json",
+      "manifest_sha256_recorded": "41bf40fc8c328018b805a6f59e713672b423ef7f245318e680b1094329dd61a3",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 124,
+        "images_downloaded": 124,
+        "pages": 124,
+        "questions": 226
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "ef408805-c337-44dd-b903-7838030e6de0",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:31:51.859101+00:00",
+        "id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+        "name": "تاسع العلوم"
+      },
+      "legacy_source": {
+        "class_id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+        "created_at": "2026-08-16T19:53:51.061329+00:00",
+        "id": "ef408805-c337-44dd-b903-7838030e6de0",
+        "name": "العلوم نماذج وزارية 1445"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/manifest.json",
+      "manifest_sha256_recorded": "d1df5555d0388d1fc6fe6ea1590a13c9923b3bbba435513f0eb3b7a73a5a4b5f",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 30,
+        "images_downloaded": 30,
+        "pages": 30,
+        "questions": 215
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:31:51.859101+00:00",
+        "id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+        "name": "تاسع العلوم"
+      },
+      "legacy_source": {
+        "class_id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+        "created_at": "2026-08-16T22:55:32.588206+00:00",
+        "id": "004c02be-3f55-49e1-bbdc-b0824491bd68",
+        "name": "العلوم نماذج وزارية 1446"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/004c02be-3f55-49e1-bbdc-b0824491bd68/manifest.json",
+      "manifest_sha256_recorded": "4169fb4d46b2ecf90adc78ddf62d37573ce930d84df411f4c9a6eebeac02869d",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 39,
+        "images_downloaded": 39,
+        "pages": 39,
+        "questions": 30
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "14ef15e0-5524-473a-bbdb-996df35ba535",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:31:51.859101+00:00",
+        "id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+        "name": "تاسع العلوم"
+      },
+      "legacy_source": {
+        "class_id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+        "created_at": "2026-08-17T11:43:03.181279+00:00",
+        "id": "14ef15e0-5524-473a-bbdb-996df35ba535",
+        "name": "العلوم نماذج وزارية 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/14ef15e0-5524-473a-bbdb-996df35ba535/manifest.json",
+      "manifest_sha256_recorded": "50af2715630b39281e7de3094455824198c567cbdcbde441315cb04b60f7dc48",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 42,
+        "images_downloaded": 42,
+        "pages": 42,
+        "questions": 262
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [
+          36
+        ],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:31:51.859101+00:00",
+        "id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+        "name": "تاسع العلوم"
+      },
+      "legacy_source": {
+        "class_id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+        "created_at": "2026-08-13T04:38:54.948244+00:00",
+        "id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
+        "name": "كتاب العلوم - الجزء الأول"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/f4b6708c-027f-4883-9e85-e6e7acb52ecc/manifest.json",
+      "manifest_sha256_recorded": "1abce4e655afd4b97ded2212d9e1375cd4004cda433f86fd89e83078e3a4b192",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 161,
+        "images_downloaded": 161,
+        "pages": 161,
+        "questions": 11
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:31:51.859101+00:00",
+        "id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+        "name": "تاسع العلوم"
+      },
+      "legacy_source": {
+        "class_id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+        "created_at": "2026-08-13T04:40:11.299919+00:00",
+        "id": "81e99fe6-1421-462b-9562-1c0c5053a809",
+        "name": "كتاب العلوم - الجزء الثاني"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/81e99fe6-1421-462b-9562-1c0c5053a809/manifest.json",
+      "manifest_sha256_recorded": "59fa582ef53a4895c73083d07640d8b512f75aa7b05e6c9ded4678d456f0078a",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 145,
+        "images_downloaded": 145,
+        "pages": 145,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "8489a487-91d9-47fb-80b8-35d0e7a074a4",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:37:35.863395+00:00",
+        "id": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+        "name": "تاسع انجليزي"
+      },
+      "legacy_source": {
+        "class_id": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+        "created_at": "2026-08-20T16:19:42.068603+00:00",
+        "id": "8489a487-91d9-47fb-80b8-35d0e7a074a4",
+        "name": "الانجليزي نماذج وزارية 1445"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/manifest.json",
+      "manifest_sha256_recorded": "7a5941b1bb2b85ed8515d14ba1dbbb898d249637c14dbaf03eecd1a33da34b71",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 30,
+        "images_downloaded": 30,
+        "pages": 30,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "062f0aa0-ae21-454e-ad9a-c390df6e4a08",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:37:35.863395+00:00",
+        "id": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+        "name": "تاسع انجليزي"
+      },
+      "legacy_source": {
+        "class_id": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+        "created_at": "2026-08-20T16:19:53.114956+00:00",
+        "id": "062f0aa0-ae21-454e-ad9a-c390df6e4a08",
+        "name": "الانجليزي نماذج وزارية 1446"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/062f0aa0-ae21-454e-ad9a-c390df6e4a08/manifest.json",
+      "manifest_sha256_recorded": "12317db39fedd08ee831283a59d9358dda7991eb797101c315ed75c7918ee8df",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 39,
+        "images_downloaded": 39,
+        "pages": 39,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "da6fc228-1ada-4627-8306-80d9d3401490",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:37:35.863395+00:00",
+        "id": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+        "name": "تاسع انجليزي"
+      },
+      "legacy_source": {
+        "class_id": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+        "created_at": "2026-08-20T16:20:01.00398+00:00",
+        "id": "da6fc228-1ada-4627-8306-80d9d3401490",
+        "name": "الانجليزي نماذج وزارية 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/da6fc228-1ada-4627-8306-80d9d3401490/manifest.json",
+      "manifest_sha256_recorded": "310d874fb337d8be4430e6ddd40537fc3503a8dab20181fd56b772438736b364",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 42,
+        "images_downloaded": 42,
+        "pages": 42,
+        "questions": 234
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [
+          18,
+          27,
+          29
+        ],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:37:35.863395+00:00",
+        "id": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+        "name": "تاسع انجليزي"
+      },
+      "legacy_source": {
+        "class_id": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+        "created_at": "2026-08-13T04:43:59.518359+00:00",
+        "id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
+        "name": "انجليزي الكتاب "
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/1794eea5-4772-4c94-bd2b-b08e5815e733/manifest.json",
+      "manifest_sha256_recorded": "34d031c30a086a01214c91068a25a413c1d1c4268c80e95362e4a85f917e2a41",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 69,
+        "images_downloaded": 69,
+        "pages": 69,
+        "questions": 104
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "0a76f44b-0a4f-4e36-9ea9-badecf78bf23",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:33:48.26677+00:00",
+        "id": "4981d7f5-00f0-487e-9b98-f80502fa92c6",
+        "name": "تاسع اجتماعيات"
+      },
+      "legacy_source": {
+        "class_id": "4981d7f5-00f0-487e-9b98-f80502fa92c6",
+        "created_at": "2026-08-13T04:46:04.38484+00:00",
+        "id": "0a76f44b-0a4f-4e36-9ea9-badecf78bf23",
+        "name": "التاريخ الكتاب المدرسي"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/0a76f44b-0a4f-4e36-9ea9-badecf78bf23/manifest.json",
+      "manifest_sha256_recorded": "7ec3762c397915246b440b1d8b21ebcd60c8feacbc0c611fc2079e581aa9105f",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 61,
+        "images_downloaded": 61,
+        "pages": 61,
+        "questions": 138
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:33:48.26677+00:00",
+        "id": "4981d7f5-00f0-487e-9b98-f80502fa92c6",
+        "name": "تاسع اجتماعيات"
+      },
+      "legacy_source": {
+        "class_id": "4981d7f5-00f0-487e-9b98-f80502fa92c6",
+        "created_at": "2026-08-13T04:45:33.3349+00:00",
+        "id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+        "name": "التربية الوطنية"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/7f02b242-5164-46d1-a82d-7f1023cfa8c9/manifest.json",
+      "manifest_sha256_recorded": "c8c73a4924f9af38c055563715eb202e06a1831c04db55ff9c6915bfee302f81",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 59,
+        "images_downloaded": 59,
+        "pages": 59,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "a7f1e94f-82d1-4146-af5b-4e9b51363f0b",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:33:48.26677+00:00",
+        "id": "4981d7f5-00f0-487e-9b98-f80502fa92c6",
+        "name": "تاسع اجتماعيات"
+      },
+      "legacy_source": {
+        "class_id": "4981d7f5-00f0-487e-9b98-f80502fa92c6",
+        "created_at": "2026-08-13T04:47:46.922731+00:00",
+        "id": "a7f1e94f-82d1-4146-af5b-4e9b51363f0b",
+        "name": "كتاب الجغرافيا"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/a7f1e94f-82d1-4146-af5b-4e9b51363f0b/manifest.json",
+      "manifest_sha256_recorded": "da3aa77f7a5c671ceb5d5e7fb3f24b293ed71e2f90f70faa7a69d9ed9419d6b1",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 104,
+        "images_downloaded": 104,
+        "pages": 104,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "516f1c1d-acc0-4b1c-8e50-8f92a7c737e0",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:26:23.669854+00:00",
+        "id": "60e67967-853b-4ae7-b709-66b9d07163e1",
+        "name": "الاسلامية ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "60e67967-853b-4ae7-b709-66b9d07163e1",
+        "created_at": "2026-08-13T04:30:16.97839+00:00",
+        "id": "516f1c1d-acc0-4b1c-8e50-8f92a7c737e0",
+        "name": "الإيمان الكتاب المدرسي"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/516f1c1d-acc0-4b1c-8e50-8f92a7c737e0/manifest.json",
+      "manifest_sha256_recorded": "b57d321f2159e950f38541d703480e59891ab1ade2079f6892ed836ebef4eadd",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 65,
+        "images_downloaded": 65,
+        "pages": 65,
+        "questions": 976
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "f25891fe-ea52-481b-baf2-ff4764c79bde",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:26:23.669854+00:00",
+        "id": "60e67967-853b-4ae7-b709-66b9d07163e1",
+        "name": "الاسلامية ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "60e67967-853b-4ae7-b709-66b9d07163e1",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "f25891fe-ea52-481b-baf2-ff4764c79bde",
+        "name": "الاسلاميه ثانوي نماذج وزاريه 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/f25891fe-ea52-481b-baf2-ff4764c79bde/manifest.json",
+      "manifest_sha256_recorded": "393af5ac6c1300e5bff8e834dc13edb6a85eb01e975cc206ba679e24de17051d",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 93,
+        "images_downloaded": 93,
+        "pages": 93,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "cae82d8f-64f9-4d2a-984f-6e6fd19fac5c",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:26:23.669854+00:00",
+        "id": "60e67967-853b-4ae7-b709-66b9d07163e1",
+        "name": "الاسلامية ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "60e67967-853b-4ae7-b709-66b9d07163e1",
+        "created_at": "2026-08-13T04:30:53.756378+00:00",
+        "id": "cae82d8f-64f9-4d2a-984f-6e6fd19fac5c",
+        "name": "الحديث والتهذيب الكتاب "
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/cae82d8f-64f9-4d2a-984f-6e6fd19fac5c/manifest.json",
+      "manifest_sha256_recorded": "d31669a74d023cd5b5c137d0917d25c0aa7ed3f7cbabc2b45c5b70acca165ad8",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 62,
+        "images_downloaded": 62,
+        "pages": 62,
+        "questions": 1483
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:26:23.669854+00:00",
+        "id": "60e67967-853b-4ae7-b709-66b9d07163e1",
+        "name": "الاسلامية ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "60e67967-853b-4ae7-b709-66b9d07163e1",
+        "created_at": "2026-08-13T04:31:28.828593+00:00",
+        "id": "a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8",
+        "name": "السيرة النبوية الكتاب "
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8/manifest.json",
+      "manifest_sha256_recorded": "14dfe655aaf92f2fe2d9823d1c0dc79b8bde7c39a4dc51dfad9f6b1c023b38fa",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 81,
+        "images_downloaded": 81,
+        "pages": 81,
+        "questions": 1152
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "6a8ea7f2-1e77-4654-a28c-0ea1b82b4830",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:26:23.669854+00:00",
+        "id": "60e67967-853b-4ae7-b709-66b9d07163e1",
+        "name": "الاسلامية ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "60e67967-853b-4ae7-b709-66b9d07163e1",
+        "created_at": "2026-08-13T04:32:10.969964+00:00",
+        "id": "6a8ea7f2-1e77-4654-a28c-0ea1b82b4830",
+        "name": "الفقه الكتاب المدرسي"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/6a8ea7f2-1e77-4654-a28c-0ea1b82b4830/manifest.json",
+      "manifest_sha256_recorded": "311ec7232c9e71ac913203b71a9788c2c63a31896dd51fd565e92f42651b43ea",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 67,
+        "images_downloaded": 67,
+        "pages": 67,
+        "questions": 906
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:29:53.611662+00:00",
+        "id": "624a0abf-352f-4649-a1bf-e51592cc4f01",
+        "name": "تاسع الرياضيات"
+      },
+      "legacy_source": {
+        "class_id": "624a0abf-352f-4649-a1bf-e51592cc4f01",
+        "created_at": "2026-08-16T16:16:56.857728+00:00",
+        "id": "0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199",
+        "name": "الرياضيات نماذج وزارية 1445"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199/manifest.json",
+      "manifest_sha256_recorded": "4b154a9482804c63c177bf5cf24b3cb7f6ac360bfe9fa912094d202e39940da0",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 42,
+        "images_downloaded": 42,
+        "pages": 42,
+        "questions": 28
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:29:53.611662+00:00",
+        "id": "624a0abf-352f-4649-a1bf-e51592cc4f01",
+        "name": "تاسع الرياضيات"
+      },
+      "legacy_source": {
+        "class_id": "624a0abf-352f-4649-a1bf-e51592cc4f01",
+        "created_at": "2026-08-16T17:15:05.618266+00:00",
+        "id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+        "name": "الرياضيات نماذج وزارية 1446"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/manifest.json",
+      "manifest_sha256_recorded": "5970b7d1c45a33a8ae4a44ad557cb74b51342a8bc15249387d5ff1e0330825df",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 39,
+        "images_downloaded": 39,
+        "pages": 39,
+        "questions": 25
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [
+          16,
+          29
+        ],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "fef5e58f-21df-42e3-81ae-6966cd7bad10",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:29:53.611662+00:00",
+        "id": "624a0abf-352f-4649-a1bf-e51592cc4f01",
+        "name": "تاسع الرياضيات"
+      },
+      "legacy_source": {
+        "class_id": "624a0abf-352f-4649-a1bf-e51592cc4f01",
+        "created_at": "2026-08-16T18:10:08.766774+00:00",
+        "id": "fef5e58f-21df-42e3-81ae-6966cd7bad10",
+        "name": "الرياضيات نماذج وزارية 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/fef5e58f-21df-42e3-81ae-6966cd7bad10/manifest.json",
+      "manifest_sha256_recorded": "22ed8bab28f400c249d5fe61313ea5caa87ca0bc93032e505239feb3c0ee949c",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 42,
+        "images_downloaded": 42,
+        "pages": 42,
+        "questions": 112
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "1933807f-4cb0-40c9-9b29-3ef3d32c98dc",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:29:53.611662+00:00",
+        "id": "624a0abf-352f-4649-a1bf-e51592cc4f01",
+        "name": "تاسع الرياضيات"
+      },
+      "legacy_source": {
+        "class_id": "624a0abf-352f-4649-a1bf-e51592cc4f01",
+        "created_at": "2026-08-13T04:33:38.621074+00:00",
+        "id": "1933807f-4cb0-40c9-9b29-3ef3d32c98dc",
+        "name": "كتاب الرياضيات - الجزء الأول"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/1933807f-4cb0-40c9-9b29-3ef3d32c98dc/manifest.json",
+      "manifest_sha256_recorded": "79619f33a4da8d6b088e4dfc1bb31f8e2180c415854a9a11be23b07bffd9f32b",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 186,
+        "images_downloaded": 186,
+        "pages": 186,
+        "questions": 717
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "b80cbba1-410a-4346-9446-c3f01c4f9e56",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:29:53.611662+00:00",
+        "id": "624a0abf-352f-4649-a1bf-e51592cc4f01",
+        "name": "تاسع الرياضيات"
+      },
+      "legacy_source": {
+        "class_id": "624a0abf-352f-4649-a1bf-e51592cc4f01",
+        "created_at": "2026-08-13T04:35:07.190107+00:00",
+        "id": "b80cbba1-410a-4346-9446-c3f01c4f9e56",
+        "name": "كتاب الرياضيات - الجزء الثاني"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/b80cbba1-410a-4346-9446-c3f01c4f9e56/manifest.json",
+      "manifest_sha256_recorded": "ba7954d54980a8a4d89645d98301db434b78e8a24f0f7a9a6549ad73d97faf44",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 135,
+        "images_downloaded": 135,
+        "pages": 135,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "b6ce737e-26d4-4219-a607-27bfb7d2f518",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:38:47.963294+00:00",
+        "id": "99a42878-2d3f-473c-936c-8d9999afdcf4",
+        "name": "تاسع الاسلامية"
+      },
+      "legacy_source": {
+        "class_id": "99a42878-2d3f-473c-936c-8d9999afdcf4",
+        "created_at": "2026-08-13T04:41:21.907227+00:00",
+        "id": "b6ce737e-26d4-4219-a607-27bfb7d2f518",
+        "name": "كتاب الإسلامية - الجزء الأول"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/b6ce737e-26d4-4219-a607-27bfb7d2f518/manifest.json",
+      "manifest_sha256_recorded": "045e554cca1f61c897540696b12028a156603ba964542ffed0e7456556cddd7f",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 0,
+        "images_downloaded": 0,
+        "pages": 0,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "e36ec148-0913-4bcc-a35c-268d464fecab",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:38:47.963294+00:00",
+        "id": "99a42878-2d3f-473c-936c-8d9999afdcf4",
+        "name": "تاسع الاسلامية"
+      },
+      "legacy_source": {
+        "class_id": "99a42878-2d3f-473c-936c-8d9999afdcf4",
+        "created_at": "2026-08-13T04:42:38.247619+00:00",
+        "id": "e36ec148-0913-4bcc-a35c-268d464fecab",
+        "name": "كتاب الإسلامية - الجزء الثاني"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/e36ec148-0913-4bcc-a35c-268d464fecab/manifest.json",
+      "manifest_sha256_recorded": "613f93439e0b7d3634306a063489027fe94fcb5416695354425d3bf920d9cf1d",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 0,
+        "images_downloaded": 0,
+        "pages": 0,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "67d4ffae-68e1-42e8-9c3b-72329973c93d",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:22:30.698408+00:00",
+        "id": "9d9a85cb-53be-4c24-bcb6-18389766396d",
+        "name": "الأحياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "9d9a85cb-53be-4c24-bcb6-18389766396d",
+        "created_at": "2026-08-13T04:25:17.51641+00:00",
+        "id": "67d4ffae-68e1-42e8-9c3b-72329973c93d",
+        "name": "الأحياء الكتاب المدرسي"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/67d4ffae-68e1-42e8-9c3b-72329973c93d/manifest.json",
+      "manifest_sha256_recorded": "c38cc5d186ea345de1e4ec1076c28cfe3c96d00291f715406f4d213f447a3327",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 214,
+        "images_downloaded": 214,
+        "pages": 214,
+        "questions": 3304
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:22:30.698408+00:00",
+        "id": "9d9a85cb-53be-4c24-bcb6-18389766396d",
+        "name": "الأحياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "9d9a85cb-53be-4c24-bcb6-18389766396d",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+        "name": "الاحياء نماذج وزارية 1445"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/manifest.json",
+      "manifest_sha256_recorded": "59ddc420cae8b94cbb6a4a8fd353eaebda961707134572a4707a3dee2a9a1d3a",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 60,
+        "images_downloaded": 60,
+        "pages": 60,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "62d827b3-8ab6-4c2b-8ff2-de6156947276",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:22:30.698408+00:00",
+        "id": "9d9a85cb-53be-4c24-bcb6-18389766396d",
+        "name": "الأحياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "9d9a85cb-53be-4c24-bcb6-18389766396d",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "62d827b3-8ab6-4c2b-8ff2-de6156947276",
+        "name": "الاحياء نماذج وزارية 1446"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/62d827b3-8ab6-4c2b-8ff2-de6156947276/manifest.json",
+      "manifest_sha256_recorded": "66f5ba3ce357e71b0e9881699608c750919954942f5d2022099c5463249bffb4",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 100,
+        "images_downloaded": 100,
+        "pages": 100,
+        "questions": 200
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "3df6f57e-26cb-414e-97c5-ef6bd2ff4487",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:22:30.698408+00:00",
+        "id": "9d9a85cb-53be-4c24-bcb6-18389766396d",
+        "name": "الأحياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "9d9a85cb-53be-4c24-bcb6-18389766396d",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "3df6f57e-26cb-414e-97c5-ef6bd2ff4487",
+        "name": "الاحياء نماذج وزارية 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/3df6f57e-26cb-414e-97c5-ef6bd2ff4487/manifest.json",
+      "manifest_sha256_recorded": "bb85a3f11de3373b41168bbce0aaf5f5a81bf2984bae0d1057132e29a505afb7",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 124,
+        "images_downloaded": 124,
+        "pages": 124,
+        "questions": 50
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "4863bbf6-6cf3-4238-9407-75825724292a",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:18:43.529499+00:00",
+        "id": "a2f64289-7f16-4970-a50c-beee537707c9",
+        "name": "الفيزياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "a2f64289-7f16-4970-a50c-beee537707c9",
+        "created_at": "2026-08-13T04:20:11.029043+00:00",
+        "id": "4863bbf6-6cf3-4238-9407-75825724292a",
+        "name": "الفيزياء الكتاب المدرسي"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/4863bbf6-6cf3-4238-9407-75825724292a/manifest.json",
+      "manifest_sha256_recorded": "33fcc247217c08976ddbfd5881f560f94b9456267378cc9e6282a1c3d7a8f197",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 207,
+        "images_downloaded": 207,
+        "pages": 207,
+        "questions": 3101
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "41e5a81c-3b93-479c-9b76-33815cae9430",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:18:43.529499+00:00",
+        "id": "a2f64289-7f16-4970-a50c-beee537707c9",
+        "name": "الفيزياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "a2f64289-7f16-4970-a50c-beee537707c9",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "41e5a81c-3b93-479c-9b76-33815cae9430",
+        "name": "الفيزياء نماذج وزاريه 1445"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/41e5a81c-3b93-479c-9b76-33815cae9430/manifest.json",
+      "manifest_sha256_recorded": "90ac3f082f711a1f584b5d57a8ccc80db8a906109075006e585cdac663d2a801",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 60,
+        "images_downloaded": 60,
+        "pages": 60,
+        "questions": 83
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "0b28dc73-7e43-45f1-99c8-14825dcf3ded",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:18:43.529499+00:00",
+        "id": "a2f64289-7f16-4970-a50c-beee537707c9",
+        "name": "الفيزياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "a2f64289-7f16-4970-a50c-beee537707c9",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "0b28dc73-7e43-45f1-99c8-14825dcf3ded",
+        "name": "الفيزياء نماذج وزاريه 1446"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/manifest.json",
+      "manifest_sha256_recorded": "da1ccb9d0a57ce837daa0ecf6cb21c46c373b58348b8a37c7d151cc145cfdb7b",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 104,
+        "images_downloaded": 104,
+        "pages": 104,
+        "questions": 200
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:18:43.529499+00:00",
+        "id": "a2f64289-7f16-4970-a50c-beee537707c9",
+        "name": "الفيزياء ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "a2f64289-7f16-4970-a50c-beee537707c9",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a",
+        "name": "الفيزياء نماذج وزاريه 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a/manifest.json",
+      "manifest_sha256_recorded": "f4fb61082795fe8fd73b2596d0b3f268a5e02d42aa495123a10e3f73234fef6e",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 124,
+        "images_downloaded": 124,
+        "pages": 124,
+        "questions": 255
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:35:24.775386+00:00",
+        "id": "ab2987cc-d05c-4031-8ac9-6da74b9708e6",
+        "name": "تاسع العربي"
+      },
+      "legacy_source": {
+        "class_id": "ab2987cc-d05c-4031-8ac9-6da74b9708e6",
+        "created_at": "2026-08-16T14:38:13.678993+00:00",
+        "id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+        "name": "العربي نماذج وزارية 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/d1a6b8f8-d81b-4824-86e1-d370ec28bdf1/manifest.json",
+      "manifest_sha256_recorded": "f2a496394290fb365054029eacc03109b92829324ba8de154fc7dc74ec021e88",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 42,
+        "images_downloaded": 42,
+        "pages": 42,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "ab701a9e-3efb-409a-8ed1-9752d41c4771",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:35:24.775386+00:00",
+        "id": "ab2987cc-d05c-4031-8ac9-6da74b9708e6",
+        "name": "تاسع العربي"
+      },
+      "legacy_source": {
+        "class_id": "ab2987cc-d05c-4031-8ac9-6da74b9708e6",
+        "created_at": "2026-08-13T04:36:14.320735+00:00",
+        "id": "ab701a9e-3efb-409a-8ed1-9752d41c4771",
+        "name": "كتاب العربي - الجزء الأول"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/ab701a9e-3efb-409a-8ed1-9752d41c4771/manifest.json",
+      "manifest_sha256_recorded": "10caf36d2cce863b5e29a9997a4ac56d7bd9ad9fb942458572ac2fbe7b82ab7a",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 169,
+        "images_downloaded": 169,
+        "pages": 169,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:35:24.775386+00:00",
+        "id": "ab2987cc-d05c-4031-8ac9-6da74b9708e6",
+        "name": "تاسع العربي"
+      },
+      "legacy_source": {
+        "class_id": "ab2987cc-d05c-4031-8ac9-6da74b9708e6",
+        "created_at": "2026-08-13T04:37:34.227713+00:00",
+        "id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+        "name": "كتاب العربي - الجزء الثاني"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/7ddec20e-617e-4e55-bba8-2d371aaf16b6/manifest.json",
+      "manifest_sha256_recorded": "7599384e16fff024bc8e1f36cc33d28c6a830dd87748236e840c5b82addaa06a",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 178,
+        "images_downloaded": 178,
+        "pages": 178,
+        "questions": 11
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": [
+          "32f65557-08c8-4a0e-ac4f-3f81ba410a41"
+        ]
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "6fa466f9-b930-437e-b091-947ee56407c4",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:15:44.669222+00:00",
+        "id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "name": "الرياضيات ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "6fa466f9-b930-437e-b091-947ee56407c4",
+        "name": "التفاضل والتكامل نماذج وزاريه 1445"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/manifest.json",
+      "manifest_sha256_recorded": "2c2fb21eb08a5366aba84092a26dd7f1140a41c7340e1d3fe508b5d5c1d1372c",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 80,
+        "images_downloaded": 80,
+        "pages": 80,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "012196f1-a633-41cd-927b-d0b1b8845781",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:15:44.669222+00:00",
+        "id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "name": "الرياضيات ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "012196f1-a633-41cd-927b-d0b1b8845781",
+        "name": "التفاضل والتكامل نماذج وزاريه 1446"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/012196f1-a633-41cd-927b-d0b1b8845781/manifest.json",
+      "manifest_sha256_recorded": "1a27b3cab05ac4d0b82cd3e399f06a5823c740dab2a4148cf0d5b7b85b722e19",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 100,
+        "images_downloaded": 100,
+        "pages": 100,
+        "questions": 40
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:15:44.669222+00:00",
+        "id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "name": "الرياضيات ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e",
+        "name": "التفاضل والتكامل نماذج وزاريه 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e/manifest.json",
+      "manifest_sha256_recorded": "0df4bbc2039f925507c77ee03362aa4a303217ab56ef46cccf2aa816bdf488b2",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 124,
+        "images_downloaded": 124,
+        "pages": 124,
+        "questions": 454
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "78292a85-06b3-4ec3-879e-8810ed0595d1",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:15:44.669222+00:00",
+        "id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "name": "الرياضيات ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "78292a85-06b3-4ec3-879e-8810ed0595d1",
+        "name": "الجبر والهندسة نماذج وزارية 1446"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/78292a85-06b3-4ec3-879e-8810ed0595d1/manifest.json",
+      "manifest_sha256_recorded": "9fd6bf9e44a4ff152927aafe462cd615e358db2ce8d23fe629a0e6f846b5be07",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 75,
+        "images_downloaded": 75,
+        "pages": 75,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:15:44.669222+00:00",
+        "id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "name": "الرياضيات ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "77e2e846-a4c7-4663-a948-4554c054b9bb",
+        "name": "الجبر والهندسة نماذج وزاريه 1445"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/77e2e846-a4c7-4663-a948-4554c054b9bb/manifest.json",
+      "manifest_sha256_recorded": "8e0dc2fbf9c9f33ffd823765ac3a95e75e092937161ffa17310a6f69badcbea0",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 60,
+        "images_downloaded": 60,
+        "pages": 60,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "02991791-a019-4879-910d-a4f71e00dd6a",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:15:44.669222+00:00",
+        "id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "name": "الرياضيات ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "02991791-a019-4879-910d-a4f71e00dd6a",
+        "name": "الجبر والهندسة نماذج وزاريه 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/02991791-a019-4879-910d-a4f71e00dd6a/manifest.json",
+      "manifest_sha256_recorded": "47427c58396e06f748cb45719387acb25f5d7d94e6f012815ec7dff3f5f84339",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 93,
+        "images_downloaded": 93,
+        "pages": 93,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "915ee1d9-95a9-471c-bde7-5e1ccf82c67c",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:15:44.669222+00:00",
+        "id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "name": "الرياضيات ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+        "created_at": "2026-08-13T04:21:47.747211+00:00",
+        "id": "915ee1d9-95a9-471c-bde7-5e1ccf82c67c",
+        "name": "الرياضيات الكتاب المدرسي"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/915ee1d9-95a9-471c-bde7-5e1ccf82c67c/manifest.json",
+      "manifest_sha256_recorded": "b7e17f05eefbe027a67940a85536c539606b352e576620b9d613a6655d633fa6",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 249,
+        "images_downloaded": 249,
+        "pages": 249,
+        "questions": 3578
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "82ccada7-d459-4cba-a41e-428cf1e14159",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:40:28.302309+00:00",
+        "id": "ce9816f1-18bd-4f93-a924-127489d24e30",
+        "name": "تاسع القران"
+      },
+      "legacy_source": {
+        "class_id": "ce9816f1-18bd-4f93-a924-127489d24e30",
+        "created_at": "2026-08-14T23:10:08.336479+00:00",
+        "id": "82ccada7-d459-4cba-a41e-428cf1e14159",
+        "name": "القران نماذج وزارية 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/82ccada7-d459-4cba-a41e-428cf1e14159/manifest.json",
+      "manifest_sha256_recorded": "226de3cc65288437559cdd10230ddb082da79e592d6dd189d0131e1031f0325f",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 42,
+        "images_downloaded": 42,
+        "pages": 42,
+        "questions": 159
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "4304aeb9-b2d2-48d4-888f-3533a5ea2fd7",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:40:28.302309+00:00",
+        "id": "ce9816f1-18bd-4f93-a924-127489d24e30",
+        "name": "تاسع القران"
+      },
+      "legacy_source": {
+        "class_id": "ce9816f1-18bd-4f93-a924-127489d24e30",
+        "created_at": "2026-08-13T04:44:34.523832+00:00",
+        "id": "4304aeb9-b2d2-48d4-888f-3533a5ea2fd7",
+        "name": "قران الكتاب المدرسي"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/4304aeb9-b2d2-48d4-888f-3533a5ea2fd7/manifest.json",
+      "manifest_sha256_recorded": "ac1742531ccb14c5de3db8584e3d1ac74252ef40994cc96dc4f1e148c3da9db4",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 112,
+        "images_downloaded": 112,
+        "pages": 112,
+        "questions": 71
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:23:48.448904+00:00",
+        "id": "e6e9edd6-16c7-4ae6-b836-05bbb1379e60",
+        "name": "الانجليزي ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "e6e9edd6-16c7-4ae6-b836-05bbb1379e60",
+        "created_at": "2026-08-13T04:29:39.401557+00:00",
+        "id": "da65ba8e-3485-4f20-a83e-a2a828427ed4",
+        "name": "الإنجليزي الكتاب المدرسي"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/da65ba8e-3485-4f20-a83e-a2a828427ed4/manifest.json",
+      "manifest_sha256_recorded": "c83f64f3c5c107e52035820018a89fadb49ced5aab037643c088110d6ce9b542",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 75,
+        "images_downloaded": 75,
+        "pages": 75,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "0344091d-667c-47eb-a593-d5f5d04ae3d7",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:23:48.448904+00:00",
+        "id": "e6e9edd6-16c7-4ae6-b836-05bbb1379e60",
+        "name": "الانجليزي ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "e6e9edd6-16c7-4ae6-b836-05bbb1379e60",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "0344091d-667c-47eb-a593-d5f5d04ae3d7",
+        "name": "انجليزي ثانوي نماذج وزاريه 1445"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/0344091d-667c-47eb-a593-d5f5d04ae3d7/manifest.json",
+      "manifest_sha256_recorded": "b58698815b4c83acc3bf692a5b41c5254e07101e7a7eb616539d10763bff7496",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 60,
+        "images_downloaded": 60,
+        "pages": 60,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "dde81171-d760-4427-9378-1199df991fa4",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:23:48.448904+00:00",
+        "id": "e6e9edd6-16c7-4ae6-b836-05bbb1379e60",
+        "name": "الانجليزي ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "e6e9edd6-16c7-4ae6-b836-05bbb1379e60",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "dde81171-d760-4427-9378-1199df991fa4",
+        "name": "انجليزي ثانوي نماذج وزاريه 1446"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/dde81171-d760-4427-9378-1199df991fa4/manifest.json",
+      "manifest_sha256_recorded": "1e7819f0d1e28b58276d866ce2d6f35c7602e65d46e5bba039c78d5892deb910",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 52,
+        "images_downloaded": 52,
+        "pages": 52,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "294ae79e-f08a-4be1-bc6b-beea7e0844b7",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:23:48.448904+00:00",
+        "id": "e6e9edd6-16c7-4ae6-b836-05bbb1379e60",
+        "name": "الانجليزي ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "e6e9edd6-16c7-4ae6-b836-05bbb1379e60",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "294ae79e-f08a-4be1-bc6b-beea7e0844b7",
+        "name": "انجليزي ثانوي نماذج وزاريه 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/294ae79e-f08a-4be1-bc6b-beea7e0844b7/manifest.json",
+      "manifest_sha256_recorded": "067000f387aec97ce1876adb83c4e255b41904575fc36ce7d0f4770935ab2669",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 116,
+        "images_downloaded": 116,
+        "pages": 116,
+        "questions": 49
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "2563d6b9-943a-4bae-a9bb-efa5f1dff3f4",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:27:51.605542+00:00",
+        "id": "ebbd3cac-4c80-479a-8235-aae75ac77a95",
+        "name": "القران ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "ebbd3cac-4c80-479a-8235-aae75ac77a95",
+        "created_at": "2026-08-13T04:32:47.891928+00:00",
+        "id": "2563d6b9-943a-4bae-a9bb-efa5f1dff3f4",
+        "name": "القرآن الكتاب 3/ث"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/2563d6b9-943a-4bae-a9bb-efa5f1dff3f4/manifest.json",
+      "manifest_sha256_recorded": "51a5e0a50999a9f1f7be3e7284fa8255a7ee5783afa9f66e2c46362be97451aa",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 93,
+        "images_downloaded": 93,
+        "pages": 93,
+        "questions": 1248
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "2408a46a-9cf8-4b76-9f41-de2a2db6ac0e",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:27:51.605542+00:00",
+        "id": "ebbd3cac-4c80-479a-8235-aae75ac77a95",
+        "name": "القران ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "ebbd3cac-4c80-479a-8235-aae75ac77a95",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "2408a46a-9cf8-4b76-9f41-de2a2db6ac0e",
+        "name": "القران ثانوي نماذج وزاريه 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/2408a46a-9cf8-4b76-9f41-de2a2db6ac0e/manifest.json",
+      "manifest_sha256_recorded": "1499f66f19af95067aceed1f78652e47909567d1589ffa03b49e8f5ca8a106c3",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 93,
+        "images_downloaded": 93,
+        "pages": 93,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "578729d9-1477-4923-a801-cd07d6db7fea",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:25:03.104965+00:00",
+        "id": "ee7cabec-d468-40dd-8c98-a5a70cd2c95f",
+        "name": "العربي ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "ee7cabec-d468-40dd-8c98-a5a70cd2c95f",
+        "created_at": "2026-08-13T04:27:31.128713+00:00",
+        "id": "578729d9-1477-4923-a801-cd07d6db7fea",
+        "name": "الأدب والنصوص الكتاب "
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/578729d9-1477-4923-a801-cd07d6db7fea/manifest.json",
+      "manifest_sha256_recorded": "af58f3876b09fe6c8c796d51d39fea4b2f6e8decc14496e8ce137776c4fafba0",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 119,
+        "images_downloaded": 119,
+        "pages": 119,
+        "questions": 1634
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "2668e258-363d-4ee7-8eff-1bae25255f8a",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:25:03.104965+00:00",
+        "id": "ee7cabec-d468-40dd-8c98-a5a70cd2c95f",
+        "name": "العربي ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "ee7cabec-d468-40dd-8c98-a5a70cd2c95f",
+        "created_at": "2026-08-17T18:21:41.13843+00:00",
+        "id": "2668e258-363d-4ee7-8eff-1bae25255f8a",
+        "name": "العربي ثانوي نماذج وزاريه 1447"
+      },
+      "classification": "exam_collection_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/2668e258-363d-4ee7-8eff-1bae25255f8a/manifest.json",
+      "manifest_sha256_recorded": "cdc9f66e1d489f3067309d5cc815e4ce244df848ec46c4190fdb090c9c736633",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 95,
+        "images_downloaded": 95,
+        "pages": 95,
+        "questions": 93
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:25:03.104965+00:00",
+        "id": "ee7cabec-d468-40dd-8c98-a5a70cd2c95f",
+        "name": "العربي ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "ee7cabec-d468-40dd-8c98-a5a70cd2c95f",
+        "created_at": "2026-08-13T04:27:00.648697+00:00",
+        "id": "0e2ef342-f18c-445d-bf37-d98ee1e306bc",
+        "name": "القراءة الكتاب المدرسي"
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/0e2ef342-f18c-445d-bf37-d98ee1e306bc/manifest.json",
+      "manifest_sha256_recorded": "d9e40a5ae2bdbb6f999aee5d3c0550fd145aa691bc7913194c9c70de68a75a4b",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 56,
+        "images_downloaded": 56,
+        "pages": 56,
+        "questions": 0
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    },
+    {
+      "id": "d81a67c9-8862-45e8-a5b7-770789f0545a",
+      "legacy_class": {
+        "created_at": "2026-08-19T00:25:03.104965+00:00",
+        "id": "ee7cabec-d468-40dd-8c98-a5a70cd2c95f",
+        "name": "العربي ثالث ثانوي "
+      },
+      "legacy_source": {
+        "class_id": "ee7cabec-d468-40dd-8c98-a5a70cd2c95f",
+        "created_at": "2026-08-13T04:28:30.333382+00:00",
+        "id": "d81a67c9-8862-45e8-a5b7-770789f0545a",
+        "name": "النحو والصرف الكتاب "
+      },
+      "classification": "educational_source_candidate",
+      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "manifest_path": "content-staging/raw/legacy-supabase/subjects/d81a67c9-8862-45e8-a5b7-770789f0545a/manifest.json",
+      "manifest_sha256_recorded": "111e9fc1c921f6e719620d12c8b3230c50b869e2b0f5ef6310394f2e3c88a66e",
+      "counts": {
+        "image_download_failures": 0,
+        "image_references": 142,
+        "images_downloaded": 142,
+        "pages": 142,
+        "questions": 2030
+      },
+      "anomalies": {
+        "duplicate_page_numbers": [],
+        "invalid_subject_ids": [],
+        "malformed_ai_questions": [],
+        "malformed_image_urls": [],
+        "missing_images": [],
+        "multiple_images": [],
+        "null_or_invalid_page_numbers": []
+      },
+      "review_status": "review_needed",
+      "modern_entity_id": null,
+      "exam_models": null,
+      "answer_keys": null,
+      "import_status": "NOT VERIFIED",
+      "publication_status": "NOT VERIFIED"
+    }
+  ],
+  "limitations": [
+    "Legacy classes are grade/subject groups, not 15 grades. Legacy subjects include books and exam collections, not 58 modern subjects.",
+    "Candidate classification is triage, not approved educational structure.",
+    "Individual exam boundaries, answer keys, byte-level checksums and current PostgreSQL state are NOT VERIFIED.",
+    "Historical authorized publication is retained; zero publication applies to this run only."
+  ]
+}
