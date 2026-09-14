@@ -374,3 +374,9 @@ Continue with `8489a487-91d9-47fb-80b8-35d0e7a074a4 — الانجليزي نم�
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `1794eea5-4772-4c94-bd2b-b08e5815e733` — `انجليزي الكتاب `.
 <!-- ENGLISH_EXAM_1447_CHECKPOINT_END -->
+
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_START -->
+## Continuation checkpoint — History source-local reconstruction complete
+
+Continue with `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`; do not rerun History absent fresh drift evidence. Current verified global progress: **13/58 sources; 4/26 educational; 9/32 exam groups; 1,011/5,273 technical images; 2,374 lesson-linked; 967 exam-linked; 351 review-required; 22,063 unclassified**. History master equivalence remains `NOT VERIFIED`, but source-local structure is independently verified from immutable RAW evidence.
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->

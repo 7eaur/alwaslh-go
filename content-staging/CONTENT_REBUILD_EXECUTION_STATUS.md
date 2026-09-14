@@ -405,3 +405,21 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `1794eea5-4772-4c94-bd2b-b08e5815e733` — `انجليزي الكتاب `.
 <!-- ENGLISH_EXAM_1447_CHECKPOINT_END -->
+
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_START -->
+## Reconstruction checkpoint — Grade 9 History source-local semester 1
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`.
+- Sources processed: **13/58**; Educational: **4/26**; Exam Source Groups: **9/32**.
+- Books / explicit Units / Lessons / Lesson pages: **4 / 25 / 119 / 460**.
+- History source: **61/61** technically verified images, stored pages **8..68**, complete source-local visual review.
+- Master equivalence: **NOT VERIFIED**; current master History references were explicitly rejected as semantic authority for this RAW.
+- Source-local structure: page **8** explicit TOC; page **9** `الفصل الدراسي الأول` cover; **9 lessons**, **47 lesson-content pages**, **12 lesson-review pages**; all **61 pages classified exactly once**.
+- Questions: **138/138** structurally lesson-linked by verified source page membership; semantic correctness remains `NOT VERIFIED`; source review-required questions **0**.
+- Global questions: Lesson-linked **2,374**; Exam-linked **967**; Review-required **351**; Unclassified **22,063** = **25,755**.
+- Individual Exam Models **135**; Exam Pages **455/2,286**; Verified Answer Keys **0**.
+- Source images technical **1,011/5,273**; WebP **0/0/0**; Duplicate groups **0/99**.
+- RAW / unrelated / imports / publications: **0/0/0/0**.
+- Last completed: `0a76f44b-0a4f-4e36-9ea9-badecf78bf23 — التاريخ الكتاب المدرسي`.
+- Next: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`.
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->

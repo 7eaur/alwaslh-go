@@ -245,3 +245,13 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `1794eea5-4772-4c94-bd2b-b08e5815e733` — `انجليزي الكتاب `.
 <!-- ENGLISH_EXAM_1447_CHECKPOINT_END -->
+
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_START -->
+## Verified reconstruction checkpoint — Grade 9 History source-local slice
+
+- Legacy source `0a76f44b-0a4f-4e36-9ea9-badecf78bf23` has **61/61** technically verified immutable RAW pages, stored **8..68**.
+- Complete source-local visual evidence proves page **8** is a TOC for both semesters and page **9** is the first-semester cover; the retained slice contains the complete explicit first-semester lesson sequence from stored pages **10..68**.
+- Reconstructed source-local structure: **9 lessons, 47 lesson-content pages, 12 lesson-review pages, 1 TOC page, 1 semester-cover page**; no explicit Unit construct was invented.
+- **138/138** source questions are structurally linked to the lesson whose verified page range contains the legacy page; semantic correctness remains `NOT VERIFIED`.
+- Current `master` History parts are not content-equivalent to this RAW and remain reference-only for this source.
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->

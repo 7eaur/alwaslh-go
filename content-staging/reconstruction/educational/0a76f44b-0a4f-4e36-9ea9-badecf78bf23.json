@@ -1,0 +1,2096 @@
+{
+  "schema_version": 1,
+  "status": "reconstructed_verified_source_local",
+  "subject_id": "0a76f44b-0a4f-4e36-9ea9-badecf78bf23",
+  "source_name": "التاريخ الكتاب المدرسي",
+  "classification": "educational_book_source",
+  "source_identity": {
+    "status": "verified_source_local_only",
+    "authority": "immutable RAW provenance + complete source-local visual review",
+    "raw_images": 61,
+    "stored_page_range": [
+      8,
+      68
+    ],
+    "master_reference_equivalence": "NOT VERIFIED",
+    "master_reference_exact_sha_matches": 0,
+    "master_reference_strong_visual_matches": 0,
+    "note": "The current master History parts represent a different visual/source edition. No master-derived title or boundary was accepted."
+  },
+  "visual_evidence": {
+    "workflow_run": 34831599212,
+    "artifact_id": 10342118472,
+    "artifact_digest": "sha256:dbb6cc5f980b293920f378ef24587ab9d9df65787e250fa955d33fbb3323a169",
+    "coverage": "all stored pages 8..68",
+    "toc_page": 8,
+    "semester_cover_page": 9,
+    "lesson_start_pages": [
+      10,
+      14,
+      22,
+      31,
+      36,
+      44,
+      49,
+      56,
+      64
+    ],
+    "review_pages": [
+      13,
+      21,
+      29,
+      30,
+      35,
+      42,
+      43,
+      47,
+      48,
+      55,
+      63,
+      68
+    ],
+    "review_status": "complete"
+  },
+  "reconstructed_book": {
+    "source_label": "التاريخ الكتاب المدرسي",
+    "book_title": "NOT VERIFIED",
+    "retained_slice_status": "complete first-semester slice evidenced by source-local TOC and semester cover",
+    "explicit_units": [],
+    "unit_count": 0,
+    "sections": [
+      {
+        "ordinal": 1,
+        "title": "الفصل الدراسي الأول",
+        "cover_page": 9,
+        "stored_page_range": [
+          9,
+          68
+        ],
+        "lesson_count": 9,
+        "lessons": [
+          {
+            "id": "history9-sem1-l01",
+            "lesson_ordinal": 1,
+            "title": "الدولة الإسلامية بعد وفاة الرسول 11-40هـ",
+            "title_evidence": "source-local visual: page 8 table of contents + lesson start page",
+            "stored_page_range": [
+              10,
+              13
+            ],
+            "stored_pages": [
+              10,
+              11,
+              12,
+              13
+            ],
+            "content_pages": [
+              10,
+              11,
+              12
+            ],
+            "review_pages": [
+              13
+            ],
+            "legacy_page_ids": [
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+              "36492735-c702-4c48-89d2-623fee238375"
+            ],
+            "legacy_question_count": 47,
+            "question_refs": [
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:0:974d31523bcfdd3c",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:1:fda5bc0a36fe0279",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:2:5c97ae9a69a7c66e",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:3:2d0c6a82d745be44",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:4:2d86dde85ca0465a",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:5:62f66f2fb62bf07e",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:6:c04fe9d0337d7868",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:7:854ac4a89bb720ed",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:8:d4ed521ec45a50d4",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:9:4fcffc37ad467203",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:10:dd5983ff96d439ec",
+              "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:11:f22d7eae9263e70d",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:0:7d44a3a6623caffb",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:1:7c5a15faa3c2e566",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:2:3bc6668ed7350087",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:3:3653ee8ee9a2fad8",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:4:e1d906cbdf8fb35a",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:5:9ec5ee8ca461741e",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:6:fc8d7424fae06c36",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:7:a88366cebce088b6",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:8:10a465acb8f89eae",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:9:7f1b75b31be89112",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:10:feae299ff83983a3",
+              "0f98d551-04ff-4403-bc4b-f1714e8a66ad:11:6356861226b5f452",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:0:ee439907c9ba40c0",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:1:bda8c7da8772ac91",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:2:220c60d4f038e3d8",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:3:8239bdf57e505c64",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:4:13eea26dadaeba21",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:5:37fb42df3580ebca",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:6:3f0257adcaabb6c5",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:7:20d09b60257932d6",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:8:0d04271cc29ee6e7",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:9:e8339451b537665f",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:10:ffd752d9cafde552",
+              "e1f7862b-32f0-4665-b74b-aa4d9597c183:11:1834eed0f8aa0299",
+              "36492735-c702-4c48-89d2-623fee238375:0:e6562bcab70de38a",
+              "36492735-c702-4c48-89d2-623fee238375:1:a3345e4fe689baac",
+              "36492735-c702-4c48-89d2-623fee238375:2:90e130031269729a",
+              "36492735-c702-4c48-89d2-623fee238375:3:895ec8be095b3ad4",
+              "36492735-c702-4c48-89d2-623fee238375:4:207de774b7941678",
+              "36492735-c702-4c48-89d2-623fee238375:5:0c7df0dce5b7fcec",
+              "36492735-c702-4c48-89d2-623fee238375:6:40e1bbb63dee95c8",
+              "36492735-c702-4c48-89d2-623fee238375:7:a759d46fc98d9a05",
+              "36492735-c702-4c48-89d2-623fee238375:8:156958915da79bb8",
+              "36492735-c702-4c48-89d2-623fee238375:9:237225b41a48c302",
+              "36492735-c702-4c48-89d2-623fee238375:10:ccfd8ddfad8fa1a9"
+            ],
+            "boundary_status": "verified_source_local_visual"
+          },
+          {
+            "id": "history9-sem1-l02",
+            "lesson_ordinal": 2,
+            "title": "الدولة الأموية وسياساتها 41-132هـ",
+            "title_evidence": "source-local visual: page 8 table of contents + lesson start page",
+            "stored_page_range": [
+              14,
+              21
+            ],
+            "stored_pages": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "content_pages": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "review_pages": [
+              21
+            ],
+            "legacy_page_ids": [
+              "38b8b824-da6c-4470-bc22-19374fb1d431",
+              "be034245-a130-4417-a527-f0337ffbb2cf",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24",
+              "12f5369b-6668-40bd-860b-151a906ed2a9"
+            ],
+            "legacy_question_count": 91,
+            "question_refs": [
+              "38b8b824-da6c-4470-bc22-19374fb1d431:0:3b88ac4b4c960a72",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:1:f5eecf41bc43b04b",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:2:e08b995197b25451",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:3:e6008f4806920bf5",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:4:4f7050631168651d",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:5:68c55562a4838302",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:6:1113c254157b61ac",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:7:68e1aaad0376b2a2",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:8:b293db8ee504db38",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:9:2b83ff20268f5b29",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:10:4ee1f67e20b30660",
+              "38b8b824-da6c-4470-bc22-19374fb1d431:11:74bc7326bb3f6f26",
+              "be034245-a130-4417-a527-f0337ffbb2cf:0:269d25fb58f1baa5",
+              "be034245-a130-4417-a527-f0337ffbb2cf:1:1913d5371d99bad5",
+              "be034245-a130-4417-a527-f0337ffbb2cf:2:3914a5475fba6f9c",
+              "be034245-a130-4417-a527-f0337ffbb2cf:3:e0f6e4c07bf8c4c9",
+              "be034245-a130-4417-a527-f0337ffbb2cf:4:3b95f205a78a0c98",
+              "be034245-a130-4417-a527-f0337ffbb2cf:5:a1bccc182115b7b6",
+              "be034245-a130-4417-a527-f0337ffbb2cf:6:dd4299aa436c0862",
+              "be034245-a130-4417-a527-f0337ffbb2cf:7:311fc3352b34856a",
+              "be034245-a130-4417-a527-f0337ffbb2cf:8:f54516a7cc83805a",
+              "be034245-a130-4417-a527-f0337ffbb2cf:9:01203a4a1c928edd",
+              "be034245-a130-4417-a527-f0337ffbb2cf:10:d4857449cc0163ab",
+              "be034245-a130-4417-a527-f0337ffbb2cf:11:0fb370ad9ca430b3",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:0:4f64a97f80b69023",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:1:83861e4612c1c01d",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:2:49d68f26919fc424",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:3:e4528e134a0287a5",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:4:c1438954c43f2d2b",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:5:9fd5814f46f4ff11",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:6:d99656fa5a75c0af",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:7:7de5bbb71e16462c",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:8:e62739fd0173a576",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:9:9dbd71f169f38877",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:10:cadf3ba3801f37ec",
+              "3a2356b0-c369-4617-bdb6-a76b0c299a32:11:6624fe5fc673192b",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:0:32d14316c1d4a659",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:1:d114d84ee3ddf181",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:2:553fa99fd8e895da",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:3:72d6a33561c5ec35",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:4:f0328a32b2ed8438",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:5:4667ce9e3b5fe4ad",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:6:6cee4c628d2f5799",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:7:7880d87957814feb",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:8:ba1c53d0a9b9ef4c",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:9:a24e8bcdd975fb34",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:10:75bd95e08c0424e6",
+              "84f7c956-af0c-485d-b6e7-f50912a7921f:11:fe45d25a0c9d37a2",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:0:2dbf4290e6318f5c",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:1:32607622d5a6833a",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:2:aec14e7ab251b404",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:3:39ef4db6a5f58ce6",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:4:896479bb6543348a",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:5:a39885c083926acc",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:6:d35cd354bbb8172c",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:7:44e9864624249a48",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:8:e50bf920fa64c03a",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:9:a8c2d9354818f8bb",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:10:aa0c7222ba9172ae",
+              "48a2b839-c6ac-4eae-9df2-c4b06e10461e:11:305abfa5ab063878",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:0:2b6e97bb24f948a5",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:1:3e0743c2828fbc9f",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:2:a2cb79bb49b8a255",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:3:0a530ce4b1958210",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:4:3f1f9a02a23d9031",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:5:47ee1c2c696795a1",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:6:da1907add2beaf07",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:7:e4671bb91b0a2bb9",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:8:cabf707eb092f815",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:9:f2e2588a64699ccc",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:10:5a13a5e5ca96bd83",
+              "0e8c2aff-963e-4561-9629-e115c6a4371f:11:b3a5723da6865764",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:0:d332e49f5c41ab8d",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:1:62579675f01ae5b0",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:2:5ea69c8fd607d820",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:3:5ad5dccc6408b42e",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:4:1965415286cf7c9b",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:5:fed7ada42cf2c8b8",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:6:2a13eaecc62429fd",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:7:64353b4398ad5d71",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:8:a014eb5970e6aeac",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:9:0621310d8df4997e",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:10:d9cfd0cc725a0f75",
+              "6ba1c752-dd3c-4550-945f-27f17af68a24:11:6561ce25a2184dd4",
+              "12f5369b-6668-40bd-860b-151a906ed2a9:0:3e516d86f9b0b08b",
+              "12f5369b-6668-40bd-860b-151a906ed2a9:1:1d6e4629e0820b54",
+              "12f5369b-6668-40bd-860b-151a906ed2a9:2:f75fd66844f6ff9b",
+              "12f5369b-6668-40bd-860b-151a906ed2a9:3:90118e69631fd752",
+              "12f5369b-6668-40bd-860b-151a906ed2a9:4:00962717c787aaf9",
+              "12f5369b-6668-40bd-860b-151a906ed2a9:5:ab761db1df496667",
+              "12f5369b-6668-40bd-860b-151a906ed2a9:6:f1762544c1d96410"
+            ],
+            "boundary_status": "verified_source_local_visual"
+          },
+          {
+            "id": "history9-sem1-l03",
+            "lesson_ordinal": 3,
+            "title": "الثورات الإسلامية على الحكم الأموي",
+            "title_evidence": "source-local visual: page 8 table of contents + lesson start page",
+            "stored_page_range": [
+              22,
+              30
+            ],
+            "stored_pages": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "content_pages": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "review_pages": [
+              29,
+              30
+            ],
+            "legacy_page_ids": [
+              "5118ceb4-69dc-487f-8a36-7c40f48f5d37",
+              "2bdf6a69-99d6-4f87-9a7e-ee993a188d67",
+              "b863450d-e1aa-4c93-a20c-b3bbd5edc96b",
+              "ec35c84f-d9ce-442a-85b1-d146bc8c61b2",
+              "6f3486aa-fe6e-48a6-a14c-12ec91bd1430",
+              "77b4948b-9407-4d87-b23a-94f99cdced10",
+              "2e210f9d-f53b-44be-bf65-186e0e4fbc56",
+              "93599f74-fcbf-4c76-ba7e-c299d83abd01",
+              "6090463c-f00d-4227-9d0b-665737f2957e"
+            ],
+            "legacy_question_count": 0,
+            "question_refs": [],
+            "boundary_status": "verified_source_local_visual"
+          },
+          {
+            "id": "history9-sem1-l04",
+            "lesson_ordinal": 4,
+            "title": "قيام الدولة العباسية (132هـ)",
+            "title_evidence": "source-local visual: page 8 table of contents + lesson start page",
+            "stored_page_range": [
+              31,
+              35
+            ],
+            "stored_pages": [
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "content_pages": [
+              31,
+              32,
+              33,
+              34
+            ],
+            "review_pages": [
+              35
+            ],
+            "legacy_page_ids": [
+              "ec644159-7407-4f48-b92f-c802651f46b0",
+              "adfc04d1-0e16-457d-85f7-309b15b331a5",
+              "7cc38395-3a0f-4bde-897e-7b8c653a5ce6",
+              "da935ffe-7a42-4e30-b409-5787f285ac94",
+              "41c9e4a1-9bae-4a77-b24d-934a13317046"
+            ],
+            "legacy_question_count": 0,
+            "question_refs": [],
+            "boundary_status": "verified_source_local_visual"
+          },
+          {
+            "id": "history9-sem1-l05",
+            "lesson_ordinal": 5,
+            "title": "سياسات الدولة العباسية",
+            "title_evidence": "source-local visual: page 8 table of contents + lesson start page",
+            "stored_page_range": [
+              36,
+              43
+            ],
+            "stored_pages": [
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43
+            ],
+            "content_pages": [
+              36,
+              37,
+              38,
+              39,
+              40,
+              41
+            ],
+            "review_pages": [
+              42,
+              43
+            ],
+            "legacy_page_ids": [
+              "15580095-3e88-405e-b6cb-15ca7486ada5",
+              "a7ac5df3-9edf-42f1-9c5e-71ad5798174d",
+              "0eea1bd0-70b6-41ca-8edc-cbbc606a182f",
+              "94e01c20-9027-477c-bde4-14618205a286",
+              "d2a108d7-88ae-4184-abdf-61b6b7a3ac28",
+              "9c5eaae0-4ad9-4e30-aa2f-5ca398ecc527",
+              "c2786bc5-f2a6-41ac-b304-5b2e0e67b016",
+              "40067085-656b-408e-83c2-3764f723e9d8"
+            ],
+            "legacy_question_count": 0,
+            "question_refs": [],
+            "boundary_status": "verified_source_local_visual"
+          },
+          {
+            "id": "history9-sem1-l06",
+            "lesson_ordinal": 6,
+            "title": "أنواع الثورات على الحكم العباسي",
+            "title_evidence": "source-local visual: page 8 table of contents + lesson start page",
+            "stored_page_range": [
+              44,
+              48
+            ],
+            "stored_pages": [
+              44,
+              45,
+              46,
+              47,
+              48
+            ],
+            "content_pages": [
+              44,
+              45,
+              46
+            ],
+            "review_pages": [
+              47,
+              48
+            ],
+            "legacy_page_ids": [
+              "f34776c3-8be8-48c3-9882-bffb41cbcbc1",
+              "08343f1c-9bf8-4251-aa26-31f124a1510b",
+              "b10ee1b3-e8a6-48b5-9279-9841cc73fa40",
+              "45e1bbe6-98ef-4e63-b6d1-6816ae3a0b6d",
+              "fd76346d-2c80-428b-89ed-305190d106d7"
+            ],
+            "legacy_question_count": 0,
+            "question_refs": [],
+            "boundary_status": "verified_source_local_visual"
+          },
+          {
+            "id": "history9-sem1-l07",
+            "lesson_ordinal": 7,
+            "title": "نماذج من الثورات التصحيحية في العصر العباسي",
+            "title_evidence": "source-local visual: page 8 table of contents + lesson start page",
+            "stored_page_range": [
+              49,
+              55
+            ],
+            "stored_pages": [
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55
+            ],
+            "content_pages": [
+              49,
+              50,
+              51,
+              52,
+              53,
+              54
+            ],
+            "review_pages": [
+              55
+            ],
+            "legacy_page_ids": [
+              "be9d806e-101c-4bda-baca-dcfbb6be40c0",
+              "64d14dad-8eb7-4fd1-84b6-24e25d6bb488",
+              "1d4a56e8-0c19-4021-b8b2-bdf89ccacf00",
+              "3d20c877-6467-4164-9a58-fce10abf969e",
+              "34376718-94a6-4405-80f1-c3f42fb9a912",
+              "c9d55f95-9866-4f4c-bfb4-d4f1aaf88157",
+              "2912583e-b9a6-4d2c-8973-fa08a831fdf6"
+            ],
+            "legacy_question_count": 0,
+            "question_refs": [],
+            "boundary_status": "verified_source_local_visual"
+          },
+          {
+            "id": "history9-sem1-l08",
+            "lesson_ordinal": 8,
+            "title": "الدول المستقلة في العصر العباسي",
+            "title_evidence": "source-local visual: page 8 table of contents + lesson start page",
+            "stored_page_range": [
+              56,
+              63
+            ],
+            "stored_pages": [
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63
+            ],
+            "content_pages": [
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62
+            ],
+            "review_pages": [
+              63
+            ],
+            "legacy_page_ids": [
+              "d722e88e-98a7-4274-ac09-74e3457b6b74",
+              "2749e769-94a6-4b1e-a0b9-200c7c55697f",
+              "00bd64ca-04e3-4b19-bdf9-e8170be6586c",
+              "fb2dd28c-d3fe-46a7-a23e-bdf376e0d9d1",
+              "4675055c-98ec-45bb-8170-94b1b4bfde88",
+              "f788356a-46ea-4fde-96f4-0837da164fa1",
+              "67b141b6-ba49-4303-8498-500ea3a4b049",
+              "f5a9917a-64bf-4dba-9e8a-b3fc132b9a85"
+            ],
+            "legacy_question_count": 0,
+            "question_refs": [],
+            "boundary_status": "verified_source_local_visual"
+          },
+          {
+            "id": "history9-sem1-l09",
+            "lesson_ordinal": 9,
+            "title": "دول المنافسة والنفوذ في العصر العباسي",
+            "title_evidence": "source-local visual: page 8 table of contents + lesson start page",
+            "stored_page_range": [
+              64,
+              68
+            ],
+            "stored_pages": [
+              64,
+              65,
+              66,
+              67,
+              68
+            ],
+            "content_pages": [
+              64,
+              65,
+              66,
+              67
+            ],
+            "review_pages": [
+              68
+            ],
+            "legacy_page_ids": [
+              "898d536e-08b4-4103-aebc-d7e027541a19",
+              "fed26b1e-a6b7-4f66-9751-010d6fef95c8",
+              "8ff83693-a6be-4e02-b896-bc3e6cf35cc1",
+              "d304149c-d75c-42b7-9f4b-1aec06a62e14",
+              "b46306be-4704-41cc-83a8-af90085ee1a1"
+            ],
+            "legacy_question_count": 0,
+            "question_refs": [],
+            "boundary_status": "verified_source_local_visual"
+          }
+        ]
+      }
+    ],
+    "section_count": 1,
+    "lesson_count": 9,
+    "lesson_page_count": 47,
+    "lesson_review_page_count": 12,
+    "table_of_contents_pages": [
+      8
+    ],
+    "section_cover_pages": [
+      9
+    ],
+    "classified_page_count": 61,
+    "page_classification": [
+      {
+        "stored_page_number": 8,
+        "class": "table_of_contents"
+      },
+      {
+        "stored_page_number": 9,
+        "class": "semester_cover"
+      },
+      {
+        "stored_page_number": 10,
+        "class": "lesson:history9-sem1-l01"
+      },
+      {
+        "stored_page_number": 11,
+        "class": "lesson:history9-sem1-l01"
+      },
+      {
+        "stored_page_number": 12,
+        "class": "lesson:history9-sem1-l01"
+      },
+      {
+        "stored_page_number": 13,
+        "class": "lesson_review:history9-sem1-l01"
+      },
+      {
+        "stored_page_number": 14,
+        "class": "lesson:history9-sem1-l02"
+      },
+      {
+        "stored_page_number": 15,
+        "class": "lesson:history9-sem1-l02"
+      },
+      {
+        "stored_page_number": 16,
+        "class": "lesson:history9-sem1-l02"
+      },
+      {
+        "stored_page_number": 17,
+        "class": "lesson:history9-sem1-l02"
+      },
+      {
+        "stored_page_number": 18,
+        "class": "lesson:history9-sem1-l02"
+      },
+      {
+        "stored_page_number": 19,
+        "class": "lesson:history9-sem1-l02"
+      },
+      {
+        "stored_page_number": 20,
+        "class": "lesson:history9-sem1-l02"
+      },
+      {
+        "stored_page_number": 21,
+        "class": "lesson_review:history9-sem1-l02"
+      },
+      {
+        "stored_page_number": 22,
+        "class": "lesson:history9-sem1-l03"
+      },
+      {
+        "stored_page_number": 23,
+        "class": "lesson:history9-sem1-l03"
+      },
+      {
+        "stored_page_number": 24,
+        "class": "lesson:history9-sem1-l03"
+      },
+      {
+        "stored_page_number": 25,
+        "class": "lesson:history9-sem1-l03"
+      },
+      {
+        "stored_page_number": 26,
+        "class": "lesson:history9-sem1-l03"
+      },
+      {
+        "stored_page_number": 27,
+        "class": "lesson:history9-sem1-l03"
+      },
+      {
+        "stored_page_number": 28,
+        "class": "lesson:history9-sem1-l03"
+      },
+      {
+        "stored_page_number": 29,
+        "class": "lesson_review:history9-sem1-l03"
+      },
+      {
+        "stored_page_number": 30,
+        "class": "lesson_review:history9-sem1-l03"
+      },
+      {
+        "stored_page_number": 31,
+        "class": "lesson:history9-sem1-l04"
+      },
+      {
+        "stored_page_number": 32,
+        "class": "lesson:history9-sem1-l04"
+      },
+      {
+        "stored_page_number": 33,
+        "class": "lesson:history9-sem1-l04"
+      },
+      {
+        "stored_page_number": 34,
+        "class": "lesson:history9-sem1-l04"
+      },
+      {
+        "stored_page_number": 35,
+        "class": "lesson_review:history9-sem1-l04"
+      },
+      {
+        "stored_page_number": 36,
+        "class": "lesson:history9-sem1-l05"
+      },
+      {
+        "stored_page_number": 37,
+        "class": "lesson:history9-sem1-l05"
+      },
+      {
+        "stored_page_number": 38,
+        "class": "lesson:history9-sem1-l05"
+      },
+      {
+        "stored_page_number": 39,
+        "class": "lesson:history9-sem1-l05"
+      },
+      {
+        "stored_page_number": 40,
+        "class": "lesson:history9-sem1-l05"
+      },
+      {
+        "stored_page_number": 41,
+        "class": "lesson:history9-sem1-l05"
+      },
+      {
+        "stored_page_number": 42,
+        "class": "lesson_review:history9-sem1-l05"
+      },
+      {
+        "stored_page_number": 43,
+        "class": "lesson_review:history9-sem1-l05"
+      },
+      {
+        "stored_page_number": 44,
+        "class": "lesson:history9-sem1-l06"
+      },
+      {
+        "stored_page_number": 45,
+        "class": "lesson:history9-sem1-l06"
+      },
+      {
+        "stored_page_number": 46,
+        "class": "lesson:history9-sem1-l06"
+      },
+      {
+        "stored_page_number": 47,
+        "class": "lesson_review:history9-sem1-l06"
+      },
+      {
+        "stored_page_number": 48,
+        "class": "lesson_review:history9-sem1-l06"
+      },
+      {
+        "stored_page_number": 49,
+        "class": "lesson:history9-sem1-l07"
+      },
+      {
+        "stored_page_number": 50,
+        "class": "lesson:history9-sem1-l07"
+      },
+      {
+        "stored_page_number": 51,
+        "class": "lesson:history9-sem1-l07"
+      },
+      {
+        "stored_page_number": 52,
+        "class": "lesson:history9-sem1-l07"
+      },
+      {
+        "stored_page_number": 53,
+        "class": "lesson:history9-sem1-l07"
+      },
+      {
+        "stored_page_number": 54,
+        "class": "lesson:history9-sem1-l07"
+      },
+      {
+        "stored_page_number": 55,
+        "class": "lesson_review:history9-sem1-l07"
+      },
+      {
+        "stored_page_number": 56,
+        "class": "lesson:history9-sem1-l08"
+      },
+      {
+        "stored_page_number": 57,
+        "class": "lesson:history9-sem1-l08"
+      },
+      {
+        "stored_page_number": 58,
+        "class": "lesson:history9-sem1-l08"
+      },
+      {
+        "stored_page_number": 59,
+        "class": "lesson:history9-sem1-l08"
+      },
+      {
+        "stored_page_number": 60,
+        "class": "lesson:history9-sem1-l08"
+      },
+      {
+        "stored_page_number": 61,
+        "class": "lesson:history9-sem1-l08"
+      },
+      {
+        "stored_page_number": 62,
+        "class": "lesson:history9-sem1-l08"
+      },
+      {
+        "stored_page_number": 63,
+        "class": "lesson_review:history9-sem1-l08"
+      },
+      {
+        "stored_page_number": 64,
+        "class": "lesson:history9-sem1-l09"
+      },
+      {
+        "stored_page_number": 65,
+        "class": "lesson:history9-sem1-l09"
+      },
+      {
+        "stored_page_number": 66,
+        "class": "lesson:history9-sem1-l09"
+      },
+      {
+        "stored_page_number": 67,
+        "class": "lesson:history9-sem1-l09"
+      },
+      {
+        "stored_page_number": 68,
+        "class": "lesson_review:history9-sem1-l09"
+      }
+    ]
+  },
+  "questions": {
+    "legacy_questions": 138,
+    "structurally_lesson_linked_questions": 138,
+    "review_required_questions": 0,
+    "unclassified_questions": 0,
+    "semantic_correctness": "NOT VERIFIED",
+    "assignments": [
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:0:974d31523bcfdd3c",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:1:fda5bc0a36fe0279",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:2:5c97ae9a69a7c66e",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:3:2d0c6a82d745be44",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:4:2d86dde85ca0465a",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:5:62f66f2fb62bf07e",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:6:c04fe9d0337d7868",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:7:854ac4a89bb720ed",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:8:d4ed521ec45a50d4",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:9:4fcffc37ad467203",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:10:dd5983ff96d439ec",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442:11:f22d7eae9263e70d",
+        "legacy_page_id": "f45f0a11-a91b-43af-bfcd-cf5ab61f3442",
+        "stored_page_number": 10,
+        "legacy_question_index": 11,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:0:7d44a3a6623caffb",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:1:7c5a15faa3c2e566",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:2:3bc6668ed7350087",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:3:3653ee8ee9a2fad8",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:4:e1d906cbdf8fb35a",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:5:9ec5ee8ca461741e",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:6:fc8d7424fae06c36",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:7:a88366cebce088b6",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:8:10a465acb8f89eae",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:9:7f1b75b31be89112",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:10:feae299ff83983a3",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0f98d551-04ff-4403-bc4b-f1714e8a66ad:11:6356861226b5f452",
+        "legacy_page_id": "0f98d551-04ff-4403-bc4b-f1714e8a66ad",
+        "stored_page_number": 11,
+        "legacy_question_index": 11,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:0:ee439907c9ba40c0",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:1:bda8c7da8772ac91",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:2:220c60d4f038e3d8",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:3:8239bdf57e505c64",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:4:13eea26dadaeba21",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:5:37fb42df3580ebca",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:6:3f0257adcaabb6c5",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:7:20d09b60257932d6",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:8:0d04271cc29ee6e7",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:9:e8339451b537665f",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:10:ffd752d9cafde552",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "e1f7862b-32f0-4665-b74b-aa4d9597c183:11:1834eed0f8aa0299",
+        "legacy_page_id": "e1f7862b-32f0-4665-b74b-aa4d9597c183",
+        "stored_page_number": 12,
+        "legacy_question_index": 11,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:0:e6562bcab70de38a",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:1:a3345e4fe689baac",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:2:90e130031269729a",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:3:895ec8be095b3ad4",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:4:207de774b7941678",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:5:0c7df0dce5b7fcec",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:6:40e1bbb63dee95c8",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:7:a759d46fc98d9a05",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:8:156958915da79bb8",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:9:237225b41a48c302",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "36492735-c702-4c48-89d2-623fee238375:10:ccfd8ddfad8fa1a9",
+        "legacy_page_id": "36492735-c702-4c48-89d2-623fee238375",
+        "stored_page_number": 13,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l01",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:0:3b88ac4b4c960a72",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:1:f5eecf41bc43b04b",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:2:e08b995197b25451",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:3:e6008f4806920bf5",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:4:4f7050631168651d",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:5:68c55562a4838302",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:6:1113c254157b61ac",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:7:68e1aaad0376b2a2",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:8:b293db8ee504db38",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:9:2b83ff20268f5b29",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:10:4ee1f67e20b30660",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "38b8b824-da6c-4470-bc22-19374fb1d431:11:74bc7326bb3f6f26",
+        "legacy_page_id": "38b8b824-da6c-4470-bc22-19374fb1d431",
+        "stored_page_number": 14,
+        "legacy_question_index": 11,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:0:269d25fb58f1baa5",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:1:1913d5371d99bad5",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:2:3914a5475fba6f9c",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:3:e0f6e4c07bf8c4c9",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:4:3b95f205a78a0c98",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:5:a1bccc182115b7b6",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:6:dd4299aa436c0862",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:7:311fc3352b34856a",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:8:f54516a7cc83805a",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:9:01203a4a1c928edd",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:10:d4857449cc0163ab",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "be034245-a130-4417-a527-f0337ffbb2cf:11:0fb370ad9ca430b3",
+        "legacy_page_id": "be034245-a130-4417-a527-f0337ffbb2cf",
+        "stored_page_number": 15,
+        "legacy_question_index": 11,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:0:4f64a97f80b69023",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:1:83861e4612c1c01d",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:2:49d68f26919fc424",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:3:e4528e134a0287a5",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:4:c1438954c43f2d2b",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:5:9fd5814f46f4ff11",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:6:d99656fa5a75c0af",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:7:7de5bbb71e16462c",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:8:e62739fd0173a576",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:9:9dbd71f169f38877",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:10:cadf3ba3801f37ec",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "3a2356b0-c369-4617-bdb6-a76b0c299a32:11:6624fe5fc673192b",
+        "legacy_page_id": "3a2356b0-c369-4617-bdb6-a76b0c299a32",
+        "stored_page_number": 16,
+        "legacy_question_index": 11,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:0:32d14316c1d4a659",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:1:d114d84ee3ddf181",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:2:553fa99fd8e895da",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:3:72d6a33561c5ec35",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:4:f0328a32b2ed8438",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:5:4667ce9e3b5fe4ad",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:6:6cee4c628d2f5799",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:7:7880d87957814feb",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:8:ba1c53d0a9b9ef4c",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:9:a24e8bcdd975fb34",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:10:75bd95e08c0424e6",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "84f7c956-af0c-485d-b6e7-f50912a7921f:11:fe45d25a0c9d37a2",
+        "legacy_page_id": "84f7c956-af0c-485d-b6e7-f50912a7921f",
+        "stored_page_number": 17,
+        "legacy_question_index": 11,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:0:2dbf4290e6318f5c",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:1:32607622d5a6833a",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:2:aec14e7ab251b404",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:3:39ef4db6a5f58ce6",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:4:896479bb6543348a",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:5:a39885c083926acc",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:6:d35cd354bbb8172c",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:7:44e9864624249a48",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:8:e50bf920fa64c03a",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:9:a8c2d9354818f8bb",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:10:aa0c7222ba9172ae",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "48a2b839-c6ac-4eae-9df2-c4b06e10461e:11:305abfa5ab063878",
+        "legacy_page_id": "48a2b839-c6ac-4eae-9df2-c4b06e10461e",
+        "stored_page_number": 18,
+        "legacy_question_index": 11,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:0:2b6e97bb24f948a5",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:1:3e0743c2828fbc9f",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:2:a2cb79bb49b8a255",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:3:0a530ce4b1958210",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:4:3f1f9a02a23d9031",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:5:47ee1c2c696795a1",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:6:da1907add2beaf07",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:7:e4671bb91b0a2bb9",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:8:cabf707eb092f815",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:9:f2e2588a64699ccc",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:10:5a13a5e5ca96bd83",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "0e8c2aff-963e-4561-9629-e115c6a4371f:11:b3a5723da6865764",
+        "legacy_page_id": "0e8c2aff-963e-4561-9629-e115c6a4371f",
+        "stored_page_number": 19,
+        "legacy_question_index": 11,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:0:d332e49f5c41ab8d",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:1:62579675f01ae5b0",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:2:5ea69c8fd607d820",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:3:5ad5dccc6408b42e",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:4:1965415286cf7c9b",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:5:fed7ada42cf2c8b8",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:6:2a13eaecc62429fd",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:7:64353b4398ad5d71",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 7,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:8:a014eb5970e6aeac",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 8,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:9:0621310d8df4997e",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 9,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:10:d9cfd0cc725a0f75",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 10,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "6ba1c752-dd3c-4550-945f-27f17af68a24:11:6561ce25a2184dd4",
+        "legacy_page_id": "6ba1c752-dd3c-4550-945f-27f17af68a24",
+        "stored_page_number": 20,
+        "legacy_question_index": 11,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "12f5369b-6668-40bd-860b-151a906ed2a9:0:3e516d86f9b0b08b",
+        "legacy_page_id": "12f5369b-6668-40bd-860b-151a906ed2a9",
+        "stored_page_number": 21,
+        "legacy_question_index": 0,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "12f5369b-6668-40bd-860b-151a906ed2a9:1:1d6e4629e0820b54",
+        "legacy_page_id": "12f5369b-6668-40bd-860b-151a906ed2a9",
+        "stored_page_number": 21,
+        "legacy_question_index": 1,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "12f5369b-6668-40bd-860b-151a906ed2a9:2:f75fd66844f6ff9b",
+        "legacy_page_id": "12f5369b-6668-40bd-860b-151a906ed2a9",
+        "stored_page_number": 21,
+        "legacy_question_index": 2,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "12f5369b-6668-40bd-860b-151a906ed2a9:3:90118e69631fd752",
+        "legacy_page_id": "12f5369b-6668-40bd-860b-151a906ed2a9",
+        "stored_page_number": 21,
+        "legacy_question_index": 3,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "12f5369b-6668-40bd-860b-151a906ed2a9:4:00962717c787aaf9",
+        "legacy_page_id": "12f5369b-6668-40bd-860b-151a906ed2a9",
+        "stored_page_number": 21,
+        "legacy_question_index": 4,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "12f5369b-6668-40bd-860b-151a906ed2a9:5:ab761db1df496667",
+        "legacy_page_id": "12f5369b-6668-40bd-860b-151a906ed2a9",
+        "stored_page_number": 21,
+        "legacy_question_index": 5,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "question_ref": "12f5369b-6668-40bd-860b-151a906ed2a9:6:f1762544c1d96410",
+        "legacy_page_id": "12f5369b-6668-40bd-860b-151a906ed2a9",
+        "stored_page_number": 21,
+        "legacy_question_index": 6,
+        "lesson_id": "history9-sem1-l02",
+        "mapping_basis": "verified source-local page membership within visually verified lesson/review boundary",
+        "semantic_correctness": "NOT VERIFIED"
+      }
+    ]
+  },
+  "invariants": {
+    "all_61_pages_classified_exactly_once": true,
+    "all_138_questions_structurally_accounted_for": true,
+    "raw_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  }
+}

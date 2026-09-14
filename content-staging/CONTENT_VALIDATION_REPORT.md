@@ -188,3 +188,14 @@ Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `1794eea5-4772-4c94-bd2b-b08e5815e733` — `انجليزي الكتاب `.
 <!-- ENGLISH_EXAM_1447_CHECKPOINT_END -->
+
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_START -->
+## Grade 9 History source-local reconstruction validation
+
+- Technical verification: **61/61** files exist, readable, size/SHA/MIME match; no within-source SHA duplicates.
+- Source-local visual evidence: complete stored-page coverage **8..68**; explicit TOC and semester cover visually verified; all nine lesson start pages and twelve lesson-review pages visually checked.
+- Structure: **1 semester section / 9 lessons / 47 lesson-content pages / 12 lesson-review pages**; every one of the **61** retained pages is classified exactly once.
+- Questions: **138/138** structurally accounted for by verified page membership; semantic correctness `NOT VERIFIED`.
+- Master-equivalence status: `NOT VERIFIED`; 0/61 exact SHA and 0 strong global visual matches against the currently indexed 211 master History pages.
+- RAW mutations: **0**.
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->

@@ -160,3 +160,12 @@ The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `1794eea5-4772-4c94-bd2b-b08e5815e733` — `انجليزي الكتاب `.
 <!-- ENGLISH_EXAM_1447_CHECKPOINT_END -->
+
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_START -->
+## History reconstruction checkpoint — no import performed
+
+The History source-local reconstruction is verified, but the corpus remains `RECONSTRUCTION_IN_PROGRESS_NOT_IMPORT_READY`.
+
+- New imports: **0**; new publications: **0**; production mutations: **0**; RAW mutations: **0**.
+- Import readiness remains deferred until corpus reconstruction/boundary discovery is complete.
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->

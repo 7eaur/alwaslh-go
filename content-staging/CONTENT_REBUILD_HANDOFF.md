@@ -349,3 +349,15 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `1794eea5-4772-4c94-bd2b-b08e5815e733` — `انجليزي الكتاب `.
 <!-- ENGLISH_EXAM_1447_CHECKPOINT_END -->
+
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_START -->
+## Active reconstruction handoff — History source-local reconstruction complete
+
+- Last completed: `0a76f44b-0a4f-4e36-9ea9-badecf78bf23 — التاريخ الكتاب المدرسي`.
+- Verified: **61/61** technical + complete source-local visual review; **1 explicit semester section / 9 lessons / 47 lesson-content pages / 12 lesson-review pages**.
+- Master equivalence remains `NOT VERIFIED`; no master title/boundary was copied.
+- Questions: **138/138 structurally lesson-linked; semantic correctness NOT VERIFIED; 0 source review-required**.
+- Current/next: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`.
+- Exact next operation: fetch the live National Education manifest/pages; technical verification first; establish source identity only from its own evidence; reconstruct explicit book/section/unit/lesson/review boundaries without inheriting History patterns; map questions only where page membership is proven; assert global invariant; checkpoint.
+- RAW/unrelated/import/publication mutations remain **0/0/0/0**.
+<!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->
