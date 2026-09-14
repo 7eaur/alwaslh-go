@@ -1,0 +1,145 @@
+name: Record Worker B Fiqh Handoff
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/record-worker-b-fiqh-handoff.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-reconstruction-shared-handoff
+  cancel-in-progress: false
+
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Re-fetch live branch before shared-log mutation
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          LIVE=$(git rev-parse origin/content/corpus-inventory-20260914)
+          LOCAL=$(git rev-parse HEAD)
+          test "$LIVE" = "$LOCAL" || { echo "Shared-log safety gate: branch changed live=$LIVE local=$LOCAL"; exit 24; }
+      - name: Verify live Fiqh checkpoint and update baton
+        run: |
+          python - <<'PY'
+          import json,re
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+          baton=Path('content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md')
+          master=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          p=master['reconstruction_progress']
+          expected={'sources_completed':20,'educational_sources_completed':10,'verified_books':10,'verified_units':33,'verified_lessons':196,'verified_lesson_pages':877,'source_images_technically_verified':1542,'lesson_linked_structural':6891,'exam_linked_to_individual_model':967,'review_required':351,'unclassified':17546}
+          for k,v in expected.items():
+              assert p.get(k)==v,(k,p.get(k),v)
+          assert p['lesson_linked_structural']+p['exam_linked_to_individual_model']+p['review_required']+p['unclassified']==25755
+          assert p['raw_mutations']==0 and p['unrelated_mutations']==0 and p['new_imports']==0 and p['new_publications']==0
+          sid='6a8ea7f2-1e77-4654-a28c-0ea1b82b4830'; nxt='0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199'
+          s=next(x for x in p['sources'] if x['id']==sid); n=next(x for x in p['sources'] if x['id']==nxt)
+          assert s['review_status']=='reconstructed_verified_exact_sha_lesson_membership'
+          assert n['legacy_source']['name'].strip()=='الرياضيات نماذج وزارية 1445'
+          text=baton.read_text(encoding='utf-8')
+          old=re.search(r'## 10\. ACTIVE CHECKPOINT\n.*?\n---\n\n### Shared handoff rule',text,re.S)
+          assert old, 'ACTIVE CHECKPOINT block not found'
+          active='''## 10. ACTIVE CHECKPOINT
+
+- state: `READY_FOR_NEXT_SOURCE`
+- branch: `content/corpus-inventory-20260914`
+- latest verified work HEAD before this handoff commit: `dde5a8b873741eea058d91f9e0a25b9b2e8ab96f`
+- last completed source: `6a8ea7f2-1e77-4654-a28c-0ea1b82b4830 — الفقه الكتاب المدرسي`
+- current source: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`
+- current source baseline from live manifest: `42 pages/images, 28 legacy questions, 0 download failures; all manifest anomaly arrays are empty. Technical verification, exam-model boundaries, correction/answer-key status, and question placement remain NOT VERIFIED.`
+- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for 0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199; technically verify all 42 immutable RAW images; generate complete ordered visual evidence; discover Individual Exam Model boundaries and correction/result/Answer-Key evidence only from Mathematics 1445 itself; structurally map 28 legacy questions only where page/model membership is proven; preserve uncertainty as review_required or NOT VERIFIED; reassert the 25,755 invariant.`
+- next source: `Resolve from live MASTER_CONTENT_MANIFEST only after Mathematics 1445 is safely finalized.`
+- blockers: `none at handoff; do not inherit any prior 2-page/3-page/4-page exam occurrence pattern into Mathematics 1445.`
+- owner decision required now: `no`
+
+---
+
+### Shared handoff rule'''
+          text=text[:old.start()]+active+text[old.end():]
+          now=datetime.now(timezone(timedelta(hours=3))).replace(microsecond=0).isoformat()
+          run=f'''\n\n## RUN {now} — Worker B
+
+- state: COMPLETE
+- start HEAD: `c2852d76e355adc77496756657d5f5ad894a5469`
+- end HEAD before handoff-log tooling commit: `dde5a8b873741eea058d91f9e0a25b9b2e8ab96f`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `6a8ea7f2-1e77-4654-a28c-0ea1b82b4830 — الفقه الكتاب المدرسي`
+- completed in this run:
+  - observed Worker A's Seerah finalization still active at startup and failed closed until the live workflow completed and its corrected handoff commit became authoritative;
+  - consumed Worker A's live Seerah RUN/handoff at `dd7705d3d3bad902e5c79e9da903c216bf15512e` before beginning Fiqh mutation work;
+  - technically verified **67/67** immutable Fiqh RAW images and generated complete contact-sheet evidence;
+  - proved **67/67 exact SHA-256 identity** against `master/التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور`, retained pages **8..74**, zero unmatched;
+  - established **13 lessons** from exact-SHA master filename labels and assigned **67/67** pages exactly once; Unit hierarchy remains `NOT VERIFIED`;
+  - did not invent independent review/evaluation page boundaries; page subtype/review boundaries remain `NOT VERIFIED` where filenames do not prove them;
+  - structurally mapped **906/906** legacy questions by proven page-to-lesson membership; semantic correctness remains `NOT VERIFIED`;
+  - updated MASTER and reconstruction/status evidence only; no production import or publication;
+  - discovery run `34847979060` and finalization run `34848274718` succeeded, including `FIQH_FINALIZATION_VERIFY_PASS` and live-HEAD safety gates.
+- evidence produced/verified:
+  - `content-staging/reconstruction/technical/6a8ea7f2-1e77-4654-a28c-0ea1b82b4830.json`;
+  - `content-staging/reconstruction/educational/6a8ea7f2-1e77-4654-a28c-0ea1b82b4830-discovery.json`;
+  - `content-staging/reconstruction/educational/6a8ea7f2-1e77-4654-a28c-0ea1b82b4830.json`;
+  - artifact `fiqh-contact-sheets`; final evidence/status commit `dde5a8b873741eea058d91f9e0a25b9b2e8ab96f`.
+- ambiguity/review_required:
+  - Unit hierarchy: `NOT VERIFIED`;
+  - independent review/evaluation subtype boundaries: `NOT VERIFIED`;
+  - semantic correctness of 906 questions: `NOT VERIFIED`; no question was forced to review_required because structural lesson membership is complete.
+- invariant result: PASS (`6,891 + 967 + 351 + 17,546 = 25,755`)
+- Sources processed: 20/58
+- Educational: 10/26
+- Books / Units / Lessons / Lesson Pages: 10 / 33 / 196 / 877
+- Exam Source Groups: 10/32
+- Individual Exam Models: 166
+- Exam Pages: 548/2,286
+- Verified Answer Keys: 0
+- Source images technical: 1,542/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 6,891
+- Exam-linked: 967
+- Review-required: 351
+- Unclassified: 17,546
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `6a8ea7f2-1e77-4654-a28c-0ea1b82b4830 — الفقه الكتاب المدرسي`
+- current source: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`
+- exact next operation: `Re-fetch live HEAD/baton; verify no active Mathematics 1445 workflow; technically verify all 42 images; inspect complete ordered visual evidence and source metadata to discover model/correction boundaries without inheriting prior patterns; map 28 questions only to proven model membership; preserve unsupported Answer Keys and semantics as NOT VERIFIED/review_required; assert global invariant and checkpoint.`
+- next source: `NOT YET RESOLVED — derive only after Mathematics 1445 from live MASTER_CONTENT_MANIFEST`
+- blockers: `none at handoff.`
+- handoff note: `Worker A starts from Mathematics 1445 only after re-fetching live HEAD/baton. Do not rerun Fiqh absent fresh drift evidence and do not inherit any prior exam grouping pattern into Mathematics 1445.`
+'''
+          baton.write_text(text.rstrip()+run+'\n',encoding='utf-8')
+          print('WORKER_B_FIQH_HANDOFF_PREPARED', now)
+          PY
+      - name: Re-fetch live branch immediately before shared-log commit
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          LIVE=$(git rev-parse origin/content/corpus-inventory-20260914)
+          LOCAL=$(git rev-parse HEAD)
+          test "$LIVE" = "$LOCAL" || { echo "Shared-log final safety gate: branch changed live=$LIVE local=$LOCAL"; exit 24; }
+      - name: Commit shared baton only
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          git commit -m 'content: hand off Fiqh completion to Worker A [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
