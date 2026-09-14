@@ -1,0 +1,78 @@
+name: Discover Faith Book
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/discover-faith-book.yml'
+      - 'content-staging/tools/discover_faith_book.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-faith-book
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master-reference
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check Pillow
+      - name: Verify immutable Faith RAW media
+        run: python content-staging/tools/verify_subject_media.py --subject-id 516f1c1d-acc0-4b1c-8e50-8f92a7c737e0
+      - name: Discover exact identity and prepare visual evidence
+        run: python content-staging/tools/discover_faith_book.py
+      - name: Assert evidence only, no semantic finalization
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='516f1c1d-acc0-4b1c-8e50-8f92a7c737e0'
+          t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
+          d=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-discovery.json').read_text())
+          assert t['all_images_technically_verified'] is True
+          assert t['checks']['manifest_image_count']==65
+          assert d['source_pages']==65 and d['legacy_questions']==976
+          assert d['semantic_structure_status']=='NOT VERIFIED'
+          assert d['question_linkage_status']=='NOT VERIFIED'
+          assert d['raw_mutations']==0 and d['imports_created']==0 and d['publications_created']==0
+          print('FAITH_DISCOVERY_SAFE_VERIFY_PASS')
+          PY
+      - name: Upload contact sheets for human visual review
+        uses: actions/upload-artifact@v4
+        with:
+          name: faith-contact-sheets
+          path: /tmp/faith-contact-sheets/*.jpg
+          if-no-files-found: error
+          retention-days: 7
+      - name: Re-fetch live branch before write and fail closed on conflict
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          LIVE=$(git rev-parse origin/content/corpus-inventory-20260914)
+          LOCAL=$(git rev-parse HEAD)
+          test "$LIVE" = "$LOCAL" || { echo "Write safety gate: branch changed live=$LIVE local=$LOCAL"; exit 24; }
+      - name: Commit evidence-only Faith discovery
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/reconstruction/technical/516f1c1d-acc0-4b1c-8e50-8f92a7c737e0.json \
+            content-staging/reconstruction/educational/516f1c1d-acc0-4b1c-8e50-8f92a7c737e0-discovery.json
+          git commit -m 'content: record faith technical and identity discovery [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
