@@ -1,0 +1,1382 @@
+{
+  "evidence": {
+    "boundary_method": "trusted master table of contents + exact page-title runs + SHA-equal RAW/master mapping + selective visual inspection",
+    "raw_mutations": 0,
+    "toc_pages": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "legacy_identity": {
+    "class_id": "075b135c-8159-4727-a365-f7396690fb3f",
+    "class_name": "الكيمياء ثالث ثانوي",
+    "subject_name": "الكيمياء الكتاب المدرسي"
+  },
+  "notes": [
+    "Legacy is a contiguous retained slice of the same trusted master book: numbered pages 11..188.",
+    "Master pages 3..10 are before the retained Legacy slice; pages 189..193 are after it.",
+    "Unit covers and unit reviews are modeled separately from lessons; glossary 184..188 is an appendix, not lessons.",
+    "Question semantic correctness and final lesson-question linkage remain NOT VERIFIED; page-local structural counts only are recorded.",
+    "No RAW file was modified."
+  ],
+  "question_baseline": {
+    "appendix_questions": 0,
+    "legacy_questions": 2576,
+    "lesson_page_questions": 2225,
+    "review_questions": 203,
+    "semantic_link_status": "NOT VERIFIED",
+    "unit_cover_questions": 148
+  },
+  "reconstructed_book": {
+    "appendices": [
+      {
+        "first_page": 184,
+        "last_page": 188,
+        "page_count": 5,
+        "page_numbers": [
+          184,
+          185,
+          186,
+          187,
+          188
+        ],
+        "status": "verified",
+        "title": "المصطلحات العلمية",
+        "type": "glossary"
+      }
+    ],
+    "appendix_page_count": 5,
+    "grade_or_level": "ثالث ثانوي",
+    "legacy_retained_page_count": 178,
+    "legacy_retained_page_range": [
+      11,
+      188
+    ],
+    "lesson_count": 57,
+    "lesson_page_count": 149,
+    "review_page_count": 14,
+    "subject": "الكيمياء",
+    "title": "كتاب الكيمياء",
+    "trusted_master_reference": {
+      "commit": "f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23",
+      "folder": "الكيمياء ثالث ثانوي/كتاب الكيمياء",
+      "master_only_numbered_pages_outside_legacy_range": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        189,
+        190,
+        191,
+        192,
+        193
+      ],
+      "numbered_page_range": [
+        3,
+        193
+      ],
+      "shared_page_range": [
+        11,
+        188
+      ],
+      "shared_sha256_equal": 178,
+      "shared_sha256_mismatch_or_missing": 0
+    },
+    "unit_count": 9,
+    "unit_cover_page_count": 10,
+    "units": [
+      {
+        "first_page": 11,
+        "id": "chemistry-u01",
+        "last_page": 21,
+        "lesson_count": 4,
+        "lessons": [
+          {
+            "first_page": 12,
+            "id": "chemistry-u01-l01",
+            "last_page": 12,
+            "legacy_page_ids": [
+              "4f39332c-3a9a-446e-a726-97d8244dc975"
+            ],
+            "legacy_question_count": 26,
+            "ordinal": 1,
+            "page_count": 1,
+            "page_numbers": [
+              12
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "موقع العناصر في الجدول الدوري"
+          },
+          {
+            "first_page": 13,
+            "id": "chemistry-u01-l02",
+            "last_page": 13,
+            "legacy_page_ids": [
+              "307f0a71-6a3c-48b7-9def-a57aba333be6"
+            ],
+            "legacy_question_count": 23,
+            "ordinal": 2,
+            "page_count": 1,
+            "page_numbers": [
+              13
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الخواص العامة للعناصر الانتقالية"
+          },
+          {
+            "first_page": 14,
+            "id": "chemistry-u01-l03",
+            "last_page": 15,
+            "legacy_page_ids": [
+              "5d0afee1-2b3e-4a46-a278-aebe9a1e4c92",
+              "5c5cde39-f66d-4959-a448-b099c6090807"
+            ],
+            "legacy_question_count": 53,
+            "ordinal": 3,
+            "page_count": 2,
+            "page_numbers": [
+              14,
+              15
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "التركيب الإلكتروني وحالات التأكسد"
+          },
+          {
+            "first_page": 16,
+            "id": "chemistry-u01-l04",
+            "last_page": 20,
+            "legacy_page_ids": [
+              "02457937-d7ab-4901-9ae9-2043441deb5c",
+              "43fc7eb2-b704-4a2f-9e9c-9fb2e9e03add",
+              "1c2c370e-287a-4527-ad77-a646db2d76e3",
+              "0124ae75-a22c-4896-abec-ba502ffc6def",
+              "1383ba34-2ebb-4033-b88a-d19a083cc1e6"
+            ],
+            "legacy_question_count": 120,
+            "ordinal": 4,
+            "page_count": 5,
+            "page_numbers": [
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الحديد"
+          }
+        ],
+        "ordinal": 1,
+        "page_count": 11,
+        "review_pages": [
+          21
+        ],
+        "source_header_title": "الوحدة الأولى - العناصر الانتقالية",
+        "status": "verified",
+        "title": "العناصر الانتقالية",
+        "unit_cover_pages": [
+          11
+        ]
+      },
+      {
+        "first_page": 22,
+        "id": "chemistry-u02",
+        "last_page": 41,
+        "lesson_count": 6,
+        "lessons": [
+          {
+            "first_page": 23,
+            "id": "chemistry-u02-l01",
+            "last_page": 25,
+            "legacy_page_ids": [
+              "38db7b79-fc1d-49fe-8a54-8ef54ed0416d",
+              "6de7c1d8-f553-42c9-8e19-715ee381013f",
+              "9321d320-e618-4dc6-9c31-88e24f8aba49"
+            ],
+            "legacy_question_count": 42,
+            "ordinal": 1,
+            "page_count": 3,
+            "page_numbers": [
+              23,
+              24,
+              25
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "صور الطاقة وتحولاتها"
+          },
+          {
+            "first_page": 26,
+            "id": "chemistry-u02-l02",
+            "last_page": 26,
+            "legacy_page_ids": [
+              "fd8ed011-9758-4cf4-a2da-6959afe5d500"
+            ],
+            "legacy_question_count": 27,
+            "ordinal": 2,
+            "page_count": 1,
+            "page_numbers": [
+              26
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "السعة الحرارية والحرارة النوعية"
+          },
+          {
+            "first_page": 27,
+            "id": "chemistry-u02-l03",
+            "last_page": 30,
+            "legacy_page_ids": [
+              "aa80ac5f-afc6-489d-9c2c-79e616fb9e48",
+              "62589945-8a19-49fa-989a-238b1c59708a",
+              "d3accb29-40e5-425d-834b-a23cdb26bb6f",
+              "9f2d307d-95b6-4637-b7c2-d931d7c90d3e"
+            ],
+            "legacy_question_count": 61,
+            "ordinal": 3,
+            "page_count": 4,
+            "page_numbers": [
+              27,
+              28,
+              29,
+              30
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "التفاعلات الكيميائية وحرارة التفاعل"
+          },
+          {
+            "first_page": 31,
+            "id": "chemistry-u02-l04",
+            "last_page": 34,
+            "legacy_page_ids": [
+              "26bbb53e-77e9-4362-99f2-dcc85c4ffb90",
+              "d4b3442e-56c9-49d4-b6fe-7b4aa970ef8b",
+              "e08d7615-5c1b-4a2a-9087-27e6349b4fc9",
+              "83b717fe-60e6-4d5c-9d48-33f919867a72"
+            ],
+            "legacy_question_count": 68,
+            "ordinal": 4,
+            "page_count": 4,
+            "page_numbers": [
+              31,
+              32,
+              33,
+              34
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "أنواع التغيرات الحرارية"
+          },
+          {
+            "first_page": 35,
+            "id": "chemistry-u02-l05",
+            "last_page": 35,
+            "legacy_page_ids": [
+              "85195cf8-0743-4a28-b5c9-e3233d83e1c5"
+            ],
+            "legacy_question_count": 15,
+            "ordinal": 5,
+            "page_count": 1,
+            "page_numbers": [
+              35
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "حرارة التكوين القياسية وعلاقتها بثبات المركب"
+          },
+          {
+            "first_page": 36,
+            "id": "chemistry-u02-l06",
+            "last_page": 39,
+            "legacy_page_ids": [
+              "98b59f4c-1100-4d51-8383-1bdcfb11b69e",
+              "b6a19a33-9160-4c95-b55f-ca5929aad634",
+              "ad4f1e99-411b-42b2-852e-4ac7c0f18e6e",
+              "6ad32078-6196-4e1d-8488-fedad78561ee"
+            ],
+            "legacy_question_count": 65,
+            "ordinal": 6,
+            "page_count": 4,
+            "page_numbers": [
+              36,
+              37,
+              38,
+              39
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "حساب حرارة التفاعل"
+          }
+        ],
+        "ordinal": 2,
+        "page_count": 20,
+        "review_pages": [
+          40,
+          41
+        ],
+        "source_header_title": "الوحدة الثانية - الطاقة الحرارية المصاحبة لتغيرات المادة",
+        "status": "verified",
+        "title": "الطاقة الحرارية المصاحبة لتغيرات المادة",
+        "unit_cover_pages": [
+          22
+        ]
+      },
+      {
+        "first_page": 42,
+        "id": "chemistry-u03",
+        "last_page": 68,
+        "lesson_count": 9,
+        "lessons": [
+          {
+            "first_page": 43,
+            "id": "chemistry-u03-l01",
+            "last_page": 45,
+            "legacy_page_ids": [
+              "d685ad34-2349-467c-bb6a-eadd06d9440b",
+              "4d7bbbd1-5317-4181-879c-9fdca4da469a",
+              "56041d19-e805-45e9-b6ea-45b2fcc649d9"
+            ],
+            "legacy_question_count": 41,
+            "ordinal": 1,
+            "page_count": 3,
+            "page_numbers": [
+              43,
+              44,
+              45
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الأكسدة والاختزال"
+          },
+          {
+            "first_page": 46,
+            "id": "chemistry-u03-l02",
+            "last_page": 46,
+            "legacy_page_ids": [
+              "a8d6f07a-e469-41f0-bdd7-56637cf2b2b9"
+            ],
+            "legacy_question_count": 13,
+            "ordinal": 2,
+            "page_count": 1,
+            "page_numbers": [
+              46
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "تفاعلات الأكسدة والاختزال"
+          },
+          {
+            "first_page": 47,
+            "id": "chemistry-u03-l03",
+            "last_page": 47,
+            "legacy_page_ids": [
+              "1f2e6cd6-4b88-4345-8c56-a296acc41872"
+            ],
+            "legacy_question_count": 15,
+            "ordinal": 3,
+            "page_count": 1,
+            "page_numbers": [
+              47
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الخلايا الكهروكيميائية"
+          },
+          {
+            "first_page": 48,
+            "id": "chemistry-u03-l04",
+            "last_page": 52,
+            "legacy_page_ids": [
+              "a8619b8f-ccf2-4d1d-9c1f-586d148b466d",
+              "db841040-12a4-4ca4-981f-350c8c335c25",
+              "d1b0e246-d484-42e2-a9b7-140dd26349aa",
+              "0201209d-fc4b-4c25-886c-26c63df7c85b",
+              "53aee9a0-5501-42b7-94ad-a9f188b71b84"
+            ],
+            "legacy_question_count": 67,
+            "ordinal": 4,
+            "page_count": 5,
+            "page_numbers": [
+              48,
+              49,
+              50,
+              51,
+              52
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الخلايا الجلفانية"
+          },
+          {
+            "first_page": 53,
+            "id": "chemistry-u03-l05",
+            "last_page": 53,
+            "legacy_page_ids": [
+              "b656abcd-80fe-4713-8af9-70d95984706a"
+            ],
+            "legacy_question_count": 15,
+            "ordinal": 5,
+            "page_count": 1,
+            "page_numbers": [
+              53
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "مزايا السلسلة الكهروكيميائية"
+          },
+          {
+            "first_page": 54,
+            "id": "chemistry-u03-l06",
+            "last_page": 57,
+            "legacy_page_ids": [
+              "64a14a29-dc97-46e8-bdbb-7608485e7ed3",
+              "369b7efe-a1e0-44f7-bb6b-04f1e70cc6a8",
+              "291a5670-d9a4-49cf-911d-7e6ac373839a",
+              "9ddec464-8698-425c-91c4-2f45bc72fc18"
+            ],
+            "legacy_question_count": 58,
+            "ordinal": 6,
+            "page_count": 4,
+            "page_numbers": [
+              54,
+              55,
+              56,
+              57
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "بعض الخلايا الجلفانية"
+          },
+          {
+            "first_page": 58,
+            "id": "chemistry-u03-l07",
+            "last_page": 59,
+            "legacy_page_ids": [
+              "29233d1d-a604-4115-a158-652f0a76b266",
+              "6f5ba9ad-bc44-424b-98d7-530ebc465402"
+            ],
+            "legacy_question_count": 27,
+            "ordinal": 7,
+            "page_count": 2,
+            "page_numbers": [
+              58,
+              59
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "خلايا التحليل الكهربائي"
+          },
+          {
+            "first_page": 60,
+            "id": "chemistry-u03-l08",
+            "last_page": 64,
+            "legacy_page_ids": [
+              "753986e9-77f1-4ce6-ab6e-f95caae2877c",
+              "e2b8ef87-c1e7-4879-8ba9-ae6094a12e78",
+              "a8f557c8-2a23-4683-accf-01b7e03ccb0a",
+              "c610fb76-f11e-4500-b93a-1f12904696d6",
+              "6b649db2-2d6a-4c72-a5a8-81da5498753d"
+            ],
+            "legacy_question_count": 73,
+            "ordinal": 8,
+            "page_count": 5,
+            "page_numbers": [
+              60,
+              61,
+              62,
+              63,
+              64
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "تطبيقات على التحليل الكهربائي"
+          },
+          {
+            "first_page": 65,
+            "id": "chemistry-u03-l09",
+            "last_page": 66,
+            "legacy_page_ids": [
+              "0f4965fc-031e-4c7d-a565-56e13b45da92",
+              "a036bf75-3e47-487d-83ab-de62a8bca147"
+            ],
+            "legacy_question_count": 27,
+            "ordinal": 9,
+            "page_count": 2,
+            "page_numbers": [
+              65,
+              66
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "تفاعلات غير مرغوبة للتأكسد"
+          }
+        ],
+        "ordinal": 3,
+        "page_count": 27,
+        "review_pages": [
+          67,
+          68
+        ],
+        "source_header_title": "الوحدة الثالثة - الطاقة الكهربائية وتفاعلات الأكسدة والاختزال",
+        "status": "verified",
+        "title": "الطاقة الكهربائية وتفاعلات الأكسدة والاختزال",
+        "unit_cover_pages": [
+          42
+        ]
+      },
+      {
+        "first_page": 69,
+        "id": "chemistry-u04",
+        "last_page": 90,
+        "lesson_count": 9,
+        "lessons": [
+          {
+            "first_page": 71,
+            "id": "chemistry-u04-l01",
+            "last_page": 71,
+            "legacy_page_ids": [
+              "650d3e56-c83f-46b5-8e9d-76dad1b93ee2"
+            ],
+            "legacy_question_count": 15,
+            "ordinal": 1,
+            "page_count": 1,
+            "page_numbers": [
+              71
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "اكتشاف النظائر"
+          },
+          {
+            "first_page": 72,
+            "id": "chemistry-u04-l02",
+            "last_page": 72,
+            "legacy_page_ids": [
+              "a07ff924-2cef-4d76-a3d8-3d44f59e49c6"
+            ],
+            "legacy_question_count": 15,
+            "ordinal": 2,
+            "page_count": 1,
+            "page_numbers": [
+              72
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "أنواع النظائر"
+          },
+          {
+            "first_page": 73,
+            "id": "chemistry-u04-l03",
+            "last_page": 73,
+            "legacy_page_ids": [
+              "5604f77a-24c8-4966-93fe-def56964f73f"
+            ],
+            "legacy_question_count": 15,
+            "ordinal": 3,
+            "page_count": 1,
+            "page_numbers": [
+              73
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "معادلات التفاعلات النووية"
+          },
+          {
+            "first_page": 74,
+            "id": "chemistry-u04-l04",
+            "last_page": 75,
+            "legacy_page_ids": [
+              "717a5b95-0e71-4b67-b80d-bab909cebee7",
+              "fea47364-f695-4d3c-a7b8-79245109c44c"
+            ],
+            "legacy_question_count": 29,
+            "ordinal": 4,
+            "page_count": 2,
+            "page_numbers": [
+              74,
+              75
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "طاقة الترابط النووي وعلاقتها بالكتلة المفقودة"
+          },
+          {
+            "first_page": 76,
+            "id": "chemistry-u04-l05",
+            "last_page": 76,
+            "legacy_page_ids": [
+              "b4fca022-b1d7-47e8-929b-d11c37cea2a1"
+            ],
+            "legacy_question_count": 14,
+            "ordinal": 5,
+            "page_count": 1,
+            "page_numbers": [
+              76
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "استقرار النواة"
+          },
+          {
+            "first_page": 77,
+            "id": "chemistry-u04-l06",
+            "last_page": 78,
+            "legacy_page_ids": [
+              "59c2c61d-effc-4fc2-bf48-dcc472d54b0d",
+              "79ac343f-f56c-4424-a4b3-c359c72d29eb"
+            ],
+            "legacy_question_count": 28,
+            "ordinal": 6,
+            "page_count": 2,
+            "page_numbers": [
+              77,
+              78
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "العلاقة بين نسبة عدد البروتونات والنيوترونات واستقرار النواة"
+          },
+          {
+            "first_page": 79,
+            "id": "chemistry-u04-l07",
+            "last_page": 79,
+            "legacy_page_ids": [
+              "b28b17fe-1c64-48e0-a0fa-e6524681f655"
+            ],
+            "legacy_question_count": 14,
+            "ordinal": 7,
+            "page_count": 1,
+            "page_numbers": [
+              79
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الجسيمات والإشعاعات الصادرة من الأنوية غير المستقرة"
+          },
+          {
+            "first_page": 80,
+            "id": "chemistry-u04-l08",
+            "last_page": 86,
+            "legacy_page_ids": [
+              "66c943f6-f642-45f1-93d6-23d3bcb57b08",
+              "f448e322-f269-43d6-8043-161a10f104f0",
+              "599bcb7b-d08b-48e3-a539-73f985c4b966",
+              "34e57390-031c-4987-a891-0b9984d408e7",
+              "784007ab-e726-4183-babc-4087de7bb922",
+              "6674cc5d-efed-4a7e-8b96-488b6437fd24",
+              "a39abbd2-f64e-4c7e-bbfd-ec5459540a6e"
+            ],
+            "legacy_question_count": 98,
+            "ordinal": 8,
+            "page_count": 7,
+            "page_numbers": [
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "التفاعلات النووية"
+          },
+          {
+            "first_page": 87,
+            "id": "chemistry-u04-l09",
+            "last_page": 88,
+            "legacy_page_ids": [
+              "bbaf7245-f0ac-4c58-bcd0-15d8f027a972",
+              "98feeaa3-3438-4b2b-9a52-53c8944fc71d"
+            ],
+            "legacy_question_count": 25,
+            "ordinal": 9,
+            "page_count": 2,
+            "page_numbers": [
+              87,
+              88
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الوقاية من خطر التلوث الإشعاعي"
+          }
+        ],
+        "ordinal": 4,
+        "page_count": 22,
+        "review_pages": [
+          89,
+          90
+        ],
+        "source_header_title": "الوحدة الرابعة - الطاقة والتفاعلات النووية",
+        "status": "verified",
+        "title": "الطاقة والتفاعلات النووية",
+        "unit_cover_pages": [
+          69,
+          70
+        ]
+      },
+      {
+        "first_page": 91,
+        "id": "chemistry-u05",
+        "last_page": 103,
+        "lesson_count": 4,
+        "lessons": [
+          {
+            "first_page": 92,
+            "id": "chemistry-u05-l01",
+            "last_page": 94,
+            "legacy_page_ids": [
+              "b49af760-523d-4474-af25-e19226179390",
+              "07622b8d-ce60-4ca6-bebb-aaf1d121ca93",
+              "56ce3fa0-953d-42e9-b322-074df4ff43e0"
+            ],
+            "legacy_question_count": 40,
+            "ordinal": 1,
+            "page_count": 3,
+            "page_numbers": [
+              92,
+              93,
+              94
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الأمينات"
+          },
+          {
+            "first_page": 95,
+            "id": "chemistry-u05-l02",
+            "last_page": 96,
+            "legacy_page_ids": [
+              "b77441ad-aad2-41b2-917d-0d92ff2c5e01",
+              "d32dd08e-0cb3-4da7-884a-2ad042962091"
+            ],
+            "legacy_question_count": 28,
+            "ordinal": 2,
+            "page_count": 2,
+            "page_numbers": [
+              95,
+              96
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الأميدات"
+          },
+          {
+            "first_page": 97,
+            "id": "chemistry-u05-l03",
+            "last_page": 98,
+            "legacy_page_ids": [
+              "378471ff-c925-4672-9c44-09aef797554a",
+              "305d5d3e-3a80-48e4-bf3e-958b82cb39a9"
+            ],
+            "legacy_question_count": 28,
+            "ordinal": 3,
+            "page_count": 2,
+            "page_numbers": [
+              97,
+              98
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "النيتريلات"
+          },
+          {
+            "first_page": 99,
+            "id": "chemistry-u05-l04",
+            "last_page": 102,
+            "legacy_page_ids": [
+              "e00aa966-0e72-4d76-9505-16b58d5ae38c",
+              "758ae106-2574-4a09-9af2-004146a067e8",
+              "74d31a69-f188-444c-91db-30b2e9778f2e",
+              "0de66a16-68b3-4be1-982e-ab7932af6d52"
+            ],
+            "legacy_question_count": 55,
+            "ordinal": 4,
+            "page_count": 4,
+            "page_numbers": [
+              99,
+              100,
+              101,
+              102
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الحموض الأمينية"
+          }
+        ],
+        "ordinal": 5,
+        "page_count": 13,
+        "review_pages": [
+          103
+        ],
+        "source_header_title": "الوحدة الخامسة - مركبات النيتروجين العضوية",
+        "status": "verified",
+        "title": "مركبات النيتروجين العضوية",
+        "unit_cover_pages": [
+          91
+        ]
+      },
+      {
+        "first_page": 104,
+        "id": "chemistry-u06",
+        "last_page": 122,
+        "lesson_count": 6,
+        "lessons": [
+          {
+            "first_page": 105,
+            "id": "chemistry-u06-l01",
+            "last_page": 105,
+            "legacy_page_ids": [
+              "f23cf2a8-89fa-455f-9273-2a5778ff7a46"
+            ],
+            "legacy_question_count": 12,
+            "ordinal": 1,
+            "page_count": 1,
+            "page_numbers": [
+              105
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "مقدمة عن الكيمياء الحيوية"
+          },
+          {
+            "first_page": 106,
+            "id": "chemistry-u06-l02",
+            "last_page": 111,
+            "legacy_page_ids": [
+              "30de686c-2648-4a96-b93b-5718c10e5b8c",
+              "d064bf24-a7eb-4062-aec0-d2c0cf8c9105",
+              "ed7cc64e-f028-470a-9a13-69b005403413",
+              "3d471a77-8718-47ca-9122-ff3683a0a952",
+              "1687fa04-bbdc-4f27-b4af-cfed2192204b",
+              "1aa05ffc-26e9-4170-b1b0-e1793f1d587a"
+            ],
+            "legacy_question_count": 86,
+            "ordinal": 2,
+            "page_count": 6,
+            "page_numbers": [
+              106,
+              107,
+              108,
+              109,
+              110,
+              111
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "المواد الأساسية التي يحتاجها الإنسان في غذائه - الكربوهيدرات"
+          },
+          {
+            "first_page": 112,
+            "id": "chemistry-u06-l03",
+            "last_page": 114,
+            "legacy_page_ids": [
+              "44c8a527-0427-4999-8ece-28ca26e9a7ac",
+              "0c490354-7fee-4e28-971f-bcf95dca4300",
+              "122e6ec6-ba3b-429f-b198-72ba5c209e6f"
+            ],
+            "legacy_question_count": 41,
+            "ordinal": 3,
+            "page_count": 3,
+            "page_numbers": [
+              112,
+              113,
+              114
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "البروتينات"
+          },
+          {
+            "first_page": 115,
+            "id": "chemistry-u06-l04",
+            "last_page": 117,
+            "legacy_page_ids": [
+              "29c3f513-1d3e-48cd-a8c8-179b8fa830cf",
+              "dedf14cb-739e-44b5-98e4-791ace53f39b",
+              "f4c52d11-13cd-4c6e-bf65-af80cf30ba4f"
+            ],
+            "legacy_question_count": 42,
+            "ordinal": 4,
+            "page_count": 3,
+            "page_numbers": [
+              115,
+              116,
+              117
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الليبيدات"
+          },
+          {
+            "first_page": 118,
+            "id": "chemistry-u06-l05",
+            "last_page": 118,
+            "legacy_page_ids": [
+              "464afc4f-d27e-4279-be9f-417f1d92fc39"
+            ],
+            "legacy_question_count": 15,
+            "ordinal": 5,
+            "page_count": 1,
+            "page_numbers": [
+              118
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الفيتامينات"
+          },
+          {
+            "first_page": 119,
+            "id": "chemistry-u06-l06",
+            "last_page": 120,
+            "legacy_page_ids": [
+              "67eb60cc-188b-48ca-8f00-716dcb3687ce",
+              "5af1e633-0fd6-48a1-afea-34aa64f14570"
+            ],
+            "legacy_question_count": 29,
+            "ordinal": 6,
+            "page_count": 2,
+            "page_numbers": [
+              119,
+              120
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الإنزيمات"
+          }
+        ],
+        "ordinal": 6,
+        "page_count": 19,
+        "review_pages": [
+          121,
+          122
+        ],
+        "source_header_title": "الوحدة السادسة - الكيمياء الحيوية",
+        "status": "verified",
+        "title": "الكيمياء الحيوية",
+        "unit_cover_pages": [
+          104
+        ]
+      },
+      {
+        "first_page": 123,
+        "id": "chemistry-u07",
+        "last_page": 137,
+        "lesson_count": 7,
+        "lessons": [
+          {
+            "first_page": 124,
+            "id": "chemistry-u07-l01",
+            "last_page": 124,
+            "legacy_page_ids": [
+              "c7c74771-b93f-4517-b9e0-485e82d1c74a"
+            ],
+            "legacy_question_count": 15,
+            "ordinal": 1,
+            "page_count": 1,
+            "page_numbers": [
+              124
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الذهب الأسود مصدر من مصادر الطاقة"
+          },
+          {
+            "first_page": 125,
+            "id": "chemistry-u07-l02",
+            "last_page": 127,
+            "legacy_page_ids": [
+              "3d70e70e-5643-4d43-987a-53397cd97cad",
+              "6092caff-2c3a-4eb0-9edc-1c1475067e75",
+              "55fcb296-d66b-4f5e-878e-844f7b9bcac2"
+            ],
+            "legacy_question_count": 43,
+            "ordinal": 2,
+            "page_count": 3,
+            "page_numbers": [
+              125,
+              126,
+              127
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "أصل النفط الخام"
+          },
+          {
+            "first_page": 128,
+            "id": "chemistry-u07-l03",
+            "last_page": 129,
+            "legacy_page_ids": [
+              "d5131dd5-cdcf-412d-a007-375c474423b5",
+              "30e8f9b5-e529-40a8-a3de-5a13fbf411ae"
+            ],
+            "legacy_question_count": 28,
+            "ordinal": 3,
+            "page_count": 2,
+            "page_numbers": [
+              128,
+              129
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الكشف عن وجود النفط"
+          },
+          {
+            "first_page": 130,
+            "id": "chemistry-u07-l04",
+            "last_page": 130,
+            "legacy_page_ids": [
+              "83fd3b7e-78fe-4c42-96da-fac60b07424a"
+            ],
+            "legacy_question_count": 15,
+            "ordinal": 4,
+            "page_count": 1,
+            "page_numbers": [
+              130
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "استخراج النفط"
+          },
+          {
+            "first_page": 131,
+            "id": "chemistry-u07-l05",
+            "last_page": 133,
+            "legacy_page_ids": [
+              "ce79c0fd-b09a-4a8d-84fa-122ecacd079b",
+              "c24e37bd-ea45-437e-929b-d092d7425269",
+              "f1d29943-cf78-4425-9e25-e1bfe2432bf6"
+            ],
+            "legacy_question_count": 42,
+            "ordinal": 5,
+            "page_count": 3,
+            "page_numbers": [
+              131,
+              132,
+              133
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "تكرير النفط"
+          },
+          {
+            "first_page": 134,
+            "id": "chemistry-u07-l06",
+            "last_page": 134,
+            "legacy_page_ids": [
+              "be4ea44a-f02a-426b-8ddf-d73e628f8621"
+            ],
+            "legacy_question_count": 14,
+            "ordinal": 6,
+            "page_count": 1,
+            "page_numbers": [
+              134
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "النفط كمصدر للطاقة"
+          },
+          {
+            "first_page": 135,
+            "id": "chemistry-u07-l07",
+            "last_page": 136,
+            "legacy_page_ids": [
+              "0e143fbf-85a1-44e9-8d87-16548bb7308d",
+              "9e79ac5b-9ef9-492f-97e0-c19002d20ee3"
+            ],
+            "legacy_question_count": 30,
+            "ordinal": 7,
+            "page_count": 2,
+            "page_numbers": [
+              135,
+              136
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "النفط كمصدر للمنتجات الصناعية"
+          }
+        ],
+        "ordinal": 7,
+        "page_count": 15,
+        "review_pages": [
+          137
+        ],
+        "source_header_title": "الوحدة السابعة - الذهب الأسود",
+        "status": "verified",
+        "title": "الذهب الأسود",
+        "unit_cover_pages": [
+          123
+        ]
+      },
+      {
+        "first_page": 138,
+        "id": "chemistry-u08",
+        "last_page": 166,
+        "lesson_count": 7,
+        "lessons": [
+          {
+            "first_page": 139,
+            "id": "chemistry-u08-l01",
+            "last_page": 139,
+            "legacy_page_ids": [
+              "fd033f99-f006-4b84-80ab-7efd734d22a8"
+            ],
+            "legacy_question_count": 13,
+            "ordinal": 1,
+            "page_count": 1,
+            "page_numbers": [
+              139
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "صناعات كيميائية في مجال الزراعة"
+          },
+          {
+            "first_page": 140,
+            "id": "chemistry-u08-l02",
+            "last_page": 142,
+            "legacy_page_ids": [
+              "90d1c39b-dd3a-4278-b8e2-dfcf318e7797",
+              "f8551a65-ad3e-4a2e-9e07-d33606320cd7",
+              "6ec66d2b-1f77-4fa5-a799-fdf967c911f2"
+            ],
+            "legacy_question_count": 43,
+            "ordinal": 2,
+            "page_count": 3,
+            "page_numbers": [
+              140,
+              141,
+              142
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الأسمدة والمخصبات"
+          },
+          {
+            "first_page": 143,
+            "id": "chemistry-u08-l03",
+            "last_page": 146,
+            "legacy_page_ids": [
+              "cd9e9ef7-4643-4ac8-abc3-3128b7bb2521",
+              "16674809-9175-4dbb-a3e1-f9547f1382cc",
+              "75af1022-bbd4-4528-a661-40f5d05d73ce",
+              "a1169951-ee0e-40b3-a4f5-93e175c1ad79"
+            ],
+            "legacy_question_count": 57,
+            "ordinal": 3,
+            "page_count": 4,
+            "page_numbers": [
+              143,
+              144,
+              145,
+              146
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "صناعة الأسمدة النيتروجينية"
+          },
+          {
+            "first_page": 147,
+            "id": "chemistry-u08-l04",
+            "last_page": 149,
+            "legacy_page_ids": [
+              "0cd5f792-2ec3-4d16-85e9-0fcc1c4422ac",
+              "00b91b03-5bb9-4345-9902-391169b4ed24",
+              "f9b81a0f-2136-4c9d-b78e-d9dc322fd975"
+            ],
+            "legacy_question_count": 40,
+            "ordinal": 4,
+            "page_count": 3,
+            "page_numbers": [
+              147,
+              148,
+              149
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "صناعات كيميائية لمكافحة حشرات الزراعة"
+          },
+          {
+            "first_page": 150,
+            "id": "chemistry-u08-l05",
+            "last_page": 150,
+            "legacy_page_ids": [
+              "24019c9a-0b57-4576-8292-69a62f610d14"
+            ],
+            "legacy_question_count": 14,
+            "ordinal": 5,
+            "page_count": 1,
+            "page_numbers": [
+              150
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "مبيدات حديثة غير ضارة بالبيئة والإنسان"
+          },
+          {
+            "first_page": 151,
+            "id": "chemistry-u08-l06",
+            "last_page": 156,
+            "legacy_page_ids": [
+              "6c9df65f-9361-4a79-bb18-5235b06cfc52",
+              "fd4f2844-fae1-42ab-84a1-5d437d7caf82",
+              "32b854f2-5589-4f6a-b0f0-d156d29bbf1a",
+              "a2cfbd05-b03e-4365-b93d-c402f1f717b4",
+              "5504e9d9-0a70-4f60-b7a2-8a58cac81786",
+              "7ca1d39d-9f78-4935-a4dc-bdf8c95b1bcd"
+            ],
+            "legacy_question_count": 88,
+            "ordinal": 6,
+            "page_count": 6,
+            "page_numbers": [
+              151,
+              152,
+              153,
+              154,
+              155,
+              156
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "صناعات كيميائية في مجال الكساء"
+          },
+          {
+            "first_page": 157,
+            "id": "chemistry-u08-l07",
+            "last_page": 164,
+            "legacy_page_ids": [
+              "94b3bbe0-d83f-411c-9caf-bc875fec95df",
+              "ae3abc3d-29c7-42a2-9351-f635f13b46a7",
+              "4d4509b6-9ca3-4dca-8c5d-00bb9766e112",
+              "6d6497a3-4201-4b28-b22a-95aefa3418ec",
+              "3c0701b7-bf58-4cf0-b358-e70bdb78bc92",
+              "08e722ab-eed3-4418-96ba-3d7de963a617",
+              "ca2fc27f-a2f2-4c95-b86a-040050c1be60",
+              "af81988d-8ea1-40b0-a98c-0aa6d2e0241b"
+            ],
+            "legacy_question_count": 105,
+            "ordinal": 7,
+            "page_count": 8,
+            "page_numbers": [
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الصناعات الكيميائية للمواد الاستهلاكية"
+          }
+        ],
+        "ordinal": 8,
+        "page_count": 29,
+        "review_pages": [
+          165,
+          166
+        ],
+        "source_header_title": "الوحدة الثامنة - صناعات كيميائية في خدمة الإنسان",
+        "status": "verified",
+        "title": "صناعات كيميائية في خدمة الإنسان",
+        "unit_cover_pages": [
+          138
+        ]
+      },
+      {
+        "first_page": 167,
+        "id": "chemistry-u09",
+        "last_page": 183,
+        "lesson_count": 5,
+        "lessons": [
+          {
+            "first_page": 168,
+            "id": "chemistry-u09-l01",
+            "last_page": 168,
+            "legacy_page_ids": [
+              "e632616b-5aab-4b25-a060-6cfb4d7ea929"
+            ],
+            "legacy_question_count": 14,
+            "ordinal": 1,
+            "page_count": 1,
+            "page_numbers": [
+              168
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "مفهوم البيئة"
+          },
+          {
+            "first_page": 169,
+            "id": "chemistry-u09-l02",
+            "last_page": 177,
+            "legacy_page_ids": [
+              "9078cc50-60e7-4cc6-b023-a87cace58fba",
+              "c7d6de1a-78ea-4cc0-929b-89e9d9a575f0",
+              "b24b0636-a242-4a6f-b55b-9ec6489243e1",
+              "7b5e402a-a5e3-49ad-989b-0ab786000f9e",
+              "38b84500-57ce-4899-a4c3-c233071d1faa",
+              "82557ed6-be3c-4d13-a6ee-3dbaa3091e99",
+              "bb593c39-97b2-4598-ab24-5a175defab12",
+              "899c03bc-4489-4996-ad2d-a749be0458e7",
+              "6fe7d39c-273c-4fd2-bf58-c7c83e95d095"
+            ],
+            "legacy_question_count": 127,
+            "ordinal": 2,
+            "page_count": 9,
+            "page_numbers": [
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "مفهوم التلوث والملوثات وملوثات الهواء"
+          },
+          {
+            "first_page": 178,
+            "id": "chemistry-u09-l03",
+            "last_page": 178,
+            "legacy_page_ids": [
+              "7b8ae3d5-e3a8-4c5f-b7a3-578b2095d120"
+            ],
+            "legacy_question_count": 12,
+            "ordinal": 3,
+            "page_count": 1,
+            "page_numbers": [
+              178
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "ملوثات المياه"
+          },
+          {
+            "first_page": 179,
+            "id": "chemistry-u09-l04",
+            "last_page": 179,
+            "legacy_page_ids": [
+              "ccfbb8d3-8d26-4ced-8b11-2219cf1f2481"
+            ],
+            "legacy_question_count": 15,
+            "ordinal": 4,
+            "page_count": 1,
+            "page_numbers": [
+              179
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "ملوثات التربة"
+          },
+          {
+            "first_page": 180,
+            "id": "chemistry-u09-l05",
+            "last_page": 182,
+            "legacy_page_ids": [
+              "9f103144-b3dd-46a5-90d0-1f31e89df02f",
+              "66f67d7f-e8d1-4993-8724-a765893e9f2e",
+              "125f4759-1fa9-4278-aca0-06838f5aca0a"
+            ],
+            "legacy_question_count": 45,
+            "ordinal": 5,
+            "page_count": 3,
+            "page_numbers": [
+              180,
+              181,
+              182
+            ],
+            "status": "verified_from_toc_page_titles_and_continuity",
+            "title": "الحلول المقترحة للحد من تلوث البيئة"
+          }
+        ],
+        "ordinal": 9,
+        "page_count": 17,
+        "review_pages": [
+          183
+        ],
+        "source_header_title": "الوحدة التاسعة - الكيمياء والبيئة",
+        "status": "verified",
+        "title": "الكيمياء والبيئة",
+        "unit_cover_pages": [
+          167
+        ]
+      }
+    ]
+  },
+  "schema_version": 1,
+  "source_id": "f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4",
+  "source_type": "educational_book_source",
+  "status": "reconstructed_verified",
+  "technical_verification": {
+    "byte_size_matches": 178,
+    "existing_files": 178,
+    "failures": 0,
+    "manifest_image_count": 178,
+    "mime_matches": 178,
+    "readable_images": 178,
+    "sha256_matches": 178
+  }
+}
