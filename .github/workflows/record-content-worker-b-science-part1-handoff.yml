@@ -6,6 +6,7 @@ on:
       - content/corpus-inventory-20260914
     paths:
       - '.github/workflows/record-content-worker-b-science-part1-handoff.yml'
+      - 'content-staging/tools/record_content_worker_b_science_part1_handoff.py'
 
 permissions:
   contents: write
@@ -25,96 +26,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Record Worker B handoff
-        env:
-          VERIFIED_END_HEAD: 45f5065a5027ac9cf9c2876e7d4051d8387b3481
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          p=Path('content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md')
-          text=p.read_text(encoding='utf-8')
-          start=text.index('## 10. ACTIVE CHECKPOINT')
-          sep=text.index('\n---',start)
-          active='''## 10. ACTIVE CHECKPOINT
-
-- state: `READY`
-- branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `45f5065a5027ac9cf9c2876e7d4051d8387b3481`
-- last completed source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`
-- current source: `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - الجزء الثاني`
-- current operation: `read live manifest/pages -> technically verify all 145 images -> establish exact identity against master/تاسع علوم/علوم_تاسع_الجزء_الثاني -> derive this source's own unit/lesson/review boundaries from exact evidence -> confirm source has 0 legacy questions or preserve any drift -> assert global invariant -> checkpoint`
-- next source: `8489a487-91d9-47fb-80b8-35d0e7a074a4 — الانجليزي نماذج وزارية 1445` (only after Science Part 2 is processed)
-- blockers: `none`
-- owner decision required now: `no`'''
-          text=text[:start]+active+text[sep:]
-          run='''
-
-## RUN 2026-09-14T10:11:00+03:00 — Worker B
-
-- state: COMPLETE
-- start HEAD: `82f36c98862709c396fa0cc98002bd2bbaa2815e`
-- end HEAD before handoff-log commit: `45f5065a5027ac9cf9c2876e7d4051d8387b3481`
-- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
-- source at start: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`
-- completed in this run:
-  - verified Worker A's Science 1447 handoff against live reconstruction evidence and branch state;
-  - completed 161/161 non-destructive technical verification for Science Part 1;
-  - established exact source identity against `master/تاسع علوم/علوم_تاسع_الجزء_الأول`: 161/161 retained RAW images are exact SHA-256 matches;
-  - proved the retained stored range 7..167 corresponds to master source pages 8..168, while master-only pages outside that slice remain reference-only;
-  - reconstructed 8 Units, 22 Lessons, 138 Lesson pages, 8 Unit-cover pages and 15 Unit-review pages from exact master section/title runs;
-  - classified every retained page exactly once and created the finalized educational reconstruction;
-  - structurally linked all 11 source questions to the verified `المحلول ومكوناته` lesson; semantic correctness remains NOT VERIFIED;
-  - updated MASTER_CONTENT_MANIFEST and canonical execution/handoff/inventory/validation/import/continuation reports;
-  - exact-head finalization workflow completed successfully with final invariant verification.
-- evidence produced/verified:
-  - technical report: `content-staging/reconstruction/technical/f4b6708c-027f-4883-9e85-e6e7acb52ecc.json`;
-  - identity/structure discovery: `content-staging/reconstruction/educational/f4b6708c-027f-4883-9e85-e6e7acb52ecc-discovery.json`;
-  - final reconstruction: `content-staging/reconstruction/educational/f4b6708c-027f-4883-9e85-e6e7acb52ecc.json`;
-  - discovery workflow run `34816305370`: success with 161/161 exact identity;
-  - finalization workflow run `34816564726`: success with `SCIENCE_BOOK_PART1_FINALIZATION_VERIFY_PASS`;
-  - master reference: `تاسع علوم/علوم_تاسع_الجزء_الأول`;
-  - within-source duplicate SHA groups: 0.
-- ambiguity/review_required:
-  - no retained structural page remains ambiguous after exact identity/title-run reconstruction;
-  - source question review-required count: 0;
-  - semantic correctness of the 11 legacy AI questions: `NOT VERIFIED`;
-  - master-only pages 1..7 and 169..170 are not fabricated into the retained source.
-- invariant result: PASS (`2,236 + 733 + 351 + 22,435 = 25,755`)
-- Sources processed: 8/58
-- Educational: 2/26
-- Books / Units / Lessons / Lesson Pages: 2 / 17 / 79 / 287
-- Exam Source Groups: 6/32
-- Individual Exam Models: 99
-- Exam Pages: 347/2,286
-- Verified Answer Keys: 0
-- Source images technical: 694/5,273
-- WebP generated / accepted / rejected: 0 / 0 / 0
-- Legacy Questions: 25,755
-- Lesson-linked: 2,236
-- Exam-linked: 733
-- Review-required: 351
-- Unclassified: 22,435
-- Duplicate groups classified: 0/99
-- RAW mutations: 0
-- Unrelated mutations: 0
-- New imports: 0
-- New publications: 0
-- last completed source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`
-- current source: `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - الجزء الثاني`
-- exact next operation: `Fetch Science Part 2 live manifest/pages; technically verify all 145 images; establish exact RAW/master identity against master/تاسع علوم/علوم_تاسع_الجزء_الثاني; reconstruct its own units/lessons/reviews from exact evidence; confirm the manifest's 0-question state; assert the 25,755 global invariant; checkpoint; then continue to English Ministry Exams 1445.`
-- next source: `8489a487-91d9-47fb-80b8-35d0e7a074a4 — الانجليزي نماذج وزارية 1445`
-- blockers: `none`
-- handoff note: `Worker A should re-fetch live HEAD and this baton, confirm the Science Part 1 finalization/handoff workflows are complete, then start Science Part 2 from its own evidence. Do not assume Part 1 unit/lesson counts or retained ranges.`
-'''
-          if '## RUN 2026-09-14T10:11:00+03:00 — Worker B' not in text:
-              text=text.rstrip()+run+'\n'
-          p.write_text(text,encoding='utf-8')
-          PY
+      - name: Record handoff
+        run: python content-staging/tools/record_content_worker_b_science_part1_handoff.py
       - name: Commit handoff
         run: |
           set -euo pipefail
           git config user.name 'alwaslh-content-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          if git diff --cached --quiet; then
+            echo 'Handoff already recorded.'
+            exit 0
+          fi
           git commit -m 'docs: hand off after science part1 reconstruction [skip ci]'
           git push origin HEAD:content/corpus-inventory-20260914
