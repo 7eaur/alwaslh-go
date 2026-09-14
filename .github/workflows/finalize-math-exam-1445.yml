@@ -1,0 +1,85 @@
+name: Finalize Mathematics Exam 1445 Safely
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/finalize-math-exam-1445.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-math-exam-1445
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fail closed on live-head drift before finalization
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "${GITHUB_SHA}" || { echo LIVE_HEAD_DRIFT_FAIL_CLOSED; exit 41; }
+
+      - name: Reconstruct verified and quarantined blocks
+        run: python content-staging/tools/reconstruct_math_exam_1445.py
+
+      - name: Record evidence-backed checkpoint
+        run: python content-staging/tools/record_math_exam_1445_checkpoint.py
+
+      - name: Validate reconstruction and global invariants
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199'
+          r=json.loads((Path('content-staging/reconstruction/exams/source-groups')/f'{sid}.json').read_text(encoding='utf-8'))
+          assert r['source_pages']==42 and r['source_questions']==28
+          assert r['source_blocks_reviewed']==14 and r['verified_source_occurrence_count']==13 and r['review_required_block_count']==1
+          assert r['individual_exam_model_count']==13 and r['finalized_exam_page_count']==39 and r['review_required_page_count']==3
+          assert r['correction_sheet_candidate_count']==13 and r['verified_answer_key_count']==0
+          assert r['question_mapping']['exam_linked_structural']==28 and r['question_mapping']['review_required']==0 and r['question_mapping']['unassigned_within_source']==0
+          assert r['evidence']['raw_mutations']==0
+          m=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text(encoding='utf-8')); p=m['reconstruction_progress']
+          assert p['lesson_linked_structural']+p['exam_linked_to_individual_model']+p['review_required']+p['unclassified']==25755
+          assert p['raw_mutations']==0 and p['unrelated_mutations']==0 and p['new_imports']==0 and p['new_publications']==0
+          print('MATH_1445_SAFE_FINALIZATION_VERIFY_PASS')
+          print(json.dumps(p,ensure_ascii=False))
+          PY
+
+      - name: Re-fetch live head before final write
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "${GITHUB_SHA}" || { echo LIVE_HEAD_DRIFT_BEFORE_WRITE_FAIL_CLOSED; exit 42; }
+
+      - name: Commit finalized evidence and status
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add \
+            content-staging/reconstruction/exams/source-groups/0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+            content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md \
+            content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md \
+            content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          git commit -m 'content: finalize Math 1445 with repeated-label quarantine [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
