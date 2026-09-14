@@ -1,0 +1,92 @@
+name: Analyze Math Book Part 1 Structure
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/analyze-math-book-part1-structure.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Analyze proven page structure and question distribution
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='1933807f-4cb0-40c9-9b29-3ef3d32c98dc'
+          root=Path('content-staging/raw/legacy-supabase/subjects')/sid
+          pages=json.loads((root/'pages.json').read_text(encoding='utf-8'))
+          by_num={p['page_number']:p for p in pages}
+          units=[
+            {'id':'math9-p1-u1','title':'المجموعات والعلاقات','start':7,'end':58},
+            {'id':'math9-p1-u2','title':'تحليل المقادير الجبرية','start':59,'end':112},
+            {'id':'math9-p1-u3','title':'المعادلات','start':113,'end':164},
+            {'id':'math9-p1-u4','title':'حساب المثلثات','start':165,'end':192},
+          ]
+          lesson_runs=[
+            (7,9),(10,16),(17,24),(25,31),(32,39),(40,47),(48,52),
+            (61,72),(73,80),(81,85),(86,89),(90,98),(99,101),(102,107),
+            (113,124),(125,140),(141,151),(152,159),
+            (165,172),(173,183),(184,186),
+          ]
+          review_pages=set([59,60])
+          exercise_pages=set(range(53,58))|set(range(108,112))|set(range(160,164))|set(range(187,192))
+          test_pages={58,112,164,192}
+          lesson_pages=set()
+          lessons=[]
+          for idx,(a,b) in enumerate(lesson_runs,1):
+            vals=list(range(a,b+1)); lesson_pages.update(vals)
+            titles=sorted({by_num[n].get('title') for n in vals})
+            assert len(titles)==1
+            q=sum(len(by_num[n].get('ai_questions') or []) for n in vals)
+            lessons.append({'id':f'math9-p1-l{idx:02d}','title':titles[0],'start_page':a,'end_page':b,'page_count':len(vals),'question_count':q})
+          all_pages=set(range(7,193))
+          nonlesson=review_pages|exercise_pages|test_pages
+          assert lesson_pages.isdisjoint(nonlesson)
+          assert lesson_pages|nonlesson==all_pages
+          def qcount(nums): return sum(len(by_num[n].get('ai_questions') or []) for n in nums)
+          result={
+            'subject_id':sid,
+            'status':'STRUCTURE_EVIDENCE_ANALYSIS',
+            'units':units,
+            'unit_count':4,
+            'lessons':lessons,
+            'lesson_count':len(lessons),
+            'lesson_page_count':len(lesson_pages),
+            'nonlesson_page_count':len(nonlesson),
+            'review_pages':sorted(review_pages),
+            'general_exercise_pages':sorted(exercise_pages),
+            'unit_test_pages':sorted(test_pages),
+            'question_counts':{
+              'total':qcount(all_pages),
+              'lesson_pages':qcount(lesson_pages),
+              'review_pages':qcount(review_pages),
+              'general_exercise_pages':qcount(exercise_pages),
+              'unit_test_pages':qcount(test_pages),
+              'nonlesson_total':qcount(nonlesson),
+            },
+            'all_186_pages_classified_once': len(all_pages)==186 and len(lesson_pages)+len(nonlesson)==186,
+            'raw_mutations':0,
+          }
+          assert result['question_counts']['total']==717
+          assert result['lesson_count']==21 and result['lesson_page_count']==162 and result['nonlesson_page_count']==24
+          Path('math-part1-structure-analysis.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(result['question_counts'],ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: math-part1-structure-analysis
+          path: math-part1-structure-analysis.json
+          retention-days: 7
