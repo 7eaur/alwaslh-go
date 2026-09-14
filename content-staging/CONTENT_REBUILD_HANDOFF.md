@@ -318,3 +318,18 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `062f0aa0-ae21-454e-ad9a-c390df6e4a08` — `الانجليزي نماذج وزارية 1446`.
 <!-- ENGLISH_EXAM_1445_CHECKPOINT_END -->
+
+<!-- ENGLISH_EXAM_1446_CHECKPOINT_START -->
+## Reconstruction checkpoint — Grade 9 English Ministry Exams 1446
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Source `062f0aa0-ae21-454e-ad9a-c390df6e4a08` — `الانجليزي نماذج وزارية 1446` completed from source-local evidence.
+- Technical verification: **39/39** images exist, readable, byte-size/SHA-256/MIME match; sequence **1..39** contiguous; duplicate SHA groups **0**.
+- Full visual review + explicit page titles resolve **13** verified source occurrences / **13** unique Individual Exam Models; each occurrence is two question pages + one correction/result page.
+- Finalized Exam Pages: **39**; review-required pages: **0**; correction-sheet candidates: **13**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Source legacy questions: **0**; no questions were fabricated or mapped.
+- Progress: Sources **11/58**; Educational **3/26**; Exam Groups **8/32**; Individual Exam Models **122**; Exam Pages **416/2,286**; source images technical **908/5,273**.
+- Global questions: Lesson-linked **2236**; Exam-linked **733**; Review-required **351**; Unclassified **22435**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `da6fc228-1ada-4627-8306-80d9d3401490` — `الانجليزي نماذج وزارية 1447`.
+<!-- ENGLISH_EXAM_1446_CHECKPOINT_END -->
