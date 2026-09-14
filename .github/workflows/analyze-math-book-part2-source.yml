@@ -1,0 +1,116 @@
+name: Analyze Math Book Part 2 Source
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/analyze-math-book-part2-source.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify RAW and extract source-local evidence
+        run: |
+          python - <<'PY'
+          import hashlib, json, mimetypes
+          from collections import Counter
+          from pathlib import Path
+
+          sid='b80cbba1-410a-4346-9446-c3f01c4f9e56'
+          root=Path('content-staging/raw/legacy-supabase/subjects')/sid
+          pages=json.loads((root/'pages.json').read_text(encoding='utf-8'))
+          manifest=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
+          images=manifest['images']
+          assert len(pages)==135 and len(images)==135
+          assert manifest['counts']['questions']==0
+          assert manifest['counts']['image_download_failures']==0
+          assert all(not v for v in manifest['anomalies'].values())
+
+          failures=[]
+          duplicate_sha=[]
+          seen={}
+          for rec in images:
+            p=Path('content-staging')/rec['raw_path']
+            if not p.exists():
+              failures.append({'page':rec['page_number'],'reason':'missing'})
+              continue
+            b=p.read_bytes()
+            sha=hashlib.sha256(b).hexdigest()
+            if sha!=rec['sha256']:
+              failures.append({'page':rec['page_number'],'reason':'sha256','expected':rec['sha256'],'actual':sha})
+            if len(b)!=rec['byte_size']:
+              failures.append({'page':rec['page_number'],'reason':'byte_size'})
+            sig='unknown'
+            if b[:3]==b'\xff\xd8\xff': sig='image/jpeg'
+            elif b[:8]==b'\x89PNG\r\n\x1a\n': sig='image/png'
+            if sig!=rec['mime_type']:
+              failures.append({'page':rec['page_number'],'reason':'mime','expected':rec['mime_type'],'actual':sig})
+            seen.setdefault(sha,[]).append(rec['page_number'])
+          duplicate_sha=[v for v in seen.values() if len(v)>1]
+          assert not failures
+
+          ps=sorted(pages,key=lambda x:(x['page_number'],x['id']))
+          nums=[p['page_number'] for p in ps]
+          runs=[]
+          start=prev=nums[0]
+          title=ps[0].get('title')
+          ids=[ps[0]['id']]
+          for p in ps[1:]:
+            n=p['page_number']; t=p.get('title')
+            if n==prev+1 and t==title:
+              prev=n; ids.append(p['id'])
+            else:
+              runs.append({'start_page':start,'end_page':prev,'page_count':prev-start+1,'title':title,'legacy_page_ids':ids})
+              start=prev=n; title=t; ids=[p['id']]
+          runs.append({'start_page':start,'end_page':prev,'page_count':prev-start+1,'title':title,'legacy_page_ids':ids})
+
+          result={
+            'subject_id':sid,
+            'status':'SOURCE_LOCAL_EVIDENCE_ANALYSIS_ONLY',
+            'page_count':len(ps),
+            'page_number_min':min(nums),
+            'page_number_max':max(nums),
+            'unique_page_numbers':len(set(nums)),
+            'missing_numbers_inside_span':[n for n in range(min(nums),max(nums)+1) if n not in set(nums)],
+            'legacy_questions':sum(len(p.get('ai_questions') or []) for p in ps),
+            'technical_verification':{
+              'verified_images':len(images)-len(failures),
+              'failures':failures,
+              'duplicate_sha_groups':duplicate_sha,
+            },
+            'content_types':dict(Counter(p.get('content_type') for p in ps)),
+            'title_run_count':len(runs),
+            'title_runs':runs,
+            'notes':[
+              'Title runs are provenance evidence only; they are not automatically accepted as unit/lesson boundaries.',
+              'No structure inherited from Math Part 1.',
+              'No question mapping exists because this source has zero legacy questions.'
+            ],
+            'raw_mutations':0,
+          }
+          Path('math-part2-source-analysis.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('MATH_PART2_TECH_VERIFY_PASS', result['technical_verification']['verified_images'])
+          print('PAGE_SPAN', result['page_number_min'], result['page_number_max'], 'MISSING', result['missing_numbers_inside_span'])
+          print('CONTENT_TYPES', json.dumps(result['content_types'],ensure_ascii=False))
+          print('DUPLICATE_SHA_GROUPS', json.dumps(duplicate_sha,ensure_ascii=False))
+          print('TITLE_RUNS_BEGIN')
+          for r in runs:
+            print(f"{r['start_page']}-{r['end_page']}\t{r['page_count']}\t{r['title']}")
+          print('TITLE_RUNS_END')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: math-part2-source-analysis
+          path: math-part2-source-analysis.json
+          retention-days: 7
