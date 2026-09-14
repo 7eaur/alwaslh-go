@@ -1,0 +1,2270 @@
+{
+  "schema_version": 1,
+  "source_group_id": "ef408805-c337-44dd-b903-7838030e6de0",
+  "source_group_name": "العلوم نماذج وزارية 1445",
+  "class_id": "1a829ded-4f83-4f2c-bd18-6ffbae21fff7",
+  "class_name": "تاسع العلوم",
+  "subject": "العلوم",
+  "classification": "exam_source_group",
+  "academic_year_hijri": "1445",
+  "academic_year_gregorian": "2023-2024",
+  "source_pages": 30,
+  "source_questions": 215,
+  "source_blocks_reviewed": 10,
+  "verified_source_occurrence_count": 10,
+  "review_required_block_count": 0,
+  "individual_exam_model_count": 10,
+  "finalized_exam_page_count": 30,
+  "review_required_page_count": 0,
+  "correction_sheet_candidate_count": 10,
+  "verified_answer_key_count": 0,
+  "duplicate_sha256_groups_within_source": 0,
+  "models": [
+    {
+      "id": "science-1445-exam-01",
+      "internal_ordinal": 1,
+      "source_model_label": "النموذج 1",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 1,
+      "last_page": 3,
+      "page_count": 3,
+      "question_pages": [
+        1,
+        2
+      ],
+      "correction_sheet_candidate_page": 3,
+      "ordered_page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "ordered_legacy_page_ids": [
+        "464896fa-e42d-4b3d-8a25-3d8e3e48e36e",
+        "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "cda8322a-0b35-48d4-b169-41efa8b71e76"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00001-464896fa-e42d-4b3d-8a25-3d8e3e48e36e-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00002-77b487ff-7f9d-45df-a178-61c70c84a7c3-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00003-cda8322a-0b35-48d4-b169-41efa8b71e76-image-00.jpg"
+      ],
+      "sha256": [
+        "7dfa85979554be5b18830055348e74c46357062427dae67eee4e6d24b1f48347",
+        "997ae4efacb40cc32a86d199e8dc51f6201aef90e0d7f62a6b3ca9f89422abfb",
+        "a0b88a13e066ef01b21a0021f3ecbf071196c1de13521d997594055ff34356b1"
+      ],
+      "associated_legacy_questions": 15,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly labeled as a correction model/electronic correction sheet for the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 1 and 2 as model 1 papers 1 and 2 and page 3 as the correction model for model 1.",
+        "The source-local three-page pattern is verified independently for this Science 1445 source and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1445-exam-02",
+      "internal_ordinal": 2,
+      "source_model_label": "النموذج 2",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 4,
+      "last_page": 6,
+      "page_count": 3,
+      "question_pages": [
+        4,
+        5
+      ],
+      "correction_sheet_candidate_page": 6,
+      "ordered_page_numbers": [
+        4,
+        5,
+        6
+      ],
+      "ordered_legacy_page_ids": [
+        "7c028fbe-2451-4c90-9d31-316e38f7e5f2",
+        "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "d496214e-f781-4090-a646-e22041cb46ba"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00004-7c028fbe-2451-4c90-9d31-316e38f7e5f2-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00005-ea4cccd4-d2cf-4296-93e0-2475db82e99f-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00006-d496214e-f781-4090-a646-e22041cb46ba-image-00.jpg"
+      ],
+      "sha256": [
+        "70eb51fa60cb823db1f09be6792365496b82b3701fd654829c7b93620a852e63",
+        "16ef501b6aa47483437c11fe564132077aa7800f1243b92f29d0eab684365866",
+        "9ef2bb312205a81bcbd5812c885795637ae978e294992257f06f4f8b4c89e8df"
+      ],
+      "associated_legacy_questions": 15,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly labeled as a correction model/electronic correction sheet for the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 4 and 5 as model 2 papers 1 and 2 and page 6 as the correction model for model 2.",
+        "The source-local three-page pattern is verified independently for this Science 1445 source and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1445-exam-03",
+      "internal_ordinal": 3,
+      "source_model_label": "النموذج 3",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 7,
+      "last_page": 9,
+      "page_count": 3,
+      "question_pages": [
+        7,
+        8
+      ],
+      "correction_sheet_candidate_page": 9,
+      "ordered_page_numbers": [
+        7,
+        8,
+        9
+      ],
+      "ordered_legacy_page_ids": [
+        "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "c9bac143-0e62-4101-8265-a3fddc875a71",
+        "665173d5-87d6-402d-8019-9d5f0f449318"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00007-7225eaa5-f1b8-4ea8-bab5-3176c234fed2-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00008-c9bac143-0e62-4101-8265-a3fddc875a71-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00009-665173d5-87d6-402d-8019-9d5f0f449318-image-00.jpg"
+      ],
+      "sha256": [
+        "964bc4922befe7fadc9314a0ebbdeb7c1a523baf365ad87429b9866debbafcb8",
+        "b466c8e02e05f6867a98092f07c727d030a7670eb793bab3d16851100f16105f",
+        "9452cca4bb91e1145ea12ca851e1596cab89258a7dc321c8cbe14d72a8c924c8"
+      ],
+      "associated_legacy_questions": 35,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly labeled as a correction model/electronic correction sheet for the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 7 and 8 as model 3 papers 1 and 2 and page 9 as the correction model for model 3.",
+        "The source-local three-page pattern is verified independently for this Science 1445 source and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1445-exam-04",
+      "internal_ordinal": 4,
+      "source_model_label": "النموذج 4",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 10,
+      "last_page": 12,
+      "page_count": 3,
+      "question_pages": [
+        10,
+        11
+      ],
+      "correction_sheet_candidate_page": 12,
+      "ordered_page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "ordered_legacy_page_ids": [
+        "3f4ca931-d966-4826-ac2a-c5c5ae2cd570",
+        "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "829745a6-c5f9-41e4-af16-3850b97d168a"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00010-3f4ca931-d966-4826-ac2a-c5c5ae2cd570-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00011-91219433-ac6c-40ac-9bef-3565aaf53bea-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00012-829745a6-c5f9-41e4-af16-3850b97d168a-image-00.jpg"
+      ],
+      "sha256": [
+        "c0caeb318a641ac8652c423c7ea5dd7a2aca2559c22417bd1c8af35959814f4e",
+        "2fd3b81328a8082ca00de8504bec5f3104e5003b296d54aacb0ecd70ab1bf997",
+        "562b584ffe4d9b415849542be08e17632ce3baff6705577bcf2aa827c6d1c2e8"
+      ],
+      "associated_legacy_questions": 15,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly labeled as a correction model/electronic correction sheet for the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 10 and 11 as model 4 papers 1 and 2 and page 12 as the correction model for model 4.",
+        "The source-local three-page pattern is verified independently for this Science 1445 source and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1445-exam-05",
+      "internal_ordinal": 5,
+      "source_model_label": "النموذج 5",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 13,
+      "last_page": 15,
+      "page_count": 3,
+      "question_pages": [
+        13,
+        14
+      ],
+      "correction_sheet_candidate_page": 15,
+      "ordered_page_numbers": [
+        13,
+        14,
+        15
+      ],
+      "ordered_legacy_page_ids": [
+        "4b681202-b52a-4ba0-85d2-33b6ae911db6",
+        "3afc892f-d41f-4799-9505-0ab695421744",
+        "a4b5f838-13ab-4869-a380-d4b95a6fc843"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00013-4b681202-b52a-4ba0-85d2-33b6ae911db6-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00014-3afc892f-d41f-4799-9505-0ab695421744-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00015-a4b5f838-13ab-4869-a380-d4b95a6fc843-image-00.jpg"
+      ],
+      "sha256": [
+        "2fa67eaa12900b5cbc34034c010e01f0b5d6db07220eb055713005f366695a0b",
+        "ecce04fda3714ce4ce36dd899ba79ad16fbeaac11847d6e2543b34f5f628e872",
+        "02d15cc20c59a05102e3ef85f47f0775a7358579bb1e1d31452a04d0f36b4634"
+      ],
+      "associated_legacy_questions": 15,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly labeled as a correction model/electronic correction sheet for the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 13 and 14 as model 5 papers 1 and 2 and page 15 as the correction model for model 5.",
+        "The source-local three-page pattern is verified independently for this Science 1445 source and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1445-exam-06",
+      "internal_ordinal": 6,
+      "source_model_label": "النموذج 6",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 16,
+      "last_page": 18,
+      "page_count": 3,
+      "question_pages": [
+        16,
+        17
+      ],
+      "correction_sheet_candidate_page": 18,
+      "ordered_page_numbers": [
+        16,
+        17,
+        18
+      ],
+      "ordered_legacy_page_ids": [
+        "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "d7df613d-3752-490e-b1e3-a0c75e8e7ae9",
+        "fc4b13c9-2788-404e-8cb2-2dd58798be0b"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00016-f611c1c0-a25c-4f6b-9f23-5b4514fd8db7-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00017-d7df613d-3752-490e-b1e3-a0c75e8e7ae9-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00018-fc4b13c9-2788-404e-8cb2-2dd58798be0b-image-00.jpg"
+      ],
+      "sha256": [
+        "f9f6f7d9248274218a4e383899bd27d6e1786dda904747432b31d42015375530",
+        "4d1e18d561ba24d61f91ac7cc0b05bb146cb256f33b487f23c26a2b0d3d511ba",
+        "7f497af256fc7f743067398856d574b68659d30c18aa9d0367811e2ba7ed2915"
+      ],
+      "associated_legacy_questions": 35,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly labeled as a correction model/electronic correction sheet for the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 16 and 17 as model 6 papers 1 and 2 and page 18 as the correction model for model 6.",
+        "The source-local three-page pattern is verified independently for this Science 1445 source and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1445-exam-07",
+      "internal_ordinal": 7,
+      "source_model_label": "النموذج 7",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 19,
+      "last_page": 21,
+      "page_count": 3,
+      "question_pages": [
+        19,
+        20
+      ],
+      "correction_sheet_candidate_page": 21,
+      "ordered_page_numbers": [
+        19,
+        20,
+        21
+      ],
+      "ordered_legacy_page_ids": [
+        "f3690a17-bb8d-4552-a2d8-7427c77546cc",
+        "a667d0d3-9468-41d4-8944-3491231f7754",
+        "9462ce03-b6fe-4d05-b7f6-213dd53b66e7"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00019-f3690a17-bb8d-4552-a2d8-7427c77546cc-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00020-a667d0d3-9468-41d4-8944-3491231f7754-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00021-9462ce03-b6fe-4d05-b7f6-213dd53b66e7-image-00.jpg"
+      ],
+      "sha256": [
+        "749b782bb3504e9c3209fbd9f23eb095dd76c014e8d63b7c0558dace0906e634",
+        "3f5f0d7dc193e1f304b15176f963af06ffdef3d396b6edc1fddb4b5f68aeee47",
+        "c7403acc40a5ea3d78e8a303e64a198c5ca2a9de99ec4c87505da62bbf5e2616"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly labeled as a correction model/electronic correction sheet for the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 19 and 20 as model 7 papers 1 and 2 and page 21 as the correction model for model 7.",
+        "The source-local three-page pattern is verified independently for this Science 1445 source and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1445-exam-08",
+      "internal_ordinal": 8,
+      "source_model_label": "النموذج 8",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 22,
+      "last_page": 24,
+      "page_count": 3,
+      "question_pages": [
+        22,
+        23
+      ],
+      "correction_sheet_candidate_page": 24,
+      "ordered_page_numbers": [
+        22,
+        23,
+        24
+      ],
+      "ordered_legacy_page_ids": [
+        "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "e3e204a9-cebc-4737-b2a0-afd89caf53ed",
+        "948155c3-7373-4a16-baac-e1c3d53524b3"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00022-1da8adc1-6af8-4c5f-819c-733b2e26e94d-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00023-e3e204a9-cebc-4737-b2a0-afd89caf53ed-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00024-948155c3-7373-4a16-baac-e1c3d53524b3-image-00.jpg"
+      ],
+      "sha256": [
+        "e9cdb8eb10eb2901516de6d6a290cef0e1e6bea49ed978fa472990ad089848f0",
+        "9c297f4ef2edd12358e65d62fcb371623a211ad6ddd0633f4cfb31161a857343",
+        "c89b7dfc76758c3a51b7d48ad897c9d5e0db585a0b09b3b037eaf72ae54d9422"
+      ],
+      "associated_legacy_questions": 35,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly labeled as a correction model/electronic correction sheet for the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 22 and 23 as model 8 papers 1 and 2 and page 24 as the correction model for model 8.",
+        "The source-local three-page pattern is verified independently for this Science 1445 source and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1445-exam-09",
+      "internal_ordinal": 9,
+      "source_model_label": "النموذج 9",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 25,
+      "last_page": 27,
+      "page_count": 3,
+      "question_pages": [
+        25,
+        26
+      ],
+      "correction_sheet_candidate_page": 27,
+      "ordered_page_numbers": [
+        25,
+        26,
+        27
+      ],
+      "ordered_legacy_page_ids": [
+        "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "0d19a13f-24ca-4feb-b709-d4ce988df27f"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00025-c7eea239-7d44-42da-91c2-fabd7879640f-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00026-276a0399-e3b3-4241-83a5-4f2176f6f983-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00027-0d19a13f-24ca-4feb-b709-d4ce988df27f-image-00.jpg"
+      ],
+      "sha256": [
+        "75852f62a01afff7c6d725bd66329c6cd17f2bef08a1ccfc7b6c779bdab65431",
+        "7efae745a3985835bb60889c8dfe51fc260c49a552a34fccc8e5be3c68531608",
+        "618fbc2a3de7542641f6d7385dc2247869676c9b8f81e072ee41cfa09d578793"
+      ],
+      "associated_legacy_questions": 50,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly labeled as a correction model/electronic correction sheet for the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 25 and 26 as model 9 papers 1 and 2 and page 27 as the correction model for model 9.",
+        "The source-local three-page pattern is verified independently for this Science 1445 source and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "science-1445-exam-10",
+      "internal_ordinal": 10,
+      "source_model_label": "النموذج 10",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 28,
+      "last_page": 30,
+      "page_count": 3,
+      "question_pages": [
+        28,
+        29
+      ],
+      "correction_sheet_candidate_page": 30,
+      "ordered_page_numbers": [
+        28,
+        29,
+        30
+      ],
+      "ordered_legacy_page_ids": [
+        "95809256-9bee-4e42-9678-48a27f5a7a87",
+        "9cbfed97-242e-4a0d-8597-de32b7e47db0",
+        "13334a58-77b8-4735-ba8f-0aa601b936e9"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00028-95809256-9bee-4e42-9678-48a27f5a7a87-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00029-9cbfed97-242e-4a0d-8597-de32b7e47db0-image-00.jpg",
+        "raw/legacy-supabase/subjects/ef408805-c337-44dd-b903-7838030e6de0/images/page-00030-13334a58-77b8-4735-ba8f-0aa601b936e9-image-00.jpg"
+      ],
+      "sha256": [
+        "384219415cbda47109059de008613e333b7dd275748222cd0c867d55556bc24e",
+        "73f91f50b7921b576f5c14ad85474d23f72a9241869f672e0d83191e2287dc25",
+        "799bb9866b20187bec9bc541469b21026482537202c3c5879824cbec29f39eaf"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly labeled as a correction model/electronic correction sheet for the same source model, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 28 and 29 as model 10 papers 1 and 2 and page 30 as the correction model for model 10.",
+        "The source-local three-page pattern is verified independently for this Science 1445 source and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    }
+  ],
+  "question_mapping": {
+    "exam_linked_structural": 215,
+    "review_required": 0,
+    "unassigned_within_source": 0,
+    "semantic_correctness": "NOT VERIFIED",
+    "records": [
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 1,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 2,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 3,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 4,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 5,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 6,
+        "source_reference": "صفحة ١ - السؤال رقم ٤١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 7,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 8,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 9,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 10,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 11,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 12,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 13,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 14,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 2,
+        "legacy_page_id": "77b487ff-7f9d-45df-a178-61c70c84a7c3",
+        "question_ordinal_on_page": 15,
+        "source_reference": "صفحة ١ - السؤال رقم ٥٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-01"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 1,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 2,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 3,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 4,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 5,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 6,
+        "source_reference": "صفحة ١ - السؤال رقم ٤١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 7,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 8,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 9,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 10,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 11,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 12,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 13,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 14,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 5,
+        "legacy_page_id": "ea4cccd4-d2cf-4296-93e0-2475db82e99f",
+        "question_ordinal_on_page": 15,
+        "source_reference": "صفحة ١ - السؤال رقم ٥٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-02"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 1,
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 2,
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 3,
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 4,
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 5,
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 6,
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 7,
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 8,
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 9,
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 10,
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 11,
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 12,
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 13,
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 14,
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 15,
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 16,
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 17,
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 18,
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 19,
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 20,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 21,
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 22,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 23,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 24,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 25,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 26,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 27,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 28,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 29,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 30,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 31,
+        "source_reference": "صفحة ١ - السؤال رقم ٣١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 32,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 33,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 34,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 7,
+        "legacy_page_id": "7225eaa5-f1b8-4ea8-bab5-3176c234fed2",
+        "question_ordinal_on_page": 35,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-03"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 1,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 2,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 3,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 4,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 5,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 6,
+        "source_reference": "صفحة ١ - السؤال رقم ٤١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 7,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 8,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 9,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 10,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 11,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 12,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 13,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 14,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 11,
+        "legacy_page_id": "91219433-ac6c-40ac-9bef-3565aaf53bea",
+        "question_ordinal_on_page": 15,
+        "source_reference": "صفحة ١ - السؤال رقم ٥٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-04"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 1,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 2,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 3,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 4,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 5,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 6,
+        "source_reference": "صفحة ١ - السؤال رقم ٤١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 7,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 8,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 9,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 10,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 11,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 12,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 13,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 14,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 14,
+        "legacy_page_id": "3afc892f-d41f-4799-9505-0ab695421744",
+        "question_ordinal_on_page": 15,
+        "source_reference": "صفحة ١ - السؤال رقم ٥٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-05"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 1,
+        "source_reference": "الصفحة ١ - السؤال رقم ١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 2,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 3,
+        "source_reference": "الصفحة ١ - السؤال رقم ٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 4,
+        "source_reference": "الصفحة ١ - السؤال رقم ٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 5,
+        "source_reference": "الصفحة ١ - السؤال رقم ٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 6,
+        "source_reference": "الصفحة ١ - السؤال رقم ٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 7,
+        "source_reference": "الصفحة ١ - السؤال رقم ٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 8,
+        "source_reference": "الصفحة ١ - السؤال رقم ٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 9,
+        "source_reference": "الصفحة ١ - السؤال رقم ٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 10,
+        "source_reference": "الصفحة ١ - السؤال رقم ١٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 11,
+        "source_reference": "الصفحة ١ - السؤال رقم ١١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 12,
+        "source_reference": "الصفحة ١ - السؤال رقم ١٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 13,
+        "source_reference": "الصفحة ١ - السؤال رقم ١٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 14,
+        "source_reference": "الصفحة ١ - السؤال رقم ١٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 15,
+        "source_reference": "الصفحة ١ - السؤال رقم ١٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 16,
+        "source_reference": "الصفحة ١ - السؤال رقم ١٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 17,
+        "source_reference": "الصفحة ١ - السؤال رقم ١٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 18,
+        "source_reference": "الصفحة ١ - السؤال رقم ١٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 19,
+        "source_reference": "الصفحة ١ - السؤال رقم ١٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 20,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 21,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 22,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 23,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 24,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 25,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 26,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 27,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 28,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 29,
+        "source_reference": "الصفحة ١ - السؤال رقم ٢٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 30,
+        "source_reference": "الصفحة ١ - السؤال رقم ٣٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 31,
+        "source_reference": "الصفحة ١ - السؤال رقم ٣١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 32,
+        "source_reference": "الصفحة ١ - السؤال رقم ٣٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 33,
+        "source_reference": "الصفحة ١ - السؤال رقم ٣٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 34,
+        "source_reference": "الصفحة ١ - السؤال رقم ٣٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 16,
+        "legacy_page_id": "f611c1c0-a25c-4f6b-9f23-5b4514fd8db7",
+        "question_ordinal_on_page": 35,
+        "source_reference": "الصفحة ١ - السؤال رقم ٣٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-06"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 1,
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 2,
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 3,
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 4,
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 5,
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 6,
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 7,
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 8,
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 9,
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 10,
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 11,
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 12,
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 13,
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 14,
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 15,
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 16,
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 17,
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 18,
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 19,
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 20,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 21,
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 22,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 23,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 24,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 25,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 26,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 27,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 28,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 29,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 30,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 31,
+        "source_reference": "صفحة ١ - السؤال رقم ٣١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 32,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 33,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 34,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 22,
+        "legacy_page_id": "1da8adc1-6af8-4c5f-819c-733b2e26e94d",
+        "question_ordinal_on_page": 35,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-08"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 1,
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 2,
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 3,
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 4,
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 5,
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 6,
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 7,
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 8,
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 9,
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 10,
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 11,
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 12,
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 13,
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 14,
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 15,
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 16,
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 17,
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 18,
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 19,
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 20,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 21,
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 22,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 23,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 24,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 25,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 26,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 27,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 28,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 29,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 30,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 31,
+        "source_reference": "صفحة ١ - السؤال رقم ٣١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 32,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 33,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 34,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 25,
+        "legacy_page_id": "c7eea239-7d44-42da-91c2-fabd7879640f",
+        "question_ordinal_on_page": 35,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 1,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 2,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 3,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 4,
+        "source_reference": "صفحة ١ - السؤال رقم ٣٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 5,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 6,
+        "source_reference": "صفحة ١ - السؤال رقم ٤١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 7,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 8,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 9,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 10,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 11,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 12,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 13,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 14,
+        "source_reference": "صفحة ١ - السؤال رقم ٤٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      },
+      {
+        "page_number": 26,
+        "legacy_page_id": "276a0399-e3b3-4241-83a5-4f2176f6f983",
+        "question_ordinal_on_page": 15,
+        "source_reference": "صفحة ١ - السؤال رقم ٥٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "science-1445-exam-09"
+      }
+    ]
+  },
+  "evidence": {
+    "technical_report": "content-staging/reconstruction/technical/ef408805-c337-44dd-b903-7838030e6de0.json",
+    "discovery_report": "content-staging/reconstruction/exams/source-groups/ef408805-c337-44dd-b903-7838030e6de0-discovery.json",
+    "visual_review": "all 30 pages reviewed in contact sheets 001-012, 013-024, 025-030",
+    "storage_identity_used_as_final_boundary": false,
+    "raw_mutations": 0
+  },
+  "status": "boundary_verified_questions_structurally_mapped_answer_keys_not_verified"
+}

@@ -270,3 +270,18 @@ The earlier 1446 IN PROGRESS section is superseded by this evidence-backed check
 - RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next source: `ef408805-c337-44dd-b903-7838030e6de0` — `العلوم نماذج وزارية 1445`. Continue source-local technical verification → visual boundary discovery → reconstruction.
 <!-- CHEMISTRY_EXAM_1447_CHECKPOINT_END -->
+
+<!-- SCIENCE_EXAM_1445_CHECKPOINT_START -->
+## Reconstruction checkpoint — Grade 9 Science Ministry Exams 1445
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Source `ef408805-c337-44dd-b903-7838030e6de0` — `العلوم نماذج وزارية 1445` completed from source-local evidence.
+- Technical verification: **30/30** images exist, readable, byte-size/SHA-256/MIME match; sequence **1..30** contiguous; duplicate SHA groups **0**.
+- Full visual review + explicit page titles resolve **10** verified source occurrences / **10** unique Individual Exam Models; each occurrence is two question pages + one correction-model page.
+- Finalized Exam Pages: **30**; review-required pages: **0**; correction-sheet candidates: **10**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Source legacy questions: **215/215** structurally linked to the ten verified models; semantic correctness remains `NOT VERIFIED`.
+- Progress: Sources **5/58**; Educational **1/26**; Exam Groups **4/32**; Individual Exam Models **72**; Exam Pages **266/2,286**; source images technical **452/5,273**.
+- Global questions: Lesson-linked **2225**; Exam-linked **441**; Review-required **351**; Unclassified **22738**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `004c02be-3f55-49e1-bbdc-b0824491bd68` — `العلوم نماذج وزارية 1446`.
+<!-- SCIENCE_EXAM_1445_CHECKPOINT_END -->
