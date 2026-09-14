@@ -1,0 +1,678 @@
+{
+  "source_id": "a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8",
+  "source_name": "السيرة النبوية الكتاب",
+  "status": "discovery_complete_not_finalized",
+  "source_pages": 81,
+  "legacy_questions": 1152,
+  "retained_storage_page_range": [
+    8,
+    88
+  ],
+  "technical_source_sha_rechecked": 81,
+  "identity_status": "VERIFIED_EXACT_SHA",
+  "exact_sha_identity_count": 81,
+  "unmatched_storage_pages": [],
+  "candidate_master_directories": [
+    {
+      "path": "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور",
+      "exact_sha_matches": 81
+    }
+  ],
+  "page_exact_sha_matches": [
+    {
+      "page_number": 8,
+      "legacy_page_id": "ca86c961-757c-428f-b283-7d881f60152b",
+      "sha256": "dcef0a62160fd06f02cc0d74cc8993f4652f0cf1d68c928eaaf89234a75ad05e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص008 - الدرس الأول - الرسول القائد.webp"
+      ]
+    },
+    {
+      "page_number": 9,
+      "legacy_page_id": "6df97aef-076d-4602-a674-1d551c49e3f3",
+      "sha256": "289a51f1986ed1ca0fb94e044e787f04671851253ff700ef2f556c3a8031be3f",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص009 - الدرس الأول - الرسول القائد.webp"
+      ]
+    },
+    {
+      "page_number": 10,
+      "legacy_page_id": "f6add673-6d2a-4399-bfef-b85221ef3bd4",
+      "sha256": "d3d3b8953ee779c4318ab954a9c264f7565531840d5f46d050ab7e027fc37d9e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص010 - الدرس الأول - الرسول القائد.webp"
+      ]
+    },
+    {
+      "page_number": 11,
+      "legacy_page_id": "66f0898d-bcfb-4dee-b0a2-4a198ed84e85",
+      "sha256": "d936d80f336733fb507d93ab5eefe1053328cea3ec8c4796cbe4034446d45222",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص011 - الدرس الأول - الرسول القائد.webp"
+      ]
+    },
+    {
+      "page_number": 12,
+      "legacy_page_id": "09bdd080-1e40-4ef7-946b-4c369d2303cb",
+      "sha256": "152ff947096a1043464a6e6ad4010ae63c38ef71f32defb157a6467ed7822215",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص012 - الدرس الأول - الرسول القائد.webp"
+      ]
+    },
+    {
+      "page_number": 13,
+      "legacy_page_id": "61afb707-95e8-469e-80ed-d2c47cd1d1cb",
+      "sha256": "08db2cc2ffa2ab3522d819c441437ebbc6b8feac4d0ef7982df20fec6029af0d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص013 - الدرس الأول - الرسول القائد.webp"
+      ]
+    },
+    {
+      "page_number": 14,
+      "legacy_page_id": "913b30c9-de1f-4516-b380-0995244ab1d0",
+      "sha256": "3a55612cc5bed3ee3087e499128d88fef043bb87f46064d4b5aa42084d13612e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص014 - الدرس الثاني - صلح الحديبية.webp"
+      ]
+    },
+    {
+      "page_number": 15,
+      "legacy_page_id": "eb0466a9-9860-4beb-83fa-a5c324264f1a",
+      "sha256": "570cfcecdf38fd8126f2db50b4ef7d8bb9900e74c853403f5494e25b6dff701b",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص015 - الدرس الثاني - صلح الحديبية.webp"
+      ]
+    },
+    {
+      "page_number": 16,
+      "legacy_page_id": "dc138c8f-3215-48ff-9542-eb0592f7dc54",
+      "sha256": "bc2ce1d9587350f3e49485b91cb3fcce22f61e72a39325abe82e17219c7b4899",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص016 - الدرس الثاني - صلح الحديبية.webp"
+      ]
+    },
+    {
+      "page_number": 17,
+      "legacy_page_id": "58cbe34b-caee-40b9-9622-4b415541c1c9",
+      "sha256": "62bffe12317f28e54f927bb81b9cfb78cb83583381ecb105923ad87f796f85fa",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص017 - الدرس الثاني - صلح الحديبية.webp"
+      ]
+    },
+    {
+      "page_number": 18,
+      "legacy_page_id": "17b355b1-9dbe-49d2-80c5-6222ba60672c",
+      "sha256": "4e0d203d2b58326b7d21d5a914153ceb64829ba81520badc7cbd7e94fbfe9dbe",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص018 - الدرس الثاني - صلح الحديبية.webp"
+      ]
+    },
+    {
+      "page_number": 19,
+      "legacy_page_id": "086cc687-1e39-430c-8663-41fd77d35e3e",
+      "sha256": "e14af3ff0c13c1d2332339fbfd7aefb26b2666f1b33def972896c4a31eaadd93",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص019 - الدرس الثاني - صلح الحديبية.webp"
+      ]
+    },
+    {
+      "page_number": 20,
+      "legacy_page_id": "91eca975-49f7-4aef-b426-931a940d36e2",
+      "sha256": "7d9da78e1528a2b05317a8343439ee7efc7ac25ff2fdf63936ed2353201d1947",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص020 - الدرس الثاني - صلح الحديبية.webp"
+      ]
+    },
+    {
+      "page_number": 21,
+      "legacy_page_id": "b1ac6793-2fbd-4dd1-8d1c-509d5a5c89f7",
+      "sha256": "c321a149789757e18d802f778cc195dbe864f874d1573b3aece03cea6d4332bd",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص021 - الدرس الثالث - مكاتبات الرسول للملوك والأمراء.webp"
+      ]
+    },
+    {
+      "page_number": 22,
+      "legacy_page_id": "ef71c9a6-c90a-4fad-b463-7a56bfc165f8",
+      "sha256": "e0b4d7b710f561d2d3d88424e90185bb8c5c75fd2ff15ad02d5fa87df1689f53",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص022 - الدرس الثالث - مكاتبات الرسول للملوك والأمراء.webp"
+      ]
+    },
+    {
+      "page_number": 23,
+      "legacy_page_id": "82729aa5-351b-4db0-ae74-90d477bfa6d4",
+      "sha256": "bc5fce9b586747295c540d1e6df2087591bbd62daf0cdce83b9dde5830d87d22",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص023 - الدرس الثالث - مكاتبات الرسول للملوك والأمراء.webp"
+      ]
+    },
+    {
+      "page_number": 24,
+      "legacy_page_id": "1ed4a2f7-635f-4bd7-899b-6560e82b50a4",
+      "sha256": "9f579b07b322b29eee02a748ade6fe55a918d18544bb6fcff0b32d4b5ad824d9",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص024 - الدرس الثالث - مكاتبات الرسول للملوك والأمراء.webp"
+      ]
+    },
+    {
+      "page_number": 25,
+      "legacy_page_id": "ced39ad9-abbc-4aea-ba9d-264737553e9c",
+      "sha256": "d71fabf0e396519b85fb556dd5ea7eb5a160a08560d5976142cf34b8bc65d8cd",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص025 - الدرس الثالث - مكاتبات الرسول للملوك والأمراء.webp"
+      ]
+    },
+    {
+      "page_number": 26,
+      "legacy_page_id": "aaaa4ed1-16af-4b15-adab-f298de38cce0",
+      "sha256": "e53eb5d725facc3d23b411300133166a12551332500a43c6842e50cd10b7df43",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص026 - الدرس الثالث - مكاتبات الرسول للملوك والأمراء.webp"
+      ]
+    },
+    {
+      "page_number": 27,
+      "legacy_page_id": "464c2ca5-3f5a-41ad-acc7-3f10355fbb6a",
+      "sha256": "e9720a0fa61de5a76ce5b618b2d14d2b6f5fea7869bef7e4298a2837c041b72a",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص027 - الدرس الرابع - غزوة خيبر.webp"
+      ]
+    },
+    {
+      "page_number": 28,
+      "legacy_page_id": "f090cf7c-1252-4442-9f9a-3a439c23f114",
+      "sha256": "aa27a2c22f622c0670b64338f2cd24ba797b42888e23917f3642d15fa4edb6e6",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص028 - الدرس الرابع - غزوة خيبر.webp"
+      ]
+    },
+    {
+      "page_number": 29,
+      "legacy_page_id": "57e3e5fd-6779-416d-bf8d-a1fef1cea0c8",
+      "sha256": "d671871f3647d81a02b80bec0d62fd58f8eebba0fda8c18ed36d40aba3fcde44",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص029 - الدرس الرابع - غزوة خيبر.webp"
+      ]
+    },
+    {
+      "page_number": 30,
+      "legacy_page_id": "64433682-9a94-4041-b97e-eb95103573fd",
+      "sha256": "e746a8c6e2271d36882a0b849da0a28f3282597eae9d0013b4c78c39288d165d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص030 - الدرس الرابع - غزوة خيبر.webp"
+      ]
+    },
+    {
+      "page_number": 31,
+      "legacy_page_id": "40061d84-ac54-4be6-9a35-c361bd98cf8d",
+      "sha256": "4f538e36adecbffbdff3ec318e6ff00ea0f74def2931345fe53e75fcd32df275",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص031 - الدرس الرابع - غزوة خيبر.webp"
+      ]
+    },
+    {
+      "page_number": 32,
+      "legacy_page_id": "05bce36f-9b9c-4330-8fcc-7add7ec9023f",
+      "sha256": "9f9c4df54ec95142691256cff7c079a916587b271b6dfc92ebf314c467dea968",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص032 - الدرس الرابع - غزوة خيبر.webp"
+      ]
+    },
+    {
+      "page_number": 33,
+      "legacy_page_id": "cd69102d-af5b-4d03-a113-f2e1805a55c9",
+      "sha256": "bb764f7fd03e1e99c7a313f4dd2f0b326eb479dd6a3bcd5a65272d505425701b",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص033 - الدرس الرابع - غزوة خيبر.webp"
+      ]
+    },
+    {
+      "page_number": 34,
+      "legacy_page_id": "7c8c0a28-d159-48dc-94f1-8349fadf485c",
+      "sha256": "a60a2b5a67a2bc816f8f5fda938cfe33274b0707401c8384085512ccf884f46a",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص034 - الدرس الخامس - غزوة مؤتة.webp"
+      ]
+    },
+    {
+      "page_number": 35,
+      "legacy_page_id": "b74e075f-be7f-4a27-bf00-10e4b9fbb0b2",
+      "sha256": "0208fcaf8d0e6e00eb5435e285b46994555f1c25b78564f5553d09dda64da532",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص035 - الدرس الخامس - غزوة مؤتة.webp"
+      ]
+    },
+    {
+      "page_number": 36,
+      "legacy_page_id": "5d828a78-1cdd-436a-8892-baea92d58466",
+      "sha256": "72ed8c9fea369d41caef768acee0a0480a52d1b67dbe3e38e89c5cf5521b3225",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص036 - الدرس الخامس - غزوة مؤتة.webp"
+      ]
+    },
+    {
+      "page_number": 37,
+      "legacy_page_id": "ec50ef9a-ec2c-47a9-9d3f-e33af90f9ac7",
+      "sha256": "997ae9a4d0406b9a0cc20f4591d523926b35f8ddef58e6a91cc2cfa465b6bc59",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص037 - الدرس الخامس - غزوة مؤتة.webp"
+      ]
+    },
+    {
+      "page_number": 38,
+      "legacy_page_id": "270bb8e4-1a62-4739-a139-9f640e66deb2",
+      "sha256": "15dfb52a811af98224933fdb19ee52f28226d149b8ca4aca59392a82a6f20002",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص038 - الدرس الخامس - غزوة مؤتة.webp"
+      ]
+    },
+    {
+      "page_number": 39,
+      "legacy_page_id": "99187cd4-9065-4f44-b91f-39206e13e65b",
+      "sha256": "149820ae3be5c77a56dfb3fbd9b244c173026dc084d1973a3d94b1a7aabd0c88",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص039 - الدرس الخامس - غزوة مؤتة.webp"
+      ]
+    },
+    {
+      "page_number": 40,
+      "legacy_page_id": "8c1ea843-1e67-4798-ba2b-a6711332fbef",
+      "sha256": "bb60d0bd3796d26324cf811cb2dfc842e04548d74c15a5f3b2d5fd162b530910",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص040 - الدرس الخامس - غزوة مؤتة.webp"
+      ]
+    },
+    {
+      "page_number": 41,
+      "legacy_page_id": "ac6a6e7e-a31b-4a4b-a524-dcba1aac6216",
+      "sha256": "c8513dd6356871e1f01a0abd81c4053934e6de114c91020adf6daf1321cfca2d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص041 - الدرس الخامس - غزوة مؤتة.webp"
+      ]
+    },
+    {
+      "page_number": 42,
+      "legacy_page_id": "ece833d3-f3cc-4a28-9516-ec940e53e88c",
+      "sha256": "44aa3b214eee825ac6e5ce6e132254e7463d1b5f0e0508ed89f5ab08c09ee01d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص042 - الدرس السادس - فتح مكة.webp"
+      ]
+    },
+    {
+      "page_number": 43,
+      "legacy_page_id": "6514cff5-1cbc-4079-93d4-474218acd9e7",
+      "sha256": "f26b0b6bd8b7bc5732a2a2647ee45ba2adc5330dfdc25fe0d737e400fff9a0cd",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص043 - الدرس السادس - فتح مكة.webp"
+      ]
+    },
+    {
+      "page_number": 44,
+      "legacy_page_id": "e9911872-40bf-403c-b02c-5bdd5ed3809d",
+      "sha256": "4e9abf7be3a9988997a875b1ec2749563384f31ef315fbcd04383b302caf69d8",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص044 - الدرس السادس - فتح مكة.webp"
+      ]
+    },
+    {
+      "page_number": 45,
+      "legacy_page_id": "c96c7550-4857-4d8e-9647-f8e6a52a9296",
+      "sha256": "b41efbc75657da0ca8443ae7686cc66d415947e716d5ab51c4389ba05c95bd70",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص045 - الدرس السادس - فتح مكة.webp"
+      ]
+    },
+    {
+      "page_number": 46,
+      "legacy_page_id": "61342402-03ce-44c0-af0f-341875a72b9c",
+      "sha256": "6ce15aa03d000803dac411491fdedd8b7bd8c9687040ee9d64599453bd897413",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص046 - الدرس السادس - فتح مكة.webp"
+      ]
+    },
+    {
+      "page_number": 47,
+      "legacy_page_id": "d6bd026d-1cb3-499a-9d62-ba7b890a99bd",
+      "sha256": "b6e2767b0ba9bf0ceb3bd531fbe501a3183ad0ee9c8ff3fe080648323f2962ab",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص047 - الدرس السادس - فتح مكة.webp"
+      ]
+    },
+    {
+      "page_number": 48,
+      "legacy_page_id": "2070933c-ff6a-42c7-9f74-b95429e154f1",
+      "sha256": "4cf6336a874f0eca68125b7e9d48e964ff1e1a424020ef1a6cdc761840022c1c",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص048 - الدرس السادس - فتح مكة.webp"
+      ]
+    },
+    {
+      "page_number": 49,
+      "legacy_page_id": "b39ee234-1f62-4006-a67d-05400a497ce9",
+      "sha256": "6a1436e57d9e2bd3e81fc0d2a8612eae27bcbd1b6a8f3e5748fb44766719bdfe",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص049 - الدرس السابع - غزوة حنين.webp"
+      ]
+    },
+    {
+      "page_number": 50,
+      "legacy_page_id": "b5275263-5c07-4aba-bc30-f52b90eb0f6d",
+      "sha256": "a39dcf76b76c7eb4cde96a53621df15f2ceb36b677463c742bcf80c07923deb5",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص050 - الدرس السابع - غزوة حنين.webp"
+      ]
+    },
+    {
+      "page_number": 51,
+      "legacy_page_id": "d9af8931-30ff-4358-87bf-624897bdd86b",
+      "sha256": "2cf8036924ec7bb66e429d5f46c009fe245ab2353b29496585cd8c0fbba18fe3",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص051 - الدرس السابع - غزوة حنين.webp"
+      ]
+    },
+    {
+      "page_number": 52,
+      "legacy_page_id": "0eacd31c-1a10-490a-95f9-c3af78b7a7bb",
+      "sha256": "ba715f84ca250ddd25da55186697806e21787dc5f1125703ed8165882221cdf0",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص052 - الدرس السابع - غزوة حنين.webp"
+      ]
+    },
+    {
+      "page_number": 53,
+      "legacy_page_id": "a2047c05-1027-40c2-8591-a404ef2cffac",
+      "sha256": "4df44678d2ed6236874060151b6635926d4c35d3bf0871d62d9f7bce124b240d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص053 - الدرس السابع - غزوة حنين.webp"
+      ]
+    },
+    {
+      "page_number": 54,
+      "legacy_page_id": "933879ed-a434-457f-84cc-f92a3d190fb2",
+      "sha256": "faa9fd5ac8ed39efe3916dacc2f8d27d17b46bd610063dd599c2ea876c783edf",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص054 - الدرس السابع - غزوة حنين.webp"
+      ]
+    },
+    {
+      "page_number": 55,
+      "legacy_page_id": "e7995c24-cc2a-4919-b225-9fb72f570812",
+      "sha256": "eae8c3089688517dd7d50bd02d7f518647ab7d3c803b4ece8b7799d7482d5ab5",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص055 - الدرس السابع - غزوة حنين.webp"
+      ]
+    },
+    {
+      "page_number": 56,
+      "legacy_page_id": "0319036d-1eb1-4552-8388-7cc3e40825d9",
+      "sha256": "489d6e9fef254ccc0c87dae974dc8a8979ef0062fe64efb2afb2202fc37f39de",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص056 - الدرس السابع - غزوة حنين.webp"
+      ]
+    },
+    {
+      "page_number": 57,
+      "legacy_page_id": "06062ecc-76a7-46ce-8b9e-5214f0a46d75",
+      "sha256": "c21e7fb5093e59161bf0388452197573eee97fb1c138103e6c6c8e5f98208980",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص057 - الدرس الثامن - غزوة تبوك.webp"
+      ]
+    },
+    {
+      "page_number": 58,
+      "legacy_page_id": "4d8c4221-05d2-44ad-82da-6e65cd5017f4",
+      "sha256": "5df328a8b5d99c4719321eae695e0ed44f22614dee29680ca0cce7abe0727a2e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص058 - الدرس الثامن - غزوة تبوك.webp"
+      ]
+    },
+    {
+      "page_number": 59,
+      "legacy_page_id": "9f662cf3-4ab5-4bcf-943d-f3747c021399",
+      "sha256": "e89402ce8ba5946f32cd974634adfce78e0a3f02551b6c65bb03dcedfd8e79ee",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص059 - الدرس الثامن - غزوة تبوك.webp"
+      ]
+    },
+    {
+      "page_number": 60,
+      "legacy_page_id": "a4fd97aa-4b25-4daf-a3b2-c4c123f16cdb",
+      "sha256": "309865b5864ad42c4063dbfa9f567ab29a1ef9177336881c8efa30f6d2e86b7e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص060 - الدرس الثامن - غزوة تبوك.webp"
+      ]
+    },
+    {
+      "page_number": 61,
+      "legacy_page_id": "3f986a11-1404-4e44-a82b-137fc2c7f06d",
+      "sha256": "eb232df8765aee1c3864fa9989917306eb8a14589b562a28207de06244e454a5",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص061 - الدرس الثامن - غزوة تبوك.webp"
+      ]
+    },
+    {
+      "page_number": 62,
+      "legacy_page_id": "0e4682cc-3171-453e-a3b0-ba70fd40c12d",
+      "sha256": "9a7a84b4d590849c3220502f77a19d6f97cbd44953746487387a6f77e4aa20a2",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص062 - الدرس الثامن - غزوة تبوك.webp"
+      ]
+    },
+    {
+      "page_number": 63,
+      "legacy_page_id": "09de932b-3839-4da9-88b6-ee17e70da722",
+      "sha256": "20f92a35b3bbfc1b295ad0ee8e3be445d58b1c61d518e60bd785f87a6b2706fb",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص063 - الدرس الثامن - غزوة تبوك.webp"
+      ]
+    },
+    {
+      "page_number": 64,
+      "legacy_page_id": "6bc7e481-84c9-4d27-ac52-0af51a7dc9e2",
+      "sha256": "65a5c2b6485f614867c28e13d794bfff94066a81862c8a19ecfa1c3ab79fcee9",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص064 - الدرس الثامن - غزوة تبوك.webp"
+      ]
+    },
+    {
+      "page_number": 65,
+      "legacy_page_id": "5ff4cf0e-a2ce-44c0-9bb7-bd9dd7a5c02c",
+      "sha256": "351a2fe0386b93ed73a651afc0ab7219960800bc3c0aff9c2882203f5162b6dc",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص065 - الدرس الثامن - غزوة تبوك.webp"
+      ]
+    },
+    {
+      "page_number": 66,
+      "legacy_page_id": "29ad1b9d-53bf-4d3b-88d4-83dfc4d71194",
+      "sha256": "6e29b3e635ae80c4e46019df57dffff9cc4df716095d429f903b7067d5fe934d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص066 - الدرس التاسع - عام الوفود وإعلان البراءة.webp"
+      ]
+    },
+    {
+      "page_number": 67,
+      "legacy_page_id": "b2e49ec2-e205-4135-bee0-48ae5fb48cdf",
+      "sha256": "61d55ddf3221726f7c4dd67ba0688c9afb727b465a496bc645c5e02608ba8f95",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص067 - الدرس التاسع - عام الوفود وإعلان البراءة.webp"
+      ]
+    },
+    {
+      "page_number": 68,
+      "legacy_page_id": "4bd4b753-2e2d-4144-b1a3-fbf0c906d4e1",
+      "sha256": "a3cff041d26ae2945873f472a6fa80305a53fe40dbcc7c9d9c76ea24eb459b72",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص068 - الدرس التاسع - عام الوفود وإعلان البراءة.webp"
+      ]
+    },
+    {
+      "page_number": 69,
+      "legacy_page_id": "eb7afaab-297a-4919-91a9-bde00ebb1593",
+      "sha256": "2efb4a3504ada71f346840cfb75bf4dd42f3d176f5f6c5f8b795a886ad311619",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص069 - الدرس التاسع - عام الوفود وإعلان البراءة.webp"
+      ]
+    },
+    {
+      "page_number": 70,
+      "legacy_page_id": "5246c44b-02db-42f1-b013-997c960201c3",
+      "sha256": "f3e85ea11b30a6f7786aa99686d5ba79d18662270194f8c9fceef51fb8648301",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص070 - الدرس التاسع - عام الوفود وإعلان البراءة.webp"
+      ]
+    },
+    {
+      "page_number": 71,
+      "legacy_page_id": "6a1cf2bd-227f-4607-9344-d89996fa1210",
+      "sha256": "ce25c4ba6d8b346cda44d539c7442de920741170e799ad1490a4d7b4fa15d4e7",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص071 - الدرس التاسع - عام الوفود وإعلان البراءة.webp"
+      ]
+    },
+    {
+      "page_number": 72,
+      "legacy_page_id": "108bb8e4-3636-498c-b1f2-c79f7d3dbac4",
+      "sha256": "8eb5d687d31c18c1a07ec808b0dcd4fd7852a3b466743f0ae290bb524cc3f4d3",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص072 - الدرس العاشر - إسلام أهل اليمن.webp"
+      ]
+    },
+    {
+      "page_number": 73,
+      "legacy_page_id": "c0ca7ef0-0972-4ef5-be75-eff37862c2c0",
+      "sha256": "0e312f413c821c89aa1b6092343da5488542002004aa82ee77c747bea1f8fcee",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص073 - الدرس العاشر - إسلام أهل اليمن.webp"
+      ]
+    },
+    {
+      "page_number": 74,
+      "legacy_page_id": "6ab9b3b1-edd0-4102-a1ad-89eadef7c4ba",
+      "sha256": "e0afa1962dbe786ef1a3d9fbe61ada01213e579951b69733e660953b2c931933",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص074 - الدرس العاشر - إسلام أهل اليمن.webp"
+      ]
+    },
+    {
+      "page_number": 75,
+      "legacy_page_id": "e037155e-fa45-4e3c-95c3-769c819ed610",
+      "sha256": "f922a2d15e0d443cbfce03b47cc7c6d772bd1819afeaaa8255e9699402f6658d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص075 - الدرس العاشر - إسلام أهل اليمن.webp"
+      ]
+    },
+    {
+      "page_number": 76,
+      "legacy_page_id": "46ae147a-51a8-406a-9333-eedf3f9d9fb0",
+      "sha256": "40fc142a648b0d5c1b50514ebe60908a11c1ce178469c38cb145fd3ee519296e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص076 - الدرس العاشر - إسلام أهل اليمن.webp"
+      ]
+    },
+    {
+      "page_number": 77,
+      "legacy_page_id": "54333bb4-8280-4324-8dd2-e6b9fb1599ea",
+      "sha256": "8f1afbe09f36afea4c40750abf3d7871f36202eda9f877f75196547bc7d996cc",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص077 - الدرس الحادي عشر - حجة الوداع.webp"
+      ]
+    },
+    {
+      "page_number": 78,
+      "legacy_page_id": "ed285390-73e4-4a9a-87d9-66a7398bfc27",
+      "sha256": "e41916106713674a49196f8f98792e313f65e9536ff8d067b0985ae5ad3774dc",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص078 - الدرس الحادي عشر - حجة الوداع.webp"
+      ]
+    },
+    {
+      "page_number": 79,
+      "legacy_page_id": "a7575081-1c54-4861-b94c-cc9d5f3bb1dd",
+      "sha256": "3ef2385aa70f5ddbbb76b4334625939adcda1e79f33ff02a082ad3983eb32cdf",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص079 - الدرس الحادي عشر - حجة الوداع.webp"
+      ]
+    },
+    {
+      "page_number": 80,
+      "legacy_page_id": "c437d69b-e0a6-4248-891a-60406fda7174",
+      "sha256": "f89a5be613f7ff5d7acf88eb9ec8a63d2116dbd5f7a3be8c392174ae06c2846c",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص080 - الدرس الحادي عشر - حجة الوداع.webp"
+      ]
+    },
+    {
+      "page_number": 81,
+      "legacy_page_id": "b387f097-4520-42db-ae0e-a410f2645d1d",
+      "sha256": "8aae687ad385cabea2f15770b90d703472623bbc6ce348584b3b78105191708c",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص081 - الدرس الحادي عشر - حجة الوداع.webp"
+      ]
+    },
+    {
+      "page_number": 82,
+      "legacy_page_id": "1abd9f01-3964-4f23-a6ff-4cfc0ef54961",
+      "sha256": "3aac0db7e2cb2742715ffe91e4fac71762a54e05502f2b1e4f3dd9f37f1ca38f",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص082 - الدرس الثاني عشر - أعمال النبي بعد حجة الوداع ووفاته.webp"
+      ]
+    },
+    {
+      "page_number": 83,
+      "legacy_page_id": "6395c17d-a685-4c04-8685-647d4935c72f",
+      "sha256": "6bb086a101ba5a1c0a1c0a3b80654b7dfd41b8a77b782c8d08de66872ff370da",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص083 - الدرس الثاني عشر - أعمال النبي بعد حجة الوداع ووفاته.webp"
+      ]
+    },
+    {
+      "page_number": 84,
+      "legacy_page_id": "0d695488-1a81-46f4-aad1-39c0e316a8ff",
+      "sha256": "b36fbb271b7893925917c5392bd6ff9db97e130255b8d2e388fec13ea7271753",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص084 - الدرس الثاني عشر - أعمال النبي بعد حجة الوداع ووفاته.webp"
+      ]
+    },
+    {
+      "page_number": 85,
+      "legacy_page_id": "4aa431f6-4298-4572-a1fa-de64161d387b",
+      "sha256": "0ec95c61a924ffa84403c891ced008b4425d38ea8277295664317dc06d8f89ce",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص085 - الدرس الثاني عشر - أعمال النبي بعد حجة الوداع ووفاته.webp"
+      ]
+    },
+    {
+      "page_number": 86,
+      "legacy_page_id": "ab15ba34-a946-4359-8247-967231ff1efd",
+      "sha256": "26a9905c01481e09a2b5196ecd7743fd7e392aca49004dacf590f9e063acf283",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص086 - الدرس الثاني عشر - أعمال النبي بعد حجة الوداع ووفاته.webp"
+      ]
+    },
+    {
+      "page_number": 87,
+      "legacy_page_id": "d502a26b-6c4b-41f1-b3c9-0edd7a8c2d86",
+      "sha256": "f9e3d1c486e99dcbdec1a3a967c77563cd7f498284168f913bbaaf41dc211d37",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص087 - الدرس الثاني عشر - أعمال النبي بعد حجة الوداع ووفاته.webp"
+      ]
+    },
+    {
+      "page_number": 88,
+      "legacy_page_id": "b9a1b00a-072f-4084-9026-77c581d0f142",
+      "sha256": "4137b4585fd39328fd9a9e4880cfdd6342e0860728a7c4f51f62ed9477037c36",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور/ص088 - الدرس الثاني عشر - أعمال النبي بعد حجة الوداع ووفاته - التقويم والخاتمة.webp"
+      ]
+    }
+  ],
+  "semantic_structure_status": "NOT VERIFIED",
+  "question_linkage_status": "NOT VERIFIED",
+  "semantic_question_review": "NOT VERIFIED",
+  "raw_mutations": 0,
+  "imports_created": 0,
+  "publications_created": 0,
+  "next_operation": "Use only the 81 exact source pages and exact-SHA master filename evidence to prove lesson boundaries; preserve any page subtype ambiguity as NOT VERIFIED; only then link legacy questions by verified page membership."
+}
