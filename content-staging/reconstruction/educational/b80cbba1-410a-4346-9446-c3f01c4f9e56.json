@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "status": "reconstructed_verified_source_local_visual_structure",
+  "subject_id": "b80cbba1-410a-4346-9446-c3f01c4f9e56",
+  "source_name": "كتاب الرياضيات - الجزء الثاني",
+  "classification": "educational_book_source",
+  "source_identity": {
+    "status": "verified_source_local_raw_sequence_and_visual_structure",
+    "retained_page_range": [
+      7,
+      141
+    ],
+    "retained_pages": 135,
+    "evidence": "immutable RAW + source-local pages.json title continuity + complete 12-sheet contact-sheet visual review of all 135 retained pages",
+    "visual_evidence": {
+      "workflow_run_id": 34869811987,
+      "artifact_id": 10358975418,
+      "artifact_digest": "sha256:2c029bac25b762f9b37f4c8d0e43f32c7091845e008c91bef006c8955950d6a8",
+      "sheets_reviewed": 12,
+      "pages_reviewed": 135
+    },
+    "inherited_structure_from_part1": false,
+    "external_reference_used_for_structure": false
+  },
+  "reconstructed_book": {
+    "book_title": "كتاب الرياضيات - الجزء الثاني",
+    "unit_count": 3,
+    "units": [
+      {
+        "id": "math9-p2-u5",
+        "title": "الهندسة",
+        "stored_page_range": [
+          7,
+          64
+        ],
+        "lesson_ids": [
+          "math9-p2-l01",
+          "math9-p2-l02",
+          "math9-p2-l03",
+          "math9-p2-l04",
+          "math9-p2-l05",
+          "math9-p2-l06",
+          "math9-p2-l07",
+          "math9-p2-l08",
+          "math9-p2-l09"
+        ],
+        "nonlesson_pages": [
+          61,
+          62,
+          63,
+          64
+        ],
+        "boundary_status": "verified_complete_contact_sheet_visual_unit_banner_and_closing_test"
+      },
+      {
+        "id": "math9-p2-u6",
+        "title": "الهندسة الإحداثية والتحويلات",
+        "stored_page_range": [
+          65,
+          110
+        ],
+        "lesson_ids": [
+          "math9-p2-l10",
+          "math9-p2-l11",
+          "math9-p2-l12",
+          "math9-p2-l13",
+          "math9-p2-l14",
+          "math9-p2-l15"
+        ],
+        "nonlesson_pages": [
+          106,
+          107,
+          108,
+          109,
+          110
+        ],
+        "boundary_status": "verified_complete_contact_sheet_visual_unit_banner_and_closing_test"
+      },
+      {
+        "id": "math9-p2-u7",
+        "title": "الإحصاء",
+        "stored_page_range": [
+          111,
+          141
+        ],
+        "lesson_ids": [
+          "math9-p2-l16",
+          "math9-p2-l17",
+          "math9-p2-l18",
+          "math9-p2-l19"
+        ],
+        "nonlesson_pages": [
+          138,
+          139,
+          140,
+          141
+        ],
+        "boundary_status": "verified_complete_contact_sheet_visual_unit_banner_and_closing_test"
+      }
+    ],
+    "lesson_count": 19,
+    "lesson_member_page_count": 122,
+    "lessons": [
+      {
+        "id": "math9-p2-l01",
+        "unit_id": "math9-p2-u5",
+        "title": "الدائرة",
+        "stored_page_range": [
+          7,
+          9
+        ],
+        "stored_pages": [
+          7,
+          8,
+          9
+        ],
+        "page_count": 3,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l02",
+        "unit_id": "math9-p2-u5",
+        "title": "العمود النازل من مركز الدائرة على الوتر",
+        "stored_page_range": [
+          10,
+          15
+        ],
+        "stored_pages": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "page_count": 6,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l03",
+        "unit_id": "math9-p2-u5",
+        "title": "أوتار الدائرة",
+        "stored_page_range": [
+          16,
+          21
+        ],
+        "stored_pages": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "page_count": 6,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l04",
+        "unit_id": "math9-p2-u5",
+        "title": "الزاوية المركزية والأقواس",
+        "stored_page_range": [
+          22,
+          26
+        ],
+        "stored_pages": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "page_count": 5,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l05",
+        "unit_id": "math9-p2-u5",
+        "title": "القطاع الدائري",
+        "stored_page_range": [
+          27,
+          29
+        ],
+        "stored_pages": [
+          27,
+          28,
+          29
+        ],
+        "page_count": 3,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l06",
+        "unit_id": "math9-p2-u5",
+        "title": "الزاوية المحيطية",
+        "stored_page_range": [
+          30,
+          35
+        ],
+        "stored_pages": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "page_count": 6,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l07",
+        "unit_id": "math9-p2-u5",
+        "title": "الشكل الرباعي الدائري",
+        "stored_page_range": [
+          36,
+          42
+        ],
+        "stored_pages": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ],
+        "page_count": 7,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l08",
+        "unit_id": "math9-p2-u5",
+        "title": "المماس",
+        "stored_page_range": [
+          43,
+          51
+        ],
+        "stored_pages": [
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ],
+        "page_count": 9,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l09",
+        "unit_id": "math9-p2-u5",
+        "title": "الأوضاع النسبية لدائرتين",
+        "stored_page_range": [
+          52,
+          60
+        ],
+        "stored_pages": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "page_count": 9,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l10",
+        "unit_id": "math9-p2-u6",
+        "title": "البعد بين نقطتين",
+        "stored_page_range": [
+          65,
+          68
+        ],
+        "stored_pages": [
+          65,
+          66,
+          67,
+          68
+        ],
+        "page_count": 4,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l11",
+        "unit_id": "math9-p2-u6",
+        "title": "تنصيف قطعة مستقيمة",
+        "stored_page_range": [
+          69,
+          72
+        ],
+        "stored_pages": [
+          69,
+          70,
+          71,
+          72
+        ],
+        "page_count": 4,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l12",
+        "unit_id": "math9-p2-u6",
+        "title": "الانعكاس",
+        "stored_page_range": [
+          73,
+          83
+        ],
+        "stored_pages": [
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ],
+        "page_count": 11,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l13",
+        "unit_id": "math9-p2-u6",
+        "title": "الانسحاب",
+        "stored_page_range": [
+          84,
+          89
+        ],
+        "stored_pages": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "page_count": 6,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l14",
+        "unit_id": "math9-p2-u6",
+        "title": "الدوران",
+        "stored_page_range": [
+          90,
+          96
+        ],
+        "stored_pages": [
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96
+        ],
+        "page_count": 7,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l15",
+        "unit_id": "math9-p2-u6",
+        "title": "التكبير",
+        "stored_page_range": [
+          97,
+          105
+        ],
+        "stored_pages": [
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105
+        ],
+        "page_count": 9,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l16",
+        "unit_id": "math9-p2-u7",
+        "title": "المتوسط الحسابي",
+        "stored_page_range": [
+          111,
+          119
+        ],
+        "stored_pages": [
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119
+        ],
+        "page_count": 9,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l17",
+        "unit_id": "math9-p2-u7",
+        "title": "المنوال",
+        "stored_page_range": [
+          120,
+          122
+        ],
+        "stored_pages": [
+          120,
+          121,
+          122
+        ],
+        "page_count": 3,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l18",
+        "unit_id": "math9-p2-u7",
+        "title": "التكرار المتجمع",
+        "stored_page_range": [
+          123,
+          128
+        ],
+        "stored_pages": [
+          123,
+          124,
+          125,
+          126,
+          127,
+          128
+        ],
+        "page_count": 6,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      },
+      {
+        "id": "math9-p2-l19",
+        "unit_id": "math9-p2-u7",
+        "title": "الوسيط",
+        "stored_page_range": [
+          129,
+          137
+        ],
+        "stored_pages": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137
+        ],
+        "page_count": 9,
+        "legacy_question_count": 0,
+        "question_refs": [],
+        "boundary_status": "verified_source_local_metadata_plus_complete_contact_sheet_visual_review"
+      }
+    ],
+    "nonlesson_page_count": 13,
+    "review_pages": [],
+    "general_exercise_pages": [
+      61,
+      62,
+      106,
+      107,
+      108,
+      138,
+      139
+    ],
+    "unit_test_pages": [
+      63,
+      64,
+      109,
+      110,
+      140,
+      141
+    ]
+  },
+  "questions": {
+    "legacy_questions": 0,
+    "structurally_lesson_linked_questions": 0,
+    "review_required_questions": 0,
+    "unclassified_questions": 0,
+    "semantic_correctness": "NOT APPLICABLE — source has zero legacy questions",
+    "lesson_assignments": [],
+    "review_required_assignments": []
+  },
+  "invariants": {
+    "all_135_pages_classified_exactly_once": true,
+    "all_0_questions_structurally_accounted_for": true,
+    "raw_mutations": 0,
+    "unrelated_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  }
+}

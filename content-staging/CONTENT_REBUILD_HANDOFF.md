@@ -521,3 +521,17 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - Source images technical **1,851/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`.
 <!-- MATH_BOOK_PART1_CHECKPOINT_END -->
+
+<!-- MATH_BOOK_PART2_CHECKPOINT_START -->
+## Reconstruction checkpoint — Math Book Part 2
+
+- Sources processed: **25/58**; Educational: **12/26**; Exam Source Groups: **13/32**.
+- Books / Units / Lessons / Lesson pages: **12 / 40 / 236 / 1,161**.
+- Math Part 2: **135/135** RAW images technically verified; complete visual review establishes **3 units / 19 lessons / 122 lesson pages / 13 non-lesson pages**.
+- Verified unit banners: **الوحدة الخامسة — الهندسة**; **الوحدة السادسة — الهندسة الإحداثية والتحويلات**; **الوحدة السابعة — الإحصاء**.
+- Non-lesson pages: **7 general-exercise + 6 unit-test pages**.
+- Questions: this source contains **0 legacy questions**; no question mappings invented.
+- Global invariant: **7,511 + 1,132 + 448 + 16,664 = 25,755**.
+- Source images technical **1,986/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Next: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`.
+<!-- MATH_BOOK_PART2_CHECKPOINT_END -->

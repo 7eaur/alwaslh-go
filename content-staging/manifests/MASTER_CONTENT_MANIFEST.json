@@ -1810,8 +1810,8 @@
         "id": "b80cbba1-410a-4346-9446-c3f01c4f9e56",
         "name": "كتاب الرياضيات - الجزء الثاني"
       },
-      "classification": "educational_source_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "educational_book_source",
+      "classification_evidence": "135/135 technical RAW verification + source-local pages.json title continuity + complete contact-sheet visual review of every retained page; no Part 1 structure inherited",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/b80cbba1-410a-4346-9446-c3f01c4f9e56/manifest.json",
       "manifest_sha256_recorded": "ba7954d54980a8a4d89645d98301db434b78e8a24f0f7a9a6549ad73d97faf44",
       "counts": {
@@ -1830,12 +1830,43 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "reconstructed_verified_source_local_visual_structure",
       "modern_entity_id": null,
       "exam_models": null,
       "answer_keys": null,
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/b80cbba1-410a-4346-9446-c3f01c4f9e56.json",
+        "images_verified": 135,
+        "readable": 135,
+        "sha256_match_manifest": 135,
+        "mime_match_manifest": 135,
+        "duplicate_sha_groups_within_source": 0
+      },
+      "reconstruction": {
+        "status": "verified",
+        "path": "content-staging/reconstruction/educational/b80cbba1-410a-4346-9446-c3f01c4f9e56.json",
+        "book_title": "كتاب الرياضيات - الجزء الثاني",
+        "retained_page_range": [
+          7,
+          141
+        ],
+        "retained_pages": 135,
+        "units": 3,
+        "lessons": 19,
+        "lesson_pages": 122,
+        "nonlesson_pages": 13,
+        "review_pages": 0,
+        "general_exercise_pages": 7,
+        "unit_test_pages": 6,
+        "legacy_questions": 0,
+        "structurally_lesson_linked_questions": 0,
+        "review_required_questions": 0,
+        "semantic_question_review": "NOT APPLICABLE — source has zero legacy questions",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "b6ce737e-26d4-4219-a607-27bfb7d2f518",
@@ -3127,21 +3158,21 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 24,
+    "sources_completed": 25,
     "sources_total": 58,
-    "educational_sources_completed": 11,
+    "educational_sources_completed": 12,
     "educational_sources_total": 26,
-    "verified_books": 11,
-    "verified_units": 37,
-    "verified_lessons": 217,
-    "verified_lesson_pages": 1039,
+    "verified_books": 12,
+    "verified_units": 40,
+    "verified_lessons": 236,
+    "verified_lesson_pages": 1161,
     "exam_source_groups_completed": 13,
     "exam_source_groups_total": 32,
     "individual_exam_models": 206,
     "exam_pages_completed": 668,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 1851,
+    "source_images_technically_verified": 1986,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,
