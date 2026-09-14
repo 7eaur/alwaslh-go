@@ -1,0 +1,140 @@
+name: Discover Mathematics Exam 1445 Evidence
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/discover-math-exam-1445.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-math-exam-1445
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install image validation dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Verify immutable source media
+        run: |
+          set -euo pipefail
+          python content-staging/tools/verify_subject_media.py \
+            --subject-id 0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199
+
+      - name: Generate generic source-local discovery evidence
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts/math-exam-1445
+          python content-staging/tools/discover_exam_source_group.py \
+            --subject-id 0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 \
+            --visual-dir artifacts/math-exam-1445
+
+      - name: Extract complete metadata and provenance evidence without guessing boundaries
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, re
+          from collections import Counter, defaultdict
+          from pathlib import Path
+
+          sid='0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199'
+          root=Path('content-staging/raw/legacy-supabase/subjects')/sid
+          manifest=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
+          pages=json.loads((root/'pages.json').read_text(encoding='utf-8'))
+          if isinstance(pages, dict):
+              for k in ('pages','records','items','data'):
+                  if isinstance(pages.get(k), list): pages=pages[k]; break
+          pmap={p.get('page_number'):p for p in pages if isinstance(p,dict)}
+          images=sorted(manifest.get('images') or [], key=lambda x:(x.get('page_number') is None,x.get('page_number')))
+          shas=defaultdict(list)
+          prefixes=defaultdict(list)
+          rows=[]
+          for im in images:
+              n=im.get('page_number'); p=pmap.get(n,{})
+              shas[im.get('sha256')].append(n)
+              obj=im.get('storage_object_path') or ''
+              base=Path(obj).name
+              m=re.match(r'(.+?)-([0-9]+)\.[^.]+$', base)
+              prefix=m.group(1) if m else None
+              if prefix: prefixes[prefix].append(n)
+              qs=p.get('ai_questions') or []
+              refs=[]
+              if isinstance(qs,list):
+                  for q in qs[:5]:
+                      if isinstance(q,dict) and q.get('source_reference'): refs.append(q.get('source_reference'))
+              rows.append({
+                  'page_number':n,
+                  'legacy_page_id':im.get('legacy_page_id'),
+                  'title':p.get('title'),
+                  'content_type':p.get('content_type'),
+                  'question_count':len(qs) if isinstance(qs,list) else 0,
+                  'source_reference_samples':refs,
+                  'storage_object_path':obj,
+                  'storage_filename_prefix':prefix,
+                  'sha256':im.get('sha256'),
+                  'byte_size':im.get('byte_size'),
+                  'mime_type':im.get('mime_type'),
+              })
+          out={
+              'schema_version':1,
+              'source_group_id':sid,
+              'source_group_name':(manifest.get('legacy_subject') or {}).get('name'),
+              'counts':manifest.get('counts'),
+              'anomalies':manifest.get('anomalies'),
+              'page_metadata':rows,
+              'question_count_by_page':{str(r['page_number']):r['question_count'] for r in rows if r['question_count']},
+              'storage_filename_prefix_groups':[{'prefix':k,'pages':v,'count':len(v)} for k,v in sorted(prefixes.items(), key=lambda kv:min(kv[1]))],
+              'duplicate_sha256_groups':[v for v in shas.values() if len(v)>1],
+              'distinct_titles':dict(Counter((r.get('title') or '').strip() for r in rows if (r.get('title') or '').strip())),
+              'boundary_status':'NOT VERIFIED',
+              'answer_keys':'NOT VERIFIED',
+              'raw_mutations':0,
+          }
+          target=Path('content-staging/reconstruction/exams/source-groups')/f'{sid}-metadata-evidence.json'
+          target.parent.mkdir(parents=True,exist_ok=True)
+          target.write_text(json.dumps(out,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          print(json.dumps({'pages':len(rows),'question_count_by_page':out['question_count_by_page'],'prefix_groups':out['storage_filename_prefix_groups'],'duplicate_sha256_groups':out['duplicate_sha256_groups'],'distinct_titles':out['distinct_titles']},ensure_ascii=False))
+          PY
+
+      - name: Verify no concurrent branch mutation before evidence commit
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "${GITHUB_SHA}" || { echo 'LIVE_HEAD_DRIFT_FAIL_CLOSED'; exit 41; }
+
+      - name: Commit derived discovery evidence only
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add \
+            content-staging/reconstruction/technical/0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199.json \
+            content-staging/reconstruction/exams/source-groups/0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199-discovery.json \
+            content-staging/reconstruction/exams/source-groups/0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199-metadata-evidence.json
+          git commit -m 'content: discover math 1445 exam evidence [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
+
+      - name: Upload complete visual evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: math-exam-1445-visual-evidence
+          path: artifacts/math-exam-1445/
+          if-no-files-found: error
+          retention-days: 14
