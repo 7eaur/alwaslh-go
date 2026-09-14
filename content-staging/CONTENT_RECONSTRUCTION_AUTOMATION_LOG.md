@@ -223,15 +223,15 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 - state: `READY_NEXT_SOURCE`
 - branch: `content/corpus-inventory-20260914`
-- latest evidence HEAD before this handoff tooling: `bac8c301d6d66b2e159831392db4ee86b4bdc745`
-- last completed source: `0b28dc73-7e43-45f1-99c8-14825dcf3ded — الفيزياء نماذج وزاريه 1446`
-- current source: `bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a — الفيزياء نماذج وزاريه 1447`
-- current source baseline from live manifest: `124 pages / 124 images / 255 legacy questions / 0 download failures; anomaly arrays empty.`
-- current source verified work: `NOT STARTED; no prior Physics packet size/boundary pattern may be inherited.`
-- current operation: `Re-fetch live HEAD and baton; confirm no active workflow for this source; technically verify 124 immutable RAW images; perform source-local duplicate/boundary discovery and complete visual review; resolve occurrences/models/correction candidates/Answer-Key evidence; map 255 legacy questions only where page membership is proven; use review_required/NOT VERIFIED for uncertainty; assert invariants; checkpoint.`
-- next source: `Resolve only after Physics 1447 finalization from live MASTER.`
+- latest evidence HEAD before this handoff tooling: `a472b465c292ac55109bde64196a7b589ac0735b`
+- last completed source: `bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a — الفيزياء نماذج وزاريه 1447`
+- current source: `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1 — العربي نماذج وزارية 1447`
+- current source baseline from live manifest: `42 pages / 42 images / 0 legacy questions / 0 download failures; anomaly arrays empty.`
+- current source verified work: `NOT STARTED; no Physics or prior Arabic packet size/boundary pattern may be inherited.`
+- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for this exact source; technically verify all 42 immutable RAW images; perform source-local duplicate scan and exam-boundary discovery; visually inspect complete source evidence; resolve occurrences, Individual Exam Models, correction/result candidates and Answer-Key evidence without inheriting prior-source patterns; there are 0 legacy questions so do not fabricate question mappings; use review_required/NOT VERIFIED when evidence is insufficient; assert global invariants; checkpoint.`
+- next source: `Resolve only after Arabic 1447 finalization from live MASTER.`
 - blockers: `none`
-- completed Physics 1446 evidence: `104/104 RAW technically verified; sequence 1..104 contiguous; 6 duplicate SHA groups preserved; complete visual review proves 26 four-page occurrences (3 question + 1 correction/result candidate); 26 models / 104 exam pages / 26 correction candidates; 0 standalone Answer Keys verified; 200/200 legacy questions structurally linked; semantic correctness NOT VERIFIED; mutations/imports/publications 0.`
+- completed Physics 1447 evidence: `124/124 immutable RAW images technically verified; sequence 1..124 contiguous; 9 duplicate SHA groups preserved; complete visual review proves 31 four-page occurrences, each three question pages plus one correction/result candidate; 31 Individual Exam Models / 124 Exam Pages finalized; 31 correction candidates; 0 verified standalone Answer Keys; 255/255 legacy questions structurally linked by verified page membership; semantic correctness NOT VERIFIED; RAW/unrelated/import/publication mutations 0.`
 
 ---
 
@@ -1947,4 +1947,62 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - exact next operation: `Re-fetch live HEAD/baton; verify no active workflow; technically verify all 124 RAW; independently discover Physics 1447 boundaries from complete source-local evidence without inheriting 1445/1446 packet sizes; map 255 questions only where proven; quarantine uncertainty; assert invariant; checkpoint.`
 - blockers: `none`.
 - handoff for Worker B: `Start only from bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a; do not rerun Physics 1446 absent new drift evidence and do not promote correction/result candidates to standalone Answer Keys without evidence.`
+
+## RUN 2026-09-15T02:52:29+03:00 — Worker A
+
+- state: `COMPLETE`
+- start HEAD: `c0fb023344ef6b002054f8b88bb5ed1148fb5004`
+- evidence HEAD before handoff tooling: `a472b465c292ac55109bde64196a7b589ac0735b`
+- handoff-trigger HEAD: `cdccf3c49cc2fd128efb8be8006e3d619f812d47`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a — الفيزياء نماذج وزاريه 1447`
+- completed in this run:
+  - fetched live branch/baton first and verified the previous Physics 1446 handoff against live MASTER/manifests/evidence;
+  - confirmed no active/running workflow for Physics 1447 before discovery/finalization;
+  - technically verified **124/124** immutable RAW images with byte-size/SHA-256/MIME agreement, contiguous sequence **1..124**, **9** duplicate SHA groups preserved and **0** RAW mutations;
+  - generated and visually inspected complete contact sheets covering all **124** pages;
+  - independently resolved **31** source-local four-page occurrences, each three question pages followed by one correction/result-sheet candidate; all 124 pages finalized exactly once;
+  - preserved the 9 SHA duplicate groups, which form three repeated question-sheet triplets, without collapsing complete occurrences solely from partial-page duplication;
+  - finalized **31 Individual Exam Models / 124 Exam Pages**, **31 correction/result candidates**, **0 review-required pages**, and **0 verified standalone Answer Keys**;
+  - structurally linked **255/255 legacy questions** to verified model membership; semantic correctness remains `NOT VERIFIED`;
+  - updated canonical reconstruction, MASTER and evidence-backed status/handoff/inventory/validation/import/continuation files; no production import/publication was created;
+  - discovery run `34909617398` and finalization run `34910199734` succeeded; finalization passed exact-live-HEAD gates before finalization, evidence write, and commit.
+- evidence produced/verified:
+  - `content-staging/reconstruction/technical/bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a.json`;
+  - `content-staging/reconstruction/exams/source-groups/bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a-discovery.json`;
+  - `content-staging/reconstruction/exams/source-groups/bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a.json`;
+  - discovery artifact `physics-exam-1447-discovery-evidence` id `10374510074`;
+  - final artifact `physics-exam-1447-final-evidence` id `10374346533`;
+  - canonical evidence commit `a472b465c292ac55109bde64196a7b589ac0735b`.
+- ambiguity/review_required:
+  - source boundary ambiguity: none after complete visual review;
+  - standalone official Answer Keys: `NOT VERIFIED`; correction/result pages remain candidates only;
+  - official model codes/titles/term: `NOT VERIFIED`;
+  - semantic correctness of all 255 legacy questions/answers: `NOT VERIFIED`.
+- invariant result: PASS (`13,135 + 1,920 + 1,229 + 9,471 = 25,755`)
+- Sources processed: 35/58
+- Educational: 16/26
+- Books / Units / Lessons / Lesson Pages: 14 / 57 / 328 / 1,527
+- Exam Source Groups: 19/32
+- Individual Exam Models: 356
+- Exam Pages: 1,232/2,286
+- Verified Answer Keys: 0
+- Source images technical: 2,979/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 13,135
+- Exam-linked: 1,920
+- Review-required: 1,229
+- Unclassified: 9,471
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a — الفيزياء نماذج وزاريه 1447`
+- current source: `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1 — العربي نماذج وزارية 1447`
+- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for d1a6b8f8-d81b-4824-86e1-d370ec28bdf1; technically verify all 42 immutable RAW images; independently discover Arabic 1447 duplicate/model/correction boundaries from complete source-local evidence; do not inherit prior-source packet sizes; there are 0 legacy questions, so do not invent mappings; quarantine uncertainty as review_required/NOT VERIFIED; assert the 25,755 invariant; checkpoint.`
+- next source: `Resolve only after Arabic 1447 finalization from live MASTER.`
+- blockers: `none`
+- handoff note: `Worker B should start only from d1a6b8f8-d81b-4824-86e1-d370ec28bdf1 after re-fetching live HEAD and this baton. Do not rerun/finalize Physics 1447 absent fresh drift evidence and do not promote correction/result candidates to standalone official Answer Keys without explicit evidence.`
 
