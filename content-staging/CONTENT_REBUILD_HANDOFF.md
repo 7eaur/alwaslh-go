@@ -178,3 +178,20 @@ Do not rerun the bulk import, CURATION-001/002 structural apply, or the reviewed
 Continue only from the first unresolved pedagogical boundary in the still-unpublished Grade 9 English corpus. Future Lessons/questions must complete review before any explicit publication gate.
 
 Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-publish unreviewed AI/legacy content.
+
+<!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_START -->
+## Active reconstruction handoff — Chemistry complete
+
+- Repository: `7eaur/alwaslh-go`
+- Branch: `content/corpus-inventory-20260914`
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Last completed source: `f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4` — Third Secondary Chemistry textbook.
+- Completed source result: **178 technically verified pages; 1 Book; 9 Units; 57 Lessons; 149 Lesson pages; 14 review pages; 5 glossary pages**.
+- Evidence: exact RAW/master SHA identity for pages 11..188 plus trusted TOC and selective visual boundary inspection.
+- Questions: 2,225 structurally lesson-linked; 351 `review_required`; semantic correctness `NOT VERIFIED`.
+- Exam Source Groups completed: **0/32**.
+- Current/next source: `e101d097-7a14-44e5-b242-cdeb9a312b77` — `الكيمياء نماذج وزاريه 1445`.
+- Exact next operation: technical scan the 60-page exam source group, detect Individual Exam Model boundaries, selectively inspect starts/ends/answer-key candidates, then map pages/questions without treating the 60-page group as one exam.
+- Unresolved corpus-wide: remaining 25 educational candidates; all 32 Exam Source Groups; Individual Exam Models; Answer Keys; remaining technical image scan; WebP derivative decisions; 99 duplicate fingerprint groups; remaining question classifications.
+- RAW mutations / unrelated mutations / imports / publications remain **0 / 0 / 0 / 0**.
+<!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_END -->

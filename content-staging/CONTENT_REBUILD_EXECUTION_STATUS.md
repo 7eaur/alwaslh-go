@@ -195,3 +195,26 @@ Do **not** rerun the Grade 9 English bulk import or republish the two reviewed L
 The remaining Grade 9 English corpus is still imported but unpublished. Continue pedagogical review from the first unresolved evidence-backed boundary, then publish only future Lessons/questions that complete the same review + rollback-gate + post-verify standard.
 
 Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 62` heuristic, or auto-publish unreviewed legacy/AI content.
+
+<!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_START -->
+## Reconstruction checkpoint — Third Secondary Chemistry
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Sources processed: **1/58**
+- Educational sources processed: **1/26**
+- Verified Books / Units / Lessons / Lesson pages: **1 / 9 / 57 / 149**
+- Exam source groups processed: **0/32**
+- Individual Exam Models / Exam pages / Answer Keys: **0 / 0 of 2,286 / 0**
+- Source images technically verified: **178/5,273**
+- Chemistry source verification: 178 exists, 178 readable, 178 byte-size matches, 178 SHA-256 matches, 178 MIME matches; page range **11..188** contiguous; duplicate SHA groups within this source: **0**.
+- WebP derivatives generated / accepted / rejected: **0 / 0 / 0**. The verified Chemistry RAW source is already WebP; derivative optimization has not been executed yet.
+- Legacy questions baseline: **25,755**.
+- Structurally lesson-linked: **2,225** (page-local mapping only; semantic correctness `NOT VERIFIED`).
+- Review-required from Chemistry unit covers/reviews: **351**.
+- Exam-linked to an Individual Exam Model: **0**.
+- Remaining unclassified: **23,179**.
+- Duplicate fingerprint groups classified: **0/99**.
+- RAW mutations / unrelated mutations / new imports / new publications: **0 / 0 / 0 / 0**.
+- Last completed source: `f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4` — `الكيمياء الكتاب المدرسي`.
+- Next source: `e101d097-7a14-44e5-b242-cdeb9a312b77` — `الكيمياء نماذج وزاريه 1445`.
+<!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_END -->

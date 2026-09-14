@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "status": "METADATA_INVENTORY_VERIFIED_NOT_IMPORT_READY",
+  "status": "RECONSTRUCTION_IN_PROGRESS_NOT_IMPORT_READY",
   "repository": "7eaur/alwaslh-go",
   "source_commit": "041cb0738f3a76600eebde29dfb0181ef7e76255",
   "reference_commit": "f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23",
@@ -37,8 +37,8 @@
         "id": "f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4",
         "name": "الكيمياء الكتاب المدرسي"
       },
-      "classification": "educational_source_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "educational_book_source",
+      "classification_evidence": "verified RAW/master SHA identity + trusted master TOC + page-title continuity + selective visual boundary review",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4/manifest.json",
       "manifest_sha256_recorded": "635b80e9a734edefc523fcdccbc72ca4402e1efe40f5f9b700d95ff8e9dfa364",
       "counts": {
@@ -57,12 +57,42 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "reconstructed_verified",
       "modern_entity_id": null,
       "exam_models": null,
       "answer_keys": null,
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4.json",
+        "images_verified": 178,
+        "readable": 178,
+        "sha256_match_manifest": 178,
+        "mime_match_manifest": 178,
+        "duplicate_sha_groups_within_source": 0
+      },
+      "reconstruction": {
+        "status": "verified",
+        "path": "content-staging/reconstruction/educational/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4.json",
+        "book_title": "كتاب الكيمياء",
+        "retained_page_range": [
+          11,
+          188
+        ],
+        "retained_pages": 178,
+        "units": 9,
+        "lessons": 57,
+        "lesson_pages": 149,
+        "unit_cover_pages": 10,
+        "unit_review_pages": 14,
+        "appendix_pages": 5,
+        "legacy_questions": 2576,
+        "structurally_lesson_linked_questions": 2225,
+        "review_required_questions": 351,
+        "semantic_question_review": "NOT VERIFIED",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
@@ -2361,5 +2391,37 @@
     "Candidate classification is triage, not approved educational structure.",
     "Individual exam boundaries, answer keys, byte-level checksums and current PostgreSQL state are NOT VERIFIED.",
     "Historical authorized publication is retained; zero publication applies to this run only."
-  ]
+  ],
+  "reconstruction_progress": {
+    "sources_completed": 1,
+    "sources_total": 58,
+    "educational_sources_completed": 1,
+    "educational_sources_total": 26,
+    "verified_books": 1,
+    "verified_units": 9,
+    "verified_lessons": 57,
+    "verified_lesson_pages": 149,
+    "exam_source_groups_completed": 0,
+    "exam_source_groups_total": 32,
+    "individual_exam_models": 0,
+    "exam_pages_completed": 0,
+    "exam_pages_total": 2286,
+    "answer_keys": 0,
+    "source_images_technically_verified": 178,
+    "source_images_total": 5273,
+    "webp_derivatives_generated": 0,
+    "webp_derivatives_accepted": 0,
+    "webp_derivatives_rejected": 0,
+    "legacy_questions_total": 25755,
+    "lesson_linked_structural": 2225,
+    "exam_linked_to_individual_model": 0,
+    "review_required": 351,
+    "unclassified": 23179,
+    "duplicate_fingerprint_groups_classified": 0,
+    "duplicate_fingerprint_groups_total": 99,
+    "raw_mutations": 0,
+    "unrelated_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  }
 }

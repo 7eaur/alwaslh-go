@@ -79,3 +79,19 @@ Master tree enumerated fully: 5750 entries. Staging tree enumerated fully: 11387
 No source was classified as a modern Lesson or individual Exam Model from its filename.
 Original master sources and legacy RAW must be reconciled by bytes before claiming global coverage. Counts above belong to legacy RAW manifests only.
 Direct GitHub network access from the execution environment timed out. Connector text reads succeeded. Binary rehash/visual reconstruction and current PostgreSQL verification remain outstanding.
+
+<!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_START -->
+## Verified reconstruction checkpoint — Chemistry textbook
+
+The first non-Grade-9 educational source is now structurally reconstructed and technically verified.
+
+- Legacy source: `f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4` (`الكيمياء الكتاب المدرسي`).
+- Trusted reference: `master@f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23`, `الكيمياء ثالث ثانوي/كتاب الكيمياء`.
+- Legacy retained slice: numbered pages **11..188**, exactly **178** contiguous pages.
+- RAW/master shared SHA-256 equality: **178/178**.
+- Master-only numbered pages outside the retained slice: **3..10** and **189..193**.
+- Reconstructed structure: **1 Book, 9 Units, 57 Lessons, 149 Lesson pages, 10 Unit-cover pages, 14 Unit-review pages, 5 Glossary pages**.
+- The glossary is pages **184..188** and is not modeled as Lessons.
+- The 2,576 legacy Chemistry questions remain preserved. **2,225** are structurally attached to verified lesson-page groups; **351** are on unit covers/reviews and remain `review_required`. Semantic correctness remains `NOT VERIFIED`.
+- This checkpoint does not change the established corpus baseline of 58 legacy sources, 5,273 source images, 25,755 legacy questions, 32 Exam Source Groups, 2,286 exam-source pages, or 99 duplicate fingerprint groups.
+<!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_END -->
