@@ -263,3 +263,17 @@ Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson
 - Source images technical **1,394/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8 — السيرة النبوية الكتاب `.
 <!-- HADITH_BOOK_CHECKPOINT_END -->
+
+<!-- SEERAH_BOOK_CHECKPOINT_START -->
+## Reconstruction checkpoint — Seerah Book
+
+- Sources processed: **19/58**; Educational: **9/26**; Exam Source Groups: **10/32**.
+- Books / Units / Lessons / Lesson pages: **9 / 33 / 183 / 810**.
+- Seerah source: **81/81** technically verified + exact SHA-identical to `master/التربية الاسلاميه ثالث ثانوي/كتاب السيرة النبوية/الصور`.
+- Exact filename evidence establishes **12 lessons** and assigns **81/81 retained pages** to one lesson; no unit layer was asserted (`NOT VERIFIED`).
+- Page 88 filename explicitly contains `التقويم والخاتمة`; other page subtype boundaries remain `NOT VERIFIED`.
+- Questions: **1,152/1,152 structurally lesson-linked** by exact page membership; semantic correctness remains `NOT VERIFIED`.
+- Global question invariant: **5,985 + 967 + 351 + 18,452 = 25,755**.
+- Source images technical **1,475/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Next: `6a8ea7f2-1e77-4654-a28c-0ea1b82b4830 — الفقه الكتاب المدرسي`.
+<!-- SEERAH_BOOK_CHECKPOINT_END -->
