@@ -8,6 +8,8 @@ on:
       - '.github/workflows/discover-chemistry-exam-1445.yml'
       - 'content-staging/tools/verify_subject_media.py'
       - 'content-staging/tools/discover_exam_source_group.py'
+      - 'content-staging/tools/reconstruct_chemistry_exam_1445.py'
+      - 'content-staging/tools/record_chemistry_exam_1445_checkpoint.py'
 
 permissions:
   contents: write
@@ -48,6 +50,16 @@ jobs:
             --subject-id e101d097-7a14-44e5-b242-cdeb9a312b77 \
             --visual-dir artifacts/chemistry-exam-1445
 
+      - name: Reconstruct verified individual exam boundaries
+        run: |
+          set -euo pipefail
+          python content-staging/tools/reconstruct_chemistry_exam_1445.py
+
+      - name: Record source-group checkpoint
+        run: |
+          set -euo pipefail
+          python content-staging/tools/record_chemistry_exam_1445_checkpoint.py
+
       - name: Upload boundary evidence
         uses: actions/upload-artifact@v4
         with:
@@ -56,20 +68,28 @@ jobs:
             artifacts/chemistry-exam-1445/
             content-staging/reconstruction/technical/e101d097-7a14-44e5-b242-cdeb9a312b77.json
             content-staging/reconstruction/exams/source-groups/e101d097-7a14-44e5-b242-cdeb9a312b77-discovery.json
+            content-staging/reconstruction/exams/source-groups/e101d097-7a14-44e5-b242-cdeb9a312b77.json
           if-no-files-found: error
           retention-days: 14
 
-      - name: Commit derived discovery reports only
+      - name: Commit reconstruction checkpoint
         run: |
           set -euo pipefail
           git config user.name 'alwaslh-content-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add \
             content-staging/reconstruction/technical/e101d097-7a14-44e5-b242-cdeb9a312b77.json \
-            content-staging/reconstruction/exams/source-groups/e101d097-7a14-44e5-b242-cdeb9a312b77-discovery.json
+            content-staging/reconstruction/exams/source-groups/e101d097-7a14-44e5-b242-cdeb9a312b77-discovery.json \
+            content-staging/reconstruction/exams/source-groups/e101d097-7a14-44e5-b242-cdeb9a312b77.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+            content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md \
+            content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md
           if git diff --cached --quiet; then
             echo 'Derived reports unchanged.'
             exit 0
           fi
-          git commit -m 'content: discover chemistry 1445 exam boundary candidates [skip ci]'
+          git commit -m 'content: finalize chemistry 1445 exam models [skip ci]'
           git push origin HEAD:content/corpus-inventory-20260914
