@@ -1,0 +1,318 @@
+name: Finalize verified-empty Islamic sources
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - .github/workflows/finalize-verified-empty-islamic-sources.yml
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - name: Exact-head gate before mutation
+        shell: bash
+        run: |
+          set -euo pipefail
+          remote_head="$(git ls-remote origin refs/heads/content/corpus-inventory-20260914 | cut -f1)"
+          test "$remote_head" = "$GITHUB_SHA"
+
+      - name: Apply conservative verified-empty disposition
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json, re
+          from pathlib import Path
+
+          ROOT = Path('.')
+          MASTER = ROOT/'content-staging/manifests/MASTER_CONTENT_MANIFEST.json'
+          LOG = ROOT/'content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md'
+          STATUS = ROOT/'content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md'
+          HANDOFF = ROOT/'content-staging/CONTENT_REBUILD_HANDOFF.md'
+          CONT = ROOT/'content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md'
+          POLICY = ROOT/'content-staging/reconstruction/VERIFIED_EMPTY_SOURCE_DISPOSITION_POLICY.json'
+
+          sources = [
+              ('b6ce737e-26d4-4219-a607-27bfb7d2f518', 'كتاب الإسلامية - الجزء الأول'),
+              ('e36ec148-0913-4bcc-a35c-268d464fecab', 'كتاب الإسلامية - الجزء الثاني'),
+          ]
+
+          def sha256(p):
+              return hashlib.sha256(p.read_bytes()).hexdigest()
+
+          evidence = {}
+          for sid, name in sources:
+              d = ROOT/f'content-staging/raw/legacy-supabase/subjects/{sid}'
+              manifest_p, pages_p, subject_p = d/'manifest.json', d/'pages.json', d/'subject.json'
+              manifest = json.loads(manifest_p.read_text())
+              pages = json.loads(pages_p.read_text())
+              subject = json.loads(subject_p.read_text())
+              assert manifest['status'] == 'empty'
+              assert pages == []
+              assert manifest['counts'] == {
+                  'image_download_failures': 0,
+                  'image_references': 0,
+                  'images_downloaded': 0,
+                  'pages': 0,
+                  'questions': 0,
+              }
+              assert all(v == [] for v in manifest['anomalies'].values())
+              assert manifest['legacy_subject']['id'] == sid
+              assert manifest['legacy_subject']['name'] == name
+              assert subject['subject']['id'] == sid
+              assert subject['subject']['name'] == name
+              assert subject['subject']['class_id'] == manifest['legacy_subject']['class_id']
+              evidence[sid] = {
+                  'manifest_sha256': sha256(manifest_p),
+                  'pages_sha256': sha256(pages_p),
+                  'subject_sha256': sha256(subject_p),
+              }
+
+          master = json.loads(MASTER.read_text())
+          rp = master['reconstruction_progress']
+          assert rp['sources_completed'] == 25
+          assert rp['educational_sources_completed'] == 12
+          assert rp['verified_books'] == 12
+          assert rp['verified_units'] == 40
+          assert rp['verified_lessons'] == 236
+          assert rp['verified_lesson_pages'] == 1161
+          assert rp['lesson_linked_structural'] + rp['exam_linked_to_individual_model'] + rp['review_required'] + rp['unclassified'] == 25755
+
+          policy = {
+              'version': 1,
+              'status': 'ACTIVE_CANONICAL_RECONSTRUCTION_POLICY',
+              'disposition': 'verified_empty_retained_source',
+              'criteria': [
+                  'retained legacy manifest status is exactly empty',
+                  'pages.json is an empty array',
+                  'manifest counts pages/image_references/images_downloaded/image_download_failures/questions are all zero',
+                  'manifest anomaly arrays are empty',
+                  'subject.json identity matches manifest legacy_subject identity',
+              ],
+              'counter_semantics': {
+                  'sources_completed_increment': 1,
+                  'educational_sources_completed_increment': 1,
+                  'verified_books_increment': 0,
+                  'verified_units_increment': 0,
+                  'verified_lessons_increment': 0,
+                  'verified_lesson_pages_increment': 0,
+                  'source_images_technically_verified_increment': 0,
+                  'question_classification_increment': 0,
+              },
+              'semantic_rules': {
+                  'book_identity': 'NOT VERIFIED',
+                  'units': 'NOT VERIFIED',
+                  'lessons': 'NOT VERIFIED',
+                  'page_boundaries': 'NOT VERIFIED',
+                  'technical_image_verification': 'NOT APPLICABLE — zero retained image references',
+                  'production_import': 'FORBIDDEN_IN_CURRENT_PHASE',
+                  'publication': 'FORBIDDEN_IN_CURRENT_PHASE',
+              },
+              'rationale': 'A retained source with a fully verified empty payload is processed as a source occurrence, but absence of retained content is not evidence of a Book, Unit, Lesson, or page boundary. This separates source-processing completeness from semantic-structure verification and prevents fabricated educational entities.',
+          }
+          POLICY.write_text(json.dumps(policy, ensure_ascii=False, indent=2) + '\n')
+          master['source_disposition_contract'] = {
+              'verified_empty_retained_source': policy
+          }
+
+          by_id = {s['id']: s for s in master['sources']}
+          for sid, name in sources:
+              s = by_id[sid]
+              assert s['counts']['pages'] == 0 and s['counts']['image_references'] == 0 and s['counts']['questions'] == 0
+              assert s['review_status'] == 'review_needed'
+              s['source_disposition'] = 'verified_empty_retained_source'
+              s['source_disposition_evidence'] = f'content-staging/reconstruction/educational/{sid}-empty-source-analysis.json'
+              s['review_status'] = 'processed_verified_empty_source_no_semantic_structure'
+              s['technical_verification'] = {
+                  'status': 'NOT APPLICABLE',
+                  'reason': 'zero retained image references',
+                  'images_verified': 0,
+                  'raw_mutations': 0,
+              }
+              s['reconstruction'] = {
+                  'status': 'verified_empty_source',
+                  'path': f'content-staging/reconstruction/educational/{sid}-empty-source-analysis.json',
+                  'book_title': 'NOT VERIFIED',
+                  'retained_pages': 0,
+                  'units': 'NOT VERIFIED',
+                  'lessons': 'NOT VERIFIED',
+                  'lesson_pages': 0,
+                  'legacy_questions': 0,
+                  'question_mappings': 'NOT APPLICABLE — zero legacy questions',
+                  'semantic_structure': 'NOT VERIFIED',
+                  'raw_mutations': 0,
+              }
+
+              artifact = {
+                  'version': 2,
+                  'phase': 'CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY',
+                  'source_id': sid,
+                  'source_name': name,
+                  'disposition': 'verified_empty_retained_source',
+                  'policy_path': str(POLICY),
+                  'verified_facts': {
+                      'manifest_status': 'empty',
+                      **evidence[sid],
+                      'pages_json_is_empty_array': True,
+                      'pages': 0,
+                      'image_references': 0,
+                      'images_downloaded': 0,
+                      'image_download_failures': 0,
+                      'legacy_questions': 0,
+                      'anomaly_arrays_empty': True,
+                      'subject_identity_matches_manifest': True,
+                  },
+                  'technical_verification': {
+                      'status': 'NOT APPLICABLE',
+                      'reason': 'The retained source has zero image references; there are no image bytes to verify.',
+                  },
+                  'reconstruction': {
+                      'status': 'verified_empty_source',
+                      'book': 'NOT VERIFIED',
+                      'units': 'NOT VERIFIED',
+                      'lessons': 'NOT VERIFIED',
+                      'page_boundaries': 'NOT VERIFIED',
+                      'question_mappings': 'NOT APPLICABLE — zero legacy questions',
+                  },
+                  'counter_effect': policy['counter_semantics'],
+                  'invariants': {
+                      'raw_mutations': 0,
+                      'unrelated_mutations': 0,
+                      'new_imports': 0,
+                      'new_publications': 0,
+                  },
+              }
+              (ROOT/f'content-staging/reconstruction/educational/{sid}-empty-source-analysis.json').write_text(
+                  json.dumps(artifact, ensure_ascii=False, indent=2) + '\n'
+              )
+
+          rp['sources_completed'] = 27
+          rp['educational_sources_completed'] = 14
+          assert rp['verified_books'] == 12 and rp['verified_units'] == 40 and rp['verified_lessons'] == 236 and rp['verified_lesson_pages'] == 1161
+          assert rp['source_images_technically_verified'] == 1986
+          assert rp['lesson_linked_structural'] + rp['exam_linked_to_individual_model'] + rp['review_required'] + rp['unclassified'] == 25755
+          assert rp['raw_mutations'] == rp['unrelated_mutations'] == rp['new_imports'] == rp['new_publications'] == 0
+          MASTER.write_text(json.dumps(master, ensure_ascii=False, indent=2) + '\n')
+
+          note = '''\n\n## Verified-empty retained-source disposition — 2026-09-14 Worker A\n\n- Canonical policy: `content-staging/reconstruction/VERIFIED_EMPTY_SOURCE_DISPOSITION_POLICY.json`.\n- Finalized as processed source occurrences without inventing semantic educational structure:\n  - `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`\n  - `e36ec148-0913-4bcc-a35c-268d464fecab — كتاب الإسلامية - الجزء الثاني`\n- Both have manifest `status=empty`, `pages.json=[]`, 0 pages/images/questions/failures, empty anomaly arrays, and matching subject identity.\n- Counter rule: each increments Sources processed + Educational processed only; Books/Units/Lessons/Lesson Pages/images/questions remain unchanged.\n- Book/Unit/Lesson/page semantics remain `NOT VERIFIED`; technical image verification is `NOT APPLICABLE`.\n- No RAW/import/publication mutation.\n- Next source from live MASTER order: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`.\n'''
+          for p in (STATUS, HANDOFF, CONT):
+              text = p.read_text()
+              marker = '## Verified-empty retained-source disposition — 2026-09-14 Worker A'
+              if marker not in text:
+                  p.write_text(text.rstrip() + note + '\n')
+          PY
+
+          python -m json.tool content-staging/manifests/MASTER_CONTENT_MANIFEST.json >/dev/null
+          python -m json.tool content-staging/reconstruction/VERIFIED_EMPTY_SOURCE_DISPOSITION_POLICY.json >/dev/null
+          python -m json.tool content-staging/reconstruction/educational/b6ce737e-26d4-4219-a607-27bfb7d2f518-empty-source-analysis.json >/dev/null
+          python -m json.tool content-staging/reconstruction/educational/e36ec148-0913-4bcc-a35c-268d464fecab-empty-source-analysis.json >/dev/null
+
+      - name: Re-fetch head before evidence finalization
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          remote_head="$(git rev-parse origin/content/corpus-inventory-20260914)"
+          test "$remote_head" = "$GITHUB_SHA"
+
+      - name: Commit evidence and canonical counters
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+                  content-staging/reconstruction/VERIFIED_EMPTY_SOURCE_DISPOSITION_POLICY.json \
+                  content-staging/reconstruction/educational/b6ce737e-26d4-4219-a607-27bfb7d2f518-empty-source-analysis.json \
+                  content-staging/reconstruction/educational/e36ec148-0913-4bcc-a35c-268d464fecab-empty-source-analysis.json \
+                  content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+                  content-staging/CONTENT_REBUILD_HANDOFF.md \
+                  content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          git diff --cached --check
+          git commit -m "content: finalize verified-empty Islamic sources [skip ci]"
+          git push origin HEAD:content/corpus-inventory-20260914
+          echo "EVIDENCE_HEAD=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Verify evidence commit and prepare Worker A baton
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          remote_head="$(git rev-parse origin/content/corpus-inventory-20260914)"
+          test "$remote_head" = "$EVIDENCE_HEAD"
+          python - <<'PY'
+          import json, os, re
+          from pathlib import Path
+
+          p = Path('content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md')
+          text = p.read_text()
+          evidence_head = os.environ['EVIDENCE_HEAD']
+          start_head = os.environ['GITHUB_EVENT_BEFORE']
+
+          checkpoint = f'''## 10. ACTIVE CHECKPOINT\n\n- state: `READY_NEXT_SOURCE`\n- branch: `content/corpus-inventory-20260914`\n- latest evidence HEAD before this handoff tooling: `{evidence_head}`\n- last completed source: `e36ec148-0913-4bcc-a35c-268d464fecab — كتاب الإسلامية - الجزء الثاني`\n- current source: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`\n- current source baseline from live MASTER: `214 pages / 214 images / 3304 legacy questions / 0 download failures; anomaly arrays empty.`\n- current source verified work: `NOT STARTED in this run; do not inherit any Islamic or mathematics structure.`\n- current operation: `Re-fetch live HEAD and baton; confirm no active workflow for Biology book; technically verify all 214 immutable RAW images, establish exact source identity and source-local Book/Unit/Lesson/non-lesson boundaries, map the 3304 legacy questions only where page membership is proven, quarantine ambiguity as review_required/NOT VERIFIED, assert the 25,755 invariant, then checkpoint.`\n- next source: `Resolve only after Biology book finalization from live MASTER.`\n- blockers: `none`\n- verified-empty policy: `content-staging/reconstruction/VERIFIED_EMPTY_SOURCE_DISPOSITION_POLICY.json — verified_empty_retained_source counts as processed source + processed educational source, but never as a verified Book/Unit/Lesson/page structure.`\n\n---'''
+          text, n = re.subn(r'## 10\. ACTIVE CHECKPOINT\n.*?\n---', checkpoint, text, count=1, flags=re.S)
+          assert n == 1
+
+          run = f'''\n\n## RUN 2026-09-14T20:32:35+03:00 — Worker A\n\n- state: COMPLETE\n- start HEAD: `{start_head}`\n- end HEAD before handoff-log commit: `{evidence_head}`\n- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`\n- source at start: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`\n- completed in this run:\n  - verified Worker B's fail-closed empty-source handoff against live HEAD, MASTER and retained files;\n  - resolved the schema-policy blocker conservatively by defining canonical `verified_empty_retained_source` disposition that separates source-processing completion from semantic Book/Unit/Lesson verification;\n  - finalized Islamic Part 1 as a verified retained-empty source without fabricating any educational structure;\n  - independently verified Islamic Part 2 has the same evidence-backed retained-empty payload and finalized it under the same contract;\n  - advanced only after both dispositions were recorded canonically, then resolved Biology book as the next source from live MASTER order.\n- evidence produced/verified:\n  - `content-staging/reconstruction/VERIFIED_EMPTY_SOURCE_DISPOSITION_POLICY.json`;\n  - updated `content-staging/reconstruction/educational/b6ce737e-26d4-4219-a607-27bfb7d2f518-empty-source-analysis.json`;\n  - new `content-staging/reconstruction/educational/e36ec148-0913-4bcc-a35c-268d464fecab-empty-source-analysis.json`;\n  - MASTER entries carry `source_disposition=verified_empty_retained_source`;\n  - Part 1 and Part 2 each: status=empty, pages.json=[], 0 pages/images/questions/failures, empty anomaly arrays, matching subject identity.\n- ambiguity/review_required:\n  - Book identity beyond the retained legacy labels, Units, Lessons and page boundaries remain `NOT VERIFIED` for both empty sources;\n  - technical image verification is `NOT APPLICABLE` because image references are zero.\n- invariant result: PASS\n- Sources processed: 27/58\n- Educational: 14/26\n- Books / Units / Lessons / Lesson Pages: 12 / 40 / 236 / 1,161\n- Exam Source Groups: 13/32\n- Individual Exam Models: 206\n- Exam Pages: 668/2,286\n- Verified Answer Keys: 0\n- Source images technical: 1,986/5,273\n- WebP generated / accepted / rejected: 0 / 0 / 0\n- Legacy Questions: 25,755\n- Lesson-linked: 7,511\n- Exam-linked: 1,132\n- Review-required: 448\n- Unclassified: 16,664\n- Duplicate groups classified: 0/99\n- RAW mutations: 0\n- Unrelated mutations: 0\n- New imports: 0\n- New publications: 0\n- last completed source: `e36ec148-0913-4bcc-a35c-268d464fecab — كتاب الإسلامية - الجزء الثاني`\n- current source: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`\n- exact next operation: `Re-fetch live HEAD/baton; confirm no active Biology workflow; technically verify 214 immutable RAW images; prove source identity and structure only from Biology evidence; map 3304 questions only to proven page membership; preserve uncertainty; assert global invariant; finalize and continue.`\n- next source: `NOT YET RESOLVED — resolve after Biology finalization.`\n- blockers: `none`\n- handoff note: `Worker B should verify the new verified-empty policy and both Islamic empty dispositions, then begin Biology from its own evidence. Do not count either empty Islamic source as a verified book and do not infer any missing content.`\n'''
+          text = text.rstrip() + run + '\n'
+          p.write_text(text)
+
+          m = json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          rp = m['reconstruction_progress']
+          assert rp['sources_completed'] == 27
+          assert rp['educational_sources_completed'] == 14
+          assert rp['verified_books'] == 12
+          assert rp['lesson_linked_structural'] + rp['exam_linked_to_individual_model'] + rp['review_required'] + rp['unclassified'] == 25755
+          assert rp['raw_mutations'] == rp['unrelated_mutations'] == rp['new_imports'] == rp['new_publications'] == 0
+          PY
+        env:
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+
+      - name: Re-fetch head immediately before shared-log write
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          remote_head="$(git rev-parse origin/content/corpus-inventory-20260914)"
+          test "$remote_head" = "$EVIDENCE_HEAD"
+
+      - name: Commit Worker A handoff
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          git diff --cached --check
+          git commit -m "content: hand off verified-empty sources to Worker B [skip ci]"
+          git push origin HEAD:content/corpus-inventory-20260914
+
+      - name: Final live verification
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "$(git rev-parse HEAD)"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          rp=m['reconstruction_progress']
+          assert (rp['sources_completed'],rp['educational_sources_completed'])==(27,14)
+          assert (rp['verified_books'],rp['verified_units'],rp['verified_lessons'],rp['verified_lesson_pages'])==(12,40,236,1161)
+          assert rp['lesson_linked_structural']+rp['exam_linked_to_individual_model']+rp['review_required']+rp['unclassified']==25755
+          ids={'b6ce737e-26d4-4219-a607-27bfb7d2f518','e36ec148-0913-4bcc-a35c-268d464fecab'}
+          src={s['id']:s for s in m['sources']}
+          for sid in ids:
+              assert src[sid]['source_disposition']=='verified_empty_retained_source'
+              assert src[sid]['reconstruction']['book_title']=='NOT VERIFIED'
+          print('VERIFIED_EMPTY_SOURCES_FINALIZATION_PASS')
+          PY
