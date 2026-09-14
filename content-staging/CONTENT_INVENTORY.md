@@ -512,3 +512,19 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a` — `الفيزياء نماذج وزاريه 1447`.
 <!-- PHYSICS_EXAM_1446_CHECKPOINT_END -->
+
+<!-- PHYSICS_EXAM_1447_CHECKPOINT_START -->
+## Reconstruction checkpoint — Physics Ministry Exams 1447
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Source `bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a` — `الفيزياء نماذج وزاريه 1447` completed from source-local evidence.
+- Technical verification: **124/124** images verified; sequence **1..124** contiguous; duplicate SHA groups **9**, preserved without merge or RAW mutation.
+- Full visual review resolves **31** verified source occurrences; each has three question pages followed by one correction/result-sheet candidate; all **124** source pages finalized exactly once.
+- The 9 duplicate SHA groups form three repeated question-sheet triplets. Their source occurrences are retained separately; partial-page duplication alone is not evidence for collapsing a complete occurrence.
+- Correction/result candidates: **31**; verified standalone official Answer Keys: **0 / NOT VERIFIED**.
+- Source questions: **255/255 structurally exam-linked** by verified page membership; semantic correctness remains `NOT VERIFIED`.
+- Progress: Sources **35/58**; Educational **16/26**; Exam Groups **19/32**; Individual Exam Models **356**; Exam Pages **1232/2,286**; source images technical **2979/5,273**.
+- Global questions: Lesson-linked **13135**; Exam-linked **1920**; Review-required **1229**; Unclassified **9471**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1` — `العربي نماذج وزارية 1447`.
+<!-- PHYSICS_EXAM_1447_CHECKPOINT_END -->
