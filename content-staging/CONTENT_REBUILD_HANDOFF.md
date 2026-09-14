@@ -210,3 +210,15 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - Exact next operation: technical scan all 60 pages, detect storage/metadata candidates, export full visual contact sheets, resolve Individual Exam Model boundaries and correction/answer-key relations, then checkpoint and continue.
 - RAW mutations / unrelated mutations / imports / publications: **0 / 0 / 0 / 0**.
 <!-- CHEMISTRY_EXAM_1445_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_START -->
+## Active reconstruction handoff — Chemistry Exams 1446 complete
+
+- Repository/branch: `7eaur/alwaslh-go@content/corpus-inventory-20260914`.
+- Last completed: `c09ce569-ea42-4f0b-997f-95b029a7e6ea` — Chemistry Ministry Exams 1446.
+- Result: **60 technically verified/classified pages; 15 source occurrences; 14 unique Individual Exam Models; 15 correction-report candidates; 0 verified standalone Answer Keys**.
+- `P.41` repeats at 29..32 and 41..44; question pages are exact SHA duplicates, correction reports are distinct candidate records. Classification `legitimate_repeated_exam_model_occurrence`; all pages preserved.
+- Progress: Sources **3/58**; Educational **1/26**; Exam Groups **2/32**; Individual Exam Models **34**; Exam Pages **120/2,286**; images verified **298/5,273**.
+- Next: `e7c8291c-e904-4e8c-9cd8-2753818cedf3` — Chemistry 1447. Verify locally from its own evidence; do not assume prior-year page patterns.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->

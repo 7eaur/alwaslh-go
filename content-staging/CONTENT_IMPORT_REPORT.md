@@ -31,3 +31,12 @@ Chemistry textbook reconstruction is verified, but the corpus is **not import-re
 - New imports / publications / production mutations / RAW mutations: **0 / 0 / 0 / 0**.
 - Import Readiness is still gated on completion of corpus reconstruction and remaining Exam Source Groups.
 <!-- CHEMISTRY_EXAM_1445_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_START -->
+## Chemistry 1446 exam checkpoint — no import performed
+
+- Final artifact: `content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json`.
+- Finalized: **60 pages / 15 source occurrences / 14 unique Individual Exam Models / 15 correction reports / 0 verified standalone Answer Keys**.
+- Repeated `P.41` occurrence remains preserved with provenance; no automatic deletion or merge.
+- New imports / publications / production / RAW mutations: **0 / 0 / 0 / 0**. Import Readiness remains gated on remaining reconstruction.
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->

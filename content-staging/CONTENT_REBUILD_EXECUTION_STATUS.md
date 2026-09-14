@@ -241,3 +241,21 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - Last completed source: `e101d097-7a14-44e5-b242-cdeb9a312b77` — `الكيمياء نماذج وزاريه 1445`.
 - Next source: `c09ce569-ea42-4f0b-997f-95b029a7e6ea` — `الكيمياء نماذج وزاريه 1446`.
 <!-- CHEMISTRY_EXAM_1445_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_START -->
+## Reconstruction checkpoint — Chemistry Ministry Exams 1446
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Sources processed: **3/58**; Educational: **1/26**; Exam Source Groups: **2/32**.
+- Books / Units / Lessons / Lesson pages: **1 / 9 / 57 / 149**.
+- Verified Individual Exam Models: **34** total; finalized Exam Pages: **120/2,286**; Verified Answer Keys: **0**.
+- 1446: **15** four-page source occurrences = 3 question pages + 1 candidate-specific electronic correction report; **14 unique models**.
+- Visible unique model codes: `P.87, P.45, P.52, P.9, P.3, P.27, P.5, P.41, P.72, P.107, P.25, P.40, P.34, P.89`.
+- Pages **29..31 == 41..43** by exact SHA and both are `P.41`; correction pages **32** and **44** are distinct candidate records. Classification: `legitimate_repeated_exam_model_occurrence`; all pages preserved.
+- Correction-report candidates total: **35** (20 + 15); standalone official Answer Key status remains `NOT VERIFIED`.
+- Source images technically verified: **298/5,273**; WebP generated/accepted/rejected: **0/0/0**.
+- Legacy Questions: **25,755**; Lesson-linked **2,225**; Exam-linked **0**; Review-required **351**; Unclassified **23,179**.
+- Global duplicate fingerprint groups classified: **0/99**; local 1446 pairs are not counted globally without proven mapping.
+- RAW / unrelated / import / publication mutations: **0 / 0 / 0 / 0**.
+- Last completed: `c09ce569-ea42-4f0b-997f-95b029a7e6ea`; Next: `e7c8291c-e904-4e8c-9cd8-2753818cedf3` — Chemistry 1447.
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->

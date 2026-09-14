@@ -102,7 +102,67 @@
     "questions": 0
   },
   "distinct_page_titles": 60,
-  "individual_exam_models": "NOT VERIFIED",
+  "final_boundary_result": {
+    "correction_sheet_candidates": 15,
+    "duplicate_resolution": {
+      "action": "preserve_all_source_pages_and_link_both_occurrences_to_one_unique_model",
+      "canonical_occurrence_pages": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "classification": "legitimate_repeated_exam_model_occurrence",
+      "correction_pages_byte_identical": false,
+      "exact_sha_duplicate_pairs": [
+        [
+          29,
+          41
+        ],
+        [
+          30,
+          42
+        ],
+        [
+          31,
+          43
+        ]
+      ],
+      "model_code": "P.41",
+      "reason": "Visual review shows P.41 on both exam occurrences; the three question pages are exact SHA duplicates. The two correction reports show the same model but different candidate identity/result records, establishing a legitimate repeated occurrence of one model rather than a second unique model or an accidental byte duplicate.",
+      "repeated_occurrence_pages": [
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    "pages_per_source_occurrence": 4,
+    "question_pages_per_occurrence": 3,
+    "reconstruction_path": "content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json",
+    "source_occurrences": 15,
+    "status": "processed_boundary_verified_repeat_classified_answer_keys_not_verified",
+    "unique_individual_exam_models": 14,
+    "verified_answer_keys": 0,
+    "visual_model_codes": [
+      "P.87",
+      "P.45",
+      "P.52",
+      "P.9",
+      "P.3",
+      "P.27",
+      "P.5",
+      "P.41",
+      "P.72",
+      "P.107",
+      "P.41",
+      "P.25",
+      "P.40",
+      "P.34",
+      "P.89"
+    ]
+  },
+  "individual_exam_models": 14,
   "page_metadata_records": 60,
   "page_sequence": {
     "contiguous": true,

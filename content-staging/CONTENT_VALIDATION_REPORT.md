@@ -50,3 +50,15 @@ Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson
 - The third page of each model is not promoted to official `Answer Key`; all **20** remain correction-sheet candidates and Answer Key status is `NOT VERIFIED`.
 - RAW mutations: **0**.
 <!-- CHEMISTRY_EXAM_1445_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_START -->
+## Chemistry 1446 exam boundary validation
+
+- **60/60** images passed existence/readability/size/SHA/MIME checks; sequence **1..60** contiguous; failures **0**.
+- All 60 pages were visually reviewed via contact sheets 001–012, 013–024, 025–036, 037–048, 049–060.
+- 1446 evidence independently establishes **15 × 4-page occurrences** (3 question pages + correction report), not the 1445 three-page pattern.
+- Visible model codes resolve to **14 unique models** because `P.41` repeats.
+- Explicit duplicate resolution: 29==41, 30==42, 31==43 by SHA; both blocks show `P.41`; correction reports 32/44 differ by candidate record. Classification `legitimate_repeated_exam_model_occurrence`.
+- Correction relation is visually verified; standalone official Answer Key status remains `NOT VERIFIED`; verified Answer Keys **0**.
+- RAW mutations: **0**.
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->

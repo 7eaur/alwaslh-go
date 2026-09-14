@@ -110,3 +110,15 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - Associated legacy questions: **0**.
 - RAW mutations/imports/publications: **0/0/0**.
 <!-- CHEMISTRY_EXAM_1445_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_START -->
+## Verified exam-source reconstruction — Chemistry 1446
+
+- Source Group `c09ce569-ea42-4f0b-997f-95b029a7e6ea`: **60 JPEG pages**, 1..60 contiguous, 60/60 technical checks green.
+- Full visual review establishes **15 contiguous four-page source occurrences**; each contains Q1-30, Q31-49, Q50, then candidate-specific `نموذج التصحيح الإلكتروني`.
+- **14 unique Individual Exam Models** are verified from visible codes: `P.87, P.45, P.52, P.9, P.3, P.27, P.5, P.41, P.72, P.107, P.25, P.40, P.34, P.89`.
+- `P.41` occurs twice: 29..31 and 41..43 are exact-SHA-identical question pages; 32 and 44 are distinct candidate correction reports. Classified `legitimate_repeated_exam_model_occurrence`; all 60 source pages preserved.
+- Academic year **1446 / 2024-2025** visually verified; term `NOT VERIFIED`.
+- 15 correction reports are linked to their occurrences, but standalone official Answer Key status is `NOT VERIFIED`; verified Answer Keys: **0**.
+- Legacy questions: **0**; RAW/import/publication mutations: **0/0/0**.
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->

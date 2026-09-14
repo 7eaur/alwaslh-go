@@ -1,0 +1,2049 @@
+{
+  "academic_year_gregorian": "2024-2025",
+  "academic_year_hijri": "1446",
+  "canonical_model_page_count": 56,
+  "class_id": "075b135c-8159-4727-a365-f7396690fb3f",
+  "class_name": "الكيمياء ثالث ثانوي",
+  "classification": "exam_source_group",
+  "correction_sheet_candidate_count": 15,
+  "duplicate_resolution": {
+    "action": "preserve_all_source_pages_and_link_both_occurrences_to_one_unique_model",
+    "canonical_occurrence_pages": [
+      29,
+      30,
+      31,
+      32
+    ],
+    "classification": "legitimate_repeated_exam_model_occurrence",
+    "correction_pages_byte_identical": false,
+    "exact_sha_duplicate_pairs": [
+      [
+        29,
+        41
+      ],
+      [
+        30,
+        42
+      ],
+      [
+        31,
+        43
+      ]
+    ],
+    "model_code": "P.41",
+    "reason": "Visual review shows P.41 on both exam occurrences; the three question pages are exact SHA duplicates. The two correction reports show the same model but different candidate identity/result records, establishing a legitimate repeated occurrence of one model rather than a second unique model or an accidental byte duplicate.",
+    "repeated_occurrence_pages": [
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  "duplicate_sha256_groups_within_source": 3,
+  "evidence": {
+    "discovery_report": "content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea-discovery.json",
+    "raw_mutations": 0,
+    "storage_identity_used_as_final_boundary": false,
+    "storage_lesson_identity_runs": 1,
+    "technical_report": "content-staging/reconstruction/technical/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json",
+    "unique_visual_model_codes": [
+      "P.87",
+      "P.45",
+      "P.52",
+      "P.9",
+      "P.3",
+      "P.27",
+      "P.5",
+      "P.41",
+      "P.72",
+      "P.107",
+      "P.25",
+      "P.40",
+      "P.34",
+      "P.89"
+    ],
+    "visual_model_codes": [
+      "P.87",
+      "P.45",
+      "P.52",
+      "P.9",
+      "P.3",
+      "P.27",
+      "P.5",
+      "P.41",
+      "P.72",
+      "P.107",
+      "P.41",
+      "P.25",
+      "P.40",
+      "P.34",
+      "P.89"
+    ],
+    "visual_review": "all pages reviewed in contact sheets 001-012, 013-024, 025-036, 037-048, 049-060"
+  },
+  "exam_page_count": 60,
+  "individual_exam_model_count": 14,
+  "models": [
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 4,
+      "exam_type": "وزاري",
+      "first_page": 1,
+      "id": "chemistry-1446-model-p-87",
+      "internal_ordinal": 1,
+      "last_page": 4,
+      "official_model_code": "P.87",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "7b5d0ec6-ef1c-4f57-902a-1884c0b31cbe",
+        "46ed1b05-1478-4d21-8a04-9cc77797bce7",
+        "432c2f49-bf87-4178-9857-1b6c3c0f6c14",
+        "c1ce9a4b-13a9-4f5b-894f-b5f09b944c6d"
+      ],
+      "ordered_page_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "page_count": 4,
+      "question_pages": [
+        1,
+        2,
+        3
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00001-7b5d0ec6-ef1c-4f57-902a-1884c0b31cbe-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00002-46ed1b05-1478-4d21-8a04-9cc77797bce7-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00003-432c2f49-bf87-4178-9857-1b6c3c0f6c14-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00004-c1ce9a4b-13a9-4f5b-894f-b5f09b944c6d-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 4,
+          "first_page": 1,
+          "last_page": 4,
+          "model_code": "P.87",
+          "occurrence_ordinal": 1,
+          "ordered_legacy_page_ids": [
+            "7b5d0ec6-ef1c-4f57-902a-1884c0b31cbe",
+            "46ed1b05-1478-4d21-8a04-9cc77797bce7",
+            "432c2f49-bf87-4178-9857-1b6c3c0f6c14",
+            "c1ce9a4b-13a9-4f5b-894f-b5f09b944c6d"
+          ],
+          "ordered_page_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "page_count": 4,
+          "question_pages": [
+            1,
+            2,
+            3
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00001-7b5d0ec6-ef1c-4f57-902a-1884c0b31cbe-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00002-46ed1b05-1478-4d21-8a04-9cc77797bce7-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00003-432c2f49-bf87-4178-9857-1b6c3c0f6c14-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00004-c1ce9a4b-13a9-4f5b-894f-b5f09b944c6d-image-00.jpg"
+          ],
+          "sha256": [
+            "0204c6458b2732cb324b1d2118d2f9137aecf197c7d5420e265d15b78ca81994",
+            "900dac063b7629839e9e38a06b8618d635bccb282b697980707f088c669afb23",
+            "a07e70f74ceca6be119d8b92ff041108b47b3ed7d43cf15799603655b62fb98c",
+            "856d87189a38f3a26851750452174ab208516a95e9859cf674381ce0517527cc"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 8,
+      "exam_type": "وزاري",
+      "first_page": 5,
+      "id": "chemistry-1446-model-p-45",
+      "internal_ordinal": 2,
+      "last_page": 8,
+      "official_model_code": "P.45",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "687948f9-e211-4a75-bac4-686ef8e5f200",
+        "2bb9625a-8db1-4968-a296-a415069af770",
+        "ad080693-0b70-448f-864f-00e0e1e3730a",
+        "58eee3d1-c2e7-403f-bb59-3b186508e4d5"
+      ],
+      "ordered_page_numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "page_count": 4,
+      "question_pages": [
+        5,
+        6,
+        7
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00005-687948f9-e211-4a75-bac4-686ef8e5f200-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00006-2bb9625a-8db1-4968-a296-a415069af770-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00007-ad080693-0b70-448f-864f-00e0e1e3730a-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00008-58eee3d1-c2e7-403f-bb59-3b186508e4d5-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 8,
+          "first_page": 5,
+          "last_page": 8,
+          "model_code": "P.45",
+          "occurrence_ordinal": 2,
+          "ordered_legacy_page_ids": [
+            "687948f9-e211-4a75-bac4-686ef8e5f200",
+            "2bb9625a-8db1-4968-a296-a415069af770",
+            "ad080693-0b70-448f-864f-00e0e1e3730a",
+            "58eee3d1-c2e7-403f-bb59-3b186508e4d5"
+          ],
+          "ordered_page_numbers": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "page_count": 4,
+          "question_pages": [
+            5,
+            6,
+            7
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00005-687948f9-e211-4a75-bac4-686ef8e5f200-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00006-2bb9625a-8db1-4968-a296-a415069af770-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00007-ad080693-0b70-448f-864f-00e0e1e3730a-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00008-58eee3d1-c2e7-403f-bb59-3b186508e4d5-image-00.jpg"
+          ],
+          "sha256": [
+            "e24d9d47146f1fda7378401709d075f5b601a24d77d3d9977eb9c24dd293667f",
+            "af1cca33ef7a342fcfc17f0b7f702cb69c1dea6d968ccd3a1ae9f7ab1f38099f",
+            "7b53318ce6bf934b70d96bd1f508689f5465bba7e5884b82cdbbb788ae6524ba",
+            "dcd2ef72c8cdd69f4ff54b6bf8e1b608a4a11355ed5ea933cc67a1f0a09091eb"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 12,
+      "exam_type": "وزاري",
+      "first_page": 9,
+      "id": "chemistry-1446-model-p-52",
+      "internal_ordinal": 3,
+      "last_page": 12,
+      "official_model_code": "P.52",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "6e582f3a-45b3-4c47-9387-c148c181e8df",
+        "df077911-7312-4187-bd4f-d198be57d4a0",
+        "d607878b-977d-4a97-afb4-279e074d18b1",
+        "247a6653-ec8a-46cd-8a44-3870ce478045"
+      ],
+      "ordered_page_numbers": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "page_count": 4,
+      "question_pages": [
+        9,
+        10,
+        11
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00009-6e582f3a-45b3-4c47-9387-c148c181e8df-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00010-df077911-7312-4187-bd4f-d198be57d4a0-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00011-d607878b-977d-4a97-afb4-279e074d18b1-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00012-247a6653-ec8a-46cd-8a44-3870ce478045-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 12,
+          "first_page": 9,
+          "last_page": 12,
+          "model_code": "P.52",
+          "occurrence_ordinal": 3,
+          "ordered_legacy_page_ids": [
+            "6e582f3a-45b3-4c47-9387-c148c181e8df",
+            "df077911-7312-4187-bd4f-d198be57d4a0",
+            "d607878b-977d-4a97-afb4-279e074d18b1",
+            "247a6653-ec8a-46cd-8a44-3870ce478045"
+          ],
+          "ordered_page_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "page_count": 4,
+          "question_pages": [
+            9,
+            10,
+            11
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00009-6e582f3a-45b3-4c47-9387-c148c181e8df-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00010-df077911-7312-4187-bd4f-d198be57d4a0-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00011-d607878b-977d-4a97-afb4-279e074d18b1-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00012-247a6653-ec8a-46cd-8a44-3870ce478045-image-00.jpg"
+          ],
+          "sha256": [
+            "bb04bf408658fa31770637e02f4530d88dc9d01d9c85b244ae1e65b8a92a20d1",
+            "23ab045e6fd5e7f7ac738816872d15bb02f00fddcc15128e0dd756026b8c949a",
+            "1e788772184a3ee58608b19298af11e107b952e67162eb4426a486864fa31907",
+            "9f23dd2fb2854c1ec87393eb74feb6aade12601f521fec0ad8e2cb77b4601b1b"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 16,
+      "exam_type": "وزاري",
+      "first_page": 13,
+      "id": "chemistry-1446-model-p-9",
+      "internal_ordinal": 4,
+      "last_page": 16,
+      "official_model_code": "P.9",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "ef100921-5f33-48da-91a5-a135b941ebde",
+        "43d332e2-5b7b-4429-a691-71cd91298042",
+        "3dcc89f3-13f1-4766-bf7f-1d273bf0a598",
+        "bea5b568-fa05-4226-b5fb-177ea261acde"
+      ],
+      "ordered_page_numbers": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "page_count": 4,
+      "question_pages": [
+        13,
+        14,
+        15
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00013-ef100921-5f33-48da-91a5-a135b941ebde-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00014-43d332e2-5b7b-4429-a691-71cd91298042-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00015-3dcc89f3-13f1-4766-bf7f-1d273bf0a598-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00016-bea5b568-fa05-4226-b5fb-177ea261acde-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 16,
+          "first_page": 13,
+          "last_page": 16,
+          "model_code": "P.9",
+          "occurrence_ordinal": 4,
+          "ordered_legacy_page_ids": [
+            "ef100921-5f33-48da-91a5-a135b941ebde",
+            "43d332e2-5b7b-4429-a691-71cd91298042",
+            "3dcc89f3-13f1-4766-bf7f-1d273bf0a598",
+            "bea5b568-fa05-4226-b5fb-177ea261acde"
+          ],
+          "ordered_page_numbers": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "page_count": 4,
+          "question_pages": [
+            13,
+            14,
+            15
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00013-ef100921-5f33-48da-91a5-a135b941ebde-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00014-43d332e2-5b7b-4429-a691-71cd91298042-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00015-3dcc89f3-13f1-4766-bf7f-1d273bf0a598-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00016-bea5b568-fa05-4226-b5fb-177ea261acde-image-00.jpg"
+          ],
+          "sha256": [
+            "da144b0db35bf47dc423fe4575d815c508ce08bd4a192987d3984a2d3922394b",
+            "6ddc2761739b82a5c762fb9ef22e525cf6bcb9f8ef5a243ff2d02e68a1c73b5a",
+            "e3a465b006a8d107723620d17591018e8c16706f834f3c1f2594b351fcbcc202",
+            "a2e397a02d0833d374c34276e9607af52ed2bc46c84e683db445c5d4869d38ea"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 20,
+      "exam_type": "وزاري",
+      "first_page": 17,
+      "id": "chemistry-1446-model-p-3",
+      "internal_ordinal": 5,
+      "last_page": 20,
+      "official_model_code": "P.3",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "fa849fb2-f178-4f6e-b21b-7180d8ac9b63",
+        "d6eb9251-b1b9-438d-8021-c584e17af311",
+        "5b03222c-3b54-42d4-8630-8d806013a74b",
+        "04accf90-9f48-4080-8bb2-ec46c61d455b"
+      ],
+      "ordered_page_numbers": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_count": 4,
+      "question_pages": [
+        17,
+        18,
+        19
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00017-fa849fb2-f178-4f6e-b21b-7180d8ac9b63-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00018-d6eb9251-b1b9-438d-8021-c584e17af311-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00019-5b03222c-3b54-42d4-8630-8d806013a74b-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00020-04accf90-9f48-4080-8bb2-ec46c61d455b-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 20,
+          "first_page": 17,
+          "last_page": 20,
+          "model_code": "P.3",
+          "occurrence_ordinal": 5,
+          "ordered_legacy_page_ids": [
+            "fa849fb2-f178-4f6e-b21b-7180d8ac9b63",
+            "d6eb9251-b1b9-438d-8021-c584e17af311",
+            "5b03222c-3b54-42d4-8630-8d806013a74b",
+            "04accf90-9f48-4080-8bb2-ec46c61d455b"
+          ],
+          "ordered_page_numbers": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "page_count": 4,
+          "question_pages": [
+            17,
+            18,
+            19
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00017-fa849fb2-f178-4f6e-b21b-7180d8ac9b63-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00018-d6eb9251-b1b9-438d-8021-c584e17af311-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00019-5b03222c-3b54-42d4-8630-8d806013a74b-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00020-04accf90-9f48-4080-8bb2-ec46c61d455b-image-00.jpg"
+          ],
+          "sha256": [
+            "a5c5c233e8e5926c21d60a9fb93b15ec17e89f4fd98eade3a70e1a7c6e5aee93",
+            "dbbd677d92bf9284b9b1e6abde2d6a534014616208e7d829211ed9356ba26ce6",
+            "2d2e1ebb46bff27a571a75a2ac00b816e5925756ab322484b2ff2cabd265eef1",
+            "c1c7f82f4dce5c3568e0ee51af81142114d23f058b742eb2b4c7747e76224e90"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 24,
+      "exam_type": "وزاري",
+      "first_page": 21,
+      "id": "chemistry-1446-model-p-27",
+      "internal_ordinal": 6,
+      "last_page": 24,
+      "official_model_code": "P.27",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "111a08d7-5bc7-401d-8b7f-049d15d2f2c3",
+        "b37d8e8f-08eb-43c9-b187-7f610a7fb06b",
+        "dc5021d4-8041-4e9b-99c1-5d8e87039ee9",
+        "91b25d7c-df86-43d7-8642-da1296820ac4"
+      ],
+      "ordered_page_numbers": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "page_count": 4,
+      "question_pages": [
+        21,
+        22,
+        23
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00021-111a08d7-5bc7-401d-8b7f-049d15d2f2c3-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00022-b37d8e8f-08eb-43c9-b187-7f610a7fb06b-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00023-dc5021d4-8041-4e9b-99c1-5d8e87039ee9-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00024-91b25d7c-df86-43d7-8642-da1296820ac4-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 24,
+          "first_page": 21,
+          "last_page": 24,
+          "model_code": "P.27",
+          "occurrence_ordinal": 6,
+          "ordered_legacy_page_ids": [
+            "111a08d7-5bc7-401d-8b7f-049d15d2f2c3",
+            "b37d8e8f-08eb-43c9-b187-7f610a7fb06b",
+            "dc5021d4-8041-4e9b-99c1-5d8e87039ee9",
+            "91b25d7c-df86-43d7-8642-da1296820ac4"
+          ],
+          "ordered_page_numbers": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "page_count": 4,
+          "question_pages": [
+            21,
+            22,
+            23
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00021-111a08d7-5bc7-401d-8b7f-049d15d2f2c3-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00022-b37d8e8f-08eb-43c9-b187-7f610a7fb06b-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00023-dc5021d4-8041-4e9b-99c1-5d8e87039ee9-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00024-91b25d7c-df86-43d7-8642-da1296820ac4-image-00.jpg"
+          ],
+          "sha256": [
+            "6944beadb7d8694757972a934a31f488a67df37d0370640d07bef915faf5094a",
+            "f84e9170bfe55204ecacdfff5df2aea9265283b4e32b4d4b351f1896bb896de4",
+            "634c4c4823c1dd235f1a889a803075ca6a51b7bec54830aae44285736db0c303",
+            "d64cfee89d2823eba982a71263d6fbfa6e230e947f8e30df6f7fbbd2da24da64"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 28,
+      "exam_type": "وزاري",
+      "first_page": 25,
+      "id": "chemistry-1446-model-p-5",
+      "internal_ordinal": 7,
+      "last_page": 28,
+      "official_model_code": "P.5",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "237c565c-1dab-47b2-8f57-3f48056c9a66",
+        "c4688f86-c84f-446f-b369-b9331ea6ff4d",
+        "3226c4db-a9cf-4e6a-ba13-28e7686660f6",
+        "94848ab2-8a43-4c15-905c-17f378d34602"
+      ],
+      "ordered_page_numbers": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "page_count": 4,
+      "question_pages": [
+        25,
+        26,
+        27
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00025-237c565c-1dab-47b2-8f57-3f48056c9a66-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00026-c4688f86-c84f-446f-b369-b9331ea6ff4d-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00027-3226c4db-a9cf-4e6a-ba13-28e7686660f6-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00028-94848ab2-8a43-4c15-905c-17f378d34602-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 28,
+          "first_page": 25,
+          "last_page": 28,
+          "model_code": "P.5",
+          "occurrence_ordinal": 7,
+          "ordered_legacy_page_ids": [
+            "237c565c-1dab-47b2-8f57-3f48056c9a66",
+            "c4688f86-c84f-446f-b369-b9331ea6ff4d",
+            "3226c4db-a9cf-4e6a-ba13-28e7686660f6",
+            "94848ab2-8a43-4c15-905c-17f378d34602"
+          ],
+          "ordered_page_numbers": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "page_count": 4,
+          "question_pages": [
+            25,
+            26,
+            27
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00025-237c565c-1dab-47b2-8f57-3f48056c9a66-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00026-c4688f86-c84f-446f-b369-b9331ea6ff4d-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00027-3226c4db-a9cf-4e6a-ba13-28e7686660f6-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00028-94848ab2-8a43-4c15-905c-17f378d34602-image-00.jpg"
+          ],
+          "sha256": [
+            "17e0bca4369f503a915d6fa8e3d781bccc667fac7dc8f866508736495aafdaa0",
+            "3f4a65a24791332b233959ec91ed0d46c41290f68f027f9da8ee68f0dd23a343",
+            "49d1879724c5119688f18143353c38db26707bd8345df8abcaf1a2b5bff0e3b3",
+            "0f2392fb3462e503189cc594f1ef1629e9c0f3c701adced409231c23137e0df3"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 32,
+      "exam_type": "وزاري",
+      "first_page": 29,
+      "id": "chemistry-1446-model-p-41",
+      "internal_ordinal": 8,
+      "last_page": 32,
+      "official_model_code": "P.41",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "0634cd7e-e445-487b-ad52-017c84a2e3fd",
+        "9e86b3bb-aa95-41cc-8319-135c07706ceb",
+        "0537f69a-b1e7-4592-bfda-95038e1b3649",
+        "79f415e6-97f7-443e-b4b0-41bea63cb554"
+      ],
+      "ordered_page_numbers": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "page_count": 4,
+      "question_pages": [
+        29,
+        30,
+        31
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00029-0634cd7e-e445-487b-ad52-017c84a2e3fd-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00030-9e86b3bb-aa95-41cc-8319-135c07706ceb-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00031-0537f69a-b1e7-4592-bfda-95038e1b3649-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00032-79f415e6-97f7-443e-b4b0-41bea63cb554-image-00.jpg"
+      ],
+      "repeat_classification": {
+        "canonical_occurrence_pages": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "classification": "legitimate_repeated_exam_model_occurrence",
+        "reason": "The repeated P.41 occurrence has exact-SHA-identical question pages 29-31 == 41-43 and the same visible model code, while correction pages 32 and 44 are distinct candidate-specific correction reports. All source pages are preserved; the repeat is not counted as a second unique Individual Exam Model.",
+        "repeated_occurrence_pages": [
+          [
+            41,
+            42,
+            43,
+            44
+          ]
+        ]
+      },
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 2,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 32,
+          "first_page": 29,
+          "last_page": 32,
+          "model_code": "P.41",
+          "occurrence_ordinal": 8,
+          "ordered_legacy_page_ids": [
+            "0634cd7e-e445-487b-ad52-017c84a2e3fd",
+            "9e86b3bb-aa95-41cc-8319-135c07706ceb",
+            "0537f69a-b1e7-4592-bfda-95038e1b3649",
+            "79f415e6-97f7-443e-b4b0-41bea63cb554"
+          ],
+          "ordered_page_numbers": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "page_count": 4,
+          "question_pages": [
+            29,
+            30,
+            31
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00029-0634cd7e-e445-487b-ad52-017c84a2e3fd-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00030-9e86b3bb-aa95-41cc-8319-135c07706ceb-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00031-0537f69a-b1e7-4592-bfda-95038e1b3649-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00032-79f415e6-97f7-443e-b4b0-41bea63cb554-image-00.jpg"
+          ],
+          "sha256": [
+            "0445e6e9daf4b263ead5d335a195be9c064d4a95d59ef8811d2a5fef7009b2cc",
+            "2258f9d0070d4ea4ad0f9476be5cac6a0b09934b239dc873ca1dd4c6b0023f04",
+            "7d4b3765d46b6602a4f11f3abe94da63e80f6efdabd5f9dde014875cd7e14508",
+            "2c59c4b9e95366d238cbf79f7f7352996ba19399882dac7c7d04c2b740604d76"
+          ]
+        },
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 44,
+          "first_page": 41,
+          "last_page": 44,
+          "model_code": "P.41",
+          "occurrence_ordinal": 11,
+          "ordered_legacy_page_ids": [
+            "f5fab7fa-8fdf-412d-9c21-fface5a4c6de",
+            "8b1100d4-7667-47ea-8e71-014f95175e05",
+            "577b0861-b027-4341-bd0f-432ec9829b04",
+            "2a8a6104-cbdd-4336-ba5c-450d4087ba6a"
+          ],
+          "ordered_page_numbers": [
+            41,
+            42,
+            43,
+            44
+          ],
+          "page_count": 4,
+          "question_pages": [
+            41,
+            42,
+            43
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00041-f5fab7fa-8fdf-412d-9c21-fface5a4c6de-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00042-8b1100d4-7667-47ea-8e71-014f95175e05-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00043-577b0861-b027-4341-bd0f-432ec9829b04-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00044-2a8a6104-cbdd-4336-ba5c-450d4087ba6a-image-00.jpg"
+          ],
+          "sha256": [
+            "0445e6e9daf4b263ead5d335a195be9c064d4a95d59ef8811d2a5fef7009b2cc",
+            "2258f9d0070d4ea4ad0f9476be5cac6a0b09934b239dc873ca1dd4c6b0023f04",
+            "7d4b3765d46b6602a4f11f3abe94da63e80f6efdabd5f9dde014875cd7e14508",
+            "cf4f44323fa48fbdd80e5398727159f2769995e9758909fdb06e2df4ba2f5b14"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 36,
+      "exam_type": "وزاري",
+      "first_page": 33,
+      "id": "chemistry-1446-model-p-72",
+      "internal_ordinal": 9,
+      "last_page": 36,
+      "official_model_code": "P.72",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "a62bef24-551f-47bd-8918-7e84faef8505",
+        "e030edc1-b793-4aed-b491-7fe4316384a3",
+        "84fab291-ae1d-4234-b6f5-888a95a7e503",
+        "c7f2b7eb-3162-4110-bdd4-f97ba8d3f290"
+      ],
+      "ordered_page_numbers": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "page_count": 4,
+      "question_pages": [
+        33,
+        34,
+        35
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00033-a62bef24-551f-47bd-8918-7e84faef8505-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00034-e030edc1-b793-4aed-b491-7fe4316384a3-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00035-84fab291-ae1d-4234-b6f5-888a95a7e503-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00036-c7f2b7eb-3162-4110-bdd4-f97ba8d3f290-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 36,
+          "first_page": 33,
+          "last_page": 36,
+          "model_code": "P.72",
+          "occurrence_ordinal": 9,
+          "ordered_legacy_page_ids": [
+            "a62bef24-551f-47bd-8918-7e84faef8505",
+            "e030edc1-b793-4aed-b491-7fe4316384a3",
+            "84fab291-ae1d-4234-b6f5-888a95a7e503",
+            "c7f2b7eb-3162-4110-bdd4-f97ba8d3f290"
+          ],
+          "ordered_page_numbers": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "page_count": 4,
+          "question_pages": [
+            33,
+            34,
+            35
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00033-a62bef24-551f-47bd-8918-7e84faef8505-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00034-e030edc1-b793-4aed-b491-7fe4316384a3-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00035-84fab291-ae1d-4234-b6f5-888a95a7e503-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00036-c7f2b7eb-3162-4110-bdd4-f97ba8d3f290-image-00.jpg"
+          ],
+          "sha256": [
+            "888be507326685d4a27e8e281af4e34e28aa2e26542eac3003980c8a028e6a5c",
+            "fa2c7f12b4af5d3cd84ef81e56c6e1ae29cfe09ad289052d0ac2f050739111a0",
+            "2660d089a0b144c8b63deb7c8d41b701cbf9ab7d69e9d000316cca103e3b73a9",
+            "0abd2adb48e4c7aa53f1a56a36c0ed18786507b8456ae3b620e4fd605719584f"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 40,
+      "exam_type": "وزاري",
+      "first_page": 37,
+      "id": "chemistry-1446-model-p-107",
+      "internal_ordinal": 10,
+      "last_page": 40,
+      "official_model_code": "P.107",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "09edaf42-26be-4898-9dc1-5039def9b79e",
+        "8eb417ed-4667-42ec-9c18-dcc6e5e0e5bd",
+        "cc8970a7-8e07-4c16-b5fe-b326664ba030",
+        "7b5e2f5b-d28a-42c6-a5e2-4e82389ecdc3"
+      ],
+      "ordered_page_numbers": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "page_count": 4,
+      "question_pages": [
+        37,
+        38,
+        39
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00037-09edaf42-26be-4898-9dc1-5039def9b79e-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00038-8eb417ed-4667-42ec-9c18-dcc6e5e0e5bd-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00039-cc8970a7-8e07-4c16-b5fe-b326664ba030-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00040-7b5e2f5b-d28a-42c6-a5e2-4e82389ecdc3-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 40,
+          "first_page": 37,
+          "last_page": 40,
+          "model_code": "P.107",
+          "occurrence_ordinal": 10,
+          "ordered_legacy_page_ids": [
+            "09edaf42-26be-4898-9dc1-5039def9b79e",
+            "8eb417ed-4667-42ec-9c18-dcc6e5e0e5bd",
+            "cc8970a7-8e07-4c16-b5fe-b326664ba030",
+            "7b5e2f5b-d28a-42c6-a5e2-4e82389ecdc3"
+          ],
+          "ordered_page_numbers": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "page_count": 4,
+          "question_pages": [
+            37,
+            38,
+            39
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00037-09edaf42-26be-4898-9dc1-5039def9b79e-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00038-8eb417ed-4667-42ec-9c18-dcc6e5e0e5bd-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00039-cc8970a7-8e07-4c16-b5fe-b326664ba030-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00040-7b5e2f5b-d28a-42c6-a5e2-4e82389ecdc3-image-00.jpg"
+          ],
+          "sha256": [
+            "3ac6e7b5c5d63d840bb0501cd3229df9712dc33e01e93ba780aaf5a9b78a7eff",
+            "4c29fd0de102305500cb1c9707d9aff56b6858a6b7661a891d3d421ae2297c1d",
+            "cb0eaf51b69ec21a9d87d8f31eb29f380fd4739f7b092b0c18a6e1d7545805fd",
+            "5e9fbd23380cd32a8312cb100f449d9064fda35990fd633b9ec61b92b413ac6b"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 48,
+      "exam_type": "وزاري",
+      "first_page": 45,
+      "id": "chemistry-1446-model-p-25",
+      "internal_ordinal": 11,
+      "last_page": 48,
+      "official_model_code": "P.25",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "f1e7ce56-e927-4e39-8d85-17a45c79e7ab",
+        "82704057-6971-4f8d-8dbb-1ab05dbccf3e",
+        "238fad2e-0460-4535-95dd-15c96b3993ee",
+        "b38e6c5e-ee9a-406b-b713-4f4ce09aa416"
+      ],
+      "ordered_page_numbers": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "page_count": 4,
+      "question_pages": [
+        45,
+        46,
+        47
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00045-f1e7ce56-e927-4e39-8d85-17a45c79e7ab-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00046-82704057-6971-4f8d-8dbb-1ab05dbccf3e-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00047-238fad2e-0460-4535-95dd-15c96b3993ee-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00048-b38e6c5e-ee9a-406b-b713-4f4ce09aa416-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 48,
+          "first_page": 45,
+          "last_page": 48,
+          "model_code": "P.25",
+          "occurrence_ordinal": 12,
+          "ordered_legacy_page_ids": [
+            "f1e7ce56-e927-4e39-8d85-17a45c79e7ab",
+            "82704057-6971-4f8d-8dbb-1ab05dbccf3e",
+            "238fad2e-0460-4535-95dd-15c96b3993ee",
+            "b38e6c5e-ee9a-406b-b713-4f4ce09aa416"
+          ],
+          "ordered_page_numbers": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "page_count": 4,
+          "question_pages": [
+            45,
+            46,
+            47
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00045-f1e7ce56-e927-4e39-8d85-17a45c79e7ab-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00046-82704057-6971-4f8d-8dbb-1ab05dbccf3e-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00047-238fad2e-0460-4535-95dd-15c96b3993ee-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00048-b38e6c5e-ee9a-406b-b713-4f4ce09aa416-image-00.jpg"
+          ],
+          "sha256": [
+            "78b2db549887794ebb1fd6d86659b7a4f169d29ed68c869c3c8b29927293016c",
+            "74df6f1f3d0b269c7527a71c83dae1fd0532b260c04950451912edeec3a35568",
+            "0ab731a4cbbf07d571a2260e2f5b731b64c0114f44a578cfe6b147dab1883e02",
+            "802de719052e34547eaed9093f2927e27712b54779b6701bdb86aae10c913a8b"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 52,
+      "exam_type": "وزاري",
+      "first_page": 49,
+      "id": "chemistry-1446-model-p-40",
+      "internal_ordinal": 12,
+      "last_page": 52,
+      "official_model_code": "P.40",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "ba6bf32f-1def-4d1b-ba5a-727f6d947a2f",
+        "12273511-a35a-4afe-ad68-200b97fd9cd6",
+        "6a321664-cebc-4a08-949f-8d49bc3ee67d",
+        "5acc62cb-b787-4ee2-a7b7-fa51ea1aa812"
+      ],
+      "ordered_page_numbers": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "page_count": 4,
+      "question_pages": [
+        49,
+        50,
+        51
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00049-ba6bf32f-1def-4d1b-ba5a-727f6d947a2f-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00050-12273511-a35a-4afe-ad68-200b97fd9cd6-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00051-6a321664-cebc-4a08-949f-8d49bc3ee67d-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00052-5acc62cb-b787-4ee2-a7b7-fa51ea1aa812-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 52,
+          "first_page": 49,
+          "last_page": 52,
+          "model_code": "P.40",
+          "occurrence_ordinal": 13,
+          "ordered_legacy_page_ids": [
+            "ba6bf32f-1def-4d1b-ba5a-727f6d947a2f",
+            "12273511-a35a-4afe-ad68-200b97fd9cd6",
+            "6a321664-cebc-4a08-949f-8d49bc3ee67d",
+            "5acc62cb-b787-4ee2-a7b7-fa51ea1aa812"
+          ],
+          "ordered_page_numbers": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "page_count": 4,
+          "question_pages": [
+            49,
+            50,
+            51
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00049-ba6bf32f-1def-4d1b-ba5a-727f6d947a2f-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00050-12273511-a35a-4afe-ad68-200b97fd9cd6-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00051-6a321664-cebc-4a08-949f-8d49bc3ee67d-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00052-5acc62cb-b787-4ee2-a7b7-fa51ea1aa812-image-00.jpg"
+          ],
+          "sha256": [
+            "600f59428a9505ccdd32cd28f44f3b1b0f0bc1f9d1638c493791900ead2b673c",
+            "8a75460a0ceb35c8a08773cd3eef28c8235ba0291803824a0b9e7df7e567303e",
+            "97c64c8b85c01253cd286d6155aaa031852f5f6fc9c756cf614fd20a0272c261",
+            "737b26118cac86ba9d77b2c37bbc71265a92e28e8062ad757b898573b82d06e9"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 56,
+      "exam_type": "وزاري",
+      "first_page": 53,
+      "id": "chemistry-1446-model-p-34",
+      "internal_ordinal": 13,
+      "last_page": 56,
+      "official_model_code": "P.34",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "48a05b48-61c8-4434-800d-5aa46d768daa",
+        "2afa5276-d745-43af-ab03-933c9d226e65",
+        "fa87e371-187a-446c-b752-4383fc2d8ec4",
+        "aeb137ad-4016-493a-b556-c74cf6db8f8f"
+      ],
+      "ordered_page_numbers": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "page_count": 4,
+      "question_pages": [
+        53,
+        54,
+        55
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00053-48a05b48-61c8-4434-800d-5aa46d768daa-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00054-2afa5276-d745-43af-ab03-933c9d226e65-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00055-fa87e371-187a-446c-b752-4383fc2d8ec4-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00056-aeb137ad-4016-493a-b556-c74cf6db8f8f-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 56,
+          "first_page": 53,
+          "last_page": 56,
+          "model_code": "P.34",
+          "occurrence_ordinal": 14,
+          "ordered_legacy_page_ids": [
+            "48a05b48-61c8-4434-800d-5aa46d768daa",
+            "2afa5276-d745-43af-ab03-933c9d226e65",
+            "fa87e371-187a-446c-b752-4383fc2d8ec4",
+            "aeb137ad-4016-493a-b556-c74cf6db8f8f"
+          ],
+          "ordered_page_numbers": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "page_count": 4,
+          "question_pages": [
+            53,
+            54,
+            55
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00053-48a05b48-61c8-4434-800d-5aa46d768daa-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00054-2afa5276-d745-43af-ab03-933c9d226e65-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00055-fa87e371-187a-446c-b752-4383fc2d8ec4-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00056-aeb137ad-4016-493a-b556-c74cf6db8f8f-image-00.jpg"
+          ],
+          "sha256": [
+            "c9d43f69e6cef335164975f1deb984254cc1bb7ebc787d95bd96cb5aaeeb099b",
+            "5239ae2cad6247adf8741beae12c8d0219002fbd00f9dfc8b0a7af88d50471b0",
+            "cf410cf24885d0469e9a2923c8bdca885e44b22c30bd00194e9ab4efa2eaa50d",
+            "cebe59b4fb0295360ebd80413967b93e976a590075cf3f41f25c673ab1fbbd75"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2024-2025",
+      "academic_year_hijri": "1446",
+      "answer_key": {
+        "reason": "The fourth page is visibly a candidate-specific 'نموذج التصحيح الإلكتروني' containing a correct-answer column and response/score data, but the available source does not explicitly establish it as a standalone official Answer Key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages were visually inspected through five complete 12-page contact sheets.",
+        "Each source occurrence begins with a page whose header visibly states the model code and the 1446 / 2024-2025 secondary-certificate science-section exam context.",
+        "Each occurrence contains three question pages: questions 1-30, 31-49, then question 50, followed by a model-matched electronic correction report.",
+        "The correction report visibly carries the matching model identifier with a '2' prefix and candidate-specific identity/result fields."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 60,
+      "exam_type": "وزاري",
+      "first_page": 57,
+      "id": "chemistry-1446-model-p-89",
+      "internal_ordinal": 14,
+      "last_page": 60,
+      "official_model_code": "P.89",
+      "official_title": "اختبار الشهادة الثانوية العامة (القسم العلمي) - الكيمياء",
+      "ordered_legacy_page_ids": [
+        "11c7efab-9966-4c9a-bb89-3b86cedd7526",
+        "d1fc6979-e5e2-49ca-acbe-0ab170b5f5a3",
+        "783bfd66-21df-4ea9-92d4-fa598002db0e",
+        "7cd6289e-d626-4df7-aeb5-e13f4a2650f0"
+      ],
+      "ordered_page_numbers": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "page_count": 4,
+      "question_pages": [
+        57,
+        58,
+        59
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00057-11c7efab-9966-4c9a-bb89-3b86cedd7526-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00058-d1fc6979-e5e2-49ca-acbe-0ab170b5f5a3-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00059-783bfd66-21df-4ea9-92d4-fa598002db0e-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00060-7cd6289e-d626-4df7-aeb5-e13f4a2650f0-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_correction_relation_verified_answer_key_unverified",
+      "source_occurrence_count": 1,
+      "source_occurrences": [
+        {
+          "boundary_status": "verified",
+          "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+          "correction_sheet_candidate_page": 60,
+          "first_page": 57,
+          "last_page": 60,
+          "model_code": "P.89",
+          "occurrence_ordinal": 15,
+          "ordered_legacy_page_ids": [
+            "11c7efab-9966-4c9a-bb89-3b86cedd7526",
+            "d1fc6979-e5e2-49ca-acbe-0ab170b5f5a3",
+            "783bfd66-21df-4ea9-92d4-fa598002db0e",
+            "7cd6289e-d626-4df7-aeb5-e13f4a2650f0"
+          ],
+          "ordered_page_numbers": [
+            57,
+            58,
+            59,
+            60
+          ],
+          "page_count": 4,
+          "question_pages": [
+            57,
+            58,
+            59
+          ],
+          "raw_paths": [
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00057-11c7efab-9966-4c9a-bb89-3b86cedd7526-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00058-d1fc6979-e5e2-49ca-acbe-0ab170b5f5a3-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00059-783bfd66-21df-4ea9-92d4-fa598002db0e-image-00.jpg",
+            "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00060-7cd6289e-d626-4df7-aeb5-e13f4a2650f0-image-00.jpg"
+          ],
+          "sha256": [
+            "8c7c167c7c0c3fc4b586444e9e1b733309ce2da18cb4f17434327e1198fda6bf",
+            "f40f36a70ed55088fee2f4ae4cc20c6a7ec03b3e6cbeb901bfeb6872c49107ad",
+            "e1b5e34f8d45a0b5d790c5884704f9cf4fa4f6ebbfb0d65b8bdcda24bb20f5df",
+            "2fd328535dd3a8cab3d399fb4d79ee417bf1435194daddb3c7e8d77bd881a4d3"
+          ]
+        }
+      ],
+      "term": "NOT VERIFIED"
+    }
+  ],
+  "notes": [
+    "The legacy 60-page source group is not treated as one exam.",
+    "Fifteen contiguous four-page source occurrences are verified from 1446 visual evidence only; no 1445 page-count rule was assumed.",
+    "Four-page occurrence structure: three question pages followed by a candidate-specific electronic correction report.",
+    "Fourteen unique Individual Exam Models are verified because model P.41 occurs twice.",
+    "Pages 29-31 and 41-43 are exact SHA duplicates and share visible model code P.41; pages 32 and 44 are distinct candidate-specific correction reports for that same model.",
+    "Correction-report relations are verified, but official standalone Answer Key status remains NOT VERIFIED.",
+    "Term remains NOT VERIFIED; no term was inferred.",
+    "No RAW file was modified and no import/publication was performed."
+  ],
+  "schema_version": 1,
+  "source_group_id": "c09ce569-ea42-4f0b-997f-95b029a7e6ea",
+  "source_group_name": "الكيمياء نماذج وزاريه 1446",
+  "source_occurrence_count": 15,
+  "source_occurrences": [
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 4,
+      "first_page": 1,
+      "last_page": 4,
+      "model_code": "P.87",
+      "occurrence_ordinal": 1,
+      "ordered_legacy_page_ids": [
+        "7b5d0ec6-ef1c-4f57-902a-1884c0b31cbe",
+        "46ed1b05-1478-4d21-8a04-9cc77797bce7",
+        "432c2f49-bf87-4178-9857-1b6c3c0f6c14",
+        "c1ce9a4b-13a9-4f5b-894f-b5f09b944c6d"
+      ],
+      "ordered_page_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "page_count": 4,
+      "question_pages": [
+        1,
+        2,
+        3
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00001-7b5d0ec6-ef1c-4f57-902a-1884c0b31cbe-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00002-46ed1b05-1478-4d21-8a04-9cc77797bce7-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00003-432c2f49-bf87-4178-9857-1b6c3c0f6c14-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00004-c1ce9a4b-13a9-4f5b-894f-b5f09b944c6d-image-00.jpg"
+      ],
+      "sha256": [
+        "0204c6458b2732cb324b1d2118d2f9137aecf197c7d5420e265d15b78ca81994",
+        "900dac063b7629839e9e38a06b8618d635bccb282b697980707f088c669afb23",
+        "a07e70f74ceca6be119d8b92ff041108b47b3ed7d43cf15799603655b62fb98c",
+        "856d87189a38f3a26851750452174ab208516a95e9859cf674381ce0517527cc"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 8,
+      "first_page": 5,
+      "last_page": 8,
+      "model_code": "P.45",
+      "occurrence_ordinal": 2,
+      "ordered_legacy_page_ids": [
+        "687948f9-e211-4a75-bac4-686ef8e5f200",
+        "2bb9625a-8db1-4968-a296-a415069af770",
+        "ad080693-0b70-448f-864f-00e0e1e3730a",
+        "58eee3d1-c2e7-403f-bb59-3b186508e4d5"
+      ],
+      "ordered_page_numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "page_count": 4,
+      "question_pages": [
+        5,
+        6,
+        7
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00005-687948f9-e211-4a75-bac4-686ef8e5f200-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00006-2bb9625a-8db1-4968-a296-a415069af770-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00007-ad080693-0b70-448f-864f-00e0e1e3730a-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00008-58eee3d1-c2e7-403f-bb59-3b186508e4d5-image-00.jpg"
+      ],
+      "sha256": [
+        "e24d9d47146f1fda7378401709d075f5b601a24d77d3d9977eb9c24dd293667f",
+        "af1cca33ef7a342fcfc17f0b7f702cb69c1dea6d968ccd3a1ae9f7ab1f38099f",
+        "7b53318ce6bf934b70d96bd1f508689f5465bba7e5884b82cdbbb788ae6524ba",
+        "dcd2ef72c8cdd69f4ff54b6bf8e1b608a4a11355ed5ea933cc67a1f0a09091eb"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 12,
+      "first_page": 9,
+      "last_page": 12,
+      "model_code": "P.52",
+      "occurrence_ordinal": 3,
+      "ordered_legacy_page_ids": [
+        "6e582f3a-45b3-4c47-9387-c148c181e8df",
+        "df077911-7312-4187-bd4f-d198be57d4a0",
+        "d607878b-977d-4a97-afb4-279e074d18b1",
+        "247a6653-ec8a-46cd-8a44-3870ce478045"
+      ],
+      "ordered_page_numbers": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "page_count": 4,
+      "question_pages": [
+        9,
+        10,
+        11
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00009-6e582f3a-45b3-4c47-9387-c148c181e8df-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00010-df077911-7312-4187-bd4f-d198be57d4a0-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00011-d607878b-977d-4a97-afb4-279e074d18b1-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00012-247a6653-ec8a-46cd-8a44-3870ce478045-image-00.jpg"
+      ],
+      "sha256": [
+        "bb04bf408658fa31770637e02f4530d88dc9d01d9c85b244ae1e65b8a92a20d1",
+        "23ab045e6fd5e7f7ac738816872d15bb02f00fddcc15128e0dd756026b8c949a",
+        "1e788772184a3ee58608b19298af11e107b952e67162eb4426a486864fa31907",
+        "9f23dd2fb2854c1ec87393eb74feb6aade12601f521fec0ad8e2cb77b4601b1b"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 16,
+      "first_page": 13,
+      "last_page": 16,
+      "model_code": "P.9",
+      "occurrence_ordinal": 4,
+      "ordered_legacy_page_ids": [
+        "ef100921-5f33-48da-91a5-a135b941ebde",
+        "43d332e2-5b7b-4429-a691-71cd91298042",
+        "3dcc89f3-13f1-4766-bf7f-1d273bf0a598",
+        "bea5b568-fa05-4226-b5fb-177ea261acde"
+      ],
+      "ordered_page_numbers": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "page_count": 4,
+      "question_pages": [
+        13,
+        14,
+        15
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00013-ef100921-5f33-48da-91a5-a135b941ebde-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00014-43d332e2-5b7b-4429-a691-71cd91298042-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00015-3dcc89f3-13f1-4766-bf7f-1d273bf0a598-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00016-bea5b568-fa05-4226-b5fb-177ea261acde-image-00.jpg"
+      ],
+      "sha256": [
+        "da144b0db35bf47dc423fe4575d815c508ce08bd4a192987d3984a2d3922394b",
+        "6ddc2761739b82a5c762fb9ef22e525cf6bcb9f8ef5a243ff2d02e68a1c73b5a",
+        "e3a465b006a8d107723620d17591018e8c16706f834f3c1f2594b351fcbcc202",
+        "a2e397a02d0833d374c34276e9607af52ed2bc46c84e683db445c5d4869d38ea"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 20,
+      "first_page": 17,
+      "last_page": 20,
+      "model_code": "P.3",
+      "occurrence_ordinal": 5,
+      "ordered_legacy_page_ids": [
+        "fa849fb2-f178-4f6e-b21b-7180d8ac9b63",
+        "d6eb9251-b1b9-438d-8021-c584e17af311",
+        "5b03222c-3b54-42d4-8630-8d806013a74b",
+        "04accf90-9f48-4080-8bb2-ec46c61d455b"
+      ],
+      "ordered_page_numbers": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "page_count": 4,
+      "question_pages": [
+        17,
+        18,
+        19
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00017-fa849fb2-f178-4f6e-b21b-7180d8ac9b63-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00018-d6eb9251-b1b9-438d-8021-c584e17af311-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00019-5b03222c-3b54-42d4-8630-8d806013a74b-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00020-04accf90-9f48-4080-8bb2-ec46c61d455b-image-00.jpg"
+      ],
+      "sha256": [
+        "a5c5c233e8e5926c21d60a9fb93b15ec17e89f4fd98eade3a70e1a7c6e5aee93",
+        "dbbd677d92bf9284b9b1e6abde2d6a534014616208e7d829211ed9356ba26ce6",
+        "2d2e1ebb46bff27a571a75a2ac00b816e5925756ab322484b2ff2cabd265eef1",
+        "c1c7f82f4dce5c3568e0ee51af81142114d23f058b742eb2b4c7747e76224e90"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 24,
+      "first_page": 21,
+      "last_page": 24,
+      "model_code": "P.27",
+      "occurrence_ordinal": 6,
+      "ordered_legacy_page_ids": [
+        "111a08d7-5bc7-401d-8b7f-049d15d2f2c3",
+        "b37d8e8f-08eb-43c9-b187-7f610a7fb06b",
+        "dc5021d4-8041-4e9b-99c1-5d8e87039ee9",
+        "91b25d7c-df86-43d7-8642-da1296820ac4"
+      ],
+      "ordered_page_numbers": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "page_count": 4,
+      "question_pages": [
+        21,
+        22,
+        23
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00021-111a08d7-5bc7-401d-8b7f-049d15d2f2c3-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00022-b37d8e8f-08eb-43c9-b187-7f610a7fb06b-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00023-dc5021d4-8041-4e9b-99c1-5d8e87039ee9-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00024-91b25d7c-df86-43d7-8642-da1296820ac4-image-00.jpg"
+      ],
+      "sha256": [
+        "6944beadb7d8694757972a934a31f488a67df37d0370640d07bef915faf5094a",
+        "f84e9170bfe55204ecacdfff5df2aea9265283b4e32b4d4b351f1896bb896de4",
+        "634c4c4823c1dd235f1a889a803075ca6a51b7bec54830aae44285736db0c303",
+        "d64cfee89d2823eba982a71263d6fbfa6e230e947f8e30df6f7fbbd2da24da64"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 28,
+      "first_page": 25,
+      "last_page": 28,
+      "model_code": "P.5",
+      "occurrence_ordinal": 7,
+      "ordered_legacy_page_ids": [
+        "237c565c-1dab-47b2-8f57-3f48056c9a66",
+        "c4688f86-c84f-446f-b369-b9331ea6ff4d",
+        "3226c4db-a9cf-4e6a-ba13-28e7686660f6",
+        "94848ab2-8a43-4c15-905c-17f378d34602"
+      ],
+      "ordered_page_numbers": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "page_count": 4,
+      "question_pages": [
+        25,
+        26,
+        27
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00025-237c565c-1dab-47b2-8f57-3f48056c9a66-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00026-c4688f86-c84f-446f-b369-b9331ea6ff4d-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00027-3226c4db-a9cf-4e6a-ba13-28e7686660f6-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00028-94848ab2-8a43-4c15-905c-17f378d34602-image-00.jpg"
+      ],
+      "sha256": [
+        "17e0bca4369f503a915d6fa8e3d781bccc667fac7dc8f866508736495aafdaa0",
+        "3f4a65a24791332b233959ec91ed0d46c41290f68f027f9da8ee68f0dd23a343",
+        "49d1879724c5119688f18143353c38db26707bd8345df8abcaf1a2b5bff0e3b3",
+        "0f2392fb3462e503189cc594f1ef1629e9c0f3c701adced409231c23137e0df3"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 32,
+      "first_page": 29,
+      "last_page": 32,
+      "model_code": "P.41",
+      "occurrence_ordinal": 8,
+      "ordered_legacy_page_ids": [
+        "0634cd7e-e445-487b-ad52-017c84a2e3fd",
+        "9e86b3bb-aa95-41cc-8319-135c07706ceb",
+        "0537f69a-b1e7-4592-bfda-95038e1b3649",
+        "79f415e6-97f7-443e-b4b0-41bea63cb554"
+      ],
+      "ordered_page_numbers": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "page_count": 4,
+      "question_pages": [
+        29,
+        30,
+        31
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00029-0634cd7e-e445-487b-ad52-017c84a2e3fd-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00030-9e86b3bb-aa95-41cc-8319-135c07706ceb-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00031-0537f69a-b1e7-4592-bfda-95038e1b3649-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00032-79f415e6-97f7-443e-b4b0-41bea63cb554-image-00.jpg"
+      ],
+      "sha256": [
+        "0445e6e9daf4b263ead5d335a195be9c064d4a95d59ef8811d2a5fef7009b2cc",
+        "2258f9d0070d4ea4ad0f9476be5cac6a0b09934b239dc873ca1dd4c6b0023f04",
+        "7d4b3765d46b6602a4f11f3abe94da63e80f6efdabd5f9dde014875cd7e14508",
+        "2c59c4b9e95366d238cbf79f7f7352996ba19399882dac7c7d04c2b740604d76"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 36,
+      "first_page": 33,
+      "last_page": 36,
+      "model_code": "P.72",
+      "occurrence_ordinal": 9,
+      "ordered_legacy_page_ids": [
+        "a62bef24-551f-47bd-8918-7e84faef8505",
+        "e030edc1-b793-4aed-b491-7fe4316384a3",
+        "84fab291-ae1d-4234-b6f5-888a95a7e503",
+        "c7f2b7eb-3162-4110-bdd4-f97ba8d3f290"
+      ],
+      "ordered_page_numbers": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "page_count": 4,
+      "question_pages": [
+        33,
+        34,
+        35
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00033-a62bef24-551f-47bd-8918-7e84faef8505-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00034-e030edc1-b793-4aed-b491-7fe4316384a3-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00035-84fab291-ae1d-4234-b6f5-888a95a7e503-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00036-c7f2b7eb-3162-4110-bdd4-f97ba8d3f290-image-00.jpg"
+      ],
+      "sha256": [
+        "888be507326685d4a27e8e281af4e34e28aa2e26542eac3003980c8a028e6a5c",
+        "fa2c7f12b4af5d3cd84ef81e56c6e1ae29cfe09ad289052d0ac2f050739111a0",
+        "2660d089a0b144c8b63deb7c8d41b701cbf9ab7d69e9d000316cca103e3b73a9",
+        "0abd2adb48e4c7aa53f1a56a36c0ed18786507b8456ae3b620e4fd605719584f"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 40,
+      "first_page": 37,
+      "last_page": 40,
+      "model_code": "P.107",
+      "occurrence_ordinal": 10,
+      "ordered_legacy_page_ids": [
+        "09edaf42-26be-4898-9dc1-5039def9b79e",
+        "8eb417ed-4667-42ec-9c18-dcc6e5e0e5bd",
+        "cc8970a7-8e07-4c16-b5fe-b326664ba030",
+        "7b5e2f5b-d28a-42c6-a5e2-4e82389ecdc3"
+      ],
+      "ordered_page_numbers": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "page_count": 4,
+      "question_pages": [
+        37,
+        38,
+        39
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00037-09edaf42-26be-4898-9dc1-5039def9b79e-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00038-8eb417ed-4667-42ec-9c18-dcc6e5e0e5bd-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00039-cc8970a7-8e07-4c16-b5fe-b326664ba030-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00040-7b5e2f5b-d28a-42c6-a5e2-4e82389ecdc3-image-00.jpg"
+      ],
+      "sha256": [
+        "3ac6e7b5c5d63d840bb0501cd3229df9712dc33e01e93ba780aaf5a9b78a7eff",
+        "4c29fd0de102305500cb1c9707d9aff56b6858a6b7661a891d3d421ae2297c1d",
+        "cb0eaf51b69ec21a9d87d8f31eb29f380fd4739f7b092b0c18a6e1d7545805fd",
+        "5e9fbd23380cd32a8312cb100f449d9064fda35990fd633b9ec61b92b413ac6b"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 44,
+      "first_page": 41,
+      "last_page": 44,
+      "model_code": "P.41",
+      "occurrence_ordinal": 11,
+      "ordered_legacy_page_ids": [
+        "f5fab7fa-8fdf-412d-9c21-fface5a4c6de",
+        "8b1100d4-7667-47ea-8e71-014f95175e05",
+        "577b0861-b027-4341-bd0f-432ec9829b04",
+        "2a8a6104-cbdd-4336-ba5c-450d4087ba6a"
+      ],
+      "ordered_page_numbers": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "page_count": 4,
+      "question_pages": [
+        41,
+        42,
+        43
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00041-f5fab7fa-8fdf-412d-9c21-fface5a4c6de-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00042-8b1100d4-7667-47ea-8e71-014f95175e05-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00043-577b0861-b027-4341-bd0f-432ec9829b04-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00044-2a8a6104-cbdd-4336-ba5c-450d4087ba6a-image-00.jpg"
+      ],
+      "sha256": [
+        "0445e6e9daf4b263ead5d335a195be9c064d4a95d59ef8811d2a5fef7009b2cc",
+        "2258f9d0070d4ea4ad0f9476be5cac6a0b09934b239dc873ca1dd4c6b0023f04",
+        "7d4b3765d46b6602a4f11f3abe94da63e80f6efdabd5f9dde014875cd7e14508",
+        "cf4f44323fa48fbdd80e5398727159f2769995e9758909fdb06e2df4ba2f5b14"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 48,
+      "first_page": 45,
+      "last_page": 48,
+      "model_code": "P.25",
+      "occurrence_ordinal": 12,
+      "ordered_legacy_page_ids": [
+        "f1e7ce56-e927-4e39-8d85-17a45c79e7ab",
+        "82704057-6971-4f8d-8dbb-1ab05dbccf3e",
+        "238fad2e-0460-4535-95dd-15c96b3993ee",
+        "b38e6c5e-ee9a-406b-b713-4f4ce09aa416"
+      ],
+      "ordered_page_numbers": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "page_count": 4,
+      "question_pages": [
+        45,
+        46,
+        47
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00045-f1e7ce56-e927-4e39-8d85-17a45c79e7ab-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00046-82704057-6971-4f8d-8dbb-1ab05dbccf3e-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00047-238fad2e-0460-4535-95dd-15c96b3993ee-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00048-b38e6c5e-ee9a-406b-b713-4f4ce09aa416-image-00.jpg"
+      ],
+      "sha256": [
+        "78b2db549887794ebb1fd6d86659b7a4f169d29ed68c869c3c8b29927293016c",
+        "74df6f1f3d0b269c7527a71c83dae1fd0532b260c04950451912edeec3a35568",
+        "0ab731a4cbbf07d571a2260e2f5b731b64c0114f44a578cfe6b147dab1883e02",
+        "802de719052e34547eaed9093f2927e27712b54779b6701bdb86aae10c913a8b"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 52,
+      "first_page": 49,
+      "last_page": 52,
+      "model_code": "P.40",
+      "occurrence_ordinal": 13,
+      "ordered_legacy_page_ids": [
+        "ba6bf32f-1def-4d1b-ba5a-727f6d947a2f",
+        "12273511-a35a-4afe-ad68-200b97fd9cd6",
+        "6a321664-cebc-4a08-949f-8d49bc3ee67d",
+        "5acc62cb-b787-4ee2-a7b7-fa51ea1aa812"
+      ],
+      "ordered_page_numbers": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "page_count": 4,
+      "question_pages": [
+        49,
+        50,
+        51
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00049-ba6bf32f-1def-4d1b-ba5a-727f6d947a2f-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00050-12273511-a35a-4afe-ad68-200b97fd9cd6-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00051-6a321664-cebc-4a08-949f-8d49bc3ee67d-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00052-5acc62cb-b787-4ee2-a7b7-fa51ea1aa812-image-00.jpg"
+      ],
+      "sha256": [
+        "600f59428a9505ccdd32cd28f44f3b1b0f0bc1f9d1638c493791900ead2b673c",
+        "8a75460a0ceb35c8a08773cd3eef28c8235ba0291803824a0b9e7df7e567303e",
+        "97c64c8b85c01253cd286d6155aaa031852f5f6fc9c756cf614fd20a0272c261",
+        "737b26118cac86ba9d77b2c37bbc71265a92e28e8062ad757b898573b82d06e9"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 56,
+      "first_page": 53,
+      "last_page": 56,
+      "model_code": "P.34",
+      "occurrence_ordinal": 14,
+      "ordered_legacy_page_ids": [
+        "48a05b48-61c8-4434-800d-5aa46d768daa",
+        "2afa5276-d745-43af-ab03-933c9d226e65",
+        "fa87e371-187a-446c-b752-4383fc2d8ec4",
+        "aeb137ad-4016-493a-b556-c74cf6db8f8f"
+      ],
+      "ordered_page_numbers": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "page_count": 4,
+      "question_pages": [
+        53,
+        54,
+        55
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00053-48a05b48-61c8-4434-800d-5aa46d768daa-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00054-2afa5276-d745-43af-ab03-933c9d226e65-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00055-fa87e371-187a-446c-b752-4383fc2d8ec4-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00056-aeb137ad-4016-493a-b556-c74cf6db8f8f-image-00.jpg"
+      ],
+      "sha256": [
+        "c9d43f69e6cef335164975f1deb984254cc1bb7ebc787d95bd96cb5aaeeb099b",
+        "5239ae2cad6247adf8741beae12c8d0219002fbd00f9dfc8b0a7af88d50471b0",
+        "cf410cf24885d0469e9a2923c8bdca885e44b22c30bd00194e9ab4efa2eaa50d",
+        "cebe59b4fb0295360ebd80413967b93e976a590075cf3f41f25c673ab1fbbd75"
+      ]
+    },
+    {
+      "boundary_status": "verified",
+      "correction_relation": "verified_by_visual_model_code_and_contiguous_response_report",
+      "correction_sheet_candidate_page": 60,
+      "first_page": 57,
+      "last_page": 60,
+      "model_code": "P.89",
+      "occurrence_ordinal": 15,
+      "ordered_legacy_page_ids": [
+        "11c7efab-9966-4c9a-bb89-3b86cedd7526",
+        "d1fc6979-e5e2-49ca-acbe-0ab170b5f5a3",
+        "783bfd66-21df-4ea9-92d4-fa598002db0e",
+        "7cd6289e-d626-4df7-aeb5-e13f4a2650f0"
+      ],
+      "ordered_page_numbers": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "page_count": 4,
+      "question_pages": [
+        57,
+        58,
+        59
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00057-11c7efab-9966-4c9a-bb89-3b86cedd7526-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00058-d1fc6979-e5e2-49ca-acbe-0ab170b5f5a3-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00059-783bfd66-21df-4ea9-92d4-fa598002db0e-image-00.jpg",
+        "raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/images/page-00060-7cd6289e-d626-4df7-aeb5-e13f4a2650f0-image-00.jpg"
+      ],
+      "sha256": [
+        "8c7c167c7c0c3fc4b586444e9e1b733309ce2da18cb4f17434327e1198fda6bf",
+        "f40f36a70ed55088fee2f4ae4cc20c6a7ec03b3e6cbeb901bfeb6872c49107ad",
+        "e1b5e34f8d45a0b5d790c5884704f9cf4fa4f6ebbfb0d65b8bdcda24bb20f5df",
+        "2fd328535dd3a8cab3d399fb4d79ee417bf1435194daddb3c7e8d77bd881a4d3"
+      ]
+    }
+  ],
+  "source_pages": 60,
+  "source_questions": 0,
+  "status": "processed_boundary_verified_repeat_classified_answer_keys_not_verified",
+  "subject": "الكيمياء",
+  "technical_verification": {
+    "byte_size_matches": 60,
+    "existing_files": 60,
+    "failures": 0,
+    "manifest_image_count": 60,
+    "mime_matches": 60,
+    "readable_images": 60,
+    "sha256_matches": 60
+  },
+  "term": "NOT VERIFIED",
+  "verified_answer_key_count": 0
+}

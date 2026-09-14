@@ -243,3 +243,17 @@ Do not inspect or modify the main application database schema merely because Rec
 ## Completion condition for this corpus-wide phase
 
 Do not call the phase complete until all 58 sources are either reconstructed or explicitly unresolved with evidence, all 32 Exam Source Groups are processed, Individual Exam Models/pages/Answer Keys are established where evidence permits, all 5,273 images have technical verification, WebP decisions are completed, all 25,755 questions have structural classifications, the 99 duplicate fingerprint groups are classified, master manifests/docs are synchronized, and RAW/unrelated/import/publication mutations remain controlled at zero unless a later explicit import gate authorizes otherwise.
+
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_START -->
+## Superseding exact continuation — Chemistry 1446 finalized
+
+The earlier 1446 IN PROGRESS section is superseded by this evidence-backed checkpoint.
+
+- Chemistry 1446 is **COMPLETE** for current Reconstruction/Boundary scope: **60/60** technical checks green and all **60** pages visually reviewed.
+- Final: **15** four-page source occurrences, **14** unique Individual Exam Models, **60** finalized source pages, **15** correction-report candidates, **0** verified standalone Answer Keys.
+- Repeated `P.41`: pages 29..31 == 41..43 by exact SHA; pages 32/44 are distinct candidate correction reports. Classification `legitimate_repeated_exam_model_occurrence`; preserve all pages.
+- Progress: Sources **3/58**; Educational **1/26**; Books/Units/Lessons/Lesson Pages **1/9/57/149**; Exam Source Groups **2/32**; Individual Exam Models **34**; Exam Pages **120/2,286**; images verified **298/5,273**.
+- Questions: **25,755** total; lesson-linked **2,225**; exam-linked **0**; review-required **351**; unclassified **23,179**; duplicate fingerprint groups classified **0/99**.
+- RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Next source: `e7c8291c-e904-4e8c-9cd8-2753818cedf3` — `الكيمياء نماذج وزاريه 1447`; start technical verification + source-local visual boundary discovery. Do not assume 3 or 4 pages/model.
+<!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->

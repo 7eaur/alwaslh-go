@@ -169,8 +169,8 @@
         "id": "c09ce569-ea42-4f0b-997f-95b029a7e6ea",
         "name": "الكيمياء نماذج وزاريه 1446"
       },
-      "classification": "exam_collection_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "exam_source_group",
+      "classification_evidence": "legacy label + 60-page technical verification + full visual review + visible model codes + explicit repeated-P.41 resolution",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/c09ce569-ea42-4f0b-997f-95b029a7e6ea/manifest.json",
       "manifest_sha256_recorded": "702446bec9106aa8e24dee74824ba6efb6691300b93c91a6fe75f93155b4cf88",
       "counts": {
@@ -189,12 +189,52 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "processed_boundary_verified_repeat_classified_answer_keys_not_verified",
       "modern_entity_id": null,
-      "exam_models": null,
-      "answer_keys": null,
+      "exam_models": 14,
+      "answer_keys": "NOT VERIFIED",
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json",
+        "images_verified": 60,
+        "readable": 60,
+        "sha256_match_manifest": 60,
+        "mime_match_manifest": 60,
+        "duplicate_sha_groups_within_source": 3
+      },
+      "exam_reconstruction": {
+        "status": "processed_boundary_verified_repeat_classified_answer_keys_not_verified",
+        "path": "content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json",
+        "source_occurrences": 15,
+        "individual_exam_models": 14,
+        "exam_pages": 60,
+        "canonical_model_pages": 56,
+        "pages_per_source_occurrence": 4,
+        "question_pages_per_occurrence": 3,
+        "correction_sheet_candidates": 15,
+        "verified_answer_keys": 0,
+        "answer_key_status": "NOT VERIFIED",
+        "repeated_model_code": "P.41",
+        "repeat_classification": "legitimate_repeated_exam_model_occurrence",
+        "exact_sha_duplicate_page_pairs": [
+          [
+            29,
+            41
+          ],
+          [
+            30,
+            42
+          ],
+          [
+            31,
+            43
+          ]
+        ],
+        "associated_legacy_questions": 0,
+        "raw_mutations": 0
+      }
     },
     {
       "id": "e7c8291c-e904-4e8c-9cd8-2753818cedf3",
@@ -2415,7 +2455,7 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 2,
+    "sources_completed": 3,
     "sources_total": 58,
     "educational_sources_completed": 1,
     "educational_sources_total": 26,
@@ -2423,13 +2463,13 @@
     "verified_units": 9,
     "verified_lessons": 57,
     "verified_lesson_pages": 149,
-    "exam_source_groups_completed": 1,
+    "exam_source_groups_completed": 2,
     "exam_source_groups_total": 32,
-    "individual_exam_models": 20,
-    "exam_pages_completed": 60,
+    "individual_exam_models": 34,
+    "exam_pages_completed": 120,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 238,
+    "source_images_technically_verified": 298,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,
@@ -2446,6 +2486,6 @@
     "new_imports": 0,
     "new_publications": 0,
     "verified_answer_keys": 0,
-    "correction_sheet_candidates": 20
+    "correction_sheet_candidates": 35
   }
 }
