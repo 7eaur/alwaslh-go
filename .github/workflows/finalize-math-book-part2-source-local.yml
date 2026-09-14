@@ -1,0 +1,105 @@
+name: Finalize Math Book Part 2 Source Local
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/finalize-math-book-part2-source-local.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-math-book-part2-source-local
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout exact trigger head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install verifier dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+      - name: Fail closed if live head moved before reconstruction
+        run: |
+          set -euo pipefail
+          LIVE=$(git ls-remote origin refs/heads/content/corpus-inventory-20260914 | cut -f1)
+          test "$LIVE" = "$GITHUB_SHA" || { echo "HEAD_DRIFT before reconstruction live=$LIVE expected=$GITHUB_SHA"; exit 31; }
+      - name: Reverify immutable RAW and build source-local reconstruction
+        run: |
+          set -euo pipefail
+          python content-staging/tools/verify_subject_media.py --subject-id b80cbba1-410a-4346-9446-c3f01c4f9e56
+          python content-staging/tools/reconstruct_math_book_part2_source_local.py
+      - name: Verify reconstruction before canonical checkpoint
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='b80cbba1-410a-4346-9446-c3f01c4f9e56'
+          r=json.loads(Path(f'content-staging/reconstruction/educational/{sid}.json').read_text())
+          t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
+          assert t['all_images_technically_verified'] and t['checks']['sha256_matches']==135
+          b=r['reconstructed_book']; q=r['questions']; inv=r['invariants']
+          assert (b['unit_count'],b['lesson_count'],b['lesson_member_page_count'],b['nonlesson_page_count'])==(3,19,122,13)
+          assert [u['title'] for u in b['units']]==['الهندسة','الهندسة الإحداثية والتحويلات','الإحصاء']
+          assert len(b['general_exercise_pages'])==7 and len(b['unit_test_pages'])==6
+          assert (q['legacy_questions'],q['structurally_lesson_linked_questions'],q['review_required_questions'],q['unclassified_questions'])==(0,0,0,0)
+          assert inv['all_135_pages_classified_exactly_once'] and inv['all_0_questions_structurally_accounted_for']
+          assert inv['raw_mutations']==0 and inv['new_imports']==0 and inv['new_publications']==0
+          print('MATH_PART2_RECONSTRUCTION_VERIFY_PASS')
+          PY
+      - name: Fail closed if live head moved before canonical mutation
+        run: |
+          set -euo pipefail
+          LIVE=$(git ls-remote origin refs/heads/content/corpus-inventory-20260914 | cut -f1)
+          test "$LIVE" = "$GITHUB_SHA" || { echo "HEAD_DRIFT before checkpoint live=$LIVE expected=$GITHUB_SHA"; exit 32; }
+      - name: Record canonical checkpoint
+        run: |
+          set -euo pipefail
+          python content-staging/tools/record_math_book_part2_checkpoint.py | tee /tmp/checkpoint.json
+      - name: Verify global invariant and zero-mutation gates
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          x=p['reconstruction_progress']
+          assert x['sources_completed']==25 and x['educational_sources_completed']==12
+          assert x['verified_books']==12 and x['verified_units']==40 and x['verified_lessons']==236 and x['verified_lesson_pages']==1161
+          assert x['source_images_technically_verified']==1986
+          assert x['lesson_linked_structural']==7511 and x['exam_linked_to_individual_model']==1132 and x['review_required']==448 and x['unclassified']==16664
+          assert x['lesson_linked_structural']+x['exam_linked_to_individual_model']+x['review_required']+x['unclassified']==25755
+          assert x['raw_mutations']==0 and x['unrelated_mutations']==0 and x['new_imports']==0 and x['new_publications']==0
+          print('MATH_PART2_FINALIZATION_VERIFY_PASS')
+          PY
+      - name: Final live-head gate and commit evidence
+        run: |
+          set -euo pipefail
+          LIVE=$(git ls-remote origin refs/heads/content/corpus-inventory-20260914 | cut -f1)
+          test "$LIVE" = "$GITHUB_SHA" || { echo "HEAD_DRIFT before commit live=$LIVE expected=$GITHUB_SHA"; exit 33; }
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add \
+            content-staging/reconstruction/technical/b80cbba1-410a-4346-9446-c3f01c4f9e56.json \
+            content-staging/reconstruction/educational/b80cbba1-410a-4346-9446-c3f01c4f9e56.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+            content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md \
+            content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md \
+            content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          git diff --cached --quiet && { echo 'No derived changes to commit'; exit 34; }
+          git commit -m 'content: finalize Math Part 2 from source-local visual evidence [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
