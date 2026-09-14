@@ -1,0 +1,129 @@
+name: Render Math Book Part 1 Contact Sheets
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/render-math-book-part1-contact-sheets.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: render-math-book-part1-contact-sheets
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Render occurrence-safe contact sheets and title runs
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image, ImageDraw, ImageFont
+
+          ROOT = Path.cwd()
+          sid = '1933807f-4cb0-40c9-9b29-3ef3d32c98dc'
+          subject = ROOT / 'content-staging/raw/legacy-supabase/subjects' / sid
+          manifest = json.loads((subject / 'manifest.json').read_text(encoding='utf-8'))
+          pages = json.loads((subject / 'pages.json').read_text(encoding='utf-8'))
+          by_id = {p.get('id'): p for p in pages if isinstance(p, dict)}
+          images = sorted(manifest.get('images', []), key=lambda x: (x.get('page_number') is None, x.get('page_number'), x.get('legacy_page_id') or ''))
+          assert len(images) == 186
+
+          out = ROOT / 'math-part1-contact-sheets'
+          out.mkdir(parents=True, exist_ok=True)
+          try:
+              font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 18)
+          except Exception:
+              font = ImageFont.load_default()
+
+          records = []
+          for ordinal, item in enumerate(images, start=1):
+              page = by_id.get(item.get('legacy_page_id'), {})
+              records.append({
+                  'ordinal': ordinal,
+                  'legacy_page_id': item.get('legacy_page_id'),
+                  'page_number': item.get('page_number'),
+                  'title': page.get('title'),
+                  'content_type': page.get('content_type'),
+                  'raw_path': item.get('raw_path'),
+                  'sha256': item.get('sha256'),
+              })
+
+          runs = []
+          for rec in records:
+              key = (rec.get('title'), rec.get('content_type'))
+              if not runs or (runs[-1]['title'], runs[-1]['content_type']) != key:
+                  runs.append({
+                      'title': rec.get('title'),
+                      'content_type': rec.get('content_type'),
+                      'start_page': rec.get('page_number'),
+                      'end_page': rec.get('page_number'),
+                      'count': 1,
+                      'start_ordinal': rec.get('ordinal'),
+                      'end_ordinal': rec.get('ordinal'),
+                  })
+              else:
+                  runs[-1]['end_page'] = rec.get('page_number')
+                  runs[-1]['end_ordinal'] = rec.get('ordinal')
+                  runs[-1]['count'] += 1
+
+          (out / 'records.json').write_text(json.dumps(records, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          (out / 'title-runs.json').write_text(json.dumps(runs, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          cell_w, cell_h = 330, 500
+          cols, rows = 3, 4
+          per_sheet = cols * rows
+          for start in range(0, len(records), per_sheet):
+              batch = records[start:start+per_sheet]
+              canvas = Image.new('RGB', (cols * cell_w, rows * cell_h), 'white')
+              draw = ImageDraw.Draw(canvas)
+              for i, rec in enumerate(batch):
+                  raw = Path(rec['raw_path'])
+                  if raw.parts and raw.parts[0] == 'raw':
+                      path = ROOT / 'content-staging' / raw
+                  else:
+                      path = ROOT / raw
+                  with Image.open(path) as im:
+                      im = im.convert('RGB')
+                      im.thumbnail((cell_w - 16, cell_h - 52), Image.Resampling.LANCZOS)
+                      x0 = (i % cols) * cell_w
+                      y0 = (i // cols) * cell_h
+                      x = x0 + (cell_w - im.width) // 2
+                      y = y0 + 34
+                      canvas.paste(im, (x, y))
+                  label = f"ord {rec['ordinal']:03d} | page {rec['page_number']} | {str(rec['legacy_page_id'])[:8]}"
+                  draw.text((x0 + 8, y0 + 7), label, fill='black', font=font)
+              first = batch[0]['page_number']
+              last = batch[-1]['page_number']
+              canvas.save(out / f'pages-{first:03d}-{last:03d}.jpg', quality=88, optimize=True)
+
+          print(json.dumps({'records': len(records), 'title_runs': len(runs), 'sheets': (len(records)+per_sheet-1)//per_sheet}, ensure_ascii=False))
+          PY
+
+      - name: Upload visual evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: math-part1-contact-sheets
+          path: math-part1-contact-sheets/
+          if-no-files-found: error
+          retention-days: 7
