@@ -1,0 +1,71 @@
+name: Record History Partial Handoff
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/record-history-partial-handoff.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: record-history-partial-handoff
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - name: Verify committed History evidence
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='0a76f44b-0a4f-4e36-9ea9-badecf78bf23'
+          t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
+          d=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-discovery.json').read_text())
+          assert t['all_images_technically_verified'] is True
+          assert t['checks']['sha256_matches']==61
+          assert d['raw_sha_verified_count']==61
+          assert d['master_reference_images_indexed']==211
+          assert d['identity_status']=='NOT VERIFIED'
+          assert d['global_matching']['strong_page_count']==0
+          assert d['global_matching']['sequence_verified'] is False
+          assert d['legacy_question_count']==138
+          assert d['raw_mutations']==0
+          print('HISTORY_PARTIAL_EVIDENCE_PASS')
+          PY
+
+      - name: Record shared handoff
+        run: python content-staging/tools/record_history_partial_handoff.py
+
+      - name: Verify handoff invariants
+        run: |
+          set -euo pipefail
+          grep -F 'state: `PARTIAL_SAFE_HANDOFF`' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F 'Source images technical: 1,011/5,273' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F '2,236 + 967 + 351 + 22,201 = 25,755' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F 'current source: `0a76f44b-0a4f-4e36-9ea9-badecf78bf23 — التاريخ الكتاب المدرسي`' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          echo HISTORY_PARTIAL_HANDOFF_VERIFY_PASS
+
+      - name: Commit shared handoff
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          if git diff --cached --quiet; then
+            echo 'Handoff already recorded.'
+            exit 0
+          fi
+          git commit -m 'docs: checkpoint partial History reconstruction [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
