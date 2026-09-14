@@ -1,0 +1,76 @@
+name: Finalize Fiqh Book Reconstruction
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/finalize-fiqh-book.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-fiqh-book
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reconstruct Fiqh lessons/questions from exact evidence
+        run: python content-staging/tools/reconstruct_fiqh_book.py
+      - name: Record Fiqh checkpoint
+        run: python content-staging/tools/record_fiqh_book_checkpoint.py
+      - name: Verify final reconstruction and invariants
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='6a8ea7f2-1e77-4654-a28c-0ea1b82b4830'
+          r=json.loads(Path(f'content-staging/reconstruction/educational/{sid}.json').read_text())
+          m=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          assert r['reconstructed_book']['lesson_count']==13
+          assert r['reconstructed_book']['lesson_member_page_count']==67
+          assert r['reconstructed_book']['explicit_evaluation_or_conclusion_filename_pages']==[]
+          assert r['questions']['legacy_questions']==906
+          assert r['questions']['structurally_lesson_linked_questions']==906
+          p=m['reconstruction_progress']
+          assert p['sources_completed']==20 and p['educational_sources_completed']==10 and p['verified_books']==10
+          assert p['verified_units']==33 and p['verified_lessons']==196 and p['verified_lesson_pages']==877
+          assert p['source_images_technically_verified']==1542
+          assert p['lesson_linked_structural']==6891 and p['exam_linked_to_individual_model']==967 and p['review_required']==351 and p['unclassified']==17546
+          assert p['lesson_linked_structural']+p['exam_linked_to_individual_model']+p['review_required']+p['unclassified']==25755
+          assert p['raw_mutations']==0 and p['unrelated_mutations']==0 and p['new_imports']==0 and p['new_publications']==0
+          print('FIQH_FINALIZATION_VERIFY_PASS')
+          PY
+      - name: Re-fetch live branch before write and fail closed on conflict
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          LIVE=$(git rev-parse origin/content/corpus-inventory-20260914)
+          LOCAL=$(git rev-parse HEAD)
+          test "$LIVE" = "$LOCAL" || { echo "Write safety gate: branch changed live=$LIVE local=$LOCAL"; exit 24; }
+      - name: Commit Fiqh reconstruction checkpoint
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/reconstruction/educational/6a8ea7f2-1e77-4654-a28c-0ea1b82b4830.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+            content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md \
+            content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md \
+            content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          git commit -m 'content: finalize Fiqh book reconstruction [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
