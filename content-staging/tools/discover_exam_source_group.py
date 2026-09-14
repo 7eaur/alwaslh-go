@@ -47,25 +47,24 @@ def raw_file(item):
     return ROOT / "content-staging" / rel if rel.parts and rel.parts[0] == "raw" else ROOT / rel
 
 
-def build_contact_sheet(items, output):
+def build_contact_sheet(items, output, width=440, height=610, thumb=(420, 560), cols=4):
     cards = []
     for item in items:
         path = raw_file(item)
         with Image.open(path) as image:
             image = ImageOps.exif_transpose(image).convert("RGB")
-            image.thumbnail((420, 560))
-            card = Image.new("RGB", (440, 610), "white")
-            card.paste(image, ((440 - image.width) // 2, 10))
+            image.thumbnail(thumb)
+            card = Image.new("RGB", (width, height), "white")
+            card.paste(image, ((width - image.width) // 2, 8))
             draw = ImageDraw.Draw(card)
-            draw.text((10, 580), f"page {item['page_number']} | {lesson_identity(item) or 'no-lesson-id'}", fill="black")
+            draw.text((10, height - 26), f"page {item['page_number']}", fill="black")
             cards.append(card)
-    cols = 4
     rows = (len(cards) + cols - 1) // cols
-    sheet = Image.new("RGB", (cols * 440, max(1, rows) * 610), "white")
+    sheet = Image.new("RGB", (cols * width, max(1, rows) * height), "white")
     for index, card in enumerate(cards):
-        sheet.paste(card, ((index % cols) * 440, (index // cols) * 610))
+        sheet.paste(card, ((index % cols) * width, (index // cols) * height))
     output.parent.mkdir(parents=True, exist_ok=True)
-    sheet.save(output, format="JPEG", quality=88)
+    sheet.save(output, format="JPEG", quality=90)
 
 
 def main():
@@ -142,12 +141,26 @@ def main():
         (visual / f"{args.subject_id}-boundary-candidates.json").write_text(
             json.dumps(candidates, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
+        chunk_size = 12
+        for start in range(0, len(images), chunk_size):
+            chunk = images[start:start + chunk_size]
+            first = chunk[0]["page_number"]
+            last = chunk[-1]["page_number"]
+            build_contact_sheet(
+                chunk,
+                visual / f"{args.subject_id}-pages-{first:03d}-{last:03d}.jpg",
+                width=520,
+                height=720,
+                thumb=(500, 670),
+                cols=4,
+            )
 
     print(json.dumps({
         "source_group_id": args.subject_id,
         "pages": len(images),
         "storage_lesson_identity_runs": len(runs),
         "candidate_ranges": [[c["first_page"], c["last_page"]] for c in candidates],
+        "visual_contact_chunks": (len(images) + 11) // 12 if args.visual_dir else 0,
         "individual_exam_models": "NOT VERIFIED",
         "answer_keys": "NOT VERIFIED",
         "raw_mutations": 0,
