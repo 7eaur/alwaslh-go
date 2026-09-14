@@ -1,0 +1,95 @@
+name: Finalize Physics Exam 1446 Reconstruction
+
+on:
+  push:
+    branches: [content/corpus-inventory-20260914]
+    paths: ['.github/workflows/finalize-physics-exam-1446.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-physics-exam-1446
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check Pillow
+      - name: Gate exact live head before finalization
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT_BEFORE_FINALIZATION; exit 42; }
+      - name: Reverify immutable RAW and regenerate discovery evidence
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts/physics-exam-1446-final
+          python content-staging/tools/verify_subject_media.py --subject-id 0b28dc73-7e43-45f1-99c8-14825dcf3ded
+          python content-staging/tools/discover_exam_source_group.py --subject-id 0b28dc73-7e43-45f1-99c8-14825dcf3ded --visual-dir artifacts/physics-exam-1446-final
+      - name: Reconstruct verified Physics 1446 boundaries
+        run: |
+          set -euo pipefail
+          python content-staging/tools/reconstruct_physics_exam_1446.py
+          python content-staging/tools/record_physics_exam_1446_checkpoint.py
+      - name: Validate reconstruction and global invariants
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='0b28dc73-7e43-45f1-99c8-14825dcf3ded'
+          r=json.loads(Path(f'content-staging/reconstruction/exams/source-groups/{sid}.json').read_text(encoding='utf-8'))
+          assert r['source_pages']==104 and r['source_questions']==200
+          assert r['source_blocks_reviewed']==26 and r['verified_source_occurrence_count']==26 and r['review_required_block_count']==0
+          assert r['individual_exam_model_count']==26 and r['finalized_exam_page_count']==104 and r['review_required_page_count']==0
+          assert r['correction_sheet_candidate_count']==26 and r['verified_answer_key_count']==0 and r['duplicate_sha256_groups_within_source']==6
+          q=r['question_mapping']; assert q['exam_linked_structural']==200 and q['review_required']==0 and q['unassigned_within_source']==0 and len(q['records'])==200
+          assert r['evidence']['raw_mutations']==0
+          m=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text(encoding='utf-8')); p=m['reconstruction_progress']
+          assert p['lesson_linked_structural']+p['exam_linked_to_individual_model']+p['review_required']+p['unclassified']==25755
+          assert p['sources_completed']==34 and p['exam_source_groups_completed']==18
+          assert p['individual_exam_models']==325 and p['exam_pages_completed']==1108 and p['source_images_technically_verified']==2855
+          assert p['lesson_linked_structural']==13135 and p['exam_linked_to_individual_model']==1665 and p['review_required']==1229 and p['unclassified']==9726
+          assert p['raw_mutations']==0 and p['unrelated_mutations']==0 and p['new_imports']==0 and p['new_publications']==0
+          print('PHYSICS_1446_FINALIZATION_VERIFY_PASS')
+          print(json.dumps({'global_progress':p},ensure_ascii=False))
+          PY
+      - name: Gate exact live head before evidence write
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT_BEFORE_EVIDENCE_WRITE; exit 42; }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: physics-exam-1446-final-evidence
+          path: |
+            artifacts/physics-exam-1446-final/
+            content-staging/reconstruction/technical/0b28dc73-7e43-45f1-99c8-14825dcf3ded.json
+            content-staging/reconstruction/exams/source-groups/0b28dc73-7e43-45f1-99c8-14825dcf3ded-discovery.json
+            content-staging/reconstruction/exams/source-groups/0b28dc73-7e43-45f1-99c8-14825dcf3ded.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: Gate exact live head before commit
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT_BEFORE_COMMIT; exit 42; }
+      - name: Commit canonical evidence
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/reconstruction/technical/0b28dc73-7e43-45f1-99c8-14825dcf3ded.json content-staging/reconstruction/exams/source-groups/0b28dc73-7e43-45f1-99c8-14825dcf3ded-discovery.json content-staging/reconstruction/exams/source-groups/0b28dc73-7e43-45f1-99c8-14825dcf3ded.json content-staging/manifests/MASTER_CONTENT_MANIFEST.json content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md content-staging/CONTENT_REBUILD_HANDOFF.md content-staging/CONTENT_INVENTORY.md content-staging/CONTENT_VALIDATION_REPORT.md content-staging/CONTENT_IMPORT_REPORT.md content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          git diff --cached --quiet && { echo 'Derived evidence unchanged.'; exit 0; }
+          git commit -m 'content: finalize Physics 1446 exam reconstruction [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
