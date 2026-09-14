@@ -833,8 +833,8 @@
         "id": "da6fc228-1ada-4627-8306-80d9d3401490",
         "name": "الانجليزي نماذج وزارية 1447"
       },
-      "classification": "exam_collection_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "exam_source_group",
+      "classification_evidence": "legacy label + 42/42 technical verification + complete 42-record visual review + source-record identity/title evidence with explicit anomaly isolation",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/da6fc228-1ada-4627-8306-80d9d3401490/manifest.json",
       "manifest_sha256_recorded": "310d874fb337d8be4430e6ddd40537fc3503a8dab20181fd56b772438736b364",
       "counts": {
@@ -857,12 +857,52 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "processed_boundary_verified_with_review_required_pages_answer_keys_not_verified",
       "modern_entity_id": null,
-      "exam_models": null,
-      "answer_keys": null,
+      "exam_models": 13,
+      "answer_keys": "NOT VERIFIED",
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/da6fc228-1ada-4627-8306-80d9d3401490.json",
+        "images_verified": 42,
+        "readable": 42,
+        "sha256_match_manifest": 42,
+        "mime_match_manifest": 42,
+        "duplicate_sha_groups_within_source": 0,
+        "missing_numeric_page_labels": [
+          12,
+          26,
+          37
+        ],
+        "duplicate_numeric_page_labels": [
+          18,
+          27,
+          29
+        ]
+      },
+      "exam_reconstruction": {
+        "status": "boundary_verified_with_three_review_required_pages_answer_keys_not_verified",
+        "path": "content-staging/reconstruction/exams/source-groups/da6fc228-1ada-4627-8306-80d9d3401490.json",
+        "source_records_visually_reviewed": 42,
+        "nominal_model_labels_reviewed": 14,
+        "verified_source_occurrences": 13,
+        "review_required_groups": 2,
+        "individual_exam_models": 13,
+        "source_pages": 42,
+        "finalized_exam_pages": 39,
+        "review_required_pages": 3,
+        "correction_sheet_candidates": 14,
+        "model_matched_correction_sheet_candidates": 13,
+        "verified_answer_keys": 0,
+        "answer_key_status": "NOT VERIFIED",
+        "exam_linked_questions": 234,
+        "review_required_questions": 0,
+        "associated_legacy_questions": 234,
+        "semantic_question_correctness": "NOT VERIFIED",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "1794eea5-4772-4c94-bd2b-b08e5815e733",
@@ -2717,7 +2757,7 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 11,
+    "sources_completed": 12,
     "sources_total": 58,
     "educational_sources_completed": 3,
     "educational_sources_total": 26,
@@ -2725,28 +2765,28 @@
     "verified_units": 25,
     "verified_lessons": 110,
     "verified_lesson_pages": 413,
-    "exam_source_groups_completed": 8,
+    "exam_source_groups_completed": 9,
     "exam_source_groups_total": 32,
-    "individual_exam_models": 122,
-    "exam_pages_completed": 416,
+    "individual_exam_models": 135,
+    "exam_pages_completed": 455,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 908,
+    "source_images_technically_verified": 950,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,
     "webp_derivatives_rejected": 0,
     "legacy_questions_total": 25755,
     "lesson_linked_structural": 2236,
-    "exam_linked_to_individual_model": 733,
+    "exam_linked_to_individual_model": 967,
     "review_required": 351,
-    "unclassified": 22435,
+    "unclassified": 22201,
     "duplicate_fingerprint_groups_classified": 0,
     "duplicate_fingerprint_groups_total": 99,
     "raw_mutations": 0,
     "unrelated_mutations": 0,
     "new_imports": 0,
     "new_publications": 0,
-    "correction_sheet_candidates": 23
+    "correction_sheet_candidates": 37
   }
 }
