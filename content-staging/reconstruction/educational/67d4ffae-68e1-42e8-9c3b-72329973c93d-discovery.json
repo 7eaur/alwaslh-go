@@ -1,0 +1,3725 @@
+{
+  "source_id": "67d4ffae-68e1-42e8-9c3b-72329973c93d",
+  "source_name": "الأحياء الكتاب المدرسي",
+  "status": "discovery_complete_not_finalized",
+  "source_pages": 214,
+  "legacy_questions": 3304,
+  "retained_storage_page_range": [
+    8,
+    221
+  ],
+  "technical_source_sha_rechecked": 214,
+  "identity_status": "VERIFIED_EXACT_SHA",
+  "exact_sha_identity_count": 214,
+  "unmatched_storage_pages": [],
+  "candidate_master_directories": [
+    {
+      "path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور",
+      "exact_sha_matches": 214
+    }
+  ],
+  "preferred_master_directory": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور",
+  "preferred_master_exact_sha_count": 214,
+  "page_exact_sha_matches": [
+    {
+      "page_number": 8,
+      "legacy_page_id": "36ec81ff-1644-41c6-8adc-89d318a0b00a",
+      "sha256": "ed86ed927686ecca9e02e8e89621d09b2c13b9cd9ac351761fc1c10de7b57679",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص008 - الوحدة الأولى - الجهاز العصبي.webp"
+      ]
+    },
+    {
+      "page_number": 9,
+      "legacy_page_id": "1306f186-bad0-42f1-ad6d-6ad8bf0bf2d4",
+      "sha256": "6f4c93493b00c765a2213755df991085b726db00132640d37770b103c91e490f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص009 - الجهاز العصبي في الكائن الحي.webp"
+      ]
+    },
+    {
+      "page_number": 10,
+      "legacy_page_id": "6458e91e-d867-4b7c-9bb1-c9f8ad89a561",
+      "sha256": "9cea61a4e48c74548c7393a1cf3a6f092ef7c2863d750655373ae19a4a62ce5e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص010 - الجهاز العصبي في الكائن الحي.webp"
+      ]
+    },
+    {
+      "page_number": 11,
+      "legacy_page_id": "4f06970e-f513-42bf-9257-6be88b1ee944",
+      "sha256": "2f47bdbd7c50d34638cd9742031690c9b9b1a80c75b6f1d07c9c43332d5870eb",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص011 - الجهاز العصبي في الكائن الحي.webp"
+      ]
+    },
+    {
+      "page_number": 12,
+      "legacy_page_id": "dffcb39a-f412-4ed3-965f-37ad5dc1e005",
+      "sha256": "a1c664a27867d509344c6e8da587f7999fcdbb8e170cb9c59077b763d02d8ab7",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص012 - الجهاز العصبي في الكائن الحي.webp"
+      ]
+    },
+    {
+      "page_number": 13,
+      "legacy_page_id": "1582682e-2afe-4830-97f0-5dbffc241f3a",
+      "sha256": "2cae36b3209579e51f16d6171077b9e0f889e333eb426e76d6d122d6263819c9",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص013 - الجهاز العصبي في الكائن الحي.webp"
+      ]
+    },
+    {
+      "page_number": 14,
+      "legacy_page_id": "cc369d8a-d0d3-4fec-b50e-589e2ebe4297",
+      "sha256": "e9421219cd76b9af7a795587855e16145292a57cfd1cffd185596795b6a74589",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص014 - أنواع الألياف العصبية.webp"
+      ]
+    },
+    {
+      "page_number": 15,
+      "legacy_page_id": "65b20b5f-a112-40ad-b51d-7ecde1cac6ea",
+      "sha256": "c59162a0221929add9a22beb25b0ac68cde0f7502969ca82d492b3cc75339c65",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص015 - أنواع الألياف العصبية.webp"
+      ]
+    },
+    {
+      "page_number": 16,
+      "legacy_page_id": "130eff20-fa7a-4d48-8587-7c2a62fad5f8",
+      "sha256": "0e5dc243981b1c86502a13b877faac72a630c08e8995ae172c2f4bdc2f8eff98",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص016 - أنواع الألياف العصبية.webp"
+      ]
+    },
+    {
+      "page_number": 17,
+      "legacy_page_id": "9776670b-b5d3-4466-98cf-45908f270e2f",
+      "sha256": "b00ece9ba80c1b1a805e6f349c80a76fdaa68ebb47b66a8bc165ab2fc3d5d920",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص017 - أنواع الألياف العصبية.webp"
+      ]
+    },
+    {
+      "page_number": 18,
+      "legacy_page_id": "ca4df7b8-41f6-4f01-a997-5d39d58ad627",
+      "sha256": "af07164b5687aafcc69b64f7d2b9d15d711fcf6ed3c1ae7a4e3ebf6333eb5c53",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص018 - أنواع الألياف العصبية.webp"
+      ]
+    },
+    {
+      "page_number": 19,
+      "legacy_page_id": "aa934766-1cff-4e0e-8121-52b7ee7a6e76",
+      "sha256": "e47903baeeba6a163c073cb14c0735f1de610d4bce32e6159071d19a6f6a6130",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص019 - أنواع الألياف العصبية.webp"
+      ]
+    },
+    {
+      "page_number": 20,
+      "legacy_page_id": "97c4a765-b2c6-4a39-a5b5-51fbf38e1831",
+      "sha256": "a354f15371fd87feee7412b0f0ee155a9471de3da1717496ef2d6da1c842ac8a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص020 - أجزاء الجهاز العصبي في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 21,
+      "legacy_page_id": "e3523ea5-daf9-4de5-8e4c-45fe1efa9dc0",
+      "sha256": "ef32299114a594cff7b9382bda8be5f3f34bf53d88cbee634334ce43ecb12725",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص021 - أجزاء الجهاز العصبي في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 22,
+      "legacy_page_id": "ae30fd9d-a9bf-4b83-a9d5-0c0179097d04",
+      "sha256": "84f28a32398483f4b62388e6ea9c925f91cdb19bd15cef9e8b91e6e09b470b09",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص022 - أجزاء الجهاز العصبي في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 23,
+      "legacy_page_id": "fdabb133-82ed-4394-b91d-8c75c4915965",
+      "sha256": "3f9ed277822e904dc8d6a956efe2d99e055d362a73b4ead6767b206637f4e0f4",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص023 - أجزاء الجهاز العصبي في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 24,
+      "legacy_page_id": "67b42791-89cb-4035-9745-5c4466573e7c",
+      "sha256": "5d113b9500590f0c797a6fa5f3f173c8cab071303a07eccbd61b837c601d182b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص024 - أجزاء الجهاز العصبي في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 25,
+      "legacy_page_id": "be3b5613-56d1-469d-b4b5-9c28525a2ac7",
+      "sha256": "c4968da95f459e45dd0beb6d3d6f2c0e4e3cc2d7c1c6e2aef8e83d6fd9b7630e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص025 - أجزاء الجهاز العصبي في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 26,
+      "legacy_page_id": "00a1ed9b-c6a2-4028-8e73-a59c18c95dba",
+      "sha256": "86f7c9eba6b5cc7a8a46438936783dd52e4a815317b5d61943f37d4e6923319f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص026 - أعضاء الحس والمستقبلات الضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 27,
+      "legacy_page_id": "cd0f9cd7-3050-4762-a1e0-4f78f53f01e6",
+      "sha256": "eaa06fd2d8b39ebba90d9ea718abed82e5d4d6bfa899a7b25f755b514aa5bf12",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص027 - أعضاء الحس والمستقبلات الضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 28,
+      "legacy_page_id": "97262b97-7efb-4ada-bacd-92546d1c40c8",
+      "sha256": "8514849863d4938b56cf3e7e02e6e7896aabf6813dad1c674018a3cf23be78ac",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص028 - أعضاء الحس والمستقبلات الضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 29,
+      "legacy_page_id": "d830311e-f3af-4d5f-859f-e6ae979dc876",
+      "sha256": "f0c28f8d0dd1b87f8b2de7a029cb7cb8d6accc6ca72965c00eb65c1af5aa4c5f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص029 - أعضاء الحس والمستقبلات الضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 30,
+      "legacy_page_id": "96bcea32-843a-4002-b27c-7f2d0e54e798",
+      "sha256": "26d3a6fa401ae05782b24512f0b38d7c2f9673d9c8b63a297a8b998f7d9be4f8",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص030 - المستقبلات الكيميائية.webp"
+      ]
+    },
+    {
+      "page_number": 31,
+      "legacy_page_id": "4c42e807-861d-4384-93aa-33d66f5f1ead",
+      "sha256": "c0386d4f470ba3d1bf07bc9c2d679542a3cf7713b6874f83891490f2fb84df1f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص031 - المستقبلات الكيميائية.webp"
+      ]
+    },
+    {
+      "page_number": 32,
+      "legacy_page_id": "f33ea041-f68d-42f7-9ef5-62f46c08bbfc",
+      "sha256": "53f1f410c8e86da390cb11372801554c9a3f8e40f8437fe1ac120771518426d2",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص032 - المستقبلات الآلية.webp"
+      ]
+    },
+    {
+      "page_number": 33,
+      "legacy_page_id": "8a648e4d-2c5d-43c2-b6c1-7db2829ae2ba",
+      "sha256": "6c06499b974f669437ff961bcc823ba4aa34e20008d3dcbfe37b1a64ed76dd20",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص033 - المستقبلات الآلية.webp"
+      ]
+    },
+    {
+      "page_number": 34,
+      "legacy_page_id": "6e7f8567-5323-45be-a32e-61fdfb8339ea",
+      "sha256": "f02fb57c8483b7d25740bec557a24619164c2d9c591c63b0c364da3c5569d89b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص034 - المستقبلات الآلية.webp"
+      ]
+    },
+    {
+      "page_number": 35,
+      "legacy_page_id": "d86971ce-87c4-42a1-8408-a8ea0ea4e5c4",
+      "sha256": "93c54f55d8ac97ffb94c59e4cedf0bf1ce0947507356f96075848eac9b68cee1",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص035 - المستقبلات الآلية.webp"
+      ]
+    },
+    {
+      "page_number": 36,
+      "legacy_page_id": "2abc8765-edbe-4098-9ace-cc690fd2fa11",
+      "sha256": "5da2d3652d0d6896574411323a4db5c46742b3cec7b855459f5eb6bd84b28c83",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص036 - المستقبلات الآلية.webp"
+      ]
+    },
+    {
+      "page_number": 37,
+      "legacy_page_id": "866c9fea-59ed-409e-9727-0ce3c1ea442d",
+      "sha256": "afdf2c816955b74f9c0993e74960511ade5070356d52e1e5e15f996fd26e33cf",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص037 - المستقبلات الآلية.webp"
+      ]
+    },
+    {
+      "page_number": 38,
+      "legacy_page_id": "83cf1a1f-68cd-425e-adbc-b2d81595a308",
+      "sha256": "588e115595461dac993a66f155e0da25c106d63eba465caaa80497d4f331d6d3",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص038 - تقويم الوحدة الأولى.webp"
+      ]
+    },
+    {
+      "page_number": 39,
+      "legacy_page_id": "bb255c52-cd2d-4109-ae92-d446109c9f9f",
+      "sha256": "695f1a67da27bc10848c2760eb3ac8ac861a3ae386939994eca521101b5ba976",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص039 - تقويم الوحدة الأولى.webp"
+      ]
+    },
+    {
+      "page_number": 40,
+      "legacy_page_id": "43712814-3f21-47b9-88f2-bdbe107cc21b",
+      "sha256": "306a089d95d1c31a0a333df3493c6a3d6e43af841534bcb411d645482a764a35",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص040 - الوحدة الثانية - التنظيم الهرموني.webp"
+      ]
+    },
+    {
+      "page_number": 41,
+      "legacy_page_id": "7d0e2052-b14c-43a5-8872-0f2888e6a767",
+      "sha256": "ddb0257ed8eaa048bc33ef81011fafa06a3d0727943e4f35dec3f06c8a732a97",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص041 - التنظيم الهرموني في النبات.webp"
+      ]
+    },
+    {
+      "page_number": 42,
+      "legacy_page_id": "6ca805a7-0c81-41c0-aaa8-445011c1e37e",
+      "sha256": "98cded5d44713e652a700f79531da7476385de08bd55ef697e812ed39f267d0e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص042 - التنظيم الهرموني في النبات.webp"
+      ]
+    },
+    {
+      "page_number": 43,
+      "legacy_page_id": "4c691850-ca57-4948-9659-415c0d0d0d5d",
+      "sha256": "a0aaee4d96bdefb08a1608c57011dd14b8d1b435136669cc204301b61152d086",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص043 - التنظيم الهرموني في النبات.webp"
+      ]
+    },
+    {
+      "page_number": 44,
+      "legacy_page_id": "1ee18ec3-87bb-4174-9840-46642e7cb31f",
+      "sha256": "c60eee46d1352f2d22c1aa397233ecd325751cae4fb9555973c92d006cd95a48",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص044 - التنظيم الهرموني في النبات.webp"
+      ]
+    },
+    {
+      "page_number": 45,
+      "legacy_page_id": "37347d97-e378-4f98-8220-88f17e283a10",
+      "sha256": "499938a3507853f252835501c9b0dfaf8120e46455947e37b9eef0d28b82ad5c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص045 - التنظيم الهرموني في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 46,
+      "legacy_page_id": "02135460-828c-4b72-856b-3a1bc1976d0b",
+      "sha256": "f739c0c0c1ecf001a49afb3af6dd81020fb09d40394eb340bcfcc8b0a860c41c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص046 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 47,
+      "legacy_page_id": "c0620b48-0d26-4ee2-94d8-0f740a72ec5f",
+      "sha256": "74ccd521294da459d1bfe473584da4d14da6c4b6a602e1618e7431aa330f6cdd",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص047 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 48,
+      "legacy_page_id": "4eb62bcb-93cd-41c2-af2e-dfc16ec2132a",
+      "sha256": "109ee55bf3958cd410ce440561e9c8c32839e7e28775653f4f0fc05a3857813a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص048 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 49,
+      "legacy_page_id": "8dffaa32-d719-4e88-8084-e2ca4095c2f0",
+      "sha256": "4778cacc9ad6fab499260a28f8df227f8ea3c0f48a50259f60fbbb265312a5d5",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص049 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 50,
+      "legacy_page_id": "9ca0e332-6029-43e9-bd58-8c2cdfaf6fe5",
+      "sha256": "4cd44a6a96ff3fa0d7fcd066e7d7e75963502c7568ccfaba6237514f3792b2ce",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص050 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 51,
+      "legacy_page_id": "304fd0db-98b4-49bf-be1f-bf8957b08079",
+      "sha256": "120dd7ca05cb378c3365f1c9896fbb9c5caecf109469ffca072b3a6ea468b3b1",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص051 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 52,
+      "legacy_page_id": "36092ead-fb37-4a46-87b0-fef0867fca2b",
+      "sha256": "d3159e20d9a7609714a8af2203453de2c26e8c299aac2e24f647ee8bd4520f38",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص052 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 53,
+      "legacy_page_id": "ddc8a820-71ee-4116-ba88-4bb97b2f3ffa",
+      "sha256": "9dace7e3328fa21a40c57d297009d69f0a112dea5cc4436bb929380d8b789f2d",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص053 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 54,
+      "legacy_page_id": "c29db643-a881-4d17-9ef4-3a2bdd8e57df",
+      "sha256": "758a19dd2c347c8a47cc3165f81020922645da8998c5029ac8e056b42bfbaa1e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص054 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 55,
+      "legacy_page_id": "3548c8e2-f65a-4d99-abe2-4b21204f1c87",
+      "sha256": "622d27e2dfbf51f34288b254bd7e4f54882a70fe231e6290099513ee411af3ec",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص055 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 56,
+      "legacy_page_id": "53a279d9-91e7-4578-92c7-75a18233b132",
+      "sha256": "fa9782ff0c009db015cd4212f36bb4fa6fead1a696f105c3c55d44fce0161b77",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص056 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 57,
+      "legacy_page_id": "5473636b-12e1-4b5e-8e2c-1a840c207421",
+      "sha256": "039796bfee138564d8e8aa6779ca5adcdb00b5f9225a21ea81539e53dfdd4344",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص057 - التنظيم الهرموني في الإنسان.webp"
+      ]
+    },
+    {
+      "page_number": 58,
+      "legacy_page_id": "1343a650-d2c4-4a4a-a398-ef5fd8056385",
+      "sha256": "dc7d6e32a198e4656758d71c1f4c59dc5efdc4993e56e29925e6561138db5507",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص058 - أمراض الجهاز الهرموني وصحته.webp"
+      ]
+    },
+    {
+      "page_number": 59,
+      "legacy_page_id": "d2dfb3ef-3388-48fb-a7a5-98ee65130d58",
+      "sha256": "69d4daac1c47dce50487b0c867bd06ecf5aa635eee255313901a73f58ec0f443",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص059 - أمراض الجهاز الهرموني وصحته.webp"
+      ]
+    },
+    {
+      "page_number": 60,
+      "legacy_page_id": "aa882892-c4b6-4149-ab88-3b15d47e6985",
+      "sha256": "6633bdc1aa4be0c99dc74b803e252e9d5d30c8a693d4c9ec137a8107e81403c5",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص060 - تقويم الوحدة الثانية.webp"
+      ]
+    },
+    {
+      "page_number": 61,
+      "legacy_page_id": "0dac9bb0-0b01-491d-b1ea-6fad4d396876",
+      "sha256": "675e7f2d2600fa40bc6265c27c4b5dbfbdc284b5333c8b28909a9b8654a9d56a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص061 - الوحدة الثالثة - التكاثر في الكائنات الحية.webp"
+      ]
+    },
+    {
+      "page_number": 62,
+      "legacy_page_id": "69991d0a-9b65-4938-82fa-26a800f434f1",
+      "sha256": "5109223c4dc3ab06105e84eac1e31bbd25d0cf0feb65ea2104f74f437762663b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص062 - التكاثر والتكاثر اللاجنسي.webp"
+      ]
+    },
+    {
+      "page_number": 63,
+      "legacy_page_id": "03de3090-9c16-40e9-9929-47e61417a1e0",
+      "sha256": "be6ea669913fdb7fb7b87ef99220109bb9df4d4119ea03b8ce625d4d46d60ea1",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص063 - التكاثر والتكاثر اللاجنسي.webp"
+      ]
+    },
+    {
+      "page_number": 64,
+      "legacy_page_id": "c65932c7-835d-460e-82d2-0f555a241ada",
+      "sha256": "9c78c2714f27bbe8dfbca71ecbebf4edd9098eb1333416dadfc53eb9b6fd585b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص064 - التكاثر والتكاثر اللاجنسي.webp"
+      ]
+    },
+    {
+      "page_number": 65,
+      "legacy_page_id": "f3b0135b-b540-422e-990d-9b9ed98148ce",
+      "sha256": "a457a489f34946282e5e7906ef3f3a55eb65ecc86c4b8d9151552a1493e67e5b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص065 - التكاثر والتكاثر اللاجنسي.webp"
+      ]
+    },
+    {
+      "page_number": 66,
+      "legacy_page_id": "255a0808-b9a2-4eec-be10-adf29a032401",
+      "sha256": "91b0cd733ffb06630108c97a91a66d809cd5ad2968dbe1dec7d66ad3e1d4664b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص066 - التكاثر والتكاثر اللاجنسي.webp"
+      ]
+    },
+    {
+      "page_number": 67,
+      "legacy_page_id": "52c09761-e0fc-4d79-92fc-32fa095be3b5",
+      "sha256": "e672ee81fc8229464e6104ca08ba117d4881bd30f486d672a5ffb62fbd72484e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص067 - التكاثر والتكاثر اللاجنسي.webp"
+      ]
+    },
+    {
+      "page_number": 68,
+      "legacy_page_id": "a8c7988e-ee92-40e3-ba2a-8481bd3dff14",
+      "sha256": "2edb9470a9ddd20abeeb7475fe8f687cb614c43dde529d1a94b7315a8316c7a6",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص068 - التكاثر والتكاثر اللاجنسي.webp"
+      ]
+    },
+    {
+      "page_number": 69,
+      "legacy_page_id": "73689c88-115f-4e4f-bb84-ea2b98c71666",
+      "sha256": "2cf9aba311a4f75165d8a8734ab2665ca47aa12a3d6498737cd814cf88af895a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص069 - التكاثر الجنسي.webp"
+      ]
+    },
+    {
+      "page_number": 70,
+      "legacy_page_id": "df3fa0a6-d2e0-4e8a-8d2f-d7413b233ffa",
+      "sha256": "f8b75c0dbfe1cb9ee865138069921f52c6481121caf627bee6be1e887f262cb7",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص070 - التكاثر الجنسي في الطلائعيات.webp"
+      ]
+    },
+    {
+      "page_number": 71,
+      "legacy_page_id": "ee485a2c-11f6-413d-9095-351ae02636af",
+      "sha256": "f8d58b377540a9e2d4769e8f4f1061cff03f0552574b2444523ae4c37fe3488a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص071 - التكاثر الجنسي في الطلائعيات.webp"
+      ]
+    },
+    {
+      "page_number": 72,
+      "legacy_page_id": "c7bf9cd9-c1b2-4c19-ae6d-906e613fd975",
+      "sha256": "cccd77d7fb60278924bf00b97b9a3949847e6a91d70dcc9614588a54a7788c8c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص072 - التكاثر الجنسي في النباتات.webp"
+      ]
+    },
+    {
+      "page_number": 73,
+      "legacy_page_id": "e3ab550d-0d1f-49aa-9db5-7c9db58afd37",
+      "sha256": "d11bf5105b240564be56e50f9e1bbbccfe9dfdc5b063ba37efa87e1c78b2f1f2",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص073 - التكاثر الجنسي في النباتات.webp"
+      ]
+    },
+    {
+      "page_number": 74,
+      "legacy_page_id": "1308148e-a4ce-488e-8261-17bffb15ffe6",
+      "sha256": "325b30aa4f26e1d4c79901303761fe0fb3e688485489c85aaab9caef8d48f7f7",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص074 - التكاثر الجنسي في النباتات.webp"
+      ]
+    },
+    {
+      "page_number": 75,
+      "legacy_page_id": "6b7cdd75-20e6-445b-bc66-a771793e8b0a",
+      "sha256": "a319b7547f6e52f32ad472aeb09e95b43bde4cd90ed2c4d592881b9746592aae",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص075 - التكاثر الجنسي في النباتات.webp"
+      ]
+    },
+    {
+      "page_number": 76,
+      "legacy_page_id": "ed043afc-864c-4910-9169-3c37f2882cb6",
+      "sha256": "201ef4e28d034000862ddc6c75302269a94c8969315225064f189499a4bb933f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص076 - التكاثر الجنسي في النباتات.webp"
+      ]
+    },
+    {
+      "page_number": 77,
+      "legacy_page_id": "8df70914-9d50-4861-8487-8e4c0a8f8daf",
+      "sha256": "dfb576b9c3779054c29cdd1bb9b65a9f9063cfc5a7d04defe6165d53c7dd5b89",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص077 - التكاثر الجنسي في النباتات.webp"
+      ]
+    },
+    {
+      "page_number": 78,
+      "legacy_page_id": "89635b6f-4b41-45e8-a555-ea143a8cbf92",
+      "sha256": "972b202f8a0728daaa8e90d080f31bdc27324434f778abc82b404bf6c2e6dae5",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص078 - التكاثر الجنسي في النباتات.webp"
+      ]
+    },
+    {
+      "page_number": 79,
+      "legacy_page_id": "1ff4c255-e3f3-4ac6-8338-12d78d6b9c02",
+      "sha256": "0904fe71ef1e7d572042d95450358abde5a3c990a23d7e6c653a29def844691a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص079 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 80,
+      "legacy_page_id": "910ba813-13e2-44eb-86a7-9ef68a580f99",
+      "sha256": "c76c2afd7da2bb330f1f4047dc0c1df8cc52ce4e616a8ec2a61938247808eb43",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص080 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 81,
+      "legacy_page_id": "84d80b46-006a-4ef6-9f70-e530d0ba589d",
+      "sha256": "1e628498027f4254ac4abe2c1f03e98bb5bfedfad9559af9ed9ab812fdda093e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص081 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 82,
+      "legacy_page_id": "51913b63-3a25-4f14-ab96-3299451ed834",
+      "sha256": "9a0a6788e1a442d7ad936fdc2510ef465828cb7c9ed969be4bef5e2f95b20d8c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص082 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 83,
+      "legacy_page_id": "f34fdba2-9e57-4b9c-bd46-a3651dd30903",
+      "sha256": "6362b9341eedd17cf63840d844ce2dc0284e8183388aeca6d03f723ab2c5617e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص083 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 84,
+      "legacy_page_id": "76ba634d-fad6-4c2f-a6fb-54f481593b72",
+      "sha256": "c705f31ec5ac9a2deef8ea83ec0b453670acb75263c71673202913a4da4e110f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص084 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 85,
+      "legacy_page_id": "f1d1ee4e-0e4d-4e8a-b77e-7e4ec73907e1",
+      "sha256": "73d9936b7f5895007c68d77a25fbf7818cf14373f1ae1bb9b776d0e4c49b507f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص085 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 86,
+      "legacy_page_id": "f3e4d746-3f2d-4dc1-a142-52cfee32e21c",
+      "sha256": "386dfe27ba3978a51af19af25381584242d5e0d75e43022b3e6eacf8ec7f7aea",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص086 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 87,
+      "legacy_page_id": "6e1e2bc7-c5cc-4b7f-a46f-d5a6f758c353",
+      "sha256": "5eefe71757ce8a694aa845624e4751d5cd04ef5c4d040248448c3b996561991a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص087 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 88,
+      "legacy_page_id": "6a6209ae-36c8-4bdf-ba7d-b8d3138eca94",
+      "sha256": "6d6f7fef29680304fb177852b01585ca6661abf88f6b6c12d8ee171bfd45ac65",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص088 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 89,
+      "legacy_page_id": "e23c6947-e170-4959-bf17-3b13168306a7",
+      "sha256": "896bc7ae43648ab1d5fc5f5aa88f93ac16d020832bb0dd49c88e953ee56486e5",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص089 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 90,
+      "legacy_page_id": "599930fc-662b-47ea-9d56-bcfb89f4e11a",
+      "sha256": "11f8f2bce8c363121d9750743575c0859dd73be02afa6d1b3e380dc352b59bbe",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص090 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 91,
+      "legacy_page_id": "e2e6a351-6b2e-490b-aba4-2724eaa070c1",
+      "sha256": "2fc4a9e8652a734b423c522706b8a78693098cf25d96e056bd8f48d0d6ec148b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص091 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 92,
+      "legacy_page_id": "a54c0d5b-bb6b-466e-8a1f-dbeb7f4f2446",
+      "sha256": "8aafd48a275ba19b4b37a49a77de5b06db17cf75ed3882d5d85bff7f0f92752b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص092 - التكاثر الجنسي في الحيوان.webp"
+      ]
+    },
+    {
+      "page_number": 93,
+      "legacy_page_id": "92dfc8c0-4184-431b-8113-1b13491afe97",
+      "sha256": "6b55915003964e2830e6f1f5414f6af1a3617814ffc3af433eab318be6d45112",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص093 - تقويم الوحدة الثالثة.webp"
+      ]
+    },
+    {
+      "page_number": 94,
+      "legacy_page_id": "498fb84d-460a-41d5-8392-848420ca32ce",
+      "sha256": "cf0b5237adeda51cfca66d6771dab3ca3e95719621917db34ec5b9b09a7a2e93",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص094 - تقويم الوحدة الثالثة.webp"
+      ]
+    },
+    {
+      "page_number": 95,
+      "legacy_page_id": "01387f11-6970-43ee-8ae7-93924dbb161c",
+      "sha256": "ef99ad1fa38a0cc11d180975245478249cd859dc7404b3aeb291146b00890da3",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص095 - تقويم الوحدة الثالثة.webp"
+      ]
+    },
+    {
+      "page_number": 96,
+      "legacy_page_id": "40263950-cf29-4c75-89f7-506ba0770333",
+      "sha256": "f1baae7d6e7d460dcd8168fc6769efed117c4326ef02fd268edd4e0252aab321",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص096 - الوحدة الرابعة - أساسيات علم الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 97,
+      "legacy_page_id": "2cf7f75c-9af3-4731-9aec-7a51d71a5606",
+      "sha256": "55e7500f8b6d4442c7c8f84e11ac7a8a5973e36cc7032aa9c7f2697a22ea6443",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص097 - أساسيات علم الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 98,
+      "legacy_page_id": "3eda2cb6-67a5-4842-b99a-b604737f98e3",
+      "sha256": "cca7d77dc2e11922ce95b289d542b391e13ae32ce4876eadc079f6b313b26271",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص098 - تطور علم الوراثة الحديث.webp"
+      ]
+    },
+    {
+      "page_number": 99,
+      "legacy_page_id": "ee36a1d7-17d2-4489-8b87-289e6e4dcf2d",
+      "sha256": "3f54e6bbbb662d18010c4b2b6a56ee957ceee0ef47497bf18dcf549008bf1f72",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص099 - تطور علم الوراثة الحديث.webp"
+      ]
+    },
+    {
+      "page_number": 100,
+      "legacy_page_id": "82b475e7-2b13-4142-827c-3bc2bf3ae0a1",
+      "sha256": "1d07626333f56785c8fb1a1c7260d8c6f4537904c1a13041e55ead568ad5b4fe",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص100 - تطور علم الوراثة الحديث.webp"
+      ]
+    },
+    {
+      "page_number": 101,
+      "legacy_page_id": "ad61e1fc-3c99-4ff5-9aea-fd1a6e4e860e",
+      "sha256": "9964f89726a3667575f661d756f59e169ed54770c18bc0bc63953f0fb2ce20aa",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص101 - تطور علم الوراثة الحديث.webp"
+      ]
+    },
+    {
+      "page_number": 102,
+      "legacy_page_id": "78a843e9-b924-4792-96e5-b1100af8e770",
+      "sha256": "ea8ae716524c01881e815a61b43a6cfb89465d06e7def51e16479055bec84cd3",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص102 - تطور علم الوراثة الحديث.webp"
+      ]
+    },
+    {
+      "page_number": 103,
+      "legacy_page_id": "59cca3b6-536d-48f0-b5e9-025ace8912f6",
+      "sha256": "4c72ca1e94455344976a26744cff37bb371bbf6d2503b2c5e30cfee964009b47",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص103 - تطور علم الوراثة الحديث.webp"
+      ]
+    },
+    {
+      "page_number": 104,
+      "legacy_page_id": "9a616764-8391-4a31-97db-d75dee6f1207",
+      "sha256": "544a484de43e5d1ac2a51a6fd50e3496e6cc715ae67eac27aed4548ca4f38f07",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص104 - الشكل الجيني والشكل الظاهري.webp"
+      ]
+    },
+    {
+      "page_number": 105,
+      "legacy_page_id": "03edf2c8-e4da-4287-95d4-22be2c47d61a",
+      "sha256": "e4c3419100264fc2f8d4d04cbe4bc54522fa69bbbb884e1ba1dfd806b502db0b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص105 - الشكل الجيني والشكل الظاهري.webp"
+      ]
+    },
+    {
+      "page_number": 106,
+      "legacy_page_id": "6c944ac8-1ab5-4e34-8b9f-0e470f8c55cc",
+      "sha256": "37239cf867c7ac53def27d65de36968cfb6acb229bf8c4232cfc9af06434c409",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص106 - الشكل الجيني والشكل الظاهري.webp"
+      ]
+    },
+    {
+      "page_number": 107,
+      "legacy_page_id": "f5e753bc-e8ca-49bb-8b8d-d3c6077ebbd0",
+      "sha256": "f0de99c3587dbd84d89a5a186c70dbaeb1c99c3b63fe084b0c9f124264e8a763",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص107 - الشكل الجيني والشكل الظاهري.webp"
+      ]
+    },
+    {
+      "page_number": 108,
+      "legacy_page_id": "aec94226-2890-433f-8ef6-26efd3d2d90b",
+      "sha256": "1e5596fe448d50dde8832e004585905745b37d681d0003c9909c0a0003b527a1",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص108 - الشكل الجيني والشكل الظاهري.webp"
+      ]
+    },
+    {
+      "page_number": 109,
+      "legacy_page_id": "588499b6-913b-4400-bb7a-369672a9a795",
+      "sha256": "44b0ab0e07e346784a9274666e787a87985bd2b2f97f42a891ef242bb7f5d980",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص109 - الشكل الجيني والشكل الظاهري.webp"
+      ]
+    },
+    {
+      "page_number": 110,
+      "legacy_page_id": "f1962c96-57ba-4d27-ad6d-51f14dc9fa2e",
+      "sha256": "5eaad108f195a22a8f2f23bd0b5b12e917a05d5e6f47b04e5cc631d08012680c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص110 - الشكل الجيني والشكل الظاهري.webp"
+      ]
+    },
+    {
+      "page_number": 111,
+      "legacy_page_id": "09d6b652-40b0-4b60-a353-82420b6366d0",
+      "sha256": "0865d2cfa2fb2da3f87a3887745d2e6372d652b3403f5bdc5ebfba8f0c956f4f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص111 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 112,
+      "legacy_page_id": "ecf407a1-6518-42be-b2f1-314d5e1b0c37",
+      "sha256": "4430b9f62c0e583bf850c73b323b8d93ddd286e79150ac4663809ca45fd3b2e1",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص112 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 113,
+      "legacy_page_id": "b6b91d62-d875-42ea-8617-b75f5dae5a0f",
+      "sha256": "b8f6d3d61987e8bbdceefed5d2922f2cdcb01692efac54803d2bf66d6d2cc502",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص113 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 114,
+      "legacy_page_id": "9129f22e-0831-4e3e-a857-73fe6b8058d0",
+      "sha256": "8eb8b81ffbc5c8d8357644a93733df33b9bc765ee420bd281d3ade2fd0c32eb3",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص114 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 115,
+      "legacy_page_id": "c651ecae-68d1-44e9-a3fa-e2e59e76156a",
+      "sha256": "ffda6b7a1dee49def6a5d83e0834f023ced108c783f074b460b7d06ccec7ccbf",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص115 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 116,
+      "legacy_page_id": "04b47d43-5a68-4720-a4b8-17f8d4abb888",
+      "sha256": "0ff083b36605931f05bb944b98718cae1b0762601686b0e6a587aa3d303fdfc5",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص116 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 117,
+      "legacy_page_id": "fa15c811-5b2c-46da-8a40-a5f9639270f0",
+      "sha256": "fb50d9bb454c73172905b10968639e021e53e4bff9aa0fb9904e3b0deb06b84c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص117 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 118,
+      "legacy_page_id": "ae9938bd-5c29-40e4-bd27-2369ba4a1194",
+      "sha256": "0ad55b887284cb2bb62980416441c619984f6ea9955eb99199f02e9e28433780",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص118 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 119,
+      "legacy_page_id": "718a6bef-af93-40e9-ac55-198684b3fb84",
+      "sha256": "599d206d2063897275bc904487a1693145e72024fe7e8617a7c0385af200e992",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص119 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 120,
+      "legacy_page_id": "8ab9e754-9695-42f0-b8c3-3f01634550a6",
+      "sha256": "d233bbf113dde0eadfa63f3bf1012acddff3ba7ea85f69b9e8ae0811f963c65f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص120 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 121,
+      "legacy_page_id": "4d02e53d-ed39-4941-9f57-ec43de667cd6",
+      "sha256": "aaf25a922a3e1677477fa90afb449a2215a2091cf68af7228605b881a53881d3",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص121 - دور الكروموسومات في الوراثة.webp"
+      ]
+    },
+    {
+      "page_number": 122,
+      "legacy_page_id": "508e7d19-2b55-41b2-81b1-08d476dd6d78",
+      "sha256": "db21d3040eb02be3240edd71d9585fe522e0f65d786d84c6cdd4fc9c893f71c9",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص122 - الوراثة والجنس.webp"
+      ]
+    },
+    {
+      "page_number": 123,
+      "legacy_page_id": "167edf7d-ff11-4fb6-a6cf-e8c1530c1e68",
+      "sha256": "858e4aae4fca6bd97c293a83294e9e1dfb992ca4aa85006b59795905ac596501",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص123 - الوراثة والجنس.webp"
+      ]
+    },
+    {
+      "page_number": 124,
+      "legacy_page_id": "a0a8a2e7-2ee8-4c52-914a-9d2349656c9b",
+      "sha256": "67d1cfa4d80ac186ed8079b766d9d583386d8b23e9cb777a2ad3c724f64f20c2",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص124 - الوراثة والجنس.webp"
+      ]
+    },
+    {
+      "page_number": 125,
+      "legacy_page_id": "d5ae9324-e2a7-47d0-bc10-25f2ad47d136",
+      "sha256": "5237c43fdc9fb2d3f510088dd4fd8d3a788a92cb2a9c31e60b12e7abbf2ed37b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص125 - الوراثة والجنس.webp"
+      ]
+    },
+    {
+      "page_number": 126,
+      "legacy_page_id": "dd242fd0-0166-491c-9f58-08833f290be9",
+      "sha256": "6efa281299ef5840474c4de2e259f864724f27683b3656dd6fa2c14547a7e826",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص126 - الوراثة والجنس.webp"
+      ]
+    },
+    {
+      "page_number": 127,
+      "legacy_page_id": "2de4427b-b8cc-428b-bdbb-0930072520f6",
+      "sha256": "177c9ab31a40ad6a91f48d57ad8055a1c317a7bb7095046134cd70f3e0f88aee",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص127 - الوراثة والجنس.webp"
+      ]
+    },
+    {
+      "page_number": 128,
+      "legacy_page_id": "e1b9f13b-6acb-460f-a9ac-1be2d9e3f186",
+      "sha256": "b454822aba71a7161013bc81700d607c4006a4f9b895173b1272df03489b9631",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص128 - الوراثة والجنس.webp"
+      ]
+    },
+    {
+      "page_number": 129,
+      "legacy_page_id": "4eb48aa3-354e-455f-9b0a-a693a2a52c64",
+      "sha256": "198d6d205bbcd6e07bc74e99373b6cb11a7f382fa08388c229f160b27979b2d3",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص129 - تقويم الوحدة الرابعة.webp"
+      ]
+    },
+    {
+      "page_number": 130,
+      "legacy_page_id": "e10d2445-89b7-405d-9008-4c857806e7c4",
+      "sha256": "4e45af8cc7755c70a04f07433b339c2385cd424ee16bda960b74825ab682d316",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص130 - تقويم الوحدة الرابعة.webp"
+      ]
+    },
+    {
+      "page_number": 131,
+      "legacy_page_id": "25d5ba96-f477-4cc2-90fd-253bb459d442",
+      "sha256": "44ad27913c7211c20586b1c937324320ddd9290002a9a2e94f07c7c8b334df4d",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص131 - الوحدة الخامسة - الوراثة الجزيئية.webp"
+      ]
+    },
+    {
+      "page_number": 132,
+      "legacy_page_id": "c4eef0e6-5e34-4a8e-9636-8e207bf05d1a",
+      "sha256": "5f085aa44e519d337d6fd9d8d5f3c9e2cac0a3677c94912c508df72dd9efe922",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص132 - الكروموسومات والجينات.webp"
+      ]
+    },
+    {
+      "page_number": 133,
+      "legacy_page_id": "d6f0f30c-29ed-4a1e-8cd9-4056dcd45864",
+      "sha256": "abf8116ff1e830b3c3f73dc5268bd872aa34c1cc4147a7876ddf5c717860d315",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص133 - دور حمض DNA في نقل الصفات الوراثية.webp"
+      ]
+    },
+    {
+      "page_number": 134,
+      "legacy_page_id": "b636b31d-180a-49b1-96f3-139e09133a04",
+      "sha256": "af46a95918f2c330b6747f3a8cc12b41f6a9f33e049031582bd3ede9edbb3f90",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص134 - دور حمض DNA في نقل الصفات الوراثية.webp"
+      ]
+    },
+    {
+      "page_number": 135,
+      "legacy_page_id": "1110e0ba-86a5-4084-9ccb-5fd49d3b7ed7",
+      "sha256": "35e131f185714ed79fa8a60c0ed577784967121b705a7891d4333ef6102e467f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص135 - دور حمض DNA في نقل الصفات الوراثية.webp"
+      ]
+    },
+    {
+      "page_number": 136,
+      "legacy_page_id": "9f96ab02-821a-452a-bd72-2aee0d2167b6",
+      "sha256": "8a33fcb19e1a19405c4c8d4d1b20a10abb573e6399b3fe91c397539ecc5177c1",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص136 - الحمض النووي الرايبوزي.webp"
+      ]
+    },
+    {
+      "page_number": 137,
+      "legacy_page_id": "922fb735-21a4-488c-8d75-c43e65c88b41",
+      "sha256": "a252893aa34f61450643f0e9d98ac5b438d51802c02f2e6cc10a7dc05fb3a896",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص137 - الحمض النووي الرايبوزي.webp"
+      ]
+    },
+    {
+      "page_number": 138,
+      "legacy_page_id": "c818cff1-8ec5-4a3d-a7f4-bdaa0e0dd1f4",
+      "sha256": "79e0f366522af601d24722a4a0fc16c49c3728e6d234fab9c8663be728b51d85",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص138 - خطوات بناء البروتين.webp"
+      ]
+    },
+    {
+      "page_number": 139,
+      "legacy_page_id": "6feed7d8-d7ad-4543-9735-d203ed78b39f",
+      "sha256": "71f4fe2f78a113b4b8575b7706aecfe734ebe937a6de787941dca7313b747fff",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص139 - خطوات بناء البروتين.webp"
+      ]
+    },
+    {
+      "page_number": 140,
+      "legacy_page_id": "c3d9cb2a-774a-474b-9b23-7127cacfda53",
+      "sha256": "1f6bf625801d98fa76b4488c27f53766276de74f495c680a361f4b3de4e28bdc",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص140 - تطبيقات في الوراثة الجزيئية.webp"
+      ]
+    },
+    {
+      "page_number": 141,
+      "legacy_page_id": "536ed1aa-9b1f-4356-a9cd-adaf991df58f",
+      "sha256": "b5d3d94fe2ade776427de67c9cbc572211529b2d8ed3b07df07528508b9017e6",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص141 - تطبيقات في الوراثة الجزيئية.webp"
+      ]
+    },
+    {
+      "page_number": 142,
+      "legacy_page_id": "d068f297-781f-4bc5-8c0a-95a5eaf4e2f3",
+      "sha256": "79915def229b592d2029e1a1ebec6e037a30f164f99b0ec778edf4b7ac2da710",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص142 - تطبيقات في الوراثة الجزيئية.webp"
+      ]
+    },
+    {
+      "page_number": 143,
+      "legacy_page_id": "7cd06a01-56dd-40d2-a42b-8f2569537dc4",
+      "sha256": "325766aa032e681acfdcd9a772b309ec7247b42dada4cce096204a8e539b74ff",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص143 - تقويم الوحدة الخامسة.webp"
+      ]
+    },
+    {
+      "page_number": 144,
+      "legacy_page_id": "f53b543b-723d-4780-99dd-9d7316a35ca6",
+      "sha256": "166878ed518d2c596a22c6fe814cf53b3870e3d857aa84e117550bdbe530e462",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص144 - الوحدة السادسة - التقانة الحيوية.webp"
+      ]
+    },
+    {
+      "page_number": 145,
+      "legacy_page_id": "99042e21-9460-43c8-b5ee-8d87b650e1f1",
+      "sha256": "799bea041bdf6d79457e05228a5feeeee2baad0633f9dd0de3f3d3bc3385808b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص145 - التقانة الحيوية.webp"
+      ]
+    },
+    {
+      "page_number": 146,
+      "legacy_page_id": "ef11f1e7-1fcd-4be1-9faf-728cad01c184",
+      "sha256": "fb1f3e7cc66a988a84ab71245352dcc2c20ee8c36e2017f307a3b795ed547c86",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص146 - الهندسة الجينية أو الوراثية.webp"
+      ]
+    },
+    {
+      "page_number": 147,
+      "legacy_page_id": "f1c5bab0-e557-4f06-bce7-130703a81238",
+      "sha256": "259bdf32ee4adf05aa622a5707d0eaa90a373046d3c6740bd951275f5345aa1a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص147 - استخدام التقانة الحيوية في إنتاج الغذاء.webp"
+      ]
+    },
+    {
+      "page_number": 148,
+      "legacy_page_id": "c53d81ad-e240-493f-b02c-e6901ffe8ba7",
+      "sha256": "ca4f6c3375dc87fc4059f0db96f500a21e5c54f07a3fac13390ad7a5f934e1ed",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص148 - استخدام التقانة الحيوية في إنتاج الغذاء.webp"
+      ]
+    },
+    {
+      "page_number": 149,
+      "legacy_page_id": "9712fbe3-7b3b-4fe1-b05d-d1b6c71480ca",
+      "sha256": "b73801f5f2ad9ea27140eb1e1110fdd01762eb085c30acec500f324de2681a8d",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص149 - استخدام التقانة الحيوية في إنتاج الغذاء.webp"
+      ]
+    },
+    {
+      "page_number": 150,
+      "legacy_page_id": "fc9359d0-a8d0-482a-963a-d78fc51cadc4",
+      "sha256": "1c86244dd586f750057400c8874946fc23cce6330c4964a77e43424a4eb0a041",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص150 - استخدام التقانة الحيوية في إنتاج الغذاء.webp"
+      ]
+    },
+    {
+      "page_number": 151,
+      "legacy_page_id": "6d652358-cae0-45b3-81b7-f68ab7964393",
+      "sha256": "aefcd4b9638ce852ed39a548d58aa63641565225454d431f6dd9914f73a35527",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص151 - استخدام التقانة الحيوية في إنتاج الغذاء.webp"
+      ]
+    },
+    {
+      "page_number": 152,
+      "legacy_page_id": "67045b2b-b076-4530-a22b-71e9d71b692a",
+      "sha256": "5a7b3e7289579ccd59c0fa1a6e7f64be605a39f7838dad3787af09e730991d9b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص152 - استخدام التقانة الحيوية في إنتاج الدواء.webp"
+      ]
+    },
+    {
+      "page_number": 153,
+      "legacy_page_id": "03661a94-155f-4a69-9a87-3b090b3b9558",
+      "sha256": "aeaf49729f58de7ba3d6ac26d974a5e539d350331c37b69fab523f9e20846346",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص153 - استخدام التقانة الحيوية في إنتاج الدواء.webp"
+      ]
+    },
+    {
+      "page_number": 154,
+      "legacy_page_id": "5007dbf8-e223-44b0-9238-90c86555edd8",
+      "sha256": "4c6c6f099ed35659a19437627783d1cdc370d598a27c076f6d0d30e7bafb20d2",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص154 - استخدام التقانة الحيوية في إنتاج الدواء.webp"
+      ]
+    },
+    {
+      "page_number": 155,
+      "legacy_page_id": "f0e4e016-73e4-441d-b035-e83aa29506aa",
+      "sha256": "3b8711755fa9c95b45c0e06f6dde83c6af2e10156da4273e2e167315909da1c1",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص155 - استخدام التقانة الحيوية في إنتاج الوقود.webp"
+      ]
+    },
+    {
+      "page_number": 156,
+      "legacy_page_id": "e090763b-5cb2-4983-ad47-a0ff5b30baa1",
+      "sha256": "a28158ee884d2c6bb09b1bccc8674acd7bb5d60106f235917f0aaf9b286f56ee",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص156 - استخدام التقانة الحيوية في معالجة المخلفات الملوثة.webp"
+      ]
+    },
+    {
+      "page_number": 157,
+      "legacy_page_id": "77dc0a22-4e6d-43bf-93a3-43d77bc6a0b8",
+      "sha256": "573e7c3d509555f7914fcd14dfa667858befbcdfd208ff5af7ff72fadad31f5c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص157 - استخدام التقانة الحيوية في معالجة المخلفات الملوثة.webp"
+      ]
+    },
+    {
+      "page_number": 158,
+      "legacy_page_id": "15e86bee-1ad9-4e8d-b351-3713867c225c",
+      "sha256": "faae0f74db3b1ab28b4d2a9552ae039ae0895bea91370921e6f64e48acaed6d2",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص158 - استخدام التقانة الحيوية في إنتاج بعض المواد الصناعية والاستنساخ.webp"
+      ]
+    },
+    {
+      "page_number": 159,
+      "legacy_page_id": "024218bc-5ea0-4c6c-a727-74219191bb30",
+      "sha256": "fd206757553cbf56ea79ec27e528dee41139d33542612d983a34dc0ebf6c85f2",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص159 - استخدام التقانة الحيوية في إنتاج بعض المواد الصناعية والاستنساخ.webp"
+      ]
+    },
+    {
+      "page_number": 160,
+      "legacy_page_id": "7b5d185c-1534-48e9-bb50-67803d0179eb",
+      "sha256": "747f915b64db77a3be7d7ccd68e13db1eddbdd6437c4dedcd10a3c155b323fbf",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص160 - استخدام التقانة الحيوية في إنتاج بعض المواد الصناعية والاستنساخ.webp"
+      ]
+    },
+    {
+      "page_number": 161,
+      "legacy_page_id": "4f92c4b0-ac39-4598-9dc4-c0283f405924",
+      "sha256": "377396f917a63a842720f48d693d20c1d119a80e0cd9df1441018a7e128f71b5",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص161 - تقويم الوحدة السادسة.webp"
+      ]
+    },
+    {
+      "page_number": 162,
+      "legacy_page_id": "3705c31b-49ae-4a5a-bb31-a3efc3f62634",
+      "sha256": "0f7adf06b06d6cf44829765c626765b73180e3e0cdacba808fbe903164516242",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص162 - الوحدة السابعة - البيئة ومشكلاتها.webp"
+      ]
+    },
+    {
+      "page_number": 163,
+      "legacy_page_id": "a725eb70-66db-4751-99ca-cdff344da341",
+      "sha256": "fd614e076f375d48cd7ef99059bea35f8cb80088bad6173dee5e670ec854111d",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص163 - المقصود بالبيئة.webp"
+      ]
+    },
+    {
+      "page_number": 164,
+      "legacy_page_id": "bb62cc30-c940-4148-a2d6-6c58007467ea",
+      "sha256": "26e2ca09a3a4e52f893266eef4ef1c921dbd03de53ac5878ac1d730f4a08342c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص164 - مشكلات تلوث مكونات البيئة.webp"
+      ]
+    },
+    {
+      "page_number": 165,
+      "legacy_page_id": "37407c01-a45f-4ba4-bd4c-41284db91a24",
+      "sha256": "9299cc56110b1d99da82713993c693c6181277fc36dbcf2233d0cea28b01fbd2",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص165 - ملوثات الهواء.webp"
+      ]
+    },
+    {
+      "page_number": 166,
+      "legacy_page_id": "f642b780-5bdc-40e0-a5ed-a86477ac2c6d",
+      "sha256": "05e3b81f7b79e7d62bf12c356254933c22eb608e396c4297b3a1727f38516cbb",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص166 - ملوثات الهواء.webp"
+      ]
+    },
+    {
+      "page_number": 167,
+      "legacy_page_id": "7273e07f-e6c7-4c6f-bbcf-02409cf366cc",
+      "sha256": "0b4c2c0d5e0e9ec06e40d8cd959b7afec5ea3d139ac443bedad8662347876f43",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص167 - ملوثات الهواء.webp"
+      ]
+    },
+    {
+      "page_number": 168,
+      "legacy_page_id": "9d94207f-dfdc-4dc1-ba7a-f1e6f63b7ea7",
+      "sha256": "5f28143a05155578ace500098c05bb7c3b23f69f6972b5b15e0dd99b616ad084",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص168 - ملوثات الهواء.webp"
+      ]
+    },
+    {
+      "page_number": 169,
+      "legacy_page_id": "88302064-eeda-4339-9b35-bcd7f04e2c49",
+      "sha256": "67116850871fd622d516d1bff6688669b534db4a6b2b23b8df5d79dcc7a7fb0f",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص169 - ملوثات الهواء.webp"
+      ]
+    },
+    {
+      "page_number": 170,
+      "legacy_page_id": "b00265a8-2e1d-4877-bae4-ec7643438eba",
+      "sha256": "44d50f6f783ea8d6431abadc85c7b25c0c6bf2c0680d141d0cb3f538f2d30244",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص170 - ملوثات الهواء.webp"
+      ]
+    },
+    {
+      "page_number": 171,
+      "legacy_page_id": "f5af2ca7-e0dd-4055-82cf-4c7df0d44cc2",
+      "sha256": "7ee8c105b1fbf89fe9ea7d76d9191a712ac0018d7c891588d40c9a38473e6826",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص171 - تلوث الماء.webp"
+      ]
+    },
+    {
+      "page_number": 172,
+      "legacy_page_id": "1b80f3e0-2e1a-4242-a8c3-c23dccad8d79",
+      "sha256": "4f6bcd096926151b23d21ca10caaa306eca90a0d7464ed605a3ba9d2c456688a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص172 - تلوث الماء.webp"
+      ]
+    },
+    {
+      "page_number": 173,
+      "legacy_page_id": "0f1070f5-0f38-4f47-a6ca-5ca0bb4470a5",
+      "sha256": "a528c3373adab229a0f1c8495d888899b061377aeff7c45d71e51adf83999cdf",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص173 - التلوث الضوضائي.webp"
+      ]
+    },
+    {
+      "page_number": 174,
+      "legacy_page_id": "20829249-2cbe-4ea6-91ca-7b686de46df4",
+      "sha256": "375667348cbaecd9b32e7ac8fc5c344f677c3f2d2dd1fbbd065ff35ac86fa7de",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص174 - التلوث الضوضائي.webp"
+      ]
+    },
+    {
+      "page_number": 175,
+      "legacy_page_id": "11c6608f-2ddc-4e26-8a3f-4c024ddbc90f",
+      "sha256": "cfbd901fbded0c4f68d5a5a9c473ab2341c2a244861d4d7a0b25c2b5f7c1ee44",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص175 - التلوث الضوضائي.webp"
+      ]
+    },
+    {
+      "page_number": 176,
+      "legacy_page_id": "5f512272-daac-472b-b6c4-1e83b065f064",
+      "sha256": "2264e14e87f856cdef0626e28bf9bfab28d72a3e6d6e7b3d43d42a49ccca02c7",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص176 - التلوث الإشعاعي.webp"
+      ]
+    },
+    {
+      "page_number": 177,
+      "legacy_page_id": "3c0eddd5-6aa0-49d8-a4a1-63a4217394e0",
+      "sha256": "48585beca4746a4163c9ca71e0b35ddeb305b33d683fa07f0077f031d1f00c06",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص177 - التلوث الإشعاعي.webp"
+      ]
+    },
+    {
+      "page_number": 178,
+      "legacy_page_id": "8538350b-3388-40e5-b015-3728ade176a2",
+      "sha256": "c295e2274613ba83ccd57fe8dc1afb3ef4807d84261fd782b7d733b4bda8a497",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص178 - ملوثات الغذاء.webp"
+      ]
+    },
+    {
+      "page_number": 179,
+      "legacy_page_id": "8655a299-ff18-474e-a18b-f7cb5cb8d105",
+      "sha256": "4becde0e3ed17a0cabfc7a55b6f17e32ef4bdaa8724a285c8d31d528ec13122e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص179 - ملوثات الغذاء.webp"
+      ]
+    },
+    {
+      "page_number": 180,
+      "legacy_page_id": "18fef003-955b-4b0e-8cbb-2973635e1100",
+      "sha256": "610b39f4af642fd7b9e3c4073065c8f190d3467b55d91dc2c1bd994a25619db2",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص180 - تلوث التربة.webp"
+      ]
+    },
+    {
+      "page_number": 181,
+      "legacy_page_id": "fdfeb429-d6bf-4d5f-8c39-88dc3e325531",
+      "sha256": "cd44d9fa79a7539339eb00c3c31c65493a2b70e46b9a9456d4dfe23468b94ce8",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص181 - مشكلات استنزاف الموارد البيئية.webp"
+      ]
+    },
+    {
+      "page_number": 182,
+      "legacy_page_id": "53a42f2a-4caa-47ae-91e9-acd3db2d7117",
+      "sha256": "75c7010be50f4b96bb5cda1476cc99fb61a5c94f032240c73ea744f53375b90d",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص182 - مشكلات استنزاف الموارد البيئية.webp"
+      ]
+    },
+    {
+      "page_number": 183,
+      "legacy_page_id": "e2b59f72-6619-4812-89b5-f03f6a6f462b",
+      "sha256": "791b3612e1138cae865eeca31ac976d4b6b2890117bc23e4a586dd706978e7eb",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص183 - مشكلات استنزاف الموارد البيئية.webp"
+      ]
+    },
+    {
+      "page_number": 184,
+      "legacy_page_id": "3b9abf60-d5be-4e0e-b695-be7098edaaf8",
+      "sha256": "02e99cbfc335a064110f95653aeb8a794111c73715353275bd30f465d842c484",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص184 - مشكلات استنزاف الموارد البيئية.webp"
+      ]
+    },
+    {
+      "page_number": 185,
+      "legacy_page_id": "480b8d31-12f9-4018-af64-ebc6763e3d04",
+      "sha256": "327523e00522ca152fc5ac7272b7b1f4bd41f3e3e7100b1d8dadd2e6b6b2a1f4",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص185 - مشكلات استنزاف الموارد البيئية.webp"
+      ]
+    },
+    {
+      "page_number": 186,
+      "legacy_page_id": "df8a925a-d8ec-486e-a250-551878e53f64",
+      "sha256": "d6d71a4089f932c11e5808be9a3457721bfa5bff0b53719b47b022632e16a145",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص186 - تقويم الوحدة السابعة.webp"
+      ]
+    },
+    {
+      "page_number": 187,
+      "legacy_page_id": "cd0975b8-141b-49c6-a953-8b5608ff083b",
+      "sha256": "c3e7bdb3f0508d5f0d3fae780b2e4ef8557361b2d3096048b2891b4c882d4722",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص187 - الوحدة الثامنة - تاريخ الأرض.webp"
+      ]
+    },
+    {
+      "page_number": 188,
+      "legacy_page_id": "444722c5-8352-40a9-a695-7adb395d6164",
+      "sha256": "83f11dddaa80dfa2cbb5fadd948227ca442e93558a5e1b7706ea9afd4facf72a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص188 - العصور الرسوبية.webp"
+      ]
+    },
+    {
+      "page_number": 189,
+      "legacy_page_id": "e8ee6478-7500-478b-902c-ec04110ef506",
+      "sha256": "b657f62029f1d277745bd715deed6cace5e60c6cd2cd401bae67177637d91469",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص189 - العصور الرسوبية.webp"
+      ]
+    },
+    {
+      "page_number": 190,
+      "legacy_page_id": "f3cb4bf5-5aea-4177-8649-30df5f666e3d",
+      "sha256": "9232bdb901bfd0e76faeaefb2b673a43bdc461079d792c7dccc4d325dd03ae7a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص190 - العصور الرسوبية.webp"
+      ]
+    },
+    {
+      "page_number": 191,
+      "legacy_page_id": "6b69c536-1bd0-4492-b0b0-7191ab3542b3",
+      "sha256": "76a64a5fbc75a28443e911c96cd8b26f382ba1f2bbaf9b846fd955fc08f046fb",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص191 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 192,
+      "legacy_page_id": "6103f1dc-ff70-47dc-82d6-06ac3c173a34",
+      "sha256": "c89aa423886c86937079bf9c97b18525ee6079ec4a317cbcabd6315272a34a6a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص192 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 193,
+      "legacy_page_id": "afa77741-ad1e-4fdf-a109-70d046bb6160",
+      "sha256": "2818040f09632f7edf4b0aed76e0b719e6538c972152ba50ef027a53044998dc",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص193 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 194,
+      "legacy_page_id": "71d06f8f-ba58-4f06-a4b4-f1860f7b42bb",
+      "sha256": "c29b30bad79fc6495adb0c3d49eeac44727c6a64619de8433965b34a3299bd81",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص194 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 195,
+      "legacy_page_id": "07c17a23-1322-4a0f-ae9c-90da21764221",
+      "sha256": "d61e642bde034c9bd4e09065877a1bde31922d1f6fc59e027e31d04e92401ecf",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص195 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 196,
+      "legacy_page_id": "04b0c484-fb0e-4aad-91f8-ed2130a4f234",
+      "sha256": "36eb385fd41e611dd2017ba60e96d25656c2d0c895246ddd3ab26c35252bc953",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص196 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 197,
+      "legacy_page_id": "fe760ff0-f5a8-4ef3-bada-840fef5e00f8",
+      "sha256": "32e2bea12609bd01c39b6e28a6f8a50dc6649895f7dd2e0104e369f2f990df81",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص197 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 198,
+      "legacy_page_id": "b02d186b-70bc-4c68-a05e-6659642bf799",
+      "sha256": "851c2ac83efebd81bf91aff6a017cc442c1d4ba4062ee1b6b78fed26ed6fd87b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص198 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 199,
+      "legacy_page_id": "5be3cf74-0599-43b1-a5d7-336848bb3b00",
+      "sha256": "ad8252fcb00af481005d92d0b4da609672f9a8336efb3bd2d63a396307837357",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص199 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 200,
+      "legacy_page_id": "239d6293-a99d-4a90-8c08-e804f4747efd",
+      "sha256": "477254cf241e8e80bd9e944ea210e9eab1c061facb3f3aa84bc3c239239c376e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص200 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 201,
+      "legacy_page_id": "bf3f798d-b679-4c28-b825-013a4eef9b1b",
+      "sha256": "a1afef597fb4fe41fa2aa7dd2a5dc5e7e43ca52955804657e506309e4d9e807c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص201 - الأحافير.webp"
+      ]
+    },
+    {
+      "page_number": 202,
+      "legacy_page_id": "7a8e8850-cc49-442c-b6f2-32606215937a",
+      "sha256": "8463a79c3b5ef4b3ce1b22c265d9fbc40d84d21d1ff033383b29e6de09b42e4c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص202 - التاريخ المطلق للصخور.webp"
+      ]
+    },
+    {
+      "page_number": 203,
+      "legacy_page_id": "129a0217-8449-4087-a6c7-0786ac40a3e8",
+      "sha256": "bdb7b0f1c43a2f3d33bed31d215303793c0726591b3698605795e74e731eb23e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص203 - التاريخ المطلق للصخور.webp"
+      ]
+    },
+    {
+      "page_number": 204,
+      "legacy_page_id": "93239284-75a1-4c1d-b94a-2cc970b0bbc5",
+      "sha256": "4985153f994fa4dc81193f81cd93753bd86c083299fea9928082c03068f65343",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص204 - التاريخ المطلق للصخور.webp"
+      ]
+    },
+    {
+      "page_number": 205,
+      "legacy_page_id": "a09eff40-e2ee-4bcb-98bf-63372e1d3011",
+      "sha256": "9b4fc7d7d226ff01315f4c315f4af640ba48a3aad56c8c7417d93d4a4dd58a88",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص205 - التاريخ المطلق للصخور.webp"
+      ]
+    },
+    {
+      "page_number": 206,
+      "legacy_page_id": "015ff0f8-064f-4b0f-b77a-c62d3c7648b1",
+      "sha256": "dd6a0b9c48682d7cd216749053932a74562f71d3c170450289e4fb7d2a81a988",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص206 - التاريخ المطلق للصخور.webp"
+      ]
+    },
+    {
+      "page_number": 207,
+      "legacy_page_id": "c605b79b-2a72-4339-84f4-91b814998068",
+      "sha256": "1b1199a6ae7cb309216775f71621d8c2a6e55e3b718bc4931701317018f82017",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص207 - التقسيم الحديث للسجل الجيولوجي.webp"
+      ]
+    },
+    {
+      "page_number": 208,
+      "legacy_page_id": "7e5b4d44-a475-4258-967d-8ed2b8a5de04",
+      "sha256": "6b7813c2df09a05b0823b6a2f461bfda0493cfd82e33fc074d27fd7ec22b0bda",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص208 - التقسيم الحديث للسجل الجيولوجي.webp"
+      ]
+    },
+    {
+      "page_number": 209,
+      "legacy_page_id": "0234829a-097d-4e88-954f-30faad611b82",
+      "sha256": "16ab8fe907b1ac367464b86ca698a1a48a6c5a10615d9ce8d430bed19bf91f86",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص209 - نبذة عن تاريخ الأرض.webp"
+      ]
+    },
+    {
+      "page_number": 210,
+      "legacy_page_id": "41ac5e28-ea82-42c1-9aa0-299f143c1865",
+      "sha256": "d761d2e53f6af808b927cc806851108acbe5c323f81970f745b0c15cf7a10c73",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص210 - نبذة عن تاريخ الأرض.webp"
+      ]
+    },
+    {
+      "page_number": 211,
+      "legacy_page_id": "620b2620-dd39-4fde-82bc-c1a5e8a7eef3",
+      "sha256": "2b5a875a1934e6b66a59d5242b02b385a5355475462ee14630cb647119bec199",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص211 - نبذة عن تاريخ الأرض.webp"
+      ]
+    },
+    {
+      "page_number": 212,
+      "legacy_page_id": "2fe64b89-435d-4de8-b19c-6cdfc2038b20",
+      "sha256": "4dd7b913d70c97ef19c31515df84d61ad64ebbcdb9add103510c4e1b68f3ca6e",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص212 - نبذة عن تاريخ الأرض.webp"
+      ]
+    },
+    {
+      "page_number": 213,
+      "legacy_page_id": "7cfe8f02-804e-4a17-9e64-2c63fdb5dc12",
+      "sha256": "ff845d6d64052496e2f55e3de0bd2b2994902e024ff652b631b3f0f1eab6a89b",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص213 - نبذة عن تاريخ الأرض.webp"
+      ]
+    },
+    {
+      "page_number": 214,
+      "legacy_page_id": "3d93be0a-482b-4a15-a71d-35d3ab9c93de",
+      "sha256": "176b1678eed6c8cbdc2cea20bd31afeb0b7b0b39cd3eb2068cf844c663bc522a",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص214 - جيولوجيا الجمهورية اليمنية.webp"
+      ]
+    },
+    {
+      "page_number": 215,
+      "legacy_page_id": "af1dabce-14d6-4b0e-9459-ad0ff5d4acf5",
+      "sha256": "41681fbe4bb6391d70a16ff4ef645a926f786475abcecf5a935ed1d391f3ad54",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص215 - جيولوجيا الجمهورية اليمنية.webp"
+      ]
+    },
+    {
+      "page_number": 216,
+      "legacy_page_id": "3c742170-87b4-49f5-bb6c-91661428c6a9",
+      "sha256": "17eeff7584fc4829a7ee674ee8109e6ae9e2e611f618c23c64611029547d36c9",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص216 - جيولوجيا الجمهورية اليمنية.webp"
+      ]
+    },
+    {
+      "page_number": 217,
+      "legacy_page_id": "71ff5b71-e6da-4847-964c-57e145ea3f47",
+      "sha256": "be14876773ffcf610ab84d111e2d021bc3e42342ba391f1f913e8db89d7db514",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص217 - جيولوجيا الجمهورية اليمنية.webp"
+      ]
+    },
+    {
+      "page_number": 218,
+      "legacy_page_id": "daa1cce7-b105-44d6-8241-5116b67b546e",
+      "sha256": "daa9253d0b8edaf2ec10b0d5f89b40d672d1f26e0aff735945237571f91c1b19",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص218 - جيولوجيا الجمهورية اليمنية.webp"
+      ]
+    },
+    {
+      "page_number": 219,
+      "legacy_page_id": "02a0dbb3-06a4-4790-80dd-11a664de06c3",
+      "sha256": "03f137c73abba5b4b6ee1117edc1b5e80869ac1906b32f5476a1573621e59339",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص219 - جيولوجيا الجمهورية اليمنية.webp"
+      ]
+    },
+    {
+      "page_number": 220,
+      "legacy_page_id": "c6a5cb94-c982-4b61-91f5-1041b21d03ce",
+      "sha256": "8f4703a137e0d034a7915ba8939c63ced8ee91569969645706fe810819875de4",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص220 - تقويم الوحدة الثامنة.webp"
+      ]
+    },
+    {
+      "page_number": 221,
+      "legacy_page_id": "9a3a09c1-37df-4389-82c4-592f288f4fd2",
+      "sha256": "6265fdbe269b850b0d1cb297f345f48b3348fecd12126e02e059b3a2804ba19c",
+      "master_exact_sha_paths": [
+        "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص221 - تقويم الوحدة الثامنة.webp"
+      ]
+    }
+  ],
+  "page_labels": [
+    {
+      "page_number": 8,
+      "legacy_page_id": "36ec81ff-1644-41c6-8adc-89d318a0b00a",
+      "label": "الوحدة الأولى - الجهاز العصبي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص008 - الوحدة الأولى - الجهاز العصبي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 9,
+      "legacy_page_id": "1306f186-bad0-42f1-ad6d-6ad8bf0bf2d4",
+      "label": "الجهاز العصبي في الكائن الحي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص009 - الجهاز العصبي في الكائن الحي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 10,
+      "legacy_page_id": "6458e91e-d867-4b7c-9bb1-c9f8ad89a561",
+      "label": "الجهاز العصبي في الكائن الحي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص010 - الجهاز العصبي في الكائن الحي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 11,
+      "legacy_page_id": "4f06970e-f513-42bf-9257-6be88b1ee944",
+      "label": "الجهاز العصبي في الكائن الحي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص011 - الجهاز العصبي في الكائن الحي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 12,
+      "legacy_page_id": "dffcb39a-f412-4ed3-965f-37ad5dc1e005",
+      "label": "الجهاز العصبي في الكائن الحي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص012 - الجهاز العصبي في الكائن الحي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 13,
+      "legacy_page_id": "1582682e-2afe-4830-97f0-5dbffc241f3a",
+      "label": "الجهاز العصبي في الكائن الحي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص013 - الجهاز العصبي في الكائن الحي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 14,
+      "legacy_page_id": "cc369d8a-d0d3-4fec-b50e-589e2ebe4297",
+      "label": "أنواع الألياف العصبية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص014 - أنواع الألياف العصبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 15,
+      "legacy_page_id": "65b20b5f-a112-40ad-b51d-7ecde1cac6ea",
+      "label": "أنواع الألياف العصبية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص015 - أنواع الألياف العصبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 16,
+      "legacy_page_id": "130eff20-fa7a-4d48-8587-7c2a62fad5f8",
+      "label": "أنواع الألياف العصبية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص016 - أنواع الألياف العصبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 17,
+      "legacy_page_id": "9776670b-b5d3-4466-98cf-45908f270e2f",
+      "label": "أنواع الألياف العصبية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص017 - أنواع الألياف العصبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 18,
+      "legacy_page_id": "ca4df7b8-41f6-4f01-a997-5d39d58ad627",
+      "label": "أنواع الألياف العصبية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص018 - أنواع الألياف العصبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 19,
+      "legacy_page_id": "aa934766-1cff-4e0e-8121-52b7ee7a6e76",
+      "label": "أنواع الألياف العصبية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص019 - أنواع الألياف العصبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 20,
+      "legacy_page_id": "97c4a765-b2c6-4a39-a5b5-51fbf38e1831",
+      "label": "أجزاء الجهاز العصبي في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص020 - أجزاء الجهاز العصبي في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 21,
+      "legacy_page_id": "e3523ea5-daf9-4de5-8e4c-45fe1efa9dc0",
+      "label": "أجزاء الجهاز العصبي في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص021 - أجزاء الجهاز العصبي في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 22,
+      "legacy_page_id": "ae30fd9d-a9bf-4b83-a9d5-0c0179097d04",
+      "label": "أجزاء الجهاز العصبي في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص022 - أجزاء الجهاز العصبي في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 23,
+      "legacy_page_id": "fdabb133-82ed-4394-b91d-8c75c4915965",
+      "label": "أجزاء الجهاز العصبي في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص023 - أجزاء الجهاز العصبي في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 24,
+      "legacy_page_id": "67b42791-89cb-4035-9745-5c4466573e7c",
+      "label": "أجزاء الجهاز العصبي في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص024 - أجزاء الجهاز العصبي في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 25,
+      "legacy_page_id": "be3b5613-56d1-469d-b4b5-9c28525a2ac7",
+      "label": "أجزاء الجهاز العصبي في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص025 - أجزاء الجهاز العصبي في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 26,
+      "legacy_page_id": "00a1ed9b-c6a2-4028-8e73-a59c18c95dba",
+      "label": "أعضاء الحس والمستقبلات الضوئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص026 - أعضاء الحس والمستقبلات الضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 27,
+      "legacy_page_id": "cd0f9cd7-3050-4762-a1e0-4f78f53f01e6",
+      "label": "أعضاء الحس والمستقبلات الضوئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص027 - أعضاء الحس والمستقبلات الضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 28,
+      "legacy_page_id": "97262b97-7efb-4ada-bacd-92546d1c40c8",
+      "label": "أعضاء الحس والمستقبلات الضوئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص028 - أعضاء الحس والمستقبلات الضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 29,
+      "legacy_page_id": "d830311e-f3af-4d5f-859f-e6ae979dc876",
+      "label": "أعضاء الحس والمستقبلات الضوئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص029 - أعضاء الحس والمستقبلات الضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 30,
+      "legacy_page_id": "96bcea32-843a-4002-b27c-7f2d0e54e798",
+      "label": "المستقبلات الكيميائية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص030 - المستقبلات الكيميائية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 31,
+      "legacy_page_id": "4c42e807-861d-4384-93aa-33d66f5f1ead",
+      "label": "المستقبلات الكيميائية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص031 - المستقبلات الكيميائية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 32,
+      "legacy_page_id": "f33ea041-f68d-42f7-9ef5-62f46c08bbfc",
+      "label": "المستقبلات الآلية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص032 - المستقبلات الآلية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 33,
+      "legacy_page_id": "8a648e4d-2c5d-43c2-b6c1-7db2829ae2ba",
+      "label": "المستقبلات الآلية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص033 - المستقبلات الآلية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 34,
+      "legacy_page_id": "6e7f8567-5323-45be-a32e-61fdfb8339ea",
+      "label": "المستقبلات الآلية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص034 - المستقبلات الآلية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 35,
+      "legacy_page_id": "d86971ce-87c4-42a1-8408-a8ea0ea4e5c4",
+      "label": "المستقبلات الآلية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص035 - المستقبلات الآلية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 36,
+      "legacy_page_id": "2abc8765-edbe-4098-9ace-cc690fd2fa11",
+      "label": "المستقبلات الآلية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص036 - المستقبلات الآلية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 37,
+      "legacy_page_id": "866c9fea-59ed-409e-9727-0ce3c1ea442d",
+      "label": "المستقبلات الآلية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص037 - المستقبلات الآلية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 38,
+      "legacy_page_id": "83cf1a1f-68cd-425e-adbc-b2d81595a308",
+      "label": "تقويم الوحدة الأولى",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص038 - تقويم الوحدة الأولى.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 39,
+      "legacy_page_id": "bb255c52-cd2d-4109-ae92-d446109c9f9f",
+      "label": "تقويم الوحدة الأولى",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص039 - تقويم الوحدة الأولى.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 40,
+      "legacy_page_id": "43712814-3f21-47b9-88f2-bdbe107cc21b",
+      "label": "الوحدة الثانية - التنظيم الهرموني",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص040 - الوحدة الثانية - التنظيم الهرموني.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 41,
+      "legacy_page_id": "7d0e2052-b14c-43a5-8872-0f2888e6a767",
+      "label": "التنظيم الهرموني في النبات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص041 - التنظيم الهرموني في النبات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 42,
+      "legacy_page_id": "6ca805a7-0c81-41c0-aaa8-445011c1e37e",
+      "label": "التنظيم الهرموني في النبات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص042 - التنظيم الهرموني في النبات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 43,
+      "legacy_page_id": "4c691850-ca57-4948-9659-415c0d0d0d5d",
+      "label": "التنظيم الهرموني في النبات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص043 - التنظيم الهرموني في النبات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 44,
+      "legacy_page_id": "1ee18ec3-87bb-4174-9840-46642e7cb31f",
+      "label": "التنظيم الهرموني في النبات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص044 - التنظيم الهرموني في النبات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 45,
+      "legacy_page_id": "37347d97-e378-4f98-8220-88f17e283a10",
+      "label": "التنظيم الهرموني في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص045 - التنظيم الهرموني في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 46,
+      "legacy_page_id": "02135460-828c-4b72-856b-3a1bc1976d0b",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص046 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 47,
+      "legacy_page_id": "c0620b48-0d26-4ee2-94d8-0f740a72ec5f",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص047 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 48,
+      "legacy_page_id": "4eb62bcb-93cd-41c2-af2e-dfc16ec2132a",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص048 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 49,
+      "legacy_page_id": "8dffaa32-d719-4e88-8084-e2ca4095c2f0",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص049 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 50,
+      "legacy_page_id": "9ca0e332-6029-43e9-bd58-8c2cdfaf6fe5",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص050 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 51,
+      "legacy_page_id": "304fd0db-98b4-49bf-be1f-bf8957b08079",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص051 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 52,
+      "legacy_page_id": "36092ead-fb37-4a46-87b0-fef0867fca2b",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص052 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 53,
+      "legacy_page_id": "ddc8a820-71ee-4116-ba88-4bb97b2f3ffa",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص053 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 54,
+      "legacy_page_id": "c29db643-a881-4d17-9ef4-3a2bdd8e57df",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص054 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 55,
+      "legacy_page_id": "3548c8e2-f65a-4d99-abe2-4b21204f1c87",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص055 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 56,
+      "legacy_page_id": "53a279d9-91e7-4578-92c7-75a18233b132",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص056 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 57,
+      "legacy_page_id": "5473636b-12e1-4b5e-8e2c-1a840c207421",
+      "label": "التنظيم الهرموني في الإنسان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص057 - التنظيم الهرموني في الإنسان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 58,
+      "legacy_page_id": "1343a650-d2c4-4a4a-a398-ef5fd8056385",
+      "label": "أمراض الجهاز الهرموني وصحته",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص058 - أمراض الجهاز الهرموني وصحته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 59,
+      "legacy_page_id": "d2dfb3ef-3388-48fb-a7a5-98ee65130d58",
+      "label": "أمراض الجهاز الهرموني وصحته",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص059 - أمراض الجهاز الهرموني وصحته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 60,
+      "legacy_page_id": "aa882892-c4b6-4149-ab88-3b15d47e6985",
+      "label": "تقويم الوحدة الثانية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص060 - تقويم الوحدة الثانية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 61,
+      "legacy_page_id": "0dac9bb0-0b01-491d-b1ea-6fad4d396876",
+      "label": "الوحدة الثالثة - التكاثر في الكائنات الحية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص061 - الوحدة الثالثة - التكاثر في الكائنات الحية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 62,
+      "legacy_page_id": "69991d0a-9b65-4938-82fa-26a800f434f1",
+      "label": "التكاثر والتكاثر اللاجنسي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص062 - التكاثر والتكاثر اللاجنسي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 63,
+      "legacy_page_id": "03de3090-9c16-40e9-9929-47e61417a1e0",
+      "label": "التكاثر والتكاثر اللاجنسي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص063 - التكاثر والتكاثر اللاجنسي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 64,
+      "legacy_page_id": "c65932c7-835d-460e-82d2-0f555a241ada",
+      "label": "التكاثر والتكاثر اللاجنسي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص064 - التكاثر والتكاثر اللاجنسي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 65,
+      "legacy_page_id": "f3b0135b-b540-422e-990d-9b9ed98148ce",
+      "label": "التكاثر والتكاثر اللاجنسي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص065 - التكاثر والتكاثر اللاجنسي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 66,
+      "legacy_page_id": "255a0808-b9a2-4eec-be10-adf29a032401",
+      "label": "التكاثر والتكاثر اللاجنسي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص066 - التكاثر والتكاثر اللاجنسي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 67,
+      "legacy_page_id": "52c09761-e0fc-4d79-92fc-32fa095be3b5",
+      "label": "التكاثر والتكاثر اللاجنسي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص067 - التكاثر والتكاثر اللاجنسي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 68,
+      "legacy_page_id": "a8c7988e-ee92-40e3-ba2a-8481bd3dff14",
+      "label": "التكاثر والتكاثر اللاجنسي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص068 - التكاثر والتكاثر اللاجنسي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 69,
+      "legacy_page_id": "73689c88-115f-4e4f-bb84-ea2b98c71666",
+      "label": "التكاثر الجنسي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص069 - التكاثر الجنسي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 70,
+      "legacy_page_id": "df3fa0a6-d2e0-4e8a-8d2f-d7413b233ffa",
+      "label": "التكاثر الجنسي في الطلائعيات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص070 - التكاثر الجنسي في الطلائعيات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 71,
+      "legacy_page_id": "ee485a2c-11f6-413d-9095-351ae02636af",
+      "label": "التكاثر الجنسي في الطلائعيات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص071 - التكاثر الجنسي في الطلائعيات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 72,
+      "legacy_page_id": "c7bf9cd9-c1b2-4c19-ae6d-906e613fd975",
+      "label": "التكاثر الجنسي في النباتات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص072 - التكاثر الجنسي في النباتات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 73,
+      "legacy_page_id": "e3ab550d-0d1f-49aa-9db5-7c9db58afd37",
+      "label": "التكاثر الجنسي في النباتات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص073 - التكاثر الجنسي في النباتات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 74,
+      "legacy_page_id": "1308148e-a4ce-488e-8261-17bffb15ffe6",
+      "label": "التكاثر الجنسي في النباتات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص074 - التكاثر الجنسي في النباتات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 75,
+      "legacy_page_id": "6b7cdd75-20e6-445b-bc66-a771793e8b0a",
+      "label": "التكاثر الجنسي في النباتات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص075 - التكاثر الجنسي في النباتات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 76,
+      "legacy_page_id": "ed043afc-864c-4910-9169-3c37f2882cb6",
+      "label": "التكاثر الجنسي في النباتات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص076 - التكاثر الجنسي في النباتات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 77,
+      "legacy_page_id": "8df70914-9d50-4861-8487-8e4c0a8f8daf",
+      "label": "التكاثر الجنسي في النباتات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص077 - التكاثر الجنسي في النباتات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 78,
+      "legacy_page_id": "89635b6f-4b41-45e8-a555-ea143a8cbf92",
+      "label": "التكاثر الجنسي في النباتات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص078 - التكاثر الجنسي في النباتات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 79,
+      "legacy_page_id": "1ff4c255-e3f3-4ac6-8338-12d78d6b9c02",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص079 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 80,
+      "legacy_page_id": "910ba813-13e2-44eb-86a7-9ef68a580f99",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص080 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 81,
+      "legacy_page_id": "84d80b46-006a-4ef6-9f70-e530d0ba589d",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص081 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 82,
+      "legacy_page_id": "51913b63-3a25-4f14-ab96-3299451ed834",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص082 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 83,
+      "legacy_page_id": "f34fdba2-9e57-4b9c-bd46-a3651dd30903",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص083 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 84,
+      "legacy_page_id": "76ba634d-fad6-4c2f-a6fb-54f481593b72",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص084 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 85,
+      "legacy_page_id": "f1d1ee4e-0e4d-4e8a-b77e-7e4ec73907e1",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص085 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 86,
+      "legacy_page_id": "f3e4d746-3f2d-4dc1-a142-52cfee32e21c",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص086 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 87,
+      "legacy_page_id": "6e1e2bc7-c5cc-4b7f-a46f-d5a6f758c353",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص087 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 88,
+      "legacy_page_id": "6a6209ae-36c8-4bdf-ba7d-b8d3138eca94",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص088 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 89,
+      "legacy_page_id": "e23c6947-e170-4959-bf17-3b13168306a7",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص089 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 90,
+      "legacy_page_id": "599930fc-662b-47ea-9d56-bcfb89f4e11a",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص090 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 91,
+      "legacy_page_id": "e2e6a351-6b2e-490b-aba4-2724eaa070c1",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص091 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 92,
+      "legacy_page_id": "a54c0d5b-bb6b-466e-8a1f-dbeb7f4f2446",
+      "label": "التكاثر الجنسي في الحيوان",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص092 - التكاثر الجنسي في الحيوان.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 93,
+      "legacy_page_id": "92dfc8c0-4184-431b-8113-1b13491afe97",
+      "label": "تقويم الوحدة الثالثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص093 - تقويم الوحدة الثالثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 94,
+      "legacy_page_id": "498fb84d-460a-41d5-8392-848420ca32ce",
+      "label": "تقويم الوحدة الثالثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص094 - تقويم الوحدة الثالثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 95,
+      "legacy_page_id": "01387f11-6970-43ee-8ae7-93924dbb161c",
+      "label": "تقويم الوحدة الثالثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص095 - تقويم الوحدة الثالثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 96,
+      "legacy_page_id": "40263950-cf29-4c75-89f7-506ba0770333",
+      "label": "الوحدة الرابعة - أساسيات علم الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص096 - الوحدة الرابعة - أساسيات علم الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 97,
+      "legacy_page_id": "2cf7f75c-9af3-4731-9aec-7a51d71a5606",
+      "label": "أساسيات علم الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص097 - أساسيات علم الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 98,
+      "legacy_page_id": "3eda2cb6-67a5-4842-b99a-b604737f98e3",
+      "label": "تطور علم الوراثة الحديث",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص098 - تطور علم الوراثة الحديث.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 99,
+      "legacy_page_id": "ee36a1d7-17d2-4489-8b87-289e6e4dcf2d",
+      "label": "تطور علم الوراثة الحديث",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص099 - تطور علم الوراثة الحديث.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 100,
+      "legacy_page_id": "82b475e7-2b13-4142-827c-3bc2bf3ae0a1",
+      "label": "تطور علم الوراثة الحديث",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص100 - تطور علم الوراثة الحديث.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 101,
+      "legacy_page_id": "ad61e1fc-3c99-4ff5-9aea-fd1a6e4e860e",
+      "label": "تطور علم الوراثة الحديث",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص101 - تطور علم الوراثة الحديث.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 102,
+      "legacy_page_id": "78a843e9-b924-4792-96e5-b1100af8e770",
+      "label": "تطور علم الوراثة الحديث",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص102 - تطور علم الوراثة الحديث.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 103,
+      "legacy_page_id": "59cca3b6-536d-48f0-b5e9-025ace8912f6",
+      "label": "تطور علم الوراثة الحديث",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص103 - تطور علم الوراثة الحديث.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 104,
+      "legacy_page_id": "9a616764-8391-4a31-97db-d75dee6f1207",
+      "label": "الشكل الجيني والشكل الظاهري",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص104 - الشكل الجيني والشكل الظاهري.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 105,
+      "legacy_page_id": "03edf2c8-e4da-4287-95d4-22be2c47d61a",
+      "label": "الشكل الجيني والشكل الظاهري",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص105 - الشكل الجيني والشكل الظاهري.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 106,
+      "legacy_page_id": "6c944ac8-1ab5-4e34-8b9f-0e470f8c55cc",
+      "label": "الشكل الجيني والشكل الظاهري",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص106 - الشكل الجيني والشكل الظاهري.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 107,
+      "legacy_page_id": "f5e753bc-e8ca-49bb-8b8d-d3c6077ebbd0",
+      "label": "الشكل الجيني والشكل الظاهري",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص107 - الشكل الجيني والشكل الظاهري.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 108,
+      "legacy_page_id": "aec94226-2890-433f-8ef6-26efd3d2d90b",
+      "label": "الشكل الجيني والشكل الظاهري",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص108 - الشكل الجيني والشكل الظاهري.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 109,
+      "legacy_page_id": "588499b6-913b-4400-bb7a-369672a9a795",
+      "label": "الشكل الجيني والشكل الظاهري",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص109 - الشكل الجيني والشكل الظاهري.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 110,
+      "legacy_page_id": "f1962c96-57ba-4d27-ad6d-51f14dc9fa2e",
+      "label": "الشكل الجيني والشكل الظاهري",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص110 - الشكل الجيني والشكل الظاهري.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 111,
+      "legacy_page_id": "09d6b652-40b0-4b60-a353-82420b6366d0",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص111 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 112,
+      "legacy_page_id": "ecf407a1-6518-42be-b2f1-314d5e1b0c37",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص112 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 113,
+      "legacy_page_id": "b6b91d62-d875-42ea-8617-b75f5dae5a0f",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص113 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 114,
+      "legacy_page_id": "9129f22e-0831-4e3e-a857-73fe6b8058d0",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص114 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 115,
+      "legacy_page_id": "c651ecae-68d1-44e9-a3fa-e2e59e76156a",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص115 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 116,
+      "legacy_page_id": "04b47d43-5a68-4720-a4b8-17f8d4abb888",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص116 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 117,
+      "legacy_page_id": "fa15c811-5b2c-46da-8a40-a5f9639270f0",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص117 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 118,
+      "legacy_page_id": "ae9938bd-5c29-40e4-bd27-2369ba4a1194",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص118 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 119,
+      "legacy_page_id": "718a6bef-af93-40e9-ac55-198684b3fb84",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص119 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 120,
+      "legacy_page_id": "8ab9e754-9695-42f0-b8c3-3f01634550a6",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص120 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 121,
+      "legacy_page_id": "4d02e53d-ed39-4941-9f57-ec43de667cd6",
+      "label": "دور الكروموسومات في الوراثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص121 - دور الكروموسومات في الوراثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 122,
+      "legacy_page_id": "508e7d19-2b55-41b2-81b1-08d476dd6d78",
+      "label": "الوراثة والجنس",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص122 - الوراثة والجنس.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 123,
+      "legacy_page_id": "167edf7d-ff11-4fb6-a6cf-e8c1530c1e68",
+      "label": "الوراثة والجنس",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص123 - الوراثة والجنس.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 124,
+      "legacy_page_id": "a0a8a2e7-2ee8-4c52-914a-9d2349656c9b",
+      "label": "الوراثة والجنس",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص124 - الوراثة والجنس.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 125,
+      "legacy_page_id": "d5ae9324-e2a7-47d0-bc10-25f2ad47d136",
+      "label": "الوراثة والجنس",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص125 - الوراثة والجنس.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 126,
+      "legacy_page_id": "dd242fd0-0166-491c-9f58-08833f290be9",
+      "label": "الوراثة والجنس",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص126 - الوراثة والجنس.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 127,
+      "legacy_page_id": "2de4427b-b8cc-428b-bdbb-0930072520f6",
+      "label": "الوراثة والجنس",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص127 - الوراثة والجنس.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 128,
+      "legacy_page_id": "e1b9f13b-6acb-460f-a9ac-1be2d9e3f186",
+      "label": "الوراثة والجنس",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص128 - الوراثة والجنس.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 129,
+      "legacy_page_id": "4eb48aa3-354e-455f-9b0a-a693a2a52c64",
+      "label": "تقويم الوحدة الرابعة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص129 - تقويم الوحدة الرابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 130,
+      "legacy_page_id": "e10d2445-89b7-405d-9008-4c857806e7c4",
+      "label": "تقويم الوحدة الرابعة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص130 - تقويم الوحدة الرابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 131,
+      "legacy_page_id": "25d5ba96-f477-4cc2-90fd-253bb459d442",
+      "label": "الوحدة الخامسة - الوراثة الجزيئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص131 - الوحدة الخامسة - الوراثة الجزيئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 132,
+      "legacy_page_id": "c4eef0e6-5e34-4a8e-9636-8e207bf05d1a",
+      "label": "الكروموسومات والجينات",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص132 - الكروموسومات والجينات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 133,
+      "legacy_page_id": "d6f0f30c-29ed-4a1e-8cd9-4056dcd45864",
+      "label": "دور حمض DNA في نقل الصفات الوراثية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص133 - دور حمض DNA في نقل الصفات الوراثية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 134,
+      "legacy_page_id": "b636b31d-180a-49b1-96f3-139e09133a04",
+      "label": "دور حمض DNA في نقل الصفات الوراثية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص134 - دور حمض DNA في نقل الصفات الوراثية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 135,
+      "legacy_page_id": "1110e0ba-86a5-4084-9ccb-5fd49d3b7ed7",
+      "label": "دور حمض DNA في نقل الصفات الوراثية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص135 - دور حمض DNA في نقل الصفات الوراثية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 136,
+      "legacy_page_id": "9f96ab02-821a-452a-bd72-2aee0d2167b6",
+      "label": "الحمض النووي الرايبوزي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص136 - الحمض النووي الرايبوزي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 137,
+      "legacy_page_id": "922fb735-21a4-488c-8d75-c43e65c88b41",
+      "label": "الحمض النووي الرايبوزي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص137 - الحمض النووي الرايبوزي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 138,
+      "legacy_page_id": "c818cff1-8ec5-4a3d-a7f4-bdaa0e0dd1f4",
+      "label": "خطوات بناء البروتين",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص138 - خطوات بناء البروتين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 139,
+      "legacy_page_id": "6feed7d8-d7ad-4543-9735-d203ed78b39f",
+      "label": "خطوات بناء البروتين",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص139 - خطوات بناء البروتين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 140,
+      "legacy_page_id": "c3d9cb2a-774a-474b-9b23-7127cacfda53",
+      "label": "تطبيقات في الوراثة الجزيئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص140 - تطبيقات في الوراثة الجزيئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 141,
+      "legacy_page_id": "536ed1aa-9b1f-4356-a9cd-adaf991df58f",
+      "label": "تطبيقات في الوراثة الجزيئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص141 - تطبيقات في الوراثة الجزيئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 142,
+      "legacy_page_id": "d068f297-781f-4bc5-8c0a-95a5eaf4e2f3",
+      "label": "تطبيقات في الوراثة الجزيئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص142 - تطبيقات في الوراثة الجزيئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 143,
+      "legacy_page_id": "7cd06a01-56dd-40d2-a42b-8f2569537dc4",
+      "label": "تقويم الوحدة الخامسة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص143 - تقويم الوحدة الخامسة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 144,
+      "legacy_page_id": "f53b543b-723d-4780-99dd-9d7316a35ca6",
+      "label": "الوحدة السادسة - التقانة الحيوية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص144 - الوحدة السادسة - التقانة الحيوية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 145,
+      "legacy_page_id": "99042e21-9460-43c8-b5ee-8d87b650e1f1",
+      "label": "التقانة الحيوية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص145 - التقانة الحيوية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 146,
+      "legacy_page_id": "ef11f1e7-1fcd-4be1-9faf-728cad01c184",
+      "label": "الهندسة الجينية أو الوراثية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص146 - الهندسة الجينية أو الوراثية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 147,
+      "legacy_page_id": "f1c5bab0-e557-4f06-bce7-130703a81238",
+      "label": "استخدام التقانة الحيوية في إنتاج الغذاء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص147 - استخدام التقانة الحيوية في إنتاج الغذاء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 148,
+      "legacy_page_id": "c53d81ad-e240-493f-b02c-e6901ffe8ba7",
+      "label": "استخدام التقانة الحيوية في إنتاج الغذاء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص148 - استخدام التقانة الحيوية في إنتاج الغذاء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 149,
+      "legacy_page_id": "9712fbe3-7b3b-4fe1-b05d-d1b6c71480ca",
+      "label": "استخدام التقانة الحيوية في إنتاج الغذاء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص149 - استخدام التقانة الحيوية في إنتاج الغذاء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 150,
+      "legacy_page_id": "fc9359d0-a8d0-482a-963a-d78fc51cadc4",
+      "label": "استخدام التقانة الحيوية في إنتاج الغذاء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص150 - استخدام التقانة الحيوية في إنتاج الغذاء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 151,
+      "legacy_page_id": "6d652358-cae0-45b3-81b7-f68ab7964393",
+      "label": "استخدام التقانة الحيوية في إنتاج الغذاء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص151 - استخدام التقانة الحيوية في إنتاج الغذاء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 152,
+      "legacy_page_id": "67045b2b-b076-4530-a22b-71e9d71b692a",
+      "label": "استخدام التقانة الحيوية في إنتاج الدواء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص152 - استخدام التقانة الحيوية في إنتاج الدواء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 153,
+      "legacy_page_id": "03661a94-155f-4a69-9a87-3b090b3b9558",
+      "label": "استخدام التقانة الحيوية في إنتاج الدواء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص153 - استخدام التقانة الحيوية في إنتاج الدواء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 154,
+      "legacy_page_id": "5007dbf8-e223-44b0-9238-90c86555edd8",
+      "label": "استخدام التقانة الحيوية في إنتاج الدواء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص154 - استخدام التقانة الحيوية في إنتاج الدواء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 155,
+      "legacy_page_id": "f0e4e016-73e4-441d-b035-e83aa29506aa",
+      "label": "استخدام التقانة الحيوية في إنتاج الوقود",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص155 - استخدام التقانة الحيوية في إنتاج الوقود.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 156,
+      "legacy_page_id": "e090763b-5cb2-4983-ad47-a0ff5b30baa1",
+      "label": "استخدام التقانة الحيوية في معالجة المخلفات الملوثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص156 - استخدام التقانة الحيوية في معالجة المخلفات الملوثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 157,
+      "legacy_page_id": "77dc0a22-4e6d-43bf-93a3-43d77bc6a0b8",
+      "label": "استخدام التقانة الحيوية في معالجة المخلفات الملوثة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص157 - استخدام التقانة الحيوية في معالجة المخلفات الملوثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 158,
+      "legacy_page_id": "15e86bee-1ad9-4e8d-b351-3713867c225c",
+      "label": "استخدام التقانة الحيوية في إنتاج بعض المواد الصناعية والاستنساخ",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص158 - استخدام التقانة الحيوية في إنتاج بعض المواد الصناعية والاستنساخ.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 159,
+      "legacy_page_id": "024218bc-5ea0-4c6c-a727-74219191bb30",
+      "label": "استخدام التقانة الحيوية في إنتاج بعض المواد الصناعية والاستنساخ",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص159 - استخدام التقانة الحيوية في إنتاج بعض المواد الصناعية والاستنساخ.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 160,
+      "legacy_page_id": "7b5d185c-1534-48e9-bb50-67803d0179eb",
+      "label": "استخدام التقانة الحيوية في إنتاج بعض المواد الصناعية والاستنساخ",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص160 - استخدام التقانة الحيوية في إنتاج بعض المواد الصناعية والاستنساخ.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 161,
+      "legacy_page_id": "4f92c4b0-ac39-4598-9dc4-c0283f405924",
+      "label": "تقويم الوحدة السادسة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص161 - تقويم الوحدة السادسة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 162,
+      "legacy_page_id": "3705c31b-49ae-4a5a-bb31-a3efc3f62634",
+      "label": "الوحدة السابعة - البيئة ومشكلاتها",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص162 - الوحدة السابعة - البيئة ومشكلاتها.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 163,
+      "legacy_page_id": "a725eb70-66db-4751-99ca-cdff344da341",
+      "label": "المقصود بالبيئة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص163 - المقصود بالبيئة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 164,
+      "legacy_page_id": "bb62cc30-c940-4148-a2d6-6c58007467ea",
+      "label": "مشكلات تلوث مكونات البيئة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص164 - مشكلات تلوث مكونات البيئة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 165,
+      "legacy_page_id": "37407c01-a45f-4ba4-bd4c-41284db91a24",
+      "label": "ملوثات الهواء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص165 - ملوثات الهواء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 166,
+      "legacy_page_id": "f642b780-5bdc-40e0-a5ed-a86477ac2c6d",
+      "label": "ملوثات الهواء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص166 - ملوثات الهواء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 167,
+      "legacy_page_id": "7273e07f-e6c7-4c6f-bbcf-02409cf366cc",
+      "label": "ملوثات الهواء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص167 - ملوثات الهواء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 168,
+      "legacy_page_id": "9d94207f-dfdc-4dc1-ba7a-f1e6f63b7ea7",
+      "label": "ملوثات الهواء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص168 - ملوثات الهواء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 169,
+      "legacy_page_id": "88302064-eeda-4339-9b35-bcd7f04e2c49",
+      "label": "ملوثات الهواء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص169 - ملوثات الهواء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 170,
+      "legacy_page_id": "b00265a8-2e1d-4877-bae4-ec7643438eba",
+      "label": "ملوثات الهواء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص170 - ملوثات الهواء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 171,
+      "legacy_page_id": "f5af2ca7-e0dd-4055-82cf-4c7df0d44cc2",
+      "label": "تلوث الماء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص171 - تلوث الماء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 172,
+      "legacy_page_id": "1b80f3e0-2e1a-4242-a8c3-c23dccad8d79",
+      "label": "تلوث الماء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص172 - تلوث الماء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 173,
+      "legacy_page_id": "0f1070f5-0f38-4f47-a6ca-5ca0bb4470a5",
+      "label": "التلوث الضوضائي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص173 - التلوث الضوضائي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 174,
+      "legacy_page_id": "20829249-2cbe-4ea6-91ca-7b686de46df4",
+      "label": "التلوث الضوضائي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص174 - التلوث الضوضائي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 175,
+      "legacy_page_id": "11c6608f-2ddc-4e26-8a3f-4c024ddbc90f",
+      "label": "التلوث الضوضائي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص175 - التلوث الضوضائي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 176,
+      "legacy_page_id": "5f512272-daac-472b-b6c4-1e83b065f064",
+      "label": "التلوث الإشعاعي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص176 - التلوث الإشعاعي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 177,
+      "legacy_page_id": "3c0eddd5-6aa0-49d8-a4a1-63a4217394e0",
+      "label": "التلوث الإشعاعي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص177 - التلوث الإشعاعي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 178,
+      "legacy_page_id": "8538350b-3388-40e5-b015-3728ade176a2",
+      "label": "ملوثات الغذاء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص178 - ملوثات الغذاء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 179,
+      "legacy_page_id": "8655a299-ff18-474e-a18b-f7cb5cb8d105",
+      "label": "ملوثات الغذاء",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص179 - ملوثات الغذاء.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 180,
+      "legacy_page_id": "18fef003-955b-4b0e-8cbb-2973635e1100",
+      "label": "تلوث التربة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص180 - تلوث التربة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 181,
+      "legacy_page_id": "fdfeb429-d6bf-4d5f-8c39-88dc3e325531",
+      "label": "مشكلات استنزاف الموارد البيئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص181 - مشكلات استنزاف الموارد البيئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 182,
+      "legacy_page_id": "53a42f2a-4caa-47ae-91e9-acd3db2d7117",
+      "label": "مشكلات استنزاف الموارد البيئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص182 - مشكلات استنزاف الموارد البيئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 183,
+      "legacy_page_id": "e2b59f72-6619-4812-89b5-f03f6a6f462b",
+      "label": "مشكلات استنزاف الموارد البيئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص183 - مشكلات استنزاف الموارد البيئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 184,
+      "legacy_page_id": "3b9abf60-d5be-4e0e-b695-be7098edaaf8",
+      "label": "مشكلات استنزاف الموارد البيئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص184 - مشكلات استنزاف الموارد البيئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 185,
+      "legacy_page_id": "480b8d31-12f9-4018-af64-ebc6763e3d04",
+      "label": "مشكلات استنزاف الموارد البيئية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص185 - مشكلات استنزاف الموارد البيئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 186,
+      "legacy_page_id": "df8a925a-d8ec-486e-a250-551878e53f64",
+      "label": "تقويم الوحدة السابعة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص186 - تقويم الوحدة السابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 187,
+      "legacy_page_id": "cd0975b8-141b-49c6-a953-8b5608ff083b",
+      "label": "الوحدة الثامنة - تاريخ الأرض",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص187 - الوحدة الثامنة - تاريخ الأرض.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 188,
+      "legacy_page_id": "444722c5-8352-40a9-a695-7adb395d6164",
+      "label": "العصور الرسوبية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص188 - العصور الرسوبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 189,
+      "legacy_page_id": "e8ee6478-7500-478b-902c-ec04110ef506",
+      "label": "العصور الرسوبية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص189 - العصور الرسوبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 190,
+      "legacy_page_id": "f3cb4bf5-5aea-4177-8649-30df5f666e3d",
+      "label": "العصور الرسوبية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص190 - العصور الرسوبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 191,
+      "legacy_page_id": "6b69c536-1bd0-4492-b0b0-7191ab3542b3",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص191 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 192,
+      "legacy_page_id": "6103f1dc-ff70-47dc-82d6-06ac3c173a34",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص192 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 193,
+      "legacy_page_id": "afa77741-ad1e-4fdf-a109-70d046bb6160",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص193 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 194,
+      "legacy_page_id": "71d06f8f-ba58-4f06-a4b4-f1860f7b42bb",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص194 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 195,
+      "legacy_page_id": "07c17a23-1322-4a0f-ae9c-90da21764221",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص195 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 196,
+      "legacy_page_id": "04b0c484-fb0e-4aad-91f8-ed2130a4f234",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص196 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 197,
+      "legacy_page_id": "fe760ff0-f5a8-4ef3-bada-840fef5e00f8",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص197 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 198,
+      "legacy_page_id": "b02d186b-70bc-4c68-a05e-6659642bf799",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص198 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 199,
+      "legacy_page_id": "5be3cf74-0599-43b1-a5d7-336848bb3b00",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص199 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 200,
+      "legacy_page_id": "239d6293-a99d-4a90-8c08-e804f4747efd",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص200 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 201,
+      "legacy_page_id": "bf3f798d-b679-4c28-b825-013a4eef9b1b",
+      "label": "الأحافير",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص201 - الأحافير.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 202,
+      "legacy_page_id": "7a8e8850-cc49-442c-b6f2-32606215937a",
+      "label": "التاريخ المطلق للصخور",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص202 - التاريخ المطلق للصخور.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 203,
+      "legacy_page_id": "129a0217-8449-4087-a6c7-0786ac40a3e8",
+      "label": "التاريخ المطلق للصخور",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص203 - التاريخ المطلق للصخور.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 204,
+      "legacy_page_id": "93239284-75a1-4c1d-b94a-2cc970b0bbc5",
+      "label": "التاريخ المطلق للصخور",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص204 - التاريخ المطلق للصخور.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 205,
+      "legacy_page_id": "a09eff40-e2ee-4bcb-98bf-63372e1d3011",
+      "label": "التاريخ المطلق للصخور",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص205 - التاريخ المطلق للصخور.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 206,
+      "legacy_page_id": "015ff0f8-064f-4b0f-b77a-c62d3c7648b1",
+      "label": "التاريخ المطلق للصخور",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص206 - التاريخ المطلق للصخور.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 207,
+      "legacy_page_id": "c605b79b-2a72-4339-84f4-91b814998068",
+      "label": "التقسيم الحديث للسجل الجيولوجي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص207 - التقسيم الحديث للسجل الجيولوجي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 208,
+      "legacy_page_id": "7e5b4d44-a475-4258-967d-8ed2b8a5de04",
+      "label": "التقسيم الحديث للسجل الجيولوجي",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص208 - التقسيم الحديث للسجل الجيولوجي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 209,
+      "legacy_page_id": "0234829a-097d-4e88-954f-30faad611b82",
+      "label": "نبذة عن تاريخ الأرض",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص209 - نبذة عن تاريخ الأرض.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 210,
+      "legacy_page_id": "41ac5e28-ea82-42c1-9aa0-299f143c1865",
+      "label": "نبذة عن تاريخ الأرض",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص210 - نبذة عن تاريخ الأرض.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 211,
+      "legacy_page_id": "620b2620-dd39-4fde-82bc-c1a5e8a7eef3",
+      "label": "نبذة عن تاريخ الأرض",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص211 - نبذة عن تاريخ الأرض.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 212,
+      "legacy_page_id": "2fe64b89-435d-4de8-b19c-6cdfc2038b20",
+      "label": "نبذة عن تاريخ الأرض",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص212 - نبذة عن تاريخ الأرض.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 213,
+      "legacy_page_id": "7cfe8f02-804e-4a17-9e64-2c63fdb5dc12",
+      "label": "نبذة عن تاريخ الأرض",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص213 - نبذة عن تاريخ الأرض.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 214,
+      "legacy_page_id": "3d93be0a-482b-4a15-a71d-35d3ab9c93de",
+      "label": "جيولوجيا الجمهورية اليمنية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص214 - جيولوجيا الجمهورية اليمنية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 215,
+      "legacy_page_id": "af1dabce-14d6-4b0e-9459-ad0ff5d4acf5",
+      "label": "جيولوجيا الجمهورية اليمنية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص215 - جيولوجيا الجمهورية اليمنية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 216,
+      "legacy_page_id": "3c742170-87b4-49f5-bb6c-91661428c6a9",
+      "label": "جيولوجيا الجمهورية اليمنية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص216 - جيولوجيا الجمهورية اليمنية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 217,
+      "legacy_page_id": "71ff5b71-e6da-4847-964c-57e145ea3f47",
+      "label": "جيولوجيا الجمهورية اليمنية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص217 - جيولوجيا الجمهورية اليمنية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 218,
+      "legacy_page_id": "daa1cce7-b105-44d6-8241-5116b67b546e",
+      "label": "جيولوجيا الجمهورية اليمنية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص218 - جيولوجيا الجمهورية اليمنية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 219,
+      "legacy_page_id": "02a0dbb3-06a4-4790-80dd-11a664de06c3",
+      "label": "جيولوجيا الجمهورية اليمنية",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص219 - جيولوجيا الجمهورية اليمنية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 220,
+      "legacy_page_id": "c6a5cb94-c982-4b61-91f5-1041b21d03ce",
+      "label": "تقويم الوحدة الثامنة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص220 - تقويم الوحدة الثامنة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 221,
+      "legacy_page_id": "9a3a09c1-37df-4389-82c4-592f288f4fd2",
+      "label": "تقويم الوحدة الثامنة",
+      "preferred_master_path": "الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور/ص221 - تقويم الوحدة الثامنة.webp",
+      "preferred_path_count": 1
+    }
+  ],
+  "title_runs": [
+    {
+      "label": "الوحدة الأولى - الجهاز العصبي",
+      "start_page": 8,
+      "end_page": 8,
+      "page_count": 1
+    },
+    {
+      "label": "الجهاز العصبي في الكائن الحي",
+      "start_page": 9,
+      "end_page": 13,
+      "page_count": 5
+    },
+    {
+      "label": "أنواع الألياف العصبية",
+      "start_page": 14,
+      "end_page": 19,
+      "page_count": 6
+    },
+    {
+      "label": "أجزاء الجهاز العصبي في الإنسان",
+      "start_page": 20,
+      "end_page": 25,
+      "page_count": 6
+    },
+    {
+      "label": "أعضاء الحس والمستقبلات الضوئية",
+      "start_page": 26,
+      "end_page": 29,
+      "page_count": 4
+    },
+    {
+      "label": "المستقبلات الكيميائية",
+      "start_page": 30,
+      "end_page": 31,
+      "page_count": 2
+    },
+    {
+      "label": "المستقبلات الآلية",
+      "start_page": 32,
+      "end_page": 37,
+      "page_count": 6
+    },
+    {
+      "label": "تقويم الوحدة الأولى",
+      "start_page": 38,
+      "end_page": 39,
+      "page_count": 2
+    },
+    {
+      "label": "الوحدة الثانية - التنظيم الهرموني",
+      "start_page": 40,
+      "end_page": 40,
+      "page_count": 1
+    },
+    {
+      "label": "التنظيم الهرموني في النبات",
+      "start_page": 41,
+      "end_page": 44,
+      "page_count": 4
+    },
+    {
+      "label": "التنظيم الهرموني في الحيوان",
+      "start_page": 45,
+      "end_page": 45,
+      "page_count": 1
+    },
+    {
+      "label": "التنظيم الهرموني في الإنسان",
+      "start_page": 46,
+      "end_page": 57,
+      "page_count": 12
+    },
+    {
+      "label": "أمراض الجهاز الهرموني وصحته",
+      "start_page": 58,
+      "end_page": 59,
+      "page_count": 2
+    },
+    {
+      "label": "تقويم الوحدة الثانية",
+      "start_page": 60,
+      "end_page": 60,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة الثالثة - التكاثر في الكائنات الحية",
+      "start_page": 61,
+      "end_page": 61,
+      "page_count": 1
+    },
+    {
+      "label": "التكاثر والتكاثر اللاجنسي",
+      "start_page": 62,
+      "end_page": 68,
+      "page_count": 7
+    },
+    {
+      "label": "التكاثر الجنسي",
+      "start_page": 69,
+      "end_page": 69,
+      "page_count": 1
+    },
+    {
+      "label": "التكاثر الجنسي في الطلائعيات",
+      "start_page": 70,
+      "end_page": 71,
+      "page_count": 2
+    },
+    {
+      "label": "التكاثر الجنسي في النباتات",
+      "start_page": 72,
+      "end_page": 78,
+      "page_count": 7
+    },
+    {
+      "label": "التكاثر الجنسي في الحيوان",
+      "start_page": 79,
+      "end_page": 92,
+      "page_count": 14
+    },
+    {
+      "label": "تقويم الوحدة الثالثة",
+      "start_page": 93,
+      "end_page": 95,
+      "page_count": 3
+    },
+    {
+      "label": "الوحدة الرابعة - أساسيات علم الوراثة",
+      "start_page": 96,
+      "end_page": 96,
+      "page_count": 1
+    },
+    {
+      "label": "أساسيات علم الوراثة",
+      "start_page": 97,
+      "end_page": 97,
+      "page_count": 1
+    },
+    {
+      "label": "تطور علم الوراثة الحديث",
+      "start_page": 98,
+      "end_page": 103,
+      "page_count": 6
+    },
+    {
+      "label": "الشكل الجيني والشكل الظاهري",
+      "start_page": 104,
+      "end_page": 110,
+      "page_count": 7
+    },
+    {
+      "label": "دور الكروموسومات في الوراثة",
+      "start_page": 111,
+      "end_page": 121,
+      "page_count": 11
+    },
+    {
+      "label": "الوراثة والجنس",
+      "start_page": 122,
+      "end_page": 128,
+      "page_count": 7
+    },
+    {
+      "label": "تقويم الوحدة الرابعة",
+      "start_page": 129,
+      "end_page": 130,
+      "page_count": 2
+    },
+    {
+      "label": "الوحدة الخامسة - الوراثة الجزيئية",
+      "start_page": 131,
+      "end_page": 131,
+      "page_count": 1
+    },
+    {
+      "label": "الكروموسومات والجينات",
+      "start_page": 132,
+      "end_page": 132,
+      "page_count": 1
+    },
+    {
+      "label": "دور حمض DNA في نقل الصفات الوراثية",
+      "start_page": 133,
+      "end_page": 135,
+      "page_count": 3
+    },
+    {
+      "label": "الحمض النووي الرايبوزي",
+      "start_page": 136,
+      "end_page": 137,
+      "page_count": 2
+    },
+    {
+      "label": "خطوات بناء البروتين",
+      "start_page": 138,
+      "end_page": 139,
+      "page_count": 2
+    },
+    {
+      "label": "تطبيقات في الوراثة الجزيئية",
+      "start_page": 140,
+      "end_page": 142,
+      "page_count": 3
+    },
+    {
+      "label": "تقويم الوحدة الخامسة",
+      "start_page": 143,
+      "end_page": 143,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة السادسة - التقانة الحيوية",
+      "start_page": 144,
+      "end_page": 144,
+      "page_count": 1
+    },
+    {
+      "label": "التقانة الحيوية",
+      "start_page": 145,
+      "end_page": 145,
+      "page_count": 1
+    },
+    {
+      "label": "الهندسة الجينية أو الوراثية",
+      "start_page": 146,
+      "end_page": 146,
+      "page_count": 1
+    },
+    {
+      "label": "استخدام التقانة الحيوية في إنتاج الغذاء",
+      "start_page": 147,
+      "end_page": 151,
+      "page_count": 5
+    },
+    {
+      "label": "استخدام التقانة الحيوية في إنتاج الدواء",
+      "start_page": 152,
+      "end_page": 154,
+      "page_count": 3
+    },
+    {
+      "label": "استخدام التقانة الحيوية في إنتاج الوقود",
+      "start_page": 155,
+      "end_page": 155,
+      "page_count": 1
+    },
+    {
+      "label": "استخدام التقانة الحيوية في معالجة المخلفات الملوثة",
+      "start_page": 156,
+      "end_page": 157,
+      "page_count": 2
+    },
+    {
+      "label": "استخدام التقانة الحيوية في إنتاج بعض المواد الصناعية والاستنساخ",
+      "start_page": 158,
+      "end_page": 160,
+      "page_count": 3
+    },
+    {
+      "label": "تقويم الوحدة السادسة",
+      "start_page": 161,
+      "end_page": 161,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة السابعة - البيئة ومشكلاتها",
+      "start_page": 162,
+      "end_page": 162,
+      "page_count": 1
+    },
+    {
+      "label": "المقصود بالبيئة",
+      "start_page": 163,
+      "end_page": 163,
+      "page_count": 1
+    },
+    {
+      "label": "مشكلات تلوث مكونات البيئة",
+      "start_page": 164,
+      "end_page": 164,
+      "page_count": 1
+    },
+    {
+      "label": "ملوثات الهواء",
+      "start_page": 165,
+      "end_page": 170,
+      "page_count": 6
+    },
+    {
+      "label": "تلوث الماء",
+      "start_page": 171,
+      "end_page": 172,
+      "page_count": 2
+    },
+    {
+      "label": "التلوث الضوضائي",
+      "start_page": 173,
+      "end_page": 175,
+      "page_count": 3
+    },
+    {
+      "label": "التلوث الإشعاعي",
+      "start_page": 176,
+      "end_page": 177,
+      "page_count": 2
+    },
+    {
+      "label": "ملوثات الغذاء",
+      "start_page": 178,
+      "end_page": 179,
+      "page_count": 2
+    },
+    {
+      "label": "تلوث التربة",
+      "start_page": 180,
+      "end_page": 180,
+      "page_count": 1
+    },
+    {
+      "label": "مشكلات استنزاف الموارد البيئية",
+      "start_page": 181,
+      "end_page": 185,
+      "page_count": 5
+    },
+    {
+      "label": "تقويم الوحدة السابعة",
+      "start_page": 186,
+      "end_page": 186,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة الثامنة - تاريخ الأرض",
+      "start_page": 187,
+      "end_page": 187,
+      "page_count": 1
+    },
+    {
+      "label": "العصور الرسوبية",
+      "start_page": 188,
+      "end_page": 190,
+      "page_count": 3
+    },
+    {
+      "label": "الأحافير",
+      "start_page": 191,
+      "end_page": 201,
+      "page_count": 11
+    },
+    {
+      "label": "التاريخ المطلق للصخور",
+      "start_page": 202,
+      "end_page": 206,
+      "page_count": 5
+    },
+    {
+      "label": "التقسيم الحديث للسجل الجيولوجي",
+      "start_page": 207,
+      "end_page": 208,
+      "page_count": 2
+    },
+    {
+      "label": "نبذة عن تاريخ الأرض",
+      "start_page": 209,
+      "end_page": 213,
+      "page_count": 5
+    },
+    {
+      "label": "جيولوجيا الجمهورية اليمنية",
+      "start_page": 214,
+      "end_page": 219,
+      "page_count": 6
+    },
+    {
+      "label": "تقويم الوحدة الثامنة",
+      "start_page": 220,
+      "end_page": 221,
+      "page_count": 2
+    }
+  ],
+  "unit_banner_candidates": [
+    {
+      "label": "الوحدة الأولى - الجهاز العصبي",
+      "start_page": 8,
+      "end_page": 8,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة الثانية - التنظيم الهرموني",
+      "start_page": 40,
+      "end_page": 40,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة الثالثة - التكاثر في الكائنات الحية",
+      "start_page": 61,
+      "end_page": 61,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة الرابعة - أساسيات علم الوراثة",
+      "start_page": 96,
+      "end_page": 96,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة الخامسة - الوراثة الجزيئية",
+      "start_page": 131,
+      "end_page": 131,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة السادسة - التقانة الحيوية",
+      "start_page": 144,
+      "end_page": 144,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة السابعة - البيئة ومشكلاتها",
+      "start_page": 162,
+      "end_page": 162,
+      "page_count": 1
+    },
+    {
+      "label": "الوحدة الثامنة - تاريخ الأرض",
+      "start_page": 187,
+      "end_page": 187,
+      "page_count": 1
+    }
+  ],
+  "nonlesson_title_candidates": [
+    {
+      "label": "تقويم الوحدة الأولى",
+      "start_page": 38,
+      "end_page": 39,
+      "page_count": 2
+    },
+    {
+      "label": "تقويم الوحدة الثانية",
+      "start_page": 60,
+      "end_page": 60,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة الثالثة",
+      "start_page": 93,
+      "end_page": 95,
+      "page_count": 3
+    },
+    {
+      "label": "تقويم الوحدة الرابعة",
+      "start_page": 129,
+      "end_page": 130,
+      "page_count": 2
+    },
+    {
+      "label": "تقويم الوحدة الخامسة",
+      "start_page": 143,
+      "end_page": 143,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة السادسة",
+      "start_page": 161,
+      "end_page": 161,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة السابعة",
+      "start_page": 186,
+      "end_page": 186,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة الثامنة",
+      "start_page": 220,
+      "end_page": 221,
+      "page_count": 2
+    }
+  ],
+  "lesson_boundaries_status": "NOT VERIFIED",
+  "unit_boundaries_status": "NOT VERIFIED",
+  "question_linkage_status": "NOT VERIFIED",
+  "semantic_question_review": "NOT VERIFIED",
+  "raw_mutations": 0,
+  "imports_created": 0,
+  "publications_created": 0,
+  "next_operation": "Inspect exact-master filename/title runs plus all contact sheets. Promote only evidence-backed units/lessons/non-lesson pages; otherwise retain NOT VERIFIED/review_required."
+}
