@@ -221,17 +221,17 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 ## 10. ACTIVE CHECKPOINT
 
-- state: `BLOCKED_SCHEMA_POLICY_FAIL_CLOSED`
+- state: `READY_NEXT_SOURCE`
 - branch: `content/corpus-inventory-20260914`
-- latest evidence HEAD before this handoff tooling: `8e2d8e3cc922e2455b85559c60578cc40c048301`
-- last completed source: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`
-- current source: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`
-- current source baseline from live manifest: `status=empty; 0 pages, 0 images, 0 legacy questions, 0 download failures; anomaly arrays empty; pages.json=[]; subject identity matches manifest.`
-- current source verified work: `EMPTY RETAINED PAYLOAD VERIFIED. A fail-closed evidence artifact was recorded. Book/Unit/Lesson/page structure remains NOT VERIFIED; technical image verification is NOT APPLICABLE because there are zero image references.`
-- current operation: `Resolve the schema-policy blocker first: define or discover an evidence-backed canonical verified-empty source disposition in the repository reconstruction/MASTER contract. Apply no invented status and increment no canonical counter before that contract exists.`
-- next source: `NOT YET RESOLVED — do not advance while the current source lacks a canonical disposition.`
-- blockers: `Non-transient schema-policy blocker: current retained payload is genuinely empty and the live MASTER/status schema has no canonical verified-empty source disposition.`
-- owner decision required now: `repository contract decision required before source progression`
+- latest evidence HEAD before this handoff tooling: `7d1f2344821e6caeacfe7ddd84ff34a2307cb7c4`
+- last completed source: `e36ec148-0913-4bcc-a35c-268d464fecab — كتاب الإسلامية - الجزء الثاني`
+- current source: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`
+- current source baseline from live MASTER: `214 pages / 214 images / 3304 legacy questions / 0 download failures; anomaly arrays empty.`
+- current source verified work: `NOT STARTED in this run; do not inherit any Islamic or mathematics structure.`
+- current operation: `Re-fetch live HEAD and baton; confirm no active workflow for Biology book; technically verify all 214 immutable RAW images, establish exact source identity and source-local Book/Unit/Lesson/non-lesson boundaries, map the 3304 legacy questions only where page membership is proven, quarantine ambiguity as review_required/NOT VERIFIED, assert the 25,755 invariant, then checkpoint.`
+- next source: `Resolve only after Biology book finalization from live MASTER.`
+- blockers: `none`
+- verified-empty policy: `content-staging/reconstruction/VERIFIED_EMPTY_SOURCE_DISPOSITION_POLICY.json — verified_empty_retained_source counts as processed source + processed educational source, but never as a verified Book/Unit/Lesson/page structure.`
 
 ---
 
@@ -1549,4 +1549,53 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `NOT YET RESOLVED`
 - blockers: `Canonical empty-source disposition is absent from the live MASTER/status contract; this is a semantic/schema-policy blocker, not a transient execution failure.`
 - handoff note: `Worker A must not rerun content discovery against this empty payload and must not skip to another source. Resolve the disposition contract first; preserve all canonical counters until then.`
+
+## RUN 2026-09-14T20:32:35+03:00 — Worker A
+
+- state: COMPLETE
+- start HEAD: `1936f471e4313113f5715dfbc9216eaa4bcac27b`
+- end HEAD before handoff-log commit: `7d1f2344821e6caeacfe7ddd84ff34a2307cb7c4`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`
+- completed in this run:
+  - verified Worker B's fail-closed empty-source handoff against live HEAD, MASTER and retained files;
+  - resolved the schema-policy blocker conservatively by defining canonical `verified_empty_retained_source` disposition that separates source-processing completion from semantic Book/Unit/Lesson verification;
+  - finalized Islamic Part 1 as a verified retained-empty source without fabricating any educational structure;
+  - independently verified Islamic Part 2 has the same evidence-backed retained-empty payload and finalized it under the same contract;
+  - advanced only after both dispositions were recorded canonically, then resolved Biology book as the next source from live MASTER order.
+- evidence produced/verified:
+  - `content-staging/reconstruction/VERIFIED_EMPTY_SOURCE_DISPOSITION_POLICY.json`;
+  - updated `content-staging/reconstruction/educational/b6ce737e-26d4-4219-a607-27bfb7d2f518-empty-source-analysis.json`;
+  - new `content-staging/reconstruction/educational/e36ec148-0913-4bcc-a35c-268d464fecab-empty-source-analysis.json`;
+  - MASTER entries carry `source_disposition=verified_empty_retained_source`;
+  - Part 1 and Part 2 each: status=empty, pages.json=[], 0 pages/images/questions/failures, empty anomaly arrays, matching subject identity.
+- ambiguity/review_required:
+  - Book identity beyond the retained legacy labels, Units, Lessons and page boundaries remain `NOT VERIFIED` for both empty sources;
+  - technical image verification is `NOT APPLICABLE` because image references are zero.
+- invariant result: PASS
+- Sources processed: 27/58
+- Educational: 14/26
+- Books / Units / Lessons / Lesson Pages: 12 / 40 / 236 / 1,161
+- Exam Source Groups: 13/32
+- Individual Exam Models: 206
+- Exam Pages: 668/2,286
+- Verified Answer Keys: 0
+- Source images technical: 1,986/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 7,511
+- Exam-linked: 1,132
+- Review-required: 448
+- Unclassified: 16,664
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `e36ec148-0913-4bcc-a35c-268d464fecab — كتاب الإسلامية - الجزء الثاني`
+- current source: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`
+- exact next operation: `Re-fetch live HEAD/baton; confirm no active Biology workflow; technically verify 214 immutable RAW images; prove source identity and structure only from Biology evidence; map 3304 questions only to proven page membership; preserve uncertainty; assert global invariant; finalize and continue.`
+- next source: `NOT YET RESOLVED — resolve after Biology finalization.`
+- blockers: `none`
+- handoff note: `Worker B should verify the new verified-empty policy and both Islamic empty dispositions, then begin Biology from its own evidence. Do not count either empty Islamic source as a verified book and do not infer any missing content.`
 
