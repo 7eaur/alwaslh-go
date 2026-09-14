@@ -1,0 +1,88 @@
+name: Discover Science Exam 1447 Boundaries
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/discover-science-exam-1447.yml'
+      - 'content-staging/tools/verify_subject_media.py'
+      - 'content-staging/tools/discover_exam_source_group.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-science-exam-1447
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install image validation dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Verify source-group media without RAW mutations
+        run: |
+          set -euo pipefail
+          python content-staging/tools/verify_subject_media.py \
+            --subject-id 14ef15e0-5524-473a-bbdb-996df35ba535
+
+      - name: Discover source-local boundary candidates and render complete visual evidence
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts/science-exam-1447
+          python content-staging/tools/discover_exam_source_group.py \
+            --subject-id 14ef15e0-5524-473a-bbdb-996df35ba535 \
+            --visual-dir artifacts/science-exam-1447
+
+      - name: Summarize discovery without inferring boundaries
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          subject = '14ef15e0-5524-473a-bbdb-996df35ba535'
+          tech = json.loads(Path(f'content-staging/reconstruction/technical/{subject}.json').read_text(encoding='utf-8'))
+          discovery = json.loads(Path(f'content-staging/reconstruction/exams/source-groups/{subject}-discovery.json').read_text(encoding='utf-8'))
+          print('SCIENCE_1447_DISCOVERY_PASS')
+          print(json.dumps({'technical': tech, 'discovery': discovery}, ensure_ascii=False))
+          PY
+
+      - name: Upload discovery evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: science-exam-1447-boundary-evidence
+          path: |
+            artifacts/science-exam-1447/
+            content-staging/reconstruction/technical/14ef15e0-5524-473a-bbdb-996df35ba535.json
+            content-staging/reconstruction/exams/source-groups/14ef15e0-5524-473a-bbdb-996df35ba535-discovery.json
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Commit technical/discovery reports only
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add \
+            content-staging/reconstruction/technical/14ef15e0-5524-473a-bbdb-996df35ba535.json \
+            content-staging/reconstruction/exams/source-groups/14ef15e0-5524-473a-bbdb-996df35ba535-discovery.json
+          if git diff --cached --quiet; then
+            echo 'Derived discovery reports unchanged.'
+            exit 0
+          fi
+          git commit -m 'content: discover science 1447 exam boundary candidates [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
