@@ -223,13 +223,13 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 - state: `READY_FOR_NEXT_SOURCE`
 - branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `dde5a8b873741eea058d91f9e0a25b9b2e8ab96f`
-- last completed source: `6a8ea7f2-1e77-4654-a28c-0ea1b82b4830 — الفقه الكتاب المدرسي`
-- current source: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`
-- current source baseline from live manifest: `42 pages/images, 28 legacy questions, 0 download failures; all manifest anomaly arrays are empty. Technical verification, exam-model boundaries, correction/answer-key status, and question placement remain NOT VERIFIED.`
-- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for 0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199; technically verify all 42 immutable RAW images; generate complete ordered visual evidence; discover Individual Exam Model boundaries and correction/result/Answer-Key evidence only from Mathematics 1445 itself; structurally map 28 legacy questions only where page/model membership is proven; preserve uncertainty as review_required or NOT VERIFIED; reassert the 25,755 invariant.`
-- next source: `Resolve from live MASTER_CONTENT_MANIFEST only after Mathematics 1445 is safely finalized.`
-- blockers: `none at handoff; do not inherit any prior exam occurrence pattern into Mathematics 1445.`
+- latest verified work HEAD before this handoff commit: `fb8aa7338e10e9286f804466cbfde01c8d205333`
+- last completed source: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`
+- current source: `85c13f3f-fe85-47c3-affb-fb437d10d908 — الرياضيات نماذج وزارية 1446`
+- current source baseline from live manifest: `39 pages, 39 images, 25 legacy questions, 0 download failures; anomaly arrays preserved: {"duplicate_page_numbers": [16, 29], "invalid_subject_ids": [], "malformed_ai_questions": [], "malformed_image_urls": [], "missing_images": [], "multiple_images": [], "null_or_invalid_page_numbers": []}`
+- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for 85c13f3f-fe85-47c3-affb-fb437d10d908; read live manifest/pages; technically verify immutable RAW; scan duplicates/numbering; generate ordered exam-boundary evidence; resolve Individual Exam Models/correction/Answer-Key evidence only from this source; map questions only where membership is proven; quarantine uncertainty; assert 25,755 invariant; checkpoint and continue.`
+- next source: `Resolve from live MASTER_CONTENT_MANIFEST only after the current source is safely finalized.`
+- blockers: `none for forward progress; Mathematics 1445 pages 40..42 remain quarantined review_required and must not be silently merged or renumbered.`
 - owner decision required now: `no`
 
 ---
@@ -1192,4 +1192,52 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `NOT YET RESOLVED — derive only after Mathematics 1445 from live MASTER_CONTENT_MANIFEST`
 - blockers: `none at handoff.`
 - handoff note: `Worker A starts from Mathematics 1445 only after re-fetching live HEAD/baton. Do not rerun Fiqh absent fresh drift evidence; do not inherit prior exam grouping patterns.`
+
+## RUN 2026-09-14T17:32:46+03:00 — Worker A
+
+- state: COMPLETE
+- start HEAD: `ffaac8bb65705533bded9b634164ede2b6923905`
+- end HEAD: `fb8aa7338e10e9286f804466cbfde01c8d205333`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`
+- completed in this run:
+  - verified Worker B's live handoff and continued from Mathematics 1445;
+  - technically verified 42/42 RAW images and contiguous pages 1..42;
+  - generated discovery/contact-sheet, metadata/provenance and repeated-label pixel evidence;
+  - verified models 1..13 on pages 1..39 from explicit source-local titles;
+  - quarantined pages 40..42 because they repeat model-12 labels with distinct binaries and semantic identity remains NOT VERIFIED; no merge or invented model 14;
+  - structurally linked 28/28 questions to verified model 1; semantic correctness NOT VERIFIED;
+  - updated reconstruction, MASTER and reconstruction/status evidence through exact-head guarded finalization.
+- evidence produced/verified:
+  - technical report, discovery report, metadata evidence, repeated-label evidence and final reconstruction under `content-staging/reconstruction/.../0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199*`;
+  - discovery runs `34855070932`, `34855530204`; finalization run `34855799041` succeeded.
+- ambiguity/review_required:
+  - pages 40..42 remain `review_required`; repeated model-12 semantic identity NOT VERIFIED;
+  - standalone official Answer Keys and semantic AI-question correctness remain NOT VERIFIED.
+- invariant result: PASS
+- Sources processed: 21/58
+- Educational: 10/26
+- Books / Units / Lessons / Lesson Pages: 10 / 33 / 196 / 877
+- Exam Source Groups: 11/32
+- Individual Exam Models: 179
+- Exam Pages: 587/2,286
+- Verified Answer Keys: 0
+- Source images technical: 1584/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 6891
+- Exam-linked: 995
+- Review-required: 351
+- Unclassified: 17518
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`
+- current source: `85c13f3f-fe85-47c3-affb-fb437d10d908 — الرياضيات نماذج وزارية 1446`
+- exact next operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for 85c13f3f-fe85-47c3-affb-fb437d10d908; read live manifest/pages; technically verify immutable RAW; scan duplicates/numbering; generate ordered exam-boundary evidence; resolve Individual Exam Models/correction/Answer-Key evidence only from this source; map questions only where membership is proven; quarantine uncertainty; assert 25,755 invariant; checkpoint and continue.`
+- next source: `Resolve only after current source finalization.`
+- blockers: `none for forward progress; isolated Math 1445 review_required block intentionally remains unresolved.`
+- handoff note: `Worker B must re-fetch live HEAD and this baton, verify Math 1445 counters/evidence, then start 85c13f3f-fe85-47c3-affb-fb437d10d908 from its own evidence without inheriting Math 1445 boundaries.`
 
