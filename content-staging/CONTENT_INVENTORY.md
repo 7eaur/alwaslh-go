@@ -275,3 +275,16 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - Source images technical **1,174/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`.
 <!-- GEOGRAPHY_BOOK_CHECKPOINT_END -->
+
+<!-- FAITH_BOOK_CHECKPOINT_START -->
+## Reconstruction checkpoint — Faith Book
+
+- Sources processed: **16/58**; Educational: **7/26**; Exam Source Groups: **9/32**.
+- Books / Units / Lessons / Lesson pages: **7 / 33 / 161 / 667**.
+- Faith source: **65/65** technically verified + exact SHA-identical to `master/التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور`.
+- Exact filename evidence establishes **10 lessons** and assigns **65/65 retained pages** to one lesson; no unit layer was asserted (`NOT VERIFIED`).
+- Questions: **976/976 structurally lesson-linked** by exact page membership; semantic correctness remains `NOT VERIFIED`.
+- Global question invariant: **3,350 + 967 + 351 + 21,087 = 25,755**.
+- Source images technical **1,239/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Next: `f25891fe-ea52-481b-baf2-ff4764c79bde — الاسلاميه ثانوي نماذج وزاريه 1447`.
+<!-- FAITH_BOOK_CHECKPOINT_END -->
