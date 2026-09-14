@@ -223,13 +223,13 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 - state: `READY_FOR_NEXT_SOURCE`
 - branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `556ffc76d0fb3d3fa632cbf0c1f678b986f8d4d7`
-- last completed source: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`
-- current source: `f25891fe-ea52-481b-baf2-ff4764c79bde — الاسلاميه ثانوي نماذج وزاريه 1447`
-- current source baseline from live manifest: `93 pages/images, 0 legacy questions, 0 download failures; manifest anomalies: duplicate_page_numbers=0, missing_images=0, multiple_images=0, malformed_ai_questions=0. Technical verification / source identity / reconstruction remain NOT VERIFIED unless live evidence says otherwise.`
-- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for this source; read its immutable manifest/pages/evidence; run technical verification first; establish source identity and book/exam boundaries only from source-specific evidence; structurally map questions only where page/model membership is proven; quarantine uncertainty as review_required/NOT VERIFIED.`
+- latest verified work HEAD before this handoff commit: `f404c5749fc3f96c27ed163ebdec095723df6711`
+- last completed source: `f25891fe-ea52-481b-baf2-ff4764c79bde — الاسلاميه ثانوي نماذج وزاريه 1447`
+- current source: `cae82d8f-64f9-4d2a-984f-6e6fd19fac5c — الحديث والتهذيب الكتاب `
+- current source baseline from live manifest: `62 pages/images, 1483 legacy questions, 0 download failures; manifest anomalies: duplicate_page_numbers=0, missing_images=0, multiple_images=0, malformed_ai_questions=0. Technical verification / source identity / reconstruction remain NOT VERIFIED unless live evidence says otherwise.`
+- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for this source; technically verify immutable media first; establish educational identity/structure only from source-specific evidence; structurally map its 1,483 legacy questions only where page membership proves placement; quarantine uncertainty as review_required/NOT VERIFIED; reassert the 25,755 invariant.`
 - next source: `Resolve from live manifest only after the current source is safely finalized.`
-- blockers: `none at handoff; the current source itself is NOT VERIFIED and must not inherit Faith structure.`
+- blockers: `none at handoff; do not inherit Islamic-exam three-page boundaries into the educational source.`
 - owner decision required now: `no`
 
 ---
@@ -980,3 +980,57 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for f25891fe-ea52-481b-baf2-ff4764c79bde; read its live manifest/pages; run full technical verification; establish identity/structure from its own source-specific evidence; then link questions only where evidence proves membership and reassert the 25,755 global invariant.`
 - blockers: `none at handoff.`
 - handoff note: `Worker B should start from f25891fe-ea52-481b-baf2-ff4764c79bde only after re-fetching live HEAD and this baton. Do not rerun/finalize Faith unless new drift evidence appears. Preserve Faith's unit hierarchy and semantic question review as NOT VERIFIED; do not upgrade those claims without new evidence.`
+
+## RUN 2026-09-14T15:04:58+03:00 — Worker A
+
+- state: COMPLETE_SOURCE_HANDOFF
+- start HEAD: `405c424792ff31dd66311328213dd23d10dc673e`
+- end HEAD before handoff-log commit: `f404c5749fc3f96c27ed163ebdec095723df6711`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `f25891fe-ea52-481b-baf2-ff4764c79bde — الاسلاميه ثانوي نماذج وزاريه 1447`
+- completed in this run:
+  - re-fetched live branch/baton and verified the preceding Geography/Faith state rather than redoing completed work;
+  - confirmed no active/queued workflow for this source before starting;
+  - technically verified **93/93** immutable RAW images (exist/readable/byte-size/SHA-256/MIME), sequence **1..93** contiguous;
+  - generated and visually reviewed complete contact-sheet evidence for all **93** pages;
+  - established **31** source-local three-page exam occurrences, each two question pages followed by one correction/result page, covering all 93 pages exactly once;
+  - preserved **6 exact-SHA duplicate groups** as provenance occurrences and did not merge or mutate RAW;
+  - finalized **31 Individual Exam Models / 93 Exam Pages**, **31 correction/result candidates**, **0 review-required pages**, and **0 verified standalone Answer Keys**; official model-code transcription remains `NOT VERIFIED`;
+  - source has **0 legacy questions**, so no question records were fabricated or mapped;
+  - updated master manifest plus evidence-backed status/handoff/validation/import-report documents; no production import/publication was created;
+  - discovery run `34840720032` and finalization run `34841162130` succeeded; both live-HEAD safety gates and global invariants passed.
+- evidence/artifacts:
+  - `content-staging/reconstruction/technical/f25891fe-ea52-481b-baf2-ff4764c79bde.json`;
+  - `content-staging/reconstruction/exams/source-groups/f25891fe-ea52-481b-baf2-ff4764c79bde-discovery.json`;
+  - `content-staging/reconstruction/exams/source-groups/f25891fe-ea52-481b-baf2-ff4764c79bde.json`;
+  - discovery workflow run `34840720032` (artifact `islamic-exam-1447-discovery-evidence`);
+  - finalization workflow run `34841162130` (success);
+  - final evidence/status commit `f404c5749fc3f96c27ed163ebdec095723df6711`.
+- ambiguity/review_required:
+  - standalone official Answer Keys: `NOT VERIFIED`;
+  - official model codes/titles/term transcription: `NOT VERIFIED`;
+  - exact-SHA duplicate question pages are preserved as distinct source occurrences inside visually complete exam blocks, not silently deduplicated;
+  - source legacy-question semantics: `NOT APPLICABLE — 0 legacy questions`.
+- invariant result: PASS (`3,350 + 967 + 351 + 21,087 = 25,755`)
+- Sources processed: 17/58
+- Educational: 7/26
+- Books / Units / Lessons / Lesson Pages: 7 / 33 / 161 / 667
+- Exam Source Groups: 10/32
+- Individual Exam Models: 166
+- Exam Pages: 548/2,286
+- Source images technical: 1,332/5,273
+- Legacy Questions: 25,755
+- Lesson-linked: 3,350
+- Exam-linked: 967
+- Review-required: 351
+- Unclassified: 21,087
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `f25891fe-ea52-481b-baf2-ff4764c79bde — الاسلاميه ثانوي نماذج وزاريه 1447`
+- current/next source: `cae82d8f-64f9-4d2a-984f-6e6fd19fac5c — الحديث والتهذيب الكتاب `
+- current source live baseline: `62 pages/images, 1483 legacy questions, 0 download failures; manifest anomalies: duplicate_page_numbers=0, missing_images=0, multiple_images=0, malformed_ai_questions=0. Technical verification / source identity / reconstruction remain NOT VERIFIED unless live evidence says otherwise.`
+- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for cae82d8f-64f9-4d2a-984f-6e6fd19fac5c; technically verify all 62 images; prove source identity/lesson or unit boundaries from its own evidence; map 1,483 questions only where page membership is proven; preserve uncertainty as review_required/NOT VERIFIED; assert the global invariant; checkpoint.`
+- blockers: `none at handoff.`
+- handoff note: `Worker B should start only from cae82d8f-64f9-4d2a-984f-6e6fd19fac5c after re-fetching live HEAD and this baton. Do not rerun Islamic 1447 absent new drift evidence, and do not treat the six duplicate SHA groups as permission to delete or merge provenance.`
