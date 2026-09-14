@@ -255,3 +255,11 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - **138/138** source questions are structurally linked to the lesson whose verified page range contains the legacy page; semantic correctness remains `NOT VERIFIED`.
 - Current `master` History parts are not content-equivalent to this RAW and remain reference-only for this source.
 <!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->
+
+<!-- CIVICS_BOOK_CHECKPOINT_START -->
+## Verified reconstruction checkpoint — Grade 9 Civics
+
+- Legacy source `7f02b242-5164-46d1-a82d-7f1023cfa8c9` is exactly identified as `master/تاسع إجتماعيات/التربية_الوطنية_تاسع` for all **59 retained images** by SHA-256.
+- Reconstructed structure: **4 Units, 14 Lessons, 48 Lesson pages, 4 Unit covers, 7 Unit reviews, 0 non-lesson pages**.
+- Source has **0** legacy questions in the verified manifest/pages dataset.
+<!-- CIVICS_BOOK_CHECKPOINT_END -->

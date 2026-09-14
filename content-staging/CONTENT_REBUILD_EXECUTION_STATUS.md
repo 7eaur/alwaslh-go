@@ -423,3 +423,21 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - Last completed: `0a76f44b-0a4f-4e36-9ea9-badecf78bf23 — التاريخ الكتاب المدرسي`.
 - Next: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`.
 <!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->
+
+<!-- CIVICS_BOOK_CHECKPOINT_START -->
+## Reconstruction checkpoint — Grade 9 Civics
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Sources processed: **14/58**; Educational: **5/26**; Exam Source Groups: **9/32**.
+- Books / Units / Lessons / Lesson pages: **5 / 29 / 133 / 508**.
+- Civics: **59/59** technically verified images and **59/59** unique exact RAW/master SHA identities.
+- Exact retained mapping: stored pages **6..64** -> master source pages **7..65**.
+- Reconstructed source: **1 Book, 4 Units, 14 Lessons, 48 Lesson pages, 4 Unit-cover pages, 7 Unit-review pages, 0 non-lesson pages**.
+- Questions: source contains **0** legacy questions; no question records fabricated.
+- Global questions unchanged: Lesson-linked **2,374**; Exam-linked **967**; Review-required **351**; Unclassified **22,063** = **25,755**.
+- Individual Exam Models **135**; Exam Pages **455/2,286**; Verified Answer Keys **0**.
+- Source images technical **1,070/5,273**; WebP **0/0/0**; Duplicate groups **0/99**.
+- RAW / unrelated / imports / publications: **0/0/0/0**.
+- Last completed: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`.
+- Next: `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`.
+<!-- CIVICS_BOOK_CHECKPOINT_END -->

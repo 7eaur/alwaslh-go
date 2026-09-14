@@ -361,3 +361,14 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - Exact next operation: fetch the live National Education manifest/pages; technical verification first; establish source identity only from its own evidence; reconstruct explicit book/section/unit/lesson/review boundaries without inheriting History patterns; map questions only where page membership is proven; assert global invariant; checkpoint.
 - RAW/unrelated/import/publication mutations remain **0/0/0/0**.
 <!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->
+
+<!-- CIVICS_BOOK_CHECKPOINT_START -->
+## Active reconstruction handoff — Civics complete
+
+- Last completed: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`.
+- Verified: **59/59** technical + unique exact master SHA identity; **4 Units / 14 Lessons / 48 Lesson pages / 4 covers / 7 reviews / 0 non-lesson pages**.
+- Questions: source contains **0 legacy questions**; no fabricated links; semantic question review `NOT APPLICABLE`.
+- Current/next: `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`.
+- Exact next operation: fetch that source's live manifest/pages, verify immutable media, then reconstruct only evidence-backed boundaries from its own exact source/master evidence.
+- RAW/unrelated/import/publication mutations remain **0/0/0/0**.
+<!-- CIVICS_BOOK_CHECKPOINT_END -->

@@ -380,3 +380,9 @@ Continue with `8489a487-91d9-47fb-80b8-35d0e7a074a4 — الانجليزي نم�
 
 Continue with `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`; do not rerun History absent fresh drift evidence. Current verified global progress: **13/58 sources; 4/26 educational; 9/32 exam groups; 1,011/5,273 technical images; 2,374 lesson-linked; 967 exam-linked; 351 review-required; 22,063 unclassified**. History master equivalence remains `NOT VERIFIED`, but source-local structure is independently verified from immutable RAW evidence.
 <!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->
+
+<!-- CIVICS_BOOK_CHECKPOINT_START -->
+## Continuation checkpoint — Civics complete
+
+Continue with `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`; do not rerun Civics absent new drift evidence. Current verified global progress: **14/58 sources; 5/26 educational; 9/32 exam groups; 1,070/5,273 technical images; 2,374 lesson-linked; 967 exam-linked; 351 review-required; 22,063 unclassified**.
+<!-- CIVICS_BOOK_CHECKPOINT_END -->

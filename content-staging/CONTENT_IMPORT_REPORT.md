@@ -169,3 +169,12 @@ The History source-local reconstruction is verified, but the corpus remains `REC
 - New imports: **0**; new publications: **0**; production mutations: **0**; RAW mutations: **0**.
 - Import readiness remains deferred until corpus reconstruction/boundary discovery is complete.
 <!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->
+
+<!-- CIVICS_BOOK_CHECKPOINT_START -->
+## Civics reconstruction checkpoint — no import performed
+
+The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_IN_PROGRESS_NOT_IMPORT_READY`.
+
+- New imports: **0**; new publications: **0**; production mutations: **0**; RAW mutations: **0**.
+- Import readiness remains deferred until corpus reconstruction/boundary discovery is complete.
+<!-- CIVICS_BOOK_CHECKPOINT_END -->

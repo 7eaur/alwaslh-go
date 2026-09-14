@@ -199,3 +199,13 @@ Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson
 - Master-equivalence status: `NOT VERIFIED`; 0/61 exact SHA and 0 strong global visual matches against the currently indexed 211 master History pages.
 - RAW mutations: **0**.
 <!-- HISTORY_SOURCE_LOCAL_CHECKPOINT_END -->
+
+<!-- CIVICS_BOOK_CHECKPOINT_START -->
+## Grade 9 Civics reconstruction validation
+
+- Technical verification: **59/59** files exist, readable, size/SHA/MIME match.
+- Exact reference identity: **59/59** RAW images equal unique images in the exact Civics master reference by SHA-256.
+- Structure: **4 Units / 14 Lessons / 48 Lesson pages / 4 covers / 7 reviews / 0 non-lesson pages**; every retained page is classified exactly once.
+- Questions: **0** source questions; no fabricated question links.
+- RAW mutations: **0**.
+<!-- CIVICS_BOOK_CHECKPOINT_END -->

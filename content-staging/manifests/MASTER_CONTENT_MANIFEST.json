@@ -1030,8 +1030,8 @@
         "id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
         "name": "التربية الوطنية"
       },
-      "classification": "educational_source_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "educational_book_source",
+      "classification_evidence": "59/59 unique exact RAW/master SHA identity + exact master section/title runs",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/7f02b242-5164-46d1-a82d-7f1023cfa8c9/manifest.json",
       "manifest_sha256_recorded": "c8c73a4924f9af38c055563715eb202e06a1831c04db55ff9c6915bfee302f81",
       "counts": {
@@ -1050,12 +1050,46 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "reconstructed_verified",
       "modern_entity_id": null,
       "exam_models": null,
       "answer_keys": null,
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/7f02b242-5164-46d1-a82d-7f1023cfa8c9.json",
+        "images_verified": 59,
+        "readable": 59,
+        "sha256_match_manifest": 59,
+        "mime_match_manifest": 59,
+        "duplicate_sha_groups_within_source": 0
+      },
+      "reconstruction": {
+        "status": "verified",
+        "path": "content-staging/reconstruction/educational/7f02b242-5164-46d1-a82d-7f1023cfa8c9.json",
+        "book_title": "التربية الوطنية",
+        "retained_page_range": [
+          6,
+          64
+        ],
+        "source_reference_page_range": [
+          7,
+          65
+        ],
+        "retained_pages": 59,
+        "units": 4,
+        "lessons": 14,
+        "lesson_pages": 48,
+        "unit_cover_pages": 4,
+        "unit_review_pages": 7,
+        "non_lesson_pages": 0,
+        "legacy_questions": 0,
+        "structurally_lesson_linked_questions": 0,
+        "review_required_questions": 0,
+        "semantic_question_review": "NOT APPLICABLE",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "a7f1e94f-82d1-4146-af5b-4e9b51363f0b",
@@ -2790,21 +2824,21 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 13,
+    "sources_completed": 14,
     "sources_total": 58,
-    "educational_sources_completed": 4,
+    "educational_sources_completed": 5,
     "educational_sources_total": 26,
-    "verified_books": 4,
-    "verified_units": 25,
-    "verified_lessons": 119,
-    "verified_lesson_pages": 460,
+    "verified_books": 5,
+    "verified_units": 29,
+    "verified_lessons": 133,
+    "verified_lesson_pages": 508,
     "exam_source_groups_completed": 9,
     "exam_source_groups_total": 32,
     "individual_exam_models": 135,
     "exam_pages_completed": 455,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 1011,
+    "source_images_technically_verified": 1070,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,

@@ -1,0 +1,934 @@
+{
+  "schema_version": 1,
+  "operation": "civics_exact_master_identity_and_structure_discovery",
+  "subject_id": "7f02b242-5164-46d1-a82d-7f1023cfa8c9",
+  "source_name": "التربية الوطنية",
+  "classification": "educational_book_source",
+  "raw_image_count": 59,
+  "raw_sha_verified_count": 59,
+  "master_reference_path": "master/تاسع إجتماعيات/التربية_الوطنية_تاسع",
+  "master_manifest_entries": 66,
+  "exact_sha_identity_count": 59,
+  "identity_status": "VERIFIED",
+  "stored_page_range": [
+    6,
+    64
+  ],
+  "source_reference_page_range": [
+    7,
+    65
+  ],
+  "master_only_source_pages_outside_retained_slice": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    66
+  ],
+  "page_map": [
+    {
+      "stored_page_number": 6,
+      "legacy_page_id": "6a41fa04-855d-47d9-bbf5-a6074c5fd9e2",
+      "raw_sha256": "7b8a7ea35d1a6ecefedeee5016ed6a7827699270c2e60492c36317b32992eb60",
+      "source_page": 7,
+      "book_page": 6,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "الشباب والعادات غير الصحية",
+      "master_relative_path": "الصور/ص006 - الشباب والعادات غير الصحية.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 7,
+      "legacy_page_id": "91fb135c-4224-49c7-9668-9d660a738711",
+      "raw_sha256": "3c4b5f76b9a996b9fac56feebaf71979504e0ff7bb9efd823926c1c21dae6eb4",
+      "source_page": 8,
+      "book_page": 7,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "مرحلة الشباب",
+      "master_relative_path": "الصور/ص007 - مرحلة الشباب.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 8,
+      "legacy_page_id": "ec65e192-2246-4e25-b0bf-d80b282137b9",
+      "raw_sha256": "b9af3fd74a2dabce6659803abadc3b1fd4592c8a167a63ba4c52e6e2bafc7054",
+      "source_page": 9,
+      "book_page": 8,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "مرحلة الشباب",
+      "master_relative_path": "الصور/ص008 - مرحلة الشباب.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 9,
+      "legacy_page_id": "1a46041e-0f6e-4202-8c2f-a1b79afe9a3f",
+      "raw_sha256": "9df1d3604e32a5b63d6c92c967ed3bc9f53af63ccb9aa16746f73dbcf4ae9ab9",
+      "source_page": 10,
+      "book_page": 9,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "مرحلة الشباب",
+      "master_relative_path": "الصور/ص009 - مرحلة الشباب.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 10,
+      "legacy_page_id": "9b75bfe0-73a1-4045-9076-f75b85295220",
+      "raw_sha256": "3f4236521346ac4221934c7f2d7923ec7986bb17828ffc455a0f6bd8de62d3a9",
+      "source_page": 11,
+      "book_page": 10,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "مرحلة الشباب",
+      "master_relative_path": "الصور/ص010 - مرحلة الشباب.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 11,
+      "legacy_page_id": "3f6b120b-d3a7-43fc-8c7b-91e163ec1059",
+      "raw_sha256": "56b39dd2bc6a187289f9eecabcb72847f2f1c43fb93915e2ddcc3a7705f7602b",
+      "source_page": 12,
+      "book_page": 11,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "عقل الإنسان وجسمه",
+      "master_relative_path": "الصور/ص011 - عقل الإنسان وجسمه.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 12,
+      "legacy_page_id": "e43e8a71-2286-4d54-b617-e8dbc5ba9a38",
+      "raw_sha256": "c602e3052ffc9dc1c731cfde01ab3a4273f04ab6a95f9a0e532868335ab62bd1",
+      "source_page": 13,
+      "book_page": 12,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "عقل الإنسان وجسمه",
+      "master_relative_path": "الصور/ص012 - عقل الإنسان وجسمه.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 13,
+      "legacy_page_id": "f32b7600-c8ce-40b6-9971-09370977e58b",
+      "raw_sha256": "4ed9cb6c9f0cb22cc5ec93a027ab843854ba1f4c0412b2438f6f8259db98fc87",
+      "source_page": 14,
+      "book_page": 13,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "عقل الإنسان وجسمه",
+      "master_relative_path": "الصور/ص013 - عقل الإنسان وجسمه.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 14,
+      "legacy_page_id": "df2a5f7c-598d-4c72-bca3-51705a5895d6",
+      "raw_sha256": "0fb865d1767016c3dc15bceffa4b037c2d6c2261f14307c51ded8afd00f3ce7b",
+      "source_page": 15,
+      "book_page": 14,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "عقل الإنسان وجسمه",
+      "master_relative_path": "الصور/ص014 - عقل الإنسان وجسمه.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 15,
+      "legacy_page_id": "cb312fb3-c892-4521-a906-d238b716a1cf",
+      "raw_sha256": "31f0cd38b826202bb868e608bc7862762d1353e24375fab701f5b269b091562c",
+      "source_page": 16,
+      "book_page": 15,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "العادات غير الصحية وطرق معالجتها",
+      "master_relative_path": "الصور/ص015 - العادات غير الصحية وطرق معالجتها.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 16,
+      "legacy_page_id": "04f2bd22-69e9-49d3-88bc-f2338a14bd67",
+      "raw_sha256": "98b1f73d59516045bc8d3cbdf210b381fc00fdab34bc5cc15aa58b0ded673d0e",
+      "source_page": 17,
+      "book_page": 16,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "العادات غير الصحية وطرق معالجتها",
+      "master_relative_path": "الصور/ص016 - العادات غير الصحية وطرق معالجتها.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 17,
+      "legacy_page_id": "0c7a86c1-30b9-489b-9e23-880a13a4b870",
+      "raw_sha256": "19285d63ca0bb2de076fd791f5feee14e7220db4b50160f7fd5084e7a18c6842",
+      "source_page": 18,
+      "book_page": 17,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "العادات غير الصحية وطرق معالجتها",
+      "master_relative_path": "الصور/ص017 - العادات غير الصحية وطرق معالجتها.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 18,
+      "legacy_page_id": "eca86654-b24b-466e-9e8d-b65283ea7896",
+      "raw_sha256": "977f0189936d2fc03c217440f856eaaf75088a5327a8e2913f7c05d9312344d0",
+      "source_page": 19,
+      "book_page": 18,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "العادات غير الصحية وطرق معالجتها",
+      "master_relative_path": "الصور/ص018 - العادات غير الصحية وطرق معالجتها.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 19,
+      "legacy_page_id": "fff89416-0165-48b0-92c6-1089a27ae11d",
+      "raw_sha256": "aece55ae5bfcc4de4aa1e5d9519f9b90993ef167021acb0944c7c7a1388f7118",
+      "source_page": 20,
+      "book_page": 19,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "تقويم الوحدة الأولى",
+      "master_relative_path": "الصور/ص019 - تقويم الوحدة الأولى.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 20,
+      "legacy_page_id": "a3757c27-f4c6-4703-85e8-c2cb8dfeb225",
+      "raw_sha256": "547dde7eabccea14fb0db7c86c199a7896095aba7e87923d153a09a3199dac37",
+      "source_page": 21,
+      "book_page": 20,
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "title": "تقويم الوحدة الأولى",
+      "master_relative_path": "الصور/ص020 - تقويم الوحدة الأولى.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 21,
+      "legacy_page_id": "898e1a7b-dd83-4ca8-b1ee-9282d1208158",
+      "raw_sha256": "aa57174de6339cc2ab643cfffe27154374fe5e0c96ec8f4af0236e64394e59a1",
+      "source_page": 22,
+      "book_page": 21,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "الظواهر الاجتماعية والأسرة اليمنية",
+      "master_relative_path": "الصور/ص021 - الظواهر الاجتماعية والأسرة اليمنية.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 22,
+      "legacy_page_id": "bef26013-6d4d-460a-a49b-da9f2a7f411c",
+      "raw_sha256": "eb270a0ca9426bae82ecdf80f328cca9150c7f80ed29a54719d20cc5639f4c5c",
+      "source_page": 23,
+      "book_page": 22,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "عمل الأطفال",
+      "master_relative_path": "الصور/ص022 - عمل الأطفال.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 23,
+      "legacy_page_id": "d19c975c-1bbc-45b4-9f67-0231492269de",
+      "raw_sha256": "22e419ef6adfa40279213ef18b423869be3075087c54d44078ad79b26825dea2",
+      "source_page": 24,
+      "book_page": 23,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "عمل الأطفال",
+      "master_relative_path": "الصور/ص023 - عمل الأطفال.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 24,
+      "legacy_page_id": "573cf175-8bf0-4c48-8cba-ae0ebfdf78a3",
+      "raw_sha256": "cf31b7d126b74638f94e1b309aaa52256abfa6ec5b9beffe4d7405bb183ec558",
+      "source_page": 25,
+      "book_page": 24,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "عمل الأطفال",
+      "master_relative_path": "الصور/ص024 - عمل الأطفال.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 25,
+      "legacy_page_id": "97f5f39e-6815-4faf-ac02-e63aa71db51f",
+      "raw_sha256": "9f87f5f10f82eeaa58fb9ab18787975a01e581abb5ef5ae602c19d557ffd369f",
+      "source_page": 26,
+      "book_page": 25,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "اغتراب رب الأسرة",
+      "master_relative_path": "الصور/ص025 - اغتراب رب الأسرة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 26,
+      "legacy_page_id": "acb7286c-128a-44a0-9b6a-8eddebe71663",
+      "raw_sha256": "1f614f591dc7e1db17c2686cfd7b457dd8a914e9974357783bfcb015563a7ecc",
+      "source_page": 27,
+      "book_page": 26,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "اغتراب رب الأسرة",
+      "master_relative_path": "الصور/ص026 - اغتراب رب الأسرة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 27,
+      "legacy_page_id": "eca540b6-12be-4836-8e88-be37b73c9c7f",
+      "raw_sha256": "09367281a4b9e19a57c3f46ec5dcfef1c339089d48c973b8236c94d09d6b8247",
+      "source_page": 28,
+      "book_page": 27,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "اغتراب رب الأسرة",
+      "master_relative_path": "الصور/ص027 - اغتراب رب الأسرة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 28,
+      "legacy_page_id": "a763462c-89e7-4398-ab64-5d2aa4a36efe",
+      "raw_sha256": "d31c78639960e923437047e292a48808a8f9decfb66b4efc5759a8520c25adf6",
+      "source_page": 29,
+      "book_page": 28,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "اغتراب رب الأسرة",
+      "master_relative_path": "الصور/ص028 - اغتراب رب الأسرة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 29,
+      "legacy_page_id": "ac1ac0f7-4348-41d5-abc2-ac8329c815e4",
+      "raw_sha256": "8c3287fe23bb3a8461aaf40c19c08c13924fcbcbbd00ab256b4b0a7a3b9046c3",
+      "source_page": 30,
+      "book_page": 29,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "المغالاة في المهور",
+      "master_relative_path": "الصور/ص029 - المغالاة في المهور.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 30,
+      "legacy_page_id": "9e3f3ead-31cd-497c-926f-18768338778a",
+      "raw_sha256": "69791a9667ec2c6d6111717cd253dff8e405d9ee6dfd328cbc6ca1f2ef608e58",
+      "source_page": 31,
+      "book_page": 30,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "المغالاة في المهور",
+      "master_relative_path": "الصور/ص030 - المغالاة في المهور.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 31,
+      "legacy_page_id": "1611722b-5eff-477c-82a2-275b0bbbfb63",
+      "raw_sha256": "6ab32ab6c0772d50484a351655cad3a1b8d50b169d9804dac43939e945f33261",
+      "source_page": 32,
+      "book_page": 31,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "المغالاة في المهور",
+      "master_relative_path": "الصور/ص031 - المغالاة في المهور.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 32,
+      "legacy_page_id": "35a31b92-65c6-45e8-84b5-cabbd82e349a",
+      "raw_sha256": "6b8e85ab6b1db285f6922b2db673e92b94fd8cf3a45c193579696c34184e6d65",
+      "source_page": 33,
+      "book_page": 32,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "تقويم الوحدة الثانية",
+      "master_relative_path": "الصور/ص032 - تقويم الوحدة الثانية.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 33,
+      "legacy_page_id": "d8220d81-fbe0-4f3d-9feb-07125d1104ec",
+      "raw_sha256": "bd50e66aae1063f045f4a4daf9c773a5e05c2023cb2e827bef7b9f3889b75851",
+      "source_page": 34,
+      "book_page": 33,
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "title": "تقويم الوحدة الثانية",
+      "master_relative_path": "الصور/ص033 - تقويم الوحدة الثانية.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 34,
+      "legacy_page_id": "213f8e11-6adc-4e85-b602-a1afd3514715",
+      "raw_sha256": "26e9061b9a58449a256aeb3eff19d3950a9077c9faf215925e4a79f1ede6441c",
+      "source_page": 35,
+      "book_page": 34,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل العربي الإسلامي وأهميته ومجالاته",
+      "master_relative_path": "الصور/ص034 - التكامل العربي الإسلامي وأهميته ومجالاته.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 35,
+      "legacy_page_id": "b3760eb9-6111-44f7-b943-46627dcde80d",
+      "raw_sha256": "f85ac9558ef48cc2f0c40da05a9d7c17355afccff2bb59a531aa2ba479bc3fc3",
+      "source_page": 36,
+      "book_page": 35,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل العربي الإسلامي",
+      "master_relative_path": "الصور/ص035 - التكامل العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 36,
+      "legacy_page_id": "96be8e5b-9c9e-441a-a4fb-cae2933ebba3",
+      "raw_sha256": "3c9d622976d4c89dc14f0a04e896554a466fe890c9e8aa46ae7fa217719fe1eb",
+      "source_page": 37,
+      "book_page": 36,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل العربي الإسلامي",
+      "master_relative_path": "الصور/ص036 - التكامل العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 37,
+      "legacy_page_id": "0af6a65f-3fb2-4e71-9939-ef6c44366307",
+      "raw_sha256": "51dc9ff3969c59ec11307d9cb1abad1471ab05ce347f8015c2114d291cd2a19f",
+      "source_page": 38,
+      "book_page": 37,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل العربي الإسلامي",
+      "master_relative_path": "الصور/ص037 - التكامل العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 38,
+      "legacy_page_id": "dcb691c4-dadf-4fbb-be91-fb0b42ecdacb",
+      "raw_sha256": "2f7fdac298e41eb3ee903d11dac714653fc87daf38d443837661386064dae2c0",
+      "source_page": 39,
+      "book_page": 38,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل العربي الإسلامي",
+      "master_relative_path": "الصور/ص038 - التكامل العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 39,
+      "legacy_page_id": "3be04ccb-dc7c-42e9-8d34-8add70f6e6e5",
+      "raw_sha256": "741d65773740916a7eb1f825f55f89958ad28fd31bf46d374b432542bd356a77",
+      "source_page": 40,
+      "book_page": 39,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل الاقتصادي العربي الإسلامي",
+      "master_relative_path": "الصور/ص039 - التكامل الاقتصادي العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 40,
+      "legacy_page_id": "a6b61aa7-2a5a-4651-bfc0-880615c3d2de",
+      "raw_sha256": "16a4ba560008a324d62e1924d28128e9e67341e683501ceda947980ad9797be9",
+      "source_page": 41,
+      "book_page": 40,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل الاقتصادي العربي الإسلامي",
+      "master_relative_path": "الصور/ص040 - التكامل الاقتصادي العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 41,
+      "legacy_page_id": "ce899213-3535-4811-aed8-e579580a4b75",
+      "raw_sha256": "3830dad701aabd30495bbc9a859b6c2f4f3587e341db73dcfd51ea793fec546e",
+      "source_page": 42,
+      "book_page": 41,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل الثقافي والتربوي العربي الإسلامي",
+      "master_relative_path": "الصور/ص041 - التكامل الثقافي والتربوي العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 42,
+      "legacy_page_id": "8c5cc613-fd57-4d97-8615-4a19874ecaa9",
+      "raw_sha256": "1f12bfc19a9d4c8d7f6eba68532f22ff51b191f43e21271282cd2de62210264d",
+      "source_page": 43,
+      "book_page": 42,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل الثقافي والتربوي العربي الإسلامي",
+      "master_relative_path": "الصور/ص042 - التكامل الثقافي والتربوي العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 43,
+      "legacy_page_id": "bcb2f7b9-1398-4669-a672-7789ae4ace71",
+      "raw_sha256": "c8aee5db099b4218d7ebd547c3e86166249308e6540931c1c21dc11cfd640c3c",
+      "source_page": 44,
+      "book_page": 43,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل الثقافي والتربوي العربي الإسلامي",
+      "master_relative_path": "الصور/ص043 - التكامل الثقافي والتربوي العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 44,
+      "legacy_page_id": "91ed50e1-947b-40c7-8b0b-f7e92875746f",
+      "raw_sha256": "c2035a7a7f3ca9b61421e549f5bd75b1291226440e0ee2dd28a7c05269417bb8",
+      "source_page": 45,
+      "book_page": 44,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل السياسي والعسكري العربي الإسلامي",
+      "master_relative_path": "الصور/ص044 - التكامل السياسي والعسكري العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 45,
+      "legacy_page_id": "7783f0b8-8fd2-4ee4-bfa0-0a42c1959d72",
+      "raw_sha256": "e72b07910b7706e11dd83c8a6850ab54d680fd3c7ffd37cacb1b456be0823a1e",
+      "source_page": 46,
+      "book_page": 45,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل السياسي والعسكري العربي الإسلامي",
+      "master_relative_path": "الصور/ص045 - التكامل السياسي والعسكري العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 46,
+      "legacy_page_id": "3acadc46-9a94-4624-8492-bef7dd06e61e",
+      "raw_sha256": "0a093c12badc956868a049eb14e7cd029a90a450cf1778ca1b62aefdc9abf1e4",
+      "source_page": 47,
+      "book_page": 46,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "التكامل السياسي والعسكري العربي الإسلامي",
+      "master_relative_path": "الصور/ص046 - التكامل السياسي والعسكري العربي الإسلامي.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 47,
+      "legacy_page_id": "f65816e3-5345-4325-a779-02eaca99725e",
+      "raw_sha256": "e467f3d5dcd4b2482fb21a7cb6a207d6c07fb88b4fb77e2fa63c26dbec98b800",
+      "source_page": 48,
+      "book_page": 47,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "تقويم الوحدة الثالثة",
+      "master_relative_path": "الصور/ص047 - تقويم الوحدة الثالثة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 48,
+      "legacy_page_id": "feb84f68-45a7-4296-80a5-a449c925c391",
+      "raw_sha256": "766ba5b101f2f5c122687c33d38910b57b1ec7a5fea345c9d57b98d87c8758cb",
+      "source_page": 49,
+      "book_page": 48,
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "title": "تقويم الوحدة الثالثة",
+      "master_relative_path": "الصور/ص048 - تقويم الوحدة الثالثة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 49,
+      "legacy_page_id": "183872fe-5800-45ac-bf9e-d892ee862ecc",
+      "raw_sha256": "8e2567c03febc53c66cdef4eec290270a40ee634e213027e1d672257682500f1",
+      "source_page": 50,
+      "book_page": 49,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "المشاركة المجتمعية",
+      "master_relative_path": "الصور/ص049 - المشاركة المجتمعية.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 50,
+      "legacy_page_id": "3823296c-7e87-421b-89f5-85a3acbca54a",
+      "raw_sha256": "165599c06f9e7f6481a4b25ebb9457c05d30e587ab0c76995e1ebfb88537028b",
+      "source_page": 51,
+      "book_page": 50,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "مشاركة الفرد في الحياة المجتمعية",
+      "master_relative_path": "الصور/ص050 - مشاركة الفرد في الحياة المجتمعية.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 51,
+      "legacy_page_id": "55693d28-83c4-4e3d-8669-7d5086fb460a",
+      "raw_sha256": "a144b9d85cd13809b66e0f9b147370c19d93841444148617fa37f303794c715e",
+      "source_page": 52,
+      "book_page": 51,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "مشاركة الفرد في الحياة المجتمعية",
+      "master_relative_path": "الصور/ص051 - مشاركة الفرد في الحياة المجتمعية.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 52,
+      "legacy_page_id": "a2854778-04e7-4ada-9dc2-eaadd1fae0d3",
+      "raw_sha256": "dcaadb95bc2258945096fcc7352685306aced215954bfd77aadfe7a36f781328",
+      "source_page": 53,
+      "book_page": 52,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "مشاركة الفرد في الحياة المجتمعية",
+      "master_relative_path": "الصور/ص052 - مشاركة الفرد في الحياة المجتمعية.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 53,
+      "legacy_page_id": "09f2a8e9-c564-45de-aec3-2cedf9303861",
+      "raw_sha256": "e64d90b7e32f1efa75327b871294745d4e136d696a049373147f90b7fe9bd2de",
+      "source_page": 54,
+      "book_page": 53,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "الآداب العامة",
+      "master_relative_path": "الصور/ص053 - الآداب العامة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 54,
+      "legacy_page_id": "8cbcd998-2438-42d0-91bf-22f6b796f8dc",
+      "raw_sha256": "84cc1a40dc08a860276db242354c8e1555ce1f17b59acee5c7b133436298afb1",
+      "source_page": 55,
+      "book_page": 54,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "الآداب العامة",
+      "master_relative_path": "الصور/ص054 - الآداب العامة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 55,
+      "legacy_page_id": "b8a54c75-def5-4ba6-8690-6abe11cf4f85",
+      "raw_sha256": "68d4104708b5cea42988e8b78d5134bd9ec09dcbfd8fdd72aa5c4a02fd8f9dfc",
+      "source_page": 56,
+      "book_page": 55,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "الآداب العامة",
+      "master_relative_path": "الصور/ص055 - الآداب العامة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 56,
+      "legacy_page_id": "f56f64a7-cf72-477c-a4be-ec54a1486418",
+      "raw_sha256": "58f3a7228762fde2fd6938bb17c2053b8897071ca9e421515d167f546ab90aef",
+      "source_page": 57,
+      "book_page": 56,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "الآداب العامة",
+      "master_relative_path": "الصور/ص056 - الآداب العامة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 57,
+      "legacy_page_id": "543f1d78-e702-42f1-b4a1-b0ff8c8f4eb6",
+      "raw_sha256": "9f3bcabf5a910ed271127db282e14eed0455fffe2f8607954658cab7df845ba0",
+      "source_page": 58,
+      "book_page": 57,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "الحفاظ على الملكية العامة والخاصة",
+      "master_relative_path": "الصور/ص057 - الحفاظ على الملكية العامة والخاصة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 58,
+      "legacy_page_id": "c013c1d3-eb1e-4e06-b4cf-869ed1f2f61d",
+      "raw_sha256": "a4a1176df64cb9eb6499b2427ea392f2f67fa0f60ca4bfc3e9a27ff2057ff57e",
+      "source_page": 59,
+      "book_page": 58,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "الحفاظ على الملكية العامة والخاصة",
+      "master_relative_path": "الصور/ص058 - الحفاظ على الملكية العامة والخاصة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 59,
+      "legacy_page_id": "e8556123-b0f6-434d-98f6-0ae306725e5e",
+      "raw_sha256": "888399c8c4e72c4dc88ee63c4eb8caf588590d02eebfb4a09d3ad7128da0bac5",
+      "source_page": 60,
+      "book_page": 59,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "الحفاظ على الملكية العامة والخاصة",
+      "master_relative_path": "الصور/ص059 - الحفاظ على الملكية العامة والخاصة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 60,
+      "legacy_page_id": "4bea9207-6688-47a6-baae-035d6d6354ed",
+      "raw_sha256": "5dfeea807a95980b28e73d8f6b5cd7134d5233e0f76b7ccb4006eb58b6c0c533",
+      "source_page": 61,
+      "book_page": 60,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "مكافحة الرشوة والغش والاحتكار",
+      "master_relative_path": "الصور/ص060 - مكافحة الرشوة والغش والاحتكار.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 61,
+      "legacy_page_id": "97b7e8ce-be66-41f3-98b0-0692285c9c8a",
+      "raw_sha256": "4dd802fadbafdf0f56fcd97d8cd28d09bbb7a988d70eff36c5e1b6e731c9f048",
+      "source_page": 62,
+      "book_page": 61,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "مكافحة الرشوة والغش والاحتكار",
+      "master_relative_path": "الصور/ص061 - مكافحة الرشوة والغش والاحتكار.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 62,
+      "legacy_page_id": "7a260492-a52c-45fe-b9fc-63353d3836e5",
+      "raw_sha256": "bdb441ef1b15038a3dec67d3a6334d9ba50bb69d01fe05090135201193040248",
+      "source_page": 63,
+      "book_page": 62,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "مكافحة الرشوة والغش والاحتكار",
+      "master_relative_path": "الصور/ص062 - مكافحة الرشوة والغش والاحتكار.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 63,
+      "legacy_page_id": "1d6707ca-2757-43e3-b4c7-1f5b9187e505",
+      "raw_sha256": "c65438f7d7827992ff944c09d209e9218254da2c097eb80199c358f5e0e206ec",
+      "source_page": 64,
+      "book_page": 63,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "مكافحة الرشوة والغش والاحتكار",
+      "master_relative_path": "الصور/ص063 - مكافحة الرشوة والغش والاحتكار.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    },
+    {
+      "stored_page_number": 64,
+      "legacy_page_id": "0000bfa8-2426-49b6-b2c3-10b38ed2cf7b",
+      "raw_sha256": "6bc8cc02362ea583cf009742f93bdd19d2869313bbad2f5026b0e4dbad43947d",
+      "source_page": 65,
+      "book_page": 64,
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "title": "تقويم الوحدة الرابعة",
+      "master_relative_path": "الصور/ص064 - تقويم الوحدة الرابعة.jpg",
+      "legacy_question_count": 0,
+      "content_equivalence_verified": true
+    }
+  ],
+  "sections": [
+    {
+      "section": "الوحدة الأولى: الشباب والعادات غير الصحية",
+      "start_stored_page": 6,
+      "end_stored_page": 20,
+      "start_source_page": 7,
+      "end_source_page": 21,
+      "titles": [
+        {
+          "title": "الشباب والعادات غير الصحية",
+          "start_stored_page": 6,
+          "end_stored_page": 6,
+          "start_source_page": 7,
+          "end_source_page": 7
+        },
+        {
+          "title": "مرحلة الشباب",
+          "start_stored_page": 7,
+          "end_stored_page": 10,
+          "start_source_page": 8,
+          "end_source_page": 11
+        },
+        {
+          "title": "عقل الإنسان وجسمه",
+          "start_stored_page": 11,
+          "end_stored_page": 14,
+          "start_source_page": 12,
+          "end_source_page": 15
+        },
+        {
+          "title": "العادات غير الصحية وطرق معالجتها",
+          "start_stored_page": 15,
+          "end_stored_page": 18,
+          "start_source_page": 16,
+          "end_source_page": 19
+        },
+        {
+          "title": "تقويم الوحدة الأولى",
+          "start_stored_page": 19,
+          "end_stored_page": 20,
+          "start_source_page": 20,
+          "end_source_page": 21
+        }
+      ]
+    },
+    {
+      "section": "الوحدة الثانية: الظواهر الاجتماعية والأسرة اليمنية",
+      "start_stored_page": 21,
+      "end_stored_page": 33,
+      "start_source_page": 22,
+      "end_source_page": 34,
+      "titles": [
+        {
+          "title": "الظواهر الاجتماعية والأسرة اليمنية",
+          "start_stored_page": 21,
+          "end_stored_page": 21,
+          "start_source_page": 22,
+          "end_source_page": 22
+        },
+        {
+          "title": "عمل الأطفال",
+          "start_stored_page": 22,
+          "end_stored_page": 24,
+          "start_source_page": 23,
+          "end_source_page": 25
+        },
+        {
+          "title": "اغتراب رب الأسرة",
+          "start_stored_page": 25,
+          "end_stored_page": 28,
+          "start_source_page": 26,
+          "end_source_page": 29
+        },
+        {
+          "title": "المغالاة في المهور",
+          "start_stored_page": 29,
+          "end_stored_page": 31,
+          "start_source_page": 30,
+          "end_source_page": 32
+        },
+        {
+          "title": "تقويم الوحدة الثانية",
+          "start_stored_page": 32,
+          "end_stored_page": 33,
+          "start_source_page": 33,
+          "end_source_page": 34
+        }
+      ]
+    },
+    {
+      "section": "الوحدة الثالثة: التكامل العربي الإسلامي وأهميته ومجالاته",
+      "start_stored_page": 34,
+      "end_stored_page": 48,
+      "start_source_page": 35,
+      "end_source_page": 49,
+      "titles": [
+        {
+          "title": "التكامل العربي الإسلامي وأهميته ومجالاته",
+          "start_stored_page": 34,
+          "end_stored_page": 34,
+          "start_source_page": 35,
+          "end_source_page": 35
+        },
+        {
+          "title": "التكامل العربي الإسلامي",
+          "start_stored_page": 35,
+          "end_stored_page": 38,
+          "start_source_page": 36,
+          "end_source_page": 39
+        },
+        {
+          "title": "التكامل الاقتصادي العربي الإسلامي",
+          "start_stored_page": 39,
+          "end_stored_page": 40,
+          "start_source_page": 40,
+          "end_source_page": 41
+        },
+        {
+          "title": "التكامل الثقافي والتربوي العربي الإسلامي",
+          "start_stored_page": 41,
+          "end_stored_page": 43,
+          "start_source_page": 42,
+          "end_source_page": 44
+        },
+        {
+          "title": "التكامل السياسي والعسكري العربي الإسلامي",
+          "start_stored_page": 44,
+          "end_stored_page": 46,
+          "start_source_page": 45,
+          "end_source_page": 47
+        },
+        {
+          "title": "تقويم الوحدة الثالثة",
+          "start_stored_page": 47,
+          "end_stored_page": 48,
+          "start_source_page": 48,
+          "end_source_page": 49
+        }
+      ]
+    },
+    {
+      "section": "الوحدة الرابعة: المشاركة المجتمعية",
+      "start_stored_page": 49,
+      "end_stored_page": 64,
+      "start_source_page": 50,
+      "end_source_page": 65,
+      "titles": [
+        {
+          "title": "المشاركة المجتمعية",
+          "start_stored_page": 49,
+          "end_stored_page": 49,
+          "start_source_page": 50,
+          "end_source_page": 50
+        },
+        {
+          "title": "مشاركة الفرد في الحياة المجتمعية",
+          "start_stored_page": 50,
+          "end_stored_page": 52,
+          "start_source_page": 51,
+          "end_source_page": 53
+        },
+        {
+          "title": "الآداب العامة",
+          "start_stored_page": 53,
+          "end_stored_page": 56,
+          "start_source_page": 54,
+          "end_source_page": 57
+        },
+        {
+          "title": "الحفاظ على الملكية العامة والخاصة",
+          "start_stored_page": 57,
+          "end_stored_page": 59,
+          "start_source_page": 58,
+          "end_source_page": 60
+        },
+        {
+          "title": "مكافحة الرشوة والغش والاحتكار",
+          "start_stored_page": 60,
+          "end_stored_page": 63,
+          "start_source_page": 61,
+          "end_source_page": 64
+        },
+        {
+          "title": "تقويم الوحدة الرابعة",
+          "start_stored_page": 64,
+          "end_stored_page": 64,
+          "start_source_page": 65,
+          "end_source_page": 65
+        }
+      ]
+    }
+  ],
+  "semantic_question_review": "NOT APPLICABLE",
+  "raw_mutations": 0
+}
