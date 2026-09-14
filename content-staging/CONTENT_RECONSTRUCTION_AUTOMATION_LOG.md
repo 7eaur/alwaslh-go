@@ -223,13 +223,13 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 - state: `READY_FOR_NEXT_SOURCE`
 - branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `3dac08e4cf470bd0846a55011518947672459c46`
-- last completed source: `a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8 — السيرة النبوية الكتاب`
-- current source: `6a8ea7f2-1e77-4654-a28c-0ea1b82b4830 — الفقه الكتاب المدرسي`
-- current source baseline from live manifest: `67 pages/images, 906 legacy questions, 0 download failures; manifest anomaly arrays are empty. Technical verification / exact identity / structure / question placement remain NOT VERIFIED until live evidence proves otherwise.`
-- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for 6a8ea7f2-1e77-4654-a28c-0ea1b82b4830; read its immutable manifest/pages/evidence; technically verify all 67 RAW images first; establish exact educational identity and lesson/unit/review boundaries only from Fiqh-specific evidence; map the 906 legacy questions only where page membership proves placement; preserve unresolved semantics/subtypes as NOT VERIFIED or review_required; reassert the 25,755 invariant.`
-- next source: `Resolve from live MASTER_CONTENT_MANIFEST only after Fiqh is safely finalized.`
-- blockers: `none at handoff; do not inherit Seerah lesson count, ranges, or page subtype assumptions into Fiqh.`
+- latest verified work HEAD before this handoff commit: `dde5a8b873741eea058d91f9e0a25b9b2e8ab96f`
+- last completed source: `6a8ea7f2-1e77-4654-a28c-0ea1b82b4830 — الفقه الكتاب المدرسي`
+- current source: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`
+- current source baseline from live manifest: `42 pages/images, 28 legacy questions, 0 download failures; all manifest anomaly arrays are empty. Technical verification, exam-model boundaries, correction/answer-key status, and question placement remain NOT VERIFIED.`
+- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for 0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199; technically verify all 42 immutable RAW images; generate complete ordered visual evidence; discover Individual Exam Model boundaries and correction/result/Answer-Key evidence only from Mathematics 1445 itself; structurally map 28 legacy questions only where page/model membership is proven; preserve uncertainty as review_required or NOT VERIFIED; reassert the 25,755 invariant.`
+- next source: `Resolve from live MASTER_CONTENT_MANIFEST only after Mathematics 1445 is safely finalized.`
+- blockers: `none at handoff; do not inherit any prior exam occurrence pattern into Mathematics 1445.`
 - owner decision required now: `no`
 
 ---
@@ -1143,4 +1143,53 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `NOT YET RESOLVED — derive only after Fiqh from live MASTER_CONTENT_MANIFEST`
 - blockers: `none at handoff.`
 - handoff note: `Worker B starts only from Fiqh after re-fetching live HEAD/baton. Do not rerun Seerah absent fresh drift evidence; do not inherit Seerah's 12-lesson structure or ranges.`
+
+## RUN 2026-09-14T16:21:46+03:00 — Worker B
+
+- state: COMPLETE
+- start HEAD: `c2852d76e355adc77496756657d5f5ad894a5469`
+- end HEAD before handoff-log tooling commit: `dde5a8b873741eea058d91f9e0a25b9b2e8ab96f`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `6a8ea7f2-1e77-4654-a28c-0ea1b82b4830 — الفقه الكتاب المدرسي`
+- completed in this run:
+  - failed closed while Worker A's Seerah workflow was still mutating, then consumed the corrected live Seerah handoff before starting Fiqh;
+  - technically verified **67/67** Fiqh RAW images and proved **67/67 exact SHA identity** with `master/التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور`;
+  - retained pages **8..74**, established **13 lessons**, and assigned **67/67** pages exactly once from explicit exact-SHA filename labels;
+  - structurally mapped **906/906** legacy questions by proven page membership; semantic correctness remains `NOT VERIFIED`;
+  - kept Unit hierarchy and independent review/evaluation subtype boundaries `NOT VERIFIED`; no unsupported structure was invented;
+  - discovery run `34847979060` and finalization run `34848274718` completed successfully with live-HEAD safety gates;
+  - updated reconstruction, MASTER, status/handoff/inventory/validation/import/continuation evidence only; no production import/publication.
+- evidence produced/verified:
+  - `content-staging/reconstruction/technical/6a8ea7f2-1e77-4654-a28c-0ea1b82b4830.json`;
+  - `content-staging/reconstruction/educational/6a8ea7f2-1e77-4654-a28c-0ea1b82b4830-discovery.json`;
+  - `content-staging/reconstruction/educational/6a8ea7f2-1e77-4654-a28c-0ea1b82b4830.json`;
+  - `fiqh-contact-sheets` artifact; evidence/status commit `dde5a8b873741eea058d91f9e0a25b9b2e8ab96f`.
+- ambiguity/review_required:
+  - Unit hierarchy: `NOT VERIFIED`; independent review/evaluation subtype boundaries: `NOT VERIFIED`; question semantic correctness: `NOT VERIFIED`.
+- invariant result: PASS (`6,891 + 967 + 351 + 17,546 = 25,755`)
+- Sources processed: 20/58
+- Educational: 10/26
+- Books / Units / Lessons / Lesson Pages: 10 / 33 / 196 / 877
+- Exam Source Groups: 10/32
+- Individual Exam Models: 166
+- Exam Pages: 548/2,286
+- Verified Answer Keys: 0
+- Source images technical: 1,542/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 6,891
+- Exam-linked: 967
+- Review-required: 351
+- Unclassified: 17,546
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `6a8ea7f2-1e77-4654-a28c-0ea1b82b4830 — الفقه الكتاب المدرسي`
+- current source: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`
+- exact next operation: `Verify no active Mathematics 1445 workflow; technically verify 42 images; inspect complete ordered visual evidence and discover model/correction boundaries from Mathematics 1445 only; map 28 questions only to proven model membership; preserve unsupported Answer Keys/semantics as NOT VERIFIED or review_required; assert global invariant and checkpoint.`
+- next source: `NOT YET RESOLVED — derive only after Mathematics 1445 from live MASTER_CONTENT_MANIFEST`
+- blockers: `none at handoff.`
+- handoff note: `Worker A starts from Mathematics 1445 only after re-fetching live HEAD/baton. Do not rerun Fiqh absent fresh drift evidence; do not inherit prior exam grouping patterns.`
 
