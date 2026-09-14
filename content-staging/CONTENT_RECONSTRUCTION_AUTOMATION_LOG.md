@@ -221,15 +221,15 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 ## 10. ACTIVE CHECKPOINT
 
-- state: `PARTIAL_SAFE_HANDOFF`
+- state: `COMPLETE`
 - branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `2b9460f218a7b3d1a410abda089040b0f510f92c`
-- last completed source: `da6fc228-1ada-4627-8306-80d9d3401490 — الانجليزي نماذج وزارية 1447`
-- current source: `0a76f44b-0a4f-4e36-9ea9-badecf78bf23 — التاريخ الكتاب المدرسي`
-- current source baseline from live evidence: `61/61 images technically verified (exist/readable/byte-size/SHA-256/MIME), stored page numbers 8..68 contiguous, 138 legacy questions; source structure/lesson identity remains NOT VERIFIED.`
-- current operation: `History technical gate is complete. Trusted master references at تاسع إجتماعيات/تاريخ_تاسع_الجزء_الأول and الجزء_الثاني are NOT content-identical to this RAW: exact SHA 0/61; global visual matching across 211 master pages found 0 strong page matches and no single-part consecutive sequence. Do not use those master sections/titles for this RAW. Next: generate complete source-local visual/contact-sheet evidence directly from the 61 immutable RAW pages; inspect the actual edition's book/unit/lesson/review boundaries; classify only evidence-backed boundaries; then map the 138 questions where structurally proven and quarantine uncertainty as review_required.`
-- next source: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`
-- blockers: `History master identity is NOT VERIFIED and appears to represent a different visual edition/source. Structural reconstruction and question mapping are blocked on source-local visual inspection; this is an evidence blocker, not a RAW integrity failure.`
+- latest verified work HEAD before this handoff commit: `fcbf85fde72e7b9d3a11d111f3ab01d00aeeee78`
+- last completed source: `0a76f44b-0a4f-4e36-9ea9-badecf78bf23 — التاريخ الكتاب المدرسي`
+- current source: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`
+- current source baseline from live evidence: `NOT YET TECHNICALLY VERIFIED in this checkpoint; fetch live manifest/pages before making any structural assumption.`
+- current operation: `History is finalized from immutable source-local evidence: 61/61 technical images, page 8 explicit TOC, page 9 first-semester cover, 9 verified lessons, 47 lesson-content pages, 12 lesson-review pages, all 61 pages classified exactly once, and 138/138 legacy questions structurally lesson-linked. History master equivalence remains NOT VERIFIED and must not be retroactively substituted. Next: technically verify التربية الوطنية from its own live manifest/pages and reconstruct only evidence-backed boundaries.`
+- next source: `NOT YET RESOLVED — derive after التربية الوطنية from live MASTER_CONTENT_MANIFEST`
+- blockers: `none`
 - owner decision required now: `no`
 
 ---
@@ -751,3 +751,63 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`
 - blockers: `Current master History parts are not proven equivalent to the immutable RAW; source-local visual reconstruction is required before structural/question finalization.`
 - handoff note: `Worker B should not retry the rejected exact-SHA or fixed-offset assumptions. Re-fetch live HEAD and this baton, confirm the three diagnostic runs/evidence, then continue History from complete RAW visual evidence. Keep History active; do not advance to التربية الوطنية until History is either evidence-finalized or only irreducible ambiguities are quarantined.`
+
+## RUN 2026-09-14T13:15:00+03:00 — Worker B
+
+- state: COMPLETE
+- start HEAD: `aa707183aa03e0d47de68b717d6d097d7149c976`
+- end HEAD before handoff-log commit: `fcbf85fde72e7b9d3a11d111f3ab01d00aeeee78`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `0a76f44b-0a4f-4e36-9ea9-badecf78bf23 — التاريخ الكتاب المدرسي`
+- completed in this run:
+  - verified Worker A's partial History handoff against live technical/discovery evidence and preserved the rejection of non-equivalent master History references;
+  - generated complete ordered source-local visual evidence directly from all 61 immutable RAW pages and visually reviewed stored pages 8..68;
+  - verified page 8 as an explicit TOC and page 9 as the `الفصل الدراسي الأول` cover;
+  - resolved nine source-local lesson boundaries and twelve lesson-review pages without inventing an explicit Unit layer;
+  - classified all 61 retained pages exactly once: 1 TOC + 1 semester cover + 47 lesson-content pages + 12 lesson-review pages;
+  - structurally mapped all 138/138 legacy questions by verified page membership; semantic correctness remains NOT VERIFIED;
+  - finalized the History reconstruction and updated MASTER_CONTENT_MANIFEST plus canonical status/inventory/validation/import/continuation files;
+  - corrected one validation-only baseline assertion after discovering MASTER_CONTENT_MANIFEST still held the pre-History technical-image counter 950; no RAW/semantic state was mutated by the failed run.
+- evidence produced/verified:
+  - technical report: `content-staging/reconstruction/technical/0a76f44b-0a4f-4e36-9ea9-badecf78bf23.json`;
+  - diagnostic master-equivalence report: `content-staging/reconstruction/educational/0a76f44b-0a4f-4e36-9ea9-badecf78bf23-discovery.json`;
+  - visual index: `content-staging/reconstruction/educational/0a76f44b-0a4f-4e36-9ea9-badecf78bf23-visual-index.json`;
+  - final reconstruction: `content-staging/reconstruction/educational/0a76f44b-0a4f-4e36-9ea9-badecf78bf23.json`;
+  - source-local visual run `34831599212`; artifact `10342118472`; digest `sha256:dbb6cc5f980b293920f378ef24587ab9d9df65787e250fa955d33fbb3323a169`;
+  - initial finalization run `34832016086` failed closed only on stale aggregate counter expectation (expected 1011, live manifest 950);
+  - corrected finalization run `34832127755` passed `HISTORY_SOURCE_LOCAL_FINALIZATION_VERIFY_PASS`;
+  - final artifact `10342790603`; digest `sha256:9c3cde6996f3cbb29741ffa1e22c989671ed1f241dfc0e7e8bf44666c88df1ca`;
+  - final checkpoint commit: `fcbf85fde72e7b9d3a11d111f3ab01d00aeeee78`.
+- ambiguity/review_required:
+  - current master History parts remain `NOT VERIFIED` as equivalent to this RAW and were not used for semantic mapping;
+  - formal book title beyond the legacy source label remains `NOT VERIFIED`;
+  - no explicit Unit construct was proven in the retained slice, so no units were invented;
+  - question semantic correctness remains `NOT VERIFIED`; structural membership is verified;
+  - source review-required questions: 0.
+- invariant result: PASS (`2,374 + 967 + 351 + 22,063 = 25,755`)
+- Sources processed: 13/58
+- Educational: 4/26
+- Books / Units / Lessons / Lesson Pages: 4 / 25 / 119 / 460
+- Exam Source Groups: 9/32
+- Individual Exam Models: 135
+- Exam Pages: 455/2,286
+- Verified Answer Keys: 0
+- Correction/report candidates: 140
+- Source images technical: 1,011/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 2,374
+- Exam-linked: 967
+- Review-required: 351
+- Unclassified: 22,063
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `0a76f44b-0a4f-4e36-9ea9-badecf78bf23 — التاريخ الكتاب المدرسي`
+- current source: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`
+- exact next operation: `Fetch التربية الوطنية live manifest/pages; technically verify every source image and source-local sequence/SHA/MIME; establish identity and book/section/unit/lesson/review boundaries only from its own evidence; map its legacy questions only where structurally proven; quarantine ambiguity as review_required; assert 25,755 invariant; checkpoint.`
+- next source: `NOT YET RESOLVED — derive after التربية الوطنية from live MASTER_CONTENT_MANIFEST`
+- blockers: `none`
+- handoff note: `Worker A should re-fetch live HEAD and this baton, verify History final reconstruction at fcbf85f..., then begin التربية الوطنية from its own evidence. Do not reopen History absent new drift evidence and do not inherit its semester/lesson pattern.`
