@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/verify-chemistry-media.yml'
       - 'content-staging/tools/verify_subject_media.py'
+      - 'content-staging/tools/reconstruct_chemistry_source.py'
 
 permissions:
   contents: write
@@ -20,10 +21,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
         with:
           ref: content/corpus-inventory-20260914
           fetch-depth: 0
+
+      - name: Checkout trusted master reference
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master-reference
+          fetch-depth: 1
 
       - uses: actions/setup-python@v5
         with:
@@ -38,15 +47,23 @@ jobs:
           python content-staging/tools/verify_subject_media.py \
             --subject-id f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4
 
-      - name: Commit derived technical report
+      - name: Reconstruct verified Book Unit Lesson boundaries
+        run: |
+          set -euo pipefail
+          test "$(git -C master-reference rev-parse HEAD)" = "f81ebb6ef6198818fa091f7a8c1c81b4de7dbd23"
+          python content-staging/tools/reconstruct_chemistry_source.py
+
+      - name: Commit derived verification and reconstruction reports
         run: |
           set -euo pipefail
           git config user.name 'alwaslh-content-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add content-staging/reconstruction/technical/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4.json
+          git add \
+            content-staging/reconstruction/technical/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4.json \
+            content-staging/reconstruction/educational/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4.json
           if git diff --cached --quiet; then
-            echo 'Derived report unchanged.'
+            echo 'Derived reports unchanged.'
             exit 0
           fi
-          git commit -m 'content: verify chemistry source media [skip ci]'
+          git commit -m 'content: reconstruct chemistry book boundaries [skip ci]'
           git push origin HEAD:content/corpus-inventory-20260914
