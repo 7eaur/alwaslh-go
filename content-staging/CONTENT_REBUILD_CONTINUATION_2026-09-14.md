@@ -316,3 +316,9 @@ The earlier 1446 IN PROGRESS section is superseded by this evidence-backed check
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc` — `كتاب العلوم - الجزء الأول`.
 <!-- SCIENCE_EXAM_1447_CHECKPOINT_END -->
+
+<!-- SCIENCE_BOOK_PART1_CHECKPOINT_START -->
+## Continuation checkpoint — Science Part 1 complete
+
+Continue with `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - الجزء الثاني`; do not rerun Science Part 1 absent new drift evidence. Current verified global progress: **8/58 sources; 2/26 educational; 6/32 exam groups; 694/5,273 technical images; 2,236 lesson-linked; 733 exam-linked; 351 review-required; 22,435 unclassified**.
+<!-- SCIENCE_BOOK_PART1_CHECKPOINT_END -->

@@ -181,3 +181,12 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc` — `كتاب العلوم - الجزء الأول`.
 <!-- SCIENCE_EXAM_1447_CHECKPOINT_END -->
+
+<!-- SCIENCE_BOOK_PART1_CHECKPOINT_START -->
+## Verified reconstruction checkpoint — Grade 9 Science Part 1
+
+- Legacy source `f4b6708c-027f-4883-9e85-e6e7acb52ecc` is exactly identified as `master/تاسع علوم/علوم_تاسع_الجزء_الأول` for all **161 retained images** by SHA-256.
+- Retained stored pages **7..167** correspond to exact master source pages **8..168**; master-only pages outside the retained slice remain reference-only and were not fabricated.
+- Reconstructed structure: **8 Units, 22 Lessons, 138 Lesson pages, 8 Unit covers, 15 Unit reviews**.
+- **11/11** source questions are structurally linked to the verified `المحلول ومكوناته` lesson; semantic correctness remains `NOT VERIFIED`.
+<!-- SCIENCE_BOOK_PART1_CHECKPOINT_END -->

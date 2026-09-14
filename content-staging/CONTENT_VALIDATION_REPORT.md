@@ -120,3 +120,14 @@ Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc` — `كتاب العلوم - الجزء الأول`.
 <!-- SCIENCE_EXAM_1447_CHECKPOINT_END -->
+
+<!-- SCIENCE_BOOK_PART1_CHECKPOINT_START -->
+## Grade 9 Science Part 1 reconstruction validation
+
+- Technical verification: **161/161** files exist, readable, size/SHA/MIME match.
+- Exact reference identity: **161/161** RAW images equal the corresponding master images by SHA-256.
+- Exact retained reference range: source pages **8..168**; no retained identity failure.
+- Structure: **8 Units / 22 Lessons / 138 Lesson pages / 8 covers / 15 reviews**; every one of the 161 retained pages is classified exactly once.
+- Questions: **11/11** structurally linked by verified page membership; semantic correctness `NOT VERIFIED`.
+- RAW mutations: **0**.
+<!-- SCIENCE_BOOK_PART1_CHECKPOINT_END -->

@@ -325,3 +325,20 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc` — `كتاب العلوم - الجزء الأول`.
 <!-- SCIENCE_EXAM_1447_CHECKPOINT_END -->
+
+<!-- SCIENCE_BOOK_PART1_CHECKPOINT_START -->
+## Reconstruction checkpoint — Grade 9 Science Part 1
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Sources processed: **8/58**; Educational: **2/26**; Exam Source Groups: **6/32**.
+- Books / Units / Lessons / Lesson pages: **2 / 17 / 79 / 287**.
+- Science Part 1: **161/161** technically verified images and **161/161** exact RAW/master SHA identities; retained stored pages **7..167**, exact master source pages **8..168**.
+- Reconstructed source: **1 Book, 8 Units, 22 Lessons, 138 Lesson pages, 8 Unit-cover pages, 15 Unit-review pages, 0 appendices**.
+- Questions: **11/11** structurally lesson-linked to `المحلول ومكوناته`; semantic correctness `NOT VERIFIED`; source review-required questions **0**.
+- Global questions: Lesson-linked **2,236**; Exam-linked **733**; Review-required **351**; Unclassified **22,435** = **25,755**.
+- Individual Exam Models **99**; Exam Pages **347/2,286**; Verified Answer Keys **0**.
+- Source images technical **694/5,273**; WebP **0/0/0**; Duplicate groups **0/99**.
+- RAW / unrelated / imports / publications: **0/0/0/0**.
+- Last completed: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`.
+- Next: `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - الجزء الثاني`.
+<!-- SCIENCE_BOOK_PART1_CHECKPOINT_END -->

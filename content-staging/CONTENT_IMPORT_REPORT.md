@@ -96,3 +96,12 @@ Chemistry textbook reconstruction is verified, but the corpus is **not import-re
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc` — `كتاب العلوم - الجزء الأول`.
 <!-- SCIENCE_EXAM_1447_CHECKPOINT_END -->
+
+<!-- SCIENCE_BOOK_PART1_CHECKPOINT_START -->
+## Science Part 1 reconstruction checkpoint — no import performed
+
+The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_IN_PROGRESS_NOT_IMPORT_READY`.
+
+- New imports: **0**; new publications: **0**; production mutations: **0**; RAW mutations: **0**.
+- Import readiness remains deferred until corpus reconstruction/boundary discovery is complete.
+<!-- SCIENCE_BOOK_PART1_CHECKPOINT_END -->

@@ -545,8 +545,8 @@
         "id": "f4b6708c-027f-4883-9e85-e6e7acb52ecc",
         "name": "كتاب العلوم - الجزء الأول"
       },
-      "classification": "educational_source_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "educational_book_source",
+      "classification_evidence": "161/161 exact RAW/master SHA identity + exact master page-by-page section/title runs",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/f4b6708c-027f-4883-9e85-e6e7acb52ecc/manifest.json",
       "manifest_sha256_recorded": "1abce4e655afd4b97ded2212d9e1375cd4004cda433f86fd89e83078e3a4b192",
       "counts": {
@@ -565,12 +565,46 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "reconstructed_verified",
       "modern_entity_id": null,
       "exam_models": null,
       "answer_keys": null,
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/f4b6708c-027f-4883-9e85-e6e7acb52ecc.json",
+        "images_verified": 161,
+        "readable": 161,
+        "sha256_match_manifest": 161,
+        "mime_match_manifest": 161,
+        "duplicate_sha_groups_within_source": 0
+      },
+      "reconstruction": {
+        "status": "verified",
+        "path": "content-staging/reconstruction/educational/f4b6708c-027f-4883-9e85-e6e7acb52ecc.json",
+        "book_title": "كتاب العلوم - الجزء الأول",
+        "retained_page_range": [
+          7,
+          167
+        ],
+        "source_reference_page_range": [
+          8,
+          168
+        ],
+        "retained_pages": 161,
+        "units": 8,
+        "lessons": 22,
+        "lesson_pages": 138,
+        "unit_cover_pages": 8,
+        "unit_review_pages": 15,
+        "appendix_pages": 0,
+        "legacy_questions": 11,
+        "structurally_lesson_linked_questions": 11,
+        "review_required_questions": 0,
+        "semantic_question_review": "NOT VERIFIED",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "81e99fe6-1421-462b-9562-1c0c5053a809",
@@ -2589,37 +2623,35 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 7,
+    "sources_completed": 8,
     "sources_total": 58,
-    "educational_sources_completed": 1,
+    "educational_sources_completed": 2,
     "educational_sources_total": 26,
-    "verified_books": 1,
-    "verified_units": 9,
-    "verified_lessons": 57,
-    "verified_lesson_pages": 149,
+    "verified_books": 2,
+    "verified_units": 17,
+    "verified_lessons": 79,
+    "verified_lesson_pages": 287,
     "exam_source_groups_completed": 6,
     "exam_source_groups_total": 32,
     "individual_exam_models": 99,
     "exam_pages_completed": 347,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 533,
+    "source_images_technically_verified": 694,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,
     "webp_derivatives_rejected": 0,
     "legacy_questions_total": 25755,
-    "lesson_linked_structural": 2225,
+    "lesson_linked_structural": 2236,
     "exam_linked_to_individual_model": 733,
     "review_required": 351,
-    "unclassified": 22446,
+    "unclassified": 22435,
     "duplicate_fingerprint_groups_classified": 0,
     "duplicate_fingerprint_groups_total": 99,
     "raw_mutations": 0,
     "unrelated_mutations": 0,
     "new_imports": 0,
-    "new_publications": 0,
-    "verified_answer_keys": 0,
-    "correction_sheet_candidates": 103
+    "new_publications": 0
   }
 }
