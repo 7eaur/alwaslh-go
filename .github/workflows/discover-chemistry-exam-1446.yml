@@ -8,6 +8,8 @@ on:
       - '.github/workflows/discover-chemistry-exam-1446.yml'
       - 'content-staging/tools/verify_subject_media.py'
       - 'content-staging/tools/discover_exam_source_group.py'
+      - 'content-staging/tools/reconstruct_chemistry_exam_1446.py'
+      - 'content-staging/tools/record_chemistry_exam_1446_checkpoint.py'
 
 permissions:
   contents: write
@@ -48,7 +50,36 @@ jobs:
             --subject-id c09ce569-ea42-4f0b-997f-95b029a7e6ea \
             --visual-dir artifacts/chemistry-exam-1446
 
-      - name: Upload boundary evidence
+      - name: Reconstruct verified 1446 individual exam models
+        run: |
+          set -euo pipefail
+          python content-staging/tools/reconstruct_chemistry_exam_1446.py
+
+      - name: Record source-group checkpoint
+        run: |
+          set -euo pipefail
+          python content-staging/tools/record_chemistry_exam_1446_checkpoint.py
+
+      - name: Validate finalized reconstruction JSON
+        run: |
+          set -euo pipefail
+          python -m json.tool content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json')
+          d = json.loads(p.read_text(encoding='utf-8'))
+          assert d['source_occurrence_count'] == 15
+          assert d['individual_exam_model_count'] == 14
+          assert d['exam_page_count'] == 60
+          assert d['verified_answer_key_count'] == 0
+          assert d['duplicate_resolution']['classification'] == 'legitimate_repeated_exam_model_occurrence'
+          assert d['duplicate_resolution']['exact_sha_duplicate_pairs'] == [[29, 41], [30, 42], [31, 43]]
+          assert d['evidence']['raw_mutations'] == 0
+          print('CHEMISTRY_1446_FINALIZATION_VERIFY_PASS')
+          PY
+
+      - name: Upload finalized boundary evidence
         uses: actions/upload-artifact@v4
         with:
           name: chemistry-exam-1446-boundary-evidence
@@ -56,20 +87,29 @@ jobs:
             artifacts/chemistry-exam-1446/
             content-staging/reconstruction/technical/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json
             content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea-discovery.json
+            content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json
           if-no-files-found: error
           retention-days: 14
 
-      - name: Commit derived discovery reports only
+      - name: Commit reconstruction checkpoint
         run: |
           set -euo pipefail
           git config user.name 'alwaslh-content-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add \
             content-staging/reconstruction/technical/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json \
-            content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea-discovery.json
+            content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea-discovery.json \
+            content-staging/reconstruction/exams/source-groups/c09ce569-ea42-4f0b-997f-95b029a7e6ea.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+            content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md \
+            content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md \
+            content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
           if git diff --cached --quiet; then
             echo 'Derived reports unchanged.'
             exit 0
           fi
-          git commit -m 'content: discover chemistry 1446 exam boundary candidates [skip ci]'
+          git commit -m 'content: finalize chemistry 1446 exam reconstruction [skip ci]'
           git push origin HEAD:content/corpus-inventory-20260914
