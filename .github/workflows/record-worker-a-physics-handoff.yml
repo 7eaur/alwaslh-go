@@ -1,0 +1,146 @@
+name: Record Worker A Physics Handoff
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/record-worker-a-physics-handoff.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-reconstruction-shared-handoff
+  cancel-in-progress: false
+
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - name: Gate exact live head before handoff generation
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT_BEFORE_HANDOFF; exit 42; }
+
+      - name: Update ACTIVE CHECKPOINT and append Worker A RUN
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          log=Path('content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md')
+          text=log.read_text(encoding='utf-8')
+          evidence_head='5ae76c89cb74828c9d446f7224202ca048433300'
+          next_id='41e5a81c-3b93-479c-9b76-33815cae9430'
+          next_name='الفيزياء نماذج وزاريه 1445'
+          active=f'''## 10. ACTIVE CHECKPOINT
+
+- state: `READY_NEXT_SOURCE`
+- branch: `content/corpus-inventory-20260914`
+- latest evidence HEAD before this handoff tooling: `{evidence_head}`
+- last completed source: `4863bbf6-6cf3-4238-9407-75825724292a — الفيزياء الكتاب المدرسي`
+- current source: `{next_id} — {next_name}`
+- current source baseline from live manifest: `60 pages / 60 images / 83 legacy questions / 0 download failures; anomaly arrays empty.`
+- current source verified work: `NOT STARTED; do not inherit Physics textbook unit/lesson boundaries or any prior exam-source packet pattern.`
+- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for this exact source; technically verify all 60 immutable RAW images; perform source-local duplicate scan and exam-boundary discovery; visually inspect the complete source evidence; resolve source occurrences, unique Individual Exam Models, correction/report candidates and Answer-Key evidence without inheriting a previous pattern; structurally map the 83 legacy questions only where verified page membership supports it; use review_required/NOT VERIFIED when evidence is insufficient; assert global invariants; checkpoint.`
+- next source: `Resolve only after Physics 1445 exam-source finalization from live MASTER.`
+- blockers: `none`
+- completed Physics textbook evidence: `207/207 immutable RAW images technically reverified and byte-identical by SHA-256 to the single canonical master directory الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور; retained pages 9..215; exact master title runs establish 9 Units, 45 Lessons, 173 Lesson pages, 9 unit-cover pages and 25 unit-review pages; all 207 retained pages classified exactly once; 2,621/3,101 legacy questions structurally lesson-linked and 480/3,101 review_required on non-lesson pages; semantic question correctness NOT VERIFIED; no production import/publication and no RAW mutation.`
+
+---'''
+          pat=r'## 10\. ACTIVE CHECKPOINT\n.*?\n---'
+          new,n=re.subn(pat,active,text,count=1,flags=re.S)
+          if n!=1:
+              raise SystemExit(f'ACTIVE CHECKPOINT replacement count {n}')
+          run='''
+
+## RUN 2026-09-15T00:45:00+03:00 — Worker A
+
+- state: COMPLETE
+- start HEAD: `e5557a2a2659b442972af7932f9922556fbccb76`
+- end HEAD before handoff-log commit: `5ae76c89cb74828c9d446f7224202ca048433300`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `4863bbf6-6cf3-4238-9407-75825724292a — الفيزياء الكتاب المدرسي`
+- completed in this run:
+  - re-fetched the live branch HEAD and shared baton before work and verified there was no queued/in-progress workflow mutating this source;
+  - added and ran source-local technical/identity discovery; rehashed **207/207** immutable RAW images and established **207/207 exact SHA-256 identities** against one canonical Physics master directory;
+  - generated complete contact sheets and a deterministic exact-master filename/title-run summary without promoting unproven semantic claims;
+  - reconstructed and finalized the Physics textbook as **9 Units / 45 Lessons / 173 Lesson pages / 9 unit-cover pages / 25 unit-review pages**, with all **207** retained pages classified exactly once;
+  - structurally mapped all **3,101** legacy questions: **2,621** lesson-linked by verified page membership and **480** `review_required` on non-lesson unit-cover/review pages; semantic correctness remains `NOT VERIFIED`;
+  - updated MASTER_CONTENT_MANIFEST and reconstruction/status/handoff/inventory/validation/import/continuation evidence; no production import/publication occurred;
+  - finalization workflow `34900381099` passed exact-head gates, technical re-verification, reconstruction, checkpoint, global invariant verification and evidence commit.
+- evidence produced/verified:
+  - technical report: `content-staging/reconstruction/technical/4863bbf6-6cf3-4238-9407-75825724292a.json`;
+  - discovery report: `content-staging/reconstruction/educational/4863bbf6-6cf3-4238-9407-75825724292a-discovery.json`;
+  - title-run summary: `content-staging/reconstruction/educational/4863bbf6-6cf3-4238-9407-75825724292a-structure-summary.json`;
+  - finalized reconstruction: `content-staging/reconstruction/educational/4863bbf6-6cf3-4238-9407-75825724292a.json`;
+  - discovery run `34899745606`, title-run evidence run `34900021804`, finalization run `34900381099`;
+  - canonical exact-SHA master directory: `الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور`;
+  - finalization evidence commit: `5ae76c89cb74828c9d446f7224202ca048433300`.
+- ambiguity/review_required:
+  - **480** Physics textbook questions are `review_required` because their verified source pages are non-lesson unit-cover/review pages; no forced lesson assignment was made;
+  - semantic correctness of all legacy questions remains `NOT VERIFIED`;
+  - no standalone Answer-Key claim applies to this educational source.
+- invariant result: PASS
+- Sources processed: 32/58
+- Educational: 16/26
+- Books / Units / Lessons / Lesson Pages: 14 / 57 / 328 / 1,527
+- Exam Source Groups: 16/32
+- Individual Exam Models: 279
+- Exam Pages: 944/2,286
+- Verified Answer Keys: 0
+- Source images technical: 2,691/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 13,135
+- Exam-linked: 1,382
+- Review-required: 1,229
+- Unclassified: 10,009
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `4863bbf6-6cf3-4238-9407-75825724292a — الفيزياء الكتاب المدرسي`
+- current source: `41e5a81c-3b93-479c-9b76-33815cae9430 — الفيزياء نماذج وزاريه 1445`
+- exact next operation: `Re-fetch live HEAD and baton; verify no active workflow for Physics 1445; technically verify 60 immutable RAW images; discover duplicate/model boundaries and correction/Answer-Key evidence from this source alone; visually inspect all pages; structurally map 83 legacy questions only to verified model membership; quarantine ambiguity as review_required/NOT VERIFIED; assert invariants and checkpoint.`
+- next source: `Resolve only after Physics 1445 finalization from live MASTER.`
+- blockers: `none`
+- handoff note: `Worker B should begin from Physics Ministry Exams 1445 baseline 60 pages / 60 images / 83 legacy questions / 0 download failures with empty anomaly arrays. Do not inherit the textbook structure or any earlier subject's model packet size; discover this source independently and preserve all RAW/provenance.`
+'''
+          if '## RUN 2026-09-15T00:45:00+03:00 — Worker A' in new:
+              raise SystemExit('duplicate Worker A physics RUN')
+          log.write_text(new.rstrip()+run+'\n',encoding='utf-8')
+
+          # Correct the nested-name lookup artifact in supporting checkpoint prose only.
+          for fn in ['CONTENT_REBUILD_EXECUTION_STATUS.md','CONTENT_REBUILD_HANDOFF.md','CONTENT_INVENTORY.md','CONTENT_VALIDATION_REPORT.md','CONTENT_IMPORT_REPORT.md','CONTENT_REBUILD_CONTINUATION_2026-09-14.md']:
+              p=Path('content-staging')/fn
+              if p.exists():
+                  s=p.read_text(encoding='utf-8')
+                  s=s.replace('41e5a81c-3b93-479c-9b76-33815cae9430 — UNKNOWN','41e5a81c-3b93-479c-9b76-33815cae9430 — الفيزياء نماذج وزاريه 1445')
+                  p.write_text(s,encoding='utf-8')
+          print('WORKER_A_PHYSICS_HANDOFF_PREPARED')
+          PY
+
+      - name: Re-fetch live branch immediately before shared-log write
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT_BEFORE_SHARED_LOG_WRITE; exit 42; }
+
+      - name: Commit baton and supporting name correction
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md content-staging/CONTENT_REBUILD_HANDOFF.md content-staging/CONTENT_INVENTORY.md content-staging/CONTENT_VALIDATION_REPORT.md content-staging/CONTENT_IMPORT_REPORT.md content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          git commit -m 'content: hand off Physics 1445 to Worker B [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
