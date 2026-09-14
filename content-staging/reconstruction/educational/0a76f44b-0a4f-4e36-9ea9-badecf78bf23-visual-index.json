@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "operation": "source_local_visual_evidence_render",
+  "subject_id": "0a76f44b-0a4f-4e36-9ea9-badecf78bf23",
+  "authority": "immutable RAW pages only",
+  "raw_image_count": 61,
+  "stored_page_range": [
+    8,
+    68
+  ],
+  "contact_sheet_count": 6,
+  "sheets": [
+    {
+      "file": "history-source-pages-008-019.jpg",
+      "stored_pages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "history-source-pages-020-031.jpg",
+      "stored_pages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "file": "history-source-pages-032-043.jpg",
+      "stored_pages": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "file": "history-source-pages-044-055.jpg",
+      "stored_pages": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ]
+    },
+    {
+      "file": "history-source-pages-056-067.jpg",
+      "stored_pages": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "file": "history-source-pages-068-068.jpg",
+      "stored_pages": [
+        68
+      ]
+    }
+  ],
+  "raw_mutations": 0,
+  "semantic_boundaries": "NOT VERIFIED",
+  "note": "Rendering only. This file does not infer book/unit/lesson/review boundaries. Human visual inspection is required before semantic reconstruction."
+}
