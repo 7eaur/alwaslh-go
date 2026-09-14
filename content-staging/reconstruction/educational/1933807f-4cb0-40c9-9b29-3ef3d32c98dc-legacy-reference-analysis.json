@@ -1,0 +1,2711 @@
+{
+  "schema_version": 1,
+  "operation": "math_book_part1_legacy_question_reference_analysis",
+  "subject_id": "1933807f-4cb0-40c9-9b29-3ef3d32c98dc",
+  "evidence_scope": "Legacy ai_questions.question_references only; generated/question semantics are NOT VERIFIED and this file MUST NOT be used alone to finalize lesson boundaries.",
+  "page_count": 186,
+  "question_count": 717,
+  "pages_with_question_evidence": 60,
+  "pages_without_question_evidence": 126,
+  "pages_single_title_candidate": 57,
+  "pages_multi_title_conflict": 3,
+  "distinct_lesson_title_candidates": 45,
+  "lesson_title_reference_counts": [
+    {
+      "title": "المجموعات والعلاقات",
+      "reference_count": 157
+    },
+    {
+      "title": "تحليل المقادير الجبرية",
+      "reference_count": 48
+    },
+    {
+      "title": "الوحدة الأولى - التطبيق",
+      "reference_count": 25
+    },
+    {
+      "title": "الوحدة الأولى - العلاقات",
+      "reference_count": 24
+    },
+    {
+      "title": "علاقة التكافؤ",
+      "reference_count": 24
+    },
+    {
+      "title": "المجموعات والعلاقات - الأعداد غير النسبية",
+      "reference_count": 22
+    },
+    {
+      "title": "تمارين ومسائل (١-٤)",
+      "reference_count": 14
+    },
+    {
+      "title": "المجموعات والعلاقات - تمارين ومسائل",
+      "reference_count": 13
+    },
+    {
+      "title": "تمارين ومسائل - العلاقات والتطبيقات",
+      "reference_count": 13
+    },
+    {
+      "title": "تمارين ومسائل - الوحدة الثانية",
+      "reference_count": 13
+    },
+    {
+      "title": "المجموعات والصفة المميزة",
+      "reference_count": 12
+    },
+    {
+      "title": "مجموعة الفرق والمجموعة المتممة",
+      "reference_count": 12
+    },
+    {
+      "title": "المجموعة المتممة والفرق بين مجموعتين",
+      "reference_count": 12
+    },
+    {
+      "title": "متممة المجموعة وقانونا دي مورجان",
+      "reference_count": 12
+    },
+    {
+      "title": "الوحدة الأولى - المجموعات",
+      "reference_count": 12
+    },
+    {
+      "title": "العلاقة المتعدية",
+      "reference_count": 12
+    },
+    {
+      "title": "المجموعات والعلاقات - العلاقة المتعدية",
+      "reference_count": 12
+    },
+    {
+      "title": "العلاقات",
+      "reference_count": 12
+    },
+    {
+      "title": "تمارين ومسائل - المجموعات والعلاقات",
+      "reference_count": 12
+    },
+    {
+      "title": "الوحدة الأولى - علاقة التكافؤ",
+      "reference_count": 12
+    },
+    {
+      "title": "أنواع العلاقات (تكملة تمارين)",
+      "reference_count": 12
+    },
+    {
+      "title": "مجموعة الأعداد الحقيقية",
+      "reference_count": 12
+    },
+    {
+      "title": "الأعداد غير النسبية",
+      "reference_count": 12
+    },
+    {
+      "title": "الأعداد الحقيقية",
+      "reference_count": 12
+    },
+    {
+      "title": "الفترات غير المحددة",
+      "reference_count": 12
+    },
+    {
+      "title": "التطبيق ومخططه البياني",
+      "reference_count": 12
+    },
+    {
+      "title": "المجموعات والعلاقات - التطبيق الخطي",
+      "reference_count": 12
+    },
+    {
+      "title": "تمارين عامة ومسائل (١ : ٨)",
+      "reference_count": 12
+    },
+    {
+      "title": "الوحدة الأولى - تمارين ومسائل",
+      "reference_count": 12
+    },
+    {
+      "title": "اختبار الوحدة الأولى",
+      "reference_count": 12
+    },
+    {
+      "title": "المقدار الثلاثي",
+      "reference_count": 12
+    },
+    {
+      "title": "تحليل المقدار الثلاثي البسيط",
+      "reference_count": 12
+    },
+    {
+      "title": "تحليل المقدار الثلاثي - الوحدة الثانية",
+      "reference_count": 12
+    },
+    {
+      "title": "كتابة المجموعة بالصفة المميزة",
+      "reference_count": 11
+    },
+    {
+      "title": "التطبيقات",
+      "reference_count": 11
+    },
+    {
+      "title": "العلاقات على المجموعات",
+      "reference_count": 10
+    },
+    {
+      "title": "تحليل المقادير الجبرية - مراجعة",
+      "reference_count": 10
+    },
+    {
+      "title": "تحليل المقدار الثلاثي غير البسيط",
+      "reference_count": 10
+    },
+    {
+      "title": "المجموعات والعلاقات - مدى التطبيق",
+      "reference_count": 8
+    },
+    {
+      "title": "التطبيق",
+      "reference_count": 7
+    },
+    {
+      "title": "علاقة التكافؤ والتطبيق",
+      "reference_count": 5
+    },
+    {
+      "title": "التطبيق الخطي",
+      "reference_count": 5
+    },
+    {
+      "title": "المجموعات والعلاقات - قاعدة التطبيق",
+      "reference_count": 4
+    },
+    {
+      "title": "تمثيل الفترات بالصفة المميزة",
+      "reference_count": 4
+    },
+    {
+      "title": "تمثيل المجموعات على خط الأعداد",
+      "reference_count": 3
+    }
+  ],
+  "contiguous_single_title_runs": [
+    {
+      "title": "كتابة المجموعة بالصفة المميزة",
+      "start_ordinal": 1,
+      "end_ordinal": 1,
+      "start_stored_page": 7,
+      "end_stored_page": 7
+    },
+    {
+      "title": "المجموعات والصفة المميزة",
+      "start_ordinal": 2,
+      "end_ordinal": 2,
+      "start_stored_page": 8,
+      "end_stored_page": 8
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 3,
+      "end_ordinal": 3,
+      "start_stored_page": 9,
+      "end_stored_page": 9
+    },
+    {
+      "title": "مجموعة الفرق والمجموعة المتممة",
+      "start_ordinal": 4,
+      "end_ordinal": 4,
+      "start_stored_page": 10,
+      "end_stored_page": 10
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 5,
+      "end_ordinal": 5,
+      "start_stored_page": 11,
+      "end_stored_page": 11
+    },
+    {
+      "title": "المجموعة المتممة والفرق بين مجموعتين",
+      "start_ordinal": 6,
+      "end_ordinal": 6,
+      "start_stored_page": 12,
+      "end_stored_page": 12
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 7,
+      "end_ordinal": 7,
+      "start_stored_page": 13,
+      "end_stored_page": 13
+    },
+    {
+      "title": "متممة المجموعة وقانونا دي مورجان",
+      "start_ordinal": 8,
+      "end_ordinal": 8,
+      "start_stored_page": 14,
+      "end_stored_page": 14
+    },
+    {
+      "title": "المجموعات والعلاقات - تمارين ومسائل",
+      "start_ordinal": 9,
+      "end_ordinal": 9,
+      "start_stored_page": 15,
+      "end_stored_page": 15
+    },
+    {
+      "title": "الوحدة الأولى - المجموعات",
+      "start_ordinal": 10,
+      "end_ordinal": 10,
+      "start_stored_page": 16,
+      "end_stored_page": 16
+    },
+    {
+      "title": "العلاقة المتعدية",
+      "start_ordinal": 11,
+      "end_ordinal": 11,
+      "start_stored_page": 17,
+      "end_stored_page": 17
+    },
+    {
+      "title": "العلاقات على المجموعات",
+      "start_ordinal": 12,
+      "end_ordinal": 12,
+      "start_stored_page": 18,
+      "end_stored_page": 18
+    },
+    {
+      "title": "المجموعات والعلاقات - العلاقة المتعدية",
+      "start_ordinal": 13,
+      "end_ordinal": 13,
+      "start_stored_page": 19,
+      "end_stored_page": 19
+    },
+    {
+      "title": "العلاقات",
+      "start_ordinal": 14,
+      "end_ordinal": 14,
+      "start_stored_page": 20,
+      "end_stored_page": 20
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 15,
+      "end_ordinal": 15,
+      "start_stored_page": 21,
+      "end_stored_page": 21
+    },
+    {
+      "title": "الوحدة الأولى - العلاقات",
+      "start_ordinal": 16,
+      "end_ordinal": 16,
+      "start_stored_page": 22,
+      "end_stored_page": 22
+    },
+    {
+      "title": "تمارين ومسائل - المجموعات والعلاقات",
+      "start_ordinal": 17,
+      "end_ordinal": 17,
+      "start_stored_page": 23,
+      "end_stored_page": 23
+    },
+    {
+      "title": "الوحدة الأولى - العلاقات",
+      "start_ordinal": 18,
+      "end_ordinal": 18,
+      "start_stored_page": 24,
+      "end_stored_page": 24
+    },
+    {
+      "title": "علاقة التكافؤ",
+      "start_ordinal": 19,
+      "end_ordinal": 19,
+      "start_stored_page": 25,
+      "end_stored_page": 25
+    },
+    {
+      "title": "الوحدة الأولى - علاقة التكافؤ",
+      "start_ordinal": 20,
+      "end_ordinal": 20,
+      "start_stored_page": 26,
+      "end_stored_page": 26
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 21,
+      "end_ordinal": 21,
+      "start_stored_page": 27,
+      "end_stored_page": 27
+    },
+    {
+      "title": "علاقة التكافؤ",
+      "start_ordinal": 22,
+      "end_ordinal": 22,
+      "start_stored_page": 28,
+      "end_stored_page": 28
+    },
+    {
+      "title": "أنواع العلاقات (تكملة تمارين)",
+      "start_ordinal": 24,
+      "end_ordinal": 24,
+      "start_stored_page": 30,
+      "end_stored_page": 30
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 25,
+      "end_ordinal": 25,
+      "start_stored_page": 31,
+      "end_stored_page": 31
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 27,
+      "end_ordinal": 27,
+      "start_stored_page": 33,
+      "end_stored_page": 33
+    },
+    {
+      "title": "الوحدة الأولى - التطبيق",
+      "start_ordinal": 28,
+      "end_ordinal": 28,
+      "start_stored_page": 34,
+      "end_stored_page": 34
+    },
+    {
+      "title": "التطبيقات",
+      "start_ordinal": 30,
+      "end_ordinal": 30,
+      "start_stored_page": 36,
+      "end_stored_page": 36
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 31,
+      "end_ordinal": 31,
+      "start_stored_page": 37,
+      "end_stored_page": 37
+    },
+    {
+      "title": "تمارين ومسائل - العلاقات والتطبيقات",
+      "start_ordinal": 32,
+      "end_ordinal": 32,
+      "start_stored_page": 38,
+      "end_stored_page": 38
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 33,
+      "end_ordinal": 33,
+      "start_stored_page": 39,
+      "end_stored_page": 39
+    },
+    {
+      "title": "مجموعة الأعداد الحقيقية",
+      "start_ordinal": 34,
+      "end_ordinal": 34,
+      "start_stored_page": 40,
+      "end_stored_page": 40
+    },
+    {
+      "title": "المجموعات والعلاقات - الأعداد غير النسبية",
+      "start_ordinal": 35,
+      "end_ordinal": 35,
+      "start_stored_page": 41,
+      "end_stored_page": 41
+    },
+    {
+      "title": "الأعداد غير النسبية",
+      "start_ordinal": 36,
+      "end_ordinal": 36,
+      "start_stored_page": 42,
+      "end_stored_page": 42
+    },
+    {
+      "title": "المجموعات والعلاقات - الأعداد غير النسبية",
+      "start_ordinal": 37,
+      "end_ordinal": 37,
+      "start_stored_page": 43,
+      "end_stored_page": 43
+    },
+    {
+      "title": "الأعداد الحقيقية",
+      "start_ordinal": 38,
+      "end_ordinal": 38,
+      "start_stored_page": 44,
+      "end_stored_page": 44
+    },
+    {
+      "title": "الفترات غير المحددة",
+      "start_ordinal": 40,
+      "end_ordinal": 40,
+      "start_stored_page": 46,
+      "end_stored_page": 46
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 41,
+      "end_ordinal": 41,
+      "start_stored_page": 47,
+      "end_stored_page": 47
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 43,
+      "end_ordinal": 43,
+      "start_stored_page": 49,
+      "end_stored_page": 49
+    },
+    {
+      "title": "التطبيق ومخططه البياني",
+      "start_ordinal": 44,
+      "end_ordinal": 44,
+      "start_stored_page": 50,
+      "end_stored_page": 50
+    },
+    {
+      "title": "المجموعات والعلاقات - التطبيق الخطي",
+      "start_ordinal": 45,
+      "end_ordinal": 45,
+      "start_stored_page": 51,
+      "end_stored_page": 51
+    },
+    {
+      "title": "الوحدة الأولى - التطبيق",
+      "start_ordinal": 46,
+      "end_ordinal": 46,
+      "start_stored_page": 52,
+      "end_stored_page": 52
+    },
+    {
+      "title": "تمارين عامة ومسائل (١ : ٨)",
+      "start_ordinal": 47,
+      "end_ordinal": 47,
+      "start_stored_page": 53,
+      "end_stored_page": 53
+    },
+    {
+      "title": "تمارين ومسائل (١-٤)",
+      "start_ordinal": 48,
+      "end_ordinal": 48,
+      "start_stored_page": 54,
+      "end_stored_page": 54
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 49,
+      "end_ordinal": 49,
+      "start_stored_page": 55,
+      "end_stored_page": 55
+    },
+    {
+      "title": "الوحدة الأولى - تمارين ومسائل",
+      "start_ordinal": 50,
+      "end_ordinal": 50,
+      "start_stored_page": 56,
+      "end_stored_page": 56
+    },
+    {
+      "title": "المجموعات والعلاقات",
+      "start_ordinal": 51,
+      "end_ordinal": 51,
+      "start_stored_page": 57,
+      "end_stored_page": 57
+    },
+    {
+      "title": "اختبار الوحدة الأولى",
+      "start_ordinal": 52,
+      "end_ordinal": 52,
+      "start_stored_page": 58,
+      "end_stored_page": 58
+    },
+    {
+      "title": "تحليل المقادير الجبرية - مراجعة",
+      "start_ordinal": 53,
+      "end_ordinal": 53,
+      "start_stored_page": 59,
+      "end_stored_page": 59
+    },
+    {
+      "title": "تمارين ومسائل - الوحدة الثانية",
+      "start_ordinal": 54,
+      "end_ordinal": 54,
+      "start_stored_page": 60,
+      "end_stored_page": 60
+    },
+    {
+      "title": "المقدار الثلاثي",
+      "start_ordinal": 55,
+      "end_ordinal": 55,
+      "start_stored_page": 61,
+      "end_stored_page": 61
+    },
+    {
+      "title": "تحليل المقدار الثلاثي البسيط",
+      "start_ordinal": 56,
+      "end_ordinal": 56,
+      "start_stored_page": 62,
+      "end_stored_page": 62
+    },
+    {
+      "title": "تحليل المقادير الجبرية",
+      "start_ordinal": 57,
+      "end_ordinal": 57,
+      "start_stored_page": 63,
+      "end_stored_page": 63
+    },
+    {
+      "title": "تحليل المقدار الثلاثي - الوحدة الثانية",
+      "start_ordinal": 58,
+      "end_ordinal": 58,
+      "start_stored_page": 64,
+      "end_stored_page": 64
+    },
+    {
+      "title": "تحليل المقادير الجبرية",
+      "start_ordinal": 59,
+      "end_ordinal": 59,
+      "start_stored_page": 65,
+      "end_stored_page": 65
+    },
+    {
+      "title": "تحليل المقدار الثلاثي غير البسيط",
+      "start_ordinal": 60,
+      "end_ordinal": 60,
+      "start_stored_page": 66,
+      "end_stored_page": 66
+    },
+    {
+      "title": "تحليل المقادير الجبرية",
+      "start_ordinal": 61,
+      "end_ordinal": 61,
+      "start_stored_page": 67,
+      "end_stored_page": 67
+    },
+    {
+      "title": "تحليل المقادير الجبرية",
+      "start_ordinal": 63,
+      "end_ordinal": 63,
+      "start_stored_page": 69,
+      "end_stored_page": 69
+    }
+  ],
+  "pages": [
+    {
+      "ordinal": 1,
+      "legacy_page_id": "85ecba77-616f-44e4-9aa5-1d1c2cccaa18",
+      "stored_page_number": 7,
+      "question_count": 11,
+      "lesson_title_candidates": [
+        {
+          "title": "كتابة المجموعة بالصفة المميزة",
+          "reference_count": 11
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٧"
+      ]
+    },
+    {
+      "ordinal": 2,
+      "legacy_page_id": "48152208-b833-4168-844e-452653808ebc",
+      "stored_page_number": 8,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والصفة المميزة",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٨"
+      ]
+    },
+    {
+      "ordinal": 3,
+      "legacy_page_id": "b50f8a15-97ae-47b2-aed4-66ed7f01b523",
+      "stored_page_number": 9,
+      "question_count": 13,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 13
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٩"
+      ]
+    },
+    {
+      "ordinal": 4,
+      "legacy_page_id": "923b0089-6d3f-486b-8275-a39cd6450513",
+      "stored_page_number": 10,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "مجموعة الفرق والمجموعة المتممة",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "١٠"
+      ]
+    },
+    {
+      "ordinal": 5,
+      "legacy_page_id": "790656e7-cfa4-4bed-ac0f-bf65ec210d2f",
+      "stored_page_number": 11,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "١١"
+      ]
+    },
+    {
+      "ordinal": 6,
+      "legacy_page_id": "0799c5b3-8129-4350-9596-c457a7fe667c",
+      "stored_page_number": 12,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعة المتممة والفرق بين مجموعتين",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "١٢"
+      ]
+    },
+    {
+      "ordinal": 7,
+      "legacy_page_id": "037bb554-fbfe-4325-904e-8d3576e83505",
+      "stored_page_number": 13,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "١٣"
+      ]
+    },
+    {
+      "ordinal": 8,
+      "legacy_page_id": "a0a29c58-f929-459b-94d2-5e0f64320895",
+      "stored_page_number": 14,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "متممة المجموعة وقانونا دي مورجان",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "١٤"
+      ]
+    },
+    {
+      "ordinal": 9,
+      "legacy_page_id": "31f0a0fb-dbc7-4d98-8950-ffa2d7a83d3e",
+      "stored_page_number": 15,
+      "question_count": 13,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات - تمارين ومسائل",
+          "reference_count": 13
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "١٥"
+      ]
+    },
+    {
+      "ordinal": 10,
+      "legacy_page_id": "f9a9c562-995e-4fd3-8619-9bf75d68df26",
+      "stored_page_number": 16,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "الوحدة الأولى - المجموعات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "١٦"
+      ]
+    },
+    {
+      "ordinal": 11,
+      "legacy_page_id": "5cbd42ae-8a58-4ac1-8ab2-6788d8904b5f",
+      "stored_page_number": 17,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "العلاقة المتعدية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "١٧"
+      ]
+    },
+    {
+      "ordinal": 12,
+      "legacy_page_id": "a30977bd-7f30-435e-9c0d-80805d067a36",
+      "stored_page_number": 18,
+      "question_count": 10,
+      "lesson_title_candidates": [
+        {
+          "title": "العلاقات على المجموعات",
+          "reference_count": 10
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "١٨"
+      ]
+    },
+    {
+      "ordinal": 13,
+      "legacy_page_id": "3e065657-2b88-4293-8824-e152cd568e53",
+      "stored_page_number": 19,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات - العلاقة المتعدية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "١٩"
+      ]
+    },
+    {
+      "ordinal": 14,
+      "legacy_page_id": "1a83158e-2949-418e-a0fc-95235fe61e8c",
+      "stored_page_number": 20,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "العلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٢٠"
+      ]
+    },
+    {
+      "ordinal": 15,
+      "legacy_page_id": "76f54760-7c4d-4fbd-837d-86ba126d0132",
+      "stored_page_number": 21,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٢١"
+      ]
+    },
+    {
+      "ordinal": 16,
+      "legacy_page_id": "2582fa8b-a210-4642-99a6-f31d334cfa73",
+      "stored_page_number": 22,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "الوحدة الأولى - العلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٢٢"
+      ]
+    },
+    {
+      "ordinal": 17,
+      "legacy_page_id": "36eee87d-a59d-49e7-9218-60deb2229df4",
+      "stored_page_number": 23,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "تمارين ومسائل - المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٢٣"
+      ]
+    },
+    {
+      "ordinal": 18,
+      "legacy_page_id": "2c9f1f4d-d0ec-4733-a36e-33eba8034940",
+      "stored_page_number": 24,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "الوحدة الأولى - العلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٢٤"
+      ]
+    },
+    {
+      "ordinal": 19,
+      "legacy_page_id": "7ccd94d6-aebb-402b-8f05-e3059356e509",
+      "stored_page_number": 25,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "علاقة التكافؤ",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٢٥"
+      ]
+    },
+    {
+      "ordinal": 20,
+      "legacy_page_id": "391d4984-5e65-4e06-adb3-12372a350de7",
+      "stored_page_number": 26,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "الوحدة الأولى - علاقة التكافؤ",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٢٦"
+      ]
+    },
+    {
+      "ordinal": 21,
+      "legacy_page_id": "31db464a-2ff3-4dd0-b520-fb81bb3d291b",
+      "stored_page_number": 27,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٢٧"
+      ]
+    },
+    {
+      "ordinal": 22,
+      "legacy_page_id": "5493e828-ed07-484c-905d-f84825621dc0",
+      "stored_page_number": 28,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "علاقة التكافؤ",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٢٨"
+      ]
+    },
+    {
+      "ordinal": 23,
+      "legacy_page_id": "ab765e9d-6c2a-44c5-a402-ccfa61710592",
+      "stored_page_number": 29,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 24,
+      "legacy_page_id": "f8e5953a-fc2d-437c-9e2d-d45b975b54c7",
+      "stored_page_number": 30,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "أنواع العلاقات (تكملة تمارين)",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٣٠"
+      ]
+    },
+    {
+      "ordinal": 25,
+      "legacy_page_id": "7d524b4b-0c0c-4f1f-8851-bfe70051b30e",
+      "stored_page_number": 31,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٣١"
+      ]
+    },
+    {
+      "ordinal": 26,
+      "legacy_page_id": "6147058a-14bd-4edb-9a74-70b120f02928",
+      "stored_page_number": 32,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "التطبيق",
+          "reference_count": 7
+        },
+        {
+          "title": "علاقة التكافؤ والتطبيق",
+          "reference_count": 5
+        }
+      ],
+      "candidate_status": "MULTI_TITLE_CONFLICT",
+      "reference_page_values": [
+        "٣٢"
+      ]
+    },
+    {
+      "ordinal": 27,
+      "legacy_page_id": "12a57265-8f36-4aea-86a9-90fd0f09c2ef",
+      "stored_page_number": 33,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٣٣"
+      ]
+    },
+    {
+      "ordinal": 28,
+      "legacy_page_id": "481e9994-8469-476a-bde7-7b1e6e63180b",
+      "stored_page_number": 34,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "الوحدة الأولى - التطبيق",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٣٤"
+      ]
+    },
+    {
+      "ordinal": 29,
+      "legacy_page_id": "69195658-8ac5-44fe-9ddd-83cd77c10a83",
+      "stored_page_number": 35,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات - مدى التطبيق",
+          "reference_count": 8
+        },
+        {
+          "title": "المجموعات والعلاقات - قاعدة التطبيق",
+          "reference_count": 4
+        }
+      ],
+      "candidate_status": "MULTI_TITLE_CONFLICT",
+      "reference_page_values": [
+        "٣٥"
+      ]
+    },
+    {
+      "ordinal": 30,
+      "legacy_page_id": "3c7e9b45-4bd4-45bf-a680-5788d39dfdc5",
+      "stored_page_number": 36,
+      "question_count": 11,
+      "lesson_title_candidates": [
+        {
+          "title": "التطبيقات",
+          "reference_count": 11
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٣٦"
+      ]
+    },
+    {
+      "ordinal": 31,
+      "legacy_page_id": "c4716cfb-4c56-4ad3-9265-d74b1d577e22",
+      "stored_page_number": 37,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٣٧"
+      ]
+    },
+    {
+      "ordinal": 32,
+      "legacy_page_id": "04470bb9-bf4d-42fb-ac41-a0cb851cb9ea",
+      "stored_page_number": 38,
+      "question_count": 13,
+      "lesson_title_candidates": [
+        {
+          "title": "تمارين ومسائل - العلاقات والتطبيقات",
+          "reference_count": 13
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٣٨"
+      ]
+    },
+    {
+      "ordinal": 33,
+      "legacy_page_id": "de5afb3f-9e8d-411b-83cb-fc58a2212a1a",
+      "stored_page_number": 39,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٣٩"
+      ]
+    },
+    {
+      "ordinal": 34,
+      "legacy_page_id": "4037f4df-15fb-4bc7-b300-ad30f4ae0a05",
+      "stored_page_number": 40,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "مجموعة الأعداد الحقيقية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٤٠"
+      ]
+    },
+    {
+      "ordinal": 35,
+      "legacy_page_id": "cdc4bdf9-43b1-4f58-81ac-cb8dfd938e50",
+      "stored_page_number": 41,
+      "question_count": 10,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات - الأعداد غير النسبية",
+          "reference_count": 10
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٤١"
+      ]
+    },
+    {
+      "ordinal": 36,
+      "legacy_page_id": "576b0db1-71d0-4420-a3a1-a4bdb5130645",
+      "stored_page_number": 42,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "الأعداد غير النسبية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٤٢"
+      ]
+    },
+    {
+      "ordinal": 37,
+      "legacy_page_id": "5709ee2b-302f-40cd-9f91-55dcdb54ea84",
+      "stored_page_number": 43,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات - الأعداد غير النسبية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٤٣"
+      ]
+    },
+    {
+      "ordinal": 38,
+      "legacy_page_id": "d1844dae-afdb-458f-ac98-6dbe73896add",
+      "stored_page_number": 44,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "الأعداد الحقيقية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٤٤"
+      ]
+    },
+    {
+      "ordinal": 39,
+      "legacy_page_id": "7b5e1a72-d38f-4ba4-aac7-706550a1b757",
+      "stored_page_number": 45,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 40,
+      "legacy_page_id": "9390b599-aaef-4f48-bdcb-2c3b2c8c20aa",
+      "stored_page_number": 46,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "الفترات غير المحددة",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٤٦"
+      ]
+    },
+    {
+      "ordinal": 41,
+      "legacy_page_id": "e439cdce-899e-4746-b918-ddbe5c5842ef",
+      "stored_page_number": 47,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٤٧"
+      ]
+    },
+    {
+      "ordinal": 42,
+      "legacy_page_id": "55540607-5182-4d02-b7c4-2bf2ae4bf05d",
+      "stored_page_number": 48,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "التطبيق الخطي",
+          "reference_count": 5
+        },
+        {
+          "title": "تمثيل الفترات بالصفة المميزة",
+          "reference_count": 4
+        },
+        {
+          "title": "تمثيل المجموعات على خط الأعداد",
+          "reference_count": 3
+        }
+      ],
+      "candidate_status": "MULTI_TITLE_CONFLICT",
+      "reference_page_values": [
+        "٤٨"
+      ]
+    },
+    {
+      "ordinal": 43,
+      "legacy_page_id": "01ea0d11-7555-485b-85cd-e3142bf85e0e",
+      "stored_page_number": 49,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٤٩"
+      ]
+    },
+    {
+      "ordinal": 44,
+      "legacy_page_id": "9bf2358d-193a-40eb-bcaf-575e82130443",
+      "stored_page_number": 50,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "التطبيق ومخططه البياني",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٥٠"
+      ]
+    },
+    {
+      "ordinal": 45,
+      "legacy_page_id": "2a34f8cc-a309-4374-ad02-76a01793bfab",
+      "stored_page_number": 51,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات - التطبيق الخطي",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٥١"
+      ]
+    },
+    {
+      "ordinal": 46,
+      "legacy_page_id": "f03ad003-4e36-49ab-9b03-1a9234ecbaf4",
+      "stored_page_number": 52,
+      "question_count": 13,
+      "lesson_title_candidates": [
+        {
+          "title": "الوحدة الأولى - التطبيق",
+          "reference_count": 13
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٥٢"
+      ]
+    },
+    {
+      "ordinal": 47,
+      "legacy_page_id": "f84b92fd-0f61-408b-9042-182cade8092f",
+      "stored_page_number": 53,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "تمارين عامة ومسائل (١ : ٨)",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٥٣"
+      ]
+    },
+    {
+      "ordinal": 48,
+      "legacy_page_id": "03629b3e-16da-4f8c-bd0e-6ce58105f701",
+      "stored_page_number": 54,
+      "question_count": 14,
+      "lesson_title_candidates": [
+        {
+          "title": "تمارين ومسائل (١-٤)",
+          "reference_count": 14
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٥٤"
+      ]
+    },
+    {
+      "ordinal": 49,
+      "legacy_page_id": "1a56dd9b-d3ec-44c4-b0ca-cee7dcce5fb2",
+      "stored_page_number": 55,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٥٥"
+      ]
+    },
+    {
+      "ordinal": 50,
+      "legacy_page_id": "fb93f825-2663-490f-bb6a-cb1b55dd6eed",
+      "stored_page_number": 56,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "الوحدة الأولى - تمارين ومسائل",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٥٦"
+      ]
+    },
+    {
+      "ordinal": 51,
+      "legacy_page_id": "aa71e24d-299f-4fcd-bc2f-cb2edb99b2b6",
+      "stored_page_number": 57,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المجموعات والعلاقات",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٥٧"
+      ]
+    },
+    {
+      "ordinal": 52,
+      "legacy_page_id": "e63f1100-6d33-41c7-accc-7de8e2281227",
+      "stored_page_number": 58,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "اختبار الوحدة الأولى",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٥٨"
+      ]
+    },
+    {
+      "ordinal": 53,
+      "legacy_page_id": "bd12cd0e-fb1e-49b5-b492-1e83acdb3698",
+      "stored_page_number": 59,
+      "question_count": 10,
+      "lesson_title_candidates": [
+        {
+          "title": "تحليل المقادير الجبرية - مراجعة",
+          "reference_count": 10
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٥٩"
+      ]
+    },
+    {
+      "ordinal": 54,
+      "legacy_page_id": "2c196ea3-c278-4c35-8f0a-da3d3da86a51",
+      "stored_page_number": 60,
+      "question_count": 13,
+      "lesson_title_candidates": [
+        {
+          "title": "تمارين ومسائل - الوحدة الثانية",
+          "reference_count": 13
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٦٠"
+      ]
+    },
+    {
+      "ordinal": 55,
+      "legacy_page_id": "0a961085-d077-4c20-9c96-928e12b82aa9",
+      "stored_page_number": 61,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "المقدار الثلاثي",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٦١"
+      ]
+    },
+    {
+      "ordinal": 56,
+      "legacy_page_id": "39567b51-56a2-40e5-b6ef-61965909e8c2",
+      "stored_page_number": 62,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "تحليل المقدار الثلاثي البسيط",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٦٢"
+      ]
+    },
+    {
+      "ordinal": 57,
+      "legacy_page_id": "75622ef4-e10b-4634-b198-b0ee8d15f066",
+      "stored_page_number": 63,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "تحليل المقادير الجبرية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٦٣"
+      ]
+    },
+    {
+      "ordinal": 58,
+      "legacy_page_id": "e097bedd-39bd-4d06-b3bc-cba5326feef0",
+      "stored_page_number": 64,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "تحليل المقدار الثلاثي - الوحدة الثانية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٦٤"
+      ]
+    },
+    {
+      "ordinal": 59,
+      "legacy_page_id": "4f84972b-c739-42aa-ba43-8dff52514f14",
+      "stored_page_number": 65,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "تحليل المقادير الجبرية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٦٥"
+      ]
+    },
+    {
+      "ordinal": 60,
+      "legacy_page_id": "c08306e4-b2c3-420d-90eb-00f08c5baa4b",
+      "stored_page_number": 66,
+      "question_count": 10,
+      "lesson_title_candidates": [
+        {
+          "title": "تحليل المقدار الثلاثي غير البسيط",
+          "reference_count": 10
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٦٦"
+      ]
+    },
+    {
+      "ordinal": 61,
+      "legacy_page_id": "e8014b04-514d-49a2-a81a-40c708def4c8",
+      "stored_page_number": 67,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "تحليل المقادير الجبرية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٦٧"
+      ]
+    },
+    {
+      "ordinal": 62,
+      "legacy_page_id": "d78ee132-9891-464e-99d2-5665306b6a04",
+      "stored_page_number": 68,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 63,
+      "legacy_page_id": "08e7b39a-393d-47f6-8280-b628b4d23fe1",
+      "stored_page_number": 69,
+      "question_count": 12,
+      "lesson_title_candidates": [
+        {
+          "title": "تحليل المقادير الجبرية",
+          "reference_count": 12
+        }
+      ],
+      "candidate_status": "SINGLE_TITLE_CANDIDATE",
+      "reference_page_values": [
+        "٦٩"
+      ]
+    },
+    {
+      "ordinal": 64,
+      "legacy_page_id": "f346a25c-b927-49f3-b389-e9f1e5294fa7",
+      "stored_page_number": 70,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 65,
+      "legacy_page_id": "6eb5daf1-2a29-424b-9779-79e8fcddf47a",
+      "stored_page_number": 71,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 66,
+      "legacy_page_id": "6894b61c-faa7-4d07-a5e8-c434c8bbca82",
+      "stored_page_number": 72,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 67,
+      "legacy_page_id": "4b0492a7-f9ef-4763-866c-6889603d244d",
+      "stored_page_number": 73,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 68,
+      "legacy_page_id": "664b295a-1180-42e8-8cb4-d7ac37bda27d",
+      "stored_page_number": 74,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 69,
+      "legacy_page_id": "13404c00-dbd1-49bc-b8b2-d9226f26e9b0",
+      "stored_page_number": 75,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 70,
+      "legacy_page_id": "2cf0d233-d376-430e-a131-f96c5c5fef17",
+      "stored_page_number": 76,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 71,
+      "legacy_page_id": "f295e27e-dbc3-4e1b-8da9-8fe85d5c5071",
+      "stored_page_number": 77,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 72,
+      "legacy_page_id": "17fcaeab-7906-43ed-9235-4b073ed702fb",
+      "stored_page_number": 78,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 73,
+      "legacy_page_id": "1cbb821f-6864-4da6-bd83-80ad6f65dcfa",
+      "stored_page_number": 79,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 74,
+      "legacy_page_id": "ad8395d4-cfaa-4557-942e-4179e534e519",
+      "stored_page_number": 80,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 75,
+      "legacy_page_id": "6db3a737-deb3-44e6-bbb6-52010ab31ed8",
+      "stored_page_number": 81,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 76,
+      "legacy_page_id": "35823553-a559-4fc3-b06e-c78f96e95e08",
+      "stored_page_number": 82,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 77,
+      "legacy_page_id": "4bc8578a-1399-44e5-9ca0-74ae0c604dee",
+      "stored_page_number": 83,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 78,
+      "legacy_page_id": "1ab41c96-132c-4092-91db-c0347ecd53ac",
+      "stored_page_number": 84,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 79,
+      "legacy_page_id": "5cc0ed6b-7355-477b-9b82-975cc3007376",
+      "stored_page_number": 85,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 80,
+      "legacy_page_id": "7c475c65-7612-494e-9dba-d4c7e3b7672c",
+      "stored_page_number": 86,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 81,
+      "legacy_page_id": "27d77cdc-8204-4160-9b0e-06ee67bef91c",
+      "stored_page_number": 87,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 82,
+      "legacy_page_id": "8cf5bd20-ced3-40c3-b2fc-66b44d853e58",
+      "stored_page_number": 88,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 83,
+      "legacy_page_id": "38157ed2-c4d8-47b2-83a0-3c1c01c18b77",
+      "stored_page_number": 89,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 84,
+      "legacy_page_id": "53d2a9a0-73d9-4146-b143-1fe96c05c269",
+      "stored_page_number": 90,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 85,
+      "legacy_page_id": "40d1456e-887e-47f3-bc48-a8c9cafb75fc",
+      "stored_page_number": 91,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 86,
+      "legacy_page_id": "73a1bebe-3e1d-441f-9264-32d66fc8cd26",
+      "stored_page_number": 92,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 87,
+      "legacy_page_id": "778d9e34-a5ee-479c-903f-462ad92bd46a",
+      "stored_page_number": 93,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 88,
+      "legacy_page_id": "b36308c4-f962-42c9-bda9-c1dd14992bea",
+      "stored_page_number": 94,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 89,
+      "legacy_page_id": "613d19b6-28d4-44da-b8fc-5d92c5c3b0f9",
+      "stored_page_number": 95,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 90,
+      "legacy_page_id": "bbd5fb73-943c-4cd5-a983-52eac3832100",
+      "stored_page_number": 96,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 91,
+      "legacy_page_id": "0269f138-fb3d-4158-b858-8c12fb2d7cb7",
+      "stored_page_number": 97,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 92,
+      "legacy_page_id": "6acdcffb-fe77-4563-9a45-69c7c510206f",
+      "stored_page_number": 98,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 93,
+      "legacy_page_id": "66653bb7-2ab0-4c2f-8dca-7a13aef3802f",
+      "stored_page_number": 99,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 94,
+      "legacy_page_id": "bba175e1-1987-4e0b-a07c-18c3724f1e6d",
+      "stored_page_number": 100,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 95,
+      "legacy_page_id": "6396517e-3216-4fad-a13c-5c594c733bd5",
+      "stored_page_number": 101,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 96,
+      "legacy_page_id": "5760793e-8144-4a51-8523-7d01b843860f",
+      "stored_page_number": 102,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 97,
+      "legacy_page_id": "357cddfa-9531-40ad-b283-51653033346e",
+      "stored_page_number": 103,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 98,
+      "legacy_page_id": "70c577f6-b3dd-4ba0-b42b-ea434479724c",
+      "stored_page_number": 104,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 99,
+      "legacy_page_id": "ceacffe6-be01-471a-9253-12f219d4fc0c",
+      "stored_page_number": 105,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 100,
+      "legacy_page_id": "3a72ad54-c7ee-4442-afcf-0c55bc45c171",
+      "stored_page_number": 106,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 101,
+      "legacy_page_id": "20eef97e-f430-4e60-819d-6f8598eac9fc",
+      "stored_page_number": 107,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 102,
+      "legacy_page_id": "d436a82a-ad5b-4b13-9f49-95b5c839661d",
+      "stored_page_number": 108,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 103,
+      "legacy_page_id": "aafcbd43-e756-4103-a8b5-36f3897a9163",
+      "stored_page_number": 109,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 104,
+      "legacy_page_id": "f5060b21-15fe-44dc-a8ae-a8d05980daff",
+      "stored_page_number": 110,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 105,
+      "legacy_page_id": "20db1945-9db0-4d3c-86ce-f09ca3d66c26",
+      "stored_page_number": 111,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 106,
+      "legacy_page_id": "981e4438-85d1-4f51-80fb-eccb8c10aef9",
+      "stored_page_number": 112,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 107,
+      "legacy_page_id": "62bba0ff-82f7-42c4-91ca-178227bcee89",
+      "stored_page_number": 113,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 108,
+      "legacy_page_id": "6d6dbee2-d38c-4099-b6f5-6cb40c76ebc5",
+      "stored_page_number": 114,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 109,
+      "legacy_page_id": "8bdb2b05-6c60-4093-99bb-701bad36e400",
+      "stored_page_number": 115,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 110,
+      "legacy_page_id": "dee0b7a6-86bb-4a18-bd9b-7acddc70003f",
+      "stored_page_number": 116,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 111,
+      "legacy_page_id": "3dce6991-f852-42f7-8680-0a4917b1d34b",
+      "stored_page_number": 117,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 112,
+      "legacy_page_id": "b848cf84-bfe9-4696-9f97-e4a42d365f73",
+      "stored_page_number": 118,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 113,
+      "legacy_page_id": "58001742-ad90-498f-b52f-b58e7102221a",
+      "stored_page_number": 119,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 114,
+      "legacy_page_id": "34313237-04af-49aa-9c93-fe982636c8b3",
+      "stored_page_number": 120,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 115,
+      "legacy_page_id": "ed8823e3-41d1-4464-9029-184528ee020e",
+      "stored_page_number": 121,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 116,
+      "legacy_page_id": "23e7e651-905f-4767-8931-0d103555e4c4",
+      "stored_page_number": 122,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 117,
+      "legacy_page_id": "6b7d4ce6-2dc5-4015-813d-15e8b883a1f9",
+      "stored_page_number": 123,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 118,
+      "legacy_page_id": "ea7c2623-d6a6-434b-9910-54bfbd27d2b8",
+      "stored_page_number": 124,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 119,
+      "legacy_page_id": "4d1ffaef-60d1-47c0-aa6b-99365912c8b3",
+      "stored_page_number": 125,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 120,
+      "legacy_page_id": "5935a0a0-a852-4c6f-bb07-980f23927b38",
+      "stored_page_number": 126,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 121,
+      "legacy_page_id": "d2979af7-befb-4382-b74b-1859d5be8b24",
+      "stored_page_number": 127,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 122,
+      "legacy_page_id": "e9ae1cb6-393e-4cac-9727-7e8002f881b4",
+      "stored_page_number": 128,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 123,
+      "legacy_page_id": "90a9d517-7239-4c4a-b8d9-d0078452b681",
+      "stored_page_number": 129,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 124,
+      "legacy_page_id": "df0da1bb-3198-4458-8808-445cb41029e2",
+      "stored_page_number": 130,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 125,
+      "legacy_page_id": "afee970b-9414-4448-9aea-fec593e5c93d",
+      "stored_page_number": 131,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 126,
+      "legacy_page_id": "d3905a03-a7f2-4517-94b4-70e7749902ab",
+      "stored_page_number": 132,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 127,
+      "legacy_page_id": "fbe83ad5-ffba-4eb6-bd3a-3a6ad124b96a",
+      "stored_page_number": 133,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 128,
+      "legacy_page_id": "dce7b139-fb0f-4b6f-af17-83527a3c9ca5",
+      "stored_page_number": 134,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 129,
+      "legacy_page_id": "b3281ff9-123c-4e00-8db7-3e3197b4d543",
+      "stored_page_number": 135,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 130,
+      "legacy_page_id": "3bddd9b6-7cb1-4062-a08a-3853f2c11619",
+      "stored_page_number": 136,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 131,
+      "legacy_page_id": "2a12b50a-0f10-48a0-9230-dced73ebd03c",
+      "stored_page_number": 137,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 132,
+      "legacy_page_id": "4d7f590e-6312-4566-8997-8d59588bf024",
+      "stored_page_number": 138,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 133,
+      "legacy_page_id": "72d2849b-9774-426a-8d76-28673e155039",
+      "stored_page_number": 139,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 134,
+      "legacy_page_id": "f3814516-217c-4a17-925d-3884ddae58b3",
+      "stored_page_number": 140,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 135,
+      "legacy_page_id": "c93312dc-9c1d-4c70-bef1-62880edea7bd",
+      "stored_page_number": 141,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 136,
+      "legacy_page_id": "ff1e2c47-45de-447f-a87b-e2303de43394",
+      "stored_page_number": 142,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 137,
+      "legacy_page_id": "5de4ed58-6210-4963-9894-bf7519154430",
+      "stored_page_number": 143,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 138,
+      "legacy_page_id": "536a4836-d8f0-4e6b-a5bb-e499e1757118",
+      "stored_page_number": 144,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 139,
+      "legacy_page_id": "82b62665-7f81-4971-a4f8-c623f0231851",
+      "stored_page_number": 145,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 140,
+      "legacy_page_id": "f133cbf4-e47e-4e02-872d-674257788179",
+      "stored_page_number": 146,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 141,
+      "legacy_page_id": "eaaa24aa-2f73-40fe-acad-5a2a14d1358c",
+      "stored_page_number": 147,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 142,
+      "legacy_page_id": "1b91ef05-7cf2-4da4-84e8-c7c1331e5f72",
+      "stored_page_number": 148,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 143,
+      "legacy_page_id": "08bc82b3-92e9-4d86-a0c1-9aa3334dc7b2",
+      "stored_page_number": 149,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 144,
+      "legacy_page_id": "8bcea11b-2394-4a6b-8550-512baca04e62",
+      "stored_page_number": 150,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 145,
+      "legacy_page_id": "4c97e26a-12ca-4361-8dbe-80238078792c",
+      "stored_page_number": 151,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 146,
+      "legacy_page_id": "a5d71f5c-0b13-4f45-93c2-9789024af0d3",
+      "stored_page_number": 152,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 147,
+      "legacy_page_id": "43a9e09a-c4ad-47fd-bab8-3d423f48adcb",
+      "stored_page_number": 153,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 148,
+      "legacy_page_id": "423104e7-9e7e-45e2-bbdf-1642a8915748",
+      "stored_page_number": 154,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 149,
+      "legacy_page_id": "7bfbb05d-338d-4667-b0a8-79bc26cd4683",
+      "stored_page_number": 155,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 150,
+      "legacy_page_id": "c7bbd3ff-081e-4b24-bddd-bee637acef13",
+      "stored_page_number": 156,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 151,
+      "legacy_page_id": "a5c651f3-bbef-446e-8936-723526da108d",
+      "stored_page_number": 157,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 152,
+      "legacy_page_id": "984deb15-2a90-4ec7-b475-45025bac62f6",
+      "stored_page_number": 158,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 153,
+      "legacy_page_id": "ee1b127c-bd1f-4585-9fca-4e61a1da688f",
+      "stored_page_number": 159,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 154,
+      "legacy_page_id": "10af6136-2769-4cd7-a40f-a27ee2cbb41b",
+      "stored_page_number": 160,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 155,
+      "legacy_page_id": "1259806f-3705-4676-8a01-71ee5d065c8e",
+      "stored_page_number": 161,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 156,
+      "legacy_page_id": "7d3c9996-c6fe-4c3a-b17a-4b5ab6dcb06a",
+      "stored_page_number": 162,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 157,
+      "legacy_page_id": "6a307a4a-f433-4620-a31c-c3a7ca7186bd",
+      "stored_page_number": 163,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 158,
+      "legacy_page_id": "d7db86f1-f846-4085-9f5d-2366b8b81710",
+      "stored_page_number": 164,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 159,
+      "legacy_page_id": "3ac769fd-9f13-4232-aab9-b36ff8c7cd55",
+      "stored_page_number": 165,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 160,
+      "legacy_page_id": "7941a7ca-32aa-41f7-bcd2-f33a7f8c6b98",
+      "stored_page_number": 166,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 161,
+      "legacy_page_id": "65409c0d-a82b-4381-b4a8-e18f094c005b",
+      "stored_page_number": 167,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 162,
+      "legacy_page_id": "7ecb0345-e199-4081-9cc3-a288e98cf312",
+      "stored_page_number": 168,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 163,
+      "legacy_page_id": "ac4eeeb1-06a7-4512-b9e3-073e7dc9e6b7",
+      "stored_page_number": 169,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 164,
+      "legacy_page_id": "1b5d95a2-288f-4040-84e5-191772d993be",
+      "stored_page_number": 170,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 165,
+      "legacy_page_id": "3d41258b-abc4-49df-9049-b95981f4e8fd",
+      "stored_page_number": 171,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 166,
+      "legacy_page_id": "e389785a-5614-41fc-b49e-9944aa711ad5",
+      "stored_page_number": 172,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 167,
+      "legacy_page_id": "b64a3eb6-9fe2-4d72-ab95-f36ebf4fef68",
+      "stored_page_number": 173,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 168,
+      "legacy_page_id": "2036cbeb-0812-423c-9dd7-1b3330d0aa6b",
+      "stored_page_number": 174,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 169,
+      "legacy_page_id": "8fb51699-df53-44fc-b5ea-be7f31c59fe2",
+      "stored_page_number": 175,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 170,
+      "legacy_page_id": "784c8923-9f38-409b-8270-f5b3c813e8c8",
+      "stored_page_number": 176,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 171,
+      "legacy_page_id": "745e3521-e1e3-4626-be05-f99ab8e7e767",
+      "stored_page_number": 177,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 172,
+      "legacy_page_id": "00480adf-c618-42ab-82dd-0c224ab43c1a",
+      "stored_page_number": 178,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 173,
+      "legacy_page_id": "667b6860-409d-4d5b-a85d-e02d28eb7bb5",
+      "stored_page_number": 179,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 174,
+      "legacy_page_id": "9b21d090-30f0-4b47-abbf-a8308db02f43",
+      "stored_page_number": 180,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 175,
+      "legacy_page_id": "8d595e7f-cdfe-40cc-8c33-b810db7309e0",
+      "stored_page_number": 181,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 176,
+      "legacy_page_id": "1f9a35ab-98bb-4073-b14a-a9b6cf037d94",
+      "stored_page_number": 182,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 177,
+      "legacy_page_id": "02cfefbd-3c39-47f9-aa3c-09ff1a956616",
+      "stored_page_number": 183,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 178,
+      "legacy_page_id": "4e6ab477-c797-498f-9664-bc5bb796a060",
+      "stored_page_number": 184,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 179,
+      "legacy_page_id": "33fe96ae-3b61-4bf5-8dfe-935842b5ff99",
+      "stored_page_number": 185,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 180,
+      "legacy_page_id": "998a05f8-aefe-4d77-9a92-8018039a041f",
+      "stored_page_number": 186,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 181,
+      "legacy_page_id": "47726f94-64b4-43ca-a57f-bf0176a21ba6",
+      "stored_page_number": 187,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 182,
+      "legacy_page_id": "6149c907-21a3-430c-bc36-26913eae4acd",
+      "stored_page_number": 188,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 183,
+      "legacy_page_id": "f412d05c-53a1-46d1-94f3-4fe922741219",
+      "stored_page_number": 189,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 184,
+      "legacy_page_id": "3155367a-89f1-40a6-a49f-994e80c2ec1a",
+      "stored_page_number": 190,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 185,
+      "legacy_page_id": "851ace91-e75a-48dd-bf21-b8c5d10dc52b",
+      "stored_page_number": 191,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    },
+    {
+      "ordinal": 186,
+      "legacy_page_id": "8f781dbc-b0cb-497f-810c-e4a38765db7b",
+      "stored_page_number": 192,
+      "question_count": 0,
+      "lesson_title_candidates": [],
+      "candidate_status": "NO_QUESTION_EVIDENCE",
+      "reference_page_values": []
+    }
+  ],
+  "boundary_status": "NOT VERIFIED",
+  "semantic_correctness": "NOT VERIFIED",
+  "raw_mutations": 0
+}
