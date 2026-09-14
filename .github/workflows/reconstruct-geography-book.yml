@@ -1,0 +1,105 @@
+name: Reconstruct Geography Book
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/reconstruct-geography-book.yml'
+      - 'content-staging/tools/reconstruct_geography_book.py'
+      - 'content-staging/tools/record_geography_book_checkpoint.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reconstruct-geography-book
+  cancel-in-progress: false
+
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - name: Checkout trusted master reference
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master-reference
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install verifier dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+      - name: Verify immutable Geography RAW media
+        run: python content-staging/tools/verify_subject_media.py --subject-id a7f1e94f-82d1-4146-af5b-4e9b51363f0b
+      - name: Reconstruct Geography only from exact evidence
+        run: python content-staging/tools/reconstruct_geography_book.py
+      - name: Assert source reconstruction before checkpoint
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='a7f1e94f-82d1-4146-af5b-4e9b51363f0b'
+          t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
+          d=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-discovery.json').read_text())
+          r=json.loads(Path(f'content-staging/reconstruction/educational/{sid}.json').read_text())
+          assert t['all_images_technically_verified'] is True
+          assert t['checks']['manifest_image_count']==104
+          assert d['identity_status']=='VERIFIED' and d['exact_sha_identity_count']==104
+          assert r['status']=='reconstructed_verified' and r['reconstructed_book']['retained_pages']==104
+          assert r['questions']['legacy_questions']==0 and r['raw_mutations']==0
+          classified=sum(len(r['page_classification'][k]) for k in ('lesson_pages','unit_cover_pages','unit_review_pages','non_lesson_pages'))
+          assert classified==104
+          print('GEOGRAPHY_RECONSTRUCTION_VERIFY_PASS')
+          PY
+      - name: Re-fetch live branch before finalization and fail closed on conflict
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          LIVE=$(git rev-parse origin/content/corpus-inventory-20260914)
+          LOCAL=$(git rev-parse HEAD)
+          test "$LIVE" = "$LOCAL" || { echo "Semantic safety gate: branch changed live=$LIVE local=$LOCAL"; exit 23; }
+      - name: Record evidence-backed Geography checkpoint
+        run: python content-staging/tools/record_geography_book_checkpoint.py
+      - name: Assert global invariant after checkpoint
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          x=p['reconstruction_progress']
+          assert x['sources_completed']==15 and x['educational_sources_completed']==6 and x['verified_books']==6
+          assert x['source_images_technically_verified']==1174
+          assert x['lesson_linked_structural']+x['exam_linked_to_individual_model']+x['review_required']+x['unclassified']==25755
+          assert x['raw_mutations']==0 and x['unrelated_mutations']==0 and x['new_imports']==0 and x['new_publications']==0
+          print('GEOGRAPHY_FINALIZATION_VERIFY_PASS')
+          PY
+      - name: Re-fetch live branch immediately before write and fail closed on conflict
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          LIVE=$(git rev-parse origin/content/corpus-inventory-20260914)
+          LOCAL=$(git rev-parse HEAD)
+          test "$LIVE" = "$LOCAL" || { echo "Write safety gate: branch changed live=$LIVE local=$LOCAL"; exit 24; }
+      - name: Commit derived Geography reconstruction checkpoint
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/reconstruction/technical/a7f1e94f-82d1-4146-af5b-4e9b51363f0b.json \
+            content-staging/reconstruction/educational/a7f1e94f-82d1-4146-af5b-4e9b51363f0b-discovery.json \
+            content-staging/reconstruction/educational/a7f1e94f-82d1-4146-af5b-4e9b51363f0b.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          if git diff --cached --quiet; then echo 'No derived changes to commit'; exit 0; fi
+          git commit -m 'content: finalize geography reconstruction checkpoint [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
