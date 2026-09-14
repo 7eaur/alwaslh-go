@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
@@ -9,6 +10,7 @@ ROOT = Path("content-staging/raw/legacy-supabase/subjects") / SID
 MANIFEST = ROOT / "manifest.json"
 OUT = Path("_artifacts/history-source-local")
 INDEX = Path("content-staging/reconstruction/educational") / f"{SID}-visual-index.json"
+BOUNDARY_PAGES = [8, 9, 10, 14, 22, 31, 36, 44, 49, 56, 64, 68]
 
 
 def main() -> None:
@@ -25,6 +27,13 @@ def main() -> None:
     font = ImageFont.load_default()
     sheets = []
 
+    by_page = {x["page_number"]: x for x in images}
+    for page in BOUNDARY_PAGES:
+        rec = by_page[page]
+        source = Path("content-staging") / rec["raw_path"]
+        target = OUT / f"history-boundary-page-{page:03d}.jpg"
+        shutil.copyfile(source, target)
+
     for batch_index in range(0, len(images), cols * rows):
         batch = images[batch_index:batch_index + cols * rows]
         canvas = Image.new("RGB", (sheet_w, sheet_h), "white")
@@ -40,7 +49,7 @@ def main() -> None:
                 y = y0 + (thumb_h - im.height) // 2
                 canvas.paste(im, (x, y))
             page_numbers.append(rec["page_number"])
-            label = f"stored {rec['page_number']} | {rec['legacy_page_id'][:8]} | q={sum(1 for q in manifest.get('questions', []) if q.get('legacy_page_id') == rec['legacy_page_id'])}"
+            label = f"stored {rec['page_number']} | {rec['legacy_page_id'][:8]}"
             draw.text(((i % cols) * thumb_w + 8, y0 + thumb_h + 8), label, fill="black", font=font)
 
         lo, hi = page_numbers[0], page_numbers[-1]
@@ -50,7 +59,7 @@ def main() -> None:
         sheets.append({"file": name, "stored_pages": page_numbers})
 
     index = {
-        "schema_version": 1,
+        "schema_version": 2,
         "operation": "source_local_visual_evidence_render",
         "subject_id": SID,
         "authority": "immutable RAW pages only",
@@ -58,6 +67,7 @@ def main() -> None:
         "stored_page_range": [8, 68],
         "contact_sheet_count": len(sheets),
         "sheets": sheets,
+        "boundary_page_exports": BOUNDARY_PAGES,
         "raw_mutations": 0,
         "semantic_boundaries": "NOT VERIFIED",
         "note": "Rendering only. This file does not infer book/unit/lesson/review boundaries. Human visual inspection is required before semantic reconstruction."
