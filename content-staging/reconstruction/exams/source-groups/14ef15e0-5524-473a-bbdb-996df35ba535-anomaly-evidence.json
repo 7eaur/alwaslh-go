@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "source_group_id": "14ef15e0-5524-473a-bbdb-996df35ba535",
+  "operation": "source_local_duplicate_page_number_evidence",
+  "raw_mutations": 0,
+  "manifest_anomaly": {
+    "duplicate_page_numbers": [
+      36
+    ],
+    "missing_expected_page_number_from_sequence": 35
+  },
+  "page_records_34_37_in_source_order": [
+    {
+      "source_index": 33,
+      "legacy_page_id": "d37e4aea-1164-46c9-a52e-99f71c3da511",
+      "page_number": 34,
+      "title": "النموذج 12 الورقة 1",
+      "content_type": "lesson",
+      "question_count": 0,
+      "image_count": 0,
+      "image_refs": []
+    },
+    {
+      "source_index": 34,
+      "legacy_page_id": "e5be5a57-1052-4193-b525-ffa11912a6b2",
+      "page_number": 36,
+      "title": "نموذج التصحيح النموذج 12 ",
+      "content_type": "lesson",
+      "question_count": 0,
+      "image_count": 0,
+      "image_refs": []
+    },
+    {
+      "source_index": 35,
+      "legacy_page_id": "4e7b1edf-37cf-44d1-9801-091a396a86b0",
+      "page_number": 36,
+      "title": "نموذج التصحيح النموذج 12",
+      "content_type": "lesson",
+      "question_count": 0,
+      "image_count": 0,
+      "image_refs": []
+    },
+    {
+      "source_index": 36,
+      "legacy_page_id": "cc03f87b-5d73-40a3-a7eb-c09e7545c78c",
+      "page_number": 37,
+      "title": "النموذج 13 الورقة 1",
+      "content_type": "lesson",
+      "question_count": 0,
+      "image_count": 0,
+      "image_refs": []
+    }
+  ],
+  "manifest_image_records_34_37_in_manifest_order": [
+    {
+      "manifest_image_index": 33,
+      "legacy_page_id": "d37e4aea-1164-46c9-a52e-99f71c3da511",
+      "page_number": 34,
+      "raw_path": "raw/legacy-supabase/subjects/14ef15e0-5524-473a-bbdb-996df35ba535/images/page-00034-d37e4aea-1164-46c9-a52e-99f71c3da511-image-00.jpg",
+      "sha256": "c9f90ce5dc65be24484bf91d731558caaed6603cc4ea5e6b29af20ba0d3cb8d7",
+      "byte_size": 162680,
+      "source_url": "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786967118745-17.jpg"
+    },
+    {
+      "manifest_image_index": 34,
+      "legacy_page_id": "4e7b1edf-37cf-44d1-9801-091a396a86b0",
+      "page_number": 36,
+      "raw_path": "raw/legacy-supabase/subjects/14ef15e0-5524-473a-bbdb-996df35ba535/images/page-00036-4e7b1edf-37cf-44d1-9801-091a396a86b0-image-00.jpg",
+      "sha256": "e65f1c7428131be01b0fff63380f955283e855ba927f800a8fc93c94b87f1319",
+      "byte_size": 168822,
+      "source_url": "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786967117517-20.jpg"
+    },
+    {
+      "manifest_image_index": 35,
+      "legacy_page_id": "e5be5a57-1052-4193-b525-ffa11912a6b2",
+      "page_number": 36,
+      "raw_path": "raw/legacy-supabase/subjects/14ef15e0-5524-473a-bbdb-996df35ba535/images/page-00036-e5be5a57-1052-4193-b525-ffa11912a6b2-image-00.jpg",
+      "sha256": "4c6ad81e82da691323fea8cb4b65038b8a49307d2b2778b93baca8c468933cec",
+      "byte_size": 146095,
+      "source_url": "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786967092805-18.jpg"
+    },
+    {
+      "manifest_image_index": 36,
+      "legacy_page_id": "cc03f87b-5d73-40a3-a7eb-c09e7545c78c",
+      "page_number": 37,
+      "raw_path": "raw/legacy-supabase/subjects/14ef15e0-5524-473a-bbdb-996df35ba535/images/page-00037-cc03f87b-5d73-40a3-a7eb-c09e7545c78c-image-00.jpg",
+      "sha256": "8017c38c8ab966b370589fc806cc35b65ed10950d2ecd6773a7160a437a6c75f",
+      "byte_size": 161485,
+      "source_url": "https://zhbgbmqhonqmzpqfiehs.supabase.co/storage/v1/object/public/lesson_content/1786967118915-9.jpg"
+    }
+  ],
+  "interpretation": "NOT VERIFIED — this artifact records identities/order only; model-boundary resolution requires visual evidence plus metadata reconciliation."
+}
