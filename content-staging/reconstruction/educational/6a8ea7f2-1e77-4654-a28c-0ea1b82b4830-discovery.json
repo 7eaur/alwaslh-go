@@ -1,0 +1,566 @@
+{
+  "source_id": "6a8ea7f2-1e77-4654-a28c-0ea1b82b4830",
+  "source_name": "الفقه الكتاب المدرسي",
+  "status": "discovery_complete_not_finalized",
+  "source_pages": 67,
+  "legacy_questions": 906,
+  "retained_storage_page_range": [
+    8,
+    74
+  ],
+  "technical_source_sha_rechecked": 67,
+  "identity_status": "VERIFIED_EXACT_SHA",
+  "exact_sha_identity_count": 67,
+  "unmatched_storage_pages": [],
+  "candidate_master_directories": [
+    {
+      "path": "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور",
+      "exact_sha_matches": 67
+    }
+  ],
+  "page_exact_sha_matches": [
+    {
+      "page_number": 8,
+      "legacy_page_id": "634df40f-72ac-411f-9fba-fc05832b3cad",
+      "sha256": "541ecd151244c441e9ca2f55c8d8656f8670e5e1d09a26eda75a7966c7a3202d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص008 - الدرس الأول - الجزاء والعقوبات في الإسلام.webp"
+      ]
+    },
+    {
+      "page_number": 9,
+      "legacy_page_id": "e5e99f63-d219-4ab5-92b0-496f54cdabff",
+      "sha256": "d6c9439fb62e594f274e70937e5634488da2aa1a581ee91ce2139540bc7b8d90",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص009 - الدرس الأول - الجزاء والعقوبات في الإسلام.webp"
+      ]
+    },
+    {
+      "page_number": 10,
+      "legacy_page_id": "6c3454c8-b472-4942-9169-8bbb6aa9be96",
+      "sha256": "1e89d4015132303cb5c1b2dbd5c41dfd20561f6cd3813506caf4bcbbca2ba39f",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص010 - الدرس الأول - الجزاء والعقوبات في الإسلام.webp"
+      ]
+    },
+    {
+      "page_number": 11,
+      "legacy_page_id": "d8246dbc-bda1-44de-b1b3-bf12e5b50962",
+      "sha256": "eb5008fbb4cb2ac70738681789fc68c0d189398a4fd5fe907e36c4d4fc305742",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص011 - الدرس الأول - الجزاء والعقوبات في الإسلام.webp"
+      ]
+    },
+    {
+      "page_number": 12,
+      "legacy_page_id": "cf6c8426-b4d5-4339-83d1-c8d0b90690c7",
+      "sha256": "e55578cb4f55a19a00560a7d06a672bf209bcd62c5d8bfe9f642a17a88598219",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص012 - الدرس الأول - الجزاء والعقوبات في الإسلام.webp"
+      ]
+    },
+    {
+      "page_number": 13,
+      "legacy_page_id": "0f8c1aa8-bd33-469c-ab64-0692e44eae68",
+      "sha256": "edf6a041a9c975d51f014781c6f89177ada3c0fa454ca8f7f867187ab8c403ff",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص013 - الدرس الأول - الجزاء والعقوبات في الإسلام.webp"
+      ]
+    },
+    {
+      "page_number": 14,
+      "legacy_page_id": "83ed1d1c-25b1-409e-bcc8-b17c0b3698a8",
+      "sha256": "ae5f9c90bb769a711a5b9e99c6c7148d6b551a955a647b28233cf20a1c46fd22",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص014 - الدرس الثاني - العقوبات الشرعية.webp"
+      ]
+    },
+    {
+      "page_number": 15,
+      "legacy_page_id": "2ef2edf2-8fe9-4fec-b282-1e1f137ec98b",
+      "sha256": "5273af1ae413547b446377afe474c350675388b123d2e507467f8e330d7ad937",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص015 - الدرس الثاني - العقوبات الشرعية.webp"
+      ]
+    },
+    {
+      "page_number": 16,
+      "legacy_page_id": "560190e5-a9dd-4cb7-aeb4-9343ca5a30a7",
+      "sha256": "6c985b501abbfc112f545b9075fff51fecd1b577c24f8dca446684234fb48395",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص016 - الدرس الثاني - العقوبات الشرعية.webp"
+      ]
+    },
+    {
+      "page_number": 17,
+      "legacy_page_id": "a78efc14-7cbb-430e-b1db-09891e429fb0",
+      "sha256": "6474a0226bde578846f10b19b58c1e82e95dfab544f3a14480f892f0c25368be",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص017 - الدرس الثاني - العقوبات الشرعية.webp"
+      ]
+    },
+    {
+      "page_number": 18,
+      "legacy_page_id": "610bb6e1-21c4-4f6f-9281-33b4a46a548b",
+      "sha256": "afca81ebba2ed7eedccdab053ffa053effb3ececdaa1f97c0ab44eb169d259e7",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص018 - الدرس الثاني - العقوبات الشرعية.webp"
+      ]
+    },
+    {
+      "page_number": 19,
+      "legacy_page_id": "edfec436-3bc6-44e8-92e6-40c57e0905e2",
+      "sha256": "8977643b33093074e01c3faa50dcbd70c25e06a68aac80039d8422722b50cc22",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص019 - الدرس الثاني - العقوبات الشرعية.webp"
+      ]
+    },
+    {
+      "page_number": 20,
+      "legacy_page_id": "e2283183-23b7-4b85-acc0-f8f50f30ce05",
+      "sha256": "fbeb9fde7bae2ec6363181ecc7d4f384bfc1d4b6c0b96fb6e800953a478a032f",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص020 - الدرس الثالث - عقوبة فاحشة الزنا.webp"
+      ]
+    },
+    {
+      "page_number": 21,
+      "legacy_page_id": "6ee7e48d-c8fa-4e45-8978-fa2bfcbfb446",
+      "sha256": "acf72887e4cd7da291a42638ed00404820dd10f81526b2bbe1b731c0b7a3d0e3",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص021 - الدرس الثالث - عقوبة فاحشة الزنا.webp"
+      ]
+    },
+    {
+      "page_number": 22,
+      "legacy_page_id": "0e982783-b600-4bcf-91b6-b8b34f04d980",
+      "sha256": "fe8d00545c3b032da949636643eba2585edb77fc039ca3fc3e6e0fc1cefe1e22",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص022 - الدرس الثالث - عقوبة فاحشة الزنا.webp"
+      ]
+    },
+    {
+      "page_number": 23,
+      "legacy_page_id": "6f768f3c-3425-4253-989d-c89514931675",
+      "sha256": "42041c44db5af8e58ed4d485cd6b7f6a35a0233b8bcbff5cf8ff7ab601c9de73",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص023 - الدرس الثالث - عقوبة فاحشة الزنا.webp"
+      ]
+    },
+    {
+      "page_number": 24,
+      "legacy_page_id": "911926e7-a7ba-421a-af22-3f092803c6fe",
+      "sha256": "43795ced2b9d258804386a54642f7705b47af3bdb67082dd0bf80f8bfa771080",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص024 - الدرس الرابع - عقوبة القذف.webp"
+      ]
+    },
+    {
+      "page_number": 25,
+      "legacy_page_id": "aabaebe4-01cb-4690-8243-aef222ca3b86",
+      "sha256": "d268686acb21c32df959a2eaf26afefe422c6978583f90ac8e7fa559f33af8db",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص025 - الدرس الرابع - عقوبة القذف.webp"
+      ]
+    },
+    {
+      "page_number": 26,
+      "legacy_page_id": "49f346c5-4a7c-418f-a389-d2a6d59eb030",
+      "sha256": "17e98bdba4e3cd4ec9fdabb88c53aff526275ce43367f9ad7a2c66f48afa5783",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص026 - الدرس الرابع - عقوبة القذف.webp"
+      ]
+    },
+    {
+      "page_number": 27,
+      "legacy_page_id": "8b2b2d6c-2d4c-44e5-b7e7-8fe63df3f460",
+      "sha256": "c22f34f43768b136213f237c43e42c9691ad19ab7c944733a39fa7dc13e859f6",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص027 - الدرس الرابع - عقوبة القذف.webp"
+      ]
+    },
+    {
+      "page_number": 28,
+      "legacy_page_id": "1b4a1516-ea1d-4cb1-b2b7-721f5b61e71c",
+      "sha256": "ea8827124654038b71735c763e1f053c2c8fd996f25ddfc1f4380d9d4d1575f4",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص028 - الدرس الرابع - عقوبة القذف.webp"
+      ]
+    },
+    {
+      "page_number": 29,
+      "legacy_page_id": "730d4506-c0d6-4486-a792-4e5957200252",
+      "sha256": "908a3de1a07dbbed1be67e2a0ef6a5205026cabec7594ff2fa138bc73f5c56fc",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص029 - الدرس الخامس - عقوبة شرب الخمر.webp"
+      ]
+    },
+    {
+      "page_number": 30,
+      "legacy_page_id": "ec0918b9-0a8f-436d-84ab-7f317e89cfd0",
+      "sha256": "905045c3b61b6abcbcf42fa4b712388a90151a5a537d79fb55616e4326e826b5",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص030 - الدرس الخامس - عقوبة شرب الخمر.webp"
+      ]
+    },
+    {
+      "page_number": 31,
+      "legacy_page_id": "7e69225d-b16d-42c9-b00a-297c43ddc350",
+      "sha256": "ee759c7e2e5e07b7fddb9330032bffab4774d725ac5d4c9b4835afc1286ddfa5",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص031 - الدرس الخامس - عقوبة شرب الخمر.webp"
+      ]
+    },
+    {
+      "page_number": 32,
+      "legacy_page_id": "72b633ae-f1d5-4759-af2e-2337477d9ba1",
+      "sha256": "dbc0ccdb84c9f522e3f9261517a33b5c0932956c05a0ffd5a7b4fe5b9d9c2cf7",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص032 - الدرس الخامس - عقوبة شرب الخمر.webp"
+      ]
+    },
+    {
+      "page_number": 33,
+      "legacy_page_id": "1b64b5f5-7c27-4a74-8333-103b79f6f99f",
+      "sha256": "2af934c4c47f771255eafbb9708d076be85b12f68a6d28004be57a1864d88ebe",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص033 - الدرس الخامس - عقوبة شرب الخمر.webp"
+      ]
+    },
+    {
+      "page_number": 34,
+      "legacy_page_id": "aa46fbb6-15a8-467b-844f-b20f11427d9a",
+      "sha256": "8e0b9bbe3b6e71d007ea92bd9f48a0df56bd8b02d150d24dc4cf5c5f056b0fc4",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص034 - الدرس السادس - عقوبة جريمة السرقة.webp"
+      ]
+    },
+    {
+      "page_number": 35,
+      "legacy_page_id": "f14d3b23-97e3-4cda-a9a7-cb560fb6531f",
+      "sha256": "81eb522c7e98dffee5f3d7a8fbf83469c4e3dc90e6b4485204f66a2cb755075e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص035 - الدرس السادس - عقوبة جريمة السرقة.webp"
+      ]
+    },
+    {
+      "page_number": 36,
+      "legacy_page_id": "2c699898-2aee-41a7-8e69-ca1eb91ac138",
+      "sha256": "2b895d29f8399c4c8c4f68504547d023013400f3f6f264518a3a098ca1e09dcb",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص036 - الدرس السادس - عقوبة جريمة السرقة.webp"
+      ]
+    },
+    {
+      "page_number": 37,
+      "legacy_page_id": "5fa49e3c-512a-4686-a309-d4458472fbbc",
+      "sha256": "4aef597d03315746db5e7d63473ce245e611fd9a8bd2b5e08ff4319088a0d592",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص037 - الدرس السادس - عقوبة جريمة السرقة.webp"
+      ]
+    },
+    {
+      "page_number": 38,
+      "legacy_page_id": "0d7c33cb-d827-45f0-bdd9-b762b14f8258",
+      "sha256": "289729bbd9ae900bba8f36e46d006b8597a5543ff19872b8225c80719d42b802",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص038 - الدرس السابع - عقوبة الحرابة.webp"
+      ]
+    },
+    {
+      "page_number": 39,
+      "legacy_page_id": "fedf3589-f157-4b7d-a941-273a096b7a05",
+      "sha256": "a54440f1aca854eb376356d62cbd30382af520d11664dd0f7f7642c991d48771",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص039 - الدرس السابع - عقوبة الحرابة.webp"
+      ]
+    },
+    {
+      "page_number": 40,
+      "legacy_page_id": "838ba802-21ed-4d62-997e-a95b58400107",
+      "sha256": "be116923acb92318d5480c56b4b21cde40876f1f4c230de06aca503eccfadbce",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص040 - الدرس السابع - عقوبة الحرابة.webp"
+      ]
+    },
+    {
+      "page_number": 41,
+      "legacy_page_id": "62058e5a-8bc2-452e-af6c-2618c2e16b74",
+      "sha256": "ba62449e3e78b5f0691736d0fc4d4c4d15f0235002307b534e4a5867eeaf5cbf",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص041 - الدرس الثامن - عقوبة قتل النفس المحرمة.webp"
+      ]
+    },
+    {
+      "page_number": 42,
+      "legacy_page_id": "225b707c-afdd-4ec4-902b-4a20e1b84b65",
+      "sha256": "02a2cef7b4d1d43895a20dca127c17391bf5acb5248be04ac3a9cca4f6724643",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص042 - الدرس الثامن - عقوبة قتل النفس المحرمة.webp"
+      ]
+    },
+    {
+      "page_number": 43,
+      "legacy_page_id": "ab67dd22-b4f7-4e7c-86a0-f26988303176",
+      "sha256": "0e5cc7239d19fcf566adf886abc6fe5b22d284f32bb2b2f0a3b7451cb3d8d08e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص043 - الدرس الثامن - عقوبة قتل النفس المحرمة.webp"
+      ]
+    },
+    {
+      "page_number": 44,
+      "legacy_page_id": "db21a50b-38a0-44c5-9e77-62647d610458",
+      "sha256": "7ecb620594f65f7443b169bf05ba77f5ec82bc991ae64ad052e4a6841807e853",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص044 - الدرس الثامن - عقوبة قتل النفس المحرمة.webp"
+      ]
+    },
+    {
+      "page_number": 45,
+      "legacy_page_id": "cbdcfe40-0673-4b8f-ab68-76b802f6aaa7",
+      "sha256": "150992b04718347fac995ff562a19ce714a1c0d2bb8213edf76f3576a3ce43ed",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص045 - الدرس الثامن - عقوبة قتل النفس المحرمة.webp"
+      ]
+    },
+    {
+      "page_number": 46,
+      "legacy_page_id": "3e7e4fd2-7bff-4670-880c-aeebfa4dad60",
+      "sha256": "28408592cb32ea061b948697545917bc39403e1bf0a79eca13daa68aeb4da4fc",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص046 - الدرس التاسع - الديات والأروش.webp"
+      ]
+    },
+    {
+      "page_number": 47,
+      "legacy_page_id": "dc6421ce-397d-4d83-8486-5ecb83b94ee3",
+      "sha256": "b7112ccbd029bd87edf5976f78101f9b6cd96914387c95f297aa0cab479b6db9",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص047 - الدرس التاسع - الديات والأروش.webp"
+      ]
+    },
+    {
+      "page_number": 48,
+      "legacy_page_id": "35daaa53-3b3e-4f82-a58f-573d174e3577",
+      "sha256": "0fdd8e0670be0265cdbdec515287f3a66afb0f7b2c1d0a89f5ac4d5b383bcc5b",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص048 - الدرس التاسع - الديات والأروش.webp"
+      ]
+    },
+    {
+      "page_number": 49,
+      "legacy_page_id": "b37a9c48-bef3-41b3-8130-d05c693cff1c",
+      "sha256": "2a8284df52387f8efaf1285ec90bac5c81e82a451c78efd3e87f8a170a56e3ea",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص049 - الدرس التاسع - الديات والأروش.webp"
+      ]
+    },
+    {
+      "page_number": 50,
+      "legacy_page_id": "d510f020-db99-4b86-91db-383d7448a942",
+      "sha256": "f980417567540c4e1f10cfac2837a4203b108dcb340475dfb591da6523a3607b",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص050 - الدرس التاسع - الديات والأروش.webp"
+      ]
+    },
+    {
+      "page_number": 51,
+      "legacy_page_id": "5b6ce2d4-5744-412a-99e2-942928475928",
+      "sha256": "16ac325bd259eb2427bcecc014aaf60c3f0a7bf799860ca71017c1c946134d54",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص051 - الدرس العاشر - طرق إثبات الدعوى.webp"
+      ]
+    },
+    {
+      "page_number": 52,
+      "legacy_page_id": "5f62c62f-e0b7-47dd-be2d-29bef825c19f",
+      "sha256": "08a4be23066840963a33c30e2e8a30368fa81cc42a59820959ee836260392668",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص052 - الدرس العاشر - طرق إثبات الدعوى.webp"
+      ]
+    },
+    {
+      "page_number": 53,
+      "legacy_page_id": "02fe7795-5016-401d-aa1b-71843a070e8b",
+      "sha256": "b80b87a40777c8e028827d578212829c83e4631eb068c88439ce7dddf1e5c5d0",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص053 - الدرس العاشر - طرق إثبات الدعوى.webp"
+      ]
+    },
+    {
+      "page_number": 54,
+      "legacy_page_id": "bbb6a25e-4a8b-45da-8f60-da64429e0f48",
+      "sha256": "cd8dcbde00e4144308db8d75deaa1ddee0acbba6c32bcc63c6b6ab99b808cf08",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص054 - الدرس العاشر - طرق إثبات الدعوى.webp"
+      ]
+    },
+    {
+      "page_number": 55,
+      "legacy_page_id": "0bd5a820-7a15-4f35-97fb-52b88e763354",
+      "sha256": "9b8da35ea63ca9a965e3d36ffa0ea05091b07b03c46998bc7143b93254c6bd8d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص055 - الدرس العاشر - طرق إثبات الدعوى.webp"
+      ]
+    },
+    {
+      "page_number": 56,
+      "legacy_page_id": "9bab8899-5e2e-4506-b579-850a4b32253f",
+      "sha256": "3253f71b5c057caa1064c34ba90bae7399f0f933959328367124d0f554be3b1e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص056 - الدرس العاشر - طرق إثبات الدعوى.webp"
+      ]
+    },
+    {
+      "page_number": 57,
+      "legacy_page_id": "6ee134da-846d-4c56-a206-60194768bcca",
+      "sha256": "04ba2306172b31a034a0961eeef5a22a43d6c3e0cdf50fe4529be991408506b7",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص057 - الدرس الحادي عشر - الميراث (أسبابه وموانعه وأنواعه).webp"
+      ]
+    },
+    {
+      "page_number": 58,
+      "legacy_page_id": "90f5581c-8c52-47a0-b560-4c8ee9a82bb9",
+      "sha256": "63b2760c3a44079b07ec24ffbb08f8103a81f20c56d6a1cabf3936cebd62cef0",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص058 - الدرس الحادي عشر - الميراث (أسبابه وموانعه وأنواعه).webp"
+      ]
+    },
+    {
+      "page_number": 59,
+      "legacy_page_id": "f27f2ca3-60e8-4492-a87c-6c35cef3ae45",
+      "sha256": "22dde1f0acfa7271ffeca5220ccac033ad1d04d7b02218cce297ef5764596089",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص059 - الدرس الحادي عشر - الميراث (أسبابه وموانعه وأنواعه).webp"
+      ]
+    },
+    {
+      "page_number": 60,
+      "legacy_page_id": "8081a459-7e66-4fdf-b193-a8ac8f2009af",
+      "sha256": "fb3a65cbf0a20460200572adaef1877f1293209f6033e922a1b3e148b49fda39",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص060 - الدرس الحادي عشر - الميراث (أسبابه وموانعه وأنواعه).webp"
+      ]
+    },
+    {
+      "page_number": 61,
+      "legacy_page_id": "31ef48ef-8499-4cb9-8357-917678a33783",
+      "sha256": "f6edb9159599c099fc58d1d1f4636985061d838435a61cae6f7d244dbfe5a323",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص061 - الدرس الحادي عشر - الميراث (أسبابه وموانعه وأنواعه).webp"
+      ]
+    },
+    {
+      "page_number": 62,
+      "legacy_page_id": "c1c4686f-3dd6-495f-856a-4a7ae16fd15c",
+      "sha256": "dbe6719020a0bae743aa931771a5a07816d2ebad25f2d051d6324291a0763dc3",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص062 - الدرس الثاني عشر - أصحاب الفرائض المقدرة في كتاب الله.webp"
+      ]
+    },
+    {
+      "page_number": 63,
+      "legacy_page_id": "eea75f31-cfb8-43ad-9209-173ba1389f8c",
+      "sha256": "638776c307f39cb09639606f1b8495fdafdb3a0aa8336d3b2948f62ec7fcd447",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص063 - الدرس الثاني عشر - أصحاب الفرائض المقدرة في كتاب الله.webp"
+      ]
+    },
+    {
+      "page_number": 64,
+      "legacy_page_id": "2a27d2ca-bcab-4f20-a9bf-282be5da421e",
+      "sha256": "a0506be4f394a9878043ae46b1682279f2faa8a710dbb88406b36306c50d626b",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص064 - الدرس الثاني عشر - أصحاب الفرائض المقدرة في كتاب الله.webp"
+      ]
+    },
+    {
+      "page_number": 65,
+      "legacy_page_id": "2676f8a5-547e-48f1-8506-b87dd0a5f891",
+      "sha256": "0b7f3004faa6237898efe3f03e55039f324c834854f0dd03f45b792d6b3c3b15",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص065 - الدرس الثاني عشر - أصحاب الفرائض المقدرة في كتاب الله.webp"
+      ]
+    },
+    {
+      "page_number": 66,
+      "legacy_page_id": "19020cdb-4a2b-4450-9fa6-a599f909448a",
+      "sha256": "d8ed92524a76bb3d26819166dc75d1d5c0f0f075e9c39f592638b286eb0d788d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص066 - الدرس الثاني عشر - أصحاب الفرائض المقدرة في كتاب الله.webp"
+      ]
+    },
+    {
+      "page_number": 67,
+      "legacy_page_id": "c969a521-65d0-4b09-8b94-2abff4ec031b",
+      "sha256": "51053763febc980cd2f326be7dc418114ccd7b2436eaf287410f577f7cd9b0c6",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص067 - الدرس الثاني عشر - أصحاب الفرائض المقدرة في كتاب الله.webp"
+      ]
+    },
+    {
+      "page_number": 68,
+      "legacy_page_id": "3477f8b0-0638-4745-812d-135b726ab8f9",
+      "sha256": "466e4d7b0b6612bbf3274a01b9f825a66c09ccd713226d76a2e2b3a645d3d7f9",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص068 - الدرس الثالث عشر - قضايا معاصرة وموقف الشريعة منها.webp"
+      ]
+    },
+    {
+      "page_number": 69,
+      "legacy_page_id": "803a12d4-e691-4a4f-9b0c-d30876cc1a91",
+      "sha256": "e4020afe34463554acc98da6badcf2102c141e31a7550b47183990b73f588715",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص069 - الدرس الثالث عشر - قضايا معاصرة وموقف الشريعة منها.webp"
+      ]
+    },
+    {
+      "page_number": 70,
+      "legacy_page_id": "d4988efb-5f8a-4a58-aa59-4d1bef1190db",
+      "sha256": "81d972610d5ea8d5ed95e1ec004bd87396c645b58f34db7481a536fe84a26625",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص070 - الدرس الثالث عشر - قضايا معاصرة وموقف الشريعة منها.webp"
+      ]
+    },
+    {
+      "page_number": 71,
+      "legacy_page_id": "ecdbafbf-86b2-4faf-b9d1-ad15c620e1e1",
+      "sha256": "4da5593ceacc6a715d8c6de212b1e8575c074dcd00bb843739ab3dcc9a35a987",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص071 - الدرس الثالث عشر - قضايا معاصرة وموقف الشريعة منها.webp"
+      ]
+    },
+    {
+      "page_number": 72,
+      "legacy_page_id": "bcb2baf6-e857-43ca-a7c9-4af665a89af6",
+      "sha256": "7bb35d708380d1e94189a6e3dc5d8b0e061f6674fcf4c31f4849fd609cf9064f",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص072 - الدرس الثالث عشر - قضايا معاصرة وموقف الشريعة منها.webp"
+      ]
+    },
+    {
+      "page_number": 73,
+      "legacy_page_id": "962a2367-4db2-47a1-9d4a-c183eac551b0",
+      "sha256": "67a48cee7b1cb29019b706e8820cf7baaa9a3053fb040066ba3ee2cc389db61b",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص073 - الدرس الثالث عشر - قضايا معاصرة وموقف الشريعة منها.webp"
+      ]
+    },
+    {
+      "page_number": 74,
+      "legacy_page_id": "9ee7a139-f5a0-4c20-82aa-4c3bdc7d2d20",
+      "sha256": "2a4ead8214f6e6a70e32d2ce5fc3d058ad9e0503752a8e358fa53e7b3193b4e8",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور/ص074 - الدرس الثالث عشر - قضايا معاصرة وموقف الشريعة منها.webp"
+      ]
+    }
+  ],
+  "semantic_structure_status": "NOT VERIFIED",
+  "question_linkage_status": "NOT VERIFIED",
+  "semantic_question_review": "NOT VERIFIED",
+  "raw_mutations": 0,
+  "imports_created": 0,
+  "publications_created": 0,
+  "next_operation": "Use only exact source pages and exact-SHA master filename evidence to prove Fiqh lesson/unit/review boundaries; preserve ambiguity as NOT VERIFIED; only then link legacy questions by verified page membership."
+}
