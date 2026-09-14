@@ -223,13 +223,13 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 - state: `READY_FOR_NEXT_SOURCE`
 - branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `f404c5749fc3f96c27ed163ebdec095723df6711`
-- last completed source: `f25891fe-ea52-481b-baf2-ff4764c79bde — الاسلاميه ثانوي نماذج وزاريه 1447`
-- current source: `cae82d8f-64f9-4d2a-984f-6e6fd19fac5c — الحديث والتهذيب الكتاب `
-- current source baseline from live manifest: `62 pages/images, 1483 legacy questions, 0 download failures; manifest anomalies: duplicate_page_numbers=0, missing_images=0, multiple_images=0, malformed_ai_questions=0. Technical verification / source identity / reconstruction remain NOT VERIFIED unless live evidence says otherwise.`
-- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for this source; technically verify immutable media first; establish educational identity/structure only from source-specific evidence; structurally map its 1,483 legacy questions only where page membership proves placement; quarantine uncertainty as review_required/NOT VERIFIED; reassert the 25,755 invariant.`
+- latest verified work HEAD before this handoff commit: `feea37c84718e752372a95fed8140c0e3556bb3a`
+- last completed source: `cae82d8f-64f9-4d2a-984f-6e6fd19fac5c — الحديث والتهذيب الكتاب`
+- current source: `a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8 — السيرة النبوية الكتاب `
+- current source baseline from live manifest: `81 pages/images, 1152 legacy questions; technical verification / exact identity / structure remain NOT VERIFIED until live evidence proves otherwise.`
+- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8; read its immutable manifest/pages/evidence; technically verify RAW first; establish exact educational identity and lesson/unit boundaries only from source-specific evidence; map legacy questions only where page membership proves placement; preserve unresolved semantics/subtypes as NOT VERIFIED or review_required; reassert the 25,755 invariant.`
 - next source: `Resolve from live manifest only after the current source is safely finalized.`
-- blockers: `none at handoff; do not inherit Islamic-exam three-page boundaries into the educational source.`
+- blockers: `none at handoff; do not inherit Hadith lesson titles, ranges, or ten-lesson count into the next source.`
 - owner decision required now: `no`
 
 ---
@@ -1034,3 +1034,61 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for cae82d8f-64f9-4d2a-984f-6e6fd19fac5c; technically verify all 62 images; prove source identity/lesson or unit boundaries from its own evidence; map 1,483 questions only where page membership is proven; preserve uncertainty as review_required/NOT VERIFIED; assert the global invariant; checkpoint.`
 - blockers: `none at handoff.`
 - handoff note: `Worker B should start only from cae82d8f-64f9-4d2a-984f-6e6fd19fac5c after re-fetching live HEAD and this baton. Do not rerun Islamic 1447 absent new drift evidence, and do not treat the six duplicate SHA groups as permission to delete or merge provenance.`
+
+## RUN 2026-09-14T15:13:12+03:00 — Worker B
+
+- state: COMPLETE
+- start HEAD: `1879f3fff54861d146d4eb8912f6ccaa81eee0f7`
+- end HEAD: `feea37c84718e752372a95fed8140c0e3556bb3a`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `cae82d8f-64f9-4d2a-984f-6e6fd19fac5c — الحديث والتهذيب الكتاب`
+- completed in this run:
+  - consumed Worker A's live Islamic-1447 handoff and verified there was no active conflicting source workflow before mutation;
+  - technically verified **62/62** immutable RAW images for Hadith and Refinement;
+  - proved **62/62 exact SHA-256 identity** against the single master reference directory `التربية الاسلاميه ثالث ثانوي/كتاب الحديث والتهذيب/الصور`;
+  - generated and reviewed complete contact-sheet coverage for stored pages **9..70**;
+  - used explicit exact-master filename evidence to establish **10 lessons** and assign **62/62 retained pages** exactly once to a lesson;
+  - structurally mapped **1,483/1,483 legacy questions** by proven page membership; semantic correctness remains `NOT VERIFIED`;
+  - intentionally did not invent a Unit layer and did not claim page subtype/review boundaries; both remain `NOT VERIFIED`;
+  - updated MASTER_CONTENT_MANIFEST and evidence-backed status/handoff/inventory/validation/import/continuation files;
+  - discovery run `34841797706` and finalization run `34842156912` both completed successfully with live-HEAD fail-closed gates.
+- evidence produced/verified:
+  - `content-staging/reconstruction/technical/cae82d8f-64f9-4d2a-984f-6e6fd19fac5c.json`;
+  - `content-staging/reconstruction/educational/cae82d8f-64f9-4d2a-984f-6e6fd19fac5c-discovery.json`;
+  - `content-staging/reconstruction/educational/cae82d8f-64f9-4d2a-984f-6e6fd19fac5c.json`;
+  - contact-sheet artifact `hadith-contact-sheets` (artifact id `10346576550`), covering pages 009..070;
+  - discovery workflow run `34841797706` success;
+  - finalization workflow run `34842156912` success and `HADITH_FINALIZATION_VERIFY_PASS`;
+  - final evidence/status commit `feea37c84718e752372a95fed8140c0e3556bb3a`.
+- ambiguity/review_required:
+  - unit hierarchy: `NOT VERIFIED`; no unit layer asserted;
+  - page subtype/review/evaluation boundaries: `NOT VERIFIED`; not needed to prove lesson membership;
+  - semantic correctness of all 1,483 legacy questions: `NOT VERIFIED`;
+  - source-level review-required question count added in this run: 0 because structural page-to-lesson membership is fully proven.
+- invariant result: PASS (`4,833 + 967 + 351 + 19,604 = 25,755`)
+- Sources processed: 18/58
+- Educational: 8/26
+- Books / Units / Lessons / Lesson Pages: 8 / 33 / 171 / 729
+- Exam Source Groups: 10/32
+- Individual Exam Models: 166
+- Exam Pages: 548/2,286
+- Verified Answer Keys: 0
+- Source images technical: 1,394/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 4,833
+- Exam-linked: 967
+- Review-required: 351
+- Unclassified: 19,604
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `cae82d8f-64f9-4d2a-984f-6e6fd19fac5c — الحديث والتهذيب الكتاب`
+- current source: `a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8 — السيرة النبوية الكتاب `
+- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8; read its live manifest/pages; run full technical verification; establish identity and educational structure only from its own exact evidence; map questions only by proven page membership; leave semantic/subtype uncertainty NOT VERIFIED/review_required; assert global invariants and checkpoint.`
+- next source: `Resolve from live manifest after a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8 is finalized.`
+- blockers: `none at handoff.`
+- handoff note: `Worker A must start from a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8 only after re-fetching the live branch and baton. Do not rerun Hadith absent new drift evidence and do not inherit its 10-lesson pattern or page range into Seerah.`
+
