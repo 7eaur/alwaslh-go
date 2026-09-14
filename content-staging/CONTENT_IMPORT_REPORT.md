@@ -274,3 +274,17 @@ The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `85c13f3f-fe85-47c3-affb-fb437d10d908` — `الرياضيات نماذج وزارية 1446`.
 <!-- MATH_EXAM_1445_CHECKPOINT_END -->
+
+<!-- MATH_EXAM_1446_CHECKPOINT_START -->
+## Reconstruction checkpoint — Mathematics Ministry Exams 1446
+
+- Source `85c13f3f-fe85-47c3-affb-fb437d10d908` — `الرياضيات نماذج وزارية 1446` safely processed.
+- Technical verification: **39/39** immutable images; duplicate SHA groups **0**.
+- Source numbering anomalies preserved exactly: duplicate page numbers **16** and **29**; no normalization, renumbering, merge, or RAW mutation.
+- Verified models: **13**; finalized exam pages: **39**; correction/result candidates: **13**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Questions: **25/25** structurally linked to verified model 1 by unique legacy-page membership; semantic correctness `NOT VERIFIED`.
+- Progress: Sources **22/58**; Educational **10/26**; Exam Groups **12/32**; Individual Exam Models **192**; Exam Pages **626/2,286**; source images technical **1623/5,273**.
+- Global questions: Lesson-linked **6891**; Exam-linked **1020**; Review-required **351**; Unclassified **17493**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `fef5e58f-21df-42e3-81ae-6966cd7bad10` — `الرياضيات نماذج وزارية 1447`.
+<!-- MATH_EXAM_1446_CHECKPOINT_END -->

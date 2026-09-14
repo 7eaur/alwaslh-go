@@ -1594,8 +1594,8 @@
         "id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
         "name": "الرياضيات نماذج وزارية 1446"
       },
-      "classification": "exam_collection_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "exam_source_group",
+      "classification_evidence": "39/39 technical verification + explicit unique legacy-page titles + complete 39-occurrence visual review; duplicate page numbers 16 and 29 preserved without normalization",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/manifest.json",
       "manifest_sha256_recorded": "5970b7d1c45a33a8ae4a44ad557cb74b51342a8bc15249387d5ff1e0330825df",
       "counts": {
@@ -1617,12 +1617,44 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "processed_boundary_verified_numbering_anomalies_preserved_answer_keys_not_verified",
       "modern_entity_id": null,
-      "exam_models": null,
-      "answer_keys": null,
+      "exam_models": 13,
+      "answer_keys": "NOT VERIFIED",
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/85c13f3f-fe85-47c3-affb-fb437d10d908.json",
+        "images_verified": 39,
+        "readable": 39,
+        "sha256_match_manifest": 39,
+        "mime_match_manifest": 39,
+        "duplicate_sha_groups_within_source": 0
+      },
+      "exam_reconstruction": {
+        "status": "processed_boundary_verified_numbering_anomalies_preserved_answer_keys_not_verified",
+        "path": "content-staging/reconstruction/exams/source-groups/85c13f3f-fe85-47c3-affb-fb437d10d908.json",
+        "source_records_reviewed": 39,
+        "verified_source_occurrences": 13,
+        "review_required_blocks": 0,
+        "individual_exam_models": 13,
+        "source_pages": 39,
+        "finalized_exam_pages": 39,
+        "review_required_pages": 0,
+        "correction_sheet_candidates": 13,
+        "verified_answer_keys": 0,
+        "answer_key_status": "NOT VERIFIED",
+        "exam_linked_questions": 25,
+        "review_required_questions": 0,
+        "associated_legacy_questions": 25,
+        "semantic_question_correctness": "NOT VERIFIED",
+        "duplicate_page_numbers_preserved": [
+          16,
+          29
+        ],
+        "raw_mutations": 0
+      }
     },
     {
       "id": "fef5e58f-21df-42e3-81ae-6966cd7bad10",
@@ -3034,7 +3066,7 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 21,
+    "sources_completed": 22,
     "sources_total": 58,
     "educational_sources_completed": 10,
     "educational_sources_total": 26,
@@ -3042,28 +3074,28 @@
     "verified_units": 33,
     "verified_lessons": 196,
     "verified_lesson_pages": 877,
-    "exam_source_groups_completed": 11,
+    "exam_source_groups_completed": 12,
     "exam_source_groups_total": 32,
-    "individual_exam_models": 179,
-    "exam_pages_completed": 587,
+    "individual_exam_models": 192,
+    "exam_pages_completed": 626,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 1584,
+    "source_images_technically_verified": 1623,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,
     "webp_derivatives_rejected": 0,
     "legacy_questions_total": 25755,
     "lesson_linked_structural": 6891,
-    "exam_linked_to_individual_model": 995,
+    "exam_linked_to_individual_model": 1020,
     "review_required": 351,
-    "unclassified": 17518,
+    "unclassified": 17493,
     "duplicate_fingerprint_groups_classified": 0,
     "duplicate_fingerprint_groups_total": 99,
     "raw_mutations": 0,
     "unrelated_mutations": 0,
     "new_imports": 0,
     "new_publications": 0,
-    "correction_sheet_candidates": 184
+    "correction_sheet_candidates": 197
   }
 }

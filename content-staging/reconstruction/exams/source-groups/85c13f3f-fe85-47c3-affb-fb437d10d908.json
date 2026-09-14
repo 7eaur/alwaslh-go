@@ -1,0 +1,789 @@
+{
+  "schema_version": 1,
+  "source_group_id": "85c13f3f-fe85-47c3-affb-fb437d10d908",
+  "source_group_name": "الرياضيات نماذج وزارية 1446",
+  "classification": "exam_source_group",
+  "academic_year_hijri": "1446",
+  "source_pages": 39,
+  "source_questions": 25,
+  "source_records_reviewed": 39,
+  "verified_source_occurrence_count": 13,
+  "review_required_block_count": 0,
+  "individual_exam_model_count": 13,
+  "finalized_exam_page_count": 39,
+  "review_required_page_count": 0,
+  "correction_sheet_candidate_count": 13,
+  "verified_answer_key_count": 0,
+  "duplicate_sha256_groups_within_source": 0,
+  "source_numbering_anomalies": {
+    "duplicate_page_numbers": [
+      16,
+      29
+    ],
+    "normalization_performed": false,
+    "identity_key": "legacy_page_id + source_record_ordinal"
+  },
+  "models": [
+    {
+      "id": "math-1446-exam-01",
+      "internal_ordinal": 1,
+      "source_model_label": "النموذج 1",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        1,
+        2,
+        3
+      ],
+      "ordered_page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "ordered_legacy_page_ids": [
+        "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "83eaac21-2078-4841-b265-f8790cdd7f63",
+        "6def6009-9848-4732-b90c-20186603680b"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00001-c509c118-0838-4ad6-b2f0-543984bbc90b-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00002-83eaac21-2078-4841-b265-f8790cdd7f63-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00003-6def6009-9848-4732-b90c-20186603680b-image-00.jpg"
+      ],
+      "sha256": [
+        "4136172e2b795c9978594814b56dec352b3000630a45b670a3b0335527881198",
+        "baa0f7e88d35f7b4008c40a55917d0ab85598663430e9ccf63090a125cfcfc4a",
+        "7379b01366d5a55c7131cc2c7efa8a93214def0bf06e0ce252a9eef1f140651b"
+      ],
+      "question_source_record_ordinals": [
+        1,
+        2
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 3,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-02",
+      "internal_ordinal": 2,
+      "source_model_label": "النموذج 2",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        4,
+        5,
+        6
+      ],
+      "ordered_page_numbers": [
+        4,
+        5,
+        6
+      ],
+      "ordered_legacy_page_ids": [
+        "46bd041f-3265-4734-8256-46cf34283379",
+        "a10c61c2-a7df-4c69-a5a0-0d2f6656c889",
+        "2e5ef2d3-a9c3-46b6-8bf6-39de0b1f1d66"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00004-46bd041f-3265-4734-8256-46cf34283379-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00005-a10c61c2-a7df-4c69-a5a0-0d2f6656c889-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00006-2e5ef2d3-a9c3-46b6-8bf6-39de0b1f1d66-image-00.jpg"
+      ],
+      "sha256": [
+        "5e6d932bb12f0709269e97e2dc6ff6d2eabb3b801d5b252b931e52c4d3ec7fb9",
+        "216f4108f04de2eee5464b7b39fb4e213a9c2c81644be2792436948918f84bdd",
+        "3447d000f756e13c1365f775ef4327a08c7c7488e3f1f75aac1f35c1e357984d"
+      ],
+      "question_source_record_ordinals": [
+        4,
+        5
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 6,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-03",
+      "internal_ordinal": 3,
+      "source_model_label": "النموذج 3",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        7,
+        8,
+        9
+      ],
+      "ordered_page_numbers": [
+        7,
+        8,
+        9
+      ],
+      "ordered_legacy_page_ids": [
+        "5ea91b0d-ef98-4a32-84ea-878cf9ad6370",
+        "d9cfc446-1dc7-4937-bf4e-b54b35f8faac",
+        "1afead10-c3af-41b8-a596-0779c99e9663"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00007-5ea91b0d-ef98-4a32-84ea-878cf9ad6370-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00008-d9cfc446-1dc7-4937-bf4e-b54b35f8faac-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00009-1afead10-c3af-41b8-a596-0779c99e9663-image-00.jpg"
+      ],
+      "sha256": [
+        "faf6c1774f67a9072b941ae66c9ab105f759596ef4d1f111583601ecdda203d2",
+        "71f874bd5f871710ecda6ab9ba666a40113f49508a434953737b56bdba33abe2",
+        "5c9736ffe9bc869a624a3b166c0ac4104e3d0aa1b58b54884fd104aedca470cc"
+      ],
+      "question_source_record_ordinals": [
+        7,
+        8
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 9,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-04",
+      "internal_ordinal": 4,
+      "source_model_label": "النموذج 4",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        16,
+        10,
+        11
+      ],
+      "ordered_page_numbers": [
+        16,
+        11,
+        12
+      ],
+      "ordered_legacy_page_ids": [
+        "46bae689-36e3-4f89-8964-590c460c376c",
+        "adb9f918-fb79-48d4-a919-b9d2278d6e65",
+        "386b4fbb-783f-427b-bac3-f7d8b437bef6"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00016-46bae689-36e3-4f89-8964-590c460c376c-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00011-adb9f918-fb79-48d4-a919-b9d2278d6e65-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00012-386b4fbb-783f-427b-bac3-f7d8b437bef6-image-00.jpg"
+      ],
+      "sha256": [
+        "ec5eda0b3eb5057bd15b3b8461836775a5e698e24892444c52c691006e0431d4",
+        "e6b35b181d64de1fef049617f50372f2bf53c28888d38edec3e0f12594e121f0",
+        "8a199bab2a67951b87f5fca8f0b666585c911f20b3db625be75ca08c9631e32a"
+      ],
+      "question_source_record_ordinals": [
+        16,
+        10
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 11,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-05",
+      "internal_ordinal": 5,
+      "source_model_label": "النموذج 5",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        12,
+        13,
+        14
+      ],
+      "ordered_page_numbers": [
+        13,
+        14,
+        15
+      ],
+      "ordered_legacy_page_ids": [
+        "eee3d12b-4215-47bb-a2c6-9af8f5b6c02c",
+        "1dcb1c2e-b7fb-4bf3-9202-c442ce9463be",
+        "9aae9023-da7e-40de-bb55-ffbefda8a1bb"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00013-eee3d12b-4215-47bb-a2c6-9af8f5b6c02c-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00014-1dcb1c2e-b7fb-4bf3-9202-c442ce9463be-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00015-9aae9023-da7e-40de-bb55-ffbefda8a1bb-image-00.jpg"
+      ],
+      "sha256": [
+        "e68d227e268cdc0406546e7c77178215d5313a67c0c5a0cd7119e6ac5b54d008",
+        "a52b2d4153ff825d0588195a4994da59ce70d1005ea42eac48d239b80f00cd05",
+        "41cdd008e0af19d9cd1220095f5f70a53c739e145feb3018c0de35e2c662155c"
+      ],
+      "question_source_record_ordinals": [
+        12,
+        13
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 14,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-06",
+      "internal_ordinal": 6,
+      "source_model_label": "النموذج 6",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        15,
+        17,
+        18
+      ],
+      "ordered_page_numbers": [
+        16,
+        17,
+        18
+      ],
+      "ordered_legacy_page_ids": [
+        "0d0e9b9c-f61b-4607-9ea2-30a171e9c49d",
+        "9a78f1a6-ed8b-4f8b-bd3b-72f81131f675",
+        "578c9098-5122-4a29-85e2-1311e3a23492"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00016-0d0e9b9c-f61b-4607-9ea2-30a171e9c49d-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00017-9a78f1a6-ed8b-4f8b-bd3b-72f81131f675-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00018-578c9098-5122-4a29-85e2-1311e3a23492-image-00.jpg"
+      ],
+      "sha256": [
+        "2acf455f2fc101f563cce67228916e85dd25fe14f12dcf114025b30167602f79",
+        "68138139417dc4bfd4531e57decea75bd1c57d1d758ae40569d74cf4fe5fd909",
+        "48326b7ca217ad3c967f26097b90c9de665fd9781e6db10256388017658c88a1"
+      ],
+      "question_source_record_ordinals": [
+        15,
+        17
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 18,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-07",
+      "internal_ordinal": 7,
+      "source_model_label": "النموذج 7",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        19,
+        20,
+        21
+      ],
+      "ordered_page_numbers": [
+        19,
+        20,
+        21
+      ],
+      "ordered_legacy_page_ids": [
+        "2fcd2fbd-fbcd-4aab-8ae0-bfcd961c5991",
+        "1d475826-36ec-49f6-af7d-f567bd04432a",
+        "1ab68f92-7057-4237-b560-872ff34a56dd"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00019-2fcd2fbd-fbcd-4aab-8ae0-bfcd961c5991-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00020-1d475826-36ec-49f6-af7d-f567bd04432a-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00021-1ab68f92-7057-4237-b560-872ff34a56dd-image-00.jpg"
+      ],
+      "sha256": [
+        "3dee0bad705a14dd6b274713c4c2b4644e2307a376c9c5ffe9630460b589f099",
+        "40c93e673550ce139c2efdb703830fc04b6e71195ebf46c13586583e1469153d",
+        "e29359f330b14ccc229fc8acc9b6f3391844f3eb43191edc56bd26972cf9b7bd"
+      ],
+      "question_source_record_ordinals": [
+        19,
+        20
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 21,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-08",
+      "internal_ordinal": 8,
+      "source_model_label": "النموذج 8",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        22,
+        23,
+        24
+      ],
+      "ordered_page_numbers": [
+        22,
+        23,
+        24
+      ],
+      "ordered_legacy_page_ids": [
+        "048cdb1f-4432-493c-b057-06c31c409f0d",
+        "9c906a80-8932-4943-a80b-eaefa3378f73",
+        "0ce4344c-3b90-4fd2-86bd-7d39c52df003"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00022-048cdb1f-4432-493c-b057-06c31c409f0d-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00023-9c906a80-8932-4943-a80b-eaefa3378f73-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00024-0ce4344c-3b90-4fd2-86bd-7d39c52df003-image-00.jpg"
+      ],
+      "sha256": [
+        "6b51fa0aa04ed527c64918c9135ffc9eef90d7c608db196c7d41a14d0bcec9eb",
+        "e3332ed7bbb5ad9046b9a2cb12bb7fc313119ec9ee849b409b02f2e977d8d731",
+        "650a6b449af9c965d6fa5b341299e405d51cda583bceaecc808b76784add28b2"
+      ],
+      "question_source_record_ordinals": [
+        22,
+        23
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 24,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-09",
+      "internal_ordinal": 9,
+      "source_model_label": "النموذج 9",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        25,
+        28,
+        26
+      ],
+      "ordered_page_numbers": [
+        25,
+        29,
+        27
+      ],
+      "ordered_legacy_page_ids": [
+        "345f33dc-cde0-4d2b-988f-a1851cb55931",
+        "31a4a09f-d61c-4e0a-9f80-ded8124ad92e",
+        "63bb80ee-de49-4d14-bff0-139e70c2296b"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00025-345f33dc-cde0-4d2b-988f-a1851cb55931-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00029-31a4a09f-d61c-4e0a-9f80-ded8124ad92e-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00027-63bb80ee-de49-4d14-bff0-139e70c2296b-image-00.jpg"
+      ],
+      "sha256": [
+        "6476d28fbaee4ca275584026179dbafe9436898c160fa596be7b15cdacd3a530",
+        "b1ae4fb0c686110468f9f74a6a9f185626f04864258a881eff5162c0db44cf78",
+        "f6c2a792507847efbb297d7cef421e0e88235629e9605a13f0a39ed3cc884b0f"
+      ],
+      "question_source_record_ordinals": [
+        25,
+        28
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 26,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-10",
+      "internal_ordinal": 10,
+      "source_model_label": "النموذج 10",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        27,
+        29,
+        30
+      ],
+      "ordered_page_numbers": [
+        28,
+        29,
+        30
+      ],
+      "ordered_legacy_page_ids": [
+        "f7125e92-ec6f-4b38-a83d-6375062c8783",
+        "99fff071-60ca-48ec-98ff-c7244ee9376c",
+        "d3bdc357-8fdc-4b3d-bf32-96d582e9a4a2"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00028-f7125e92-ec6f-4b38-a83d-6375062c8783-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00029-99fff071-60ca-48ec-98ff-c7244ee9376c-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00030-d3bdc357-8fdc-4b3d-bf32-96d582e9a4a2-image-00.jpg"
+      ],
+      "sha256": [
+        "2833bd88d4acceaddbd75569206e8ef28e7b646951a61b9caa16c4a429800666",
+        "c946e468dfa8590329d2cf632fa8fa0d31c2aed3cab89f5117cf5b3cf55ccedb",
+        "f7b1faa56ebe3880507eb1ba7a3da28e2495e07ad61f5b400ff2f6361b1deeb6"
+      ],
+      "question_source_record_ordinals": [
+        27,
+        29
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 30,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-11",
+      "internal_ordinal": 11,
+      "source_model_label": "النموذج 11",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        31,
+        32,
+        33
+      ],
+      "ordered_page_numbers": [
+        31,
+        32,
+        33
+      ],
+      "ordered_legacy_page_ids": [
+        "3bccdd14-4237-46dd-99c2-c39581385ace",
+        "ed0f547f-5891-4101-b56e-67c93b7a104d",
+        "2ad958e7-b35a-4049-88d7-18b19f0cf8db"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00031-3bccdd14-4237-46dd-99c2-c39581385ace-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00032-ed0f547f-5891-4101-b56e-67c93b7a104d-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00033-2ad958e7-b35a-4049-88d7-18b19f0cf8db-image-00.jpg"
+      ],
+      "sha256": [
+        "2c280675f58a8815853d13df541c9eecc3c935bc1cec868db97376b0cd1686f5",
+        "6c32fc4a765a83d4a66b3eb132ff61543234926495d608f1993ea1f19f66405c",
+        "ebf3da45701887111793915793f592a9f21375d25e7c60d909fe250b028961d0"
+      ],
+      "question_source_record_ordinals": [
+        31,
+        32
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 33,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-12",
+      "internal_ordinal": 12,
+      "source_model_label": "النموذج 12",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        34,
+        35,
+        36
+      ],
+      "ordered_page_numbers": [
+        34,
+        35,
+        36
+      ],
+      "ordered_legacy_page_ids": [
+        "a716785e-307c-45b7-a7cd-3ba00275742e",
+        "de68ce8d-a255-414c-840f-f1afb56be397",
+        "95bfa872-ec8f-470a-b5a2-939f2e381398"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00034-a716785e-307c-45b7-a7cd-3ba00275742e-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00035-de68ce8d-a255-414c-840f-f1afb56be397-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00036-95bfa872-ec8f-470a-b5a2-939f2e381398-image-00.jpg"
+      ],
+      "sha256": [
+        "244fa82315680c9ccd755fab15c56d50a47ac9a994f50c8177d473df4105a7f4",
+        "93adfea32404be4606b4b831b67aa61fb11bd1c8a449f490cb3f9ee3d156e4ca",
+        "a8915fe75f92782bfdea60ccf68408efbb0871041af787380f0a8a20ba69e41b"
+      ],
+      "question_source_record_ordinals": [
+        34,
+        35
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 36,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    },
+    {
+      "id": "math-1446-exam-13",
+      "internal_ordinal": 13,
+      "source_model_label": "النموذج 13",
+      "official_model_code": "NOT VERIFIED",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "ordered_source_record_ordinals": [
+        37,
+        38,
+        39
+      ],
+      "ordered_page_numbers": [
+        37,
+        38,
+        39
+      ],
+      "ordered_legacy_page_ids": [
+        "a954f4ac-ce7b-47b8-bf70-7a6d040f2aa3",
+        "e7df2c52-87b8-4eaa-a28d-2861a1597b89",
+        "a3d2321f-9f88-4f10-8f69-999cfae389ac"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00037-a954f4ac-ce7b-47b8-bf70-7a6d040f2aa3-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00038-e7df2c52-87b8-4eaa-a28d-2861a1597b89-image-00.jpg",
+        "raw/legacy-supabase/subjects/85c13f3f-fe85-47c3-affb-fb437d10d908/images/page-00039-a3d2321f-9f88-4f10-8f69-999cfae389ac-image-00.jpg"
+      ],
+      "sha256": [
+        "83e212b6b3a94cbc43573e3420afd2877e0f2c94bf9f3d42e3ac7d7b73c968df",
+        "a650b17105fa19d3e372ff647ed3ce67e57d1ad6f3213ff9a09ffc1247a2160f",
+        "699bb928947d8ae8571f7d08f3b435a02025c458a2cfe099852cf0182ba0fa05"
+      ],
+      "question_source_record_ordinals": [
+        37,
+        38
+      ],
+      "correction_sheet_candidate_source_record_ordinal": 39,
+      "boundary_status": "verified_from_explicit_source_titles_and_full_visual_review",
+      "answer_key_status": "NOT VERIFIED"
+    }
+  ],
+  "question_mapping": {
+    "exam_linked_structural": 25,
+    "review_required": 0,
+    "unassigned_within_source": 0,
+    "semantic_correctness": "NOT VERIFIED",
+    "records": [
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 1,
+        "source_reference": "صفحة ١ - السؤال رقم ١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 2,
+        "source_reference": "صفحة ١ - السؤال رقم ٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 3,
+        "source_reference": "صفحة ١ - السؤال رقم ٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 4,
+        "source_reference": "صفحة ١ - السؤال رقم ٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 5,
+        "source_reference": "صفحة ١ - السؤال رقم ٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 6,
+        "source_reference": "صفحة ١ - السؤال رقم ٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 7,
+        "source_reference": "صفحة ١ - السؤال رقم ٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 8,
+        "source_reference": "صفحة ١ - السؤال رقم ٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 9,
+        "source_reference": "صفحة ١ - السؤال رقم ٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 10,
+        "source_reference": "صفحة ١ - السؤال رقم ١٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 11,
+        "source_reference": "صفحة ١ - السؤال رقم ١١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 12,
+        "source_reference": "صفحة ١ - السؤال رقم ١٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 13,
+        "source_reference": "صفحة ١ - السؤال رقم ١٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 14,
+        "source_reference": "صفحة ١ - السؤال رقم ١٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 15,
+        "source_reference": "صفحة ١ - السؤال رقم ١٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 16,
+        "source_reference": "صفحة ١ - السؤال رقم ١٦",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 17,
+        "source_reference": "صفحة ١ - السؤال رقم ١٧",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 18,
+        "source_reference": "صفحة ١ - السؤال رقم ١٨",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 19,
+        "source_reference": "صفحة ١ - السؤال رقم ١٩",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 20,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٠",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 21,
+        "source_reference": "صفحة ١ - السؤال رقم ٢١",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 22,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٢",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 23,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٣",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 24,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٤",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      },
+      {
+        "source_record_ordinal": 1,
+        "page_number": 1,
+        "legacy_page_id": "c509c118-0838-4ad6-b2f0-543984bbc90b",
+        "question_ordinal_on_page": 25,
+        "source_reference": "صفحة ١ - السؤال رقم ٢٥",
+        "mapping_status": "exam_linked_structural",
+        "individual_exam_model_id": "math-1446-exam-01"
+      }
+    ]
+  },
+  "evidence": {
+    "technical_report": "content-staging/reconstruction/technical/85c13f3f-fe85-47c3-affb-fb437d10d908.json",
+    "metadata_evidence": "content-staging/reconstruction/exams/source-groups/85c13f3f-fe85-47c3-affb-fb437d10d908-metadata-evidence.json",
+    "visual_review": "content-staging/reconstruction/exams/source-groups/85c13f3f-fe85-47c3-affb-fb437d10d908-visual-review.json",
+    "visual_contact_sheets_generated": true,
+    "raw_mutations": 0
+  },
+  "status": "processed_boundary_verified_numbering_anomalies_preserved_answer_keys_not_verified"
+}
