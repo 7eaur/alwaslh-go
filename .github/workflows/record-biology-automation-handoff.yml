@@ -1,0 +1,57 @@
+name: Record Biology Automation Handoff
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/record-biology-automation-handoff.yml'
+      - 'content-staging/tools/record_biology_automation_handoff.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: record-biology-automation-handoff
+  cancel-in-progress: false
+
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - name: Gate exact live head before baton generation
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo 'LIVE_HEAD_DRIFT_BEFORE_BATON'; exit 42; }
+
+      - name: Generate Worker A handoff from live log
+        run: |
+          set -euo pipefail
+          python content-staging/tools/record_biology_automation_handoff.py
+
+      - name: Re-fetch live head before shared-log write
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo 'LIVE_HEAD_DRIFT_BEFORE_SHARED_LOG_WRITE'; exit 42; }
+
+      - name: Commit shared baton only
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          if git diff --cached --quiet; then
+            echo 'Shared baton unchanged.'
+            exit 0
+          fi
+          git commit -m 'content: hand off biology reconstruction to Worker B [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
