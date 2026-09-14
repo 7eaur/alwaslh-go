@@ -1,0 +1,506 @@
+{
+  "source_id": "4863bbf6-6cf3-4238-9407-75825724292a",
+  "identity_status": "VERIFIED_EXACT_SHA",
+  "retained_page_range": [
+    9,
+    215
+  ],
+  "title_run_count": 63,
+  "unit_cover_candidates": [
+    {
+      "title": "غلاف الوحدة - كمية التحرك والمقذوفات",
+      "start_page": 9,
+      "end_page": 9,
+      "page_count": 1
+    },
+    {
+      "title": "غلاف الوحدة - التيار المتردد (المتناوب)",
+      "start_page": 29,
+      "end_page": 29,
+      "page_count": 1
+    },
+    {
+      "title": "غلاف الوحدة - الإلكترونيات",
+      "start_page": 61,
+      "end_page": 61,
+      "page_count": 1
+    },
+    {
+      "title": "غلاف الوحدة - الأجهزة الإلكترونية",
+      "start_page": 85,
+      "end_page": 85,
+      "page_count": 1
+    },
+    {
+      "title": "غلاف الوحدة - الفيزياء الذرية",
+      "start_page": 114,
+      "end_page": 114,
+      "page_count": 1
+    },
+    {
+      "title": "غلاف الوحدة - الإشعاع والمادة",
+      "start_page": 144,
+      "end_page": 144,
+      "page_count": 1
+    },
+    {
+      "title": "غلاف الوحدة - الفيزياء النووية",
+      "start_page": 173,
+      "end_page": 173,
+      "page_count": 1
+    },
+    {
+      "title": "غلاف الوحدة - الطاقة الشمسية",
+      "start_page": 185,
+      "end_page": 185,
+      "page_count": 1
+    },
+    {
+      "title": "غلاف الوحدة - الفيزياء الكونية",
+      "start_page": 198,
+      "end_page": 198,
+      "page_count": 1
+    }
+  ],
+  "unit_review_candidates": [
+    {
+      "title": "تقويم الوحدة الأولى",
+      "start_page": 27,
+      "end_page": 28,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة الثانية",
+      "start_page": 58,
+      "end_page": 60,
+      "page_count": 3
+    },
+    {
+      "title": "تقويم الوحدة الثالثة",
+      "start_page": 80,
+      "end_page": 84,
+      "page_count": 5
+    },
+    {
+      "title": "تقويم الوحدة الرابعة",
+      "start_page": 107,
+      "end_page": 113,
+      "page_count": 7
+    },
+    {
+      "title": "تقويم الوحدة الخامسة",
+      "start_page": 142,
+      "end_page": 143,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة السادسة",
+      "start_page": 171,
+      "end_page": 172,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة السابعة",
+      "start_page": 183,
+      "end_page": 184,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة الثامنة",
+      "start_page": 197,
+      "end_page": 197,
+      "page_count": 1
+    },
+    {
+      "title": "تقويم الوحدة التاسعة",
+      "start_page": 210,
+      "end_page": 210,
+      "page_count": 1
+    }
+  ],
+  "other_special_candidates": [],
+  "all_title_runs": [
+    {
+      "title": "غلاف الوحدة - كمية التحرك والمقذوفات",
+      "start_page": 9,
+      "end_page": 9,
+      "page_count": 1
+    },
+    {
+      "title": "كمية التحرك والتصادم في بعدين",
+      "start_page": 10,
+      "end_page": 10,
+      "page_count": 1
+    },
+    {
+      "title": "التصادم في بعدين",
+      "start_page": 11,
+      "end_page": 14,
+      "page_count": 4
+    },
+    {
+      "title": "الصواريخ ذاتية الدفع",
+      "start_page": 15,
+      "end_page": 16,
+      "page_count": 2
+    },
+    {
+      "title": "سرعة الإفلات من الجاذبية",
+      "start_page": 17,
+      "end_page": 18,
+      "page_count": 2
+    },
+    {
+      "title": "حركة الأقمار الصناعية حول الأرض",
+      "start_page": 19,
+      "end_page": 21,
+      "page_count": 3
+    },
+    {
+      "title": "كمية التحرك الزاوي",
+      "start_page": 22,
+      "end_page": 23,
+      "page_count": 2
+    },
+    {
+      "title": "حركة المقذوفات",
+      "start_page": 24,
+      "end_page": 26,
+      "page_count": 3
+    },
+    {
+      "title": "تقويم الوحدة الأولى",
+      "start_page": 27,
+      "end_page": 28,
+      "page_count": 2
+    },
+    {
+      "title": "غلاف الوحدة - التيار المتردد (المتناوب)",
+      "start_page": 29,
+      "end_page": 29,
+      "page_count": 1
+    },
+    {
+      "title": "التيار المتردد",
+      "start_page": 30,
+      "end_page": 32,
+      "page_count": 3
+    },
+    {
+      "title": "مولد التيار المتردد (الدينامو)",
+      "start_page": 33,
+      "end_page": 36,
+      "page_count": 4
+    },
+    {
+      "title": "الأميتر الحراري",
+      "start_page": 37,
+      "end_page": 38,
+      "page_count": 2
+    },
+    {
+      "title": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "start_page": 39,
+      "end_page": 57,
+      "page_count": 19
+    },
+    {
+      "title": "تقويم الوحدة الثانية",
+      "start_page": 58,
+      "end_page": 60,
+      "page_count": 3
+    },
+    {
+      "title": "غلاف الوحدة - الإلكترونيات",
+      "start_page": 61,
+      "end_page": 61,
+      "page_count": 1
+    },
+    {
+      "title": "أشباه الموصلات",
+      "start_page": 62,
+      "end_page": 66,
+      "page_count": 5
+    },
+    {
+      "title": "الوصلة الثنائية واستخدامها في تقويم التيار المتردد",
+      "start_page": 67,
+      "end_page": 70,
+      "page_count": 4
+    },
+    {
+      "title": "الترانزستور واستخداماته",
+      "start_page": 71,
+      "end_page": 79,
+      "page_count": 9
+    },
+    {
+      "title": "تقويم الوحدة الثالثة",
+      "start_page": 80,
+      "end_page": 84,
+      "page_count": 5
+    },
+    {
+      "title": "غلاف الوحدة - الأجهزة الإلكترونية",
+      "start_page": 85,
+      "end_page": 85,
+      "page_count": 1
+    },
+    {
+      "title": "التوصيل الكهربائي في الغازات",
+      "start_page": 86,
+      "end_page": 88,
+      "page_count": 3
+    },
+    {
+      "title": "أنبوبة أشعة الكاثود",
+      "start_page": 89,
+      "end_page": 89,
+      "page_count": 1
+    },
+    {
+      "title": "كاشف الذبذبات (الأوسيلوسكوب)",
+      "start_page": 90,
+      "end_page": 91,
+      "page_count": 2
+    },
+    {
+      "title": "الرادار",
+      "start_page": 92,
+      "end_page": 94,
+      "page_count": 3
+    },
+    {
+      "title": "إرسال واستقبال الموجات اللاسلكية (الراديو)",
+      "start_page": 95,
+      "end_page": 102,
+      "page_count": 8
+    },
+    {
+      "title": "التلفاز - إرسال واستقبال الصور",
+      "start_page": 103,
+      "end_page": 104,
+      "page_count": 2
+    },
+    {
+      "title": "التلفاز الملون",
+      "start_page": 105,
+      "end_page": 106,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة الرابعة",
+      "start_page": 107,
+      "end_page": 113,
+      "page_count": 7
+    },
+    {
+      "title": "غلاف الوحدة - الفيزياء الذرية",
+      "start_page": 114,
+      "end_page": 114,
+      "page_count": 1
+    },
+    {
+      "title": "نظرية دالتون الذرية ونموذج طومسون",
+      "start_page": 115,
+      "end_page": 116,
+      "page_count": 2
+    },
+    {
+      "title": "الأطياف الذرية وطيف ذرة الهيدروجين",
+      "start_page": 117,
+      "end_page": 120,
+      "page_count": 4
+    },
+    {
+      "title": "نموذج رذرفورد",
+      "start_page": 121,
+      "end_page": 122,
+      "page_count": 2
+    },
+    {
+      "title": "إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة",
+      "start_page": 123,
+      "end_page": 125,
+      "page_count": 3
+    },
+    {
+      "title": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "start_page": 126,
+      "end_page": 141,
+      "page_count": 16
+    },
+    {
+      "title": "تقويم الوحدة الخامسة",
+      "start_page": 142,
+      "end_page": 143,
+      "page_count": 2
+    },
+    {
+      "title": "غلاف الوحدة - الإشعاع والمادة",
+      "start_page": 144,
+      "end_page": 144,
+      "page_count": 1
+    },
+    {
+      "title": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "start_page": 145,
+      "end_page": 156,
+      "page_count": 12
+    },
+    {
+      "title": "الأشعة السينية",
+      "start_page": 157,
+      "end_page": 162,
+      "page_count": 6
+    },
+    {
+      "title": "الليزر",
+      "start_page": 163,
+      "end_page": 170,
+      "page_count": 8
+    },
+    {
+      "title": "تقويم الوحدة السادسة",
+      "start_page": 171,
+      "end_page": 172,
+      "page_count": 2
+    },
+    {
+      "title": "غلاف الوحدة - الفيزياء النووية",
+      "start_page": 173,
+      "end_page": 173,
+      "page_count": 1
+    },
+    {
+      "title": "تركيب النواة والنشاط الإشعاعي",
+      "start_page": 174,
+      "end_page": 178,
+      "page_count": 5
+    },
+    {
+      "title": "التحلل الإشعاعي وعمر النصف",
+      "start_page": 179,
+      "end_page": 179,
+      "page_count": 1
+    },
+    {
+      "title": "طاقة الربط النووية",
+      "start_page": 180,
+      "end_page": 180,
+      "page_count": 1
+    },
+    {
+      "title": "التفاعل المتسلسل",
+      "start_page": 181,
+      "end_page": 181,
+      "page_count": 1
+    },
+    {
+      "title": "المفاعلات النووية السلمية",
+      "start_page": 182,
+      "end_page": 182,
+      "page_count": 1
+    },
+    {
+      "title": "تقويم الوحدة السابعة",
+      "start_page": 183,
+      "end_page": 184,
+      "page_count": 2
+    },
+    {
+      "title": "غلاف الوحدة - الطاقة الشمسية",
+      "start_page": 185,
+      "end_page": 185,
+      "page_count": 1
+    },
+    {
+      "title": "الطاقة والطاقة الشمسية",
+      "start_page": 186,
+      "end_page": 190,
+      "page_count": 5
+    },
+    {
+      "title": "أنواع الإشعاعات الشمسية",
+      "start_page": 191,
+      "end_page": 191,
+      "page_count": 1
+    },
+    {
+      "title": "تطبيقات استغلال الطاقة الشمسية في الحياة",
+      "start_page": 192,
+      "end_page": 192,
+      "page_count": 1
+    },
+    {
+      "title": "توليد الطاقة الحرارية",
+      "start_page": 193,
+      "end_page": 194,
+      "page_count": 2
+    },
+    {
+      "title": "توليد الطاقة الكهربائية",
+      "start_page": 195,
+      "end_page": 196,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة الثامنة",
+      "start_page": 197,
+      "end_page": 197,
+      "page_count": 1
+    },
+    {
+      "title": "غلاف الوحدة - الفيزياء الكونية",
+      "start_page": 198,
+      "end_page": 198,
+      "page_count": 1
+    },
+    {
+      "title": "الكون",
+      "start_page": 199,
+      "end_page": 200,
+      "page_count": 2
+    },
+    {
+      "title": "الكون الممتد",
+      "start_page": 201,
+      "end_page": 201,
+      "page_count": 1
+    },
+    {
+      "title": "المجرات",
+      "start_page": 202,
+      "end_page": 204,
+      "page_count": 3
+    },
+    {
+      "title": "النجوم - نشوء وتطور النجوم",
+      "start_page": 205,
+      "end_page": 207,
+      "page_count": 3
+    },
+    {
+      "title": "المسافات بين النجوم",
+      "start_page": 208,
+      "end_page": 209,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة التاسعة",
+      "start_page": 210,
+      "end_page": 210,
+      "page_count": 1
+    },
+    {
+      "title": "قوائم المصطلحات",
+      "start_page": 211,
+      "end_page": 215,
+      "page_count": 5
+    }
+  ],
+  "interpretation_status": "CANDIDATE_ONLY_NOT_FINALIZED",
+  "raw_mutations": 0,
+  "imports_created": 0,
+  "publications_created": 0
+}
