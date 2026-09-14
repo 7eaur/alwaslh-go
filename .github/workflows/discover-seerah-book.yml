@@ -1,0 +1,73 @@
+name: Discover Seerah Book
+
+on:
+  push:
+    branches: [content/corpus-inventory-20260914]
+    paths:
+      - '.github/workflows/discover-seerah-book.yml'
+      - 'content-staging/tools/discover_seerah_book.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-seerah-book
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master-reference
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Pillow
+      - name: Verify source media
+        run: python content-staging/tools/verify_subject_media.py --subject-id a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8
+      - name: Discover exact identity and create visual evidence
+        run: python content-staging/tools/discover_seerah_book.py
+      - name: Verify discovery invariants
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8'
+          t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
+          d=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-discovery.json').read_text())
+          assert t['all_images_technically_verified'] is True
+          assert t['checks']['manifest_image_count']==81
+          assert d['source_pages']==81 and d['legacy_questions']==1152
+          assert d['raw_mutations']==0 and d['imports_created']==0 and d['publications_created']==0
+          assert d['semantic_structure_status']=='NOT VERIFIED' and d['question_linkage_status']=='NOT VERIFIED'
+          print('SEERAH_DISCOVERY_VERIFY_PASS', d['identity_status'], d['exact_sha_identity_count'], d['candidate_master_directories'][:3])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: seerah-contact-sheets
+          path: /tmp/seerah-contact-sheets/*.jpg
+      - name: Re-fetch live branch before evidence write
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          LIVE=$(git rev-parse origin/content/corpus-inventory-20260914)
+          LOCAL=$(git rev-parse HEAD)
+          test "$LIVE" = "$LOCAL" || { echo "Write safety gate: branch changed live=$LIVE local=$LOCAL"; exit 24; }
+      - name: Commit discovery evidence only
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/reconstruction/technical/a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8.json \
+            content-staging/reconstruction/educational/a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8-discovery.json
+          git commit -m 'content: verify Seerah source identity [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
