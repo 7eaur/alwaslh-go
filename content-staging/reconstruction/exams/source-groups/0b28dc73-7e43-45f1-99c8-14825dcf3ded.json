@@ -1,0 +1,3124 @@
+{
+  "schema_version": 1,
+  "source_group_id": "0b28dc73-7e43-45f1-99c8-14825dcf3ded",
+  "source_group_name": "الفيزياء نماذج وزاريه 1446",
+  "class_id": "a2f64289-7f16-4970-a50c-beee537707c9",
+  "class_name": "الفيزياء ثالث ثانوي ",
+  "subject": "الفيزياء",
+  "classification": "exam_source_group",
+  "academic_year_hijri": "1446",
+  "academic_year_gregorian": "2024-2025",
+  "source_pages": 104,
+  "source_questions": 200,
+  "source_blocks_reviewed": 26,
+  "verified_source_occurrence_count": 26,
+  "review_required_block_count": 0,
+  "individual_exam_model_count": 26,
+  "finalized_exam_page_count": 104,
+  "review_required_page_count": 0,
+  "correction_sheet_candidate_count": 26,
+  "verified_answer_key_count": 0,
+  "duplicate_sha256_groups_within_source": 6,
+  "models": [
+    {
+      "id": "physics-1446-exam-01",
+      "internal_ordinal": 1,
+      "source_model_label": "source occurrence 1",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 1,
+      "last_page": 4,
+      "page_count": 4,
+      "question_pages": [
+        1,
+        2,
+        3
+      ],
+      "correction_sheet_candidate_page": 4,
+      "ordered_page_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ordered_legacy_page_ids": [
+        "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "d16530b8-1aa7-4be8-8bd4-61d7f8949148",
+        "6ec2c5ae-508d-4060-b2b0-e8bd45513511"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00001-311e0e97-cc92-4660-aeaf-5f91afda0487-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00002-70d572ab-2fe2-491a-8ac6-11285f2b4163-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00003-d16530b8-1aa7-4be8-8bd4-61d7f8949148-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00004-6ec2c5ae-508d-4060-b2b0-e8bd45513511-image-00.jpg"
+      ],
+      "sha256": [
+        "d01b216d7aa6061ac92dd0eea339ba88c222a519a30d2f11f04694536720862d",
+        "d915ca5a7da0eeff2312841186f0e009713cce2068d920dd6f98194636f720df",
+        "40b175e45b7566780785915f00350aa54badcbbe8f78841733760f0fc1b84897",
+        "1f0b817ae4b12269527b067887853625bc8ae4cac82a26ec5b79119e93e80cf1"
+      ],
+      "associated_legacy_questions": 50,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 1-3 are question sheets and page 4 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-02",
+      "internal_ordinal": 2,
+      "source_model_label": "source occurrence 2",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 5,
+      "last_page": 8,
+      "page_count": 4,
+      "question_pages": [
+        5,
+        6,
+        7
+      ],
+      "correction_sheet_candidate_page": 8,
+      "ordered_page_numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "ordered_legacy_page_ids": [
+        "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "12c9f800-dc11-4869-95ad-8981fb220777",
+        "41876e5e-a6ec-4fb1-aae1-820d979b41eb",
+        "091b2771-fe64-4375-a868-304384e94f47"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00005-9fa02ea1-1040-4a85-9dc5-e6d88577cc5c-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00006-12c9f800-dc11-4869-95ad-8981fb220777-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00007-41876e5e-a6ec-4fb1-aae1-820d979b41eb-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00008-091b2771-fe64-4375-a868-304384e94f47-image-00.jpg"
+      ],
+      "sha256": [
+        "8bb5c67330e910ff57824fd9ccb0f9b7acf729fa42ad539551e8f3e6751a2786",
+        "2af491076048f8f6970aa7e2fe4c8bc5529a53c095789ef0d4a71975a52e1cdb",
+        "91484fed56eff3230b25cd7153421b4ca074615b236c77d497843289e1e8c262",
+        "e7e7b0f295f1a0ae1f49139fadd6720325cfeb236c2362537763ea3bd5a9da22"
+      ],
+      "associated_legacy_questions": 50,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 5-7 are question sheets and page 8 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-03",
+      "internal_ordinal": 3,
+      "source_model_label": "source occurrence 3",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 9,
+      "last_page": 12,
+      "page_count": 4,
+      "question_pages": [
+        9,
+        10,
+        11
+      ],
+      "correction_sheet_candidate_page": 12,
+      "ordered_page_numbers": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordered_legacy_page_ids": [
+        "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "d23b8580-8046-4ea0-9722-26e47c3b136c",
+        "4d202ab1-b2e1-459c-ae59-ff4c7ad7b87e"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00009-1c305492-34b6-47a5-ae88-394baf152bfb-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00010-4fcf6357-a062-4822-945f-c25529cce4b5-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00011-d23b8580-8046-4ea0-9722-26e47c3b136c-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00012-4d202ab1-b2e1-459c-ae59-ff4c7ad7b87e-image-00.jpg"
+      ],
+      "sha256": [
+        "ad316d87f2c1021a19568c0b5517c5eda3a0c1dd49fab94b69caf402ed79e94f",
+        "70066d3b150ec4fae08cc8cf3422ffcd615d125b7801a5bbc46fd6adc861c081",
+        "95c0c372f8e23e20b1b60e01045db771f367547fe2735488015b1ca4e8e6f45e",
+        "eb64c72f49558876ae7305e8b973779e52c8e028f6aac17f92589c45ce5ead08"
+      ],
+      "associated_legacy_questions": 50,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 9-11 are question sheets and page 12 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-04",
+      "internal_ordinal": 4,
+      "source_model_label": "source occurrence 4",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 13,
+      "last_page": 16,
+      "page_count": 4,
+      "question_pages": [
+        13,
+        14,
+        15
+      ],
+      "correction_sheet_candidate_page": 16,
+      "ordered_page_numbers": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "ordered_legacy_page_ids": [
+        "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "22426647-2bfd-4153-877e-08b0ee3d6dca",
+        "e8fe5c71-c37c-4a38-9c7d-f77f2c39db54"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00013-236bc4d5-1115-4d7d-8d4e-74808e4fac98-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00014-b561bda7-a2ed-4d77-814d-81463b5eb35d-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00015-22426647-2bfd-4153-877e-08b0ee3d6dca-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00016-e8fe5c71-c37c-4a38-9c7d-f77f2c39db54-image-00.jpg"
+      ],
+      "sha256": [
+        "223babd5d5b867e1ae623e052680876d75b57045fe17b6915df836801a5638f9",
+        "05c836d682580c86b7f6f040ce615428fb0395c472ff7ccff2fb0b500f087120",
+        "f51aac83c54fe14912a1e9f379625f734a6652d34392b4927bbbbcd5cf9ba406",
+        "c4bd0ab1d4bc72bd5ff79e517fdd96ecce8a68ebfb7baa91f30cad079c2fc7c0"
+      ],
+      "associated_legacy_questions": 50,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 13-15 are question sheets and page 16 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-05",
+      "internal_ordinal": 5,
+      "source_model_label": "source occurrence 5",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 17,
+      "last_page": 20,
+      "page_count": 4,
+      "question_pages": [
+        17,
+        18,
+        19
+      ],
+      "correction_sheet_candidate_page": 20,
+      "ordered_page_numbers": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "ordered_legacy_page_ids": [
+        "f054b6cb-8616-49be-a4c4-7a271f1d95c7",
+        "00d68b70-bca9-4a45-aae3-def6e379697b",
+        "ed4bc629-0037-459c-b52a-032a7ea6ad0d",
+        "09f4b103-ad49-4e2e-9ba8-732528ab77df"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00017-f054b6cb-8616-49be-a4c4-7a271f1d95c7-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00018-00d68b70-bca9-4a45-aae3-def6e379697b-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00019-ed4bc629-0037-459c-b52a-032a7ea6ad0d-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00020-09f4b103-ad49-4e2e-9ba8-732528ab77df-image-00.jpg"
+      ],
+      "sha256": [
+        "a67604083c4471b0f1730a3f4ed859db5c7f5fbecd144107beba999d810593e3",
+        "14c5c0aae9408d38ff4bb97266ebf52eeb189f067ba2aa019ce267ce9c8775f9",
+        "ec1f442cb230eb4e3ccf3eedddaf4e4b5c678d6320b0a1d1e12bafc382dea402",
+        "2a6ba88b394302b1ca1b398d4e22eaf9c035552b6d526b0a1c2a3b421b59630c"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 17-19 are question sheets and page 20 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-06",
+      "internal_ordinal": 6,
+      "source_model_label": "source occurrence 6",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 21,
+      "last_page": 24,
+      "page_count": 4,
+      "question_pages": [
+        21,
+        22,
+        23
+      ],
+      "correction_sheet_candidate_page": 24,
+      "ordered_page_numbers": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "ordered_legacy_page_ids": [
+        "7ef1d038-2f25-4467-b41d-514833b17df0",
+        "dec1a243-18c6-4a0f-bfd0-5709194d8890",
+        "55f0fc57-2c7f-4056-863d-b9349f90ce56",
+        "8fcfb472-6c29-4b6e-acc6-52db46770c60"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00021-7ef1d038-2f25-4467-b41d-514833b17df0-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00022-dec1a243-18c6-4a0f-bfd0-5709194d8890-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00023-55f0fc57-2c7f-4056-863d-b9349f90ce56-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00024-8fcfb472-6c29-4b6e-acc6-52db46770c60-image-00.jpg"
+      ],
+      "sha256": [
+        "0999d2319c5607d98ac256c0adb2781d798e502c378c4de3547f2a56a4e6c042",
+        "597fea8b349052587dbae5903f5d90011c257284f9a91284ea06a677b731efaa",
+        "93a76c8b9ca2a8f53661695e3cabffcca3af862b8c9fa51c357e09ca413b65aa",
+        "f41927c76be80c36871bfe9f071e303abd34304f19f8e93890844936d6aa62b9"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 21-23 are question sheets and page 24 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-07",
+      "internal_ordinal": 7,
+      "source_model_label": "source occurrence 7",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 25,
+      "last_page": 28,
+      "page_count": 4,
+      "question_pages": [
+        25,
+        26,
+        27
+      ],
+      "correction_sheet_candidate_page": 28,
+      "ordered_page_numbers": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "ordered_legacy_page_ids": [
+        "bb9f9e11-c723-43e5-8f2c-dfe4b29db657",
+        "484cdc58-662a-415e-bff1-386fb5f2a073",
+        "d178a31f-4adb-42e4-a0b6-2e31efc23271",
+        "bcd239f6-65a1-4322-be77-70a427c77955"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00025-bb9f9e11-c723-43e5-8f2c-dfe4b29db657-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00026-484cdc58-662a-415e-bff1-386fb5f2a073-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00027-d178a31f-4adb-42e4-a0b6-2e31efc23271-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00028-bcd239f6-65a1-4322-be77-70a427c77955-image-00.jpg"
+      ],
+      "sha256": [
+        "b07d768c250ad06b0a0dfb226b209a3145c8a63aa4462b9bbc24c1b6aa0de82c",
+        "8db5014ab83651508b689c4e9e4240183808a232dd9c622b1a7bb297f36eb389",
+        "7d7974f877721e21857ba711968141dfb6cabc781609cb25fc25298dab5ea735",
+        "a16c9bdf7662614fc5b16a43e4c0da9c38d5ea695faabde16f11ddcb52751865"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 25-27 are question sheets and page 28 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-08",
+      "internal_ordinal": 8,
+      "source_model_label": "source occurrence 8",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 29,
+      "last_page": 32,
+      "page_count": 4,
+      "question_pages": [
+        29,
+        30,
+        31
+      ],
+      "correction_sheet_candidate_page": 32,
+      "ordered_page_numbers": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "ordered_legacy_page_ids": [
+        "a47b7aac-a479-474e-9283-7ff59f4179e1",
+        "e51003e7-c8af-4b4d-9bbe-ea57fbd77f79",
+        "81705ffd-b8e5-4f71-a1e8-df65552d5d0d",
+        "de1e8b3f-20be-4dfd-b598-56341ee8615f"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00029-a47b7aac-a479-474e-9283-7ff59f4179e1-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00030-e51003e7-c8af-4b4d-9bbe-ea57fbd77f79-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00031-81705ffd-b8e5-4f71-a1e8-df65552d5d0d-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00032-de1e8b3f-20be-4dfd-b598-56341ee8615f-image-00.jpg"
+      ],
+      "sha256": [
+        "8ee266f5b2323cfa60195dbd58becf33c0335d8b13ab591e2245aca3cb821d93",
+        "5ce2c2a38584b7fd4c583261aa73029f83593464fffe60e04c972ca85ed2214c",
+        "3faef089afb98238893bd33a99fbc689fb4e2cfbe0e1917fdcfedd2ea8660229",
+        "185ed3cd73f5b84501d71ae141af1f7e73aa1bd9fc1ba623e43646ad62a160f1"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 29-31 are question sheets and page 32 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-09",
+      "internal_ordinal": 9,
+      "source_model_label": "source occurrence 9",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 33,
+      "last_page": 36,
+      "page_count": 4,
+      "question_pages": [
+        33,
+        34,
+        35
+      ],
+      "correction_sheet_candidate_page": 36,
+      "ordered_page_numbers": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "ordered_legacy_page_ids": [
+        "abea1925-c8c2-4681-b237-5fe6420449a7",
+        "1c066370-d440-4abc-adc0-464bb7a49ad1",
+        "08d20896-e3e5-470c-88bc-6476c027bb10",
+        "63855ebd-ebb3-4087-a1f4-4bebdccb6d75"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00033-abea1925-c8c2-4681-b237-5fe6420449a7-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00034-1c066370-d440-4abc-adc0-464bb7a49ad1-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00035-08d20896-e3e5-470c-88bc-6476c027bb10-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00036-63855ebd-ebb3-4087-a1f4-4bebdccb6d75-image-00.jpg"
+      ],
+      "sha256": [
+        "67b750289658d778e14d375e9d879662cd57c7a63427e1ff03abbe46fe37e814",
+        "dfb8fe7e94487ac2051c2a0b37a0df1d1d2349cc16fcaf381cec44ce1fac955e",
+        "c18c5a09dde9f2d569b8865f3c63cb04025742f44153a65d63f7f1895e0f42b0",
+        "a82345e192b5e5adc125512d02420b1012f9e323b8e311d00ff29fd88450bad7"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 33-35 are question sheets and page 36 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-10",
+      "internal_ordinal": 10,
+      "source_model_label": "source occurrence 10",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 37,
+      "last_page": 40,
+      "page_count": 4,
+      "question_pages": [
+        37,
+        38,
+        39
+      ],
+      "correction_sheet_candidate_page": 40,
+      "ordered_page_numbers": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "ordered_legacy_page_ids": [
+        "2f0fcfed-139f-4fc4-8e34-7fb925d22100",
+        "04a5e8a7-96eb-411a-bd68-e0c0ebeb2007",
+        "739737ed-719e-4954-be92-891b13d26a25",
+        "790b763e-b8af-4a9d-8466-81e49712ede1"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00037-2f0fcfed-139f-4fc4-8e34-7fb925d22100-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00038-04a5e8a7-96eb-411a-bd68-e0c0ebeb2007-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00039-739737ed-719e-4954-be92-891b13d26a25-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00040-790b763e-b8af-4a9d-8466-81e49712ede1-image-00.jpg"
+      ],
+      "sha256": [
+        "3bd98698241d5eaee16a80a580411b1d6cb1131beb059e8f375106e8baf36d87",
+        "74610e220f4899a5fa9b516717ccb8b45904a094e8048fedb61d9737c4e4f1f9",
+        "964789326fc0dc349d61a71a56910b2d645b283f180cbf8be5a24be9aadacf1e",
+        "af2064a0d305b670c2ed4fbdcd1089637cbf1ab099328491c875550d888919d4"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 37-39 are question sheets and page 40 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-11",
+      "internal_ordinal": 11,
+      "source_model_label": "source occurrence 11",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 41,
+      "last_page": 44,
+      "page_count": 4,
+      "question_pages": [
+        41,
+        42,
+        43
+      ],
+      "correction_sheet_candidate_page": 44,
+      "ordered_page_numbers": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "ordered_legacy_page_ids": [
+        "391a6d01-43b8-4812-acc5-b8acde035e78",
+        "f9726104-07e9-4d71-b84e-8fb224a01a21",
+        "ad5d3579-120d-43e1-9164-d621fb88fe06",
+        "9c7e1cb2-965c-45f8-a9b5-3bd00ceafdb7"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00041-391a6d01-43b8-4812-acc5-b8acde035e78-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00042-f9726104-07e9-4d71-b84e-8fb224a01a21-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00043-ad5d3579-120d-43e1-9164-d621fb88fe06-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00044-9c7e1cb2-965c-45f8-a9b5-3bd00ceafdb7-image-00.jpg"
+      ],
+      "sha256": [
+        "8ee266f5b2323cfa60195dbd58becf33c0335d8b13ab591e2245aca3cb821d93",
+        "5ce2c2a38584b7fd4c583261aa73029f83593464fffe60e04c972ca85ed2214c",
+        "3faef089afb98238893bd33a99fbc689fb4e2cfbe0e1917fdcfedd2ea8660229",
+        "6613821458ab237daed8a2cb5dde59830ae399a990489a21d2772ca10ec69f46"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 41-43 are question sheets and page 44 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-12",
+      "internal_ordinal": 12,
+      "source_model_label": "source occurrence 12",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 45,
+      "last_page": 48,
+      "page_count": 4,
+      "question_pages": [
+        45,
+        46,
+        47
+      ],
+      "correction_sheet_candidate_page": 48,
+      "ordered_page_numbers": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "ordered_legacy_page_ids": [
+        "f37ab308-f9d1-47b7-bb97-fd7e325dd93d",
+        "9b687c2f-0f74-4bb7-8cc6-a84dda327f4d",
+        "403658f7-bc11-4561-8b3d-6ed6c085f023",
+        "2438b17b-d908-4e94-a772-3c2d3e7d1fff"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00045-f37ab308-f9d1-47b7-bb97-fd7e325dd93d-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00046-9b687c2f-0f74-4bb7-8cc6-a84dda327f4d-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00047-403658f7-bc11-4561-8b3d-6ed6c085f023-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00048-2438b17b-d908-4e94-a772-3c2d3e7d1fff-image-00.jpg"
+      ],
+      "sha256": [
+        "3a45f01888b179af6f6a8806385b3e80ed1fc02044747b27e2037f3421d4a622",
+        "1d3fac3936e926c592b3afad2672004680c5b38755d69efda3e95741b5b1ef7c",
+        "d378519de045730dbae3684aa8d76751b96632f50d83b15093b8fbe5a08553cd",
+        "d9104e49fcaefcbad376111ad35aab51e9c096349a2f20d66092394fe62ec808"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 45-47 are question sheets and page 48 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-13",
+      "internal_ordinal": 13,
+      "source_model_label": "source occurrence 13",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 49,
+      "last_page": 52,
+      "page_count": 4,
+      "question_pages": [
+        49,
+        50,
+        51
+      ],
+      "correction_sheet_candidate_page": 52,
+      "ordered_page_numbers": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "ordered_legacy_page_ids": [
+        "6c996341-4fb6-4eee-bf0e-0dbbd7a52101",
+        "9f2c7d5a-70f2-44ab-8798-227ff05f8f0e",
+        "249f41fc-4ebc-44ec-9f05-d4b85aa6f079",
+        "e3668e10-364f-47d8-8ec2-b24407dc7541"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00049-6c996341-4fb6-4eee-bf0e-0dbbd7a52101-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00050-9f2c7d5a-70f2-44ab-8798-227ff05f8f0e-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00051-249f41fc-4ebc-44ec-9f05-d4b85aa6f079-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00052-e3668e10-364f-47d8-8ec2-b24407dc7541-image-00.jpg"
+      ],
+      "sha256": [
+        "a6bb2d4c6ce57807f6280788c98a76a9644a09eed03fdb176ca72d65ac05b2bc",
+        "5c98659c5edfafabc220a03a5b32047cdc4cd33bff94234ec2b861cc6222865c",
+        "c1a41840563d4d3d3c2c8fa7fee23ed1354205f5aa1dfc88e9fee763f6a45ff7",
+        "ce440a89fdc90fb983898a9102242b5833f047a9416137ab0736734541729209"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 49-51 are question sheets and page 52 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-14",
+      "internal_ordinal": 14,
+      "source_model_label": "source occurrence 14",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 53,
+      "last_page": 56,
+      "page_count": 4,
+      "question_pages": [
+        53,
+        54,
+        55
+      ],
+      "correction_sheet_candidate_page": 56,
+      "ordered_page_numbers": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "ordered_legacy_page_ids": [
+        "a6915052-ca90-41cc-9eb3-7de3d3cff95f",
+        "0fee4c9d-63a8-4de6-95a3-87c61d027454",
+        "33e5efac-893b-4ccd-aad1-ba35351240d3",
+        "ab77c6be-b60a-449f-8495-e1ef27d01d65"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00053-a6915052-ca90-41cc-9eb3-7de3d3cff95f-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00054-0fee4c9d-63a8-4de6-95a3-87c61d027454-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00055-33e5efac-893b-4ccd-aad1-ba35351240d3-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00056-ab77c6be-b60a-449f-8495-e1ef27d01d65-image-00.jpg"
+      ],
+      "sha256": [
+        "f99b1d94ce2abd643286323a5899019891ce683c59aa4a7d8c0b424787f063ef",
+        "967959d3ef5a607f32de872b08e87285117497b262c649f8d4659825e100cb36",
+        "e3748c322a589acb730c36317f16644d1011e26e7719bf420299fcb1bd2956e4",
+        "1f2aa4861870b22aef915d5b992f7fb072c5a691f2f1ab02ea888503a60baf18"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 53-55 are question sheets and page 56 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-15",
+      "internal_ordinal": 15,
+      "source_model_label": "source occurrence 15",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 57,
+      "last_page": 60,
+      "page_count": 4,
+      "question_pages": [
+        57,
+        58,
+        59
+      ],
+      "correction_sheet_candidate_page": 60,
+      "ordered_page_numbers": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "ordered_legacy_page_ids": [
+        "c76b59b0-2d55-4408-b4f3-9d32b859f036",
+        "b53bb460-4865-4666-b990-ff8b93bc3b78",
+        "6ae1a700-0baa-4f7f-9946-9940516a1675",
+        "ad5bf053-8941-483f-ba9e-20005f0031a8"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00057-c76b59b0-2d55-4408-b4f3-9d32b859f036-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00058-b53bb460-4865-4666-b990-ff8b93bc3b78-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00059-6ae1a700-0baa-4f7f-9946-9940516a1675-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00060-ad5bf053-8941-483f-ba9e-20005f0031a8-image-00.jpg"
+      ],
+      "sha256": [
+        "f3730fedf630bab6b3684321c1f465ee0f320538bf16b8c68eef5e2bb333f231",
+        "e59fbd9d8cd94e0a0ecdea55160ece9e57d7e1de5650ddda4888fbd669086c42",
+        "7455b02b4e325835f1ee4acace362692592a2d920a009f94d8efe0eb9860fc5e",
+        "681abdabebf277028d5c730de2fa3a42add208a28f6b7057f78fa1c0e07161bd"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 57-59 are question sheets and page 60 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-16",
+      "internal_ordinal": 16,
+      "source_model_label": "source occurrence 16",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 61,
+      "last_page": 64,
+      "page_count": 4,
+      "question_pages": [
+        61,
+        62,
+        63
+      ],
+      "correction_sheet_candidate_page": 64,
+      "ordered_page_numbers": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "ordered_legacy_page_ids": [
+        "1fad2af6-bb93-4ef8-a8dc-269de6b6734a",
+        "725f0037-2b98-44ff-a7d8-2ac0947e7450",
+        "1354c9f2-ddc1-437c-ab5e-859fd3d82633",
+        "21d5d4e5-ed0b-44de-b687-a96746834c0f"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00061-1fad2af6-bb93-4ef8-a8dc-269de6b6734a-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00062-725f0037-2b98-44ff-a7d8-2ac0947e7450-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00063-1354c9f2-ddc1-437c-ab5e-859fd3d82633-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00064-21d5d4e5-ed0b-44de-b687-a96746834c0f-image-00.jpg"
+      ],
+      "sha256": [
+        "6469b42e07aa8fc768ed5db4e2ca9e1240079ca383f35feafe83fbd6e3f15be2",
+        "e24385ce435f60e08ed6c1f2279003d2d358adcf17794221e3570437ee247905",
+        "c1bbf7a81f21469fb13f3e6394f70275047302961d1ec31577133201f94f3908",
+        "a5469a52f83550dcfdd2a819ddd54c4d130be183c3c391b6c6e8468c4c6fab7e"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 61-63 are question sheets and page 64 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-17",
+      "internal_ordinal": 17,
+      "source_model_label": "source occurrence 17",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 65,
+      "last_page": 68,
+      "page_count": 4,
+      "question_pages": [
+        65,
+        66,
+        67
+      ],
+      "correction_sheet_candidate_page": 68,
+      "ordered_page_numbers": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "ordered_legacy_page_ids": [
+        "0ccbd6e6-e0a0-4e30-941e-e4ac3ac1d4ef",
+        "19bf1d93-6111-4c11-ac7f-3242c9e98e85",
+        "943481be-3591-4128-b25b-9ddacc8211a5",
+        "31f5530b-4179-4075-b20c-37ec9db15135"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00065-0ccbd6e6-e0a0-4e30-941e-e4ac3ac1d4ef-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00066-19bf1d93-6111-4c11-ac7f-3242c9e98e85-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00067-943481be-3591-4128-b25b-9ddacc8211a5-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00068-31f5530b-4179-4075-b20c-37ec9db15135-image-00.jpg"
+      ],
+      "sha256": [
+        "d3fa26073c11c6d84a21e69fbc4c95c795c3de471f6dd4b01aea6cc3bb45273b",
+        "71b0fa0820eeb60c3d7abae4cb70b40a7b1d34df5dc0000953b41277ecae037e",
+        "53f0938156ee788915897a791cdfeb947864839fb9004c20a71252082afe19d4",
+        "65f52c68626a8cdb89974d9faa8ef18fc17f0edec7f4ba24c83de44f49f3769f"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 65-67 are question sheets and page 68 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-18",
+      "internal_ordinal": 18,
+      "source_model_label": "source occurrence 18",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 69,
+      "last_page": 72,
+      "page_count": 4,
+      "question_pages": [
+        69,
+        70,
+        71
+      ],
+      "correction_sheet_candidate_page": 72,
+      "ordered_page_numbers": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "ordered_legacy_page_ids": [
+        "aafb4321-9d04-4dcf-82b4-040fe911ac30",
+        "6d1b05df-be5e-492f-94c8-b3d6752e90f0",
+        "f7375419-1a56-4f53-a1bb-74febdd13d5e",
+        "433e5b7e-6618-435a-9ade-b79f5abc2375"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00069-aafb4321-9d04-4dcf-82b4-040fe911ac30-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00070-6d1b05df-be5e-492f-94c8-b3d6752e90f0-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00071-f7375419-1a56-4f53-a1bb-74febdd13d5e-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00072-433e5b7e-6618-435a-9ade-b79f5abc2375-image-00.jpg"
+      ],
+      "sha256": [
+        "148d118c8f2da3ef47e1e4749a94c5426352f75e47e6377bca570bd3be882589",
+        "7ba94a26743e08df6cd7efe783bb72a4a6c94405c58514b4b6019838339bc50b",
+        "ed45d9bf636112f4d6a7fc9ffc8f4994121755c6c5efe6d242539f35ae194b49",
+        "49e13283c4d1d15e02f033ee98255e2f41f47ef4dfc98fdae28cfd78ed7aa19c"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 69-71 are question sheets and page 72 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-19",
+      "internal_ordinal": 19,
+      "source_model_label": "source occurrence 19",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 73,
+      "last_page": 76,
+      "page_count": 4,
+      "question_pages": [
+        73,
+        74,
+        75
+      ],
+      "correction_sheet_candidate_page": 76,
+      "ordered_page_numbers": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "ordered_legacy_page_ids": [
+        "c04ac8ff-7de5-419e-93c7-25be04586f9c",
+        "95ebb8fb-3639-477e-99cf-0e0e8f0b3a8b",
+        "6f02784d-118e-42a9-b8b3-7f60a88b33da",
+        "26564e12-7755-4262-afa4-376cf25ed00c"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00073-c04ac8ff-7de5-419e-93c7-25be04586f9c-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00074-95ebb8fb-3639-477e-99cf-0e0e8f0b3a8b-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00075-6f02784d-118e-42a9-b8b3-7f60a88b33da-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00076-26564e12-7755-4262-afa4-376cf25ed00c-image-00.jpg"
+      ],
+      "sha256": [
+        "396d014bd318b889a6311301337e247f235c1e0dc1f0323863fd99c1fa01212f",
+        "b722286e778fa502aa765182a917d5e5ec316ea67f6ac8bb750b4003f5fa19fe",
+        "33f7e3f41cbcde7801cd128046f91b39bff0635a69fcf366a8086a015378329c",
+        "b7217ba8b8bc915106ef8f82e68e48460dc1a04b033652d7d6aabe0e90beb7de"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 73-75 are question sheets and page 76 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-20",
+      "internal_ordinal": 20,
+      "source_model_label": "source occurrence 20",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 77,
+      "last_page": 80,
+      "page_count": 4,
+      "question_pages": [
+        77,
+        78,
+        79
+      ],
+      "correction_sheet_candidate_page": 80,
+      "ordered_page_numbers": [
+        77,
+        78,
+        79,
+        80
+      ],
+      "ordered_legacy_page_ids": [
+        "78067ef7-04e2-4656-9cf3-ad1c9a0b36e6",
+        "a75f1b24-9b92-4396-ae6b-edcfc2e57025",
+        "21b0fa69-c977-4e68-b876-5daee94babac",
+        "782ae261-fe99-491a-805e-1a9c148490dd"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00077-78067ef7-04e2-4656-9cf3-ad1c9a0b36e6-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00078-a75f1b24-9b92-4396-ae6b-edcfc2e57025-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00079-21b0fa69-c977-4e68-b876-5daee94babac-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00080-782ae261-fe99-491a-805e-1a9c148490dd-image-00.jpg"
+      ],
+      "sha256": [
+        "929c8b18a6f6a6ffff50f2dc7c9313fa36f7e91085e9cbb2f35b288fa814c6e2",
+        "7bfdfb478e52bb58b2e7c3ceb7a2d466fe9e54d78de391cd899196f4cea86a83",
+        "7db06d3c42f6a27c50bb49ddb4252b23eeacb1e10fab76e557520c13137a8515",
+        "b1f74139393b1e2983fecbd8d6082adcff17b55ada354c5ebc9ea6397ad9de56"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 77-79 are question sheets and page 80 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-21",
+      "internal_ordinal": 21,
+      "source_model_label": "source occurrence 21",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 81,
+      "last_page": 84,
+      "page_count": 4,
+      "question_pages": [
+        81,
+        82,
+        83
+      ],
+      "correction_sheet_candidate_page": 84,
+      "ordered_page_numbers": [
+        81,
+        82,
+        83,
+        84
+      ],
+      "ordered_legacy_page_ids": [
+        "79721000-e0d3-4050-b3e6-35a7672f1f6d",
+        "02313080-ec1d-43a1-841b-9a05220e9def",
+        "f4546d5c-a744-4d75-a401-1fb9d31b922d",
+        "04c95968-c3c4-4d86-8ef0-03d04ab55c70"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00081-79721000-e0d3-4050-b3e6-35a7672f1f6d-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00082-02313080-ec1d-43a1-841b-9a05220e9def-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00083-f4546d5c-a744-4d75-a401-1fb9d31b922d-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00084-04c95968-c3c4-4d86-8ef0-03d04ab55c70-image-00.jpg"
+      ],
+      "sha256": [
+        "77630e0b6aa26e28b4908004d4875ed3609c6c779d544cd7654c440e4e7f4cc7",
+        "4f81f238ddde85e4928e20d1e2d247e19e21d3632db97b7043bc7836b27f6fa4",
+        "afba264705bedc5955625dcee718a193a2b6da229a8e2c80c9e7c3679c15718f",
+        "a4ee615b4785c473f6dd8477ebc6f2f38a868c6a37f8307b25a1e0168f175d8f"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 81-83 are question sheets and page 84 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-22",
+      "internal_ordinal": 22,
+      "source_model_label": "source occurrence 22",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 85,
+      "last_page": 88,
+      "page_count": 4,
+      "question_pages": [
+        85,
+        86,
+        87
+      ],
+      "correction_sheet_candidate_page": 88,
+      "ordered_page_numbers": [
+        85,
+        86,
+        87,
+        88
+      ],
+      "ordered_legacy_page_ids": [
+        "5cb98663-6ae2-4dcf-b8a9-3e1e8d9bd675",
+        "ea91d2ce-d94d-4bbf-944a-9102be130623",
+        "f946bc5f-0d03-45e7-819f-5e03ebf9ffe3",
+        "1a52782e-aabb-4c01-b6ff-ca4ccc679328"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00085-5cb98663-6ae2-4dcf-b8a9-3e1e8d9bd675-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00086-ea91d2ce-d94d-4bbf-944a-9102be130623-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00087-f946bc5f-0d03-45e7-819f-5e03ebf9ffe3-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00088-1a52782e-aabb-4c01-b6ff-ca4ccc679328-image-00.jpg"
+      ],
+      "sha256": [
+        "b7887064e8a67a157c8e2b8d6739d6461b8cfd2fbbb382b3498a8ac7333f45f7",
+        "f85d2b2417d830ace7d207b00cbaccc826999ef2a572ea7d3bf900abb8cdb1a2",
+        "bcfed44c876fde56da6e6ad440f891a1aafc2285aee01aba6da55beb181dafe4",
+        "97643c35c79acb21a0198eda4d4230b612356e7896bb944919d94c1b17368201"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 85-87 are question sheets and page 88 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-23",
+      "internal_ordinal": 23,
+      "source_model_label": "source occurrence 23",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 89,
+      "last_page": 92,
+      "page_count": 4,
+      "question_pages": [
+        89,
+        90,
+        91
+      ],
+      "correction_sheet_candidate_page": 92,
+      "ordered_page_numbers": [
+        89,
+        90,
+        91,
+        92
+      ],
+      "ordered_legacy_page_ids": [
+        "1e347b8a-8a12-4163-a986-99e2df1f5e19",
+        "5bab0ff3-eb3f-42f4-a3d5-410c94fa400b",
+        "4ad84e1a-0931-461c-b576-d3957565b991",
+        "bf7671b6-2502-4b12-b8d4-6aad21c57bb1"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00089-1e347b8a-8a12-4163-a986-99e2df1f5e19-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00090-5bab0ff3-eb3f-42f4-a3d5-410c94fa400b-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00091-4ad84e1a-0931-461c-b576-d3957565b991-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00092-bf7671b6-2502-4b12-b8d4-6aad21c57bb1-image-00.jpg"
+      ],
+      "sha256": [
+        "8fe57c51fa771788b1035388d0869907936306a0e10e62ee8c86e594877adbe1",
+        "8013ab7617db4735b92620a84817cc4563e321eba98bd19631918db93d2ccccd",
+        "9f148f649aef47bfb81bb7cf77fdb2c7ebad8779064a4ac2ee832b314bf451c0",
+        "a31a7c68a246b9d20d8f9ed05a47c5ad535f5130e1333d8f2f2a96557596e89d"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 89-91 are question sheets and page 92 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-24",
+      "internal_ordinal": 24,
+      "source_model_label": "source occurrence 24",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 93,
+      "last_page": 96,
+      "page_count": 4,
+      "question_pages": [
+        93,
+        94,
+        95
+      ],
+      "correction_sheet_candidate_page": 96,
+      "ordered_page_numbers": [
+        93,
+        94,
+        95,
+        96
+      ],
+      "ordered_legacy_page_ids": [
+        "e090c2bb-e037-46fe-981e-2af42e3058bc",
+        "5c442a9b-78cd-476b-8f93-1ee15fec8559",
+        "1b6d6e70-2ef8-46d3-9908-471625fd4613",
+        "cab52bed-f081-48c0-9b56-c2cf78cbfd7a"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00093-e090c2bb-e037-46fe-981e-2af42e3058bc-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00094-5c442a9b-78cd-476b-8f93-1ee15fec8559-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00095-1b6d6e70-2ef8-46d3-9908-471625fd4613-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00096-cab52bed-f081-48c0-9b56-c2cf78cbfd7a-image-00.jpg"
+      ],
+      "sha256": [
+        "396d014bd318b889a6311301337e247f235c1e0dc1f0323863fd99c1fa01212f",
+        "b722286e778fa502aa765182a917d5e5ec316ea67f6ac8bb750b4003f5fa19fe",
+        "33f7e3f41cbcde7801cd128046f91b39bff0635a69fcf366a8086a015378329c",
+        "bf5e090cbdef028120003412a7aa57b3583ff106e2ae51a0d09f13eb229a8af2"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 93-95 are question sheets and page 96 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-25",
+      "internal_ordinal": 25,
+      "source_model_label": "source occurrence 25",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 97,
+      "last_page": 100,
+      "page_count": 4,
+      "question_pages": [
+        97,
+        98,
+        99
+      ],
+      "correction_sheet_candidate_page": 100,
+      "ordered_page_numbers": [
+        97,
+        98,
+        99,
+        100
+      ],
+      "ordered_legacy_page_ids": [
+        "964fe11c-0764-4fbd-88f9-b321c39a7a8d",
+        "5234138d-4480-4cc8-9df1-3b50a530f012",
+        "13dc71d6-f3c1-4259-8079-59a3e7cb86bf",
+        "6f01ecfb-47b6-421c-a682-a601beddc3df"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00097-964fe11c-0764-4fbd-88f9-b321c39a7a8d-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00098-5234138d-4480-4cc8-9df1-3b50a530f012-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00099-13dc71d6-f3c1-4259-8079-59a3e7cb86bf-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00100-6f01ecfb-47b6-421c-a682-a601beddc3df-image-00.jpg"
+      ],
+      "sha256": [
+        "dbc7f24a2a2ff79e6a3d86dc7eba873147205edacb45366621b8ae09f5b8ded8",
+        "0dfc61859c69b565aa3cccfcc02cc312a6508702c5a1d90f7eeaeff957c5faee",
+        "98f606e4b1512bd814349a712a213116d01623651efd3783b7a65a97e3875fa2",
+        "25211a5be7910f3e4cb6a0024f56c5c8b0aa7ab79649634e5795aa3553a98839"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 97-99 are question sheets and page 100 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "physics-1446-exam-26",
+      "internal_ordinal": 26,
+      "source_model_label": "source occurrence 26",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1446",
+      "academic_year_gregorian": "2024-2025",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 101,
+      "last_page": 104,
+      "page_count": 4,
+      "question_pages": [
+        101,
+        102,
+        103
+      ],
+      "correction_sheet_candidate_page": 104,
+      "ordered_page_numbers": [
+        101,
+        102,
+        103,
+        104
+      ],
+      "ordered_legacy_page_ids": [
+        "3136e41f-70f4-411f-97c2-6b4a25c094a7",
+        "4f970653-6100-4935-b9ea-af49816299f4",
+        "9b784f3d-cf1e-4700-948d-6a5741bb30a8",
+        "852c2e34-16c1-4577-9058-64404aba7b1f"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00101-3136e41f-70f4-411f-97c2-6b4a25c094a7-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00102-4f970653-6100-4935-b9ea-af49816299f4-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00103-9b784f3d-cf1e-4700-948d-6a5741bb30a8-image-00.jpg",
+        "raw/legacy-supabase/subjects/0b28dc73-7e43-45f1-99c8-14825dcf3ded/images/page-00104-852c2e34-16c1-4577-9058-64404aba7b1f-image-00.jpg"
+      ],
+      "sha256": [
+        "a51be3536297bb0e0771622e181fe8eb370bf5e6cd5ab518a451e5b84deda54e",
+        "33864e6e2c370acf66f0236d451775ebb8b4f326c670eaf27748ac4422dc3434",
+        "16ade87cc6899d604d9a90a162e7624cc6eb0911bd0968981be2cd81f3ab706a",
+        "4a1a678a2c4ce4948d16b3c89bf224e4515e62b341337dc20dd2cff469400b2d"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 104 Physics 1446 source pages were visually reviewed in complete source-local contact sheets.",
+        "Pages 101-103 are question sheets and page 104 is the paired correction/result sheet; the four-page semantic sequence was independently verified for all 26 occurrences.",
+        "Six within-source SHA duplicate groups affect question sheets only; paired fourth-page correction/result sheets differ, so no occurrences were merged solely from partial-page duplication.",
+        "The boundary decision is source-local and was not inherited from Physics 1445 or any other exam source group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    }
+  ],
+  "question_mapping": {
+    "exam_linked_structural": 200,
+    "review_required": 0,
+    "unassigned_within_source": 0,
+    "semantic_correctness": "NOT VERIFIED",
+    "records": [
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 3,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 4,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 5,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 6,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 7,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 8,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 9,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 10,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 11,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 12,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 13,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 14,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 15,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 16,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 17,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 18,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 19,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 20,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 21,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 22,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 23,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 24,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 25,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 26,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 27,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 28,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 1,
+        "legacy_page_id": "311e0e97-cc92-4660-aeaf-5f91afda0487",
+        "source_question_ordinal_on_page": 29,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 3,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 4,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 5,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 6,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 7,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 8,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 9,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 10,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 11,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 12,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 13,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 14,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 15,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 16,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 17,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 18,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 2,
+        "legacy_page_id": "70d572ab-2fe2-491a-8ac6-11285f2b4163",
+        "source_question_ordinal_on_page": 19,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 3,
+        "legacy_page_id": "d16530b8-1aa7-4be8-8bd4-61d7f8949148",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 3,
+        "legacy_page_id": "d16530b8-1aa7-4be8-8bd4-61d7f8949148",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-01",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 3,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 4,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 5,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 6,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 7,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 8,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 9,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 10,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 11,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 12,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 13,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 14,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 15,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 16,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 17,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 18,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 19,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 20,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 21,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 22,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 23,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 24,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 25,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 26,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 27,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 28,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 5,
+        "legacy_page_id": "9fa02ea1-1040-4a85-9dc5-e6d88577cc5c",
+        "source_question_ordinal_on_page": 29,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 3,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 4,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 5,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 6,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 7,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 8,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 9,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 10,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 11,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 12,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 13,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 14,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 15,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 16,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 17,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 18,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 6,
+        "legacy_page_id": "12c9f800-dc11-4869-95ad-8981fb220777",
+        "source_question_ordinal_on_page": 19,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 7,
+        "legacy_page_id": "41876e5e-a6ec-4fb1-aae1-820d979b41eb",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 7,
+        "legacy_page_id": "41876e5e-a6ec-4fb1-aae1-820d979b41eb",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-02",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 3,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 4,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 5,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 6,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 7,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 8,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 9,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 10,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 11,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 12,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 13,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 14,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 15,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 16,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 17,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 18,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 19,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 20,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 21,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 22,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 23,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 24,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 25,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 26,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 27,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 9,
+        "legacy_page_id": "1c305492-34b6-47a5-ae88-394baf152bfb",
+        "source_question_ordinal_on_page": 28,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 3,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 4,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 5,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 6,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 7,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 8,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 9,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 10,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 11,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 12,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 13,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 14,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 15,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 16,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 17,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 18,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 10,
+        "legacy_page_id": "4fcf6357-a062-4822-945f-c25529cce4b5",
+        "source_question_ordinal_on_page": 19,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 11,
+        "legacy_page_id": "d23b8580-8046-4ea0-9722-26e47c3b136c",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 11,
+        "legacy_page_id": "d23b8580-8046-4ea0-9722-26e47c3b136c",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 11,
+        "legacy_page_id": "d23b8580-8046-4ea0-9722-26e47c3b136c",
+        "source_question_ordinal_on_page": 3,
+        "individual_exam_model_id": "physics-1446-exam-03",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 3,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 4,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 5,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 6,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 7,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 8,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 9,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 10,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 11,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 12,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 13,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 14,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 15,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 16,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 17,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 18,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 19,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 20,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 21,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 22,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 23,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 24,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 25,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 26,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 27,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 28,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 13,
+        "legacy_page_id": "236bc4d5-1115-4d7d-8d4e-74808e4fac98",
+        "source_question_ordinal_on_page": 29,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 3,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 4,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 5,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 6,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 7,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 8,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 9,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 10,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 11,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 12,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 13,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 14,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 15,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 16,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 17,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 18,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 14,
+        "legacy_page_id": "b561bda7-a2ed-4d77-814d-81463b5eb35d",
+        "source_question_ordinal_on_page": 19,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 15,
+        "legacy_page_id": "22426647-2bfd-4153-877e-08b0ee3d6dca",
+        "source_question_ordinal_on_page": 1,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      },
+      {
+        "source_page_number": 15,
+        "legacy_page_id": "22426647-2bfd-4153-877e-08b0ee3d6dca",
+        "source_question_ordinal_on_page": 2,
+        "individual_exam_model_id": "physics-1446-exam-04",
+        "mapping_status": "structural_page_membership_verified",
+        "semantic_correctness": "NOT VERIFIED"
+      }
+    ]
+  },
+  "evidence": {
+    "technical_report": "content-staging/reconstruction/technical/0b28dc73-7e43-45f1-99c8-14825dcf3ded.json",
+    "discovery_report": "content-staging/reconstruction/exams/source-groups/0b28dc73-7e43-45f1-99c8-14825dcf3ded-discovery.json",
+    "visual_review": "all 104 pages reviewed in contact sheets 001-012 through 097-104",
+    "visual_discovery_workflow_run": 34904572614,
+    "visual_discovery_artifact_id": 10372551381,
+    "storage_identity_used_as_final_boundary": false,
+    "raw_mutations": 0
+  },
+  "status": "boundary_verified_legacy_questions_structurally_linked_answer_keys_not_verified"
+}

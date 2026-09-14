@@ -724,3 +724,19 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `0b28dc73-7e43-45f1-99c8-14825dcf3ded` — `الفيزياء نماذج وزاريه 1446`.
 <!-- PHYSICS_EXAM_1445_CHECKPOINT_END -->
+
+<!-- PHYSICS_EXAM_1446_CHECKPOINT_START -->
+## Reconstruction checkpoint — Physics Ministry Exams 1446
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Source `0b28dc73-7e43-45f1-99c8-14825dcf3ded` — `الفيزياء نماذج وزاريه 1446` completed from source-local evidence.
+- Technical verification: **104/104** images verified; sequence **1..104** contiguous; duplicate SHA groups **6**, preserved without merge or RAW mutation.
+- Full visual review resolves **26** verified source occurrences; each has three question pages followed by one correction/result-sheet candidate; all **104** source pages finalized exactly once.
+- Partial-page SHA duplication does not collapse occurrences because paired fourth-page correction/result sheets differ; official model codes remain `NOT VERIFIED`.
+- Correction/result candidates: **26**; verified standalone official Answer Keys: **0 / NOT VERIFIED**.
+- Source questions: **200/200 structurally exam-linked** by verified page membership; semantic correctness remains `NOT VERIFIED`.
+- Progress: Sources **34/58**; Educational **16/26**; Exam Groups **18/32**; Individual Exam Models **325**; Exam Pages **1108/2,286**; source images technical **2855/5,273**.
+- Global questions: Lesson-linked **13135**; Exam-linked **1665**; Review-required **1229**; Unclassified **9726**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `bbc5c2e7-9b96-4502-a8b0-6a14d2f8782a` — `الفيزياء نماذج وزاريه 1447`.
+<!-- PHYSICS_EXAM_1446_CHECKPOINT_END -->
