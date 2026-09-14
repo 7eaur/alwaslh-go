@@ -203,3 +203,19 @@ The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_
 - Source images technical **1,239/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `f25891fe-ea52-481b-baf2-ff4764c79bde — الاسلاميه ثانوي نماذج وزاريه 1447`.
 <!-- FAITH_BOOK_CHECKPOINT_END -->
+
+<!-- ISLAMIC_EXAM_1447_CHECKPOINT_START -->
+## Reconstruction checkpoint — Islamic Ministry Exams 1447
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Source `f25891fe-ea52-481b-baf2-ff4764c79bde` — `الاسلاميه ثانوي نماذج وزاريه 1447` completed from source-local evidence.
+- Technical verification: **93/93** images exist, readable, byte-size/SHA-256/MIME match; sequence **1..93** contiguous.
+- Exact-SHA duplicate groups: **6**, preserved as provenance/evidence and not silently merged.
+- Complete visual review resolves **31** verified source occurrences / Individual Exam Models; every occurrence is two question pages followed by one correction/result page.
+- Finalized Exam Pages: **93**; review-required pages: **0**; correction-sheet candidates: **31**; verified standalone Answer Keys: **0 / NOT VERIFIED**; official model-code transcription remains **NOT VERIFIED**.
+- Source legacy questions: **0**; no questions were fabricated or mapped.
+- Progress: Sources **17/58**; Educational **7/26**; Exam Groups **10/32**; Individual Exam Models **166**; Exam Pages **548/2,286**; source images technical **1332/5,273**.
+- Global questions: Lesson-linked **3350**; Exam-linked **967**; Review-required **351**; Unclassified **21087**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `cae82d8f-64f9-4d2a-984f-6e6fd19fac5c` — `الحديث والتهذيب الكتاب `.
+<!-- ISLAMIC_EXAM_1447_CHECKPOINT_END -->
