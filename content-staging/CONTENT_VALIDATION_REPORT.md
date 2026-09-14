@@ -131,3 +131,14 @@ Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson
 - Questions: **11/11** structurally linked by verified page membership; semantic correctness `NOT VERIFIED`.
 - RAW mutations: **0**.
 <!-- SCIENCE_BOOK_PART1_CHECKPOINT_END -->
+
+<!-- SCIENCE_BOOK_PART2_CHECKPOINT_START -->
+## Grade 9 Science Part 2 reconstruction validation
+
+- Technical verification: **145/145** files exist, readable, size/SHA/MIME match.
+- Exact reference identity: **145/145** RAW images equal the corresponding master images by SHA-256.
+- Exact retained reference range: source pages **8..152**; no retained identity failure.
+- Structure: **8 Units / 31 Lessons / 126 Lesson pages / 8 covers / 11 reviews**; every one of the 145 retained pages is classified exactly once.
+- Questions: **0** source questions; no fabricated question links.
+- RAW mutations: **0**.
+<!-- SCIENCE_BOOK_PART2_CHECKPOINT_END -->

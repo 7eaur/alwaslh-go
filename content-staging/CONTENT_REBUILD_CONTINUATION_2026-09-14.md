@@ -322,3 +322,9 @@ The earlier 1446 IN PROGRESS section is superseded by this evidence-backed check
 
 Continue with `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - الجزء الثاني`; do not rerun Science Part 1 absent new drift evidence. Current verified global progress: **8/58 sources; 2/26 educational; 6/32 exam groups; 694/5,273 technical images; 2,236 lesson-linked; 733 exam-linked; 351 review-required; 22,435 unclassified**.
 <!-- SCIENCE_BOOK_PART1_CHECKPOINT_END -->
+
+<!-- SCIENCE_BOOK_PART2_CHECKPOINT_START -->
+## Continuation checkpoint — Science Part 2 complete
+
+Continue with `8489a487-91d9-47fb-80b8-35d0e7a074a4 — الانجليزي نماذج وزارية 1445`; do not rerun Science Part 2 absent new drift evidence. Current verified global progress: **9/58 sources; 3/26 educational; 6/32 exam groups; 839/5,273 technical images; 2,236 lesson-linked; 733 exam-linked; 351 review-required; 22,435 unclassified**.
+<!-- SCIENCE_BOOK_PART2_CHECKPOINT_END -->

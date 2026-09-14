@@ -292,3 +292,14 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - Exact next operation: technically verify all 145 images; establish exact identity against `master/تاسع علوم/علوم_تاسع_الجزء_الثاني`; reconstruct its own units/lessons/reviews; assert invariant; checkpoint.
 - RAW/unrelated/import/publication mutations remain **0/0/0/0**.
 <!-- SCIENCE_BOOK_PART1_CHECKPOINT_END -->
+
+<!-- SCIENCE_BOOK_PART2_CHECKPOINT_START -->
+## Active reconstruction handoff — Science Part 2 complete
+
+- Last completed: `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - الجزء الثاني`.
+- Verified: **145/145** technical + exact master SHA identity; **8 Units / 31 Lessons / 126 Lesson pages / 8 covers / 11 reviews**.
+- Questions: source contains **0 legacy questions**; no fabricated links; semantic question review `NOT APPLICABLE`.
+- Current/next: `8489a487-91d9-47fb-80b8-35d0e7a074a4 — الانجليزي نماذج وزارية 1445`.
+- Exact next operation: read the English 1445 live manifest/pages; verify all images; scan duplicates/sequence; derive exam model/correction boundaries only from that source's evidence; map questions; assert invariant; checkpoint.
+- RAW/unrelated/import/publication mutations remain **0/0/0/0**.
+<!-- SCIENCE_BOOK_PART2_CHECKPOINT_END -->

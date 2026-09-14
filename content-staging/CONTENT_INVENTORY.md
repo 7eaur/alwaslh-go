@@ -190,3 +190,12 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - Reconstructed structure: **8 Units, 22 Lessons, 138 Lesson pages, 8 Unit covers, 15 Unit reviews**.
 - **11/11** source questions are structurally linked to the verified `المحلول ومكوناته` lesson; semantic correctness remains `NOT VERIFIED`.
 <!-- SCIENCE_BOOK_PART1_CHECKPOINT_END -->
+
+<!-- SCIENCE_BOOK_PART2_CHECKPOINT_START -->
+## Verified reconstruction checkpoint — Grade 9 Science Part 2
+
+- Legacy source `81e99fe6-1421-462b-9562-1c0c5053a809` is exactly identified as `master/تاسع علوم/علوم_تاسع_الجزء_الثاني` for all **145 retained images** by SHA-256.
+- Retained stored pages **7..151** correspond to exact master source pages **8..152**; master-only pages outside the retained slice remain reference-only and were not fabricated.
+- Reconstructed structure: **8 Units, 31 Lessons, 126 Lesson pages, 8 Unit covers, 11 Unit reviews**.
+- Source has **0** legacy questions in the verified manifest/pages dataset.
+<!-- SCIENCE_BOOK_PART2_CHECKPOINT_END -->

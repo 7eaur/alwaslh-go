@@ -342,3 +342,20 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - Last completed: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`.
 - Next: `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - الجزء الثاني`.
 <!-- SCIENCE_BOOK_PART1_CHECKPOINT_END -->
+
+<!-- SCIENCE_BOOK_PART2_CHECKPOINT_START -->
+## Reconstruction checkpoint — Grade 9 Science Part 2
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Sources processed: **9/58**; Educational: **3/26**; Exam Source Groups: **6/32**.
+- Books / Units / Lessons / Lesson pages: **3 / 25 / 110 / 413**.
+- Science Part 2: **145/145** technically verified images and **145/145** exact RAW/master SHA identities; retained stored pages **7..151**, exact master source pages **8..152**.
+- Reconstructed source: **1 Book, 8 Units, 31 Lessons, 126 Lesson pages, 8 Unit-cover pages, 11 Unit-review pages, 0 appendices**.
+- Questions: source manifest/pages contain **0** legacy questions; no question records fabricated.
+- Global questions: Lesson-linked **2,236**; Exam-linked **733**; Review-required **351**; Unclassified **22,435** = **25,755**.
+- Individual Exam Models **99**; Exam Pages **347/2,286**; Verified Answer Keys **0**.
+- Source images technical **839/5,273**; WebP **0/0/0**; Duplicate groups **0/99**.
+- RAW / unrelated / imports / publications: **0/0/0/0**.
+- Last completed: `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - الجزء الثاني`.
+- Next: `8489a487-91d9-47fb-80b8-35d0e7a074a4 — الانجليزي نماذج وزارية 1445`.
+<!-- SCIENCE_BOOK_PART2_CHECKPOINT_END -->
