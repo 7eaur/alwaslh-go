@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "phase": "CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY",
+  "source_id": "b6ce737e-26d4-4219-a607-27bfb7d2f518",
+  "source_name": "كتاب الإسلامية - الجزء الأول",
+  "legacy_class": {
+    "id": "99a42878-2d3f-473c-936c-8d9999afdcf4",
+    "name": "تاسع الاسلامية"
+  },
+  "evidence_head": "35faa81c9ce81f2fd03e44650465c75a077c7822",
+  "source_files": {
+    "manifest": "content-staging/raw/legacy-supabase/subjects/b6ce737e-26d4-4219-a607-27bfb7d2f518/manifest.json",
+    "pages": "content-staging/raw/legacy-supabase/subjects/b6ce737e-26d4-4219-a607-27bfb7d2f518/pages.json",
+    "subject": "content-staging/raw/legacy-supabase/subjects/b6ce737e-26d4-4219-a607-27bfb7d2f518/subject.json"
+  },
+  "verified_facts": {
+    "manifest_status": "empty",
+    "manifest_sha256": "045e554cca1f61c897540696b12028a156603ba964542ffed0e7456556cddd7f",
+    "pages_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "pages_json_is_empty_array": true,
+    "pages": 0,
+    "image_references": 0,
+    "images_downloaded": 0,
+    "image_download_failures": 0,
+    "legacy_questions": 0,
+    "anomaly_arrays_empty": true,
+    "subject_identity_matches_manifest": true
+  },
+  "technical_verification": {
+    "status": "NOT APPLICABLE",
+    "reason": "The retained source has zero image references; there are no image bytes to verify."
+  },
+  "reconstruction": {
+    "status": "NOT VERIFIED",
+    "book": "NOT VERIFIED",
+    "units": "NOT VERIFIED",
+    "lessons": "NOT VERIFIED",
+    "page_boundaries": "NOT VERIFIED",
+    "question_mappings": "NOT APPLICABLE — zero legacy questions",
+    "reason": "The retained legacy payload contains no pages or content evidence. The source label alone is insufficient to reconstruct semantic structure."
+  },
+  "schema_policy_review": {
+    "master_entry_current_classification": "educational_source_candidate",
+    "canonical_verified_empty_disposition_found": false,
+    "decision": "FAIL_CLOSED_KEEP_ACTIVE",
+    "reason": "The live MASTER/status schema contains no established canonical verified-empty source disposition, and the operational baton explicitly forbids inventing one."
+  },
+  "counters": {
+    "processed_source_increment": 0,
+    "educational_source_increment": 0,
+    "book_increment": 0,
+    "unit_increment": 0,
+    "lesson_increment": 0,
+    "lesson_page_increment": 0,
+    "verified_image_increment": 0,
+    "question_classification_increment": 0
+  },
+  "invariants": {
+    "raw_mutations": 0,
+    "unrelated_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  },
+  "exact_next_operation": "Define or discover an evidence-backed canonical empty-source disposition in the repository's reconstruction/MASTER status contract. Until then keep this source ACTIVE and do not advance or increment canonical reconstruction counters."
+}
