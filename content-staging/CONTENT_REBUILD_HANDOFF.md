@@ -195,3 +195,18 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - Unresolved corpus-wide: remaining 25 educational candidates; all 32 Exam Source Groups; Individual Exam Models; Answer Keys; remaining technical image scan; WebP derivative decisions; 99 duplicate fingerprint groups; remaining question classifications.
 - RAW mutations / unrelated mutations / imports / publications remain **0 / 0 / 0 / 0**.
 <!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1445_CHECKPOINT_START -->
+## Active reconstruction handoff — Chemistry Exams 1445 complete
+
+- Repository: `7eaur/alwaslh-go`
+- Branch: `content/corpus-inventory-20260914`
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Last completed source: `e101d097-7a14-44e5-b242-cdeb9a312b77` — Chemistry Ministry Exams 1445.
+- Result: **60 technically verified pages; 20 Individual Exam Models; 3 pages/model; 20 correction-sheet candidates; 0 verified Answer Keys**.
+- Full source-group visual review completed; model boundaries are verified. Official model codes/titles/term and official Answer Key status remain `NOT VERIFIED` where evidence is insufficient.
+- Completed corpus so far: **2/58 sources**, including **1/26 educational sources** and **1/32 Exam Source Groups**.
+- Current/next source: `c09ce569-ea42-4f0b-997f-95b029a7e6ea` — `الكيمياء نماذج وزاريه 1446`.
+- Exact next operation: technical scan all 60 pages, detect storage/metadata candidates, export full visual contact sheets, resolve Individual Exam Model boundaries and correction/answer-key relations, then checkpoint and continue.
+- RAW mutations / unrelated mutations / imports / publications: **0 / 0 / 0 / 0**.
+<!-- CHEMISTRY_EXAM_1445_CHECKPOINT_END -->

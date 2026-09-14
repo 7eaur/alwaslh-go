@@ -218,3 +218,26 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - Last completed source: `f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4` — `الكيمياء الكتاب المدرسي`.
 - Next source: `e101d097-7a14-44e5-b242-cdeb9a312b77` — `الكيمياء نماذج وزاريه 1445`.
 <!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1445_CHECKPOINT_START -->
+## Reconstruction checkpoint — Chemistry Ministry Exams 1445
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Sources processed: **2/58**
+- Educational sources processed: **1/26**
+- Verified Books / Units / Lessons / Lesson pages: **1 / 9 / 57 / 149**
+- Exam Source Groups processed: **1/32**
+- Individual Exam Models: **20**
+- Exam pages processed: **60/2,286**
+- Verified Answer Keys: **0**
+- Correction/electronic-answer sheet candidates: **20**; official Answer Key status remains `NOT VERIFIED`.
+- Source images technically verified: **238/5,273** (178 Chemistry textbook + 60 Chemistry exams 1445).
+- Chemistry 1445 source technical result: **60/60** exist, readable, byte-size match, SHA-256 match, MIME match; page sequence 1..60 contiguous; within-source duplicate SHA groups **0**.
+- WebP derivatives generated / accepted / rejected: **0 / 0 / 0**.
+- Legacy questions baseline: **25,755**.
+- Structurally lesson-linked: **2,225**; review-required: **351**; exam-linked to Individual Exam Models: **0**; remaining unclassified: **23,179**.
+- Duplicate fingerprint groups classified: **0/99**.
+- RAW mutations / unrelated mutations / new imports / new publications: **0 / 0 / 0 / 0**.
+- Last completed source: `e101d097-7a14-44e5-b242-cdeb9a312b77` — `الكيمياء نماذج وزاريه 1445`.
+- Next source: `c09ce569-ea42-4f0b-997f-95b029a7e6ea` — `الكيمياء نماذج وزاريه 1446`.
+<!-- CHEMISTRY_EXAM_1445_CHECKPOINT_END -->

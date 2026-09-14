@@ -36,3 +36,17 @@ No import is permitted from this candidate catalog. Legacy page numbering anomal
 
 Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson meaning for unit-review questions, WebP derivative optimization, and all unprocessed sources/exam-model boundaries.
 <!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1445_CHECKPOINT_START -->
+## Chemistry 1445 exam boundary validation
+
+`e101d097-7a14-44e5-b242-cdeb9a312b77` passed technical and boundary-discovery gates:
+
+- **60/60** images technically verified (exist/readable/size/SHA/MIME), **0 errors**, **0 within-source duplicate SHA groups**.
+- Exact contiguous page sequence **1..60**.
+- Every page was visually inspected through five complete contact sheets: 001–012, 013–024, 025–036, 037–048, 049–060.
+- A consistent repeated structure was verified across the entire source: two exam-question pages followed by a correction/electronic-answer sheet, yielding **20 non-overlapping three-page Individual Exam Models**.
+- The single storage `/lesson/` identity is explicitly not used as the model boundary.
+- The third page of each model is not promoted to official `Answer Key`; all **20** remain correction-sheet candidates and Answer Key status is `NOT VERIFIED`.
+- RAW mutations: **0**.
+<!-- CHEMISTRY_EXAM_1445_CHECKPOINT_END -->

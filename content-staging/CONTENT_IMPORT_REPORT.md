@@ -21,3 +21,13 @@ Chemistry textbook reconstruction is verified, but the corpus is **not import-re
 - RAW mutations: **0**.
 - PostgreSQL import contract review remains deferred until corpus Reconstruction and Exam Boundary Discovery are complete, per the execution gate.
 <!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1445_CHECKPOINT_START -->
+## Chemistry 1445 exam checkpoint — no import performed
+
+- Reconstruction artifact: `content-staging/reconstruction/exams/source-groups/e101d097-7a14-44e5-b242-cdeb9a312b77.json`.
+- Technical artifact: `content-staging/reconstruction/technical/e101d097-7a14-44e5-b242-cdeb9a312b77.json`.
+- Discovered: **20 Individual Exam Models / 60 exam pages / 20 correction-sheet candidates / 0 verified Answer Keys**.
+- New imports / publications / production mutations / RAW mutations: **0 / 0 / 0 / 0**.
+- Import Readiness is still gated on completion of corpus reconstruction and remaining Exam Source Groups.
+<!-- CHEMISTRY_EXAM_1445_CHECKPOINT_END -->

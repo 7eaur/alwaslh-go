@@ -1,0 +1,965 @@
+{
+  "academic_year_gregorian": "2023-2024",
+  "academic_year_hijri": "1445",
+  "class_id": "075b135c-8159-4727-a365-f7396690fb3f",
+  "class_name": "الكيمياء ثالث ثانوي",
+  "classification": "exam_source_group",
+  "correction_sheet_candidate_count": 20,
+  "duplicate_sha256_groups_within_source": 0,
+  "evidence": {
+    "discovery_report": "content-staging/reconstruction/exams/source-groups/e101d097-7a14-44e5-b242-cdeb9a312b77-discovery.json",
+    "raw_mutations": 0,
+    "storage_identity_used_as_final_boundary": false,
+    "storage_lesson_identity_runs": 1,
+    "technical_report": "content-staging/reconstruction/technical/e101d097-7a14-44e5-b242-cdeb9a312b77.json",
+    "visual_review": "all pages reviewed in contact sheets 001-012, 013-024, 025-036, 037-048, 049-060"
+  },
+  "exam_page_count": 60,
+  "individual_exam_model_count": 20,
+  "models": [
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 3,
+      "exam_type": "وزاري",
+      "first_page": 1,
+      "id": "chemistry-1445-exam-01",
+      "internal_ordinal": 1,
+      "last_page": 3,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa",
+        "58c3b1c4-736e-4ccf-9cc9-96f53de758d4",
+        "56cf3434-eff2-4bee-aaa1-b151d53fbdd6"
+      ],
+      "ordered_page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "page_count": 3,
+      "question_pages": [
+        1,
+        2
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00001-26d7e1b2-7f66-4281-a6d3-1ad697b7b4aa-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00002-58c3b1c4-736e-4ccf-9cc9-96f53de758d4-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00003-56cf3434-eff2-4bee-aaa1-b151d53fbdd6-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 6,
+      "exam_type": "وزاري",
+      "first_page": 4,
+      "id": "chemistry-1445-exam-02",
+      "internal_ordinal": 2,
+      "last_page": 6,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "ff9a8407-cd79-4778-845b-91337e824cb3",
+        "5527c113-5692-42d2-84ec-fd45442bfd09",
+        "fc32a18f-7b56-4dbb-af63-3c965c283a19"
+      ],
+      "ordered_page_numbers": [
+        4,
+        5,
+        6
+      ],
+      "page_count": 3,
+      "question_pages": [
+        4,
+        5
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00004-ff9a8407-cd79-4778-845b-91337e824cb3-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00005-5527c113-5692-42d2-84ec-fd45442bfd09-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00006-fc32a18f-7b56-4dbb-af63-3c965c283a19-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 9,
+      "exam_type": "وزاري",
+      "first_page": 7,
+      "id": "chemistry-1445-exam-03",
+      "internal_ordinal": 3,
+      "last_page": 9,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "d2f1c54a-8fcc-47b7-b5c7-f72350f2f80b",
+        "e3f580cb-f10f-4f77-afd0-8c0da41aa4aa",
+        "d98a0b8d-428f-48e1-a1f2-366ff49d30de"
+      ],
+      "ordered_page_numbers": [
+        7,
+        8,
+        9
+      ],
+      "page_count": 3,
+      "question_pages": [
+        7,
+        8
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00007-d2f1c54a-8fcc-47b7-b5c7-f72350f2f80b-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00008-e3f580cb-f10f-4f77-afd0-8c0da41aa4aa-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00009-d98a0b8d-428f-48e1-a1f2-366ff49d30de-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 12,
+      "exam_type": "وزاري",
+      "first_page": 10,
+      "id": "chemistry-1445-exam-04",
+      "internal_ordinal": 4,
+      "last_page": 12,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "388c60fc-e526-48ec-8e78-e063fc719703",
+        "74c4ae40-6479-429d-bc70-57c25888976f",
+        "27704ae9-7834-4a11-ba3b-4c508edb4d57"
+      ],
+      "ordered_page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "page_count": 3,
+      "question_pages": [
+        10,
+        11
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00010-388c60fc-e526-48ec-8e78-e063fc719703-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00011-74c4ae40-6479-429d-bc70-57c25888976f-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00012-27704ae9-7834-4a11-ba3b-4c508edb4d57-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 15,
+      "exam_type": "وزاري",
+      "first_page": 13,
+      "id": "chemistry-1445-exam-05",
+      "internal_ordinal": 5,
+      "last_page": 15,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "d22229b8-004a-4a50-9a76-73585d41391b",
+        "8ce81175-9772-4d6b-b20b-53758624e19d",
+        "03146d84-674b-458c-a55a-6c8e4b93d419"
+      ],
+      "ordered_page_numbers": [
+        13,
+        14,
+        15
+      ],
+      "page_count": 3,
+      "question_pages": [
+        13,
+        14
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00013-d22229b8-004a-4a50-9a76-73585d41391b-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00014-8ce81175-9772-4d6b-b20b-53758624e19d-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00015-03146d84-674b-458c-a55a-6c8e4b93d419-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 18,
+      "exam_type": "وزاري",
+      "first_page": 16,
+      "id": "chemistry-1445-exam-06",
+      "internal_ordinal": 6,
+      "last_page": 18,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "e55f6648-b430-4e9e-9efe-291c80f7a974",
+        "9b8e5c8b-4cec-46ee-ac3c-138540e22d77",
+        "998666f5-42d2-4fec-8b9c-c697d9bc2640"
+      ],
+      "ordered_page_numbers": [
+        16,
+        17,
+        18
+      ],
+      "page_count": 3,
+      "question_pages": [
+        16,
+        17
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00016-e55f6648-b430-4e9e-9efe-291c80f7a974-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00017-9b8e5c8b-4cec-46ee-ac3c-138540e22d77-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00018-998666f5-42d2-4fec-8b9c-c697d9bc2640-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 21,
+      "exam_type": "وزاري",
+      "first_page": 19,
+      "id": "chemistry-1445-exam-07",
+      "internal_ordinal": 7,
+      "last_page": 21,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "2c65dfb0-1075-4761-a742-5d00cf80bfb6",
+        "e5c2aced-f0ef-4ba4-977b-c10c0eeed325",
+        "8f156165-399f-46ef-885f-6de10d053137"
+      ],
+      "ordered_page_numbers": [
+        19,
+        20,
+        21
+      ],
+      "page_count": 3,
+      "question_pages": [
+        19,
+        20
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00019-2c65dfb0-1075-4761-a742-5d00cf80bfb6-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00020-e5c2aced-f0ef-4ba4-977b-c10c0eeed325-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00021-8f156165-399f-46ef-885f-6de10d053137-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 24,
+      "exam_type": "وزاري",
+      "first_page": 22,
+      "id": "chemistry-1445-exam-08",
+      "internal_ordinal": 8,
+      "last_page": 24,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "2ef215af-cc80-4cf4-98f7-cbdc6ddde640",
+        "146a0b53-6262-494e-8b38-794245ab45c6",
+        "e3dea711-13c2-4821-aace-7cf824095441"
+      ],
+      "ordered_page_numbers": [
+        22,
+        23,
+        24
+      ],
+      "page_count": 3,
+      "question_pages": [
+        22,
+        23
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00022-2ef215af-cc80-4cf4-98f7-cbdc6ddde640-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00023-146a0b53-6262-494e-8b38-794245ab45c6-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00024-e3dea711-13c2-4821-aace-7cf824095441-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 27,
+      "exam_type": "وزاري",
+      "first_page": 25,
+      "id": "chemistry-1445-exam-09",
+      "internal_ordinal": 9,
+      "last_page": 27,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "fb8ad446-bce2-429f-9ee3-1ed26ddcde86",
+        "d33019b7-5728-4559-a86e-ce3e4cdad45b",
+        "71e3061b-fc39-4965-953d-18ea7e2e9eea"
+      ],
+      "ordered_page_numbers": [
+        25,
+        26,
+        27
+      ],
+      "page_count": 3,
+      "question_pages": [
+        25,
+        26
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00025-fb8ad446-bce2-429f-9ee3-1ed26ddcde86-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00026-d33019b7-5728-4559-a86e-ce3e4cdad45b-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00027-71e3061b-fc39-4965-953d-18ea7e2e9eea-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 30,
+      "exam_type": "وزاري",
+      "first_page": 28,
+      "id": "chemistry-1445-exam-10",
+      "internal_ordinal": 10,
+      "last_page": 30,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "f65cea56-b5cb-4a3f-838a-e1f8b0bb0b33",
+        "08a278c8-7af9-4377-b319-3ea7590eeb9c",
+        "0a8ac619-1e7e-4016-a126-07dea3685b07"
+      ],
+      "ordered_page_numbers": [
+        28,
+        29,
+        30
+      ],
+      "page_count": 3,
+      "question_pages": [
+        28,
+        29
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00028-f65cea56-b5cb-4a3f-838a-e1f8b0bb0b33-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00029-08a278c8-7af9-4377-b319-3ea7590eeb9c-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00030-0a8ac619-1e7e-4016-a126-07dea3685b07-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 33,
+      "exam_type": "وزاري",
+      "first_page": 31,
+      "id": "chemistry-1445-exam-11",
+      "internal_ordinal": 11,
+      "last_page": 33,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "309d5c18-5ed8-4419-ad79-e603b2df331f",
+        "27c0ffe0-9154-4bf4-bd8e-cf6e25e61175",
+        "a7bfaada-abd3-481e-bfbd-1e663b48ac1d"
+      ],
+      "ordered_page_numbers": [
+        31,
+        32,
+        33
+      ],
+      "page_count": 3,
+      "question_pages": [
+        31,
+        32
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00031-309d5c18-5ed8-4419-ad79-e603b2df331f-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00032-27c0ffe0-9154-4bf4-bd8e-cf6e25e61175-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00033-a7bfaada-abd3-481e-bfbd-1e663b48ac1d-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 36,
+      "exam_type": "وزاري",
+      "first_page": 34,
+      "id": "chemistry-1445-exam-12",
+      "internal_ordinal": 12,
+      "last_page": 36,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "b0c89d81-1dd4-4127-affb-4b114fe6766e",
+        "4006d155-c24e-439a-81f4-d7cb8bc6dfdf",
+        "60bf5661-227d-4971-bf1b-f88aab2a2c42"
+      ],
+      "ordered_page_numbers": [
+        34,
+        35,
+        36
+      ],
+      "page_count": 3,
+      "question_pages": [
+        34,
+        35
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00034-b0c89d81-1dd4-4127-affb-4b114fe6766e-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00035-4006d155-c24e-439a-81f4-d7cb8bc6dfdf-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00036-60bf5661-227d-4971-bf1b-f88aab2a2c42-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 39,
+      "exam_type": "وزاري",
+      "first_page": 37,
+      "id": "chemistry-1445-exam-13",
+      "internal_ordinal": 13,
+      "last_page": 39,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "316b2fdd-eac3-427e-971d-cd3ceadf650c",
+        "561893dd-4b3e-4ac0-9bea-e52ae730e960",
+        "1cb2d0a4-a1d0-4a20-b059-913d339edc92"
+      ],
+      "ordered_page_numbers": [
+        37,
+        38,
+        39
+      ],
+      "page_count": 3,
+      "question_pages": [
+        37,
+        38
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00037-316b2fdd-eac3-427e-971d-cd3ceadf650c-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00038-561893dd-4b3e-4ac0-9bea-e52ae730e960-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00039-1cb2d0a4-a1d0-4a20-b059-913d339edc92-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 42,
+      "exam_type": "وزاري",
+      "first_page": 40,
+      "id": "chemistry-1445-exam-14",
+      "internal_ordinal": 14,
+      "last_page": 42,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "35ff4cea-ba19-4410-a40e-7c7348376e9d",
+        "afcf8875-1fea-4f2d-962e-b27470438fc3",
+        "4e0cea9a-0078-40ce-91a6-d483e6353e91"
+      ],
+      "ordered_page_numbers": [
+        40,
+        41,
+        42
+      ],
+      "page_count": 3,
+      "question_pages": [
+        40,
+        41
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00040-35ff4cea-ba19-4410-a40e-7c7348376e9d-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00041-afcf8875-1fea-4f2d-962e-b27470438fc3-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00042-4e0cea9a-0078-40ce-91a6-d483e6353e91-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 45,
+      "exam_type": "وزاري",
+      "first_page": 43,
+      "id": "chemistry-1445-exam-15",
+      "internal_ordinal": 15,
+      "last_page": 45,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "64b7c9ef-40f9-4edb-8b24-cc44ffbd99f5",
+        "92b4ab48-c94b-4307-b824-cd32ad3906a6",
+        "d14293d7-923f-4723-8b5a-27fae715ce88"
+      ],
+      "ordered_page_numbers": [
+        43,
+        44,
+        45
+      ],
+      "page_count": 3,
+      "question_pages": [
+        43,
+        44
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00043-64b7c9ef-40f9-4edb-8b24-cc44ffbd99f5-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00044-92b4ab48-c94b-4307-b824-cd32ad3906a6-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00045-d14293d7-923f-4723-8b5a-27fae715ce88-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 48,
+      "exam_type": "وزاري",
+      "first_page": 46,
+      "id": "chemistry-1445-exam-16",
+      "internal_ordinal": 16,
+      "last_page": 48,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "06a3b571-e584-4f6f-98b0-cdd01d791423",
+        "e5dc4f00-e1d2-4e87-a20f-f9756431d64d",
+        "7ca9cb04-7bed-417a-bc6e-1974277ca26e"
+      ],
+      "ordered_page_numbers": [
+        46,
+        47,
+        48
+      ],
+      "page_count": 3,
+      "question_pages": [
+        46,
+        47
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00046-06a3b571-e584-4f6f-98b0-cdd01d791423-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00047-e5dc4f00-e1d2-4e87-a20f-f9756431d64d-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00048-7ca9cb04-7bed-417a-bc6e-1974277ca26e-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 51,
+      "exam_type": "وزاري",
+      "first_page": 49,
+      "id": "chemistry-1445-exam-17",
+      "internal_ordinal": 17,
+      "last_page": 51,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "9347d93f-a58f-450f-8424-dff4ce8160d5",
+        "6367d518-1086-4509-ad8f-080d2a554759",
+        "2456e36e-2277-4674-bf45-700aa25fa327"
+      ],
+      "ordered_page_numbers": [
+        49,
+        50,
+        51
+      ],
+      "page_count": 3,
+      "question_pages": [
+        49,
+        50
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00049-9347d93f-a58f-450f-8424-dff4ce8160d5-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00050-6367d518-1086-4509-ad8f-080d2a554759-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00051-2456e36e-2277-4674-bf45-700aa25fa327-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 54,
+      "exam_type": "وزاري",
+      "first_page": 52,
+      "id": "chemistry-1445-exam-18",
+      "internal_ordinal": 18,
+      "last_page": 54,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "90f2e437-4140-47f8-a689-e193f57c5ae7",
+        "6af889cc-67bf-41b5-bc34-11c825851b48",
+        "55f10a7d-e264-4048-904e-83dfc906f625"
+      ],
+      "ordered_page_numbers": [
+        52,
+        53,
+        54
+      ],
+      "page_count": 3,
+      "question_pages": [
+        52,
+        53
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00052-90f2e437-4140-47f8-a689-e193f57c5ae7-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00053-6af889cc-67bf-41b5-bc34-11c825851b48-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00054-55f10a7d-e264-4048-904e-83dfc906f625-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 57,
+      "exam_type": "وزاري",
+      "first_page": 55,
+      "id": "chemistry-1445-exam-19",
+      "internal_ordinal": 19,
+      "last_page": 57,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "26084131-81f1-4073-ac08-a71752e899b0",
+        "36803dee-f19c-43a7-9c14-8b8e78e0842b",
+        "f6a20372-f1b1-4f62-8369-70c6faf2a163"
+      ],
+      "ordered_page_numbers": [
+        55,
+        56,
+        57
+      ],
+      "page_count": 3,
+      "question_pages": [
+        55,
+        56
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00055-26084131-81f1-4073-ac08-a71752e899b0-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00056-36803dee-f19c-43a7-9c14-8b8e78e0842b-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00057-f6a20372-f1b1-4f62-8369-70c6faf2a163-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    },
+    {
+      "academic_year_gregorian": "2023-2024",
+      "academic_year_hijri": "1445",
+      "answer_key": {
+        "reason": "The third page is visually a correction/electronic-answer sheet linked to the two preceding question pages, but available evidence does not explicitly establish it as an official answer key.",
+        "status": "NOT VERIFIED"
+      },
+      "associated_legacy_questions": 0,
+      "boundary_evidence": [
+        "All 60 pages visually inspected in five complete 12-page contact sheets.",
+        "The pattern repeats consistently: two question pages followed by one correction/electronic-answer sheet.",
+        "Each question pair restarts the exam-question sequence and the following correction sheet covers the corresponding response set.",
+        "The 60-page source therefore resolves into 20 contiguous three-page exam models."
+      ],
+      "boundary_status": "verified",
+      "correction_sheet_candidate_page": 60,
+      "exam_type": "وزاري",
+      "first_page": 58,
+      "id": "chemistry-1445-exam-20",
+      "internal_ordinal": 20,
+      "last_page": 60,
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "ordered_legacy_page_ids": [
+        "1d37b722-5a8c-447b-99b4-2b4f128f2d72",
+        "6e339737-2950-48bc-9889-78b5256b5410",
+        "72b46f0f-9473-4ae6-88c0-c88e436352a7"
+      ],
+      "ordered_page_numbers": [
+        58,
+        59,
+        60
+      ],
+      "page_count": 3,
+      "question_pages": [
+        58,
+        59
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00058-1d37b722-5a8c-447b-99b4-2b4f128f2d72-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00059-6e339737-2950-48bc-9889-78b5256b5410-image-00.jpg",
+        "raw/legacy-supabase/subjects/e101d097-7a14-44e5-b242-cdeb9a312b77/images/page-00060-72b46f0f-9473-4ae6-88c0-c88e436352a7-image-00.jpg"
+      ],
+      "review_status": "boundary_verified_answer_key_unverified",
+      "term": "NOT VERIFIED"
+    }
+  ],
+  "notes": [
+    "The legacy 60-page source group is not treated as one exam.",
+    "20 Individual Exam Models are verified by repeated visual page structure, three pages per model.",
+    "Third pages are retained as correction-sheet candidates; official Answer Key status remains NOT VERIFIED.",
+    "Official model numbers/titles and term remain NOT VERIFIED rather than inferred from source order.",
+    "No RAW file was modified and no import/publication was performed."
+  ],
+  "schema_version": 1,
+  "source_group_id": "e101d097-7a14-44e5-b242-cdeb9a312b77",
+  "source_group_name": "الكيمياء نماذج وزاريه 1445",
+  "source_pages": 60,
+  "source_questions": 0,
+  "status": "processed_boundary_verified_answer_keys_not_verified",
+  "subject": "الكيمياء",
+  "technical_verification": {
+    "byte_size_matches": 60,
+    "existing_files": 60,
+    "failures": 0,
+    "manifest_image_count": 60,
+    "mime_matches": 60,
+    "readable_images": 60,
+    "sha256_matches": 60
+  },
+  "verified_answer_key_count": 0
+}

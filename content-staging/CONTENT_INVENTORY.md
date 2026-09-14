@@ -95,3 +95,18 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - The 2,576 legacy Chemistry questions remain preserved. **2,225** are structurally attached to verified lesson-page groups; **351** are on unit covers/reviews and remain `review_required`. Semantic correctness remains `NOT VERIFIED`.
 - This checkpoint does not change the established corpus baseline of 58 legacy sources, 5,273 source images, 25,755 legacy questions, 32 Exam Source Groups, 2,286 exam-source pages, or 99 duplicate fingerprint groups.
 <!-- CHEMISTRY_RECONSTRUCTION_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1445_CHECKPOINT_START -->
+## Verified exam-source reconstruction — Chemistry 1445
+
+- Exam Source Group: `e101d097-7a14-44e5-b242-cdeb9a312b77` (`الكيمياء نماذج وزاريه 1445`).
+- RAW: **60 JPEG pages**, sequence **1..60**, no missing/duplicate page numbers.
+- Technical verification: **60/60** exist, readable, byte-size matched, SHA-256 matched, MIME matched; **0** within-source duplicate SHA groups.
+- Storage metadata alone exposes one `/lesson/` identity for all 60 pages and was therefore rejected as a final exam boundary signal.
+- Full visual review of all 60 pages establishes **20 Individual Exam Models**. Each model is a contiguous 3-page block: **2 question pages + 1 correction/electronic-answer sheet candidate**.
+- Verified exam pages: **60**.
+- Verified official Answer Keys: **0**. The 20 third pages are associated correction-sheet candidates, but `Answer Key = NOT VERIFIED` until explicit evidence proves official-key status.
+- Official model codes/titles and term: `NOT VERIFIED` rather than inferred from source order.
+- Associated legacy questions: **0**.
+- RAW mutations/imports/publications: **0/0/0**.
+<!-- CHEMISTRY_EXAM_1445_CHECKPOINT_END -->
