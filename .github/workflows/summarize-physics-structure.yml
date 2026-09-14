@@ -1,0 +1,79 @@
+name: Summarize Physics Structure Evidence
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/summarize-physics-structure.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: summarize-physics-structure
+  cancel-in-progress: false
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build compact exact-title-run evidence
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='4863bbf6-6cf3-4238-9407-75825724292a'
+          p=Path(f'content-staging/reconstruction/educational/{sid}-discovery.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          assert d['identity_status']=='VERIFIED_EXACT_SHA'
+          assert d['exact_sha_identity_count']==207
+          assert d['preferred_master_exact_sha_count']==207
+          labels=d['page_labels']
+          assert len(labels)==207 and all(x['label'] for x in labels)
+          runs=[]
+          for x in labels:
+              pg=x['page_number']; title=x['label']
+              if not runs or runs[-1]['title']!=title:
+                  runs.append({'title':title,'start_page':pg,'end_page':pg,'page_count':1})
+              else:
+                  runs[-1]['end_page']=pg; runs[-1]['page_count']+=1
+          covers=[r for r in runs if r['title'].startswith('غلاف الوحدة') or r['title'].startswith('الوحدة ')]
+          reviews=[r for r in runs if r['title'].startswith('تقويم الوحدة')]
+          other_special=[r for r in runs if any(k in r['title'] for k in ['اختبار','مراجعة','تمارين عامة','المحتويات','مقدمة'])]
+          out={
+              'source_id':sid,
+              'identity_status':'VERIFIED_EXACT_SHA',
+              'retained_page_range':[labels[0]['page_number'],labels[-1]['page_number']],
+              'title_run_count':len(runs),
+              'unit_cover_candidates':covers,
+              'unit_review_candidates':reviews,
+              'other_special_candidates':other_special,
+              'all_title_runs':runs,
+              'interpretation_status':'CANDIDATE_ONLY_NOT_FINALIZED',
+              'raw_mutations':0,'imports_created':0,'publications_created':0
+          }
+          Path(f'content-staging/reconstruction/educational/{sid}-structure-summary.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(out,ensure_ascii=False))
+          PY
+      - name: Re-fetch live branch before evidence commit
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT; exit 42; }
+      - name: Commit compact evidence
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/reconstruction/educational/4863bbf6-6cf3-4238-9407-75825724292a-structure-summary.json
+          git commit -m 'content: record physics title-run evidence [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
