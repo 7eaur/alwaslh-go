@@ -277,3 +277,17 @@ Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson
 - Source images technical **1,475/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `6a8ea7f2-1e77-4654-a28c-0ea1b82b4830 — الفقه الكتاب المدرسي`.
 <!-- SEERAH_BOOK_CHECKPOINT_END -->
+
+<!-- FIQH_BOOK_CHECKPOINT_START -->
+## Reconstruction checkpoint — Fiqh Book
+
+- Sources processed: **20/58**; Educational: **10/26**; Exam Source Groups: **10/32**.
+- Books / Units / Lessons / Lesson pages: **10 / 33 / 196 / 877**.
+- Fiqh source: **67/67** technically verified + exact SHA-identical to `master/التربية الاسلاميه ثالث ثانوي/كتاب الفقه/الصور`.
+- Exact filename evidence establishes **13 lessons** and assigns **67/67 retained pages** to one lesson; no unit layer was asserted (`NOT VERIFIED`).
+- Independent page subtype/review boundaries remain `NOT VERIFIED`; no unsupported review page was invented.
+- Questions: **906/906 structurally lesson-linked** by exact page membership; semantic correctness remains `NOT VERIFIED`.
+- Global question invariant: **6,891 + 967 + 351 + 17,546 = 25,755**.
+- Source images technical **1,542/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Next: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`.
+<!-- FIQH_BOOK_CHECKPOINT_END -->
