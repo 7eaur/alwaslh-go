@@ -58,13 +58,15 @@ jobs:
           from pathlib import Path
           t = json.loads(Path('content-staging/reconstruction/technical/8489a487-91d9-47fb-80b8-35d0e7a074a4.json').read_text(encoding='utf-8'))
           d = json.loads(Path('content-staging/reconstruction/exams/source-groups/8489a487-91d9-47fb-80b8-35d0e7a074a4-discovery.json').read_text(encoding='utf-8'))
-          assert t['summary']['manifest_images'] == 30
-          assert t['summary']['existing_files'] == 30
-          assert t['summary']['readable_images'] == 30
-          assert t['summary']['byte_size_matches'] == 30
-          assert t['summary']['sha256_matches'] == 30
-          assert t['summary']['mime_matches'] == 30
-          assert t['summary']['failures'] == 0
+          c = t['checks']
+          assert c['manifest_image_count'] == 30
+          assert c['existing_files'] == 30
+          assert c['readable_images'] == 30
+          assert c['byte_size_matches'] == 30
+          assert c['sha256_matches'] == 30
+          assert c['mime_matches'] == 30
+          assert c['failures'] == 0
+          assert t['all_images_technically_verified'] is True
           assert d['counts']['pages'] == 30
           assert d['counts']['questions'] == 0
           assert d['page_sequence']['first'] == 1 and d['page_sequence']['last'] == 30
