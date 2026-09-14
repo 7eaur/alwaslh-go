@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "source_group_id": "0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199",
+  "repeated_source_label": "النموذج 12",
+  "first_occurrence_pages": [
+    34,
+    35,
+    36
+  ],
+  "second_occurrence_pages": [
+    40,
+    41,
+    42
+  ],
+  "comparisons": [
+    {
+      "pages": [
+        34,
+        40
+      ],
+      "sha256_equal": false,
+      "dhash_bits": 256,
+      "dhash_hamming": 32,
+      "dhash_similarity": 0.875,
+      "normalized_mean_absolute_pixel_difference": 0.117073,
+      "normalized_rms_pixel_difference": 0.240478
+    },
+    {
+      "pages": [
+        35,
+        41
+      ],
+      "sha256_equal": false,
+      "dhash_bits": 256,
+      "dhash_hamming": 32,
+      "dhash_similarity": 0.875,
+      "normalized_mean_absolute_pixel_difference": 0.066958,
+      "normalized_rms_pixel_difference": 0.17748
+    },
+    {
+      "pages": [
+        36,
+        42
+      ],
+      "sha256_equal": false,
+      "dhash_bits": 256,
+      "dhash_hamming": 14,
+      "dhash_similarity": 0.945312,
+      "normalized_mean_absolute_pixel_difference": 0.019981,
+      "normalized_rms_pixel_difference": 0.09315
+    }
+  ],
+  "semantic_identity_relation": "NOT VERIFIED",
+  "decision_rule": "Pixel similarity is supporting evidence only; repeated title plus non-identical SHA does not prove same or different Individual Exam Model.",
+  "raw_mutations": 0
+}
