@@ -50,7 +50,7 @@ def main() -> None:
         "exam_source_groups_completed": 9,
         "individual_exam_models": 135,
         "exam_pages_completed": 455,
-        "source_images_technically_verified": 1011,
+        "source_images_technically_verified": 950,
         "lesson_linked_structural": 2236,
         "exam_linked_to_individual_model": 967,
         "review_required": 351,
