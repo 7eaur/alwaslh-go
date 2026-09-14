@@ -113,6 +113,76 @@ jobs:
           print(json.dumps({'pages':len(rows),'question_count_by_page':out['question_count_by_page'],'prefix_groups':out['storage_filename_prefix_groups'],'duplicate_sha256_groups':out['duplicate_sha256_groups'],'distinct_titles':out['distinct_titles']},ensure_ascii=False))
           PY
 
+      - name: Compare repeated model-12 label occurrences using derived pixels
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, math
+          from pathlib import Path
+          from PIL import Image, ImageOps, ImageChops, ImageStat
+
+          sid='0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199'
+          root=Path('content-staging/raw/legacy-supabase/subjects')/sid
+          manifest=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
+          by_page={int(x['page_number']):x for x in manifest['images']}
+
+          def path_for(n):
+              rel=Path(by_page[n]['raw_path'])
+              return Path('content-staging')/rel if rel.parts and rel.parts[0]=='raw' else rel
+
+          def dhash(path, size=16):
+              with Image.open(path) as im:
+                  im=ImageOps.exif_transpose(im).convert('L').resize((size+1,size), Image.Resampling.LANCZOS)
+                  px=list(im.getdata())
+              bits=[]
+              for y in range(size):
+                  off=y*(size+1)
+                  bits.extend(px[off+x] > px[off+x+1] for x in range(size))
+              value=0
+              for b in bits: value=(value<<1)|int(b)
+              return value, len(bits)
+
+          def normalized_diff(a,b):
+              with Image.open(a) as ia, Image.open(b) as ib:
+                  ia=ImageOps.exif_transpose(ia).convert('L').resize((512,724),Image.Resampling.LANCZOS)
+                  ib=ImageOps.exif_transpose(ib).convert('L').resize((512,724),Image.Resampling.LANCZOS)
+                  diff=ImageChops.difference(ia,ib)
+                  stat=ImageStat.Stat(diff)
+                  mean_abs=stat.mean[0]/255.0
+                  rms=stat.rms[0]/255.0
+                  return round(mean_abs,6),round(rms,6)
+
+          pairs=[]
+          for a,b in [(34,40),(35,41),(36,42)]:
+              ha,bits=dhash(path_for(a)); hb,_=dhash(path_for(b))
+              ham=(ha^hb).bit_count()
+              mad,rms=normalized_diff(path_for(a),path_for(b))
+              pairs.append({
+                  'pages':[a,b],
+                  'sha256_equal':by_page[a]['sha256']==by_page[b]['sha256'],
+                  'dhash_bits':bits,
+                  'dhash_hamming':ham,
+                  'dhash_similarity':round(1-ham/bits,6),
+                  'normalized_mean_absolute_pixel_difference':mad,
+                  'normalized_rms_pixel_difference':rms,
+              })
+          # Conservative: metrics are evidence only. Never auto-upgrade semantic identity.
+          out={
+              'schema_version':1,
+              'source_group_id':sid,
+              'repeated_source_label':'النموذج 12',
+              'first_occurrence_pages':[34,35,36],
+              'second_occurrence_pages':[40,41,42],
+              'comparisons':pairs,
+              'semantic_identity_relation':'NOT VERIFIED',
+              'decision_rule':'Pixel similarity is supporting evidence only; repeated title plus non-identical SHA does not prove same or different Individual Exam Model.',
+              'raw_mutations':0,
+          }
+          target=Path('content-staging/reconstruction/exams/source-groups')/f'{sid}-repeated-label-evidence.json'
+          target.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(out,ensure_ascii=False))
+          PY
+
       - name: Verify no concurrent branch mutation before evidence commit
         run: |
           set -euo pipefail
@@ -127,8 +197,13 @@ jobs:
           git add \
             content-staging/reconstruction/technical/0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199.json \
             content-staging/reconstruction/exams/source-groups/0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199-discovery.json \
-            content-staging/reconstruction/exams/source-groups/0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199-metadata-evidence.json
-          git commit -m 'content: discover math 1445 exam evidence [skip ci]'
+            content-staging/reconstruction/exams/source-groups/0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199-metadata-evidence.json \
+            content-staging/reconstruction/exams/source-groups/0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199-repeated-label-evidence.json
+          if git diff --cached --quiet; then
+            echo 'Derived evidence unchanged.'
+            exit 0
+          fi
+          git commit -m 'content: compare repeated Math 1445 model label [skip ci]'
           git push origin HEAD:content/corpus-inventory-20260914
 
       - name: Upload complete visual evidence
