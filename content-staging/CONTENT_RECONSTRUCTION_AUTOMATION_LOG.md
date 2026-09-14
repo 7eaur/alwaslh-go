@@ -221,15 +221,15 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 ## 10. ACTIVE CHECKPOINT
 
-- state: `COMPLETE`
+- state: `READY_FOR_NEXT_SOURCE`
 - branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `8c93e3846375ec0188c938dcc3fd8e1f25c83e6e`
-- last completed source: `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`
-- current source: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`
-- current source baseline from live evidence: `65 pages / 65 image references / 976 legacy questions / 0 image download failures; manifest anomaly arrays are empty. Technical byte/SHA/MIME verification, exact identity and lesson/question boundaries are NOT VERIFIED.`
-- current operation: `Geography finalized from exact evidence: 104/104 technical images and 104/104 unique exact SHA identities against master/تاسع إجتماعيات/جغرافيا_تاسع; retained stored/source pages 8..111; 4 units, 18 lessons, 94 lesson pages, 4 unit covers, 6 unit reviews, 0 legacy questions. Next: technically verify الإيمان's 65 immutable images, establish exact identity only from its own evidence, reconstruct its book/unit/lesson/review boundaries, and structurally map the 976 questions only where page membership is proven; semantic correctness remains NOT VERIFIED.`
-- next source: `NOT YET RESOLVED — derive after الإيمان الكتاب المدرسي from live MASTER_CONTENT_MANIFEST`
-- blockers: `none`
+- latest verified work HEAD before this handoff commit: `556ffc76d0fb3d3fa632cbf0c1f678b986f8d4d7`
+- last completed source: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`
+- current source: `f25891fe-ea52-481b-baf2-ff4764c79bde — الاسلاميه ثانوي نماذج وزاريه 1447`
+- current source baseline from live manifest: `93 pages/images, 0 legacy questions, 0 download failures; manifest anomalies: duplicate_page_numbers=0, missing_images=0, multiple_images=0, malformed_ai_questions=0. Technical verification / source identity / reconstruction remain NOT VERIFIED unless live evidence says otherwise.`
+- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for this source; read its immutable manifest/pages/evidence; run technical verification first; establish source identity and book/exam boundaries only from source-specific evidence; structurally map questions only where page/model membership is proven; quarantine uncertainty as review_required/NOT VERIFIED.`
+- next source: `Resolve from live manifest only after the current source is safely finalized.`
+- blockers: `none at handoff; the current source itself is NOT VERIFIED and must not inherit Faith structure.`
 - owner decision required now: `no`
 
 ---
@@ -927,3 +927,56 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - blockers: `none`
 - handoff note: `Worker A must re-fetch live HEAD and baton, verify Geography checkpoint 8c93e384..., then start الإيمان from its own evidence. Do not inherit Geography/Civics title-run assumptions unless the Faith source proves the same structure.`
 
+## RUN 2026-09-14T14:45:39+03:00 — Worker A
+
+- state: COMPLETE_SOURCE_HANDOFF
+- start HEAD: `90e6580845197880eb0c20ee137be3484cb18259`
+- end HEAD before handoff-log commit: `556ffc76d0fb3d3fa632cbf0c1f678b986f8d4d7`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`
+- completed in this run:
+  - re-fetched live branch and consumed Worker B's Geography handoff from the shared baton;
+  - confirmed no duplicate/active Faith finalization workflow before starting;
+  - technically verified all **65/65** immutable Faith RAW images (exist/readable/byte-size/SHA-256/MIME) without RAW mutation;
+  - proved **65/65 exact SHA-256 identities** against `master/التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور`, with zero unmatched retained pages;
+  - generated complete contact-sheet visual evidence for the retained pages 8..72;
+  - used only exact-SHA master filename evidence to establish **10 lesson groups** and assign **65/65 retained pages** exactly once to a lesson; no Unit layer was invented (`NOT VERIFIED`);
+  - structurally linked **976/976 legacy questions** to the evidence-backed lesson containing their immutable legacy page; question semantic correctness remains `NOT VERIFIED`;
+  - updated the master manifest and evidence-backed status/handoff/validation/import-report documents; no production import/publication was created;
+  - passed `FAITH_RECONSTRUCTION_VERIFY_PASS` and `FAITH_FINALIZATION_VERIFY_PASS`; both live-HEAD safety gates passed immediately before finalization/write.
+- evidence/artifacts:
+  - `content-staging/reconstruction/technical/516f1c1d-acc0-4b1c-8e50-8f92a7c737e0.json`;
+  - `content-staging/reconstruction/educational/516f1c1d-acc0-4b1c-8e50-8f92a7c737e0-discovery.json`;
+  - `content-staging/reconstruction/educational/516f1c1d-acc0-4b1c-8e50-8f92a7c737e0.json`;
+  - discovery workflow run `34839217675` (success; contact-sheet artifact `faith-contact-sheets`);
+  - finalization workflow run `34839580526` (success);
+  - final evidence/status commit `556ffc76d0fb3d3fa632cbf0c1f678b986f8d4d7`.
+- ambiguity/review_required:
+  - Faith Unit hierarchy: `NOT VERIFIED`; no unit layer was asserted;
+  - lesson membership is verified from exact page identity + explicit reference filename lesson labels;
+  - page subtype/review-boundary semantics beyond lesson membership: `NOT VERIFIED`;
+  - semantic correctness of all 976 question texts/answers: `NOT VERIFIED`;
+  - no forced semantic claims were made.
+- invariant result: PASS (`3,350 + 967 + 351 + 21,087 = 25,755`)
+- Sources processed: 16/58
+- Educational: 7/26
+- Books / Units / Lessons / Lesson Pages: 7 / 33 / 161 / 667
+- Exam Source Groups: 9/32
+- Individual Exam Models: 135
+- Exam Pages: 455/2,286
+- Source images technical: 1,239/5,273
+- Legacy Questions: 25,755
+- Lesson-linked: 3,350
+- Exam-linked: 967
+- Review-required: 351
+- Unclassified: 21,087
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`
+- current/next source: `f25891fe-ea52-481b-baf2-ff4764c79bde — الاسلاميه ثانوي نماذج وزاريه 1447`
+- current source live baseline: `93 pages/images, 0 legacy questions, 0 download failures; manifest anomalies: duplicate_page_numbers=0, missing_images=0, multiple_images=0, malformed_ai_questions=0. Technical verification / source identity / reconstruction remain NOT VERIFIED unless live evidence says otherwise.`
+- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for f25891fe-ea52-481b-baf2-ff4764c79bde; read its live manifest/pages; run full technical verification; establish identity/structure from its own source-specific evidence; then link questions only where evidence proves membership and reassert the 25,755 global invariant.`
+- blockers: `none at handoff.`
+- handoff note: `Worker B should start from f25891fe-ea52-481b-baf2-ff4764c79bde only after re-fetching live HEAD and this baton. Do not rerun/finalize Faith unless new drift evidence appears. Preserve Faith's unit hierarchy and semantic question review as NOT VERIFIED; do not upgrade those claims without new evidence.`
