@@ -40,7 +40,7 @@ def main():
     if recon.get("individual_exam_model_count") != 25 or recon.get("finalized_exam_page_count") != 100:
         raise SystemExit("Biology 1446 model/page count not finalized")
     qmap = recon.get("question_mapping") or {}
-    if int(qmap.get("exam_linked_structural") or -1) != 200 or int(qmap.get("review_required") or -1) != 0 or int(qmap.get("unassigned_within_source") or -1) != 0:
+    if int(qmap.get("exam_linked_structural", -1)) != 200 or int(qmap.get("review_required", -1)) != 0 or int(qmap.get("unassigned_within_source", -1)) != 0:
         raise SystemExit("Biology 1446 question accounting mismatch")
 
     master = json.loads(MASTER_PATH.read_text(encoding="utf-8"))
