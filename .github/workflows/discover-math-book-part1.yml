@@ -8,6 +8,7 @@ on:
       - '.github/workflows/discover-math-book-part1.yml'
       - 'content-staging/tools/discover_math_book_part1.py'
       - 'content-staging/tools/compare_math_book_part1_master.py'
+      - 'content-staging/tools/analyze_math_book_part1_legacy_refs.py'
 
 permissions:
   contents: write
@@ -57,14 +58,19 @@ jobs:
           set -euo pipefail
           python content-staging/tools/compare_math_book_part1_master.py
 
+      - name: Analyze legacy question-reference candidates
+        run: |
+          set -euo pipefail
+          python content-staging/tools/analyze_math_book_part1_legacy_refs.py
+
       - name: Commit derived discovery diagnostics
         run: |
           set -euo pipefail
           git config user.name 'alwaslh-content-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add content-staging/reconstruction/technical/1933807f-4cb0-40c9-9b29-3ef3d32c98dc.json content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-discovery.json content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-visual-identity-diagnostic.json
+          git add content-staging/reconstruction/technical/1933807f-4cb0-40c9-9b29-3ef3d32c98dc.json content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-discovery.json content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-visual-identity-diagnostic.json content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-legacy-reference-analysis.json
           if ! git diff --cached --quiet; then
-            git commit -m 'content: record Math Part 1 identity diagnostics [skip ci]'
+            git commit -m 'content: record Math Part 1 source diagnostics [skip ci]'
             git push origin HEAD:content/corpus-inventory-20260914
           fi
 
@@ -78,10 +84,13 @@ jobs:
           t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
           d=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-discovery.json').read_text())
           v=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-visual-identity-diagnostic.json').read_text())
+          q=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-legacy-reference-analysis.json').read_text())
           assert t['all_images_technically_verified'] is True
           assert t['checks']['manifest_image_count']==186
           assert d['raw_image_count']==186 and d['legacy_question_count']==717
-          assert d['raw_mutations']==0 and v['raw_mutations']==0
+          assert q['page_count']==186 and q['question_count']==717
+          assert d['raw_mutations']==0 and v['raw_mutations']==0 and q['raw_mutations']==0
           assert v['raw_count']==186 and v['master_count']==255
-          print('MATH_BOOK_PART1_DIAGNOSTIC_PASS', v['intended_unique_best_count'], v['best_mae_max'], v['best_margin_min'])
+          assert q['boundary_status']=='NOT VERIFIED'
+          print('MATH_BOOK_PART1_DIAGNOSTIC_PASS', v['intended_unique_best_count'], q['pages_with_question_evidence'], q['distinct_lesson_title_candidates'])
           PY
