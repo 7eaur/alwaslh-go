@@ -440,3 +440,19 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `62d827b3-8ab6-4c2b-8ff2-de6156947276` — `الاحياء نماذج وزارية 1446`.
 <!-- BIOLOGY_EXAM_1445_CHECKPOINT_END -->
+
+<!-- BIOLOGY_EXAM_1446_CHECKPOINT_START -->
+## Reconstruction checkpoint — Biology Ministry Exams 1446
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Source `62d827b3-8ab6-4c2b-8ff2-de6156947276` — `الاحياء نماذج وزارية 1446` completed from source-local evidence.
+- Technical verification: **100/100** images exist, readable, byte-size/SHA-256/MIME match; sequence **1..100** contiguous.
+- Duplicate evidence: **6** SHA-256 duplicate groups (each two source occurrences) preserved exactly; no merge, renumber, deletion, or RAW mutation.
+- Full visual review resolves **25** verified Individual Exam Model occurrences; each is three question pages + one correction/result sheet candidate.
+- Finalized Exam Pages: **100**; review-required pages: **0**; correction-sheet candidates: **25**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Source legacy questions: **200/200** structurally linked by verified page membership; semantic correctness remains **NOT VERIFIED**.
+- Progress: Sources **30/58**; Educational **15/26**; Exam Groups **15/32**; Individual Exam Models **251**; Exam Pages **828/2,286**; source images technical **2360/5,273**.
+- Global questions: Lesson-linked **10514**; Exam-linked **1332**; Review-required **749**; Unclassified **13160**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `3df6f57e-26cb-414e-97c5-ef6bd2ff4487` — `الاحياء نماذج وزارية 1447`.
+<!-- BIOLOGY_EXAM_1446_CHECKPOINT_END -->
