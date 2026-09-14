@@ -1,0 +1,122 @@
+name: Discover Mathematics Exam 1446 Evidence
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/discover-math-exam-1446.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-math-exam-1446
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check Pillow
+      - name: Verify immutable source media
+        run: python content-staging/tools/verify_subject_media.py --subject-id 85c13f3f-fe85-47c3-affb-fb437d10d908
+      - name: Build occurrence-safe metadata and visual evidence
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts/math-exam-1446
+          python - <<'PY'
+          import json
+          from collections import defaultdict, Counter
+          from pathlib import Path
+          from PIL import Image, ImageOps, ImageDraw
+          sid='85c13f3f-fe85-47c3-affb-fb437d10d908'
+          root=Path('content-staging/raw/legacy-supabase/subjects')/sid
+          manifest=json.loads((root/'manifest.json').read_text(encoding='utf-8'))
+          pages=json.loads((root/'pages.json').read_text(encoding='utf-8'))
+          if isinstance(pages,dict):
+              pages=next((pages[k] for k in ('pages','records','items','data') if isinstance(pages.get(k),list)),[])
+          by_id={p.get('id'):p for p in pages if isinstance(p,dict) and p.get('id')}
+          by_num=defaultdict(list)
+          for p in pages:
+              if isinstance(p,dict): by_num[p.get('page_number')].append(p)
+          images=list(manifest.get('images') or [])
+          rows=[]; sha_groups=defaultdict(list)
+          for ordinal,im in enumerate(images,1):
+              pid=im.get('legacy_page_id'); matches=[]
+              if pid and pid in by_id: matches=[by_id[pid]]
+              if not matches: matches=by_num.get(im.get('page_number'),[])
+              p=matches[0] if len(matches)==1 else {}
+              qs=p.get('ai_questions') or []
+              row={
+                'source_record_ordinal':ordinal,
+                'page_number':im.get('page_number'),
+                'legacy_page_id':pid,
+                'title':p.get('title'),
+                'content_type':p.get('content_type'),
+                'question_count':len(qs) if isinstance(qs,list) else 0,
+                'storage_object_path':im.get('storage_object_path'),
+                'raw_path':im.get('raw_path'),
+                'sha256':im.get('sha256'),
+                'byte_size':im.get('byte_size'),
+                'mime_type':im.get('mime_type'),
+                'metadata_match_status':'legacy_page_id' if pid in by_id else ('unique_page_number' if len(matches)==1 else 'ambiguous_or_missing'),
+              }
+              rows.append(row); sha_groups[im.get('sha256')].append(ordinal)
+          dup_nums={str(k):[r['source_record_ordinal'] for r in rows if r['page_number']==k] for k,v in Counter(r['page_number'] for r in rows).items() if v>1}
+          out={
+            'schema_version':1,'source_group_id':sid,'source_group_name':(manifest.get('legacy_subject') or {}).get('name'),
+            'counts':manifest.get('counts'),'anomalies':manifest.get('anomalies'),'source_records':rows,
+            'duplicate_page_number_occurrences':dup_nums,
+            'duplicate_sha256_ordinal_groups':[v for v in sha_groups.values() if len(v)>1],
+            'distinct_titles':dict(Counter((r.get('title') or '').strip() for r in rows if (r.get('title') or '').strip())),
+            'boundary_status':'NOT VERIFIED','answer_keys':'NOT VERIFIED','raw_mutations':0,
+          }
+          target=Path('content-staging/reconstruction/exams/source-groups')/f'{sid}-metadata-evidence.json'
+          target.parent.mkdir(parents=True,exist_ok=True); target.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          def raw_file(row):
+              rel=Path(row['raw_path']); return Path('content-staging')/rel if rel.parts and rel.parts[0]=='raw' else rel
+          def sheet(chunk,path):
+              cards=[]
+              for r in chunk:
+                  with Image.open(raw_file(r)) as im:
+                      im=ImageOps.exif_transpose(im).convert('RGB'); im.thumbnail((500,650))
+                      card=Image.new('RGB',(520,720),'white'); card.paste(im,((520-im.width)//2,8)); d=ImageDraw.Draw(card)
+                      d.text((8,680),f"ord {r['source_record_ordinal']} | page {r['page_number']} | {r['legacy_page_id']}",fill='black'); cards.append(card)
+              canvas=Image.new('RGB',(2080,720*((len(cards)+3)//4)),'white')
+              for i,c in enumerate(cards): canvas.paste(c,((i%4)*520,(i//4)*720))
+              canvas.save(path,quality=90)
+          vis=Path('artifacts/math-exam-1446')
+          for start in range(0,len(rows),12):
+              chunk=rows[start:start+12]; sheet(chunk,vis/f"records-{chunk[0]['source_record_ordinal']:03d}-{chunk[-1]['source_record_ordinal']:03d}.jpg")
+          (vis/'metadata-evidence.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'records':len(rows),'duplicate_page_numbers':dup_nums,'duplicate_sha_groups':out['duplicate_sha256_ordinal_groups'],'titles':out['distinct_titles']},ensure_ascii=False))
+          PY
+      - name: Re-fetch live head before evidence write
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "${GITHUB_SHA}" || { echo LIVE_HEAD_DRIFT_FAIL_CLOSED; exit 41; }
+      - name: Commit derived discovery evidence only
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/reconstruction/technical/85c13f3f-fe85-47c3-affb-fb437d10d908.json content-staging/reconstruction/exams/source-groups/85c13f3f-fe85-47c3-affb-fb437d10d908-metadata-evidence.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'content: record Math 1446 discovery evidence [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
+      - uses: actions/upload-artifact@v4
+        with:
+          name: math-exam-1446-visual-evidence
+          path: artifacts/math-exam-1446/
+          if-no-files-found: error
+          retention-days: 14
