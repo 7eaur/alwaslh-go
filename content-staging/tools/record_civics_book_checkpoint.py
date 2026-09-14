@@ -6,6 +6,8 @@ The first run proved the source was still in the inventory baseline state
 state. This wrapper validates that no verified technical/reconstruction state is
 already recorded, then executes the original recorder with only that guard
 extended to accept `review_needed`. No evidence/counters are relaxed.
+
+A normal CI-triggering commit is intentional after the fail-closed probe run.
 """
 import json
 import subprocess
