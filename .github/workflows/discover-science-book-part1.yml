@@ -1,0 +1,84 @@
+name: Discover Science Book Part 1
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/discover-science-book-part1.yml'
+      - 'content-staging/tools/discover_science_book_part1.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-science-book-part1
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - name: Checkout trusted master reference
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master-reference
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install image verifier dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Verify immutable RAW media
+        run: |
+          set -euo pipefail
+          python content-staging/tools/verify_subject_media.py --subject-id f4b6708c-027f-4883-9e85-e6e7acb52ecc
+
+      - name: Verify exact master identity and discover structure candidates
+        run: |
+          set -euo pipefail
+          python content-staging/tools/discover_science_book_part1.py
+
+      - name: Assert non-destructive discovery
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='f4b6708c-027f-4883-9e85-e6e7acb52ecc'
+          t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
+          d=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-discovery.json').read_text())
+          assert t['all_images_technically_verified'] is True
+          assert t['checks']['manifest_image_count']==161
+          assert d['identity_status']=='VERIFIED'
+          assert d['exact_sha_identity_count']==161
+          assert d['raw_image_count']==161
+          assert d['legacy_question_count']==11
+          assert d['raw_mutations']==0
+          assert d['lesson_boundaries_status']=='NOT VERIFIED'
+          print('SCIENCE_BOOK_PART1_DISCOVERY_PASS')
+          PY
+
+      - name: Commit derived discovery evidence
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/reconstruction/technical/f4b6708c-027f-4883-9e85-e6e7acb52ecc.json content-staging/reconstruction/educational/f4b6708c-027f-4883-9e85-e6e7acb52ecc-discovery.json
+          if git diff --cached --quiet; then
+            echo 'Derived discovery unchanged.'
+            exit 0
+          fi
+          git commit -m 'content: record science part1 discovery evidence [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
