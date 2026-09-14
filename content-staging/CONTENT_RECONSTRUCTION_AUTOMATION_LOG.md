@@ -223,15 +223,14 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 - state: `READY_FOR_NEXT_SOURCE`
 - branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `fb8aa7338e10e9286f804466cbfde01c8d205333`
-- last completed source: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`
-- current source: `85c13f3f-fe85-47c3-affb-fb437d10d908 — الرياضيات نماذج وزارية 1446`
-- current source baseline from live manifest: `39 pages, 39 images, 25 legacy questions, 0 download failures; anomaly arrays preserved: {"duplicate_page_numbers": [16, 29], "invalid_subject_ids": [], "malformed_ai_questions": [], "malformed_image_urls": [], "missing_images": [], "multiple_images": [], "null_or_invalid_page_numbers": []}`
-- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for 85c13f3f-fe85-47c3-affb-fb437d10d908; read live manifest/pages; technically verify immutable RAW; scan duplicates/numbering; generate ordered exam-boundary evidence; resolve Individual Exam Models/correction/Answer-Key evidence only from this source; map questions only where membership is proven; quarantine uncertainty; assert 25,755 invariant; checkpoint and continue.`
+- latest verified work HEAD before this handoff commit: `1d7892e49460ed1c48e31436bacaeec2939ae7c1`
+- last completed source: `85c13f3f-fe85-47c3-affb-fb437d10d908 — الرياضيات نماذج وزارية 1446`
+- current source: `fef5e58f-21df-42e3-81ae-6966cd7bad10 — الرياضيات نماذج وزارية 1447`
+- current source baseline from live manifest: `42 pages, 42 images, 112 legacy questions, 0 download failures; anomaly arrays preserved: {"duplicate_page_numbers": [], "invalid_subject_ids": [], "malformed_ai_questions": [], "malformed_image_urls": [], "missing_images": [], "multiple_images": [], "null_or_invalid_page_numbers": []}`
+- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for fef5e58f-21df-42e3-81ae-6966cd7bad10; technically verify all immutable RAW; scan within-source SHA duplicates; generate complete visual boundary evidence; resolve Individual Exam Models and correction/Answer-Key evidence only from Math 1447 source-local metadata/visuals; map 112 legacy questions only where model membership is proven; quarantine uncertainty as review_required/NOT VERIFIED; assert 25,755 invariant; checkpoint and continue.`
 - next source: `Resolve from live MASTER_CONTENT_MANIFEST only after the current source is safely finalized.`
-- blockers: `none for forward progress; Mathematics 1445 pages 40..42 remain quarantined review_required and must not be silently merged or renumbered.`
+- blockers: `none for forward progress; Math 1446 duplicate source page numbers 16 and 29 are preserved provenance anomalies and must never be silently normalized or merged.`
 - owner decision required now: `no`
-
 ---
 
 ### Shared handoff rule
@@ -1240,4 +1239,56 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `Resolve only after current source finalization.`
 - blockers: `none for forward progress; isolated Math 1445 review_required block intentionally remains unresolved.`
 - handoff note: `Worker B must re-fetch live HEAD and this baton, verify Math 1445 counters/evidence, then start 85c13f3f-fe85-47c3-affb-fb437d10d908 from its own evidence without inheriting Math 1445 boundaries.`
+
+## RUN 2026-09-14T17:40:15+03:00 — Worker B
+
+- state: COMPLETE
+- start HEAD: `d9d9739cbd39fd23c63912940837d8a7b2e68591`
+- end HEAD before handoff-log commit: `1d7892e49460ed1c48e31436bacaeec2939ae7c1`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `85c13f3f-fe85-47c3-affb-fb437d10d908 — الرياضيات نماذج وزارية 1446`
+- completed in this run:
+  - consumed and verified Worker A's Math 1445 finalization/handoff instead of racing its active shared-log workflow;
+  - technically verified all 39/39 Math 1446 immutable RAW images;
+  - preserved duplicate source page numbers 16 and 29 as distinct legacy-page occurrences rather than normalizing identity;
+  - generated occurrence-safe metadata and four complete visual contact sheets and visually reviewed all 39 occurrences;
+  - verified 13 complete Individual Exam Models from explicit source titles plus visual evidence, each with two question pages and one correction/result candidate;
+  - structurally linked all 25/25 source legacy questions to verified model 1 through unique legacy_page_id membership;
+  - finalized reconstruction, MASTER manifest, and all checkpoint/status reports through exact-head guarded GitHub Actions run `34857025941`.
+- evidence produced/verified:
+  - `content-staging/reconstruction/technical/85c13f3f-fe85-47c3-affb-fb437d10d908.json` — 39 existing/readable/SHA/byte-size/MIME matches, 0 failures, 0 duplicate SHA groups;
+  - `content-staging/reconstruction/exams/source-groups/85c13f3f-fe85-47c3-affb-fb437d10d908-metadata-evidence.json` — occurrence-safe identities and duplicate-number provenance;
+  - `content-staging/reconstruction/exams/source-groups/85c13f3f-fe85-47c3-affb-fb437d10d908-visual-review.json` — complete 39-occurrence visual adjudication;
+  - `content-staging/reconstruction/exams/source-groups/85c13f3f-fe85-47c3-affb-fb437d10d908.json` — 13 models / 39 finalized exam pages / 13 correction candidates;
+  - workflow `34856438569` discovery success and workflow `34857025941` finalization success with `MATH_1446_FINALIZATION_VERIFY_PASS`.
+- ambiguity/review_required:
+  - source page-number anomalies 16 and 29 are provenance-only anomalies; no model membership remains ambiguous because explicit title + unique legacy_page_id + visual review establish membership;
+  - standalone official Answer Keys: `NOT VERIFIED`; correction/result pages remain candidates only;
+  - semantic correctness of legacy questions: `NOT VERIFIED`.
+- invariant result: PASS
+- Sources processed: 22/58
+- Educational: 10/26
+- Books / Units / Lessons / Lesson Pages: 10 / 33 / 196 / 877
+- Exam Source Groups: 12/32
+- Individual Exam Models: 192
+- Exam Pages: 626/2,286
+- Verified Answer Keys: 0
+- Source images technical: 1,623/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 6,891
+- Exam-linked: 1,020
+- Review-required: 351
+- Unclassified: 17,493
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `85c13f3f-fe85-47c3-affb-fb437d10d908 — الرياضيات نماذج وزارية 1446`
+- current source: `fef5e58f-21df-42e3-81ae-6966cd7bad10 — الرياضيات نماذج وزارية 1447`
+- exact next operation: `Technically verify the 42 Math 1447 immutable image occurrences, then discover its model/correction boundaries from its own metadata and complete visual evidence; map its 112 questions only after membership is proven.`
+- next source: `NOT YET RESOLVED — resolve only after Math 1447 finalization from live MASTER_CONTENT_MANIFEST`
+- blockers: `none`
+- handoff note: `Math 1446 is closed. Do not normalize duplicate page numbers 16 or 29; legacy_page_id/source-record occurrence is the preserved identity. Worker A should start only from Math 1447 live evidence and must not inherit the 1446 numbering pattern.`
 
