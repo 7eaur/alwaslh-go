@@ -1,0 +1,100 @@
+#!/usr/bin/env python3
+from datetime import datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+PATH = Path('content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md')
+MARKER = '<!-- WORKER_A_BIOLOGY_1446_HANDOFF_34890347199 -->'
+SECTION_START = '## 10. ACTIVE CHECKPOINT'
+SECTION_END = '\n---\n\n### Shared handoff rule'
+
+
+def main():
+    text = PATH.read_text(encoding='utf-8')
+    if MARKER in text:
+        print('handoff already present')
+        return
+    if SECTION_START not in text or SECTION_END not in text:
+        raise SystemExit('baton markers not found')
+
+    before, tail = text.split(SECTION_START, 1)
+    _old_active, after = tail.split(SECTION_END, 1)
+    active = '''## 10. ACTIVE CHECKPOINT
+
+- state: `READY_NEXT_SOURCE`
+- branch: `content/corpus-inventory-20260914`
+- latest evidence HEAD before this handoff tooling: `2a97c20ea260b2b8d49e4dd13ee9275dbaf3cad2`
+- last completed source: `62d827b3-8ab6-4c2b-8ff2-de6156947276 — الاحياء نماذج وزارية 1446`
+- current source: `3df6f57e-26cb-414e-97c5-ef6bd2ff4487 — الاحياء نماذج وزارية 1447`
+- current source baseline from live manifest: `124 pages / 124 images / 50 legacy questions / 0 download failures; anomaly arrays empty.`
+- current source verified work: `NOT STARTED; do not inherit the Biology 1446 four-page occurrence pattern or any other exam-source structure.`
+- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for this exact source; technically verify all 124 immutable RAW images; perform a source-local duplicate scan, exam-boundary discovery and complete visual inspection; resolve Individual Exam Models and correction/Answer-Key evidence without guessing; structurally map the 50 legacy questions only where verified page membership permits; assert global invariants; checkpoint.`
+- next source: `Resolve only after Biology Exams 1447 finalization from live MASTER.`
+- blockers: `none`
+- completed 1446 evidence: `100/100 technical verification; all 100 pages visually reviewed; 25 verified source-local four-page occurrences (three question pages + one correction/result-sheet candidate); 100 finalized Exam Pages; 25 correction candidates; 0 verified standalone Answer Keys; 200/200 legacy questions structurally linked; semantic correctness NOT VERIFIED; six within-source duplicate SHA groups preserved as distinct occurrences with no merge/delete/renumber/RAW mutation.`
+'''
+
+    text = before + active + SECTION_END + after
+    now = datetime.now(ZoneInfo('Asia/Riyadh')).replace(microsecond=0).isoformat()
+    run = f'''{MARKER}
+## RUN {now} — Worker A
+
+- state: COMPLETE
+- start HEAD: `4f7d46edb2a4b8b9ee26efb50c6574080f9065ff`
+- end HEAD before handoff-log commit: `2a97c20ea260b2b8d49e4dd13ee9275dbaf3cad2`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `62d827b3-8ab6-4c2b-8ff2-de6156947276 — الاحياء نماذج وزارية 1446`
+- completed in this run:
+  - verified there was no existing Biology 1446 source-finalization workflow before starting;
+  - added and ran source-local discovery with **100/100** technical media verification and complete visual evidence across pages 1..100;
+  - independently verified **25** four-page source occurrences, each comprising three question pages followed by one correction/result sheet candidate, without inheriting Biology 1445 boundaries;
+  - preserved **6** within-source duplicate SHA-256 groups as distinct source occurrences with provenance intact; no merge, deletion, renumbering, or RAW mutation;
+  - reconstructed **25 Individual Exam Models / 100 finalized Exam Pages / 25 correction-sheet candidates** and kept standalone official Answer Keys `NOT VERIFIED`;
+  - structurally linked **200/200 legacy questions** by verified page membership while keeping semantic correctness `NOT VERIFIED`;
+  - first finalization run `34890168679` failed before any evidence write because a validation expression mishandled valid zero counters; corrected only that gate and reran from exact live HEAD;
+  - successful finalization run `34890347199` passed RAW re-verification, reconstruction validation, global invariant checks, all exact-head gates, artifact upload, canonical evidence commit and push.
+- evidence produced/verified:
+  - technical report: `content-staging/reconstruction/technical/62d827b3-8ab6-4c2b-8ff2-de6156947276.json`;
+  - discovery report: `content-staging/reconstruction/exams/source-groups/62d827b3-8ab6-4c2b-8ff2-de6156947276-discovery.json`;
+  - final reconstruction: `content-staging/reconstruction/exams/source-groups/62d827b3-8ab6-4c2b-8ff2-de6156947276.json`;
+  - discovery run `34889732195`, artifact `10365258863`;
+  - successful finalization run `34890347199`, artifact `10366831104`;
+  - canonical evidence commit: `2a97c20ea260b2b8d49e4dd13ee9275dbaf3cad2`;
+  - failed run `34890168679` produced no canonical evidence write or mutation.
+- ambiguity/review_required:
+  - standalone official Answer Keys: `NOT VERIFIED`; correction/result sheets remain candidates only;
+  - official model codes/titles/term and semantic correctness of legacy AI questions: `NOT VERIFIED`;
+  - source review-required pages/questions: **0**; duplicate SHA groups are preserved evidence, not silently normalized.
+- invariant result: PASS
+- Sources processed: 30/58
+- Educational: 15/26
+- Books / Units / Lessons / Lesson Pages: 13 / 48 / 283 / 1,354
+- Exam Source Groups: 15/32
+- Individual Exam Models: 251
+- Exam Pages: 828/2,286
+- Verified Answer Keys: 0
+- Source images technical: 2,360/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 10,514
+- Exam-linked: 1,332
+- Review-required: 749
+- Unclassified: 13,160
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `62d827b3-8ab6-4c2b-8ff2-de6156947276 — الاحياء نماذج وزارية 1446`
+- current source: `3df6f57e-26cb-414e-97c5-ef6bd2ff4487 — الاحياء نماذج وزارية 1447`
+- exact next operation: `Re-fetch live HEAD and baton, verify no active workflow for Biology 1447, technically verify 124 immutable RAW images, perform source-local duplicate/boundary discovery and full visual inspection, resolve model/correction/Answer-Key evidence without inheriting the 1446 pattern, structurally map the 50 questions only from verified page membership, assert invariants, then checkpoint.`
+- next source: `Resolve only after Biology 1447 finalization from live MASTER.`
+- blockers: `none`
+- handoff note: `Worker B should begin from Biology Exams 1447 baseline 124 pages / 124 images / 50 legacy questions / 0 download failures with empty anomaly arrays. Treat its structure as NOT VERIFIED until its own evidence is inspected; do not copy the Biology 1446 four-page packet pattern.`
+'''
+    PATH.write_text(text.rstrip() + '\n\n' + run.rstrip() + '\n', encoding='utf-8')
+    print('WORKER_A_BIOLOGY_1446_HANDOFF_PREPARED')
+
+
+if __name__ == '__main__':
+    main()
