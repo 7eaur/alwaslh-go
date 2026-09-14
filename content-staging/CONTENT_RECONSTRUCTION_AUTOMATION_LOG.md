@@ -223,11 +223,11 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 - state: `READY`
 - branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `1030dcbcbe56d39da24fd6277186f966b4e2fd33`
-- last completed source: `004c02be-3f55-49e1-bbdc-b0824491bd68 — العلوم نماذج وزارية 1446`
-- current source: `14ef15e0-5524-473a-bbdb-996df35ba535 — العلوم نماذج وزارية 1447`
-- current operation: `read manifest/pages -> technical verification from 1447 source evidence -> source-local duplicate/boundary discovery -> full visual evidence -> resolve only evidence-supported models/correction relations -> map source questions -> invariant/checkpoint`
-- next source: `NOT YET RESOLVED — determine from live MASTER_CONTENT_MANIFEST only after Science 1447 is processed`
+- latest verified work HEAD before this handoff commit: `fc5718a9c678386b2b5c6e6ad16838c972c2f89f`
+- last completed source: `14ef15e0-5524-473a-bbdb-996df35ba535 — العلوم نماذج وزارية 1447`
+- current source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`
+- current operation: `read live manifest/pages/source metadata -> non-destructive technical verification of all 161 images -> reconstruct educational book structure from this source evidence -> identify unit/lesson/review/appendix boundaries with visual evidence where needed -> structurally map the 11 legacy questions only where supported -> preserve ambiguity as review_required -> assert global invariant -> checkpoint`
+- next source: `NOT YET RESOLVED — determine from live MASTER_CONTENT_MANIFEST only after the current educational source is processed`
 - blockers: `none`
 - owner decision required now: `no`
 ---
@@ -346,3 +346,64 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `NOT YET RESOLVED — derive after Science 1447 from live MASTER_CONTENT_MANIFEST`
 - blockers: `none`
 - handoff note: `Worker A must re-fetch live HEAD and this baton, verify no Science 1446 workflow remains active, then start Science 1447 from its own evidence. Do not inherit the 13x3 page pattern from 1446.`
+
+## RUN 2026-09-14T09:46:00+03:00 — Worker A
+
+- state: COMPLETE
+- start HEAD: `d5b3ceac50e73d42c13dea2531af5d3a876780c4`
+- end HEAD before handoff-log commit: `fc5718a9c678386b2b5c6e6ad16838c972c2f89f`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `14ef15e0-5524-473a-bbdb-996df35ba535 — العلوم نماذج وزارية 1447`
+- completed in this run:
+  - verified Worker B's Science 1446 finalization against the live reconstruction and branch state;
+  - completed 42/42 non-destructive technical verification for Science 1447: file existence, readability, byte size, SHA-256 and MIME all match;
+  - generated and reviewed complete visual evidence for all 42 source image records;
+  - detected and preserved the source metadata numbering anomaly: stored page 35 is absent and page number 36 occurs twice;
+  - proved the two stored page-36 image records are distinct identities and distinct SHA-256 binaries, not duplicate files;
+  - reconciled model 12 from source-record order + legacy IDs + visual evidence: record d37e... is paper 1; e5be... is visually paper 2 despite its corrupted correction title/page number; 4e7b... is the correction/result record;
+  - did not fabricate page 35 and did not rewrite RAW or legacy metadata;
+  - independently resolved fourteen source-local Individual Exam Models and fourteen correction/result candidates;
+  - structurally mapped all 262 legacy questions to the fourteen verified models;
+  - finalized the source and updated MASTER_CONTENT_MANIFEST plus canonical status/handoff/inventory/validation/import/continuation documents.
+- evidence produced/verified:
+  - technical report: `content-staging/reconstruction/technical/14ef15e0-5524-473a-bbdb-996df35ba535.json`;
+  - discovery report: `content-staging/reconstruction/exams/source-groups/14ef15e0-5524-473a-bbdb-996df35ba535-discovery.json`;
+  - anomaly evidence: `content-staging/reconstruction/exams/source-groups/14ef15e0-5524-473a-bbdb-996df35ba535-anomaly-evidence.json`;
+  - final reconstruction: `content-staging/reconstruction/exams/source-groups/14ef15e0-5524-473a-bbdb-996df35ba535.json`;
+  - discovery workflow run `34814241092`: success;
+  - anomaly-evidence workflow run `34814423651`: success;
+  - finalization workflow run `34814757302`: success with `SCIENCE_1447_FINALIZATION_VERIFY_PASS`;
+  - final artifact `10336311813`, SHA-256 `f5cd59cb5851a84d3c3dad5555ae8976da61abb9033e051af39b23a4a1f4f4a6`;
+  - within-source duplicate SHA groups: 0.
+- ambiguity/review_required:
+  - source numbering/title anomaly for model 12 is preserved as provenance and logically resolved without changing RAW; no model/page block remains review_required;
+  - standalone official Answer Keys: `NOT VERIFIED`; fourteen correction/result records remain candidates only;
+  - semantic correctness of legacy AI questions: `NOT VERIFIED`.
+- invariant result: PASS (`2,225 + 733 + 351 + 22,446 = 25,755`)
+- Sources processed: 7/58
+- Educational: 1/26
+- Books / Units / Lessons / Lesson Pages: 1 / 9 / 57 / 149
+- Exam Source Groups: 6/32
+- Individual Exam Models: 99
+- Exam Pages: 347/2,286
+- Verified Answer Keys: 0
+- Correction/report candidates: 103
+- Source images technical: 533/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 2,225
+- Exam-linked: 733
+- Review-required: 351
+- Unclassified: 22,446
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `14ef15e0-5524-473a-bbdb-996df35ba535 — العلوم نماذج وزارية 1447`
+- current source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`
+- current source baseline from live manifest: `161 images/pages; 11 legacy questions; manifest anomaly arrays currently empty`
+- exact next operation: `Fetch the current educational source live manifest/pages and any source-specific reference evidence; technically verify all 161 image records; determine the actual book page range and structure from its own metadata/visual evidence; reconstruct units/lessons/reviews/appendices without inheriting Chemistry structure; structurally map the 11 questions only where evidence supports it; mark unresolved items review_required; assert the 25,755 question invariant; checkpoint; then resolve the following source from live MASTER_CONTENT_MANIFEST.`
+- next source: `NOT YET RESOLVED — derive only after the current source from live MASTER_CONTENT_MANIFEST`
+- blockers: `none`
+- handoff note: `Worker B must re-fetch live HEAD and this baton, verify no Science 1447 finalization workflow remains active, then treat f4b6708c... as an educational book source. Do not apply exam-model logic or inherit Chemistry book boundaries; reconstruct from this Science book's own evidence.`
