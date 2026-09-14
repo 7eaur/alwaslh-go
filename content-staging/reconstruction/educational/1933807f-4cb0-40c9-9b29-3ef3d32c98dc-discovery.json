@@ -1,0 +1,4023 @@
+{
+  "schema_version": 1,
+  "operation": "math_book_part1_identity_and_structure_discovery",
+  "subject_id": "1933807f-4cb0-40c9-9b29-3ef3d32c98dc",
+  "source_name": "كتاب الرياضيات - الجزء الأول",
+  "classification": "educational_source",
+  "raw_image_count": 186,
+  "legacy_question_count": 717,
+  "master_reference_path": "الرياضيات ثالث ثانوي/02_الرياضيات_ثالث_ثانوي",
+  "master_manifest_entries": 255,
+  "matched_source_page_min": 8,
+  "matched_source_page_max": 193,
+  "exact_sha_identity_count": 0,
+  "identity_failures": [
+    {
+      "ordinal": 1,
+      "legacy_page_id": "85ecba77-616f-44e4-9aa5-1d1c2cccaa18",
+      "stored_page_number": 7,
+      "source_page": 8,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 2,
+      "legacy_page_id": "48152208-b833-4168-844e-452653808ebc",
+      "stored_page_number": 8,
+      "source_page": 9,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 3,
+      "legacy_page_id": "b50f8a15-97ae-47b2-aed4-66ed7f01b523",
+      "stored_page_number": 9,
+      "source_page": 10,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 4,
+      "legacy_page_id": "923b0089-6d3f-486b-8275-a39cd6450513",
+      "stored_page_number": 10,
+      "source_page": 11,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 5,
+      "legacy_page_id": "790656e7-cfa4-4bed-ac0f-bf65ec210d2f",
+      "stored_page_number": 11,
+      "source_page": 12,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 6,
+      "legacy_page_id": "0799c5b3-8129-4350-9596-c457a7fe667c",
+      "stored_page_number": 12,
+      "source_page": 13,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 7,
+      "legacy_page_id": "037bb554-fbfe-4325-904e-8d3576e83505",
+      "stored_page_number": 13,
+      "source_page": 14,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 8,
+      "legacy_page_id": "a0a29c58-f929-459b-94d2-5e0f64320895",
+      "stored_page_number": 14,
+      "source_page": 15,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 9,
+      "legacy_page_id": "31f0a0fb-dbc7-4d98-8950-ffa2d7a83d3e",
+      "stored_page_number": 15,
+      "source_page": 16,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 10,
+      "legacy_page_id": "f9a9c562-995e-4fd3-8619-9bf75d68df26",
+      "stored_page_number": 16,
+      "source_page": 17,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 11,
+      "legacy_page_id": "5cbd42ae-8a58-4ac1-8ab2-6788d8904b5f",
+      "stored_page_number": 17,
+      "source_page": 18,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 12,
+      "legacy_page_id": "a30977bd-7f30-435e-9c0d-80805d067a36",
+      "stored_page_number": 18,
+      "source_page": 19,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 13,
+      "legacy_page_id": "3e065657-2b88-4293-8824-e152cd568e53",
+      "stored_page_number": 19,
+      "source_page": 20,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 14,
+      "legacy_page_id": "1a83158e-2949-418e-a0fc-95235fe61e8c",
+      "stored_page_number": 20,
+      "source_page": 21,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 15,
+      "legacy_page_id": "76f54760-7c4d-4fbd-837d-86ba126d0132",
+      "stored_page_number": 21,
+      "source_page": 22,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 16,
+      "legacy_page_id": "2582fa8b-a210-4642-99a6-f31d334cfa73",
+      "stored_page_number": 22,
+      "source_page": 23,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 17,
+      "legacy_page_id": "36eee87d-a59d-49e7-9218-60deb2229df4",
+      "stored_page_number": 23,
+      "source_page": 24,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 18,
+      "legacy_page_id": "2c9f1f4d-d0ec-4733-a36e-33eba8034940",
+      "stored_page_number": 24,
+      "source_page": 25,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 19,
+      "legacy_page_id": "7ccd94d6-aebb-402b-8f05-e3059356e509",
+      "stored_page_number": 25,
+      "source_page": 26,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 20,
+      "legacy_page_id": "391d4984-5e65-4e06-adb3-12372a350de7",
+      "stored_page_number": 26,
+      "source_page": 27,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 21,
+      "legacy_page_id": "31db464a-2ff3-4dd0-b520-fb81bb3d291b",
+      "stored_page_number": 27,
+      "source_page": 28,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 22,
+      "legacy_page_id": "5493e828-ed07-484c-905d-f84825621dc0",
+      "stored_page_number": 28,
+      "source_page": 29,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 23,
+      "legacy_page_id": "ab765e9d-6c2a-44c5-a402-ccfa61710592",
+      "stored_page_number": 29,
+      "source_page": 30,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 24,
+      "legacy_page_id": "f8e5953a-fc2d-437c-9e2d-d45b975b54c7",
+      "stored_page_number": 30,
+      "source_page": 31,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 25,
+      "legacy_page_id": "7d524b4b-0c0c-4f1f-8851-bfe70051b30e",
+      "stored_page_number": 31,
+      "source_page": 32,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 26,
+      "legacy_page_id": "6147058a-14bd-4edb-9a74-70b120f02928",
+      "stored_page_number": 32,
+      "source_page": 33,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 27,
+      "legacy_page_id": "12a57265-8f36-4aea-86a9-90fd0f09c2ef",
+      "stored_page_number": 33,
+      "source_page": 34,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 28,
+      "legacy_page_id": "481e9994-8469-476a-bde7-7b1e6e63180b",
+      "stored_page_number": 34,
+      "source_page": 35,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 29,
+      "legacy_page_id": "69195658-8ac5-44fe-9ddd-83cd77c10a83",
+      "stored_page_number": 35,
+      "source_page": 36,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 30,
+      "legacy_page_id": "3c7e9b45-4bd4-45bf-a680-5788d39dfdc5",
+      "stored_page_number": 36,
+      "source_page": 37,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 31,
+      "legacy_page_id": "c4716cfb-4c56-4ad3-9265-d74b1d577e22",
+      "stored_page_number": 37,
+      "source_page": 38,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 32,
+      "legacy_page_id": "04470bb9-bf4d-42fb-ac41-a0cb851cb9ea",
+      "stored_page_number": 38,
+      "source_page": 39,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 33,
+      "legacy_page_id": "de5afb3f-9e8d-411b-83cb-fc58a2212a1a",
+      "stored_page_number": 39,
+      "source_page": 40,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 34,
+      "legacy_page_id": "4037f4df-15fb-4bc7-b300-ad30f4ae0a05",
+      "stored_page_number": 40,
+      "source_page": 41,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 35,
+      "legacy_page_id": "cdc4bdf9-43b1-4f58-81ac-cb8dfd938e50",
+      "stored_page_number": 41,
+      "source_page": 42,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 36,
+      "legacy_page_id": "576b0db1-71d0-4420-a3a1-a4bdb5130645",
+      "stored_page_number": 42,
+      "source_page": 43,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 37,
+      "legacy_page_id": "5709ee2b-302f-40cd-9f91-55dcdb54ea84",
+      "stored_page_number": 43,
+      "source_page": 44,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 38,
+      "legacy_page_id": "d1844dae-afdb-458f-ac98-6dbe73896add",
+      "stored_page_number": 44,
+      "source_page": 45,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 39,
+      "legacy_page_id": "7b5e1a72-d38f-4ba4-aac7-706550a1b757",
+      "stored_page_number": 45,
+      "source_page": 46,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 40,
+      "legacy_page_id": "9390b599-aaef-4f48-bdcb-2c3b2c8c20aa",
+      "stored_page_number": 46,
+      "source_page": 47,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 41,
+      "legacy_page_id": "e439cdce-899e-4746-b918-ddbe5c5842ef",
+      "stored_page_number": 47,
+      "source_page": 48,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 42,
+      "legacy_page_id": "55540607-5182-4d02-b7c4-2bf2ae4bf05d",
+      "stored_page_number": 48,
+      "source_page": 49,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 43,
+      "legacy_page_id": "01ea0d11-7555-485b-85cd-e3142bf85e0e",
+      "stored_page_number": 49,
+      "source_page": 50,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 44,
+      "legacy_page_id": "9bf2358d-193a-40eb-bcaf-575e82130443",
+      "stored_page_number": 50,
+      "source_page": 51,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 45,
+      "legacy_page_id": "2a34f8cc-a309-4374-ad02-76a01793bfab",
+      "stored_page_number": 51,
+      "source_page": 52,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 46,
+      "legacy_page_id": "f03ad003-4e36-49ab-9b03-1a9234ecbaf4",
+      "stored_page_number": 52,
+      "source_page": 53,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 47,
+      "legacy_page_id": "f84b92fd-0f61-408b-9042-182cade8092f",
+      "stored_page_number": 53,
+      "source_page": 54,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 48,
+      "legacy_page_id": "03629b3e-16da-4f8c-bd0e-6ce58105f701",
+      "stored_page_number": 54,
+      "source_page": 55,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 49,
+      "legacy_page_id": "1a56dd9b-d3ec-44c4-b0ca-cee7dcce5fb2",
+      "stored_page_number": 55,
+      "source_page": 56,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 50,
+      "legacy_page_id": "fb93f825-2663-490f-bb6a-cb1b55dd6eed",
+      "stored_page_number": 56,
+      "source_page": 57,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 51,
+      "legacy_page_id": "aa71e24d-299f-4fcd-bc2f-cb2edb99b2b6",
+      "stored_page_number": 57,
+      "source_page": 58,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 52,
+      "legacy_page_id": "e63f1100-6d33-41c7-accc-7de8e2281227",
+      "stored_page_number": 58,
+      "source_page": 59,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 53,
+      "legacy_page_id": "bd12cd0e-fb1e-49b5-b492-1e83acdb3698",
+      "stored_page_number": 59,
+      "source_page": 60,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 54,
+      "legacy_page_id": "2c196ea3-c278-4c35-8f0a-da3d3da86a51",
+      "stored_page_number": 60,
+      "source_page": 61,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 55,
+      "legacy_page_id": "0a961085-d077-4c20-9c96-928e12b82aa9",
+      "stored_page_number": 61,
+      "source_page": 62,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 56,
+      "legacy_page_id": "39567b51-56a2-40e5-b6ef-61965909e8c2",
+      "stored_page_number": 62,
+      "source_page": 63,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 57,
+      "legacy_page_id": "75622ef4-e10b-4634-b198-b0ee8d15f066",
+      "stored_page_number": 63,
+      "source_page": 64,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 58,
+      "legacy_page_id": "e097bedd-39bd-4d06-b3bc-cba5326feef0",
+      "stored_page_number": 64,
+      "source_page": 65,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 59,
+      "legacy_page_id": "4f84972b-c739-42aa-ba43-8dff52514f14",
+      "stored_page_number": 65,
+      "source_page": 66,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 60,
+      "legacy_page_id": "c08306e4-b2c3-420d-90eb-00f08c5baa4b",
+      "stored_page_number": 66,
+      "source_page": 67,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 61,
+      "legacy_page_id": "e8014b04-514d-49a2-a81a-40c708def4c8",
+      "stored_page_number": 67,
+      "source_page": 68,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 62,
+      "legacy_page_id": "d78ee132-9891-464e-99d2-5665306b6a04",
+      "stored_page_number": 68,
+      "source_page": 69,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 63,
+      "legacy_page_id": "08e7b39a-393d-47f6-8280-b628b4d23fe1",
+      "stored_page_number": 69,
+      "source_page": 70,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 64,
+      "legacy_page_id": "f346a25c-b927-49f3-b389-e9f1e5294fa7",
+      "stored_page_number": 70,
+      "source_page": 71,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 65,
+      "legacy_page_id": "6eb5daf1-2a29-424b-9779-79e8fcddf47a",
+      "stored_page_number": 71,
+      "source_page": 72,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 66,
+      "legacy_page_id": "6894b61c-faa7-4d07-a5e8-c434c8bbca82",
+      "stored_page_number": 72,
+      "source_page": 73,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 67,
+      "legacy_page_id": "4b0492a7-f9ef-4763-866c-6889603d244d",
+      "stored_page_number": 73,
+      "source_page": 74,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 68,
+      "legacy_page_id": "664b295a-1180-42e8-8cb4-d7ac37bda27d",
+      "stored_page_number": 74,
+      "source_page": 75,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 69,
+      "legacy_page_id": "13404c00-dbd1-49bc-b8b2-d9226f26e9b0",
+      "stored_page_number": 75,
+      "source_page": 76,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 70,
+      "legacy_page_id": "2cf0d233-d376-430e-a131-f96c5c5fef17",
+      "stored_page_number": 76,
+      "source_page": 77,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 71,
+      "legacy_page_id": "f295e27e-dbc3-4e1b-8da9-8fe85d5c5071",
+      "stored_page_number": 77,
+      "source_page": 78,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 72,
+      "legacy_page_id": "17fcaeab-7906-43ed-9235-4b073ed702fb",
+      "stored_page_number": 78,
+      "source_page": 79,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 73,
+      "legacy_page_id": "1cbb821f-6864-4da6-bd83-80ad6f65dcfa",
+      "stored_page_number": 79,
+      "source_page": 80,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 74,
+      "legacy_page_id": "ad8395d4-cfaa-4557-942e-4179e534e519",
+      "stored_page_number": 80,
+      "source_page": 81,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 75,
+      "legacy_page_id": "6db3a737-deb3-44e6-bbb6-52010ab31ed8",
+      "stored_page_number": 81,
+      "source_page": 82,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 76,
+      "legacy_page_id": "35823553-a559-4fc3-b06e-c78f96e95e08",
+      "stored_page_number": 82,
+      "source_page": 83,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 77,
+      "legacy_page_id": "4bc8578a-1399-44e5-9ca0-74ae0c604dee",
+      "stored_page_number": 83,
+      "source_page": 84,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 78,
+      "legacy_page_id": "1ab41c96-132c-4092-91db-c0347ecd53ac",
+      "stored_page_number": 84,
+      "source_page": 85,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 79,
+      "legacy_page_id": "5cc0ed6b-7355-477b-9b82-975cc3007376",
+      "stored_page_number": 85,
+      "source_page": 86,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 80,
+      "legacy_page_id": "7c475c65-7612-494e-9dba-d4c7e3b7672c",
+      "stored_page_number": 86,
+      "source_page": 87,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 81,
+      "legacy_page_id": "27d77cdc-8204-4160-9b0e-06ee67bef91c",
+      "stored_page_number": 87,
+      "source_page": 88,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 82,
+      "legacy_page_id": "8cf5bd20-ced3-40c3-b2fc-66b44d853e58",
+      "stored_page_number": 88,
+      "source_page": 89,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 83,
+      "legacy_page_id": "38157ed2-c4d8-47b2-83a0-3c1c01c18b77",
+      "stored_page_number": 89,
+      "source_page": 90,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 84,
+      "legacy_page_id": "53d2a9a0-73d9-4146-b143-1fe96c05c269",
+      "stored_page_number": 90,
+      "source_page": 91,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 85,
+      "legacy_page_id": "40d1456e-887e-47f3-bc48-a8c9cafb75fc",
+      "stored_page_number": 91,
+      "source_page": 92,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 86,
+      "legacy_page_id": "73a1bebe-3e1d-441f-9264-32d66fc8cd26",
+      "stored_page_number": 92,
+      "source_page": 93,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 87,
+      "legacy_page_id": "778d9e34-a5ee-479c-903f-462ad92bd46a",
+      "stored_page_number": 93,
+      "source_page": 94,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 88,
+      "legacy_page_id": "b36308c4-f962-42c9-bda9-c1dd14992bea",
+      "stored_page_number": 94,
+      "source_page": 95,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 89,
+      "legacy_page_id": "613d19b6-28d4-44da-b8fc-5d92c5c3b0f9",
+      "stored_page_number": 95,
+      "source_page": 96,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 90,
+      "legacy_page_id": "bbd5fb73-943c-4cd5-a983-52eac3832100",
+      "stored_page_number": 96,
+      "source_page": 97,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 91,
+      "legacy_page_id": "0269f138-fb3d-4158-b858-8c12fb2d7cb7",
+      "stored_page_number": 97,
+      "source_page": 98,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 92,
+      "legacy_page_id": "6acdcffb-fe77-4563-9a45-69c7c510206f",
+      "stored_page_number": 98,
+      "source_page": 99,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 93,
+      "legacy_page_id": "66653bb7-2ab0-4c2f-8dca-7a13aef3802f",
+      "stored_page_number": 99,
+      "source_page": 100,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 94,
+      "legacy_page_id": "bba175e1-1987-4e0b-a07c-18c3724f1e6d",
+      "stored_page_number": 100,
+      "source_page": 101,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 95,
+      "legacy_page_id": "6396517e-3216-4fad-a13c-5c594c733bd5",
+      "stored_page_number": 101,
+      "source_page": 102,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 96,
+      "legacy_page_id": "5760793e-8144-4a51-8523-7d01b843860f",
+      "stored_page_number": 102,
+      "source_page": 103,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 97,
+      "legacy_page_id": "357cddfa-9531-40ad-b283-51653033346e",
+      "stored_page_number": 103,
+      "source_page": 104,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 98,
+      "legacy_page_id": "70c577f6-b3dd-4ba0-b42b-ea434479724c",
+      "stored_page_number": 104,
+      "source_page": 105,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 99,
+      "legacy_page_id": "ceacffe6-be01-471a-9253-12f219d4fc0c",
+      "stored_page_number": 105,
+      "source_page": 106,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 100,
+      "legacy_page_id": "3a72ad54-c7ee-4442-afcf-0c55bc45c171",
+      "stored_page_number": 106,
+      "source_page": 107,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 101,
+      "legacy_page_id": "20eef97e-f430-4e60-819d-6f8598eac9fc",
+      "stored_page_number": 107,
+      "source_page": 108,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 102,
+      "legacy_page_id": "d436a82a-ad5b-4b13-9f49-95b5c839661d",
+      "stored_page_number": 108,
+      "source_page": 109,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 103,
+      "legacy_page_id": "aafcbd43-e756-4103-a8b5-36f3897a9163",
+      "stored_page_number": 109,
+      "source_page": 110,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 104,
+      "legacy_page_id": "f5060b21-15fe-44dc-a8ae-a8d05980daff",
+      "stored_page_number": 110,
+      "source_page": 111,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 105,
+      "legacy_page_id": "20db1945-9db0-4d3c-86ce-f09ca3d66c26",
+      "stored_page_number": 111,
+      "source_page": 112,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 106,
+      "legacy_page_id": "981e4438-85d1-4f51-80fb-eccb8c10aef9",
+      "stored_page_number": 112,
+      "source_page": 113,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 107,
+      "legacy_page_id": "62bba0ff-82f7-42c4-91ca-178227bcee89",
+      "stored_page_number": 113,
+      "source_page": 114,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 108,
+      "legacy_page_id": "6d6dbee2-d38c-4099-b6f5-6cb40c76ebc5",
+      "stored_page_number": 114,
+      "source_page": 115,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 109,
+      "legacy_page_id": "8bdb2b05-6c60-4093-99bb-701bad36e400",
+      "stored_page_number": 115,
+      "source_page": 116,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 110,
+      "legacy_page_id": "dee0b7a6-86bb-4a18-bd9b-7acddc70003f",
+      "stored_page_number": 116,
+      "source_page": 117,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 111,
+      "legacy_page_id": "3dce6991-f852-42f7-8680-0a4917b1d34b",
+      "stored_page_number": 117,
+      "source_page": 118,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 112,
+      "legacy_page_id": "b848cf84-bfe9-4696-9f97-e4a42d365f73",
+      "stored_page_number": 118,
+      "source_page": 119,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 113,
+      "legacy_page_id": "58001742-ad90-498f-b52f-b58e7102221a",
+      "stored_page_number": 119,
+      "source_page": 120,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 114,
+      "legacy_page_id": "34313237-04af-49aa-9c93-fe982636c8b3",
+      "stored_page_number": 120,
+      "source_page": 121,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 115,
+      "legacy_page_id": "ed8823e3-41d1-4464-9029-184528ee020e",
+      "stored_page_number": 121,
+      "source_page": 122,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 116,
+      "legacy_page_id": "23e7e651-905f-4767-8931-0d103555e4c4",
+      "stored_page_number": 122,
+      "source_page": 123,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 117,
+      "legacy_page_id": "6b7d4ce6-2dc5-4015-813d-15e8b883a1f9",
+      "stored_page_number": 123,
+      "source_page": 124,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 118,
+      "legacy_page_id": "ea7c2623-d6a6-434b-9910-54bfbd27d2b8",
+      "stored_page_number": 124,
+      "source_page": 125,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 119,
+      "legacy_page_id": "4d1ffaef-60d1-47c0-aa6b-99365912c8b3",
+      "stored_page_number": 125,
+      "source_page": 126,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 120,
+      "legacy_page_id": "5935a0a0-a852-4c6f-bb07-980f23927b38",
+      "stored_page_number": 126,
+      "source_page": 127,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 121,
+      "legacy_page_id": "d2979af7-befb-4382-b74b-1859d5be8b24",
+      "stored_page_number": 127,
+      "source_page": 128,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 122,
+      "legacy_page_id": "e9ae1cb6-393e-4cac-9727-7e8002f881b4",
+      "stored_page_number": 128,
+      "source_page": 129,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 123,
+      "legacy_page_id": "90a9d517-7239-4c4a-b8d9-d0078452b681",
+      "stored_page_number": 129,
+      "source_page": 130,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 124,
+      "legacy_page_id": "df0da1bb-3198-4458-8808-445cb41029e2",
+      "stored_page_number": 130,
+      "source_page": 131,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 125,
+      "legacy_page_id": "afee970b-9414-4448-9aea-fec593e5c93d",
+      "stored_page_number": 131,
+      "source_page": 132,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 126,
+      "legacy_page_id": "d3905a03-a7f2-4517-94b4-70e7749902ab",
+      "stored_page_number": 132,
+      "source_page": 133,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 127,
+      "legacy_page_id": "fbe83ad5-ffba-4eb6-bd3a-3a6ad124b96a",
+      "stored_page_number": 133,
+      "source_page": 134,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 128,
+      "legacy_page_id": "dce7b139-fb0f-4b6f-af17-83527a3c9ca5",
+      "stored_page_number": 134,
+      "source_page": 135,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 129,
+      "legacy_page_id": "b3281ff9-123c-4e00-8db7-3e3197b4d543",
+      "stored_page_number": 135,
+      "source_page": 136,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 130,
+      "legacy_page_id": "3bddd9b6-7cb1-4062-a08a-3853f2c11619",
+      "stored_page_number": 136,
+      "source_page": 137,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 131,
+      "legacy_page_id": "2a12b50a-0f10-48a0-9230-dced73ebd03c",
+      "stored_page_number": 137,
+      "source_page": 138,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 132,
+      "legacy_page_id": "4d7f590e-6312-4566-8997-8d59588bf024",
+      "stored_page_number": 138,
+      "source_page": 139,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 133,
+      "legacy_page_id": "72d2849b-9774-426a-8d76-28673e155039",
+      "stored_page_number": 139,
+      "source_page": 140,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 134,
+      "legacy_page_id": "f3814516-217c-4a17-925d-3884ddae58b3",
+      "stored_page_number": 140,
+      "source_page": 141,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 135,
+      "legacy_page_id": "c93312dc-9c1d-4c70-bef1-62880edea7bd",
+      "stored_page_number": 141,
+      "source_page": 142,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 136,
+      "legacy_page_id": "ff1e2c47-45de-447f-a87b-e2303de43394",
+      "stored_page_number": 142,
+      "source_page": 143,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 137,
+      "legacy_page_id": "5de4ed58-6210-4963-9894-bf7519154430",
+      "stored_page_number": 143,
+      "source_page": 144,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 138,
+      "legacy_page_id": "536a4836-d8f0-4e6b-a5bb-e499e1757118",
+      "stored_page_number": 144,
+      "source_page": 145,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 139,
+      "legacy_page_id": "82b62665-7f81-4971-a4f8-c623f0231851",
+      "stored_page_number": 145,
+      "source_page": 146,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 140,
+      "legacy_page_id": "f133cbf4-e47e-4e02-872d-674257788179",
+      "stored_page_number": 146,
+      "source_page": 147,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 141,
+      "legacy_page_id": "eaaa24aa-2f73-40fe-acad-5a2a14d1358c",
+      "stored_page_number": 147,
+      "source_page": 148,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 142,
+      "legacy_page_id": "1b91ef05-7cf2-4da4-84e8-c7c1331e5f72",
+      "stored_page_number": 148,
+      "source_page": 149,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 143,
+      "legacy_page_id": "08bc82b3-92e9-4d86-a0c1-9aa3334dc7b2",
+      "stored_page_number": 149,
+      "source_page": 150,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 144,
+      "legacy_page_id": "8bcea11b-2394-4a6b-8550-512baca04e62",
+      "stored_page_number": 150,
+      "source_page": 151,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 145,
+      "legacy_page_id": "4c97e26a-12ca-4361-8dbe-80238078792c",
+      "stored_page_number": 151,
+      "source_page": 152,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 146,
+      "legacy_page_id": "a5d71f5c-0b13-4f45-93c2-9789024af0d3",
+      "stored_page_number": 152,
+      "source_page": 153,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 147,
+      "legacy_page_id": "43a9e09a-c4ad-47fd-bab8-3d423f48adcb",
+      "stored_page_number": 153,
+      "source_page": 154,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 148,
+      "legacy_page_id": "423104e7-9e7e-45e2-bbdf-1642a8915748",
+      "stored_page_number": 154,
+      "source_page": 155,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 149,
+      "legacy_page_id": "7bfbb05d-338d-4667-b0a8-79bc26cd4683",
+      "stored_page_number": 155,
+      "source_page": 156,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 150,
+      "legacy_page_id": "c7bbd3ff-081e-4b24-bddd-bee637acef13",
+      "stored_page_number": 156,
+      "source_page": 157,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 151,
+      "legacy_page_id": "a5c651f3-bbef-446e-8936-723526da108d",
+      "stored_page_number": 157,
+      "source_page": 158,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 152,
+      "legacy_page_id": "984deb15-2a90-4ec7-b475-45025bac62f6",
+      "stored_page_number": 158,
+      "source_page": 159,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 153,
+      "legacy_page_id": "ee1b127c-bd1f-4585-9fca-4e61a1da688f",
+      "stored_page_number": 159,
+      "source_page": 160,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 154,
+      "legacy_page_id": "10af6136-2769-4cd7-a40f-a27ee2cbb41b",
+      "stored_page_number": 160,
+      "source_page": 161,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 155,
+      "legacy_page_id": "1259806f-3705-4676-8a01-71ee5d065c8e",
+      "stored_page_number": 161,
+      "source_page": 162,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 156,
+      "legacy_page_id": "7d3c9996-c6fe-4c3a-b17a-4b5ab6dcb06a",
+      "stored_page_number": 162,
+      "source_page": 163,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 157,
+      "legacy_page_id": "6a307a4a-f433-4620-a31c-c3a7ca7186bd",
+      "stored_page_number": 163,
+      "source_page": 164,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 158,
+      "legacy_page_id": "d7db86f1-f846-4085-9f5d-2366b8b81710",
+      "stored_page_number": 164,
+      "source_page": 165,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 159,
+      "legacy_page_id": "3ac769fd-9f13-4232-aab9-b36ff8c7cd55",
+      "stored_page_number": 165,
+      "source_page": 166,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 160,
+      "legacy_page_id": "7941a7ca-32aa-41f7-bcd2-f33a7f8c6b98",
+      "stored_page_number": 166,
+      "source_page": 167,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 161,
+      "legacy_page_id": "65409c0d-a82b-4381-b4a8-e18f094c005b",
+      "stored_page_number": 167,
+      "source_page": 168,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 162,
+      "legacy_page_id": "7ecb0345-e199-4081-9cc3-a288e98cf312",
+      "stored_page_number": 168,
+      "source_page": 169,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 163,
+      "legacy_page_id": "ac4eeeb1-06a7-4512-b9e3-073e7dc9e6b7",
+      "stored_page_number": 169,
+      "source_page": 170,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 164,
+      "legacy_page_id": "1b5d95a2-288f-4040-84e5-191772d993be",
+      "stored_page_number": 170,
+      "source_page": 171,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 165,
+      "legacy_page_id": "3d41258b-abc4-49df-9049-b95981f4e8fd",
+      "stored_page_number": 171,
+      "source_page": 172,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 166,
+      "legacy_page_id": "e389785a-5614-41fc-b49e-9944aa711ad5",
+      "stored_page_number": 172,
+      "source_page": 173,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 167,
+      "legacy_page_id": "b64a3eb6-9fe2-4d72-ab95-f36ebf4fef68",
+      "stored_page_number": 173,
+      "source_page": 174,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 168,
+      "legacy_page_id": "2036cbeb-0812-423c-9dd7-1b3330d0aa6b",
+      "stored_page_number": 174,
+      "source_page": 175,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 169,
+      "legacy_page_id": "8fb51699-df53-44fc-b5ea-be7f31c59fe2",
+      "stored_page_number": 175,
+      "source_page": 176,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 170,
+      "legacy_page_id": "784c8923-9f38-409b-8270-f5b3c813e8c8",
+      "stored_page_number": 176,
+      "source_page": 177,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 171,
+      "legacy_page_id": "745e3521-e1e3-4626-be05-f99ab8e7e767",
+      "stored_page_number": 177,
+      "source_page": 178,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 172,
+      "legacy_page_id": "00480adf-c618-42ab-82dd-0c224ab43c1a",
+      "stored_page_number": 178,
+      "source_page": 179,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 173,
+      "legacy_page_id": "667b6860-409d-4d5b-a85d-e02d28eb7bb5",
+      "stored_page_number": 179,
+      "source_page": 180,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 174,
+      "legacy_page_id": "9b21d090-30f0-4b47-abbf-a8308db02f43",
+      "stored_page_number": 180,
+      "source_page": 181,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 175,
+      "legacy_page_id": "8d595e7f-cdfe-40cc-8c33-b810db7309e0",
+      "stored_page_number": 181,
+      "source_page": 182,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 176,
+      "legacy_page_id": "1f9a35ab-98bb-4073-b14a-a9b6cf037d94",
+      "stored_page_number": 182,
+      "source_page": 183,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 177,
+      "legacy_page_id": "02cfefbd-3c39-47f9-aa3c-09ff1a956616",
+      "stored_page_number": 183,
+      "source_page": 184,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 178,
+      "legacy_page_id": "4e6ab477-c797-498f-9664-bc5bb796a060",
+      "stored_page_number": 184,
+      "source_page": 185,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 179,
+      "legacy_page_id": "33fe96ae-3b61-4bf5-8dfe-935842b5ff99",
+      "stored_page_number": 185,
+      "source_page": 186,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 180,
+      "legacy_page_id": "998a05f8-aefe-4d77-9a92-8018039a041f",
+      "stored_page_number": 186,
+      "source_page": 187,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 181,
+      "legacy_page_id": "47726f94-64b4-43ca-a57f-bf0176a21ba6",
+      "stored_page_number": 187,
+      "source_page": 188,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 182,
+      "legacy_page_id": "6149c907-21a3-430c-bc36-26913eae4acd",
+      "stored_page_number": 188,
+      "source_page": 189,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 183,
+      "legacy_page_id": "f412d05c-53a1-46d1-94f3-4fe922741219",
+      "stored_page_number": 189,
+      "source_page": 190,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 184,
+      "legacy_page_id": "3155367a-89f1-40a6-a49f-994e80c2ec1a",
+      "stored_page_number": 190,
+      "source_page": 191,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 185,
+      "legacy_page_id": "851ace91-e75a-48dd-bf21-b8c5d10dc52b",
+      "stored_page_number": 191,
+      "source_page": 192,
+      "reason": "identity_mismatch_or_missing_reference"
+    },
+    {
+      "ordinal": 186,
+      "legacy_page_id": "8f781dbc-b0cb-497f-810c-e4a38765db7b",
+      "stored_page_number": 192,
+      "source_page": 193,
+      "reason": "identity_mismatch_or_missing_reference"
+    }
+  ],
+  "identity_status": "NOT VERIFIED",
+  "within_source_duplicate_sha_groups": [],
+  "sections": [
+    {
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "start_stored_page": 7,
+      "end_stored_page": 43,
+      "start_source_page": 8,
+      "end_source_page": 44,
+      "title_runs": [
+        {
+          "title": "العدد المركب",
+          "start_stored_page": 7,
+          "end_stored_page": 10,
+          "start_source_page": 8,
+          "end_source_page": 11
+        },
+        {
+          "title": "جمع وطرح الأعداد المركبة",
+          "start_stored_page": 11,
+          "end_stored_page": 14,
+          "start_source_page": 12,
+          "end_source_page": 15
+        },
+        {
+          "title": "ضرب وقسمة الأعداد المركبة",
+          "start_stored_page": 15,
+          "end_stored_page": 21,
+          "start_source_page": 16,
+          "end_source_page": 22
+        },
+        {
+          "title": "الصورة القطبية للعدد المركب",
+          "start_stored_page": 22,
+          "end_stored_page": 31,
+          "start_source_page": 23,
+          "end_source_page": 32
+        },
+        {
+          "title": "القوى والجذور",
+          "start_stored_page": 32,
+          "end_stored_page": 38,
+          "start_source_page": 33,
+          "end_source_page": 39
+        },
+        {
+          "title": "حل المعادلة من الدرجة الثانية",
+          "start_stored_page": 39,
+          "end_stored_page": 43,
+          "start_source_page": 40,
+          "end_source_page": 44
+        }
+      ]
+    },
+    {
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "start_stored_page": 44,
+      "end_stored_page": 72,
+      "start_source_page": 45,
+      "end_source_page": 73,
+      "title_runs": [
+        {
+          "title": "مبدأ العد",
+          "start_stored_page": 44,
+          "end_stored_page": 47,
+          "start_source_page": 45,
+          "end_source_page": 48
+        },
+        {
+          "title": "التباديل",
+          "start_stored_page": 48,
+          "end_stored_page": 53,
+          "start_source_page": 49,
+          "end_source_page": 54
+        },
+        {
+          "title": "التوافيق",
+          "start_stored_page": 54,
+          "end_stored_page": 63,
+          "start_source_page": 55,
+          "end_source_page": 64
+        },
+        {
+          "title": "مبرهنة ذات الحدين",
+          "start_stored_page": 64,
+          "end_stored_page": 72,
+          "start_source_page": 65,
+          "end_source_page": 73
+        }
+      ]
+    },
+    {
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "start_stored_page": 73,
+      "end_stored_page": 102,
+      "start_source_page": 74,
+      "end_source_page": 103,
+      "title_runs": [
+        {
+          "title": "بعض المبرهنات الأساسية في الاحتمالات",
+          "start_stored_page": 73,
+          "end_stored_page": 77,
+          "start_source_page": 74,
+          "end_source_page": 78
+        },
+        {
+          "title": "بناء النموذج الاحتمالي",
+          "start_stored_page": 78,
+          "end_stored_page": 84,
+          "start_source_page": 79,
+          "end_source_page": 85
+        },
+        {
+          "title": "الاحتمال الشرطي وقانون الضرب والحوادث المستقلة",
+          "start_stored_page": 85,
+          "end_stored_page": 91,
+          "start_source_page": 86,
+          "end_source_page": 92
+        },
+        {
+          "title": "متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي",
+          "start_stored_page": 92,
+          "end_stored_page": 96,
+          "start_source_page": 93,
+          "end_source_page": 97
+        },
+        {
+          "title": "السحب مع الإعادة وبدون إعادة",
+          "start_stored_page": 97,
+          "end_stored_page": 102,
+          "start_source_page": 98,
+          "end_source_page": 103
+        }
+      ]
+    },
+    {
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "start_stored_page": 103,
+      "end_stored_page": 131,
+      "start_source_page": 104,
+      "end_source_page": 132,
+      "title_runs": [
+        {
+          "title": "تمهيد",
+          "start_stored_page": 103,
+          "end_stored_page": 103,
+          "start_source_page": 104,
+          "end_source_page": 104
+        },
+        {
+          "title": "القطع المكافئ",
+          "start_stored_page": 104,
+          "end_stored_page": 108,
+          "start_source_page": 105,
+          "end_source_page": 109
+        },
+        {
+          "title": "القطع الناقص",
+          "start_stored_page": 109,
+          "end_stored_page": 116,
+          "start_source_page": 110,
+          "end_source_page": 117
+        },
+        {
+          "title": "القطع الزائد",
+          "start_stored_page": 117,
+          "end_stored_page": 122,
+          "start_source_page": 118,
+          "end_source_page": 123
+        },
+        {
+          "title": "انسحاب المحاور الإحداثية",
+          "start_stored_page": 123,
+          "end_stored_page": 127,
+          "start_source_page": 124,
+          "end_source_page": 128
+        },
+        {
+          "title": "دوران المحاور الإحداثية",
+          "start_stored_page": 128,
+          "end_stored_page": 131,
+          "start_source_page": 129,
+          "end_source_page": 132
+        }
+      ]
+    },
+    {
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "start_stored_page": 132,
+      "end_stored_page": 152,
+      "start_source_page": 133,
+      "end_source_page": 153,
+      "title_runs": [
+        {
+          "title": "المستقيم العمودي على مستوى",
+          "start_stored_page": 132,
+          "end_stored_page": 140,
+          "start_source_page": 133,
+          "end_source_page": 141
+        },
+        {
+          "title": "العمود والمائل",
+          "start_stored_page": 141,
+          "end_stored_page": 145,
+          "start_source_page": 142,
+          "end_source_page": 146
+        },
+        {
+          "title": "الزاوية الزوجية",
+          "start_stored_page": 146,
+          "end_stored_page": 152,
+          "start_source_page": 147,
+          "end_source_page": 153
+        }
+      ]
+    },
+    {
+      "section": "الوحدة السادسة: التفاضل",
+      "start_stored_page": 153,
+      "end_stored_page": 192,
+      "start_source_page": 154,
+      "end_source_page": 193,
+      "title_runs": [
+        {
+          "title": "نهايات واتصال الدوال المثلثية",
+          "start_stored_page": 153,
+          "end_stored_page": 158,
+          "start_source_page": 154,
+          "end_source_page": 159
+        },
+        {
+          "title": "المشتقات",
+          "start_stored_page": 159,
+          "end_stored_page": 160,
+          "start_source_page": 160,
+          "end_source_page": 161
+        },
+        {
+          "title": "مشتقة تركيب دالتين (قاعدة التسلسل)",
+          "start_stored_page": 161,
+          "end_stored_page": 164,
+          "start_source_page": 162,
+          "end_source_page": 165
+        },
+        {
+          "title": "مشتقة الدالة الضمنية",
+          "start_stored_page": 165,
+          "end_stored_page": 169,
+          "start_source_page": 166,
+          "end_source_page": 170
+        },
+        {
+          "title": "مشتقة الدالة اللوغاريتمية والأسية",
+          "start_stored_page": 170,
+          "end_stored_page": 173,
+          "start_source_page": 171,
+          "end_source_page": 174
+        },
+        {
+          "title": "مشتقة الدوال المثلثية",
+          "start_stored_page": 174,
+          "end_stored_page": 181,
+          "start_source_page": 175,
+          "end_source_page": 182
+        },
+        {
+          "title": "مبرهنة رول والقيمة المتوسطة",
+          "start_stored_page": 182,
+          "end_stored_page": 185,
+          "start_source_page": 183,
+          "end_source_page": 186
+        },
+        {
+          "title": "القيم القصوى",
+          "start_stored_page": 186,
+          "end_stored_page": 192,
+          "start_source_page": 187,
+          "end_source_page": 193
+        }
+      ]
+    }
+  ],
+  "page_map": [
+    {
+      "ordinal": 1,
+      "stored_page_number": 7,
+      "source_page": 8,
+      "legacy_page_id": "85ecba77-616f-44e4-9aa5-1d1c2cccaa18",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "العدد المركب",
+      "book_page": 8,
+      "raw_sha256": "77d4816b91d22020dced06cf87eb22ec3f6ef5bdaa1ec95f04e8a679f25fa1ff",
+      "master_relative_path": "الصور/ص008 - العدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 11
+    },
+    {
+      "ordinal": 2,
+      "stored_page_number": 8,
+      "source_page": 9,
+      "legacy_page_id": "48152208-b833-4168-844e-452653808ebc",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "العدد المركب",
+      "book_page": 9,
+      "raw_sha256": "1299cbd875c5f24c4bc102eea017fb6f0c448009aefa3a34a8e12774ded5dbc2",
+      "master_relative_path": "الصور/ص009 - العدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 3,
+      "stored_page_number": 9,
+      "source_page": 10,
+      "legacy_page_id": "b50f8a15-97ae-47b2-aed4-66ed7f01b523",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "العدد المركب",
+      "book_page": 10,
+      "raw_sha256": "e3c48c2d6ab79ebd0455546dbf6c028c5ab36639c9826b133f08bb0df04befe5",
+      "master_relative_path": "الصور/ص010 - العدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 13
+    },
+    {
+      "ordinal": 4,
+      "stored_page_number": 10,
+      "source_page": 11,
+      "legacy_page_id": "923b0089-6d3f-486b-8275-a39cd6450513",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "العدد المركب",
+      "book_page": 11,
+      "raw_sha256": "9fcf2e2a9a3db8320e3754c5870a4d0112213bc84eddb3a2c3e3a1374d8b4ef5",
+      "master_relative_path": "الصور/ص011 - العدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 5,
+      "stored_page_number": 11,
+      "source_page": 12,
+      "legacy_page_id": "790656e7-cfa4-4bed-ac0f-bf65ec210d2f",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "جمع وطرح الأعداد المركبة",
+      "book_page": 12,
+      "raw_sha256": "5d8fe524ab3cb47c92e55f56960d5f121a3d672f956780d8ec14d21a921923c0",
+      "master_relative_path": "الصور/ص012 - جمع وطرح الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 6,
+      "stored_page_number": 12,
+      "source_page": 13,
+      "legacy_page_id": "0799c5b3-8129-4350-9596-c457a7fe667c",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "جمع وطرح الأعداد المركبة",
+      "book_page": 13,
+      "raw_sha256": "e1be1b7ec210d4cace3f7c770585b33a8cde0c1965db57f078d3c3bcab078093",
+      "master_relative_path": "الصور/ص013 - جمع وطرح الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 7,
+      "stored_page_number": 13,
+      "source_page": 14,
+      "legacy_page_id": "037bb554-fbfe-4325-904e-8d3576e83505",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "جمع وطرح الأعداد المركبة",
+      "book_page": 14,
+      "raw_sha256": "1f315f21420ac541911992a76f1fe329a3c883fb8e42346e08707784d6f5f41c",
+      "master_relative_path": "الصور/ص014 - جمع وطرح الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 8,
+      "stored_page_number": 14,
+      "source_page": 15,
+      "legacy_page_id": "a0a29c58-f929-459b-94d2-5e0f64320895",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "جمع وطرح الأعداد المركبة",
+      "book_page": 15,
+      "raw_sha256": "500b92d1a82b9c53d44b85610788c4f2c86fe656e87a88f6f25f6d8c45e1f280",
+      "master_relative_path": "الصور/ص015 - جمع وطرح الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 9,
+      "stored_page_number": 15,
+      "source_page": 16,
+      "legacy_page_id": "31f0a0fb-dbc7-4d98-8950-ffa2d7a83d3e",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "ضرب وقسمة الأعداد المركبة",
+      "book_page": 16,
+      "raw_sha256": "dafb6430454dd76e89d79eae7761c6f15be59076f010e5790852bd975fb8d38a",
+      "master_relative_path": "الصور/ص016 - ضرب وقسمة الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 13
+    },
+    {
+      "ordinal": 10,
+      "stored_page_number": 16,
+      "source_page": 17,
+      "legacy_page_id": "f9a9c562-995e-4fd3-8619-9bf75d68df26",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "ضرب وقسمة الأعداد المركبة",
+      "book_page": 17,
+      "raw_sha256": "d3e6db6b1c56c35bc87e96571895cfd8c3259f8b813ffe3270f3dc34796c2870",
+      "master_relative_path": "الصور/ص017 - ضرب وقسمة الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 11,
+      "stored_page_number": 17,
+      "source_page": 18,
+      "legacy_page_id": "5cbd42ae-8a58-4ac1-8ab2-6788d8904b5f",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "ضرب وقسمة الأعداد المركبة",
+      "book_page": 18,
+      "raw_sha256": "9ad1a7c4c9632e59a77ec5aa30171b85085433aad6df0a69683e513905cb96d1",
+      "master_relative_path": "الصور/ص018 - ضرب وقسمة الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 12,
+      "stored_page_number": 18,
+      "source_page": 19,
+      "legacy_page_id": "a30977bd-7f30-435e-9c0d-80805d067a36",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "ضرب وقسمة الأعداد المركبة",
+      "book_page": 19,
+      "raw_sha256": "08070596f909a05bef86df1ff3eea5a2908260855b9042b46c1b6cc1671043db",
+      "master_relative_path": "الصور/ص019 - ضرب وقسمة الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 10
+    },
+    {
+      "ordinal": 13,
+      "stored_page_number": 19,
+      "source_page": 20,
+      "legacy_page_id": "3e065657-2b88-4293-8824-e152cd568e53",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "ضرب وقسمة الأعداد المركبة",
+      "book_page": 20,
+      "raw_sha256": "d7e3267774b2d1418681bf750ba82d316e76e9951b1d1e2d9d227f35acbf65fd",
+      "master_relative_path": "الصور/ص020 - ضرب وقسمة الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 14,
+      "stored_page_number": 20,
+      "source_page": 21,
+      "legacy_page_id": "1a83158e-2949-418e-a0fc-95235fe61e8c",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "ضرب وقسمة الأعداد المركبة",
+      "book_page": 21,
+      "raw_sha256": "366b9617a368b9c0b94d292d5001b92a693a44a502f2e3d723308c575dabfcbe",
+      "master_relative_path": "الصور/ص021 - ضرب وقسمة الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 15,
+      "stored_page_number": 21,
+      "source_page": 22,
+      "legacy_page_id": "76f54760-7c4d-4fbd-837d-86ba126d0132",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "ضرب وقسمة الأعداد المركبة",
+      "book_page": 22,
+      "raw_sha256": "1470fcff614d496ca12c534beae7c91663bb2be1f4635e24f64003f0b68c0432",
+      "master_relative_path": "الصور/ص022 - ضرب وقسمة الأعداد المركبة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 16,
+      "stored_page_number": 22,
+      "source_page": 23,
+      "legacy_page_id": "2582fa8b-a210-4642-99a6-f31d334cfa73",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "الصورة القطبية للعدد المركب",
+      "book_page": 23,
+      "raw_sha256": "bf34a9e6378f261dcd7703b982ddcac62b5afc80e017dcc45ff6fd87e4a63fe6",
+      "master_relative_path": "الصور/ص023 - الصورة القطبية للعدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 17,
+      "stored_page_number": 23,
+      "source_page": 24,
+      "legacy_page_id": "36eee87d-a59d-49e7-9218-60deb2229df4",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "الصورة القطبية للعدد المركب",
+      "book_page": 24,
+      "raw_sha256": "0db453b899b0b44fbcbff93e2506dedb9229833d49331a703e861ac1e597b1cc",
+      "master_relative_path": "الصور/ص024 - الصورة القطبية للعدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 18,
+      "stored_page_number": 24,
+      "source_page": 25,
+      "legacy_page_id": "2c9f1f4d-d0ec-4733-a36e-33eba8034940",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "الصورة القطبية للعدد المركب",
+      "book_page": 25,
+      "raw_sha256": "a33455a4d58427fbb965ab746bac03e1bc7587a9245be395fb2c52159ebc948a",
+      "master_relative_path": "الصور/ص025 - الصورة القطبية للعدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 19,
+      "stored_page_number": 25,
+      "source_page": 26,
+      "legacy_page_id": "7ccd94d6-aebb-402b-8f05-e3059356e509",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "الصورة القطبية للعدد المركب",
+      "book_page": 26,
+      "raw_sha256": "99a2e24fca8056929bdbc90f3641928b49b6f0124c7cf743c38b3ecae36c9bf2",
+      "master_relative_path": "الصور/ص026 - الصورة القطبية للعدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 20,
+      "stored_page_number": 26,
+      "source_page": 27,
+      "legacy_page_id": "391d4984-5e65-4e06-adb3-12372a350de7",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "الصورة القطبية للعدد المركب",
+      "book_page": 27,
+      "raw_sha256": "6b2941cf5245091bb231a29328149afd192e6971e6e799b928e4458cccd492fe",
+      "master_relative_path": "الصور/ص027 - الصورة القطبية للعدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 21,
+      "stored_page_number": 27,
+      "source_page": 28,
+      "legacy_page_id": "31db464a-2ff3-4dd0-b520-fb81bb3d291b",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "الصورة القطبية للعدد المركب",
+      "book_page": 28,
+      "raw_sha256": "32172c75d8fc6cf3186ad05310e1d2472cc88a6c2fe4c9f1c2ced4a0b2b503dc",
+      "master_relative_path": "الصور/ص028 - الصورة القطبية للعدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 22,
+      "stored_page_number": 28,
+      "source_page": 29,
+      "legacy_page_id": "5493e828-ed07-484c-905d-f84825621dc0",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "الصورة القطبية للعدد المركب",
+      "book_page": 29,
+      "raw_sha256": "e3ce9c574943086b9dad2a7a5e385e1878dcabf668e462284c75c70898c4f7e9",
+      "master_relative_path": "الصور/ص029 - الصورة القطبية للعدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 23,
+      "stored_page_number": 29,
+      "source_page": 30,
+      "legacy_page_id": "ab765e9d-6c2a-44c5-a402-ccfa61710592",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "الصورة القطبية للعدد المركب",
+      "book_page": 30,
+      "raw_sha256": "450fd90363421fcf4609d739802da413a86bdde5c6bbeee49c7be20dc94f692e",
+      "master_relative_path": "الصور/ص030 - الصورة القطبية للعدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 24,
+      "stored_page_number": 30,
+      "source_page": 31,
+      "legacy_page_id": "f8e5953a-fc2d-437c-9e2d-d45b975b54c7",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "الصورة القطبية للعدد المركب",
+      "book_page": 31,
+      "raw_sha256": "6ffc6a1b88db350aab80cead5cd3b8b433ae60d7b42f48ac3d76e0837c78a402",
+      "master_relative_path": "الصور/ص031 - الصورة القطبية للعدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 25,
+      "stored_page_number": 31,
+      "source_page": 32,
+      "legacy_page_id": "7d524b4b-0c0c-4f1f-8851-bfe70051b30e",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "الصورة القطبية للعدد المركب",
+      "book_page": 32,
+      "raw_sha256": "b344cd0dcb46d78fa10372b8d7a9dd207b123cd61a0a2f25c9c5dcd74843aaf8",
+      "master_relative_path": "الصور/ص032 - الصورة القطبية للعدد المركب.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 26,
+      "stored_page_number": 32,
+      "source_page": 33,
+      "legacy_page_id": "6147058a-14bd-4edb-9a74-70b120f02928",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "القوى والجذور",
+      "book_page": 33,
+      "raw_sha256": "1eb85dadc52e2f6a27e0726ecd533e806c8b83dfd2e9995c77e258e23b16ffc4",
+      "master_relative_path": "الصور/ص033 - القوى والجذور.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 27,
+      "stored_page_number": 33,
+      "source_page": 34,
+      "legacy_page_id": "12a57265-8f36-4aea-86a9-90fd0f09c2ef",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "القوى والجذور",
+      "book_page": 34,
+      "raw_sha256": "d0a575ccaf733f0b5870c95a58aacb6e84b9146b6f82e761b32cbbd2231baf37",
+      "master_relative_path": "الصور/ص034 - القوى والجذور.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 28,
+      "stored_page_number": 34,
+      "source_page": 35,
+      "legacy_page_id": "481e9994-8469-476a-bde7-7b1e6e63180b",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "القوى والجذور",
+      "book_page": 35,
+      "raw_sha256": "4cf7371cd8413340fd15927fc0ffbe698aadef2cc2256addb086252efdfe141a",
+      "master_relative_path": "الصور/ص035 - القوى والجذور.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 29,
+      "stored_page_number": 35,
+      "source_page": 36,
+      "legacy_page_id": "69195658-8ac5-44fe-9ddd-83cd77c10a83",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "القوى والجذور",
+      "book_page": 36,
+      "raw_sha256": "8bcac12f5dbd29d8ae7eee4108094b8a664f92e20761c6c0e040b24fbac0e66d",
+      "master_relative_path": "الصور/ص036 - القوى والجذور.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 30,
+      "stored_page_number": 36,
+      "source_page": 37,
+      "legacy_page_id": "3c7e9b45-4bd4-45bf-a680-5788d39dfdc5",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "القوى والجذور",
+      "book_page": 37,
+      "raw_sha256": "a928b3ccd1daed7d796043fb7fd75f8d4a5a1e9bc05240f79271524029da68e0",
+      "master_relative_path": "الصور/ص037 - القوى والجذور.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 11
+    },
+    {
+      "ordinal": 31,
+      "stored_page_number": 37,
+      "source_page": 38,
+      "legacy_page_id": "c4716cfb-4c56-4ad3-9265-d74b1d577e22",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "القوى والجذور",
+      "book_page": 38,
+      "raw_sha256": "3f3a703bfdeba815e6e0a2bdcfb0c92623e9c1cd4800d153d4e1d5bef8d068eb",
+      "master_relative_path": "الصور/ص038 - القوى والجذور.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 32,
+      "stored_page_number": 38,
+      "source_page": 39,
+      "legacy_page_id": "04470bb9-bf4d-42fb-ac41-a0cb851cb9ea",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "القوى والجذور",
+      "book_page": 39,
+      "raw_sha256": "8014f3f573234bb72f6ce5185e346c398d074748a116ad453ff91cc3c1b070da",
+      "master_relative_path": "الصور/ص039 - القوى والجذور.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 13
+    },
+    {
+      "ordinal": 33,
+      "stored_page_number": 39,
+      "source_page": 40,
+      "legacy_page_id": "de5afb3f-9e8d-411b-83cb-fc58a2212a1a",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "حل المعادلة من الدرجة الثانية",
+      "book_page": 40,
+      "raw_sha256": "19a03ffafef6bd638106249edc011c86c6e93d72dc87205103ef08e6af2e3243",
+      "master_relative_path": "الصور/ص040 - حل المعادلة من الدرجة الثانية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 34,
+      "stored_page_number": 40,
+      "source_page": 41,
+      "legacy_page_id": "4037f4df-15fb-4bc7-b300-ad30f4ae0a05",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "حل المعادلة من الدرجة الثانية",
+      "book_page": 41,
+      "raw_sha256": "321526008c77c1d5d014c369bc7865b8eec72c44faa6b64e682bea3b65acd6a7",
+      "master_relative_path": "الصور/ص041 - حل المعادلة من الدرجة الثانية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 35,
+      "stored_page_number": 41,
+      "source_page": 42,
+      "legacy_page_id": "cdc4bdf9-43b1-4f58-81ac-cb8dfd938e50",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "حل المعادلة من الدرجة الثانية",
+      "book_page": 42,
+      "raw_sha256": "fb1aa25f62ffd1d288f2532d717d35a5eeeb77af755330258c0831a6a5b3d558",
+      "master_relative_path": "الصور/ص042 - حل المعادلة من الدرجة الثانية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 10
+    },
+    {
+      "ordinal": 36,
+      "stored_page_number": 42,
+      "source_page": 43,
+      "legacy_page_id": "576b0db1-71d0-4420-a3a1-a4bdb5130645",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "حل المعادلة من الدرجة الثانية",
+      "book_page": 43,
+      "raw_sha256": "6877718da7428916781e8848a88bc185817321206a1a172f4e9277266bc303b5",
+      "master_relative_path": "الصور/ص043 - حل المعادلة من الدرجة الثانية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 37,
+      "stored_page_number": 43,
+      "source_page": 44,
+      "legacy_page_id": "5709ee2b-302f-40cd-9f91-55dcdb54ea84",
+      "section": "الوحدة الأولى: الأعداد المركبة",
+      "title": "حل المعادلة من الدرجة الثانية",
+      "book_page": 44,
+      "raw_sha256": "eb757936ed0cf91b2454637d90afde05592eda0a9fc3771474618eb610894d95",
+      "master_relative_path": "الصور/ص044 - حل المعادلة من الدرجة الثانية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 38,
+      "stored_page_number": 44,
+      "source_page": 45,
+      "legacy_page_id": "d1844dae-afdb-458f-ac98-6dbe73896add",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبدأ العد",
+      "book_page": 45,
+      "raw_sha256": "fb74b5e86b3c292d6124b21cb1074aa1490eed6a575f408e7e895ab95d9d06fb",
+      "master_relative_path": "الصور/ص045 - مبدأ العد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 39,
+      "stored_page_number": 45,
+      "source_page": 46,
+      "legacy_page_id": "7b5e1a72-d38f-4ba4-aac7-706550a1b757",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبدأ العد",
+      "book_page": 46,
+      "raw_sha256": "38a3d6de3db7249fbf1a53b8af6a8ada8c89252df1c3edba75ea61574fbf602c",
+      "master_relative_path": "الصور/ص046 - مبدأ العد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 40,
+      "stored_page_number": 46,
+      "source_page": 47,
+      "legacy_page_id": "9390b599-aaef-4f48-bdcb-2c3b2c8c20aa",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبدأ العد",
+      "book_page": 47,
+      "raw_sha256": "353640a8426826a2d86d8d592027931b9c20165d33fba21d64f70aa08bcd62cf",
+      "master_relative_path": "الصور/ص047 - مبدأ العد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 41,
+      "stored_page_number": 47,
+      "source_page": 48,
+      "legacy_page_id": "e439cdce-899e-4746-b918-ddbe5c5842ef",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبدأ العد",
+      "book_page": 48,
+      "raw_sha256": "d78b509014baa446d15d7650181747c63b2babe10420205001e1eddad69f4d6f",
+      "master_relative_path": "الصور/ص048 - مبدأ العد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 42,
+      "stored_page_number": 48,
+      "source_page": 49,
+      "legacy_page_id": "55540607-5182-4d02-b7c4-2bf2ae4bf05d",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التباديل",
+      "book_page": 49,
+      "raw_sha256": "601ccf7f7fdabd5f9e40e5d835e8442c60c8652ae206c1a3d3609d37b92cc43e",
+      "master_relative_path": "الصور/ص049 - التباديل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 43,
+      "stored_page_number": 49,
+      "source_page": 50,
+      "legacy_page_id": "01ea0d11-7555-485b-85cd-e3142bf85e0e",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التباديل",
+      "book_page": 50,
+      "raw_sha256": "345cab0b166004cb3d395d6125eede97840142176d2da30e2bb10ab5b38cda30",
+      "master_relative_path": "الصور/ص050 - التباديل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 44,
+      "stored_page_number": 50,
+      "source_page": 51,
+      "legacy_page_id": "9bf2358d-193a-40eb-bcaf-575e82130443",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التباديل",
+      "book_page": 51,
+      "raw_sha256": "bb3f95321bd14e62ef6057e17531043540c6b95d19dfa58509575263a95ab3cc",
+      "master_relative_path": "الصور/ص051 - التباديل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 45,
+      "stored_page_number": 51,
+      "source_page": 52,
+      "legacy_page_id": "2a34f8cc-a309-4374-ad02-76a01793bfab",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التباديل",
+      "book_page": 52,
+      "raw_sha256": "7dff5e7d7c22efc4d4f16dc6ef0b37902c225ea924d6eefcd5e02156fae1dc52",
+      "master_relative_path": "الصور/ص052 - التباديل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 46,
+      "stored_page_number": 52,
+      "source_page": 53,
+      "legacy_page_id": "f03ad003-4e36-49ab-9b03-1a9234ecbaf4",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التباديل",
+      "book_page": 53,
+      "raw_sha256": "d4980d1e80d68aa25608122d50a86b57112da90adda615be90f2e19ce495f519",
+      "master_relative_path": "الصور/ص053 - التباديل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 13
+    },
+    {
+      "ordinal": 47,
+      "stored_page_number": 53,
+      "source_page": 54,
+      "legacy_page_id": "f84b92fd-0f61-408b-9042-182cade8092f",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التباديل",
+      "book_page": 54,
+      "raw_sha256": "512cae9f9ae8e5dbf5c5a11f9ec94f32c1d36f0cc64532767ac51edfc775b187",
+      "master_relative_path": "الصور/ص054 - التباديل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 48,
+      "stored_page_number": 54,
+      "source_page": 55,
+      "legacy_page_id": "03629b3e-16da-4f8c-bd0e-6ce58105f701",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التوافيق",
+      "book_page": 55,
+      "raw_sha256": "d104e61796b647acd3412e170b046d3dcf8253f6a7ad38607f36285eaa5c37f3",
+      "master_relative_path": "الصور/ص055 - التوافيق.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 14
+    },
+    {
+      "ordinal": 49,
+      "stored_page_number": 55,
+      "source_page": 56,
+      "legacy_page_id": "1a56dd9b-d3ec-44c4-b0ca-cee7dcce5fb2",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التوافيق",
+      "book_page": 56,
+      "raw_sha256": "350e9a9f2abf5a92c298cda2b0ece5d754e8aa281dde4298fc9ad1383a01d15e",
+      "master_relative_path": "الصور/ص056 - التوافيق.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 50,
+      "stored_page_number": 56,
+      "source_page": 57,
+      "legacy_page_id": "fb93f825-2663-490f-bb6a-cb1b55dd6eed",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التوافيق",
+      "book_page": 57,
+      "raw_sha256": "739b1fd0e5110ede503c3ff6dfb2d8616f1585412941dfa6c8112daafc2fd89b",
+      "master_relative_path": "الصور/ص057 - التوافيق.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 51,
+      "stored_page_number": 57,
+      "source_page": 58,
+      "legacy_page_id": "aa71e24d-299f-4fcd-bc2f-cb2edb99b2b6",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التوافيق",
+      "book_page": 58,
+      "raw_sha256": "5ed9f2944d65cb3965c60886433727d40008022ab9154e92d0efebb2eb53cb17",
+      "master_relative_path": "الصور/ص058 - التوافيق.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 52,
+      "stored_page_number": 58,
+      "source_page": 59,
+      "legacy_page_id": "e63f1100-6d33-41c7-accc-7de8e2281227",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التوافيق",
+      "book_page": 59,
+      "raw_sha256": "b1973df219ab4dc986f81b0f955fb1dc8e514c9c9267b5946dc73283af2f21a0",
+      "master_relative_path": "الصور/ص059 - التوافيق.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 53,
+      "stored_page_number": 59,
+      "source_page": 60,
+      "legacy_page_id": "bd12cd0e-fb1e-49b5-b492-1e83acdb3698",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التوافيق",
+      "book_page": 60,
+      "raw_sha256": "2b159e72e6cb3e60ee08d8c39d6af00188231ec83a582769b6d20cd934467d21",
+      "master_relative_path": "الصور/ص060 - التوافيق.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 10
+    },
+    {
+      "ordinal": 54,
+      "stored_page_number": 60,
+      "source_page": 61,
+      "legacy_page_id": "2c196ea3-c278-4c35-8f0a-da3d3da86a51",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التوافيق",
+      "book_page": 61,
+      "raw_sha256": "c8483a495d2f46a7e39bb9583d659a54e97f9e05c0d684c1ccf6a91974d6963b",
+      "master_relative_path": "الصور/ص061 - التوافيق.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 13
+    },
+    {
+      "ordinal": 55,
+      "stored_page_number": 61,
+      "source_page": 62,
+      "legacy_page_id": "0a961085-d077-4c20-9c96-928e12b82aa9",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التوافيق",
+      "book_page": 62,
+      "raw_sha256": "7d047c273381a7a9db33f662990aadb98643a58feb9c8707b943b16cf3ab284f",
+      "master_relative_path": "الصور/ص062 - التوافيق.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 56,
+      "stored_page_number": 62,
+      "source_page": 63,
+      "legacy_page_id": "39567b51-56a2-40e5-b6ef-61965909e8c2",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التوافيق",
+      "book_page": 63,
+      "raw_sha256": "b0f5b6eb04eaf478bf398e58cfdd3f7119a9ed129f5557cac7dd482c82009881",
+      "master_relative_path": "الصور/ص063 - التوافيق.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 57,
+      "stored_page_number": 63,
+      "source_page": 64,
+      "legacy_page_id": "75622ef4-e10b-4634-b198-b0ee8d15f066",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "التوافيق",
+      "book_page": 64,
+      "raw_sha256": "d88ea9ec3811e7ea139bb3aca230ce265cf332d05f56eeb16ffc717af00a21ee",
+      "master_relative_path": "الصور/ص064 - التوافيق.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 58,
+      "stored_page_number": 64,
+      "source_page": 65,
+      "legacy_page_id": "e097bedd-39bd-4d06-b3bc-cba5326feef0",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبرهنة ذات الحدين",
+      "book_page": 65,
+      "raw_sha256": "5609fce2ef6f958ba96acdb148286ec46c881a547a756747f6dc6cd0153f5a78",
+      "master_relative_path": "الصور/ص065 - مبرهنة ذات الحدين.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 59,
+      "stored_page_number": 65,
+      "source_page": 66,
+      "legacy_page_id": "4f84972b-c739-42aa-ba43-8dff52514f14",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبرهنة ذات الحدين",
+      "book_page": 66,
+      "raw_sha256": "6cc99511276e573238c18c4f02ff73d24b923658dd38cf8defce5c3cb23e9313",
+      "master_relative_path": "الصور/ص066 - مبرهنة ذات الحدين.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 60,
+      "stored_page_number": 66,
+      "source_page": 67,
+      "legacy_page_id": "c08306e4-b2c3-420d-90eb-00f08c5baa4b",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبرهنة ذات الحدين",
+      "book_page": 67,
+      "raw_sha256": "5b66b474766ce3bcb3c7a33cb4bd444fdc9bfd8df2311aa1d734a0f71cfb4bdf",
+      "master_relative_path": "الصور/ص067 - مبرهنة ذات الحدين.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 10
+    },
+    {
+      "ordinal": 61,
+      "stored_page_number": 67,
+      "source_page": 68,
+      "legacy_page_id": "e8014b04-514d-49a2-a81a-40c708def4c8",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبرهنة ذات الحدين",
+      "book_page": 68,
+      "raw_sha256": "0a0008b7e99127d2432fec783ee6631dbd789106a3e01757924c918fbd754021",
+      "master_relative_path": "الصور/ص068 - مبرهنة ذات الحدين.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 62,
+      "stored_page_number": 68,
+      "source_page": 69,
+      "legacy_page_id": "d78ee132-9891-464e-99d2-5665306b6a04",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبرهنة ذات الحدين",
+      "book_page": 69,
+      "raw_sha256": "f63c6910bd2a909c17c1c979b9fb29afc1a17a8cf1a3cd303fa1c287e8bd8244",
+      "master_relative_path": "الصور/ص069 - مبرهنة ذات الحدين.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 63,
+      "stored_page_number": 69,
+      "source_page": 70,
+      "legacy_page_id": "08e7b39a-393d-47f6-8280-b628b4d23fe1",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبرهنة ذات الحدين",
+      "book_page": 70,
+      "raw_sha256": "33b8b0e4089da9f14eb6ffef82f49d30904a8209e0e532e39a94839bffd4611f",
+      "master_relative_path": "الصور/ص070 - مبرهنة ذات الحدين.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 12
+    },
+    {
+      "ordinal": 64,
+      "stored_page_number": 70,
+      "source_page": 71,
+      "legacy_page_id": "f346a25c-b927-49f3-b389-e9f1e5294fa7",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبرهنة ذات الحدين",
+      "book_page": 71,
+      "raw_sha256": "4bcb99dc1551c7c1057aaa2b8dca401efd47d40b012637a8f38e7066f27e9e7d",
+      "master_relative_path": "الصور/ص071 - مبرهنة ذات الحدين.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 65,
+      "stored_page_number": 71,
+      "source_page": 72,
+      "legacy_page_id": "6eb5daf1-2a29-424b-9779-79e8fcddf47a",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبرهنة ذات الحدين",
+      "book_page": 72,
+      "raw_sha256": "5be8d9256f5f4442cf332f441d59388507c4bc98f4da69803e6f1f1e5b6fad77",
+      "master_relative_path": "الصور/ص072 - مبرهنة ذات الحدين.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 66,
+      "stored_page_number": 72,
+      "source_page": 73,
+      "legacy_page_id": "6894b61c-faa7-4d07-a5e8-c434c8bbca82",
+      "section": "الوحدة الثانية: مبدأ العد ومبرهنة ذات الحدين",
+      "title": "مبرهنة ذات الحدين",
+      "book_page": 73,
+      "raw_sha256": "402332e5f594d7faf0aac77e5570044486cdbecb7848c2235db2088e2af7df02",
+      "master_relative_path": "الصور/ص073 - مبرهنة ذات الحدين.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 67,
+      "stored_page_number": 73,
+      "source_page": 74,
+      "legacy_page_id": "4b0492a7-f9ef-4763-866c-6889603d244d",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بعض المبرهنات الأساسية في الاحتمالات",
+      "book_page": 74,
+      "raw_sha256": "9cc012c0240e2fc691cf42b1b0a6a81c19c83d3c1cd6c3081147cf7d03c874a5",
+      "master_relative_path": "الصور/ص074 - بعض المبرهنات الأساسية في الاحتمالات.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 68,
+      "stored_page_number": 74,
+      "source_page": 75,
+      "legacy_page_id": "664b295a-1180-42e8-8cb4-d7ac37bda27d",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بعض المبرهنات الأساسية في الاحتمالات",
+      "book_page": 75,
+      "raw_sha256": "8a5fbf08dcc60809fcb64f217a84744ce05b2d48356e8394fc8284e3c0c31adf",
+      "master_relative_path": "الصور/ص075 - بعض المبرهنات الأساسية في الاحتمالات.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 69,
+      "stored_page_number": 75,
+      "source_page": 76,
+      "legacy_page_id": "13404c00-dbd1-49bc-b8b2-d9226f26e9b0",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بعض المبرهنات الأساسية في الاحتمالات",
+      "book_page": 76,
+      "raw_sha256": "52a95f82924f5d1ba48c092887cc403b5f223f7fc5c0f11b9417502ded3afb08",
+      "master_relative_path": "الصور/ص076 - بعض المبرهنات الأساسية في الاحتمالات.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 70,
+      "stored_page_number": 76,
+      "source_page": 77,
+      "legacy_page_id": "2cf0d233-d376-430e-a131-f96c5c5fef17",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بعض المبرهنات الأساسية في الاحتمالات",
+      "book_page": 77,
+      "raw_sha256": "939292eddf05fb9edd8342aa1f0fbefeda8b8f02c565337bcef652f6b2d0505f",
+      "master_relative_path": "الصور/ص077 - بعض المبرهنات الأساسية في الاحتمالات.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 71,
+      "stored_page_number": 77,
+      "source_page": 78,
+      "legacy_page_id": "f295e27e-dbc3-4e1b-8da9-8fe85d5c5071",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بعض المبرهنات الأساسية في الاحتمالات",
+      "book_page": 78,
+      "raw_sha256": "fbdce30e5472693595d97d00b318ea2783dba2f4f1895ed31bfe0812c0363e9e",
+      "master_relative_path": "الصور/ص078 - بعض المبرهنات الأساسية في الاحتمالات.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 72,
+      "stored_page_number": 78,
+      "source_page": 79,
+      "legacy_page_id": "17fcaeab-7906-43ed-9235-4b073ed702fb",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بناء النموذج الاحتمالي",
+      "book_page": 79,
+      "raw_sha256": "9e15dd4a398b0fba15f9fb9b6812b303097f0bdafc41c42df596c0ad0b9e7c4b",
+      "master_relative_path": "الصور/ص079 - بناء النموذج الاحتمالي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 73,
+      "stored_page_number": 79,
+      "source_page": 80,
+      "legacy_page_id": "1cbb821f-6864-4da6-bd83-80ad6f65dcfa",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بناء النموذج الاحتمالي",
+      "book_page": 80,
+      "raw_sha256": "63d07d22da5b2c31114c026d7d4da7237365021cd1d797d7e149c30c6c19ac9a",
+      "master_relative_path": "الصور/ص080 - بناء النموذج الاحتمالي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 74,
+      "stored_page_number": 80,
+      "source_page": 81,
+      "legacy_page_id": "ad8395d4-cfaa-4557-942e-4179e534e519",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بناء النموذج الاحتمالي",
+      "book_page": 81,
+      "raw_sha256": "0614915066ac3e7d72b39ac8970e249a9479f74a71373161adb2f6b8be557be4",
+      "master_relative_path": "الصور/ص081 - بناء النموذج الاحتمالي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 75,
+      "stored_page_number": 81,
+      "source_page": 82,
+      "legacy_page_id": "6db3a737-deb3-44e6-bbb6-52010ab31ed8",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بناء النموذج الاحتمالي",
+      "book_page": 82,
+      "raw_sha256": "97171e3f56175d3a5b2baffb65cc7164a927ace815a38189cf13d3bf6122f6c7",
+      "master_relative_path": "الصور/ص082 - بناء النموذج الاحتمالي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 76,
+      "stored_page_number": 82,
+      "source_page": 83,
+      "legacy_page_id": "35823553-a559-4fc3-b06e-c78f96e95e08",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بناء النموذج الاحتمالي",
+      "book_page": 83,
+      "raw_sha256": "510ba8f6584d05490f8bf7d20e94783632fc39165433eb07b923b4712d49370e",
+      "master_relative_path": "الصور/ص083 - بناء النموذج الاحتمالي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 77,
+      "stored_page_number": 83,
+      "source_page": 84,
+      "legacy_page_id": "4bc8578a-1399-44e5-9ca0-74ae0c604dee",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بناء النموذج الاحتمالي",
+      "book_page": 84,
+      "raw_sha256": "00c2a9eee9fdb7a1e16345d9f7a1cdce19fe91c3d04ae36130bbe3816cc3fb22",
+      "master_relative_path": "الصور/ص084 - بناء النموذج الاحتمالي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 78,
+      "stored_page_number": 84,
+      "source_page": 85,
+      "legacy_page_id": "1ab41c96-132c-4092-91db-c0347ecd53ac",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "بناء النموذج الاحتمالي",
+      "book_page": 85,
+      "raw_sha256": "ca5cb90546517fcbccf8b57495fbb4aeff7c2c32e0d0fe60f5a6d3ba1cf689bd",
+      "master_relative_path": "الصور/ص085 - بناء النموذج الاحتمالي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 79,
+      "stored_page_number": 85,
+      "source_page": 86,
+      "legacy_page_id": "5cc0ed6b-7355-477b-9b82-975cc3007376",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "الاحتمال الشرطي وقانون الضرب والحوادث المستقلة",
+      "book_page": 86,
+      "raw_sha256": "a6ecd62d78f3b844377846045c2aa5a05ffcb36a00fd768159a6d83e2d1221f9",
+      "master_relative_path": "الصور/ص086 - الاحتمال الشرطي وقانون الضرب والحوادث المستقلة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 80,
+      "stored_page_number": 86,
+      "source_page": 87,
+      "legacy_page_id": "7c475c65-7612-494e-9dba-d4c7e3b7672c",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "الاحتمال الشرطي وقانون الضرب والحوادث المستقلة",
+      "book_page": 87,
+      "raw_sha256": "fcf5dfb4652ab3fe078b1960b6a20d05fb2dce37ea7295360ed6ba7597d416ee",
+      "master_relative_path": "الصور/ص087 - الاحتمال الشرطي وقانون الضرب والحوادث المستقلة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 81,
+      "stored_page_number": 87,
+      "source_page": 88,
+      "legacy_page_id": "27d77cdc-8204-4160-9b0e-06ee67bef91c",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "الاحتمال الشرطي وقانون الضرب والحوادث المستقلة",
+      "book_page": 88,
+      "raw_sha256": "db3eb6c4d4f7a815b5e3d1e565e34ee7c3c5c26d804bdbbe088017ab612a247f",
+      "master_relative_path": "الصور/ص088 - الاحتمال الشرطي وقانون الضرب والحوادث المستقلة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 82,
+      "stored_page_number": 88,
+      "source_page": 89,
+      "legacy_page_id": "8cf5bd20-ced3-40c3-b2fc-66b44d853e58",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "الاحتمال الشرطي وقانون الضرب والحوادث المستقلة",
+      "book_page": 89,
+      "raw_sha256": "f158cb8eae7955b99f1b38bb297f893a48f16e6dd9b4b607dcbeac595033e359",
+      "master_relative_path": "الصور/ص089 - الاحتمال الشرطي وقانون الضرب والحوادث المستقلة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 83,
+      "stored_page_number": 89,
+      "source_page": 90,
+      "legacy_page_id": "38157ed2-c4d8-47b2-83a0-3c1c01c18b77",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "الاحتمال الشرطي وقانون الضرب والحوادث المستقلة",
+      "book_page": 90,
+      "raw_sha256": "51c367456aaa51932b1b992b582045ba931cc3440995db474952c78699508ed1",
+      "master_relative_path": "الصور/ص090 - الاحتمال الشرطي وقانون الضرب والحوادث المستقلة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 84,
+      "stored_page_number": 90,
+      "source_page": 91,
+      "legacy_page_id": "53d2a9a0-73d9-4146-b143-1fe96c05c269",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "الاحتمال الشرطي وقانون الضرب والحوادث المستقلة",
+      "book_page": 91,
+      "raw_sha256": "bd278991a97ef52e175a5ae4fadc8d73b52ef5b4be0d9a15c8d4af3108450fd5",
+      "master_relative_path": "الصور/ص091 - الاحتمال الشرطي وقانون الضرب والحوادث المستقلة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 85,
+      "stored_page_number": 91,
+      "source_page": 92,
+      "legacy_page_id": "40d1456e-887e-47f3-bc48-a8c9cafb75fc",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "الاحتمال الشرطي وقانون الضرب والحوادث المستقلة",
+      "book_page": 92,
+      "raw_sha256": "16ba4bf19019176f0651467d7e50a7a9b110c2ef06b63437613a474e3806ef92",
+      "master_relative_path": "الصور/ص092 - الاحتمال الشرطي وقانون الضرب والحوادث المستقلة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 86,
+      "stored_page_number": 92,
+      "source_page": 93,
+      "legacy_page_id": "73a1bebe-3e1d-441f-9264-32d66fc8cd26",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي",
+      "book_page": 93,
+      "raw_sha256": "d2a2034a9b8eef052d82a924e8afd3eb517330b5dcebdc89431455f2fc0a059a",
+      "master_relative_path": "الصور/ص093 - متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 87,
+      "stored_page_number": 93,
+      "source_page": 94,
+      "legacy_page_id": "778d9e34-a5ee-479c-903f-462ad92bd46a",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي",
+      "book_page": 94,
+      "raw_sha256": "ff091e82d95f076f99916d043fad8dc79638a15a0cb6144e8bff314a059039e8",
+      "master_relative_path": "الصور/ص094 - متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 88,
+      "stored_page_number": 94,
+      "source_page": 95,
+      "legacy_page_id": "b36308c4-f962-42c9-bda9-c1dd14992bea",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي",
+      "book_page": 95,
+      "raw_sha256": "c46e202e21aa4f6684f42ea76c014cf1a7033cf7ddc93daa78f075c6b87ae559",
+      "master_relative_path": "الصور/ص095 - متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 89,
+      "stored_page_number": 95,
+      "source_page": 96,
+      "legacy_page_id": "613d19b6-28d4-44da-b8fc-5d92c5c3b0f9",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي",
+      "book_page": 96,
+      "raw_sha256": "f3e8530b181ea10aea7f1d2040fa7f594834d4df418f80ac2ed09dee158018e9",
+      "master_relative_path": "الصور/ص096 - متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 90,
+      "stored_page_number": 96,
+      "source_page": 97,
+      "legacy_page_id": "bbd5fb73-943c-4cd5-a983-52eac3832100",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي",
+      "book_page": 97,
+      "raw_sha256": "3431a3b9005bed66e30c62f4101cc5b288c788ef6da73a093a01cc9addde8e2b",
+      "master_relative_path": "الصور/ص097 - متتاليات التكرارات المستقلة وقانون الاحتمال الثنائي.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 91,
+      "stored_page_number": 97,
+      "source_page": 98,
+      "legacy_page_id": "0269f138-fb3d-4158-b858-8c12fb2d7cb7",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "السحب مع الإعادة وبدون إعادة",
+      "book_page": 98,
+      "raw_sha256": "539268c65f04618e98f75f8956e3a0a16ee5ad18c33f23ae560c8139d7d2dd41",
+      "master_relative_path": "الصور/ص098 - السحب مع الإعادة وبدون إعادة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 92,
+      "stored_page_number": 98,
+      "source_page": 99,
+      "legacy_page_id": "6acdcffb-fe77-4563-9a45-69c7c510206f",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "السحب مع الإعادة وبدون إعادة",
+      "book_page": 99,
+      "raw_sha256": "56ba078009303d6cfbd7f0b5d083ac9858f5ff2c4b54cffadf4f8471fa8b8c26",
+      "master_relative_path": "الصور/ص099 - السحب مع الإعادة وبدون إعادة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 93,
+      "stored_page_number": 99,
+      "source_page": 100,
+      "legacy_page_id": "66653bb7-2ab0-4c2f-8dca-7a13aef3802f",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "السحب مع الإعادة وبدون إعادة",
+      "book_page": 100,
+      "raw_sha256": "0856764f2cb60fb92e05f720a3ecdf683412cb623cb7ac0d02c8f2f246fef6a5",
+      "master_relative_path": "الصور/ص100 - السحب مع الإعادة وبدون إعادة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 94,
+      "stored_page_number": 100,
+      "source_page": 101,
+      "legacy_page_id": "bba175e1-1987-4e0b-a07c-18c3724f1e6d",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "السحب مع الإعادة وبدون إعادة",
+      "book_page": 101,
+      "raw_sha256": "6221ee6b15c23c92653f37e18378a4e2ebc0c98840edd05a6b6b9ee6c0e4d54e",
+      "master_relative_path": "الصور/ص101 - السحب مع الإعادة وبدون إعادة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 95,
+      "stored_page_number": 101,
+      "source_page": 102,
+      "legacy_page_id": "6396517e-3216-4fad-a13c-5c594c733bd5",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "السحب مع الإعادة وبدون إعادة",
+      "book_page": 102,
+      "raw_sha256": "7bd533c3ce60c644fdd95c2541ea21ad2386370350a31c2731e055a9406ee3ba",
+      "master_relative_path": "الصور/ص102 - السحب مع الإعادة وبدون إعادة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 96,
+      "stored_page_number": 102,
+      "source_page": 103,
+      "legacy_page_id": "5760793e-8144-4a51-8523-7d01b843860f",
+      "section": "الوحدة الثالثة: الاحتمالات",
+      "title": "السحب مع الإعادة وبدون إعادة",
+      "book_page": 103,
+      "raw_sha256": "9e9abc0e06d1be543cf24a11be71bd24b1788f781b25c80726b7dd948f7ee042",
+      "master_relative_path": "الصور/ص103 - السحب مع الإعادة وبدون إعادة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 97,
+      "stored_page_number": 103,
+      "source_page": 104,
+      "legacy_page_id": "357cddfa-9531-40ad-b283-51653033346e",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "تمهيد",
+      "book_page": 104,
+      "raw_sha256": "285d3fcaa9688a47ed3b612c408b7b68a788490d7af67f142bfddd4f4d53bb16",
+      "master_relative_path": "الصور/ص104 - تمهيد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 98,
+      "stored_page_number": 104,
+      "source_page": 105,
+      "legacy_page_id": "70c577f6-b3dd-4ba0-b42b-ea434479724c",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع المكافئ",
+      "book_page": 105,
+      "raw_sha256": "40f4fa50a767181ff6b4c7534d5ef87731dba44e82519f2d0ef169fcab9ee7ec",
+      "master_relative_path": "الصور/ص105 - القطع المكافئ.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 99,
+      "stored_page_number": 105,
+      "source_page": 106,
+      "legacy_page_id": "ceacffe6-be01-471a-9253-12f219d4fc0c",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع المكافئ",
+      "book_page": 106,
+      "raw_sha256": "46887e0b7d5b0de7ca7143dee6188d19a471286c6187b4f093b5663afaa6f66c",
+      "master_relative_path": "الصور/ص106 - القطع المكافئ.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 100,
+      "stored_page_number": 106,
+      "source_page": 107,
+      "legacy_page_id": "3a72ad54-c7ee-4442-afcf-0c55bc45c171",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع المكافئ",
+      "book_page": 107,
+      "raw_sha256": "48afe199aaf03cc3da3e01252ac75ddd2344babc2f12da09bbc58b28b288a40f",
+      "master_relative_path": "الصور/ص107 - القطع المكافئ.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 101,
+      "stored_page_number": 107,
+      "source_page": 108,
+      "legacy_page_id": "20eef97e-f430-4e60-819d-6f8598eac9fc",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع المكافئ",
+      "book_page": 108,
+      "raw_sha256": "76f7e443a25df81aac51813cd465adf962c08293cb2e60cc51808712eda48dc2",
+      "master_relative_path": "الصور/ص108 - القطع المكافئ.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 102,
+      "stored_page_number": 108,
+      "source_page": 109,
+      "legacy_page_id": "d436a82a-ad5b-4b13-9f49-95b5c839661d",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع المكافئ",
+      "book_page": 109,
+      "raw_sha256": "12c656f76a239e4d784bbfc69fd3234fbe23edc5026f9d22e27dc3f4a9270368",
+      "master_relative_path": "الصور/ص109 - القطع المكافئ.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 103,
+      "stored_page_number": 109,
+      "source_page": 110,
+      "legacy_page_id": "aafcbd43-e756-4103-a8b5-36f3897a9163",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الناقص",
+      "book_page": 110,
+      "raw_sha256": "e335f74d83deb8b8714da08c7c994b8ebceb7859832b1ba225a285166cc673f1",
+      "master_relative_path": "الصور/ص110 - القطع الناقص.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 104,
+      "stored_page_number": 110,
+      "source_page": 111,
+      "legacy_page_id": "f5060b21-15fe-44dc-a8ae-a8d05980daff",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الناقص",
+      "book_page": 111,
+      "raw_sha256": "a4ea797223b217e04275a94c2dacb8148d27dc2626e06dc15a4f1c949d8e6b38",
+      "master_relative_path": "الصور/ص111 - القطع الناقص.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 105,
+      "stored_page_number": 111,
+      "source_page": 112,
+      "legacy_page_id": "20db1945-9db0-4d3c-86ce-f09ca3d66c26",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الناقص",
+      "book_page": 112,
+      "raw_sha256": "0c62a5f89b8d017fbe4a3374e67abd6f3f8a0d986de239ad3d59f35b1c170d8a",
+      "master_relative_path": "الصور/ص112 - القطع الناقص.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 106,
+      "stored_page_number": 112,
+      "source_page": 113,
+      "legacy_page_id": "981e4438-85d1-4f51-80fb-eccb8c10aef9",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الناقص",
+      "book_page": 113,
+      "raw_sha256": "c86ae5bf24cf83eecbe00b7d1e824917c82f626a2811143312436446f21b47d1",
+      "master_relative_path": "الصور/ص113 - القطع الناقص.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 107,
+      "stored_page_number": 113,
+      "source_page": 114,
+      "legacy_page_id": "62bba0ff-82f7-42c4-91ca-178227bcee89",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الناقص",
+      "book_page": 114,
+      "raw_sha256": "dff0657318b895f82111976221693a4ffd586f4a78ac7a7209ed8e0dece131a8",
+      "master_relative_path": "الصور/ص114 - القطع الناقص.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 108,
+      "stored_page_number": 114,
+      "source_page": 115,
+      "legacy_page_id": "6d6dbee2-d38c-4099-b6f5-6cb40c76ebc5",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الناقص",
+      "book_page": 115,
+      "raw_sha256": "eb836995a40372c172d49b385994e9749b261eff66b97d3272ee6642156fa78a",
+      "master_relative_path": "الصور/ص115 - القطع الناقص.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 109,
+      "stored_page_number": 115,
+      "source_page": 116,
+      "legacy_page_id": "8bdb2b05-6c60-4093-99bb-701bad36e400",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الناقص",
+      "book_page": 116,
+      "raw_sha256": "c07e7f2fd8b8cc88ccd01744b63709e5cb34500271654e99d23e45655e5e8800",
+      "master_relative_path": "الصور/ص116 - القطع الناقص.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 110,
+      "stored_page_number": 116,
+      "source_page": 117,
+      "legacy_page_id": "dee0b7a6-86bb-4a18-bd9b-7acddc70003f",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الناقص",
+      "book_page": 117,
+      "raw_sha256": "764d5bd9204a6199edcfbc6339d19b02dea948a027f124633fc60d898e483085",
+      "master_relative_path": "الصور/ص117 - القطع الناقص.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 111,
+      "stored_page_number": 117,
+      "source_page": 118,
+      "legacy_page_id": "3dce6991-f852-42f7-8680-0a4917b1d34b",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الزائد",
+      "book_page": 118,
+      "raw_sha256": "c62d6d861b1038c9de4d9f196519178024e4cc74816c0c175279c0fc0a32f2b0",
+      "master_relative_path": "الصور/ص118 - القطع الزائد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 112,
+      "stored_page_number": 118,
+      "source_page": 119,
+      "legacy_page_id": "b848cf84-bfe9-4696-9f97-e4a42d365f73",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الزائد",
+      "book_page": 119,
+      "raw_sha256": "2d353c114cc34069fb8d8e9ea928cb13a860e1c3702deca8e2003ab582bce01c",
+      "master_relative_path": "الصور/ص119 - القطع الزائد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 113,
+      "stored_page_number": 119,
+      "source_page": 120,
+      "legacy_page_id": "58001742-ad90-498f-b52f-b58e7102221a",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الزائد",
+      "book_page": 120,
+      "raw_sha256": "1507b2f403709100842b3f6916d5ccde28e81b548d2dd07f55076d19cfb8f654",
+      "master_relative_path": "الصور/ص120 - القطع الزائد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 114,
+      "stored_page_number": 120,
+      "source_page": 121,
+      "legacy_page_id": "34313237-04af-49aa-9c93-fe982636c8b3",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الزائد",
+      "book_page": 121,
+      "raw_sha256": "fd584916c48687c25cf2fd4eb8b9a5e7b99c717b76faa7be9b1c1e72629e77a1",
+      "master_relative_path": "الصور/ص121 - القطع الزائد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 115,
+      "stored_page_number": 121,
+      "source_page": 122,
+      "legacy_page_id": "ed8823e3-41d1-4464-9029-184528ee020e",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الزائد",
+      "book_page": 122,
+      "raw_sha256": "8390f699892a3daffd2b19d6b98c8f29473f266b9a1bb973307fc309e5f3f7f4",
+      "master_relative_path": "الصور/ص122 - القطع الزائد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 116,
+      "stored_page_number": 122,
+      "source_page": 123,
+      "legacy_page_id": "23e7e651-905f-4767-8931-0d103555e4c4",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "القطع الزائد",
+      "book_page": 123,
+      "raw_sha256": "57c3d921d97672529709be092f3c3d2cbd1afd37b5ccafc55c366df35c2a564d",
+      "master_relative_path": "الصور/ص123 - القطع الزائد.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 117,
+      "stored_page_number": 123,
+      "source_page": 124,
+      "legacy_page_id": "6b7d4ce6-2dc5-4015-813d-15e8b883a1f9",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "انسحاب المحاور الإحداثية",
+      "book_page": 124,
+      "raw_sha256": "71aee7bea0bad3f483968070a22dd07b3c017e214c9c19db8a2326bebe2f7116",
+      "master_relative_path": "الصور/ص124 - انسحاب المحاور الإحداثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 118,
+      "stored_page_number": 124,
+      "source_page": 125,
+      "legacy_page_id": "ea7c2623-d6a6-434b-9910-54bfbd27d2b8",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "انسحاب المحاور الإحداثية",
+      "book_page": 125,
+      "raw_sha256": "c028b992d02d5ee4b6013fa7d8e6f322cd383d616f742402bd5e5069f3cc8fad",
+      "master_relative_path": "الصور/ص125 - انسحاب المحاور الإحداثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 119,
+      "stored_page_number": 125,
+      "source_page": 126,
+      "legacy_page_id": "4d1ffaef-60d1-47c0-aa6b-99365912c8b3",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "انسحاب المحاور الإحداثية",
+      "book_page": 126,
+      "raw_sha256": "a615d6ccfa9aa8d2d888b1d2d48d37aa6ff179f55edee22f1bff29f60f89d5e3",
+      "master_relative_path": "الصور/ص126 - انسحاب المحاور الإحداثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 120,
+      "stored_page_number": 126,
+      "source_page": 127,
+      "legacy_page_id": "5935a0a0-a852-4c6f-bb07-980f23927b38",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "انسحاب المحاور الإحداثية",
+      "book_page": 127,
+      "raw_sha256": "df9301e3e62e08249158545588c2dfc8ae6b5b07e33d9edeac38ecb87d0b0f58",
+      "master_relative_path": "الصور/ص127 - انسحاب المحاور الإحداثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 121,
+      "stored_page_number": 127,
+      "source_page": 128,
+      "legacy_page_id": "d2979af7-befb-4382-b74b-1859d5be8b24",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "انسحاب المحاور الإحداثية",
+      "book_page": 128,
+      "raw_sha256": "b9001ad3df1a7e0ee8db446af84cd1804f8168b8ba4ab95cf204c98b5e308532",
+      "master_relative_path": "الصور/ص128 - انسحاب المحاور الإحداثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 122,
+      "stored_page_number": 128,
+      "source_page": 129,
+      "legacy_page_id": "e9ae1cb6-393e-4cac-9727-7e8002f881b4",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "دوران المحاور الإحداثية",
+      "book_page": 129,
+      "raw_sha256": "87888a539624b32ae415d25d7876a609996c19acb1a3f2670eb3b9a61838596d",
+      "master_relative_path": "الصور/ص129 - دوران المحاور الإحداثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 123,
+      "stored_page_number": 129,
+      "source_page": 130,
+      "legacy_page_id": "90a9d517-7239-4c4a-b8d9-d0078452b681",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "دوران المحاور الإحداثية",
+      "book_page": 130,
+      "raw_sha256": "4080093b931a4be5a07284dcfaf7457063d60be36249e11eb68443ed0265e61b",
+      "master_relative_path": "الصور/ص130 - دوران المحاور الإحداثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 124,
+      "stored_page_number": 130,
+      "source_page": 131,
+      "legacy_page_id": "df0da1bb-3198-4458-8808-445cb41029e2",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "دوران المحاور الإحداثية",
+      "book_page": 131,
+      "raw_sha256": "c879ec996004607e8fa29ee99d50c49c1cd28686605af85a92b4c4fdd728c436",
+      "master_relative_path": "الصور/ص131 - دوران المحاور الإحداثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 125,
+      "stored_page_number": 131,
+      "source_page": 132,
+      "legacy_page_id": "afee970b-9414-4448-9aea-fec593e5c93d",
+      "section": "الوحدة الرابعة: القطوع المخروطية",
+      "title": "دوران المحاور الإحداثية",
+      "book_page": 132,
+      "raw_sha256": "660c65a98df52158300cbfd02d06abee6dd1f32d86d72fb13c3c1bcd2cbd5f69",
+      "master_relative_path": "الصور/ص132 - دوران المحاور الإحداثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 126,
+      "stored_page_number": 132,
+      "source_page": 133,
+      "legacy_page_id": "d3905a03-a7f2-4517-94b4-70e7749902ab",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "المستقيم العمودي على مستوى",
+      "book_page": 133,
+      "raw_sha256": "b1b3b2aca7aac711c2f43b6f169d36705f46c4b68c4937cfce7b4c53c7369ade",
+      "master_relative_path": "الصور/ص133 - المستقيم العمودي على مستوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 127,
+      "stored_page_number": 133,
+      "source_page": 134,
+      "legacy_page_id": "fbe83ad5-ffba-4eb6-bd3a-3a6ad124b96a",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "المستقيم العمودي على مستوى",
+      "book_page": 134,
+      "raw_sha256": "6cdffe9378bf44b3eea5f6df9142607b3cbe3b19b691568d2927441550a36092",
+      "master_relative_path": "الصور/ص134 - المستقيم العمودي على مستوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 128,
+      "stored_page_number": 134,
+      "source_page": 135,
+      "legacy_page_id": "dce7b139-fb0f-4b6f-af17-83527a3c9ca5",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "المستقيم العمودي على مستوى",
+      "book_page": 135,
+      "raw_sha256": "e3d8376c6349d02734e9a6f29b5d778043a83589830095702b347fe4ac1ab95c",
+      "master_relative_path": "الصور/ص135 - المستقيم العمودي على مستوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 129,
+      "stored_page_number": 135,
+      "source_page": 136,
+      "legacy_page_id": "b3281ff9-123c-4e00-8db7-3e3197b4d543",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "المستقيم العمودي على مستوى",
+      "book_page": 136,
+      "raw_sha256": "72ff40e5ccf44808faae85962320fc6e1bd8fddf9fa98cc6227aa89b54043076",
+      "master_relative_path": "الصور/ص136 - المستقيم العمودي على مستوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 130,
+      "stored_page_number": 136,
+      "source_page": 137,
+      "legacy_page_id": "3bddd9b6-7cb1-4062-a08a-3853f2c11619",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "المستقيم العمودي على مستوى",
+      "book_page": 137,
+      "raw_sha256": "1ad4a9658a00dbb30c5e1102ac10791338c9f76b775d4467c79353d4a884d40f",
+      "master_relative_path": "الصور/ص137 - المستقيم العمودي على مستوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 131,
+      "stored_page_number": 137,
+      "source_page": 138,
+      "legacy_page_id": "2a12b50a-0f10-48a0-9230-dced73ebd03c",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "المستقيم العمودي على مستوى",
+      "book_page": 138,
+      "raw_sha256": "aeed1bed63a72cf9f27a928740c20ab7ee76914c5ee6f7cd1bbd7248f08c1eda",
+      "master_relative_path": "الصور/ص138 - المستقيم العمودي على مستوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 132,
+      "stored_page_number": 138,
+      "source_page": 139,
+      "legacy_page_id": "4d7f590e-6312-4566-8997-8d59588bf024",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "المستقيم العمودي على مستوى",
+      "book_page": 139,
+      "raw_sha256": "4c6b29c74469285ec52bc588cb4c67a156cef33a95c16e246da1c19fbbeea48e",
+      "master_relative_path": "الصور/ص139 - المستقيم العمودي على مستوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 133,
+      "stored_page_number": 139,
+      "source_page": 140,
+      "legacy_page_id": "72d2849b-9774-426a-8d76-28673e155039",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "المستقيم العمودي على مستوى",
+      "book_page": 140,
+      "raw_sha256": "84f5f91d2366e45962ac7ab0b869d72ab5ef253804c1ce5eecc7828e4b32bed7",
+      "master_relative_path": "الصور/ص140 - المستقيم العمودي على مستوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 134,
+      "stored_page_number": 140,
+      "source_page": 141,
+      "legacy_page_id": "f3814516-217c-4a17-925d-3884ddae58b3",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "المستقيم العمودي على مستوى",
+      "book_page": 141,
+      "raw_sha256": "44c87c07aadd2dd1a766655be9772b7370ca6e6186a03eba304c722e70fed8d4",
+      "master_relative_path": "الصور/ص141 - المستقيم العمودي على مستوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 135,
+      "stored_page_number": 141,
+      "source_page": 142,
+      "legacy_page_id": "c93312dc-9c1d-4c70-bef1-62880edea7bd",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "العمود والمائل",
+      "book_page": 142,
+      "raw_sha256": "be5b599e992a2ffab553c148f917566d8f34bb4babbc40845f05b711413ffd37",
+      "master_relative_path": "الصور/ص142 - العمود والمائل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 136,
+      "stored_page_number": 142,
+      "source_page": 143,
+      "legacy_page_id": "ff1e2c47-45de-447f-a87b-e2303de43394",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "العمود والمائل",
+      "book_page": 143,
+      "raw_sha256": "c0a8b57a4e4e766773dad4f90f1b15922c5660dea07b3bc3b7449cd8d5423c51",
+      "master_relative_path": "الصور/ص143 - العمود والمائل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 137,
+      "stored_page_number": 143,
+      "source_page": 144,
+      "legacy_page_id": "5de4ed58-6210-4963-9894-bf7519154430",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "العمود والمائل",
+      "book_page": 144,
+      "raw_sha256": "58d5762733e4eae9b4ed853415b4e31495cd8c88042d760013f04f98fe5351bb",
+      "master_relative_path": "الصور/ص144 - العمود والمائل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 138,
+      "stored_page_number": 144,
+      "source_page": 145,
+      "legacy_page_id": "536a4836-d8f0-4e6b-a5bb-e499e1757118",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "العمود والمائل",
+      "book_page": 145,
+      "raw_sha256": "5708c67efff85646a11a63a5718b46cd86773bf887077e1afb977b7ddf1a2275",
+      "master_relative_path": "الصور/ص145 - العمود والمائل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 139,
+      "stored_page_number": 145,
+      "source_page": 146,
+      "legacy_page_id": "82b62665-7f81-4971-a4f8-c623f0231851",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "العمود والمائل",
+      "book_page": 146,
+      "raw_sha256": "a9c56568ceae2162931932df3c3fd02bd60abdc93729d65a49c34c36d678fa94",
+      "master_relative_path": "الصور/ص146 - العمود والمائل.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 140,
+      "stored_page_number": 146,
+      "source_page": 147,
+      "legacy_page_id": "f133cbf4-e47e-4e02-872d-674257788179",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "الزاوية الزوجية",
+      "book_page": 147,
+      "raw_sha256": "1daedea67dd8739ccacd5911c00ed92e03ededf4d13694a875a1528679a65c77",
+      "master_relative_path": "الصور/ص147 - الزاوية الزوجية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 141,
+      "stored_page_number": 147,
+      "source_page": 148,
+      "legacy_page_id": "eaaa24aa-2f73-40fe-acad-5a2a14d1358c",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "الزاوية الزوجية",
+      "book_page": 148,
+      "raw_sha256": "b4d0f80e588c039ddff56a8c4570bbe5e4c816183684af1cd9585c0b930c76a2",
+      "master_relative_path": "الصور/ص148 - الزاوية الزوجية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 142,
+      "stored_page_number": 148,
+      "source_page": 149,
+      "legacy_page_id": "1b91ef05-7cf2-4da4-84e8-c7c1331e5f72",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "الزاوية الزوجية",
+      "book_page": 149,
+      "raw_sha256": "d5895edfb5ecf6d19a633452996886c3cab3aac72130e2aa94324d06574351a2",
+      "master_relative_path": "الصور/ص149 - الزاوية الزوجية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 143,
+      "stored_page_number": 149,
+      "source_page": 150,
+      "legacy_page_id": "08bc82b3-92e9-4d86-a0c1-9aa3334dc7b2",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "الزاوية الزوجية",
+      "book_page": 150,
+      "raw_sha256": "0ff4e79dbf24c4afc132fe547bd1791396c4d2667e18e5c6713ae6083854bfe4",
+      "master_relative_path": "الصور/ص150 - الزاوية الزوجية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 144,
+      "stored_page_number": 150,
+      "source_page": 151,
+      "legacy_page_id": "8bcea11b-2394-4a6b-8550-512baca04e62",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "الزاوية الزوجية",
+      "book_page": 151,
+      "raw_sha256": "4fa960b28610a4d766dccbbd43ed7fca32015977a091344dcb062595db85921a",
+      "master_relative_path": "الصور/ص151 - الزاوية الزوجية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 145,
+      "stored_page_number": 151,
+      "source_page": 152,
+      "legacy_page_id": "4c97e26a-12ca-4361-8dbe-80238078792c",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "الزاوية الزوجية",
+      "book_page": 152,
+      "raw_sha256": "fddf8c7c2cfcef4f22b6169e5a4d02d009cd42365ea7d80a4f0e11f88b34a251",
+      "master_relative_path": "الصور/ص152 - الزاوية الزوجية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 146,
+      "stored_page_number": 152,
+      "source_page": 153,
+      "legacy_page_id": "a5d71f5c-0b13-4f45-93c2-9789024af0d3",
+      "section": "الوحدة الخامسة: الهندسة الفضائية",
+      "title": "الزاوية الزوجية",
+      "book_page": 153,
+      "raw_sha256": "dc69d0a9380cb8caa05253d6514db0b3544c6c8333bdd36c70f8cc72d80aca94",
+      "master_relative_path": "الصور/ص153 - الزاوية الزوجية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 147,
+      "stored_page_number": 153,
+      "source_page": 154,
+      "legacy_page_id": "43a9e09a-c4ad-47fd-bab8-3d423f48adcb",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "نهايات واتصال الدوال المثلثية",
+      "book_page": 154,
+      "raw_sha256": "5e61aece075e441e8f3e3c60182957f83eccf1c153a23c991212649f4148f261",
+      "master_relative_path": "الصور/ص154 - نهايات واتصال الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 148,
+      "stored_page_number": 154,
+      "source_page": 155,
+      "legacy_page_id": "423104e7-9e7e-45e2-bbdf-1642a8915748",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "نهايات واتصال الدوال المثلثية",
+      "book_page": 155,
+      "raw_sha256": "abb4e4e18828950883b3491d553c39f98c7d8ed83c700d5007c5f351adbdc44b",
+      "master_relative_path": "الصور/ص155 - نهايات واتصال الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 149,
+      "stored_page_number": 155,
+      "source_page": 156,
+      "legacy_page_id": "7bfbb05d-338d-4667-b0a8-79bc26cd4683",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "نهايات واتصال الدوال المثلثية",
+      "book_page": 156,
+      "raw_sha256": "a69fa701f35d4d787838a5ee287c412e3b4aa1a06461b72bdf1583f336fc4cff",
+      "master_relative_path": "الصور/ص156 - نهايات واتصال الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 150,
+      "stored_page_number": 156,
+      "source_page": 157,
+      "legacy_page_id": "c7bbd3ff-081e-4b24-bddd-bee637acef13",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "نهايات واتصال الدوال المثلثية",
+      "book_page": 157,
+      "raw_sha256": "479ff14c1413e43eb377d6dfed748a5336a1336f2afef4126cab1f3c6f577a65",
+      "master_relative_path": "الصور/ص157 - نهايات واتصال الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 151,
+      "stored_page_number": 157,
+      "source_page": 158,
+      "legacy_page_id": "a5c651f3-bbef-446e-8936-723526da108d",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "نهايات واتصال الدوال المثلثية",
+      "book_page": 158,
+      "raw_sha256": "d03f547dd2e973c030885daefc0f31ae181c0c0a2fd662149846ab97fb54416c",
+      "master_relative_path": "الصور/ص158 - نهايات واتصال الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 152,
+      "stored_page_number": 158,
+      "source_page": 159,
+      "legacy_page_id": "984deb15-2a90-4ec7-b475-45025bac62f6",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "نهايات واتصال الدوال المثلثية",
+      "book_page": 159,
+      "raw_sha256": "9660acb6a3d5ce70bc53fea0319cc033ecc6f8b147ae1573529c412316c54406",
+      "master_relative_path": "الصور/ص159 - نهايات واتصال الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 153,
+      "stored_page_number": 159,
+      "source_page": 160,
+      "legacy_page_id": "ee1b127c-bd1f-4585-9fca-4e61a1da688f",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "المشتقات",
+      "book_page": 160,
+      "raw_sha256": "337e24fc51a106462956c50b68677fa7dbaa19e5203694ffcef992064b8144c2",
+      "master_relative_path": "الصور/ص160 - المشتقات.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 154,
+      "stored_page_number": 160,
+      "source_page": 161,
+      "legacy_page_id": "10af6136-2769-4cd7-a40f-a27ee2cbb41b",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "المشتقات",
+      "book_page": 161,
+      "raw_sha256": "91f2acaa810740dc0e2a68853e5c41df5a84bd7837aee923bc165ca355aa7100",
+      "master_relative_path": "الصور/ص161 - المشتقات.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 155,
+      "stored_page_number": 161,
+      "source_page": 162,
+      "legacy_page_id": "1259806f-3705-4676-8a01-71ee5d065c8e",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة تركيب دالتين (قاعدة التسلسل)",
+      "book_page": 162,
+      "raw_sha256": "d8cd8f2b9bd12d5e45b97733e2e8568988ac01913860e2bc682c6b8e308a73df",
+      "master_relative_path": "الصور/ص162 - مشتقة تركيب دالتين (قاعدة التسلسل).jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 156,
+      "stored_page_number": 162,
+      "source_page": 163,
+      "legacy_page_id": "7d3c9996-c6fe-4c3a-b17a-4b5ab6dcb06a",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة تركيب دالتين (قاعدة التسلسل)",
+      "book_page": 163,
+      "raw_sha256": "20e371fb375838fdbbed207195ed42c1ae7d6f4f765b3e5b50eabcf16b7f0f38",
+      "master_relative_path": "الصور/ص163 - مشتقة تركيب دالتين (قاعدة التسلسل).jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 157,
+      "stored_page_number": 163,
+      "source_page": 164,
+      "legacy_page_id": "6a307a4a-f433-4620-a31c-c3a7ca7186bd",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة تركيب دالتين (قاعدة التسلسل)",
+      "book_page": 164,
+      "raw_sha256": "7326861ad7c1f100da69c6d18e511e7a682a0fedc876d7a021b571176c96dd44",
+      "master_relative_path": "الصور/ص164 - مشتقة تركيب دالتين (قاعدة التسلسل).jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 158,
+      "stored_page_number": 164,
+      "source_page": 165,
+      "legacy_page_id": "d7db86f1-f846-4085-9f5d-2366b8b81710",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة تركيب دالتين (قاعدة التسلسل)",
+      "book_page": 165,
+      "raw_sha256": "0e7a587e6fbd7a1934bfaa645d09f3b8d18666b1ce834ec8296fc06c5a15cb3b",
+      "master_relative_path": "الصور/ص165 - مشتقة تركيب دالتين (قاعدة التسلسل).jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 159,
+      "stored_page_number": 165,
+      "source_page": 166,
+      "legacy_page_id": "3ac769fd-9f13-4232-aab9-b36ff8c7cd55",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدالة الضمنية",
+      "book_page": 166,
+      "raw_sha256": "905d23514023f92bc3515bf2a7ae1e79ae2634d3204b2ddb74551a0d3c5f788e",
+      "master_relative_path": "الصور/ص166 - مشتقة الدالة الضمنية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 160,
+      "stored_page_number": 166,
+      "source_page": 167,
+      "legacy_page_id": "7941a7ca-32aa-41f7-bcd2-f33a7f8c6b98",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدالة الضمنية",
+      "book_page": 167,
+      "raw_sha256": "1c5c3a3d135a243a3de462afef3c8a2e095b4c32ab9b602989105dd06ee6c9fc",
+      "master_relative_path": "الصور/ص167 - مشتقة الدالة الضمنية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 161,
+      "stored_page_number": 167,
+      "source_page": 168,
+      "legacy_page_id": "65409c0d-a82b-4381-b4a8-e18f094c005b",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدالة الضمنية",
+      "book_page": 168,
+      "raw_sha256": "f3d67ac668d87e685fc74b0239df2f6024795d07675ad80e1be9f64512f01ecf",
+      "master_relative_path": "الصور/ص168 - مشتقة الدالة الضمنية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 162,
+      "stored_page_number": 168,
+      "source_page": 169,
+      "legacy_page_id": "7ecb0345-e199-4081-9cc3-a288e98cf312",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدالة الضمنية",
+      "book_page": 169,
+      "raw_sha256": "ad19c439de678a43f6866064ad0b2df0124c357844e85edfe2999c3d0ec64715",
+      "master_relative_path": "الصور/ص169 - مشتقة الدالة الضمنية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 163,
+      "stored_page_number": 169,
+      "source_page": 170,
+      "legacy_page_id": "ac4eeeb1-06a7-4512-b9e3-073e7dc9e6b7",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدالة الضمنية",
+      "book_page": 170,
+      "raw_sha256": "5f3a4e848d4258cc35242a66aeb83a042292136aa718ed8938c0ca0c356d6602",
+      "master_relative_path": "الصور/ص170 - مشتقة الدالة الضمنية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 164,
+      "stored_page_number": 170,
+      "source_page": 171,
+      "legacy_page_id": "1b5d95a2-288f-4040-84e5-191772d993be",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدالة اللوغاريتمية والأسية",
+      "book_page": 171,
+      "raw_sha256": "41c0f31883dfac375498c1cda26e895a50a86a36000b129956a5e913f952fef6",
+      "master_relative_path": "الصور/ص171 - مشتقة الدالة اللوغاريتمية والأسية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 165,
+      "stored_page_number": 171,
+      "source_page": 172,
+      "legacy_page_id": "3d41258b-abc4-49df-9049-b95981f4e8fd",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدالة اللوغاريتمية والأسية",
+      "book_page": 172,
+      "raw_sha256": "12fecda36ba4e16c493cbe8df748a46ca56f377d5e34abe2e5f0e7343a84d985",
+      "master_relative_path": "الصور/ص172 - مشتقة الدالة اللوغاريتمية والأسية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 166,
+      "stored_page_number": 172,
+      "source_page": 173,
+      "legacy_page_id": "e389785a-5614-41fc-b49e-9944aa711ad5",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدالة اللوغاريتمية والأسية",
+      "book_page": 173,
+      "raw_sha256": "811b4a948f39f9222b909d55e3ad68522c83adad60529e215b4fa0e2d24dd56f",
+      "master_relative_path": "الصور/ص173 - مشتقة الدالة اللوغاريتمية والأسية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 167,
+      "stored_page_number": 173,
+      "source_page": 174,
+      "legacy_page_id": "b64a3eb6-9fe2-4d72-ab95-f36ebf4fef68",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدالة اللوغاريتمية والأسية",
+      "book_page": 174,
+      "raw_sha256": "6378f163656b88f9d144ca280fb60d97cfe40ed93bac543be14473ef1fa8ba67",
+      "master_relative_path": "الصور/ص174 - مشتقة الدالة اللوغاريتمية والأسية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 168,
+      "stored_page_number": 174,
+      "source_page": 175,
+      "legacy_page_id": "2036cbeb-0812-423c-9dd7-1b3330d0aa6b",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدوال المثلثية",
+      "book_page": 175,
+      "raw_sha256": "35dcbee3c2289c1e76184b17ea5b51f3de4de005ccd77291ceb46a9790a01958",
+      "master_relative_path": "الصور/ص175 - مشتقة الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 169,
+      "stored_page_number": 175,
+      "source_page": 176,
+      "legacy_page_id": "8fb51699-df53-44fc-b5ea-be7f31c59fe2",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدوال المثلثية",
+      "book_page": 176,
+      "raw_sha256": "9ba73b8013caabc3ae15ad5de02eed59fea8c76399b3e1cb6f7b61d36e1e1a2e",
+      "master_relative_path": "الصور/ص176 - مشتقة الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 170,
+      "stored_page_number": 176,
+      "source_page": 177,
+      "legacy_page_id": "784c8923-9f38-409b-8270-f5b3c813e8c8",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدوال المثلثية",
+      "book_page": 177,
+      "raw_sha256": "f3c009e1ac53b82bb8040698fe3b677e73325248d58aa1a99f78f0ffa9ff223a",
+      "master_relative_path": "الصور/ص177 - مشتقة الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 171,
+      "stored_page_number": 177,
+      "source_page": 178,
+      "legacy_page_id": "745e3521-e1e3-4626-be05-f99ab8e7e767",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدوال المثلثية",
+      "book_page": 178,
+      "raw_sha256": "da2f1676307cdf857b8577d7d685eae3052635f573450468a4e8d9b56e6d3e05",
+      "master_relative_path": "الصور/ص178 - مشتقة الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 172,
+      "stored_page_number": 178,
+      "source_page": 179,
+      "legacy_page_id": "00480adf-c618-42ab-82dd-0c224ab43c1a",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدوال المثلثية",
+      "book_page": 179,
+      "raw_sha256": "bb5e1d7a3b95a2ec4a64d7dbaba380ce748997cce5beb1ed90e1c7b691204d34",
+      "master_relative_path": "الصور/ص179 - مشتقة الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 173,
+      "stored_page_number": 179,
+      "source_page": 180,
+      "legacy_page_id": "667b6860-409d-4d5b-a85d-e02d28eb7bb5",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدوال المثلثية",
+      "book_page": 180,
+      "raw_sha256": "c7abf4fc6a808042a4ad1ee2c3f94a4b805c69358b011e1f520e9fab3238f0b5",
+      "master_relative_path": "الصور/ص180 - مشتقة الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 174,
+      "stored_page_number": 180,
+      "source_page": 181,
+      "legacy_page_id": "9b21d090-30f0-4b47-abbf-a8308db02f43",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدوال المثلثية",
+      "book_page": 181,
+      "raw_sha256": "46d85096debe5c6662dc3091178f892a0aa03b26f0e3a7fd94966cd2c3203a13",
+      "master_relative_path": "الصور/ص181 - مشتقة الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 175,
+      "stored_page_number": 181,
+      "source_page": 182,
+      "legacy_page_id": "8d595e7f-cdfe-40cc-8c33-b810db7309e0",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مشتقة الدوال المثلثية",
+      "book_page": 182,
+      "raw_sha256": "a19f5493a788fcbcbe3156cf60ec11336cef995d062909f1549dffe3c7fd9bf0",
+      "master_relative_path": "الصور/ص182 - مشتقة الدوال المثلثية.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 176,
+      "stored_page_number": 182,
+      "source_page": 183,
+      "legacy_page_id": "1f9a35ab-98bb-4073-b14a-a9b6cf037d94",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مبرهنة رول والقيمة المتوسطة",
+      "book_page": 183,
+      "raw_sha256": "ecc3a78eaa05a46638068182bde8991f76ec2556ac00be3b017d4cbeabf20024",
+      "master_relative_path": "الصور/ص183 - مبرهنة رول والقيمة المتوسطة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 177,
+      "stored_page_number": 183,
+      "source_page": 184,
+      "legacy_page_id": "02cfefbd-3c39-47f9-aa3c-09ff1a956616",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مبرهنة رول والقيمة المتوسطة",
+      "book_page": 184,
+      "raw_sha256": "d4c1addfda55cd6cccff7ee29fe73e978497c5e119138c2e30e9548c099bb172",
+      "master_relative_path": "الصور/ص184 - مبرهنة رول والقيمة المتوسطة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 178,
+      "stored_page_number": 184,
+      "source_page": 185,
+      "legacy_page_id": "4e6ab477-c797-498f-9664-bc5bb796a060",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مبرهنة رول والقيمة المتوسطة",
+      "book_page": 185,
+      "raw_sha256": "1647d623dedb55318aa87067c509276a75f08be441caaf11d12cafa6885504d5",
+      "master_relative_path": "الصور/ص185 - مبرهنة رول والقيمة المتوسطة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 179,
+      "stored_page_number": 185,
+      "source_page": 186,
+      "legacy_page_id": "33fe96ae-3b61-4bf5-8dfe-935842b5ff99",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "مبرهنة رول والقيمة المتوسطة",
+      "book_page": 186,
+      "raw_sha256": "6d2598a3f5cd29e1941d831388d544e08e283e374f120c3150a1100edf544237",
+      "master_relative_path": "الصور/ص186 - مبرهنة رول والقيمة المتوسطة.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 180,
+      "stored_page_number": 186,
+      "source_page": 187,
+      "legacy_page_id": "998a05f8-aefe-4d77-9a92-8018039a041f",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "القيم القصوى",
+      "book_page": 187,
+      "raw_sha256": "34c839e0478c4a853720262aa8535ea86afc62cc8e6cec31973de6ee4f2912b3",
+      "master_relative_path": "الصور/ص187 - القيم القصوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 181,
+      "stored_page_number": 187,
+      "source_page": 188,
+      "legacy_page_id": "47726f94-64b4-43ca-a57f-bf0176a21ba6",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "القيم القصوى",
+      "book_page": 188,
+      "raw_sha256": "082cf04cfbceef45548fa2e689f3bb085c66aa8086e25eec5f249a3e03247ea3",
+      "master_relative_path": "الصور/ص188 - القيم القصوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 182,
+      "stored_page_number": 188,
+      "source_page": 189,
+      "legacy_page_id": "6149c907-21a3-430c-bc36-26913eae4acd",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "القيم القصوى",
+      "book_page": 189,
+      "raw_sha256": "7422b066d75c481c0a04f208275acf340c7c8e8b1fb39bdadc2979ba64de6e6e",
+      "master_relative_path": "الصور/ص189 - القيم القصوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 183,
+      "stored_page_number": 189,
+      "source_page": 190,
+      "legacy_page_id": "f412d05c-53a1-46d1-94f3-4fe922741219",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "القيم القصوى",
+      "book_page": 190,
+      "raw_sha256": "445fd0757eb949da07e5ace5d302d349cb07b6ae47b92cbc3731e145022a34a5",
+      "master_relative_path": "الصور/ص190 - القيم القصوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 184,
+      "stored_page_number": 190,
+      "source_page": 191,
+      "legacy_page_id": "3155367a-89f1-40a6-a49f-994e80c2ec1a",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "القيم القصوى",
+      "book_page": 191,
+      "raw_sha256": "34b5dab60f8bca0ef567ad49a92f4d181f478a847a1e1cd49069f0190a4258fa",
+      "master_relative_path": "الصور/ص191 - القيم القصوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 185,
+      "stored_page_number": 191,
+      "source_page": 192,
+      "legacy_page_id": "851ace91-e75a-48dd-bf21-b8c5d10dc52b",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "القيم القصوى",
+      "book_page": 192,
+      "raw_sha256": "7d24c5f2b01210dabe4a033ea034919b208df57eca0d663717650a665a1ca38d",
+      "master_relative_path": "الصور/ص192 - القيم القصوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    },
+    {
+      "ordinal": 186,
+      "stored_page_number": 192,
+      "source_page": 193,
+      "legacy_page_id": "8f781dbc-b0cb-497f-810c-e4a38765db7b",
+      "section": "الوحدة السادسة: التفاضل",
+      "title": "القيم القصوى",
+      "book_page": 193,
+      "raw_sha256": "77de01d3a8c2c0c3073abd4fcce212741b90cf9e9e51c5532889a2bbd2336251",
+      "master_relative_path": "الصور/ص193 - القيم القصوى.jpg",
+      "exact_sha_identity": false,
+      "legacy_question_count": 0
+    }
+  ],
+  "structure_status": "DISCOVERY_ONLY",
+  "note": "Sections and contiguous title runs are copied only after exact SHA identity to the trusted master reference. Final unit/lesson/review promotion requires a separate evidence-backed finalization pass.",
+  "raw_mutations": 0
+}
