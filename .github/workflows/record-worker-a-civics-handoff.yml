@@ -1,0 +1,114 @@
+name: Record Worker A Civics Handoff
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/record-worker-a-civics-handoff.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: record-worker-a-civics-handoff
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - name: Verify Civics evidence and Geography baseline
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='7f02b242-5164-46d1-a82d-7f1023cfa8c9'
+          geo='a7f1e94f-82d1-4146-af5b-4e9b51363f0b'
+          r=json.loads(Path(f'content-staging/reconstruction/educational/{sid}.json').read_text())
+          t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
+          m=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          g=json.loads(Path(f'content-staging/raw/legacy-supabase/subjects/{geo}/manifest.json').read_text())
+          p=m['reconstruction_progress']
+          assert r['status']=='reconstructed_verified'
+          assert r['source_identity']['raw_master_exact_sha_matches']==59
+          assert r['reconstructed_book']['unit_count']==4
+          assert r['reconstructed_book']['lesson_count']==14
+          assert r['reconstructed_book']['lesson_page_count']==48
+          assert r['reconstructed_book']['unit_cover_page_count']==4
+          assert r['reconstructed_book']['unit_review_page_count']==7
+          assert r['questions']['legacy_questions']==0
+          assert t['all_images_technically_verified'] is True
+          assert p['sources_completed']==14 and p['educational_sources_completed']==5
+          assert p['verified_books']==5 and p['verified_units']==29 and p['verified_lessons']==133 and p['verified_lesson_pages']==508
+          assert p['source_images_technically_verified']==1070
+          assert p['lesson_linked_structural']==2374 and p['exam_linked_to_individual_model']==967 and p['review_required']==351 and p['unclassified']==22063
+          assert p['lesson_linked_structural']+p['exam_linked_to_individual_model']+p['review_required']+p['unclassified']==25755
+          assert p['raw_mutations']==0 and p['unrelated_mutations']==0 and p['new_imports']==0 and p['new_publications']==0
+          assert g['counts']['pages']==104 and g['counts']['image_references']==104 and g['counts']['questions']==0 and g['counts']['image_download_failures']==0
+          assert all(not v for v in g['anomalies'].values())
+          print('WORKER_A_CIVICS_EVIDENCE_PASS')
+          PY
+
+      - name: Re-fetch live HEAD before shared-log write
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)"
+
+      - name: Update ACTIVE CHECKPOINT and append Worker A RUN
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          path=Path('content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md')
+          text=path.read_text(encoding='utf-8')
+          checkpoint='''## 10. ACTIVE CHECKPOINT
+
+- state: `COMPLETE`
+- branch: `content/corpus-inventory-20260914`
+- latest verified work HEAD before this handoff commit: `c6497f06a2810915d39e58b249e8060932ec3932`
+- last completed source: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`
+- current source: `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`
+- current source baseline from live evidence: `104 pages / 104 image references / 0 legacy questions / 0 image download failures; manifest anomaly arrays are empty. Technical byte/SHA/MIME verification for Geography has NOT YET been run.`
+- current operation: `Civics finalized from exact source evidence: 59/59 technical images and 59/59 unique exact SHA identities against master/تاسع إجتماعيات/التربية_الوطنية_تاسع; retained stored pages 6..64 map exactly to master source pages 7..65; 4 units, 14 lessons, 48 lesson pages, 4 unit covers, 7 unit reviews, 0 legacy questions. Next: technically verify Geography's 104 immutable images and establish identity/boundaries only from Geography evidence. Candidate master/تاسع إجتماعيات/جغرافيا_تاسع exists, but equivalence is NOT VERIFIED until the identity gate passes.`
+- next source: `NOT YET RESOLVED — derive after كتاب الجغرافيا from live MASTER_CONTENT_MANIFEST`
+- blockers: `none`
+- owner decision required now: `no`
+'''
+          text,n=re.subn(r'## 10\. ACTIVE CHECKPOINT\n.*?\n---\n',checkpoint+'\n---\n',text,count=1,flags=re.S)
+          if n!=1: raise SystemExit('ACTIVE CHECKPOINT block not found exactly once')
+          marker='## RUN 2026-09-14T13:40:00+03:00 — Worker A'
+          run=f'''\n{marker}\n\n- state: COMPLETE\n- start HEAD: `1d11d21d75bd73b641b1f97c677b38f4a5f26583`\n- end verified work HEAD before handoff tooling/log commit: `c6497f06a2810915d39e58b249e8060932ec3932`\n- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`\n- source at start: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`\n- completed in this run:\n  - verified Worker B's History completion against the live baton, manifest and evidence, then continued exactly from التربية الوطنية;\n  - confirmed Civics live baseline: 59 pages/images, 0 legacy questions, no manifest anomalies;\n  - identified the explicit candidate master reference `master/تاسع إجتماعيات/التربية_الوطنية_تاسع` and required unique exact SHA identity before using any master title/boundary;\n  - technically verified all 59 immutable RAW images: existence/readability/size/SHA-256/MIME all 59/59, contiguous stored sequence 6..64, duplicate SHA groups 0;\n  - established 59/59 unique byte-identical master matches, mapping stored 6..64 exactly to source pages 7..65;\n  - reconstructed 4 units / 14 lessons / 48 lesson pages / 4 unit covers / 7 unit-review pages, with every retained page classified exactly once;\n  - preserved the seven master-only pages outside the retained slice as reference-only rather than fabricating them;\n  - confirmed the source contains 0 legacy questions; no question was fabricated or linked; semantic question review is NOT APPLICABLE;\n  - updated MASTER_CONTENT_MANIFEST plus status/inventory/validation/import/continuation evidence without production import/publication;\n  - fail-closed probe run `34833981327` stopped before any derived commit because the checkpoint guard did not recognize baseline `review_needed`; the evidence stages had already passed. The guard was corrected only after verifying no prior technical/reconstruction finalization existed;\n  - successful run `34834237115` passed the source reconstruction gate, both live-HEAD conflict gates and `CIVICS_FINALIZATION_VERIFY_PASS`, producing finalization commit `c6497f06a2810915d39e58b249e8060932ec3932`.\n- evidence produced/verified:\n  - technical: `content-staging/reconstruction/technical/7f02b242-5164-46d1-a82d-7f1023cfa8c9.json`;\n  - identity/structure discovery: `content-staging/reconstruction/educational/7f02b242-5164-46d1-a82d-7f1023cfa8c9-discovery.json`;\n  - final reconstruction: `content-staging/reconstruction/educational/7f02b242-5164-46d1-a82d-7f1023cfa8c9.json`;\n  - exact master reference: `master/تاسع إجتماعيات/التربية_الوطنية_تاسع`;\n  - final checkpoint commit: `c6497f06a2810915d39e58b249e8060932ec3932`.\n- ambiguity/review_required:\n  - Civics source ambiguity requiring quarantine: 0;\n  - source questions: 0; no semantic claims invented;\n  - Geography identity/lesson boundaries remain `NOT VERIFIED` until its own technical and identity gates pass.\n- invariant result: PASS (`2,374 + 967 + 351 + 22,063 = 25,755`)\n- Sources processed: 14/58\n- Educational: 5/26\n- Books / Units / Lessons / Lesson Pages: 5 / 29 / 133 / 508\n- Exam Source Groups: 9/32\n- Individual Exam Models: 135\n- Exam Pages: 455/2,286\n- Verified Answer Keys: 0\n- Correction/report candidates: 140\n- Source images technical: 1,070/5,273\n- WebP generated / accepted / rejected: 0 / 0 / 0\n- Legacy Questions: 25,755\n- Lesson-linked: 2,374\n- Exam-linked: 967\n- Review-required: 351\n- Unclassified: 22,063\n- Duplicate groups classified: 0/99\n- RAW mutations: 0\n- Unrelated mutations: 0\n- New imports: 0\n- New publications: 0\n- last completed source: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`\n- current source: `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`\n- current source baseline: `104 pages/images; 0 legacy questions; no manifest anomalies; technical verification NOT YET RUN.`\n- exact next operation: `Re-fetch live HEAD/log; technically verify all 104 Geography RAW images and sequence/SHA/MIME; test identity against the explicit Geography reference only by exact/source evidence; reconstruct unit/lesson/review boundaries only after identity is proven; preserve any missing slice as reference-only; assert 25,755 invariant; checkpoint.`\n- next source: `NOT YET RESOLVED — derive after Geography from live MASTER_CONTENT_MANIFEST`\n- blockers: `none`\n- handoff note: `Worker B should start with Geography from its own live evidence. Do not reopen Civics absent drift evidence and do not assume the Civics unit/title-run pattern applies to Geography.`\n'''
+          if marker not in text:
+              text=text.rstrip()+'\n\n'+run.strip()+'\n'
+          path.write_text(text,encoding='utf-8')
+          print('WORKER_A_CIVICS_HANDOFF_RECORDED')
+          PY
+
+      - name: Re-fetch live HEAD immediately before log commit
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)"
+
+      - name: Verify and commit shared baton
+        run: |
+          set -euo pipefail
+          grep -F 'last completed source: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F 'current source: `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F '2,374 + 967 + 351 + 22,063 = 25,755' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F '## RUN 2026-09-14T13:40:00+03:00 — Worker A' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'docs: checkpoint Worker A Civics completion [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
