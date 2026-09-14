@@ -1,0 +1,35 @@
+name: Worker B Math1 Handoff V2
+on:
+  push:
+    branches: [content/corpus-inventory-20260914]
+    paths: [.github/workflows/worker-b-math1-handoff-v2.yml]
+permissions:
+  contents: write
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - name: Head gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          LIVE=$(git ls-remote origin refs/heads/content/corpus-inventory-20260914 | cut -f1)
+          test "$LIVE" = "$GITHUB_SHA"
+      - name: Record baton
+        run: python content-staging/tools/record_worker_b_math_part1_handoff.py
+      - name: Commit baton
+        shell: bash
+        run: |
+          set -euo pipefail
+          LIVE=$(git ls-remote origin refs/heads/content/corpus-inventory-20260914 | cut -f1)
+          test "$LIVE" = "$GITHUB_SHA"
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          git diff --cached --quiet && exit 44
+          git commit -m 'content: hand off Math Part 2 to Worker A [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
