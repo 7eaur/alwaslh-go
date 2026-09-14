@@ -119,9 +119,10 @@ jobs:
 
           selected_pages = {
               6, 7, 8, 9, 10,
-              11, 21, 22, 40, 41, 42, 67, 68, 69, 89, 90,
-              91, 103, 104, 121, 122, 123, 137, 138, 165, 166,
-              167, 183, 184, 188, 189, 193,
+              11, 12, 14, 21, 22, 23, 35, 40, 41, 42, 43, 47, 67, 68,
+              69, 71, 80, 89, 90, 91, 92, 97, 103, 104, 105, 106, 112,
+              121, 122, 123, 124, 131, 137, 138, 139, 143, 151, 165, 166,
+              167, 168, 169, 180, 183, 184, 188, 189, 193,
           }
           output_dir = Path('artifacts/visual-boundaries')
           for page in sorted(selected_pages):
@@ -177,6 +178,25 @@ jobs:
               report['first_nested_item_keys'] = first_nested_shapes
           else:
               report['page_records'] = None
+
+          sample_pages = {12, 14, 23, 35, 43, 47, 71, 80, 92, 97, 105, 106, 112, 124, 131, 139, 143, 151, 168, 169, 180}
+          metadata_samples = []
+          if isinstance(pages, list):
+              for page in pages:
+                  if not isinstance(page, dict) or page.get('page_number') not in sample_pages:
+                      continue
+                  extracted = page.get('extracted_text')
+                  summary = page.get('summary')
+                  metadata_samples.append({
+                      'page_number': page.get('page_number'),
+                      'id': page.get('id'),
+                      'title': page.get('title'),
+                      'content_type': page.get('content_type'),
+                      'summary': summary[:1200] if isinstance(summary, str) else summary,
+                      'extracted_text_prefix': extracted[:1800] if isinstance(extracted, str) else extracted,
+                      'ai_question_count': len(page.get('ai_questions') or []),
+                  })
+          report['metadata_samples'] = sorted(metadata_samples, key=lambda item: item['page_number'])
 
           Path('artifacts/chemistry-pages-structure-probe.json').write_text(
               json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
