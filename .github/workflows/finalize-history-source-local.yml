@@ -1,0 +1,127 @@
+name: Finalize History Source-Local Reconstruction
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/finalize-history-source-local.yml'
+      - 'content-staging/tools/reconstruct_history_source_local.py'
+      - 'content-staging/tools/record_history_source_local_checkpoint.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-history-source-local
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install verification dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Reverify immutable History media
+        run: |
+          set -euo pipefail
+          python content-staging/tools/verify_subject_media.py --subject-id 0a76f44b-0a4f-4e36-9ea9-badecf78bf23
+
+      - name: Reconstruct source-local History structure
+        run: |
+          set -euo pipefail
+          python content-staging/tools/reconstruct_history_source_local.py
+
+      - name: Record corpus checkpoint
+        run: |
+          set -euo pipefail
+          python content-staging/tools/record_history_source_local_checkpoint.py
+
+      - name: Verify final invariants
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='0a76f44b-0a4f-4e36-9ea9-badecf78bf23'
+          r=json.loads(Path(f'content-staging/reconstruction/educational/{sid}.json').read_text())
+          m=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          p=m['reconstruction_progress']
+          assert r['status']=='reconstructed_verified_source_local'
+          b=r['reconstructed_book']
+          assert b['unit_count']==0
+          assert b['section_count']==1
+          assert b['lesson_count']==9
+          assert b['lesson_page_count']==47
+          assert b['lesson_review_page_count']==12
+          assert b['classified_page_count']==61
+          q=r['questions']
+          assert q['legacy_questions']==138
+          assert q['structurally_lesson_linked_questions']==138
+          assert q['review_required_questions']==0
+          assert p['sources_completed']==13
+          assert p['educational_sources_completed']==4
+          assert p['verified_books']==4
+          assert p['verified_units']==25
+          assert p['verified_lessons']==119
+          assert p['verified_lesson_pages']==460
+          assert p['exam_source_groups_completed']==9
+          assert p['individual_exam_models']==135
+          assert p['exam_pages_completed']==455
+          assert p['source_images_technically_verified']==1011
+          assert p['lesson_linked_structural']==2374
+          assert p['exam_linked_to_individual_model']==967
+          assert p['review_required']==351
+          assert p['unclassified']==22063
+          assert p['lesson_linked_structural']+p['exam_linked_to_individual_model']+p['review_required']+p['unclassified']==25755
+          assert p['raw_mutations']==0 and p['unrelated_mutations']==0
+          assert p['new_imports']==0 and p['new_publications']==0
+          print('HISTORY_SOURCE_LOCAL_FINALIZATION_VERIFY_PASS')
+          PY
+
+      - name: Commit finalized reconstruction and checkpoint
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add \
+            content-staging/reconstruction/technical/0a76f44b-0a4f-4e36-9ea9-badecf78bf23.json \
+            content-staging/reconstruction/educational/0a76f44b-0a4f-4e36-9ea9-badecf78bf23-discovery.json \
+            content-staging/reconstruction/educational/0a76f44b-0a4f-4e36-9ea9-badecf78bf23-visual-index.json \
+            content-staging/reconstruction/educational/0a76f44b-0a4f-4e36-9ea9-badecf78bf23.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+            content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md \
+            content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md \
+            content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          if git diff --cached --quiet; then
+            echo 'Finalized state unchanged.'
+            exit 0
+          fi
+          git commit -m 'content: finalize History source-local reconstruction [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
+
+      - name: Upload final evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: history-source-local-finalization
+          path: |
+            content-staging/reconstruction/educational/0a76f44b-0a4f-4e36-9ea9-badecf78bf23.json
+            content-staging/reconstruction/educational/0a76f44b-0a4f-4e36-9ea9-badecf78bf23-visual-index.json
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json
+          if-no-files-found: error
+          retention-days: 7
