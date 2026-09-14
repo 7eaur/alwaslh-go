@@ -2352,8 +2352,8 @@
         "id": "41e5a81c-3b93-479c-9b76-33815cae9430",
         "name": "الفيزياء نماذج وزاريه 1445"
       },
-      "classification": "exam_collection_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "exam_source_group",
+      "classification_evidence": "legacy exam label + 60/60 technical verification + complete source-local 60-page visual review resolving twenty three-page question/question/correction occurrences",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/41e5a81c-3b93-479c-9b76-33815cae9430/manifest.json",
       "manifest_sha256_recorded": "90ac3f082f711a1f584b5d57a8ccc80db8a906109075006e585cdac663d2a801",
       "counts": {
@@ -2372,12 +2372,42 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "processed_boundary_verified_answer_keys_not_verified",
       "modern_entity_id": null,
-      "exam_models": null,
-      "answer_keys": null,
+      "exam_models": 20,
+      "answer_keys": "NOT VERIFIED",
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/41e5a81c-3b93-479c-9b76-33815cae9430.json",
+        "images_verified": 60,
+        "readable": 60,
+        "sha256_match_manifest": 60,
+        "mime_match_manifest": 60,
+        "duplicate_sha_groups_within_source": 0
+      },
+      "exam_reconstruction": {
+        "status": "boundary_verified_legacy_questions_structurally_linked_answer_keys_not_verified",
+        "path": "content-staging/reconstruction/exams/source-groups/41e5a81c-3b93-479c-9b76-33815cae9430.json",
+        "source_blocks_reviewed": 20,
+        "verified_source_occurrences": 20,
+        "review_required_blocks": 0,
+        "individual_exam_models": 20,
+        "source_pages": 60,
+        "finalized_exam_pages": 60,
+        "review_required_pages": 0,
+        "pages_per_source_block": 3,
+        "question_pages_per_verified_occurrence": 2,
+        "correction_sheet_candidates": 20,
+        "verified_answer_keys": 0,
+        "answer_key_status": "NOT VERIFIED",
+        "exam_linked_questions": 83,
+        "review_required_questions": 0,
+        "associated_legacy_questions": 83,
+        "semantic_question_correctness": "NOT VERIFIED",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "0b28dc73-7e43-45f1-99c8-14825dcf3ded",
@@ -3349,7 +3379,7 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 32,
+    "sources_completed": 33,
     "sources_total": 58,
     "educational_sources_completed": 16,
     "educational_sources_total": 26,
@@ -3357,29 +3387,29 @@
     "verified_units": 57,
     "verified_lessons": 328,
     "verified_lesson_pages": 1527,
-    "exam_source_groups_completed": 16,
+    "exam_source_groups_completed": 17,
     "exam_source_groups_total": 32,
-    "individual_exam_models": 279,
-    "exam_pages_completed": 944,
+    "individual_exam_models": 299,
+    "exam_pages_completed": 1004,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 2691,
+    "source_images_technically_verified": 2751,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,
     "webp_derivatives_rejected": 0,
     "legacy_questions_total": 25755,
     "lesson_linked_structural": 13135,
-    "exam_linked_to_individual_model": 1382,
+    "exam_linked_to_individual_model": 1465,
     "review_required": 1229,
-    "unclassified": 10009,
+    "unclassified": 9926,
     "duplicate_fingerprint_groups_classified": 0,
     "duplicate_fingerprint_groups_total": 99,
     "raw_mutations": 0,
     "unrelated_mutations": 0,
     "new_imports": 0,
     "new_publications": 0,
-    "correction_sheet_candidates": 285
+    "correction_sheet_candidates": 305
   },
   "source_disposition_contract": {
     "verified_empty_retained_source": {

@@ -396,3 +396,18 @@ The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_
 - Technical images: **2691/5273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Last completed: `4863bbf6-6cf3-4238-9407-75825724292a — الفيزياء الكتاب المدرسي`. Next: `41e5a81c-3b93-479c-9b76-33815cae9430 — الفيزياء نماذج وزاريه 1445`.
 <!-- PHYSICS_BOOK_CHECKPOINT_END -->
+
+<!-- PHYSICS_EXAM_1445_CHECKPOINT_START -->
+## Reconstruction checkpoint — Physics Ministry Exams 1445
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Source `41e5a81c-3b93-479c-9b76-33815cae9430` — `الفيزياء نماذج وزاريه 1445` completed from source-local evidence.
+- Technical verification: **60/60** images exist/readable and byte-size/SHA-256/MIME match the immutable manifest; sequence **1..60** contiguous; duplicate SHA groups **0**.
+- Full visual review resolves **20** verified source occurrences; each has two question pages followed by one correction/result-sheet candidate; all **60** source pages are finalized exactly once.
+- Correction/result candidates: **20**; verified standalone official Answer Keys: **0 / NOT VERIFIED**.
+- Source questions: **83/83 structurally exam-linked** by verified page membership; semantic question/answer correctness remains `NOT VERIFIED`.
+- Progress: Sources **33/58**; Educational **16/26**; Exam Groups **17/32**; Individual Exam Models **299**; Exam Pages **1004/2,286**; source images technical **2751/5,273**.
+- Global questions: Lesson-linked **13135**; Exam-linked **1465**; Review-required **1229**; Unclassified **9926**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `0b28dc73-7e43-45f1-99c8-14825dcf3ded` — `الفيزياء نماذج وزاريه 1446`.
+<!-- PHYSICS_EXAM_1445_CHECKPOINT_END -->
