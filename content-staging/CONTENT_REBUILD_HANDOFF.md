@@ -601,3 +601,16 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `3df6f57e-26cb-414e-97c5-ef6bd2ff4487` — `الاحياء نماذج وزارية 1447`.
 <!-- BIOLOGY_EXAM_1446_CHECKPOINT_END -->
+
+<!-- BIOLOGY_EXAM_1447_CHECKPOINT_START -->
+## Reconstruction checkpoint — Biology Ministry Exams 1447
+
+- Source `3df6f57e-26cb-414e-97c5-ef6bd2ff4487` completed from source-local evidence.
+- Technical verification: **124/124**; contiguous pages **1..124**; **9** within-source SHA duplicate groups preserved.
+- Visual review: **31** four-page blocks reviewed; **29** verified occurrences; **2** mismatched question/correction blocks isolated as `review_required`; **28** unique Individual Exam Models.
+- Finalized Exam Pages: **116**; review-required pages: **8**; correction candidates: **29**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Legacy questions: **50** exam-linked structurally; **0** review-required; semantic correctness `NOT VERIFIED`.
+- Global progress: Sources **31/58**; Exam Groups **16/32**; Individual Models **279**; Exam Pages **944/2,286**; source images **2484/5,273**.
+- Question invariant: PASS = 25,755. RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `4863bbf6-6cf3-4238-9407-75825724292a` — `الفيزياء الكتاب المدرسي`.
+<!-- BIOLOGY_EXAM_1447_CHECKPOINT_END -->

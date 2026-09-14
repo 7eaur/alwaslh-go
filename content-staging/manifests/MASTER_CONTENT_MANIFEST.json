@@ -2215,8 +2215,8 @@
         "id": "3df6f57e-26cb-414e-97c5-ef6bd2ff4487",
         "name": "الاحياء نماذج وزارية 1447"
       },
-      "classification": "exam_collection_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "exam_source_group",
+      "classification_evidence": "legacy exam label + 124/124 technical verification + complete source-local visual review of 31 four-page blocks",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/3df6f57e-26cb-414e-97c5-ef6bd2ff4487/manifest.json",
       "manifest_sha256_recorded": "bb85a3f11de3373b41168bbce0aaf5f5a81bf2984bae0d1057132e29a505afb7",
       "counts": {
@@ -2235,12 +2235,41 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "processed_boundary_verified_with_review_required_mismatched_blocks",
       "modern_entity_id": null,
-      "exam_models": null,
-      "answer_keys": null,
+      "exam_models": 28,
+      "answer_keys": "NOT VERIFIED",
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/3df6f57e-26cb-414e-97c5-ef6bd2ff4487.json",
+        "images_verified": 124,
+        "readable": 124,
+        "sha256_match_manifest": 124,
+        "mime_match_manifest": 124,
+        "duplicate_sha_groups_within_source": 9
+      },
+      "exam_reconstruction": {
+        "status": "boundary_verified_with_two_review_required_mismatched_blocks",
+        "path": "content-staging/reconstruction/exams/source-groups/3df6f57e-26cb-414e-97c5-ef6bd2ff4487.json",
+        "source_blocks_reviewed": 31,
+        "verified_source_occurrences": 29,
+        "review_required_blocks": 2,
+        "individual_exam_models": 28,
+        "source_pages": 124,
+        "finalized_exam_pages": 116,
+        "review_required_pages": 8,
+        "correction_sheet_candidates": 29,
+        "verified_answer_keys": 0,
+        "answer_key_status": "NOT VERIFIED",
+        "exam_linked_questions": 50,
+        "review_required_questions": 0,
+        "associated_legacy_questions": 50,
+        "semantic_question_correctness": "NOT VERIFIED",
+        "duplicate_sha_groups_within_source": 9,
+        "raw_mutations": 0
+      }
     },
     {
       "id": "4863bbf6-6cf3-4238-9407-75825724292a",
@@ -3292,7 +3321,7 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 30,
+    "sources_completed": 31,
     "sources_total": 58,
     "educational_sources_completed": 15,
     "educational_sources_total": 26,
@@ -3300,29 +3329,29 @@
     "verified_units": 48,
     "verified_lessons": 283,
     "verified_lesson_pages": 1354,
-    "exam_source_groups_completed": 15,
+    "exam_source_groups_completed": 16,
     "exam_source_groups_total": 32,
-    "individual_exam_models": 251,
-    "exam_pages_completed": 828,
+    "individual_exam_models": 279,
+    "exam_pages_completed": 944,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 2360,
+    "source_images_technically_verified": 2484,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,
     "webp_derivatives_rejected": 0,
     "legacy_questions_total": 25755,
     "lesson_linked_structural": 10514,
-    "exam_linked_to_individual_model": 1332,
+    "exam_linked_to_individual_model": 1382,
     "review_required": 749,
-    "unclassified": 13160,
+    "unclassified": 13110,
     "duplicate_fingerprint_groups_classified": 0,
     "duplicate_fingerprint_groups_total": 99,
     "raw_mutations": 0,
     "unrelated_mutations": 0,
     "new_imports": 0,
     "new_publications": 0,
-    "correction_sheet_candidates": 256
+    "correction_sheet_candidates": 285
   },
   "source_disposition_contract": {
     "verified_empty_retained_source": {
