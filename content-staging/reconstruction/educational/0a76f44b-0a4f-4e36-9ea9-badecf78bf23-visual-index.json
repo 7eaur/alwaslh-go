@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "operation": "source_local_visual_evidence_render",
   "subject_id": "0a76f44b-0a4f-4e36-9ea9-badecf78bf23",
   "authority": "immutable RAW pages only",
@@ -101,6 +101,20 @@
         68
       ]
     }
+  ],
+  "boundary_page_exports": [
+    8,
+    9,
+    10,
+    14,
+    22,
+    31,
+    36,
+    44,
+    49,
+    56,
+    64,
+    68
   ],
   "raw_mutations": 0,
   "semantic_boundaries": "NOT VERIFIED",
