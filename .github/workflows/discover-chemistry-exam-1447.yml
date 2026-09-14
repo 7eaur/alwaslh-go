@@ -8,6 +8,8 @@ on:
       - '.github/workflows/discover-chemistry-exam-1447.yml'
       - 'content-staging/tools/verify_subject_media.py'
       - 'content-staging/tools/discover_exam_source_group.py'
+      - 'content-staging/tools/reconstruct_chemistry_exam_1447.py'
+      - 'content-staging/tools/record_chemistry_exam_1447_checkpoint.py'
 
 permissions:
   contents: write
@@ -48,28 +50,78 @@ jobs:
             --subject-id e7c8291c-e904-4e8c-9cd8-2753818cedf3 \
             --visual-dir artifacts/chemistry-exam-1447
 
-      - name: Upload boundary evidence
+      - name: Reconstruct verified 1447 exam boundaries and question mappings
+        run: |
+          set -euo pipefail
+          python content-staging/tools/reconstruct_chemistry_exam_1447.py
+
+      - name: Record source-group checkpoint
+        run: |
+          set -euo pipefail
+          python content-staging/tools/record_chemistry_exam_1447_checkpoint.py
+
+      - name: Validate finalized reconstruction JSON and global question invariant
+        run: |
+          set -euo pipefail
+          python -m json.tool content-staging/reconstruction/exams/source-groups/e7c8291c-e904-4e8c-9cd8-2753818cedf3.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r = json.loads(Path('content-staging/reconstruction/exams/source-groups/e7c8291c-e904-4e8c-9cd8-2753818cedf3.json').read_text(encoding='utf-8'))
+          assert r['source_pages'] == 124
+          assert r['source_questions'] == 226
+          assert r['source_blocks_reviewed'] == 31
+          assert r['verified_source_occurrence_count'] == 29
+          assert r['review_required_block_count'] == 2
+          assert r['individual_exam_model_count'] == 28
+          assert r['finalized_exam_page_count'] == 116
+          assert r['review_required_page_count'] == 8
+          assert r['verified_answer_key_count'] == 0
+          assert r['duplicate_sha256_groups_within_source'] == 9
+          q = r['question_mapping']
+          assert q['exam_linked_structural'] + q['review_required'] == 226
+          assert q['unassigned_within_source'] == 0
+          assert len(q['records']) == 226
+          assert r['evidence']['raw_mutations'] == 0
+          m = json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text(encoding='utf-8'))
+          p = m['reconstruction_progress']
+          assert p['lesson_linked_structural'] + p['exam_linked_to_individual_model'] + p['review_required'] + p['unclassified'] == 25755
+          assert p['raw_mutations'] == 0 and p['unrelated_mutations'] == 0 and p['new_imports'] == 0 and p['new_publications'] == 0
+          print('CHEMISTRY_1447_FINALIZATION_VERIFY_PASS')
+          print(json.dumps({'source_exam_linked': q['exam_linked_structural'], 'source_review_required': q['review_required'], 'global_progress': p}, ensure_ascii=False))
+          PY
+
+      - name: Upload finalized boundary evidence
         uses: actions/upload-artifact@v4
         with:
-          name: chemistry-exam-1447-boundary-evidence
+          name: chemistry-exam-1447-boundary-evidence-final
           path: |
             artifacts/chemistry-exam-1447/
             content-staging/reconstruction/technical/e7c8291c-e904-4e8c-9cd8-2753818cedf3.json
             content-staging/reconstruction/exams/source-groups/e7c8291c-e904-4e8c-9cd8-2753818cedf3-discovery.json
+            content-staging/reconstruction/exams/source-groups/e7c8291c-e904-4e8c-9cd8-2753818cedf3.json
           if-no-files-found: error
           retention-days: 14
 
-      - name: Commit derived discovery reports only
+      - name: Commit reconstruction checkpoint
         run: |
           set -euo pipefail
           git config user.name 'alwaslh-content-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add \
             content-staging/reconstruction/technical/e7c8291c-e904-4e8c-9cd8-2753818cedf3.json \
-            content-staging/reconstruction/exams/source-groups/e7c8291c-e904-4e8c-9cd8-2753818cedf3-discovery.json
+            content-staging/reconstruction/exams/source-groups/e7c8291c-e904-4e8c-9cd8-2753818cedf3-discovery.json \
+            content-staging/reconstruction/exams/source-groups/e7c8291c-e904-4e8c-9cd8-2753818cedf3.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+            content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md \
+            content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md \
+            content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
           if git diff --cached --quiet; then
             echo 'Derived reports unchanged.'
             exit 0
           fi
-          git commit -m 'content: discover chemistry 1447 exam boundary candidates [skip ci]'
+          git commit -m 'content: finalize chemistry 1447 exam reconstruction [skip ci]'
           git push origin HEAD:content/corpus-inventory-20260914
