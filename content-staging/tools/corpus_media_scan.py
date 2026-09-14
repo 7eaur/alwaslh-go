@@ -32,11 +32,11 @@ def load_records(manifest_path: Path) -> list[dict[str, Any]]:
     if isinstance(payload, list):
         return payload
     if isinstance(payload, dict):
-        for key in ("pages", "records", "items"):
+        for key in ("images", "pages", "records", "items"):
             value = payload.get(key)
             if isinstance(value, list):
                 return value
-    raise ValueError("Unsupported manifest shape: expected list or dict with pages/records/items")
+    raise ValueError("Unsupported manifest shape: expected list or dict with images/pages/records/items")
 
 
 def detect_repo_root(manifest_path: Path) -> Path:
@@ -48,26 +48,48 @@ def detect_repo_root(manifest_path: Path) -> Path:
     raise RuntimeError("Could not locate repository root")
 
 
+def resolve_image_path(repo_root: Path, image_ref: str) -> Path:
+    raw = Path(image_ref)
+    candidates = [repo_root / raw]
+    if raw.parts and raw.parts[0] == "raw":
+        candidates.insert(0, repo_root / "content-staging" / raw)
+    for candidate in candidates:
+        if candidate.is_file():
+            return candidate
+    return candidates[0]
+
+
 def normalise_content_type(value: Any) -> str | None:
     if not value:
         return None
     return str(value).split(";", 1)[0].strip().lower() or None
 
 
+def first_present(row: dict[str, Any], *keys: str) -> Any:
+    for key in keys:
+        if key in row and row[key] is not None:
+            return row[key]
+    return None
+
+
 def scan_record(repo_root: Path, row: dict[str, Any], ordinal: int) -> dict[str, Any]:
-    image_ref = row.get("image_file") or row.get("image_path") or row.get("path")
+    image_ref = first_present(row, "image_file", "image_path", "raw_path", "path")
+    manifest_bytes = first_present(row, "image_size", "byte_size")
+    manifest_sha = first_present(row, "image_sha256", "sha256")
+    manifest_mime = normalise_content_type(first_present(row, "image_content_type", "mime_type"))
     page_number = row.get("page_number")
     result: dict[str, Any] = {
         "ordinal": ordinal,
         "page_number": page_number,
         "page_label": row.get("page_label"),
+        "legacy_page_id": row.get("legacy_page_id"),
         "subject_id": row.get("subject_id"),
         "subject_name": row.get("subject_name"),
         "source_url": row.get("source_url"),
         "image_file": image_ref,
-        "manifest_bytes": row.get("image_size"),
-        "manifest_sha256": row.get("image_sha256"),
-        "manifest_content_type": normalise_content_type(row.get("image_content_type")),
+        "manifest_bytes": manifest_bytes,
+        "manifest_sha256": manifest_sha,
+        "manifest_content_type": manifest_mime,
         "exists": False,
         "readable": False,
         "extension": None,
@@ -89,12 +111,12 @@ def scan_record(repo_root: Path, row: dict[str, Any], ordinal: int) -> dict[str,
         result["error"] = "missing image reference"
         return result
 
-    image_path = repo_root / str(image_ref)
+    image_path = resolve_image_path(repo_root, str(image_ref))
     result["extension"] = image_path.suffix.lower()
     result["extension_mime_guess"] = mimetypes.guess_type(image_path.name)[0]
     result["exists"] = image_path.is_file()
     if not result["exists"]:
-        result["error"] = "referenced image does not exist"
+        result["error"] = f"referenced image does not exist: {image_ref}"
         return result
 
     try:
@@ -103,11 +125,8 @@ def scan_record(repo_root: Path, row: dict[str, Any], ordinal: int) -> dict[str,
         result["actual_bytes"] = actual_bytes
         result["actual_sha256"] = actual_sha
 
-        manifest_bytes = row.get("image_size")
         if manifest_bytes is not None:
             result["bytes_match_manifest"] = actual_bytes == int(manifest_bytes)
-
-        manifest_sha = row.get("image_sha256")
         if manifest_sha:
             result["sha256_match_manifest"] = actual_sha.lower() == str(manifest_sha).lower()
 
@@ -122,7 +141,6 @@ def scan_record(repo_root: Path, row: dict[str, Any], ordinal: int) -> dict[str,
 
         result["detected_format"] = detected_format
         result["detected_mime"] = Image.MIME.get(detected_format) if detected_format else None
-        manifest_mime = result["manifest_content_type"]
         if manifest_mime and result["detected_mime"]:
             result["mime_match_manifest"] = manifest_mime == result["detected_mime"].lower()
         result["readable"] = True
