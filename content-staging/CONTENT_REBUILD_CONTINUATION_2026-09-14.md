@@ -468,3 +468,17 @@ Continue with `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغراف�
 - Source images technical **1,542/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199 — الرياضيات نماذج وزارية 1445`.
 <!-- FIQH_BOOK_CHECKPOINT_END -->
+
+<!-- MATH_EXAM_1445_CHECKPOINT_START -->
+## Reconstruction checkpoint — Mathematics Ministry Exams 1445
+
+- Source `0d4fa9fd-a93c-4d18-9dea-6dd22eb2e199` — `الرياضيات نماذج وزارية 1445` safely processed.
+- Technical verification: **42/42** images; contiguous pages 1..42; duplicate SHA groups **0**.
+- Verified models: **13** (pages 1..39); finalized exam pages: **39**; correction candidates: **13**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Pages **40..42**: `review_required`; metadata repeats model 12 but binaries differ, and semantic identity versus pages 34..36 remains `NOT VERIFIED`; no merge/renumber performed.
+- Questions: **28/28** structurally linked to verified model 1 from source page membership; semantic correctness `NOT VERIFIED`.
+- Progress: Sources **21/58**; Educational **10/26**; Exam Groups **11/32**; Individual Exam Models **179**; Exam Pages **587/2,286**; source images technical **1584/5,273**.
+- Global questions: Lesson-linked **6891**; Exam-linked **995**; Review-required **351**; Unclassified **17518**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `85c13f3f-fe85-47c3-affb-fb437d10d908` — `الرياضيات نماذج وزارية 1446`.
+<!-- MATH_EXAM_1445_CHECKPOINT_END -->
