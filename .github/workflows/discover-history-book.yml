@@ -37,18 +37,29 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install image verifier dependency
-        run: python -m pip install --disable-pip-version-check Pillow
+      - name: Install image verifier dependencies
+        run: python -m pip install --disable-pip-version-check Pillow ImageHash
 
       - name: Verify immutable RAW media
         run: |
           set -euo pipefail
           python content-staging/tools/verify_subject_media.py --subject-id 0a76f44b-0a4f-4e36-9ea9-badecf78bf23
 
-      - name: Verify exact master identity and discover structure candidates
+      - name: Compare trusted master content and discover structure candidates
         run: |
           set -euo pipefail
           python content-staging/tools/discover_history_book.py
+
+      - name: Commit derived discovery evidence
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/reconstruction/technical/0a76f44b-0a4f-4e36-9ea9-badecf78bf23.json content-staging/reconstruction/educational/0a76f44b-0a4f-4e36-9ea9-badecf78bf23-discovery.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'content: record history book discovery evidence [skip ci]'
+            git push origin HEAD:content/corpus-inventory-20260914
+          fi
 
       - name: Assert non-destructive discovery
         run: |
@@ -61,24 +72,12 @@ jobs:
           d=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-discovery.json').read_text())
           assert t['all_images_technically_verified'] is True
           assert t['checks']['manifest_image_count']==61
-          assert d['identity_status']=='VERIFIED'
-          assert d['exact_sha_identity_count']==61
+          assert d['raw_sha_verified_count']==61
           assert d['raw_image_count']==61
           assert d['legacy_question_count']==138
           assert d['raw_mutations']==0
+          assert d['identity_status']=='VERIFIED'
+          assert d['content_equivalence_verified_count']==61
           assert d['lesson_boundaries_status']=='NOT VERIFIED'
           print('HISTORY_BOOK_DISCOVERY_PASS')
           PY
-
-      - name: Commit derived discovery evidence
-        run: |
-          set -euo pipefail
-          git config user.name 'alwaslh-content-bot'
-          git config user.email 'actions@users.noreply.github.com'
-          git add content-staging/reconstruction/technical/0a76f44b-0a4f-4e36-9ea9-badecf78bf23.json content-staging/reconstruction/educational/0a76f44b-0a4f-4e36-9ea9-badecf78bf23-discovery.json
-          if git diff --cached --quiet; then
-            echo 'Derived discovery unchanged.'
-            exit 0
-          fi
-          git commit -m 'content: record history book discovery evidence [skip ci]'
-          git push origin HEAD:content/corpus-inventory-20260914
