@@ -1,0 +1,72 @@
+name: Record Worker B History Handoff
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/record-worker-b-history-handoff.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: record-worker-b-history-handoff
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - name: Verify finalized History evidence
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='0a76f44b-0a4f-4e36-9ea9-badecf78bf23'
+          r=json.loads(Path(f'content-staging/reconstruction/educational/{sid}.json').read_text())
+          m=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          p=m['reconstruction_progress']
+          assert r['status']=='reconstructed_verified_source_local'
+          assert r['reconstructed_book']['lesson_count']==9
+          assert r['reconstructed_book']['classified_page_count']==61
+          assert r['questions']['structurally_lesson_linked_questions']==138
+          assert p['sources_completed']==13 and p['educational_sources_completed']==4
+          assert p['lesson_linked_structural']==2374 and p['unclassified']==22063
+          assert p['lesson_linked_structural']+p['exam_linked_to_individual_model']+p['review_required']+p['unclassified']==25755
+          assert p['raw_mutations']==0 and p['new_imports']==0 and p['new_publications']==0
+          print('WORKER_B_HISTORY_EVIDENCE_PASS')
+          PY
+
+      - name: Record shared handoff
+        run: python content-staging/tools/record_worker_b_history_handoff.py
+
+      - name: Verify handoff
+        run: |
+          set -euo pipefail
+          grep -F 'state: `COMPLETE`' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F 'latest verified work HEAD before this handoff commit: `fcbf85fde72e7b9d3a11d111f3ab01d00aeeee78`' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F 'current source: `7f02b242-5164-46d1-a82d-7f1023cfa8c9 — التربية الوطنية`' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F '2,374 + 967 + 351 + 22,063 = 25,755' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F '## RUN 2026-09-14T13:15:00+03:00 — Worker B' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          echo WORKER_B_HISTORY_HANDOFF_VERIFY_PASS
+
+      - name: Commit shared handoff
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          if git diff --cached --quiet; then
+            echo 'Handoff already recorded.'
+            exit 0
+          fi
+          git commit -m 'docs: checkpoint Worker B History completion [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
