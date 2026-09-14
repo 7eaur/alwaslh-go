@@ -1,0 +1,51 @@
+name: Record Worker A English 1446 Handoff
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/record-worker-a-english1446-handoff.yml'
+      - 'content-staging/tools/record_worker_a_english1446_handoff.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: record-worker-a-english1446-handoff
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Record shared handoff
+        run: python content-staging/tools/record_worker_a_english1446_handoff.py
+      - name: Validate and commit handoff
+        run: |
+          set -euo pipefail
+          grep -F 'WORKER_A_ENGLISH_1446_HANDOFF_RECORDED' <(python - <<'PY'
+          from pathlib import Path
+          p=Path('content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md')
+          t=p.read_text(encoding='utf-8')
+          assert '## RUN 2026-09-14T11:39:30+03:00 — Worker A' in t
+          assert 'current source: `da6fc228-1ada-4627-8306-80d9d3401490 — الانجليزي نماذج وزارية 1447`' in t
+          print('WORKER_A_ENGLISH_1446_HANDOFF_RECORDED')
+          PY
+          )
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          if git diff --cached --quiet; then
+            echo 'No handoff diff.'
+            exit 0
+          fi
+          git commit -m 'docs: hand off after english 1446 reconstruction [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
