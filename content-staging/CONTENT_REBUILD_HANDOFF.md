@@ -559,3 +559,13 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - No RAW/import/publication mutation.
 - Next source from live MASTER order: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`.
 
+<!-- BIOLOGY_BOOK_CHECKPOINT_START -->
+## Active reconstruction handoff — Biology complete
+
+- Last completed: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`.
+- Verified: **214/214** technical + exact SHA identity; **8 Units / 47 Lessons / 193 Lesson pages / 8 covers / 13 reviews**.
+- Questions: **3003 lesson-linked; 301 review-required; semantic correctness NOT VERIFIED**.
+- Current/next candidate: `3d91d812-ab78-476a-b2fc-dc2c31152e1a — UNKNOWN`.
+- Exact next operation: re-fetch live HEAD and shared baton, verify no active workflow for that source, then inspect its own manifest/RAW/reference evidence without inheriting Biology structure.
+- RAW/unrelated/import/publication mutations remain **0/0/0/0**.
+<!-- BIOLOGY_BOOK_CHECKPOINT_END -->

@@ -636,3 +636,19 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - No RAW/import/publication mutation.
 - Next source from live MASTER order: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`.
 
+<!-- BIOLOGY_BOOK_CHECKPOINT_START -->
+## Reconstruction checkpoint — Biology textbook
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Sources processed: **28/58**; Educational: **15/26**; Exam Source Groups: **13/32**.
+- Books / Units / Lessons / Lesson pages: **13 / 48 / 283 / 1354**.
+- Biology: **214/214** technically verified and **214/214** exact RAW/master SHA identities in `الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور`; retained pages **8..221**.
+- Reconstructed source: **1 Book, 8 Units, 47 Lessons, 193 Lesson pages, 8 Unit-cover pages, 13 Unit-review pages**.
+- Questions: **3003** structurally lesson-linked; **301** `review_required` on non-lesson unit cover/review pages; semantic correctness `NOT VERIFIED`.
+- Global questions: Lesson-linked **10514**; Exam-linked **1132**; Review-required **749**; Unclassified **13360** = **25,755**.
+- Individual Exam Models **206**; Exam Pages **668/2286**; Verified Answer Keys **0**.
+- Source images technical **2200/5273**; Duplicate groups **0/99**.
+- RAW / unrelated / imports / publications: **0/0/0/0**.
+- Last completed: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`.
+- Next candidate: `3d91d812-ab78-476a-b2fc-dc2c31152e1a — UNKNOWN`; must be re-read from live manifest/baton before work.
+<!-- BIOLOGY_BOOK_CHECKPOINT_END -->

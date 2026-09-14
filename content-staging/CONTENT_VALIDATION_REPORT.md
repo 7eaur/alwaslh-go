@@ -362,3 +362,13 @@ Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson
 - Source images technical **1,986/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`.
 <!-- MATH_BOOK_PART2_CHECKPOINT_END -->
+
+<!-- BIOLOGY_BOOK_CHECKPOINT_START -->
+## Biology textbook reconstruction validation
+
+- Technical verification: **214/214** files exist, readable, and match manifest size/SHA/MIME.
+- Exact reference identity: **214/214** RAW images equal the single canonical master directory by SHA-256.
+- Structure: **8 Units / 47 Lessons / 193 Lesson pages / 8 covers / 13 reviews**; all 214 retained pages classified exactly once.
+- Questions: **3003** structurally linked; **301** `review_required`; semantic correctness `NOT VERIFIED`.
+- RAW mutations: **0**.
+<!-- BIOLOGY_BOOK_CHECKPOINT_END -->

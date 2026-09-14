@@ -416,3 +416,11 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - Source images technical **1,986/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`.
 <!-- MATH_BOOK_PART2_CHECKPOINT_END -->
+
+<!-- BIOLOGY_BOOK_CHECKPOINT_START -->
+## Verified reconstruction checkpoint — Biology textbook
+
+- Legacy source `67d4ffae-68e1-42e8-9c3b-72329973c93d` has **214/214** retained images byte-identical by SHA-256 to `master/الأحياء ثالث ثانوي/الاحياء الكتاب المدرسي/الصور`.
+- Reconstructed structure from exact-master filename/title runs: **8 Units, 47 Lessons, 193 Lesson pages, 8 Unit covers, 13 Unit reviews**.
+- **3003/3,304** questions are structurally lesson-linked; **301/3,304** remain `review_required` because they reside on non-lesson unit cover/review pages; semantic correctness remains `NOT VERIFIED`.
+<!-- BIOLOGY_BOOK_CHECKPOINT_END -->

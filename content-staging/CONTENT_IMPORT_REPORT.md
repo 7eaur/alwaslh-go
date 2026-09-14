@@ -331,3 +331,11 @@ The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_
 - Source images technical **1,986/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`.
 <!-- MATH_BOOK_PART2_CHECKPOINT_END -->
+
+<!-- BIOLOGY_BOOK_CHECKPOINT_START -->
+## Biology reconstruction checkpoint — no import performed
+
+The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_IN_PROGRESS_NOT_IMPORT_READY`.
+
+- New imports: **0**; new publications: **0**; production mutations: **0**; RAW mutations: **0**.
+<!-- BIOLOGY_BOOK_CHECKPOINT_END -->

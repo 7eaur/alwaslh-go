@@ -564,3 +564,8 @@ Continue with `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغراف�
 - No RAW/import/publication mutation.
 - Next source from live MASTER order: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`.
 
+<!-- BIOLOGY_BOOK_CHECKPOINT_START -->
+## Continuation checkpoint — Biology complete
+
+Continue from `3d91d812-ab78-476a-b2fc-dc2c31152e1a — UNKNOWN` only after re-reading the live baton. Current verified global progress: **28/58 sources; 15/26 educational; 13/32 exam groups; 2200/5273 technical images; 10514 lesson-linked; 1132 exam-linked; 749 review-required; 13360 unclassified**.
+<!-- BIOLOGY_BOOK_CHECKPOINT_END -->
