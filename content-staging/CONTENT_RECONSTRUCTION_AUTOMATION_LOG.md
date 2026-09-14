@@ -221,16 +221,17 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 ## 10. ACTIVE CHECKPOINT
 
-- state: `READY_FOR_NEXT_SOURCE`
+- state: `PARTIAL_SAFE_HANDOFF_SOURCE_IDENTITY_BLOCKER`
 - branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff tooling: `6fcd36a0bf7e5db93e7cfc531d2b9471c489d65f`
+- latest evidence HEAD before this handoff tooling: `d07fbe0fb1c7169f4641efa06afa7b6379e5cbdf`
 - last completed source: `fef5e58f-21df-42e3-81ae-6966cd7bad10 — الرياضيات نماذج وزارية 1447`
 - current source: `1933807f-4cb0-40c9-9b29-3ef3d32c98dc — كتاب الرياضيات - الجزء الأول`
 - current source baseline from live manifest: `186 pages, 186 images, 717 legacy questions, 0 download failures; anomaly arrays preserved: {"duplicate_page_numbers": [], "invalid_subject_ids": [], "malformed_ai_questions": [], "malformed_image_urls": [], "missing_images": [], "multiple_images": [], "null_or_invalid_page_numbers": []}`
-- current operation: `Re-fetch live HEAD and baton; confirm no active/running workflow for 1933807f-4cb0-40c9-9b29-3ef3d32c98dc; technically verify all 186 immutable RAW images and within-source SHA duplicates; establish Math Part 1 source identity only from its own live metadata/master/source-local evidence; reconstruct only evidence-backed book/unit/lesson/review boundaries; structurally map the 717 legacy questions only where page membership is proven; mark insufficient evidence review_required/NOT VERIFIED; assert 25,755 invariant; checkpoint and continue.`
-- next source: `Resolve from live MASTER_CONTENT_MANIFEST only after the current source is safely finalized.`
-- blockers: `none; Math 1447 visual contact sheets exist but semantic visual inspection remains NOT VERIFIED, standalone Answer Keys remain NOT VERIFIED, and those limitations must not be upgraded without new evidence.`
-- owner decision required now: `no`
+- current source verified work: `186/186 immutable RAW images technically PASS. The initially tested master reference (الرياضيات ثالث ثانوي/02_الرياضيات_ثالث_ثانوي) is REJECTED as an identity source: 0/186 exact SHA matches and only 1/186 expected source-page positions is the unique visual nearest match across all 255 reference pages. No book/unit/lesson/review boundary or question mapping has been promoted.`
+- current operation: `Re-fetch live HEAD and this baton; confirm no active/running workflow for 1933807f-4cb0-40c9-9b29-3ef3d32c98dc; keep the current source active. Establish the actual source identity from RAW/source-local evidence first. Generate and inspect occurrence-safe visual contact sheets or another deterministic page-level reference for the 186 RAW pages; do not reuse the rejected Third Secondary master metadata. Use legacy question_references only as weak candidates: they cover 60/186 pages, leave 126 pages without question evidence, include 3 multi-title conflicts, and remain semantically NOT VERIFIED. Only after source identity/page boundaries are independently evidenced may units/lessons/reviews and the 717 structural links be finalized.`
+- next source: `NOT YET RESOLVED — do not advance until 1933807f-4cb0-40c9-9b29-3ef3d32c98dc is either safely finalized or explicitly quarantined by an evidence-backed decision.`
+- blockers: `SOURCE IDENTITY NOT VERIFIED. Rejected reference evidence: exact SHA 0/186; all-v-all visual diagnostic expected-position unique-best 1/186. Legacy AI question-reference candidates are insufficient alone (60 pages with evidence / 126 without; 57 single-title pages / 3 conflicts; 45 distinct candidate titles).`
+- owner decision required now: `no; continue evidence discovery fail-closed`
 ---
 
 ### Shared handoff rule
@@ -1346,4 +1347,44 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `NOT YET RESOLVED — resolve only after Math Part 1 finalization from live MASTER_CONTENT_MANIFEST`
 - blockers: `none`
 - handoff note: `Math 1447 is safely closed. Do not upgrade visual semantics, standalone Answer Keys, official model codes, term metadata, or question correctness without new evidence. Worker A should begin from Math Part 1 live manifest/pages and not inherit exam-source structure into the educational book.`
+
+## RUN 2026-09-14T18:43:53+03:00 — Worker A
+
+- state: `PARTIAL_SAFE_HANDOFF_SOURCE_IDENTITY_BLOCKER`
+- start HEAD: `8c0d26a855229a7c1def2a758400d19020a88a25`
+- end HEAD before handoff-log commit: `3a4b661b6f7e8c15397a9e11b694630713da05a5`
+- evidence HEAD before handoff tooling: `d07fbe0fb1c7169f4641efa06afa7b6379e5cbdf`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start/current: `1933807f-4cb0-40c9-9b29-3ef3d32c98dc — كتاب الرياضيات - الجزء الأول`
+- completed in this run:
+  - consumed the live Worker B Math 1447 baton and verified the active source from live manifest/evidence;
+  - technically verified **186/186** immutable RAW images with the repository verifier; RAW remained unchanged;
+  - tested the apparent Third Secondary master reference and failed closed instead of inheriting its structure: **0/186 exact SHA identities**;
+  - performed an independent all-vs-all grayscale page diagnostic against all **255** pages of that reference; only **1/186** RAW occurrences had the expected page position as a unique nearest visual match, proving that the apparent reference must not be used to transfer titles/boundaries;
+  - analyzed all **717** legacy question references as weak source-local candidates only: 60/186 pages have question evidence, 126 have none, 57 pages have one candidate title, 3 pages have conflicting candidate titles, and 45 distinct candidate lesson titles exist;
+  - intentionally did **not** promote a book identity, unit/lesson/review boundaries, question links, source completion, imports, or publications because independent source identity remains insufficient.
+- evidence produced/verified:
+  - `content-staging/reconstruction/technical/1933807f-4cb0-40c9-9b29-3ef3d32c98dc.json` — 186/186 technical media PASS;
+  - `content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-discovery.json` — exact master identity diagnostic, 0/186 SHA matches, identity `NOT VERIFIED`;
+  - `content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-visual-identity-diagnostic.json` — all-vs-all 186x255 visual diagnostic, expected-position unique-best 1/186;
+  - `content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-legacy-reference-analysis.json` — question-reference candidate coverage/conflicts, boundaries explicitly `NOT VERIFIED`;
+  - discovery workflow `34863674270` PASS for technical/diagnostic invariants; earlier fail-closed runs `34862933212` and `34863089370` caused no finalization or RAW mutation.
+- ambiguity/review_required:
+  - actual book/edition/grade identity: `NOT VERIFIED`;
+  - book/unit/lesson/review boundaries: `NOT VERIFIED`;
+  - all 717 question structural links for this source: unchanged/unclassified pending independent page membership evidence;
+  - semantic correctness of legacy question titles/content: `NOT VERIFIED`.
+- invariant result: PASS — canonical classifications unchanged: 6,891 + 1,132 + 351 + 17,381 = 25,755
+- canonical progress remains: Sources 23/58; Educational 10/26; Books/Units/Lessons/Lesson Pages 10/33/196/877; Exam Source Groups 13/32; Individual Exam Models 206; Exam Pages 668/2,286; Answer Keys 0; Source images promoted in MASTER 1,665/5,273; Duplicate groups classified 0/99.
+- run-local technical evidence: current source images verified 186/186; not promoted to canonical completed-source counter while source identity is unresolved.
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `fef5e58f-21df-42e3-81ae-6966cd7bad10 — الرياضيات نماذج وزارية 1447`
+- current source: `1933807f-4cb0-40c9-9b29-3ef3d32c98dc — كتاب الرياضيات - الجزء الأول`
+- exact next operation: `Keep this source active. Build/inspect occurrence-safe visual contact sheets directly from its 186 RAW images (or locate a deterministic exact reference for this edition), establish page/book identity independently, then reconstruct only evidence-backed unit/lesson/review boundaries. Treat the 45 legacy lesson-title candidates as hints only, not truth. Map the 717 questions only after page membership is independently proven; otherwise leave them unclassified/review_required.`
+- next source: `NOT YET RESOLVED`
+- blockers: `Source identity mismatch with the apparent Third Secondary master reference; no safe structural finalization yet.`
+- handoff note: `Worker B must not repeat or force the rejected master mapping. Continue from the diagnostic artifacts above, keeping source 1933807f-4cb0-40c9-9b29-3ef3d32c98dc active until identity/boundaries are independently evidenced.`
 

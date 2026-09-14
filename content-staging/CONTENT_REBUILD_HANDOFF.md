@@ -497,3 +497,14 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `1933807f-4cb0-40c9-9b29-3ef3d32c98dc` — `كتاب الرياضيات - الجزء الأول`.
 <!-- MATH_EXAM_1447_CHECKPOINT_END -->
+
+## Partial source-identity checkpoint — 2026-09-14T18:43:53+03:00
+
+- Source: `1933807f-4cb0-40c9-9b29-3ef3d32c98dc — كتاب الرياضيات - الجزء الأول`
+- 186/186 RAW images technically verified.
+- Apparent Third Secondary master reference rejected: 0/186 exact SHA matches and expected page position unique-best in only 1/186 all-vs-all visual comparisons.
+- 717 legacy question references are candidate evidence only: 60 pages covered, 126 uncovered, 3 pages with title conflicts, 45 distinct candidate titles.
+- Source/book/unit/lesson/review identity and boundaries remain `NOT VERIFIED`; canonical reconstruction counters and the 25,755 classification invariant are unchanged.
+- No RAW/unrelated/import/publication mutations.
+- Next: independently identify/visually inspect this exact RAW edition before any structural promotion.
+
