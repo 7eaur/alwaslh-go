@@ -1,0 +1,78 @@
+name: Discover Biology Exam 1445 Boundaries
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/discover-biology-exam-1445.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: discover-biology-exam-1445
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install image validation dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Verify source-group media without RAW mutations
+        run: |
+          set -euo pipefail
+          python content-staging/tools/verify_subject_media.py \
+            --subject-id 3d91d812-ab78-476a-b2fc-dc2c31152e1a
+
+      - name: Discover source-local boundary candidates and render full visual evidence
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts/biology-exam-1445
+          python content-staging/tools/discover_exam_source_group.py \
+            --subject-id 3d91d812-ab78-476a-b2fc-dc2c31152e1a \
+            --visual-dir artifacts/biology-exam-1445
+
+      - name: Validate source-local discovery only
+        run: |
+          set -euo pipefail
+          python -m json.tool content-staging/reconstruction/technical/3d91d812-ab78-476a-b2fc-dc2c31152e1a.json >/dev/null
+          python -m json.tool content-staging/reconstruction/exams/source-groups/3d91d812-ab78-476a-b2fc-dc2c31152e1a-discovery.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          t = json.loads(Path('content-staging/reconstruction/technical/3d91d812-ab78-476a-b2fc-dc2c31152e1a.json').read_text(encoding='utf-8'))
+          d = json.loads(Path('content-staging/reconstruction/exams/source-groups/3d91d812-ab78-476a-b2fc-dc2c31152e1a-discovery.json').read_text(encoding='utf-8'))
+          assert t['source_pages'] == 60
+          assert t['source_images'] == 60
+          assert t['verified_image_count'] == 60
+          assert t['raw_mutations'] == 0
+          assert d['counts']['pages'] == 60
+          assert d['counts']['questions'] == 0
+          assert d['raw_mutations'] == 0
+          print('BIOLOGY_1445_DISCOVERY_VERIFY_PASS')
+          PY
+
+      - name: Upload discovery evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: biology-exam-1445-discovery-evidence
+          path: |
+            artifacts/biology-exam-1445/
+            content-staging/reconstruction/technical/3d91d812-ab78-476a-b2fc-dc2c31152e1a.json
+            content-staging/reconstruction/exams/source-groups/3d91d812-ab78-476a-b2fc-dc2c31152e1a-discovery.json
+          if-no-files-found: error
+          retention-days: 14
