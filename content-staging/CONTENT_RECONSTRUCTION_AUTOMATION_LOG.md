@@ -221,17 +221,17 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 ## 10. ACTIVE CHECKPOINT
 
-- state: `READY_NEXT_SOURCE`
+- state: `BLOCKED_SCHEMA_POLICY_FAIL_CLOSED`
 - branch: `content/corpus-inventory-20260914`
-- latest evidence HEAD before this handoff tooling: `f138cb2872ca8afdbcdd01776ab3c41d7e7b4e6d`
+- latest evidence HEAD before this handoff tooling: `8e2d8e3cc922e2455b85559c60578cc40c048301`
 - last completed source: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`
 - current source: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`
-- current source baseline from live manifest: `status=empty; 0 pages, 0 images, 0 legacy questions, 0 download failures; anomaly arrays preserved empty.`
-- current source verified work: `Manifest-level emptiness VERIFIED. No Book/Unit/Lesson/page/question structure exists in the retained legacy payload and none may be invented from the source name.`
-- current operation: `Re-fetch live HEAD and this baton; verify pages.json and subject.json are consistent with the manifest-level empty source; determine and apply only an evidence-backed canonical verified-empty source disposition if the live MASTER/status schema supports it. Do not count or invent a Book, Unit, Lesson, page, question mapping, import, or publication. If no canonical empty-source disposition is defined, leave this source active as NOT VERIFIED/review_required and document the schema-policy blocker rather than silently skipping it.`
-- next source: `NOT YET RESOLVED — resolve from live MASTER only after the current empty source receives a canonical evidence-backed disposition.`
-- blockers: `Content reconstruction blocker for current source: retained legacy payload is genuinely empty. No prior canonical verified-empty source pattern was found during this run; Worker B must fail closed if the live schema still lacks one.`
-- owner decision required now: `no; continue source-by-source fail-closed`
+- current source baseline from live manifest: `status=empty; 0 pages, 0 images, 0 legacy questions, 0 download failures; anomaly arrays empty; pages.json=[]; subject identity matches manifest.`
+- current source verified work: `EMPTY RETAINED PAYLOAD VERIFIED. A fail-closed evidence artifact was recorded. Book/Unit/Lesson/page structure remains NOT VERIFIED; technical image verification is NOT APPLICABLE because there are zero image references.`
+- current operation: `Resolve the schema-policy blocker first: define or discover an evidence-backed canonical verified-empty source disposition in the repository reconstruction/MASTER contract. Apply no invented status and increment no canonical counter before that contract exists.`
+- next source: `NOT YET RESOLVED — do not advance while the current source lacks a canonical disposition.`
+- blockers: `Non-transient schema-policy blocker: current retained payload is genuinely empty and the live MASTER/status schema has no canonical verified-empty source disposition.`
+- owner decision required now: `repository contract decision required before source progression`
 
 ---
 
@@ -1501,4 +1501,52 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `NOT YET RESOLVED — resolve only after the current empty-source disposition is safely recorded from the live MASTER.`
 - blockers: `Current source has no retained content (0 pages/images/questions), and no prior canonical verified-empty source pattern was found. This does not invalidate Math Part 2 completion; it constrains the next source only.`
 - handoff note: `Math Part 2 is safely closed from its own RAW/source-local evidence. Worker B must not infer Islamic Part 1 content from its name or from any neighboring source. Treat the empty manifest as evidence, verify the companion empty files, and fail closed unless a canonical verified-empty disposition can be recorded without inventing educational structure.`
+
+<!-- WORKER_B_RUN_EMPTY_ISLAMIC_PART1 -->
+## RUN 2026-09-14T20:10:15+03:00 — Worker B
+
+- state: `BLOCKED_SCHEMA_POLICY_FAIL_CLOSED`
+- start HEAD: `35faa81c9ce81f2fd03e44650465c75a077c7822`
+- end HEAD before handoff-finalization tooling: `8e2d8e3cc922e2455b85559c60578cc40c048301`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start/current: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`
+- completed in this run:
+  - verified Worker A's Math Part 2 handoff against live HEAD and current evidence;
+  - confirmed no active or queued workflow was mutating this branch/source before work began;
+  - cross-checked current source `manifest.json`, `pages.json`, and `subject.json`;
+  - verified `status=empty`, `pages.json=[]`, 0 pages/images/questions/download failures, empty anomaly arrays, and exact subject/class identity consistency;
+  - reviewed the live MASTER source contract and found no established canonical verified-empty disposition;
+  - failed closed rather than inventing a status, Book, Unit, Lesson, page boundary, question mapping, or following-source selection;
+  - recorded source-local evidence and synchronized execution status/handoff/continuation/baton without modifying MASTER canonical counters.
+- artifacts/evidence:
+  - `content-staging/reconstruction/educational/b6ce737e-26d4-4219-a607-27bfb7d2f518-empty-source-analysis.json`;
+  - manifest SHA-256 recorded: `045e554cca1f61c897540696b12028a156603ba964542ffed0e7456556cddd7f`;
+  - pages SHA-256 recorded: `4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945`;
+  - evidence commit: `8e2d8e3cc922e2455b85559c60578cc40c048301`.
+- ambiguity/review_required: `Source semantic identity beyond its legacy label and all Book/Unit/Lesson/page boundaries remain NOT VERIFIED because no retained content exists.`
+- invariant result: PASS — canonical question arithmetic unchanged.
+- Sources processed: 25/58
+- Educational: 12/26
+- Books / Units / Lessons / Lesson Pages: 12 / 40 / 236 / 1,161
+- Exam Source Groups: 13/32
+- Individual Exam Models: 206
+- Exam Pages: 668/2,286
+- Verified Answer Keys: 0
+- Source images technical: 1,986/5,273
+- Legacy Questions: 25,755
+- Lesson-linked: 7,511
+- Exam-linked: 1,132
+- Review-required: 448
+- Unclassified: 16,664
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`
+- current source: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`
+- exact next operation: `Establish the repository-approved canonical verified-empty source disposition, then re-fetch live HEAD, apply it to this source with exact-head guards, update canonical counters only according to that contract, and only then resolve the next source from live MASTER.`
+- next source: `NOT YET RESOLVED`
+- blockers: `Canonical empty-source disposition is absent from the live MASTER/status contract; this is a semantic/schema-policy blocker, not a transient execution failure.`
+- handoff note: `Worker A must not rerun content discovery against this empty payload and must not skip to another source. Resolve the disposition contract first; preserve all canonical counters until then.`
 

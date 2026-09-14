@@ -539,3 +539,16 @@ Continue with `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغراف�
 - Source images technical **1,986/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`.
 <!-- MATH_BOOK_PART2_CHECKPOINT_END -->
+
+<!-- ISLAMIC_PART1_EMPTY_SOURCE_BLOCKER_START -->
+## Superseding continuation — Islamic Part 1 retained payload is empty, fail closed
+
+- source `b6ce737e-26d4-4219-a607-27bfb7d2f518` — `كتاب الإسلامية - الجزء الأول` remains ACTIVE.
+- manifest/pages/subject cross-check proves: `status=empty`, `pages.json=[]`, 0 image references, 0 downloaded images, 0 download failures, 0 legacy questions, and no anomaly entries.
+- no canonical verified-empty disposition exists in the current MASTER/status schema; therefore no new status value was invented and no source/book/unit/lesson/page/question counter was incremented.
+- evidence artifact: `content-staging/reconstruction/educational/b6ce737e-26d4-4219-a607-27bfb7d2f518-empty-source-analysis.json`.
+- progress remains Sources `25/58`, Educational `12/26`, Books/Units/Lessons/Lesson Pages `12/40/236/1,161`, Exam Groups `13/32`, Models `206`, Exam Pages `668/2,286`, verified images `1,986/5,273`.
+- question invariant remains `7,511 + 1,132 + 448 + 16,664 = 25,755`; mutations/imports/publications remain zero.
+- exact next operation: establish the canonical empty-source disposition contract first; do not select another source until this source has an evidence-backed disposition.
+<!-- ISLAMIC_PART1_EMPTY_SOURCE_BLOCKER_END -->
+

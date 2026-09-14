@@ -604,3 +604,23 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - Source images technical **1,986/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`.
 <!-- MATH_BOOK_PART2_CHECKPOINT_END -->
+
+<!-- WORKER_B_EMPTY_ISLAMIC_PART1_BLOCKER_START -->
+## Worker B — Islamic Part 1 empty-source fail-closed checkpoint
+
+- source: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`
+- evidence HEAD: `8e2d8e3cc922e2455b85559c60578cc40c048301`
+- retained manifest: `status=empty`; pages/images/questions/download failures = `0/0/0/0`; all anomaly arrays empty.
+- `pages.json`: verified exact empty array.
+- `subject.json`: source/class identity matches the manifest.
+- technical image verification: `NOT APPLICABLE` because there are zero image references.
+- Book / Units / Lessons / page boundaries: `NOT VERIFIED`; the legacy label alone is not semantic reconstruction evidence.
+- MASTER schema review: no established canonical verified-empty disposition exists in `review_status`, `classification`, `technical_verification.status`, `reconstruction.status`, or `exam_reconstruction.status`.
+- decision: `FAIL_CLOSED_KEEP_ACTIVE`; MASTER canonical classification/counters intentionally unchanged.
+- evidence: `content-staging/reconstruction/educational/b6ce737e-26d4-4219-a607-27bfb7d2f518-empty-source-analysis.json`.
+- canonical progress remains: Sources `25/58`; Educational `12/26`; Books/Units/Lessons/Lesson Pages `12/40/236/1,161`; Exam Groups `13/32`; Models `206`; Exam Pages `668/2,286`; Source images technical `1,986/5,273`.
+- questions invariant remains: `7,511 + 1,132 + 448 + 16,664 = 25,755`.
+- RAW/unrelated/import/publication mutations: `0/0/0/0`.
+- exact next operation: define or discover a repository-approved empty-source disposition contract; only then apply it to this source and decide whether it counts as explicitly unresolved/processed. Do not advance to a following source before that disposition is recorded.
+<!-- WORKER_B_EMPTY_ISLAMIC_PART1_BLOCKER_END -->
+

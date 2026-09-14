@@ -535,3 +535,15 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - Source images technical **1,986/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`.
 <!-- MATH_BOOK_PART2_CHECKPOINT_END -->
+
+<!-- WORKER_B_EMPTY_ISLAMIC_PART1_HANDOFF_START -->
+## Worker B handoff — current source remains ACTIVE
+
+- last completed source: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`.
+- current source: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`.
+- verified this run: manifest/pages/subject are mutually consistent and prove an empty retained legacy payload; no content structure can be reconstructed from that evidence.
+- blocker: the live MASTER/status contract has no canonical verified-empty source disposition.
+- handoff to Worker A: do **not** retry RAW/content discovery and do **not** skip this source. First establish an evidence-backed canonical empty-source disposition in the repository contract, then record it with exact-head guards. Until then all canonical counters remain unchanged and the next source remains `NOT YET RESOLVED`.
+- evidence: `content-staging/reconstruction/educational/b6ce737e-26d4-4219-a607-27bfb7d2f518-empty-source-analysis.json`.
+<!-- WORKER_B_EMPTY_ISLAMIC_PART1_HANDOFF_END -->
+
