@@ -1,0 +1,146 @@
+name: Reconstruct Civics Book
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/reconstruct-civics-book.yml'
+      - 'content-staging/tools/reconstruct_civics_book.py'
+      - 'content-staging/tools/record_civics_book_checkpoint.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reconstruct-civics-book
+  cancel-in-progress: false
+
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - name: Capture exact starting HEAD
+        id: head
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout trusted master reference
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master-reference
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install verifier dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Verify immutable Civics RAW media
+        run: |
+          set -euo pipefail
+          python content-staging/tools/verify_subject_media.py --subject-id 7f02b242-5164-46d1-a82d-7f1023cfa8c9
+
+      - name: Reconstruct Civics only from exact evidence
+        run: |
+          set -euo pipefail
+          python content-staging/tools/reconstruct_civics_book.py
+
+      - name: Assert exact-source reconstruction before checkpoint
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='7f02b242-5164-46d1-a82d-7f1023cfa8c9'
+          t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
+          d=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-discovery.json').read_text())
+          r=json.loads(Path(f'content-staging/reconstruction/educational/{sid}.json').read_text())
+          assert t['all_images_technically_verified'] is True
+          assert t['checks']['manifest_image_count']==59
+          assert d['identity_status']=='VERIFIED'
+          assert d['exact_sha_identity_count']==59
+          assert d['raw_sha_verified_count']==59
+          assert r['status']=='reconstructed_verified'
+          assert r['reconstructed_book']['retained_pages']==59
+          assert r['questions']['legacy_questions']==0
+          assert r['raw_mutations']==0
+          classified=(len(r['page_classification']['lesson_pages'])+len(r['page_classification']['unit_cover_pages'])+len(r['page_classification']['unit_review_pages'])+len(r['page_classification']['non_lesson_pages']))
+          assert classified==59
+          print('CIVICS_RECONSTRUCTION_VERIFY_PASS')
+          PY
+
+      - name: Re-fetch live branch before finalization and fail closed on conflict
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          LIVE=$(git rev-parse origin/content/corpus-inventory-20260914)
+          LOCAL=$(git rev-parse HEAD)
+          if [ "$LIVE" != "$LOCAL" ]; then
+            echo "Semantic safety gate: branch changed during run; live=$LIVE local=$LOCAL"
+            exit 23
+          fi
+
+      - name: Record evidence-backed Civics checkpoint
+        run: |
+          set -euo pipefail
+          python content-staging/tools/record_civics_book_checkpoint.py
+
+      - name: Assert global invariant after checkpoint
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          x=p['reconstruction_progress']
+          assert x['sources_completed']==14
+          assert x['educational_sources_completed']==5
+          assert x['source_images_technically_verified']==1070
+          assert x['lesson_linked_structural']+x['exam_linked_to_individual_model']+x['review_required']+x['unclassified']==25755
+          assert x['raw_mutations']==0 and x['unrelated_mutations']==0 and x['new_imports']==0 and x['new_publications']==0
+          print('CIVICS_FINALIZATION_VERIFY_PASS')
+          PY
+
+      - name: Re-fetch live branch immediately before write and fail closed on conflict
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          LIVE=$(git rev-parse origin/content/corpus-inventory-20260914)
+          LOCAL=$(git rev-parse HEAD)
+          if [ "$LIVE" != "$LOCAL" ]; then
+            echo "Write safety gate: branch changed during finalization; live=$LIVE local=$LOCAL"
+            exit 24
+          fi
+
+      - name: Commit derived Civics reconstruction checkpoint
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add \
+            content-staging/reconstruction/technical/7f02b242-5164-46d1-a82d-7f1023cfa8c9.json \
+            content-staging/reconstruction/educational/7f02b242-5164-46d1-a82d-7f1023cfa8c9-discovery.json \
+            content-staging/reconstruction/educational/7f02b242-5164-46d1-a82d-7f1023cfa8c9.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+            content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md \
+            content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md \
+            content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          if git diff --cached --quiet; then
+            echo 'No derived changes to commit'
+            exit 0
+          fi
+          git commit -m 'content: finalize civics reconstruction checkpoint [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
