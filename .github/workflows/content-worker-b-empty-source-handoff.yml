@@ -1,0 +1,157 @@
+name: Content Worker B Empty Source Handoff
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - .github/workflows/content-worker-b-empty-source-handoff.yml
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          ref: content/corpus-inventory-20260914
+
+      - name: Verify exact parent and empty-source evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          EXPECTED_PARENT='8e2d8e3cc922e2455b85559c60578cc40c048301'
+          test "$(git rev-parse HEAD^)" = "$EXPECTED_PARENT"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          sid = 'b6ce737e-26d4-4219-a607-27bfb7d2f518'
+          base = Path('content-staging/raw/legacy-supabase/subjects') / sid
+          manifest = json.loads((base / 'manifest.json').read_text(encoding='utf-8'))
+          pages = json.loads((base / 'pages.json').read_text(encoding='utf-8'))
+          subject = json.loads((base / 'subject.json').read_text(encoding='utf-8'))
+          master = json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text(encoding='utf-8'))
+          evidence = json.loads(Path(f'content-staging/reconstruction/educational/{sid}-empty-source-analysis.json').read_text(encoding='utf-8'))
+
+          assert manifest['status'] == 'empty'
+          assert pages == []
+          assert manifest['counts'] == {
+              'image_download_failures': 0,
+              'image_references': 0,
+              'images_downloaded': 0,
+              'pages': 0,
+              'questions': 0,
+          }
+          assert all(v == [] for v in manifest['anomalies'].values())
+          assert subject['subject']['id'] == sid == manifest['legacy_subject']['id']
+          assert subject['subject']['class_id'] == manifest['legacy_subject']['class_id']
+          assert evidence['schema_policy_review']['decision'] == 'FAIL_CLOSED_KEEP_ACTIVE'
+
+          entry = next(s for s in master['sources'] if s['id'] == sid)
+          assert entry['classification'] == 'educational_source_candidate'
+          assert entry['counts']['pages'] == 0
+          assert entry['counts']['image_references'] == 0
+          assert entry['counts']['questions'] == 0
+
+          canonical_markers = []
+          for s in master['sources']:
+              for key in ('review_status', 'classification'):
+                  value = s.get(key)
+                  if isinstance(value, str) and 'empty' in value.lower():
+                      canonical_markers.append((s['id'], key, value))
+              for key in ('technical_verification', 'reconstruction', 'exam_reconstruction'):
+                  obj = s.get(key)
+                  if isinstance(obj, dict):
+                      value = obj.get('status')
+                      if isinstance(value, str) and 'empty' in value.lower():
+                          canonical_markers.append((s['id'], f'{key}.status', value))
+          assert canonical_markers == [], canonical_markers
+          print('EMPTY_SOURCE_FAIL_CLOSED_VERIFY_PASS')
+          PY
+
+      - name: Re-fetch branch HEAD before mutation
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "$(git rev-parse HEAD)"
+
+      - name: Update status handoff continuation and baton
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+          import re
+
+          start_head = '35faa81c9ce81f2fd03e44650465c75a077c7822'
+          evidence_head = '8e2d8e3cc922e2455b85559c60578cc40c048301'
+          sid = 'b6ce737e-26d4-4219-a607-27bfb7d2f518'
+          sname = 'كتاب الإسلامية - الجزء الأول'
+          now = datetime.now(timezone(timedelta(hours=3))).replace(microsecond=0).isoformat()
+
+          status_section = f'''\n\n<!-- WORKER_B_EMPTY_ISLAMIC_PART1_BLOCKER_START -->\n## Worker B — Islamic Part 1 empty-source fail-closed checkpoint\n\n- source: `{sid} — {sname}`\n- evidence HEAD: `{evidence_head}`\n- retained manifest: `status=empty`; pages/images/questions/download failures = `0/0/0/0`; all anomaly arrays empty.\n- `pages.json`: verified exact empty array.\n- `subject.json`: source/class identity matches the manifest.\n- technical image verification: `NOT APPLICABLE` because there are zero image references.\n- Book / Units / Lessons / page boundaries: `NOT VERIFIED`; the legacy label alone is not semantic reconstruction evidence.\n- MASTER schema review: no established canonical verified-empty disposition exists in `review_status`, `classification`, `technical_verification.status`, `reconstruction.status`, or `exam_reconstruction.status`.\n- decision: `FAIL_CLOSED_KEEP_ACTIVE`; MASTER canonical classification/counters intentionally unchanged.\n- evidence: `content-staging/reconstruction/educational/{sid}-empty-source-analysis.json`.\n- canonical progress remains: Sources `25/58`; Educational `12/26`; Books/Units/Lessons/Lesson Pages `12/40/236/1,161`; Exam Groups `13/32`; Models `206`; Exam Pages `668/2,286`; Source images technical `1,986/5,273`.\n- questions invariant remains: `7,511 + 1,132 + 448 + 16,664 = 25,755`.\n- RAW/unrelated/import/publication mutations: `0/0/0/0`.\n- exact next operation: define or discover a repository-approved empty-source disposition contract; only then apply it to this source and decide whether it counts as explicitly unresolved/processed. Do not advance to a following source before that disposition is recorded.\n<!-- WORKER_B_EMPTY_ISLAMIC_PART1_BLOCKER_END -->\n'''
+
+          handoff_section = f'''\n\n<!-- WORKER_B_EMPTY_ISLAMIC_PART1_HANDOFF_START -->\n## Worker B handoff — current source remains ACTIVE\n\n- last completed source: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`.\n- current source: `{sid} — {sname}`.\n- verified this run: manifest/pages/subject are mutually consistent and prove an empty retained legacy payload; no content structure can be reconstructed from that evidence.\n- blocker: the live MASTER/status contract has no canonical verified-empty source disposition.\n- handoff to Worker A: do **not** retry RAW/content discovery and do **not** skip this source. First establish an evidence-backed canonical empty-source disposition in the repository contract, then record it with exact-head guards. Until then all canonical counters remain unchanged and the next source remains `NOT YET RESOLVED`.\n- evidence: `content-staging/reconstruction/educational/{sid}-empty-source-analysis.json`.\n<!-- WORKER_B_EMPTY_ISLAMIC_PART1_HANDOFF_END -->\n'''
+
+          continuation_section = f'''\n\n<!-- ISLAMIC_PART1_EMPTY_SOURCE_BLOCKER_START -->\n## Superseding continuation — Islamic Part 1 retained payload is empty, fail closed\n\n- source `{sid}` — `{sname}` remains ACTIVE.\n- manifest/pages/subject cross-check proves: `status=empty`, `pages.json=[]`, 0 image references, 0 downloaded images, 0 download failures, 0 legacy questions, and no anomaly entries.\n- no canonical verified-empty disposition exists in the current MASTER/status schema; therefore no new status value was invented and no source/book/unit/lesson/page/question counter was incremented.\n- evidence artifact: `content-staging/reconstruction/educational/{sid}-empty-source-analysis.json`.\n- progress remains Sources `25/58`, Educational `12/26`, Books/Units/Lessons/Lesson Pages `12/40/236/1,161`, Exam Groups `13/32`, Models `206`, Exam Pages `668/2,286`, verified images `1,986/5,273`.\n- question invariant remains `7,511 + 1,132 + 448 + 16,664 = 25,755`; mutations/imports/publications remain zero.\n- exact next operation: establish the canonical empty-source disposition contract first; do not select another source until this source has an evidence-backed disposition.\n<!-- ISLAMIC_PART1_EMPTY_SOURCE_BLOCKER_END -->\n'''
+
+          def append_once(path, marker, section):
+              p = Path(path)
+              text = p.read_text(encoding='utf-8')
+              if marker not in text:
+                  p.write_text(text.rstrip() + section + '\n', encoding='utf-8')
+
+          append_once('content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md', '<!-- WORKER_B_EMPTY_ISLAMIC_PART1_BLOCKER_START -->', status_section)
+          append_once('content-staging/CONTENT_REBUILD_HANDOFF.md', '<!-- WORKER_B_EMPTY_ISLAMIC_PART1_HANDOFF_START -->', handoff_section)
+          append_once('content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md', '<!-- ISLAMIC_PART1_EMPTY_SOURCE_BLOCKER_START -->', continuation_section)
+
+          log_path = Path('content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md')
+          log = log_path.read_text(encoding='utf-8')
+          active = f'''## 10. ACTIVE CHECKPOINT\n\n- state: `BLOCKED_SCHEMA_POLICY_FAIL_CLOSED`\n- branch: `content/corpus-inventory-20260914`\n- latest evidence HEAD before this handoff tooling: `{evidence_head}`\n- last completed source: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`\n- current source: `{sid} — {sname}`\n- current source baseline from live manifest: `status=empty; 0 pages, 0 images, 0 legacy questions, 0 download failures; anomaly arrays empty; pages.json=[]; subject identity matches manifest.`\n- current source verified work: `EMPTY RETAINED PAYLOAD VERIFIED. A fail-closed evidence artifact was recorded. Book/Unit/Lesson/page structure remains NOT VERIFIED; technical image verification is NOT APPLICABLE because there are zero image references.`\n- current operation: `Resolve the schema-policy blocker first: define or discover an evidence-backed canonical verified-empty source disposition in the repository reconstruction/MASTER contract. Apply no invented status and increment no canonical counter before that contract exists.`\n- next source: `NOT YET RESOLVED — do not advance while the current source lacks a canonical disposition.`\n- blockers: `Non-transient schema-policy blocker: current retained payload is genuinely empty and the live MASTER/status schema has no canonical verified-empty source disposition.`\n- owner decision required now: `repository contract decision required before source progression`\n\n---\n\n### Shared handoff rule'''
+          pattern = re.compile(r'## 10\. ACTIVE CHECKPOINT\n\n.*?\n---\n\n### Shared handoff rule', re.S)
+          log2, count = pattern.subn(active, log, count=1)
+          assert count == 1
+
+          run_marker = '<!-- WORKER_B_RUN_EMPTY_ISLAMIC_PART1 -->'
+          if run_marker not in log2:
+              run = f'''\n\n{run_marker}\n## RUN {now} — Worker B\n\n- state: `BLOCKED_SCHEMA_POLICY_FAIL_CLOSED`\n- start HEAD: `{start_head}`\n- end HEAD before handoff-finalization tooling: `{evidence_head}`\n- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`\n- source at start/current: `{sid} — {sname}`\n- completed in this run:\n  - verified Worker A's Math Part 2 handoff against live HEAD and current evidence;\n  - confirmed no active or queued workflow was mutating this branch/source before work began;\n  - cross-checked current source `manifest.json`, `pages.json`, and `subject.json`;\n  - verified `status=empty`, `pages.json=[]`, 0 pages/images/questions/download failures, empty anomaly arrays, and exact subject/class identity consistency;\n  - reviewed the live MASTER source contract and found no established canonical verified-empty disposition;\n  - failed closed rather than inventing a status, Book, Unit, Lesson, page boundary, question mapping, or following-source selection;\n  - recorded source-local evidence and synchronized execution status/handoff/continuation/baton without modifying MASTER canonical counters.\n- artifacts/evidence:\n  - `content-staging/reconstruction/educational/{sid}-empty-source-analysis.json`;\n  - manifest SHA-256 recorded: `045e554cca1f61c897540696b12028a156603ba964542ffed0e7456556cddd7f`;\n  - pages SHA-256 recorded: `4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945`;\n  - evidence commit: `{evidence_head}`.\n- ambiguity/review_required: `Source semantic identity beyond its legacy label and all Book/Unit/Lesson/page boundaries remain NOT VERIFIED because no retained content exists.`\n- invariant result: PASS — canonical question arithmetic unchanged.\n- Sources processed: 25/58\n- Educational: 12/26\n- Books / Units / Lessons / Lesson Pages: 12 / 40 / 236 / 1,161\n- Exam Source Groups: 13/32\n- Individual Exam Models: 206\n- Exam Pages: 668/2,286\n- Verified Answer Keys: 0\n- Source images technical: 1,986/5,273\n- Legacy Questions: 25,755\n- Lesson-linked: 7,511\n- Exam-linked: 1,132\n- Review-required: 448\n- Unclassified: 16,664\n- Duplicate groups classified: 0/99\n- RAW mutations: 0\n- Unrelated mutations: 0\n- New imports: 0\n- New publications: 0\n- last completed source: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`\n- current source: `{sid} — {sname}`\n- exact next operation: `Establish the repository-approved canonical verified-empty source disposition, then re-fetch live HEAD, apply it to this source with exact-head guards, update canonical counters only according to that contract, and only then resolve the next source from live MASTER.`\n- next source: `NOT YET RESOLVED`\n- blockers: `Canonical empty-source disposition is absent from the live MASTER/status contract; this is a semantic/schema-policy blocker, not a transient execution failure.`\n- handoff note: `Worker A must not rerun content discovery against this empty payload and must not skip to another source. Resolve the disposition contract first; preserve all canonical counters until then.`\n'''
+              log2 = log2.rstrip() + run + '\n'
+          log_path.write_text(log2, encoding='utf-8')
+          PY
+
+      - name: Verify only intended documentation mutation and exact remote HEAD
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm .github/workflows/content-worker-b-empty-source-handoff.yml
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "$(git rev-parse HEAD)"
+          python - <<'PY'
+          import subprocess
+          expected = {
+              '.github/workflows/content-worker-b-empty-source-handoff.yml',
+              'content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md',
+              'content-staging/CONTENT_REBUILD_HANDOFF.md',
+              'content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md',
+              'content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md',
+          }
+          changed = set(subprocess.check_output(['git','status','--short'], text=True).splitlines())
+          paths = {line[3:] for line in changed}
+          assert paths == expected, (paths, expected)
+          PY
+
+      - name: Commit synchronized fail-closed handoff
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -A
+          git commit -m 'content: hand off empty Islamic source blocker to Worker A [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
