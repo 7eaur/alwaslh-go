@@ -56,11 +56,19 @@ jobs:
           from pathlib import Path
           t = json.loads(Path('content-staging/reconstruction/technical/3d91d812-ab78-476a-b2fc-dc2c31152e1a.json').read_text(encoding='utf-8'))
           d = json.loads(Path('content-staging/reconstruction/exams/source-groups/3d91d812-ab78-476a-b2fc-dc2c31152e1a-discovery.json').read_text(encoding='utf-8'))
-          assert t['source_pages'] == 60
-          assert t['source_images'] == 60
-          assert t['verified_image_count'] == 60
+          c = t['checks']
+          assert t['all_images_technically_verified'] is True
+          assert c['manifest_image_count'] == 60
+          assert c['existing_files'] == 60
+          assert c['readable_images'] == 60
+          assert c['sha256_matches'] == 60
+          assert c['byte_size_matches'] == 60
+          assert c['mime_matches'] == 60
+          assert c['failures'] == 0
           assert t['raw_mutations'] == 0
           assert d['counts']['pages'] == 60
+          assert d['counts']['images_downloaded'] == 60
+          assert d['counts']['image_download_failures'] == 0
           assert d['counts']['questions'] == 0
           assert d['raw_mutations'] == 0
           print('BIOLOGY_1445_DISCOVERY_VERIFY_PASS')
