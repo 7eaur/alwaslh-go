@@ -10,7 +10,8 @@ on:
 
 permissions:
   contents: write
-\concurrency:
+
+concurrency:
   group: discover-biology-book
   cancel-in-progress: false
 
