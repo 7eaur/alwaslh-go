@@ -223,11 +223,11 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 - state: `READY`
 - branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `fc5718a9c678386b2b5c6e6ad16838c972c2f89f`
-- last completed source: `14ef15e0-5524-473a-bbdb-996df35ba535 — العلوم نماذج وزارية 1447`
-- current source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`
-- current operation: `read live manifest/pages/source metadata -> non-destructive technical verification of all 161 images -> reconstruct educational book structure from this source evidence -> identify unit/lesson/review/appendix boundaries with visual evidence where needed -> structurally map the 11 legacy questions only where supported -> preserve ambiguity as review_required -> assert global invariant -> checkpoint`
-- next source: `NOT YET RESOLVED — determine from live MASTER_CONTENT_MANIFEST only after the current educational source is processed`
+- latest verified work HEAD before this handoff commit: `45f5065a5027ac9cf9c2876e7d4051d8387b3481`
+- last completed source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`
+- current source: `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - الجزء الثاني`
+- current operation: `read live manifest/pages -> technically verify all 145 images -> establish exact identity against master/تاسع علوم/علوم_تاسع_الجزء_الثاني -> derive this source's own unit/lesson/review boundaries from exact evidence -> confirm source has 0 legacy questions or preserve any drift -> assert global invariant -> checkpoint`
+- next source: `8489a487-91d9-47fb-80b8-35d0e7a074a4 — الانجليزي نماذج وزارية 1445` (only after Science Part 2 is processed)
 - blockers: `none`
 - owner decision required now: `no`
 ---
@@ -407,3 +407,61 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `NOT YET RESOLVED — derive only after the current source from live MASTER_CONTENT_MANIFEST`
 - blockers: `none`
 - handoff note: `Worker B must re-fetch live HEAD and this baton, verify no Science 1447 finalization workflow remains active, then treat f4b6708c... as an educational book source. Do not apply exam-model logic or inherit Chemistry book boundaries; reconstruct from this Science book's own evidence.`
+
+## RUN 2026-09-14T10:11:00+03:00 — Worker B
+
+- state: COMPLETE
+- start HEAD: `82f36c98862709c396fa0cc98002bd2bbaa2815e`
+- end verified content HEAD: `45f5065a5027ac9cf9c2876e7d4051d8387b3481`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`
+- completed in this run:
+  - verified Worker A's Science 1447 handoff against live reconstruction evidence and branch state;
+  - completed 161/161 non-destructive technical verification for Science Part 1;
+  - established exact source identity against `master/تاسع علوم/علوم_تاسع_الجزء_الأول`: 161/161 retained RAW images are exact SHA-256 matches;
+  - proved the retained stored range 7..167 corresponds to master source pages 8..168, while master-only pages outside that slice remain reference-only;
+  - reconstructed 8 Units, 22 Lessons, 138 Lesson pages, 8 Unit-cover pages and 15 Unit-review pages from exact master section/title runs;
+  - classified every retained page exactly once and created the finalized educational reconstruction;
+  - structurally linked all 11 source questions to the verified `المحلول ومكوناته` lesson; semantic correctness remains NOT VERIFIED;
+  - updated MASTER_CONTENT_MANIFEST and canonical execution/handoff/inventory/validation/import/continuation reports;
+  - exact-head finalization workflow completed successfully with final invariant verification.
+- evidence produced/verified:
+  - technical report: `content-staging/reconstruction/technical/f4b6708c-027f-4883-9e85-e6e7acb52ecc.json`;
+  - identity/structure discovery: `content-staging/reconstruction/educational/f4b6708c-027f-4883-9e85-e6e7acb52ecc-discovery.json`;
+  - final reconstruction: `content-staging/reconstruction/educational/f4b6708c-027f-4883-9e85-e6e7acb52ecc.json`;
+  - discovery workflow run `34816305370`: success with 161/161 exact identity;
+  - finalization workflow run `34816564726`: success with `SCIENCE_BOOK_PART1_FINALIZATION_VERIFY_PASS`;
+  - master reference: `تاسع علوم/علوم_تاسع_الجزء_الأول`;
+  - within-source duplicate SHA groups: 0.
+- ambiguity/review_required:
+  - no retained structural page remains ambiguous after exact identity/title-run reconstruction;
+  - source question review-required count: 0;
+  - semantic correctness of the 11 legacy AI questions: `NOT VERIFIED`;
+  - master-only pages 1..7 and 169..170 are not fabricated into the retained source.
+- invariant result: PASS (`2,236 + 733 + 351 + 22,435 = 25,755`)
+- Sources processed: 8/58
+- Educational: 2/26
+- Books / Units / Lessons / Lesson Pages: 2 / 17 / 79 / 287
+- Exam Source Groups: 6/32
+- Individual Exam Models: 99
+- Exam Pages: 347/2,286
+- Verified Answer Keys: 0
+- Source images technical: 694/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 2,236
+- Exam-linked: 733
+- Review-required: 351
+- Unclassified: 22,435
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc — كتاب العلوم - الجزء الأول`
+- current source: `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - الجزء الثاني`
+- exact next operation: `Fetch Science Part 2 live manifest/pages; technically verify all 145 images; establish exact RAW/master identity against master/تاسع علوم/علوم_تاسع_الجزء_الثاني; reconstruct its own units/lessons/reviews from exact evidence; confirm the manifest's 0-question state; assert the 25,755 global invariant; checkpoint; then continue to English Ministry Exams 1445.`
+- next source: `8489a487-91d9-47fb-80b8-35d0e7a074a4 — الانجليزي نماذج وزارية 1445`
+- blockers: `none`
+- handoff note: `Worker A should re-fetch live HEAD and this baton, confirm Science Part 1 finalization is complete, then start Science Part 2 from its own evidence. Do not assume Part 1 unit/lesson counts or retained ranges.`
+
