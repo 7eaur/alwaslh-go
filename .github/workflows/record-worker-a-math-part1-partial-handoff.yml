@@ -1,0 +1,43 @@
+name: Record Worker A Math Part 1 Partial Handoff
+
+on:
+  push:
+    branches: [content/corpus-inventory-20260914]
+    paths: ['.github/workflows/record-worker-a-math-part1-partial-handoff.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-reconstruction-shared-handoff
+  cancel-in-progress: false
+
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - name: Fail closed on live-head drift before baton generation
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "${GITHUB_SHA}" || { echo LIVE_HEAD_DRIFT_FAIL_CLOSED; exit 41; }
+      - name: Generate Worker A partial baton and status update
+        run: python content-staging/tools/record_worker_a_math_part1_partial_handoff.py
+      - name: Re-fetch live head before shared writes
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse origin/content/corpus-inventory-20260914)" = "${GITHUB_SHA}" || { echo LIVE_HEAD_DRIFT_FAIL_CLOSED; exit 42; }
+      - name: Commit evidence-backed partial handoff
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md content-staging/CONTENT_REBUILD_HANDOFF.md
+          git diff --cached --quiet && exit 43 || true
+          git commit -m 'content: hand off Math Part 1 identity blocker to Worker B [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
