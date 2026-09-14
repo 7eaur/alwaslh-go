@@ -57,13 +57,21 @@ jobs:
           import json
           from pathlib import Path
           t = json.loads(Path('content-staging/reconstruction/technical/004c02be-3f55-49e1-bbdc-b0824491bd68.json').read_text(encoding='utf-8'))
-          assert t['source_pages'] == 39
-          assert t['existing_files'] == 39
-          assert t['readable_images'] == 39
-          assert t['byte_size_matches'] == 39
-          assert t['sha256_matches'] == 39
-          assert t['mime_matches'] == 39
-          assert t['failure_count'] == 0
+          c = t['checks']
+          assert c['manifest_image_count'] == 39
+          assert c['existing_files'] == 39
+          assert c['readable_images'] == 39
+          assert c['byte_size_matches'] == 39
+          assert c['sha256_matches'] == 39
+          assert c['mime_matches'] == 39
+          assert c['failures'] == 0
+          assert t['all_images_technically_verified'] is True
+          assert t['page_sequence']['first_page_number'] == 1
+          assert t['page_sequence']['last_page_number'] == 39
+          assert t['page_sequence']['unique_page_numbers'] == 39
+          assert t['page_sequence']['missing_page_numbers'] == []
+          assert t['page_sequence']['duplicate_page_numbers'] == []
+          assert t['raw_mutations'] == 0
           print('SCIENCE_1446_DISCOVERY_VERIFY_PASS')
           PY
 
