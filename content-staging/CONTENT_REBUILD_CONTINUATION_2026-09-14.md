@@ -511,3 +511,17 @@ Continue with `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغراف�
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `1933807f-4cb0-40c9-9b29-3ef3d32c98dc` — `كتاب الرياضيات - الجزء الأول`.
 <!-- MATH_EXAM_1447_CHECKPOINT_END -->
+
+<!-- MATH_BOOK_PART1_CHECKPOINT_START -->
+## Reconstruction checkpoint — Math Book Part 1
+
+- Sources processed: **24/58**; Educational: **11/26**; Exam Source Groups: **13/32**.
+- Books / Units / Lessons / Lesson pages: **11 / 37 / 217 / 1,039**.
+- Math Part 1: **186/186** RAW images technically verified; complete direct RAW visual review establishes **4 units / 21 lessons / 162 lesson pages / 24 non-lesson pages**.
+- The apparent master reference `الرياضيات ثالث ثانوي/02_الرياضيات_ثالث_ثانوي` remains explicitly rejected (0/186 SHA identity; no structure transferred).
+- Non-lesson pages: **2 review + 18 general exercise + 4 unit-test pages**.
+- Questions: **620 lesson-linked + 97 review_required = 717**, semantic correctness `NOT VERIFIED`.
+- Global invariant: **7,511 + 1,132 + 448 + 16,664 = 25,755**.
+- Source images technical **1,851/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Next: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`.
+<!-- MATH_BOOK_PART1_CHECKPOINT_END -->
