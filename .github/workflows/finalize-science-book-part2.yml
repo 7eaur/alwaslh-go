@@ -1,0 +1,108 @@
+name: Finalize Science Book Part 2
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/finalize-science-book-part2.yml'
+      - 'content-staging/tools/reconstruct_science_book_part2.py'
+      - 'content-staging/tools/record_science_book_part2_checkpoint.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-science-book-part2
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - name: Checkout trusted master reference
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master-reference
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install verification dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Reverify source and exact identity
+        run: |
+          set -euo pipefail
+          python content-staging/tools/verify_subject_media.py --subject-id 81e99fe6-1421-462b-9562-1c0c5053a809
+          python content-staging/tools/discover_science_book_part2.py
+
+      - name: Reconstruct verified book structure
+        run: |
+          set -euo pipefail
+          python content-staging/tools/reconstruct_science_book_part2.py
+
+      - name: Record corpus checkpoint
+        run: |
+          set -euo pipefail
+          python content-staging/tools/record_science_book_part2_checkpoint.py
+
+      - name: Verify final invariants
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='81e99fe6-1421-462b-9562-1c0c5053a809'
+          r=json.loads(Path(f'content-staging/reconstruction/educational/{sid}.json').read_text())
+          m=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          p=m['reconstruction_progress']
+          assert r['status']=='reconstructed_verified'
+          assert r['reconstructed_book']['unit_count']==8
+          assert r['reconstructed_book']['lesson_count']==31
+          assert r['reconstructed_book']['lesson_page_count']==126
+          assert r['reconstructed_book']['unit_cover_page_count']==8
+          assert r['reconstructed_book']['unit_review_page_count']==11
+          assert r['questions']['legacy_questions']==0
+          assert r['questions']['structurally_lesson_linked_questions']==0
+          assert r['questions']['review_required_questions']==0
+          assert p['sources_completed']==9 and p['educational_sources_completed']==3
+          assert p['verified_books']==3 and p['verified_units']==25 and p['verified_lessons']==110 and p['verified_lesson_pages']==413
+          assert p['source_images_technically_verified']==839
+          assert p['lesson_linked_structural']+p['exam_linked_to_individual_model']+p['review_required']+p['unclassified']==25755
+          assert p['raw_mutations']==0 and p['unrelated_mutations']==0 and p['new_imports']==0 and p['new_publications']==0
+          print('SCIENCE_BOOK_PART2_FINALIZATION_VERIFY_PASS')
+          PY
+
+      - name: Commit finalized reconstruction and checkpoint
+        run: |
+          set -euo pipefail
+          git config user.name 'alwaslh-content-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add \
+            content-staging/reconstruction/technical/81e99fe6-1421-462b-9562-1c0c5053a809.json \
+            content-staging/reconstruction/educational/81e99fe6-1421-462b-9562-1c0c5053a809-discovery.json \
+            content-staging/reconstruction/educational/81e99fe6-1421-462b-9562-1c0c5053a809.json \
+            content-staging/manifests/MASTER_CONTENT_MANIFEST.json \
+            content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md \
+            content-staging/CONTENT_REBUILD_HANDOFF.md \
+            content-staging/CONTENT_INVENTORY.md \
+            content-staging/CONTENT_VALIDATION_REPORT.md \
+            content-staging/CONTENT_IMPORT_REPORT.md \
+            content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          if git diff --cached --quiet; then
+            echo 'Finalized state unchanged.'
+            exit 0
+          fi
+          git commit -m 'content: finalize science book part2 reconstruction [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
