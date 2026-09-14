@@ -79,28 +79,12 @@ Last completed source:
 - `e7c8291c-e904-4e8c-9cd8-2753818cedf3` — `الكيمياء نماذج وزاريه 1447`
 - Result: 124/124 technically verified and visually reviewed; 29 verified occurrences; 28 unique models; 116 finalized model pages; 8 review-required pages; 226/226 source questions structurally accounted for; 0 verified standalone Answer Keys.
 
-Current source:
+Current source at automation-plan creation:
 
 - Source ID: `ef408805-c337-44dd-b903-7838030e6de0`
 - Name: `العلوم نماذج وزارية 1445`
 - Class/subject: `تاسع العلوم`
 - Manifest evidence: 30 pages/images; 215 legacy questions; no listed manifest anomalies for duplicate page numbers/missing/malformed entries.
-- Technical verification: `NOT VERIFIED`
-- Individual Exam Models: `NOT VERIFIED`
-- Answer Keys: `NOT VERIFIED`
-
-Exact next operation:
-
-1. Re-fetch live branch HEAD and this file.
-2. Read the source manifest and existing generic verification/discovery tools.
-3. Create/use a source-local workflow for Science 1445 based only on this source's evidence.
-4. Technically verify all 30 page images: existence, readability, byte size, SHA-256, MIME, sequence, duplicate SHA groups.
-5. Generate visual evidence/contact sheets covering all 30 pages.
-6. Inspect every page needed to establish model boundaries, repeated occurrences, mismatch blocks, correction/answer-key candidates.
-7. Finalize only evidence-supported Individual Exam Models; isolate ambiguity as `review_required` with reasons.
-8. Map all 215 source questions structurally to finalized models/review-required/unassigned as evidence allows.
-9. Assert the global question invariant before checkpointing.
-10. Update reconstruction JSON/manifests/status docs and this shared handoff; then move to the next source automatically.
 
 ## 5. Sequential Worker Protocol
 
@@ -239,12 +223,12 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 - state: `READY`
 - branch: `content/corpus-inventory-20260914`
-- baseline HEAD before this plan: `df62ba1f424b23346af5c49eaee1063022298ca0`
-- last completed source: `e7c8291c-e904-4e8c-9cd8-2753818cedf3 — الكيمياء نماذج وزاريه 1447`
-- current source: `ef408805-c337-44dd-b903-7838030e6de0 — العلوم نماذج وزارية 1445`
-- current operation: `technical verification + source-local exam boundary discovery`
-- next source: `NOT YET RESOLVED from live ordered manifest after Science 1445 finalization`
-- blockers: `none known; Science 1445 technical/boundary evidence is NOT VERIFIED yet`
+- latest verified work HEAD before this handoff commit: `7fa9297a44cefb80de470c873c9b646c3910bc5d`
+- last completed source: `ef408805-c337-44dd-b903-7838030e6de0 — العلوم نماذج وزارية 1445`
+- current source: `004c02be-3f55-49e1-bbdc-b0824491bd68 — العلوم نماذج وزارية 1446`
+- current operation: `read manifest -> technical verification of 39 pages -> source-local duplicate/boundary discovery -> full visual evidence -> finalize only evidence-supported models -> map 30 source questions -> invariant/checkpoint`
+- next source: `14ef15e0-5524-473a-bbdb-996df35ba535 — العلوم نماذج وزارية 1447`
+- blockers: `none`
 - owner decision required now: `no`
 
 ---
@@ -252,3 +236,57 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 ### Shared handoff rule
 
 Worker A and Worker B must treat this file as the operational baton. Read latest -> verify live state -> execute one safe coherent unit -> append RUN -> update ACTIVE CHECKPOINT to the newest truth -> hand off. Never skip evidence, never overwrite the other worker's unreviewed work, and never trade correctness for apparent progress.
+
+## RUN 2026-09-14T08:39:00+03:00 — Worker A
+
+- state: COMPLETE
+- start HEAD: `659ba2323cc0c79c737d4bd657913e7ba9889a33`
+- end HEAD before handoff-log commit: `7fa9297a44cefb80de470c873c9b646c3910bc5d`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `ef408805-c337-44dd-b903-7838030e6de0 — العلوم نماذج وزارية 1445`
+- completed in this run:
+  - added the source-local Science 1445 discovery workflow using only generic verification/discovery tools and source-local evidence;
+  - completed 30/30 technical verification;
+  - generated and inspected complete contact sheets covering pages 1..30;
+  - verified ten source-local three-page model occurrences, each with two question pages followed by an explicitly titled correction-model page;
+  - created `reconstruct_science_exam_1445.py` and evidence-backed final reconstruction JSON;
+  - structurally mapped all 215 legacy questions to the ten verified models;
+  - created/ran the checkpoint recorder and updated MASTER_CONTENT_MANIFEST plus status/handoff/inventory/validation/import/continuation docs;
+  - exact-head GitHub Actions finalization job completed successfully and committed the derived checkpoint.
+- evidence produced/verified:
+  - technical report: `content-staging/reconstruction/technical/ef408805-c337-44dd-b903-7838030e6de0.json`;
+  - discovery report: `content-staging/reconstruction/exams/source-groups/ef408805-c337-44dd-b903-7838030e6de0-discovery.json`;
+  - final reconstruction: `content-staging/reconstruction/exams/source-groups/ef408805-c337-44dd-b903-7838030e6de0.json`;
+  - GitHub Actions run `34810342183`: all finalization steps success;
+  - visual evidence: complete contact sheets 001-012, 013-024, 025-030;
+  - within-source duplicate SHA groups: 0.
+- ambiguity/review_required:
+  - source model boundaries: none; explicit metadata titles and full visual review agree;
+  - standalone official Answer Keys: `NOT VERIFIED`; correction-model pages are retained as correction-sheet candidates only;
+  - semantic correctness of legacy AI questions: `NOT VERIFIED`.
+- invariant result: PASS
+- Sources processed: 5/58
+- Educational: 1/26
+- Books / Units / Lessons / Lesson Pages: 1 / 9 / 57 / 149
+- Exam Source Groups: 4/32
+- Individual Exam Models: 72
+- Exam Pages: 266/2,286
+- Verified Answer Keys: 0
+- Source images technical: 452/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 2,225
+- Exam-linked: 441
+- Review-required: 351
+- Unclassified: 22,738
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `ef408805-c337-44dd-b903-7838030e6de0 — العلوم نماذج وزارية 1445`
+- current source: `004c02be-3f55-49e1-bbdc-b0824491bd68 — العلوم نماذج وزارية 1446`
+- exact next operation: `Read the 1446 Science manifest and pages metadata; technically verify all 39 source images; scan local duplicates/sequence; generate full contact sheets; resolve model/correction boundaries only from 1446 evidence; map all 30 source questions; assert global invariant; checkpoint and continue.`
+- next source: `14ef15e0-5524-473a-bbdb-996df35ba535 — العلوم نماذج وزارية 1447`
+- blockers: `none`
+- handoff note: `Worker B should re-fetch live HEAD and this file, confirm no workflow remains active for Science 1445, then start Science 1446 from its own evidence. Do not inherit the 3-page model pattern merely because 1445 used it.`
