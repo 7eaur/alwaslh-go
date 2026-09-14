@@ -178,3 +178,15 @@ The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_
 - New imports: **0**; new publications: **0**; production mutations: **0**; RAW mutations: **0**.
 - Import readiness remains deferred until corpus reconstruction/boundary discovery is complete.
 <!-- CIVICS_BOOK_CHECKPOINT_END -->
+
+<!-- GEOGRAPHY_BOOK_CHECKPOINT_START -->
+## Reconstruction checkpoint — Grade 9 Geography
+
+- Sources processed: **15/58**; Educational: **6/26**; Exam Source Groups: **9/32**.
+- Books / Units / Lessons / Lesson pages: **6 / 33 / 151 / 602**.
+- Geography: **104/104** technically verified and unique exact RAW/master SHA identities.
+- Reconstructed: **4 Units, 18 Lessons, 94 Lesson pages, 4 covers, 6 reviews, 0 non-lesson pages**.
+- Questions unchanged: **2,374 + 967 + 351 + 22,063 = 25,755**.
+- Source images technical **1,174/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Next: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`.
+<!-- GEOGRAPHY_BOOK_CHECKPOINT_END -->

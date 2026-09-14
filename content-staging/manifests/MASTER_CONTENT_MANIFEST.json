@@ -1104,8 +1104,8 @@
         "id": "a7f1e94f-82d1-4146-af5b-4e9b51363f0b",
         "name": "كتاب الجغرافيا"
       },
-      "classification": "educational_source_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "educational_book_source",
+      "classification_evidence": "104/104 unique exact RAW/master SHA identity + exact master section/title runs",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/a7f1e94f-82d1-4146-af5b-4e9b51363f0b/manifest.json",
       "manifest_sha256_recorded": "da3aa77f7a5c671ceb5d5e7fb3f24b293ed71e2f90f70faa7a69d9ed9419d6b1",
       "counts": {
@@ -1124,12 +1124,46 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "reconstructed_verified",
       "modern_entity_id": null,
       "exam_models": null,
       "answer_keys": null,
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/a7f1e94f-82d1-4146-af5b-4e9b51363f0b.json",
+        "images_verified": 104,
+        "readable": 104,
+        "sha256_match_manifest": 104,
+        "mime_match_manifest": 104,
+        "duplicate_sha_groups_within_source": 0
+      },
+      "reconstruction": {
+        "status": "verified",
+        "path": "content-staging/reconstruction/educational/a7f1e94f-82d1-4146-af5b-4e9b51363f0b.json",
+        "book_title": "كتاب الجغرافيا",
+        "retained_page_range": [
+          8,
+          111
+        ],
+        "source_reference_page_range": [
+          8,
+          111
+        ],
+        "retained_pages": 104,
+        "units": 4,
+        "lessons": 18,
+        "lesson_pages": 94,
+        "unit_cover_pages": 4,
+        "unit_review_pages": 6,
+        "non_lesson_pages": 0,
+        "legacy_questions": 0,
+        "structurally_lesson_linked_questions": 0,
+        "review_required_questions": 0,
+        "semantic_question_review": "NOT APPLICABLE",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "516f1c1d-acc0-4b1c-8e50-8f92a7c737e0",
@@ -2824,21 +2858,21 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 14,
+    "sources_completed": 15,
     "sources_total": 58,
-    "educational_sources_completed": 5,
+    "educational_sources_completed": 6,
     "educational_sources_total": 26,
-    "verified_books": 5,
-    "verified_units": 29,
-    "verified_lessons": 133,
-    "verified_lesson_pages": 508,
+    "verified_books": 6,
+    "verified_units": 33,
+    "verified_lessons": 151,
+    "verified_lesson_pages": 602,
     "exam_source_groups_completed": 9,
     "exam_source_groups_total": 32,
     "individual_exam_models": 135,
     "exam_pages_completed": 455,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 1070,
+    "source_images_technically_verified": 1174,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,

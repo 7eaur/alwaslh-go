@@ -263,3 +263,15 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - Reconstructed structure: **4 Units, 14 Lessons, 48 Lesson pages, 4 Unit covers, 7 Unit reviews, 0 non-lesson pages**.
 - Source has **0** legacy questions in the verified manifest/pages dataset.
 <!-- CIVICS_BOOK_CHECKPOINT_END -->
+
+<!-- GEOGRAPHY_BOOK_CHECKPOINT_START -->
+## Reconstruction checkpoint — Grade 9 Geography
+
+- Sources processed: **15/58**; Educational: **6/26**; Exam Source Groups: **9/32**.
+- Books / Units / Lessons / Lesson pages: **6 / 33 / 151 / 602**.
+- Geography: **104/104** technically verified and unique exact RAW/master SHA identities.
+- Reconstructed: **4 Units, 18 Lessons, 94 Lesson pages, 4 covers, 6 reviews, 0 non-lesson pages**.
+- Questions unchanged: **2,374 + 967 + 351 + 22,063 = 25,755**.
+- Source images technical **1,174/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Next: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`.
+<!-- GEOGRAPHY_BOOK_CHECKPOINT_END -->

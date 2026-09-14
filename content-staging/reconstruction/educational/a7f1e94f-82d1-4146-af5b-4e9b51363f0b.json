@@ -1,0 +1,806 @@
+{
+  "schema_version": 1,
+  "status": "reconstructed_verified",
+  "subject_id": "a7f1e94f-82d1-4146-af5b-4e9b51363f0b",
+  "source_name": "كتاب الجغرافيا",
+  "classification": "educational_book_source",
+  "source_identity": {
+    "status": "verified",
+    "master_reference_path": "master/تاسع إجتماعيات/جغرافيا_تاسع",
+    "raw_master_exact_sha_matches": 104,
+    "raw_images": 104,
+    "stored_page_range": [
+      8,
+      111
+    ],
+    "source_reference_page_range": [
+      8,
+      111
+    ],
+    "master_manifest_entries": 114,
+    "master_only_source_pages_outside_retained_slice": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      112,
+      113,
+      114
+    ]
+  },
+  "reconstructed_book": {
+    "title": "كتاب الجغرافيا",
+    "units": [
+      {
+        "ordinal": 1,
+        "title": "الجغرافيا الطبيعية للجمهورية اليمنية",
+        "section_label": "الوحدة الأولى: الجغرافيا الطبيعية للجمهورية اليمنية",
+        "stored_page_range": [
+          8,
+          35
+        ],
+        "source_page_range": [
+          8,
+          35
+        ],
+        "cover_page": 8,
+        "review_pages": [
+          35
+        ],
+        "lessons": [
+          {
+            "id": "geography9-u01-l01",
+            "unit_ordinal": 1,
+            "lesson_ordinal": 1,
+            "title": "موقع الجمهورية اليمنية وأهميته",
+            "stored_page_range": [
+              9,
+              13
+            ],
+            "stored_pages": [
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "source_page_range": [
+              9,
+              13
+            ],
+            "legacy_page_ids": [
+              "a17001ad-5183-4802-90d8-8b02c80ee3e6",
+              "b6408917-a3dd-4b2a-b05a-e03d65074820",
+              "872b7af0-e6be-44cd-b0a1-959fc8f2e7ad",
+              "7f653852-52c2-4d17-8c46-3c5a74d90b4f",
+              "7d2b24ae-e397-4d6d-b2d3-5e4e2ff9d8b4"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u01-l02",
+            "unit_ordinal": 1,
+            "lesson_ordinal": 2,
+            "title": "تضاريس الجمهورية اليمنية",
+            "stored_page_range": [
+              14,
+              17
+            ],
+            "stored_pages": [
+              14,
+              15,
+              16,
+              17
+            ],
+            "source_page_range": [
+              14,
+              17
+            ],
+            "legacy_page_ids": [
+              "20595a26-fab3-498e-8d2f-04b731cd6b20",
+              "3a828128-3b5f-4bd2-a017-493d66cdb4e9",
+              "57c9bfcf-492e-4d36-b488-d08944fe8694",
+              "1c03dd31-5ae6-42af-8d35-1490e4bda9ea"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u01-l03",
+            "unit_ordinal": 1,
+            "lesson_ordinal": 3,
+            "title": "المناخ والنبات الطبيعي في الجمهورية اليمنية",
+            "stored_page_range": [
+              18,
+              24
+            ],
+            "stored_pages": [
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24
+            ],
+            "source_page_range": [
+              18,
+              24
+            ],
+            "legacy_page_ids": [
+              "b9946e87-c58f-4e32-9e54-497ab21f4a7e",
+              "ffdf35c6-33d9-40ae-908c-3224d88511c0",
+              "d4f1a57c-efb0-4617-8998-025873fea9f0",
+              "c6bba161-dfe6-4ede-b802-3a5c29883ef9",
+              "09d75d63-db9e-43da-a041-106503969868",
+              "c0e82656-4cfe-452e-98d5-a9802103f617",
+              "5c24ce6b-6780-4afd-9422-12b8dd10d204"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u01-l04",
+            "unit_ordinal": 1,
+            "lesson_ordinal": 4,
+            "title": "الموارد المائية في الجمهورية اليمنية",
+            "stored_page_range": [
+              25,
+              29
+            ],
+            "stored_pages": [
+              25,
+              26,
+              27,
+              28,
+              29
+            ],
+            "source_page_range": [
+              25,
+              29
+            ],
+            "legacy_page_ids": [
+              "066ef7f3-1b15-43ee-8894-167b70b6b98b",
+              "d248a4d0-ff65-47eb-afa5-415db1f6d725",
+              "3fd9b954-9652-4d1f-8f27-177e84ffa735",
+              "46e24cff-9651-466a-a491-dd004856f5c2",
+              "444a09ec-aa22-4e6a-a11d-72f0dae6b388"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u01-l05",
+            "unit_ordinal": 1,
+            "lesson_ordinal": 5,
+            "title": "المحميات الطبيعية",
+            "stored_page_range": [
+              30,
+              34
+            ],
+            "stored_pages": [
+              30,
+              31,
+              32,
+              33,
+              34
+            ],
+            "source_page_range": [
+              30,
+              34
+            ],
+            "legacy_page_ids": [
+              "828dea91-9f09-4f03-9097-b6800b4fb339",
+              "63474767-bcc6-4bf2-be07-d3609d30db89",
+              "03cf41f3-502d-4847-9f97-2c555895aa58",
+              "1ec480a0-2c4a-4f79-861a-662cb928d941",
+              "ed863fc6-c7e9-4f7f-bbd4-210a3ae3416b"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          }
+        ]
+      },
+      {
+        "ordinal": 2,
+        "title": "السكان والأنشطة الاقتصادية في الجمهورية اليمنية",
+        "section_label": "الوحدة الثانية: السكان والأنشطة الاقتصادية في الجمهورية اليمنية",
+        "stored_page_range": [
+          36,
+          59
+        ],
+        "source_page_range": [
+          36,
+          59
+        ],
+        "cover_page": 36,
+        "review_pages": [
+          58,
+          59
+        ],
+        "lessons": [
+          {
+            "id": "geography9-u02-l01",
+            "unit_ordinal": 2,
+            "lesson_ordinal": 1,
+            "title": "نمو السكان وتوزيعهم",
+            "stored_page_range": [
+              37,
+              40
+            ],
+            "stored_pages": [
+              37,
+              38,
+              39,
+              40
+            ],
+            "source_page_range": [
+              37,
+              40
+            ],
+            "legacy_page_ids": [
+              "072d1253-bc07-4a3c-bb1f-07ed159a1692",
+              "e9e4ae64-9316-4710-9081-7c1eba01ad92",
+              "d2ea6b89-cc56-4f6f-9d8b-eed9c451d253",
+              "0168155f-7714-43c6-b3f3-d7c56b2b4fd0"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u02-l02",
+            "unit_ordinal": 2,
+            "lesson_ordinal": 2,
+            "title": "تركيب السكان",
+            "stored_page_range": [
+              41,
+              43
+            ],
+            "stored_pages": [
+              41,
+              42,
+              43
+            ],
+            "source_page_range": [
+              41,
+              43
+            ],
+            "legacy_page_ids": [
+              "abeb3192-d980-4088-bd14-201bdd9ae4c8",
+              "3e3a9d2f-93c9-424a-9d91-0facf347592b",
+              "fcdc654e-aa92-4436-be87-3f788fe895ae"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u02-l03",
+            "unit_ordinal": 2,
+            "lesson_ordinal": 3,
+            "title": "الأنشطة الاقتصادية",
+            "stored_page_range": [
+              44,
+              54
+            ],
+            "stored_pages": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54
+            ],
+            "source_page_range": [
+              44,
+              54
+            ],
+            "legacy_page_ids": [
+              "2b95ea86-8080-474e-9f41-307f7eb58b81",
+              "e61710d2-2d0f-41fd-912e-7906e4c3ac76",
+              "007dc078-378c-4c0c-a59e-66e4809623a8",
+              "0fd84461-6a0c-40be-963c-9396ca3bf549",
+              "9f069965-0988-4343-8d40-dfeed373f4ea",
+              "799cfe19-103a-47d1-81e4-d0496a2f2aeb",
+              "e79ea0d7-ad0e-48eb-b9b7-32cb9687ca1d",
+              "965d7699-eb1e-4700-9f7b-e6a5ac72ee4e",
+              "e614c976-b216-4f93-986f-658056aa6297",
+              "5c11cc05-ff22-42eb-a2a0-badd7219cf57",
+              "1c2c5e88-a868-4a30-b218-1ef015e1c1b7"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u02-l04",
+            "unit_ordinal": 2,
+            "lesson_ordinal": 4,
+            "title": "السياحة",
+            "stored_page_range": [
+              55,
+              57
+            ],
+            "stored_pages": [
+              55,
+              56,
+              57
+            ],
+            "source_page_range": [
+              55,
+              57
+            ],
+            "legacy_page_ids": [
+              "d0e59130-b900-4a76-a630-53d4cae3015d",
+              "957e32b6-a061-4f25-a8e0-1b9c0a3ad73e",
+              "f3fbf964-aafa-484c-9ce1-c2c480d7ede2"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          }
+        ]
+      },
+      {
+        "ordinal": 3,
+        "title": "الجغرافيا الطبيعية للوطن العربي",
+        "section_label": "الوحدة الثالثة: الجغرافيا الطبيعية للوطن العربي",
+        "stored_page_range": [
+          60,
+          87
+        ],
+        "source_page_range": [
+          60,
+          87
+        ],
+        "cover_page": 60,
+        "review_pages": [
+          86,
+          87
+        ],
+        "lessons": [
+          {
+            "id": "geography9-u03-l01",
+            "unit_ordinal": 3,
+            "lesson_ordinal": 1,
+            "title": "موقع الوطن العربي وأهميته",
+            "stored_page_range": [
+              61,
+              66
+            ],
+            "stored_pages": [
+              61,
+              62,
+              63,
+              64,
+              65,
+              66
+            ],
+            "source_page_range": [
+              61,
+              66
+            ],
+            "legacy_page_ids": [
+              "84d91362-1965-460d-a55d-0a93922ae01b",
+              "da5cf2e2-b29d-4595-8ddb-549bfae5de6a",
+              "69c0cb9e-2a0e-46e1-ade0-ed699b2a9139",
+              "bb2d28ad-d8a8-4148-8812-9bbaeb8f4e62",
+              "de8ed655-d379-406d-a78b-851eb1c6a8ae",
+              "e968f527-e900-4fd7-9d57-f25eea237092"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u03-l02",
+            "unit_ordinal": 3,
+            "lesson_ordinal": 2,
+            "title": "تضاريس الوطن العربي",
+            "stored_page_range": [
+              67,
+              72
+            ],
+            "stored_pages": [
+              67,
+              68,
+              69,
+              70,
+              71,
+              72
+            ],
+            "source_page_range": [
+              67,
+              72
+            ],
+            "legacy_page_ids": [
+              "9cc9c15d-7964-49ed-a68b-35f17ec98288",
+              "55e47fb9-bf7e-47cb-b1a4-e630fa5c1719",
+              "63737d59-be28-4689-8fb3-cd300e235d4f",
+              "5ed17918-b701-4828-a79a-efb70ab697f6",
+              "a66506d6-d8be-4838-9f5f-f7bb620baca5",
+              "3abd0329-ad5c-476e-b611-131b7ab3c7c5"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u03-l03",
+            "unit_ordinal": 3,
+            "lesson_ordinal": 3,
+            "title": "المناخ والنبات الطبيعي",
+            "stored_page_range": [
+              73,
+              78
+            ],
+            "stored_pages": [
+              73,
+              74,
+              75,
+              76,
+              77,
+              78
+            ],
+            "source_page_range": [
+              73,
+              78
+            ],
+            "legacy_page_ids": [
+              "56408799-3e19-4db2-8145-79f63ffc817f",
+              "1b38fe46-34f2-4365-8fcd-9de527dcf51c",
+              "fca96bf6-3738-4155-831f-40fba211fb3f",
+              "faeb7af9-0eeb-40ec-ab78-c9723f319b24",
+              "c37f6453-0741-4e0e-b228-b50d2331a026",
+              "47fc7601-7d90-4bb2-b2ca-bf14bd47dff5"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u03-l04",
+            "unit_ordinal": 3,
+            "lesson_ordinal": 4,
+            "title": "الموارد المائية",
+            "stored_page_range": [
+              79,
+              85
+            ],
+            "stored_pages": [
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85
+            ],
+            "source_page_range": [
+              79,
+              85
+            ],
+            "legacy_page_ids": [
+              "41ac08ff-579d-4522-9206-76e9f585705b",
+              "cd13d1d4-4dfa-4d62-b3ab-c7edabf4b17b",
+              "af43b8f1-430c-4dea-9389-fb4849acbdab",
+              "7848e4ef-8c5b-4661-ab35-77d79951a7aa",
+              "0399a5f5-d28d-4522-b0e7-b63bb1deeebc",
+              "f3d38c83-66ef-4fe5-b4e9-bece4302dba2",
+              "e91dd9b1-df1b-4d0a-b94c-a05f5e998b4a"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          }
+        ]
+      },
+      {
+        "ordinal": 4,
+        "title": "السكان والأنشطة الاقتصادية في الوطن العربي",
+        "section_label": "الوحدة الرابعة: السكان والأنشطة الاقتصادية في الوطن العربي",
+        "stored_page_range": [
+          88,
+          111
+        ],
+        "source_page_range": [
+          88,
+          111
+        ],
+        "cover_page": 88,
+        "review_pages": [
+          111
+        ],
+        "lessons": [
+          {
+            "id": "geography9-u04-l01",
+            "unit_ordinal": 4,
+            "lesson_ordinal": 1,
+            "title": "سكان الوطن العربي",
+            "stored_page_range": [
+              89,
+              92
+            ],
+            "stored_pages": [
+              89,
+              90,
+              91,
+              92
+            ],
+            "source_page_range": [
+              89,
+              92
+            ],
+            "legacy_page_ids": [
+              "db4506dc-51d2-4f72-b4f9-8c595bbfb11c",
+              "3f7650f3-133e-43d8-ac78-c2b862a14a03",
+              "1503ef41-a236-4e40-875f-0a6fd88fa3e5",
+              "6cce9a50-f8f4-4626-aca9-9614e7cad97a"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u04-l02",
+            "unit_ordinal": 4,
+            "lesson_ordinal": 2,
+            "title": "الزراعة والثروة الحيوانية",
+            "stored_page_range": [
+              93,
+              98
+            ],
+            "stored_pages": [
+              93,
+              94,
+              95,
+              96,
+              97,
+              98
+            ],
+            "source_page_range": [
+              93,
+              98
+            ],
+            "legacy_page_ids": [
+              "6d6f4c12-ee49-4874-b480-d75debe9f7f3",
+              "3e78fb24-3483-481a-aea8-2e3d66b84d12",
+              "47ad346f-6425-4c4a-8abc-1269949f8fc6",
+              "32b99341-e3f6-46c2-a3f7-915612f65dc5",
+              "a742ab10-25b0-414f-857b-6a1df77a5a27",
+              "beb32c59-80d8-4ad2-ab4d-dd79f03aa059"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u04-l03",
+            "unit_ordinal": 4,
+            "lesson_ordinal": 3,
+            "title": "الصناعة والمعادن",
+            "stored_page_range": [
+              99,
+              103
+            ],
+            "stored_pages": [
+              99,
+              100,
+              101,
+              102,
+              103
+            ],
+            "source_page_range": [
+              99,
+              103
+            ],
+            "legacy_page_ids": [
+              "8dd0c39a-b8b9-463c-bbf6-7c6930724585",
+              "c0d765e5-22aa-4fa4-8d23-9e41d2a98d5c",
+              "9cf4ddd1-ad11-42ac-b3c9-ad37b4a8eb5d",
+              "ffc5f9ab-dec4-4edf-b586-5beea399a18d",
+              "4edf63fc-362a-40f1-864b-258b3ae06d3b"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u04-l04",
+            "unit_ordinal": 4,
+            "lesson_ordinal": 4,
+            "title": "التجارة والنقل",
+            "stored_page_range": [
+              104,
+              107
+            ],
+            "stored_pages": [
+              104,
+              105,
+              106,
+              107
+            ],
+            "source_page_range": [
+              104,
+              107
+            ],
+            "legacy_page_ids": [
+              "d3909eb9-4b56-4296-9f42-50303f81902c",
+              "35df9f9d-48fc-4f6d-84a3-36e7c155e3d5",
+              "6ad10cc8-4566-4782-bbda-57df49813cbf",
+              "6f5ae155-717a-4816-9656-74695bcec9ec"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          },
+          {
+            "id": "geography9-u04-l05",
+            "unit_ordinal": 4,
+            "lesson_ordinal": 5,
+            "title": "السياحة",
+            "stored_page_range": [
+              108,
+              110
+            ],
+            "stored_pages": [
+              108,
+              109,
+              110
+            ],
+            "source_page_range": [
+              108,
+              110
+            ],
+            "legacy_page_ids": [
+              "8da17a86-649c-46cf-a0df-59b2cbdbe300",
+              "17d87c6b-032d-42f3-943a-7c9cfc597190",
+              "1b7fd979-2d15-4111-a4b9-cb24a7e5337b"
+            ],
+            "legacy_question_count": 0,
+            "boundary_status": "verified_exact_master_title_run"
+          }
+        ]
+      }
+    ],
+    "unit_count": 4,
+    "lesson_count": 18,
+    "lesson_page_count": 94,
+    "unit_cover_page_count": 4,
+    "unit_review_page_count": 6,
+    "non_lesson_page_count": 0,
+    "retained_pages": 104,
+    "legacy_retained_page_range": [
+      8,
+      111
+    ],
+    "source_reference_page_range": [
+      8,
+      111
+    ]
+  },
+  "page_classification": {
+    "lesson_pages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "unit_cover_pages": [
+      8,
+      36,
+      60,
+      88
+    ],
+    "unit_review_pages": [
+      35,
+      58,
+      59,
+      86,
+      87,
+      111
+    ],
+    "non_lesson_pages": []
+  },
+  "questions": {
+    "legacy_questions": 0,
+    "structurally_lesson_linked_questions": 0,
+    "review_required_questions": 0,
+    "semantic_question_review": "NOT APPLICABLE",
+    "links": []
+  },
+  "evidence": [
+    "104/104 retained RAW images must be byte-identical by SHA-256 to unique images in the exact Geography master reference.",
+    "Unit/lesson/review boundaries are derived only from exact master section/title runs after identity succeeds.",
+    "The retained source contains 0 legacy AI questions; no question records are fabricated."
+  ],
+  "raw_mutations": 0
+}
