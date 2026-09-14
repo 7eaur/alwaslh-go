@@ -300,3 +300,19 @@ The earlier 1446 IN PROGRESS section is superseded by this evidence-backed check
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `14ef15e0-5524-473a-bbdb-996df35ba535` — `العلوم نماذج وزارية 1447`.
 <!-- SCIENCE_EXAM_1446_CHECKPOINT_END -->
+
+<!-- SCIENCE_EXAM_1447_CHECKPOINT_START -->
+## Reconstruction checkpoint — Grade 9 Science Ministry Exams 1447
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Source `14ef15e0-5524-473a-bbdb-996df35ba535` — `العلوم نماذج وزارية 1447` completed from source-local evidence.
+- Technical verification: **42/42** images exist, readable, byte-size/SHA-256/MIME match; duplicate SHA groups **0**.
+- Stored page numbering anomaly is preserved exactly: missing stored number **35**, duplicate stored number **36**; no RAW/metadata rewrite and no fabricated page 35.
+- Full visual review + source-record identity/order resolves **14** verified source occurrences / **14** Individual Exam Models, including model 12 whose second question-form image and correction image are distinct page-36 records.
+- Finalized source image records counted as Exam Pages: **42**; review-required pages: **0**; correction-sheet candidates: **14**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Source legacy questions: **262/262** structurally linked to the fourteen verified models; semantic correctness remains `NOT VERIFIED`.
+- Progress: Sources **7/58**; Educational **1/26**; Exam Groups **6/32**; Individual Exam Models **99**; Exam Pages **347/2,286**; source images technical **533/5,273**.
+- Global questions: Lesson-linked **2225**; Exam-linked **733**; Review-required **351**; Unclassified **22446**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `f4b6708c-027f-4883-9e85-e6e7acb52ecc` — `كتاب العلوم - الجزء الأول`.
+<!-- SCIENCE_EXAM_1447_CHECKPOINT_END -->
