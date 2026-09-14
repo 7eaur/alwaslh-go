@@ -15,10 +15,16 @@ permissions:
 jobs:
   chemistry-source-scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
-      - name: Checkout
+      - name: Checkout reconstruction branch
         uses: actions/checkout@v4
+
+      - name: Checkout trusted master reference
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master-reference
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,17 +36,163 @@ jobs:
 
       - name: Scan Third Secondary Chemistry legacy source
         run: |
-          mkdir -p artifacts
+          mkdir -p artifacts/visual-boundaries
           python content-staging/tools/corpus_media_scan.py \
             --manifest content-staging/raw/legacy-supabase/subjects/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4/manifest.json \
             --expected-count 178 \
             --output artifacts/third-secondary-chemistry-technical-scan.json
 
-      - name: Upload technical scan evidence
+      - name: Cross-check legacy RAW against master and export selective visual evidence
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import re
+          import subprocess
+          from pathlib import Path
+          from PIL import Image
+
+          subject_id = 'f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4'
+          manifest_path = Path('content-staging/raw/legacy-supabase/subjects') / subject_id / 'manifest.json'
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          rows = manifest['images']
+
+          master_images = Path('master-reference') / 'الكيمياء ثالث ثانوي' / 'كتاب الكيمياء' / 'الصور'
+          master_by_page = {}
+          for path in master_images.iterdir():
+              match = re.match(r'^ص(\d{3})\b', path.name)
+              if match:
+                  master_by_page[int(match.group(1))] = path
+
+          def digest(path: Path) -> str:
+              h = hashlib.sha256()
+              with path.open('rb') as handle:
+                  for chunk in iter(lambda: handle.read(1024 * 1024), b''):
+                      h.update(chunk)
+              return h.hexdigest()
+
+          comparisons = []
+          for row in rows:
+              page = int(row['page_number'])
+              raw_rel = Path(row['raw_path'])
+              raw_path = Path('content-staging') / raw_rel if raw_rel.parts[0] == 'raw' else raw_rel
+              master_path = master_by_page.get(page)
+              raw_sha = digest(raw_path)
+              master_sha = digest(master_path) if master_path and master_path.is_file() else None
+              comparisons.append({
+                  'page_number': page,
+                  'legacy_page_id': row.get('legacy_page_id'),
+                  'raw_path': str(raw_path),
+                  'raw_sha256': raw_sha,
+                  'manifest_sha256': row.get('sha256'),
+                  'master_path': str(master_path) if master_path else None,
+                  'master_sha256': master_sha,
+                  'sha_equal_raw_master': bool(master_sha and raw_sha == master_sha),
+                  'bytes_raw': raw_path.stat().st_size,
+                  'bytes_master': master_path.stat().st_size if master_path and master_path.is_file() else None,
+              })
+
+          master_commit = subprocess.check_output(
+              ['git', '-C', 'master-reference', 'rev-parse', 'HEAD'], text=True
+          ).strip()
+          matched = sum(item['sha_equal_raw_master'] for item in comparisons)
+          report = {
+              'legacy_subject_id': subject_id,
+              'legacy_range': [min(item['page_number'] for item in comparisons), max(item['page_number'] for item in comparisons)],
+              'legacy_pages': len(comparisons),
+              'master_reference_commit': master_commit,
+              'master_numbered_page_min': min(master_by_page),
+              'master_numbered_page_max': max(master_by_page),
+              'shared_sha256_equal': matched,
+              'shared_sha256_mismatch_or_missing': len(comparisons) - matched,
+              'master_only_numbered_pages_outside_legacy_range': sorted(
+                  page for page in master_by_page if page < 11 or page > 188
+              ),
+              'comparisons': comparisons,
+          }
+          Path('artifacts/chemistry-master-cross-reference.json').write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+          )
+          print(json.dumps({k: v for k, v in report.items() if k != 'comparisons'}, ensure_ascii=False, indent=2))
+          if matched != len(comparisons):
+              raise SystemExit('RAW/master SHA mismatch found in shared range')
+
+          selected_pages = {
+              6, 7, 8, 9, 10,
+              11, 21, 22, 40, 41, 42, 67, 68, 69, 89, 90,
+              91, 103, 104, 121, 122, 123, 137, 138, 165, 166,
+              167, 183, 184, 188, 189, 193,
+          }
+          output_dir = Path('artifacts/visual-boundaries')
+          for page in sorted(selected_pages):
+              src = master_by_page.get(page)
+              if not src:
+                  continue
+              with Image.open(src) as image:
+                  image.convert('RGB').save(output_dir / f'master-p{page:03d}.jpg', format='JPEG', quality=92)
+          PY
+
+      - name: Probe legacy pages/question structure without mutation
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          path = Path('content-staging/raw/legacy-supabase/subjects/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4/pages.json')
+          payload = json.loads(path.read_text(encoding='utf-8'))
+          report = {'top_type': type(payload).__name__}
+          if isinstance(payload, dict):
+              report['top_keys'] = sorted(payload.keys())
+              candidate_lists = {key: value for key, value in payload.items() if isinstance(value, list)}
+              report['list_lengths'] = {key: len(value) for key, value in candidate_lists.items()}
+              pages = next((candidate_lists[key] for key in ('pages', 'records', 'items') if key in candidate_lists), None)
+              if pages is None and len(candidate_lists) == 1:
+                  pages = next(iter(candidate_lists.values()))
+          elif isinstance(payload, list):
+              pages = payload
+              report['top_keys'] = []
+              report['list_lengths'] = {'root': len(payload)}
+          else:
+              pages = None
+
+          if isinstance(pages, list) and pages:
+              report['page_records'] = len(pages)
+              report['first_page_keys'] = sorted(pages[0].keys()) if isinstance(pages[0], dict) else []
+              nested_list_keys = Counter()
+              nested_counts = Counter()
+              first_nested_shapes = {}
+              for page in pages:
+                  if not isinstance(page, dict):
+                      continue
+                  for key, value in page.items():
+                      if isinstance(value, list):
+                          nested_list_keys[key] += 1
+                          nested_counts[key] += len(value)
+                          if value and key not in first_nested_shapes:
+                              first = value[0]
+                              first_nested_shapes[key] = sorted(first.keys()) if isinstance(first, dict) else type(first).__name__
+              report['nested_list_page_occurrences'] = dict(nested_list_keys)
+              report['nested_list_total_items'] = dict(nested_counts)
+              report['first_nested_item_keys'] = first_nested_shapes
+          else:
+              report['page_records'] = None
+
+          Path('artifacts/chemistry-pages-structure-probe.json').write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+          )
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Upload technical and boundary evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: third-secondary-chemistry-technical-scan
-          path: artifacts/third-secondary-chemistry-technical-scan.json
+          name: third-secondary-chemistry-reconstruction-evidence
+          path: |
+            artifacts/third-secondary-chemistry-technical-scan.json
+            artifacts/chemistry-master-cross-reference.json
+            artifacts/chemistry-pages-structure-probe.json
+            artifacts/visual-boundaries/
           if-no-files-found: error
           retention-days: 14
