@@ -1,0 +1,57 @@
+name: Record Worker A Biology 1447 Handoff
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - .github/workflows/record-worker-a-biology-1447-handoff.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: record-worker-a-biology-1447-handoff
+  cancel-in-progress: false
+
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - name: Gate live head before baton generation
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo 'LIVE_HEAD_DRIFT_BEFORE_BATON_GENERATION'; exit 42; }
+
+      - name: Generate baton update
+        run: python content-staging/tools/record_worker_a_biology_1447_handoff.py
+
+      - name: Gate live head before baton commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo 'LIVE_HEAD_DRIFT_BEFORE_BATON_COMMIT'; exit 42; }
+
+      - name: Commit baton
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          if git diff --cached --quiet; then
+            echo "Baton already current."
+            exit 0
+          fi
+          git commit -m "content: record Worker A biology 1447 handoff [skip ci]"
+          git push origin HEAD:content/corpus-inventory-20260914
