@@ -1,0 +1,85 @@
+name: Discover Biology Exam 1447 Boundaries
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/discover-biology-exam-1447.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: discover-biology-exam-1447
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout reconstruction branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install image validation dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Verify source-group media without RAW mutations
+        run: |
+          set -euo pipefail
+          python content-staging/tools/verify_subject_media.py \
+            --subject-id 3df6f57e-26cb-414e-97c5-ef6bd2ff4487
+
+      - name: Discover source-local boundary candidates and render full visual evidence
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts/biology-exam-1447
+          python content-staging/tools/discover_exam_source_group.py \
+            --subject-id 3df6f57e-26cb-414e-97c5-ef6bd2ff4487 \
+            --visual-dir artifacts/biology-exam-1447
+
+      - name: Validate source-local discovery only
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='3df6f57e-26cb-414e-97c5-ef6bd2ff4487'
+          t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text(encoding='utf-8'))
+          d=json.loads(Path(f'content-staging/reconstruction/exams/source-groups/{sid}-discovery.json').read_text(encoding='utf-8'))
+          c=t['checks']
+          assert t['all_images_technically_verified'] is True
+          assert c['manifest_image_count'] == 124
+          assert c['existing_files'] == 124
+          assert c['readable_images'] == 124
+          assert c['sha256_matches'] == 124
+          assert c['byte_size_matches'] == 124
+          assert c['mime_matches'] == 124
+          assert c['failures'] == 0
+          assert t['raw_mutations'] == 0
+          assert d['counts']['pages'] == 124
+          assert d['counts']['images_downloaded'] == 124
+          assert d['counts']['image_download_failures'] == 0
+          assert d['counts']['questions'] == 50
+          assert d['raw_mutations'] == 0
+          print('BIOLOGY_1447_DISCOVERY_VERIFY_PASS')
+          PY
+
+      - name: Upload discovery evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: biology-exam-1447-discovery-evidence
+          path: |
+            artifacts/biology-exam-1447/
+            content-staging/reconstruction/technical/3df6f57e-26cb-414e-97c5-ef6bd2ff4487.json
+            content-staging/reconstruction/exams/source-groups/3df6f57e-26cb-414e-97c5-ef6bd2ff4487-discovery.json
+          if-no-files-found: error
+          retention-days: 14
