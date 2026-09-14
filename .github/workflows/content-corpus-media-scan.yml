@@ -1,0 +1,46 @@
+name: Content Corpus Media Scan
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - content-staging/tools/corpus_media_scan.py
+      - .github/workflows/content-corpus-media-scan.yml
+
+permissions:
+  contents: read
+
+jobs:
+  chemistry-source-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install image validation dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Scan Third Secondary Chemistry legacy source
+        run: |
+          mkdir -p artifacts
+          python content-staging/tools/corpus_media_scan.py \
+            --manifest content-staging/raw/legacy-supabase/subjects/f0c5228c-7d5b-4ec2-85ed-ce59139ce0a4/manifest.json \
+            --expected-count 178 \
+            --output artifacts/third-secondary-chemistry-technical-scan.json
+
+      - name: Upload technical scan evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: third-secondary-chemistry-technical-scan
+          path: artifacts/third-secondary-chemistry-technical-scan.json
+          if-no-files-found: error
+          retention-days: 14
