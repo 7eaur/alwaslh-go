@@ -17,132 +17,75 @@ concurrency:
 jobs:
   record:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
           ref: content/corpus-inventory-20260914
           fetch-depth: 0
-      - name: Validate live geography checkpoint and update baton
+
+      - name: Verify finalized Geography evidence and Faith baseline
         run: |
           set -euo pipefail
           python - <<'PY'
-          import json,re
+          import json
           from pathlib import Path
-          root=Path('.')
           sid='a7f1e94f-82d1-4146-af5b-4e9b51363f0b'
-          next_id='516f1c1d-acc0-4b1c-8e50-8f92a7c737e0'
-          p=json.loads((root/'content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
-          x=p['reconstruction_progress']
-          assert x['sources_completed']==15
-          assert x['educational_sources_completed']==6
-          assert x['verified_books']==6
-          assert x['verified_units']==33
-          assert x['verified_lessons']==151
-          assert x['verified_lesson_pages']==602
-          assert x['source_images_technically_verified']==1174
-          assert x['lesson_linked_structural']+x['exam_linked_to_individual_model']+x['review_required']+x['unclassified']==25755
-          assert x['raw_mutations']==x['unrelated_mutations']==x['new_imports']==x['new_publications']==0
-          r=json.loads((root/f'content-staging/reconstruction/educational/{sid}.json').read_text())
+          nxt='516f1c1d-acc0-4b1c-8e50-8f92a7c737e0'
+          r=json.loads(Path(f'content-staging/reconstruction/educational/{sid}.json').read_text())
+          t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
+          m=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text())
+          n=json.loads(Path(f'content-staging/raw/legacy-supabase/subjects/{nxt}/manifest.json').read_text())
+          p=m['reconstruction_progress']
           assert r['status']=='reconstructed_verified'
           assert r['source_identity']['raw_master_exact_sha_matches']==104
           b=r['reconstructed_book']
           assert (b['unit_count'],b['lesson_count'],b['lesson_page_count'],b['unit_cover_page_count'],b['unit_review_page_count'],b['non_lesson_page_count'])==(4,18,94,4,6,0)
-          nm=json.loads((root/f'content-staging/raw/legacy-supabase/subjects/{next_id}/manifest.json').read_text())
-          assert nm['counts']['pages']==65 and nm['counts']['image_references']==65 and nm['counts']['questions']==976 and nm['counts']['image_download_failures']==0
-          assert not any(nm['anomalies'].get(k) for k in nm['anomalies'])
-          path=root/'content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md'
-          text=path.read_text(encoding='utf-8')
-          checkpoint='''## 10. ACTIVE CHECKPOINT
-
-- state: `COMPLETE`
-- branch: `content/corpus-inventory-20260914`
-- latest verified work HEAD before this handoff commit: `8c93e3846375ec0188c938dcc3fd8e1f25c83e6e`
-- last completed source: `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`
-- current source: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`
-- current source baseline from live evidence: `65 pages / 65 image references / 976 legacy questions / 0 image download failures; manifest anomaly arrays are empty. Technical byte/SHA/MIME verification, exact identity and lesson/question boundaries are NOT VERIFIED.`
-- current operation: `Geography finalized from exact evidence: 104/104 technical images and 104/104 unique exact SHA identities against master/تاسع إجتماعيات/جغرافيا_تاسع; retained stored/source pages 8..111; 4 units, 18 lessons, 94 lesson pages, 4 unit covers, 6 unit reviews, 0 legacy questions. Next: technically verify الإيمان's 65 immutable images, establish exact identity only from its own evidence, reconstruct its book/unit/lesson/review boundaries, and structurally map the 976 questions only where page membership is proven; semantic correctness remains NOT VERIFIED.`
-- next source: `NOT YET RESOLVED — derive after الإيمان الكتاب المدرسي from live MASTER_CONTENT_MANIFEST`
-- blockers: `none`
-- owner decision required now: `no`
-'''
-          pattern=r'## 10\. ACTIVE CHECKPOINT\n.*?\n---\n\n### Shared handoff rule'
-          repl=checkpoint+'\n---\n\n### Shared handoff rule'
-          new,n=re.subn(pattern,repl,text,count=1,flags=re.S)
-          if n!=1: raise SystemExit(f'ACTIVE CHECKPOINT replacement count={n}')
-          run='''
-
-## RUN 2026-09-14T14:02:00+03:00 — Worker B
-
-- state: COMPLETE
-- start HEAD: `16064f06bf374f9b0875e6690a12775757fd45a8`
-- end HEAD before handoff-log commit: `8c93e3846375ec0188c938dcc3fd8e1f25c83e6e`
-- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
-- source at start: `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`
-- completed in this run:
-  - verified Worker A's Civics completion against the live branch, baton and canonical status evidence;
-  - confirmed Geography baseline at 104 pages/images, 0 legacy questions and no manifest anomalies;
-  - added a source-local fail-closed Geography reconstruction tool and exact-head finalization workflow;
-  - technically verified 104/104 immutable RAW images without mutation;
-  - established 104/104 unique exact SHA-256 identities against `master/تاسع إجتماعيات/جغرافيا_تاسع`;
-  - proved the retained contiguous slice is stored/source pages 8..111; master-only pages 1..7 and 112..114 remain reference-only;
-  - reconstructed 4 Units / 18 Lessons / 94 Lesson pages / 4 Unit covers / 6 Unit reviews / 0 non-lesson pages from exact section/title runs;
-  - classified every retained page exactly once and preserved the zero-question source without fabrication;
-  - updated MASTER_CONTENT_MANIFEST and canonical status/inventory/validation/import/continuation evidence;
-  - GitHub Actions run `34835911183` completed successfully and pushed the verified checkpoint commit.
-- evidence produced/verified:
-  - `content-staging/reconstruction/technical/a7f1e94f-82d1-4146-af5b-4e9b51363f0b.json`;
-  - `content-staging/reconstruction/educational/a7f1e94f-82d1-4146-af5b-4e9b51363f0b-discovery.json`;
-  - `content-staging/reconstruction/educational/a7f1e94f-82d1-4146-af5b-4e9b51363f0b.json`;
-  - exact reference: `master/تاسع إجتماعيات/جغرافيا_تاسع`;
-  - workflow run `34835911183`: success; final checkpoint commit `8c93e3846375ec0188c938dcc3fd8e1f25c83e6e`;
-  - next source manifest: 65 pages/images, 976 questions, 0 download failures, empty anomaly arrays.
-- ambiguity/review_required:
-  - Geography structural ambiguity requiring quarantine: 0;
-  - Geography source questions: 0; semantic review `NOT APPLICABLE`;
-  - الإيمان identity, structure, question semantics and page-to-lesson mapping remain `NOT VERIFIED` until its own evidence gates pass.
-- invariant result: PASS (`2,374 + 967 + 351 + 22,063 = 25,755`)
-- Sources processed: 15/58
-- Educational: 6/26
-- Books / Units / Lessons / Lesson Pages: 6 / 33 / 151 / 602
-- Exam Source Groups: 9/32
-- Individual Exam Models: 135
-- Exam Pages: 455/2,286
-- Verified Answer Keys: 0
-- Source images technical: 1,174/5,273
-- WebP generated / accepted / rejected: 0 / 0 / 0
-- Legacy Questions: 25,755
-- Lesson-linked: 2,374
-- Exam-linked: 967
-- Review-required: 351
-- Unclassified: 22,063
-- Duplicate groups classified: 0/99
-- RAW mutations: 0
-- Unrelated mutations: 0
-- New imports: 0
-- New publications: 0
-- last completed source: `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`
-- current source: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`
-- exact next operation: `Fetch the live الإيمان manifest/pages and any explicit master candidate; technically verify all 65 images and source-local sequence/SHA/MIME; require exact/source evidence before accepting master equivalence; reconstruct book/unit/lesson/review boundaries only from proven evidence; structurally map all 976 questions only where their source-page membership proves a lesson or review location; use review_required/NOT VERIFIED for unresolved evidence; assert the 25,755 invariant; checkpoint.`
-- next source: `NOT YET RESOLVED — derive only after الإيمان الكتاب المدرسي from live MASTER_CONTENT_MANIFEST`
-- blockers: `none`
-- handoff note: `Worker A must re-fetch live HEAD and baton, verify Geography checkpoint 8c93e384..., then start الإيمان from its own evidence. Do not inherit Geography/Civics title-run assumptions unless the Faith source proves the same structure.`
-'''
-          new=new.rstrip()+run+'\n'
-          path.write_text(new,encoding='utf-8')
+          assert t['all_images_technically_verified'] is True
+          assert p['sources_completed']==15 and p['educational_sources_completed']==6
+          assert p['verified_books']==6 and p['verified_units']==33
+          assert p['verified_lessons']==151 and p['verified_lesson_pages']==602
+          assert p['source_images_technically_verified']==1174
+          assert p['lesson_linked_structural']+p['exam_linked_to_individual_model']+p['review_required']+p['unclassified']==25755
+          assert p['raw_mutations']==0 and p['unrelated_mutations']==0 and p['new_imports']==0 and p['new_publications']==0
+          assert n['counts']['pages']==65 and n['counts']['image_references']==65
+          assert n['counts']['questions']==976 and n['counts']['image_download_failures']==0
+          assert all(not v for v in n['anomalies'].values())
+          print('WORKER_B_GEOGRAPHY_EVIDENCE_PASS')
           PY
-      - name: Re-fetch live branch immediately before write
+
+      - name: Re-fetch live HEAD before shared-log mutation
         run: |
           set -euo pipefail
           git fetch origin content/corpus-inventory-20260914
-          LIVE=$(git rev-parse origin/content/corpus-inventory-20260914)
-          LOCAL=$(git rev-parse HEAD)
-          test "$LIVE" = "$LOCAL" || { echo "handoff conflict live=$LIVE local=$LOCAL"; exit 24; }
-      - name: Commit handoff baton
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)"
+
+      - name: Record shared handoff
+        run: python content-staging/tools/record_worker_b_geography_handoff.py
+
+      - name: Verify handoff content
+        run: |
+          set -euo pipefail
+          grep -F 'last completed source: `a7f1e94f-82d1-4146-af5b-4e9b51363f0b — كتاب الجغرافيا`' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F 'current source: `516f1c1d-acc0-4b1c-8e50-8f92a7c737e0 — الإيمان الكتاب المدرسي`' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F '2,374 + 967 + 351 + 22,063 = 25,755' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          grep -F '## RUN 2026-09-14T14:02:00+03:00 — Worker B' content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+
+      - name: Re-fetch live HEAD immediately before log commit
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)"
+
+      - name: Commit shared baton
         run: |
           set -euo pipefail
           git config user.name 'alwaslh-content-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
-          git diff --cached --quiet && { echo 'No baton changes'; exit 1; }
+          if git diff --cached --quiet; then
+            echo 'Handoff already recorded.'
+            exit 0
+          fi
           git commit -m 'docs: checkpoint Worker B Geography completion [skip ci]'
           git push origin HEAD:content/corpus-inventory-20260914
