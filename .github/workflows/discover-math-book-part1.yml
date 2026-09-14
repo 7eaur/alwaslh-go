@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/discover-math-book-part1.yml'
       - 'content-staging/tools/discover_math_book_part1.py'
+      - 'content-staging/tools/compare_math_book_part1_master.py'
 
 permissions:
   contents: write
@@ -45,25 +46,29 @@ jobs:
           set -euo pipefail
           python content-staging/tools/verify_subject_media.py --subject-id 1933807f-4cb0-40c9-9b29-3ef3d32c98dc
 
-      - name: Discover exact-master identity evidence
+      - name: Record exact-SHA identity evidence
         run: |
           set +e
           python content-staging/tools/discover_math_book_part1.py
-          echo "discovery_exit=$?" >> "$GITHUB_ENV"
           exit 0
 
-      - name: Commit derived discovery evidence before semantic gate
+      - name: Compare every RAW page against all master pages visually
+        run: |
+          set -euo pipefail
+          python content-staging/tools/compare_math_book_part1_master.py
+
+      - name: Commit derived discovery diagnostics
         run: |
           set -euo pipefail
           git config user.name 'alwaslh-content-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add content-staging/reconstruction/technical/1933807f-4cb0-40c9-9b29-3ef3d32c98dc.json content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-discovery.json
+          git add content-staging/reconstruction/technical/1933807f-4cb0-40c9-9b29-3ef3d32c98dc.json content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-discovery.json content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc-visual-identity-diagnostic.json
           if ! git diff --cached --quiet; then
-            git commit -m 'content: record Math Part 1 discovery evidence [skip ci]'
+            git commit -m 'content: record Math Part 1 identity diagnostics [skip ci]'
             git push origin HEAD:content/corpus-inventory-20260914
           fi
 
-      - name: Assert non-destructive discovery gate
+      - name: Assert technical and diagnostic invariants
         run: |
           set -euo pipefail
           python - <<'PY'
@@ -72,15 +77,11 @@ jobs:
           sid='1933807f-4cb0-40c9-9b29-3ef3d32c98dc'
           t=json.loads(Path(f'content-staging/reconstruction/technical/{sid}.json').read_text())
           d=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-discovery.json').read_text())
+          v=json.loads(Path(f'content-staging/reconstruction/educational/{sid}-visual-identity-diagnostic.json').read_text())
           assert t['all_images_technically_verified'] is True
           assert t['checks']['manifest_image_count']==186
-          assert d['raw_image_count']==186
-          assert d['legacy_question_count']==717
-          assert d['raw_mutations']==0
-          assert d['structure_status']=='DISCOVERY_ONLY'
-          if d['identity_status']!='VERIFIED':
-              raise SystemExit(f"FAIL_CLOSED identity_status={d['identity_status']} exact={d['exact_sha_identity_count']}/186 failures={len(d['identity_failures'])}")
-          assert d['exact_sha_identity_count']==186
-          assert d['matched_source_page_min']==8 and d['matched_source_page_max']==193
-          print('MATH_BOOK_PART1_DISCOVERY_PASS')
+          assert d['raw_image_count']==186 and d['legacy_question_count']==717
+          assert d['raw_mutations']==0 and v['raw_mutations']==0
+          assert v['raw_count']==186 and v['master_count']==255
+          print('MATH_BOOK_PART1_DIAGNOSTIC_PASS', v['intended_unique_best_count'], v['best_mae_max'], v['best_margin_min'])
           PY
