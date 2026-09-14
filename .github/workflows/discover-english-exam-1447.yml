@@ -63,7 +63,7 @@ jobs:
           assert c['existing_files']==c['readable_images']==c['byte_size_matches']==c['sha256_matches']==c['mime_matches']==42
           assert c['failures']==0 and t['all_images_technically_verified'] is True
           d=json.loads(Path(f'content-staging/reconstruction/exams/source-groups/{sid}-discovery.json').read_text(encoding='utf-8'))
-          assert d['source_page_count']==42
+          assert d['counts']['pages']==42
           print('ENGLISH_1447_DISCOVERY_VERIFY_PASS')
           PY
 
