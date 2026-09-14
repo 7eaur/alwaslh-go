@@ -417,3 +417,15 @@ Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson
 - Question invariant: PASS = 25,755. RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `4863bbf6-6cf3-4238-9407-75825724292a` — `الفيزياء الكتاب المدرسي`.
 <!-- BIOLOGY_EXAM_1447_CHECKPOINT_END -->
+
+<!-- PHYSICS_BOOK_CHECKPOINT_START -->
+## Reconstruction checkpoint — Physics textbook
+
+- Sources processed: **32/58**; Educational: **16/26**; Exam groups: **16/32**.
+- Books / Units / Lessons / Lesson pages: **14 / 57 / 328 / 1527**.
+- Physics: **207/207** technical + exact SHA identity; pages **9..215**; **9 Units / 45 Lessons / 173 Lesson pages / 9 covers / 25 reviews**.
+- Questions: **2621 lesson-linked; 480 review_required; semantic correctness NOT VERIFIED**.
+- Global questions: **13135 + 1382 + 1229 + 10009 = 25,755**.
+- Technical images: **2691/5273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Last completed: `4863bbf6-6cf3-4238-9407-75825724292a — الفيزياء الكتاب المدرسي`. Next: `41e5a81c-3b93-479c-9b76-33815cae9430 — UNKNOWN`.
+<!-- PHYSICS_BOOK_CHECKPOINT_END -->
