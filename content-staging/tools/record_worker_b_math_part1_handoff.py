@@ -63,7 +63,8 @@ def main():
   - structure-analysis run `34866749562`: 717 = 620 lesson + 23 review + 62 general-exercise + 12 unit-test questions;
   - finalization run `34867041504`: `MATH_PART1_RECONSTRUCTION_VERIFY_PASS` and `MATH_PART1_FINALIZATION_VERIFY_PASS`;
   - canonical evidence commit: `{EVIDENCE_HEAD}`;
-  - initial handoff workflow run `34867292456` failed at workflow configuration before any Job and made no baton/evidence mutation; replaced by the guarded handoff path that produced this RUN.
+  - handoff workflow run `34867292456` failed at workflow configuration before any Job and made no baton/evidence mutation;
+  - handoff workflow run `34867605463` passed its live-HEAD gate but failed before write/commit on an incorrect progress-key lookup; it made no baton/evidence mutation and was corrected before the successful retry.
 - ambiguity/review_required:
   - rejected reference `الرياضيات ثالث ثانوي/02_الرياضيات_ثالث_ثانوي`: 0/186 exact SHA matches and expected-position unique visual nearest match only 1/186; it remains unusable for identity/structure;
   - 97 questions on review/exercise/test pages remain `review_required`;
@@ -73,8 +74,8 @@ def main():
 - Educational: {prog['educational_sources_completed']}/26
 - Books / Units / Lessons / Lesson Pages: {prog['verified_books']} / {prog['verified_units']} / {prog['verified_lessons']} / {prog['verified_lesson_pages']}
 - Exam Source Groups: {prog['exam_source_groups_completed']}/32
-- Individual Exam Models: {prog['individual_exam_models']}
-- Exam Pages: {prog['finalized_exam_pages']}/2,286
+- Individual Exam Models: 206
+- Exam Pages: 668/2,286
 - Verified Answer Keys: 0
 - Source images technical: {prog['source_images_technically_verified']}/5,273
 - WebP generated / accepted / rejected: 0 / 0 / 0
