@@ -1,0 +1,550 @@
+{
+  "source_id": "516f1c1d-acc0-4b1c-8e50-8f92a7c737e0",
+  "source_name": "الإيمان الكتاب المدرسي",
+  "status": "discovery_complete_not_finalized",
+  "source_pages": 65,
+  "legacy_questions": 976,
+  "retained_storage_page_range": [
+    8,
+    72
+  ],
+  "technical_source_sha_rechecked": 65,
+  "identity_status": "VERIFIED_EXACT_SHA",
+  "exact_sha_identity_count": 65,
+  "unmatched_storage_pages": [],
+  "candidate_master_directories": [
+    {
+      "path": "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور",
+      "exact_sha_matches": 65
+    }
+  ],
+  "page_exact_sha_matches": [
+    {
+      "page_number": 8,
+      "legacy_page_id": "9e2b1190-332f-4e4f-a57e-6964baa8e1fe",
+      "sha256": "616012ba533af7e4f588cf63ceef45dee75b6e42700ee19f028af3779ed9132a",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص008 - الدرس الأول - عظمة الله تعالى.webp"
+      ]
+    },
+    {
+      "page_number": 9,
+      "legacy_page_id": "b636499b-c731-495a-8c79-64be834e20fa",
+      "sha256": "33d11c46b3877ecbc7c07216d055d890ed4a3659b2ca50da753945bdbf2a2d9c",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص009 - الدرس الأول - عظمة الله تعالى.webp"
+      ]
+    },
+    {
+      "page_number": 10,
+      "legacy_page_id": "bb9456ea-9815-450a-b42c-1159edb1917c",
+      "sha256": "4959a47ada22d15adbfbf0ee5f56326bfb937ce975bf36ae98ee21b77f06249e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص010 - الدرس الأول - عظمة الله تعالى.webp"
+      ]
+    },
+    {
+      "page_number": 11,
+      "legacy_page_id": "8d0a493e-6b7a-4486-875d-dcb793836075",
+      "sha256": "ace7fda38f30a301aa3046f3ea6ea972683261efb6cb05782a7d61ea6073c378",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص011 - الدرس الأول - عظمة الله تعالى.webp"
+      ]
+    },
+    {
+      "page_number": 12,
+      "legacy_page_id": "c7e34c86-86b4-491c-bfb5-ab0d26fae207",
+      "sha256": "0a9e40483414b6785b655083a4b2f4100fbc0e176fa89de7c862d09e42e3f9ac",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص012 - الدرس الأول - عظمة الله تعالى.webp"
+      ]
+    },
+    {
+      "page_number": 13,
+      "legacy_page_id": "ec15acad-46f5-495c-8763-54c2b1c31913",
+      "sha256": "b097134ed3cb83063b40c1c2748fe06a75b1c705f0edf2ea2bfea63dd0c57613",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص013 - الدرس الأول - عظمة الله تعالى.webp"
+      ]
+    },
+    {
+      "page_number": 14,
+      "legacy_page_id": "6bdc892f-8c48-4a89-8112-b0338fa7a677",
+      "sha256": "4c7c6fa959d2a1e4badf0ad3a21ffa33f1bacb4e7407245005956b05283fc8e4",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص014 - الدرس الأول - عظمة الله تعالى.webp"
+      ]
+    },
+    {
+      "page_number": 15,
+      "legacy_page_id": "28ba7e0c-e129-49c6-ad77-a904212fff6c",
+      "sha256": "7ca5621742a310722bbcc3ba750e5cd4ab5ad143b078214bb5528ea32e15a173",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص015 - الدرس الثاني - الإسلام دين تحرر من الطاغوت.webp"
+      ]
+    },
+    {
+      "page_number": 16,
+      "legacy_page_id": "06279d05-8450-4277-8f4f-e1dd943549ca",
+      "sha256": "4a12b7e14453f06465b68e32188ade2b520e988472dbd02ae9843ddf8e93be19",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص016 - الدرس الثاني - الإسلام دين تحرر من الطاغوت.webp"
+      ]
+    },
+    {
+      "page_number": 17,
+      "legacy_page_id": "6bcbc808-c8e1-4116-bf68-3b9a6c2ea587",
+      "sha256": "0ffbe486a47a43357248b3c5b4f5e8c25aa1cc725d9b3d6cd8aa02a31cedd83d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص017 - الدرس الثاني - الإسلام دين تحرر من الطاغوت.webp"
+      ]
+    },
+    {
+      "page_number": 18,
+      "legacy_page_id": "91d5b82e-55e2-49ce-9ae6-9ea25b82cfc6",
+      "sha256": "b4fac375c4e7b34f66b614a9f95783fc9efee75bc21b2eecebd0321ae12a64ff",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص018 - الدرس الثاني - الإسلام دين تحرر من الطاغوت.webp"
+      ]
+    },
+    {
+      "page_number": 19,
+      "legacy_page_id": "0183624c-1539-4409-a3ac-fd1b95861f5b",
+      "sha256": "7f5ace9242048dd54b3e95113af9dbaed4fc8766760ebcce2193ce39fe23e8c5",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص019 - الدرس الثالث - الإسلام دين وعي وذكاء.webp"
+      ]
+    },
+    {
+      "page_number": 20,
+      "legacy_page_id": "1400b4bd-5dce-4cfa-87f0-84571d4b629c",
+      "sha256": "79e0215c6a042ecdf604d5ac2fb93ad68a0b6d6e68c8868e4e77e16a82218d5a",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص020 - الدرس الثالث - الإسلام دين وعي وذكاء.webp"
+      ]
+    },
+    {
+      "page_number": 21,
+      "legacy_page_id": "dff19325-54c0-444a-ac21-de9960324ad2",
+      "sha256": "beb701aff53539e9ff056e395745078a3aadcf0bbde2ad25b3a9839d735249c3",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص021 - الدرس الثالث - الإسلام دين وعي وذكاء.webp"
+      ]
+    },
+    {
+      "page_number": 22,
+      "legacy_page_id": "4126c560-08b4-40a6-9066-6ec2928eea04",
+      "sha256": "a8e77500e642db5243f8e5d1deb4bb56da965c6644aa8bce7e3009bb1f49d410",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص022 - الدرس الثالث - الإسلام دين وعي وذكاء.webp"
+      ]
+    },
+    {
+      "page_number": 23,
+      "legacy_page_id": "21759482-fb1a-43ad-a1a2-7d4010984856",
+      "sha256": "1f1bdd36b6afe8e9f575d5912708a46a693a4b2412dfa7c5a7bf5fad20caf4c6",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص023 - الدرس الثالث - الإسلام دين وعي وذكاء.webp"
+      ]
+    },
+    {
+      "page_number": 24,
+      "legacy_page_id": "5b65a46d-b75f-4fa9-8844-91e7f1f85bd1",
+      "sha256": "7b12ca9441d20aa025f43e7adcf98a1463d330b18c54bb66eb26311299d1e4fa",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص024 - الدرس الثالث - الإسلام دين وعي وذكاء.webp"
+      ]
+    },
+    {
+      "page_number": 25,
+      "legacy_page_id": "e8e9b48d-a8c3-4968-87d7-a712db97b035",
+      "sha256": "d3a9c4aadfaaf3d0f4638b7ed89d23e525d2afc2b91a9d2e63b79fb3f80313ae",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص025 - الدرس الثالث - الإسلام دين وعي وذكاء.webp"
+      ]
+    },
+    {
+      "page_number": 26,
+      "legacy_page_id": "296fda35-0be4-43cd-929a-c0296084c1b9",
+      "sha256": "05f8e1def572e717e8ce2e1cac3211c2c1da146790fa9d0e414b02904b8198fd",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص026 - الدرس الرابع - الإسلام دين العدل والقسط.webp"
+      ]
+    },
+    {
+      "page_number": 27,
+      "legacy_page_id": "80a4d39a-cf2f-4782-a3dd-f667397df621",
+      "sha256": "ac13c518cf5fd22863325f58d5023360e2934d16b4cf52961f9aab2840c1e7aa",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص027 - الدرس الرابع - الإسلام دين العدل والقسط.webp"
+      ]
+    },
+    {
+      "page_number": 28,
+      "legacy_page_id": "d02c89cd-4c9c-45ce-afa0-cfbe4b762122",
+      "sha256": "dd7a22d00678c5329075cce751a2983a46fee350fe64be96a2e00dc13d6f2ae4",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص028 - الدرس الرابع - الإسلام دين العدل والقسط.webp"
+      ]
+    },
+    {
+      "page_number": 29,
+      "legacy_page_id": "4937dc86-fcab-43cc-8dfc-1f5edf36a466",
+      "sha256": "542762a7655b6216149bbe846f48ee508f9e68a28de7a6c371ba59d04edf05ed",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص029 - الدرس الرابع - الإسلام دين العدل والقسط.webp"
+      ]
+    },
+    {
+      "page_number": 30,
+      "legacy_page_id": "a3711ff6-7eaf-4287-b065-1bd2a38cc026",
+      "sha256": "16feff2e7e470dd47e339e99e67425ea46c648cec10e2314c77a0b2918900d5a",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص030 - الدرس الرابع - الإسلام دين العدل والقسط.webp"
+      ]
+    },
+    {
+      "page_number": 31,
+      "legacy_page_id": "4c2f5b3e-d6f4-4ce1-ab9b-e1ad1870ccca",
+      "sha256": "6b20c77213cc4c6f0964136d0a552dfd99d05b1dca01ba14570d4b3248fe1630",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص031 - الدرس الرابع - الإسلام دين العدل والقسط.webp"
+      ]
+    },
+    {
+      "page_number": 32,
+      "legacy_page_id": "f733b42a-1115-4838-a56f-102b2994bc10",
+      "sha256": "f0a8e7c6f4bcd19ca72450ba3e94667251120a5c15f6a79a096e8630c26eda90",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص032 - الدرس الخامس - الإسلام دين المسؤولية.webp"
+      ]
+    },
+    {
+      "page_number": 33,
+      "legacy_page_id": "25f7f89e-c0c3-459f-8007-4486b621cb9a",
+      "sha256": "deaf19b9888001f30dd8b9e1843e417302fba4f6d00625aa1fd2cc9a9f5f8915",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص033 - الدرس الخامس - الإسلام دين المسؤولية.webp"
+      ]
+    },
+    {
+      "page_number": 34,
+      "legacy_page_id": "cf24cde9-295a-4ace-af9e-785a4f945f7f",
+      "sha256": "57fde0b2ff06b60f9afb6b9db97ee813fc820c0dde472af3bb15aa4c2a3a14d1",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص034 - الدرس الخامس - الإسلام دين المسؤولية.webp"
+      ]
+    },
+    {
+      "page_number": 35,
+      "legacy_page_id": "e72986f0-f70c-4ec6-84c7-48bdc50959e5",
+      "sha256": "a68941c24d60826ca87812269c5688ab20cb59a41a889d04a510cd955f51dfec",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص035 - الدرس الخامس - الإسلام دين المسؤولية.webp"
+      ]
+    },
+    {
+      "page_number": 36,
+      "legacy_page_id": "53091b4c-403d-4073-9c03-927d45f48fc2",
+      "sha256": "941080a95a806b8f17552e4ac50e0b932010b9b3c62ba0e287a3589d898ea820",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص036 - الدرس الخامس - الإسلام دين المسؤولية.webp"
+      ]
+    },
+    {
+      "page_number": 37,
+      "legacy_page_id": "6f1aa87b-cebf-4a6a-8383-d018b203dc81",
+      "sha256": "66656bcf09c118cf20eac4c298650ee29e5fcf992f67303a20cf3338d355b970",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص037 - الدرس الخامس - الإسلام دين المسؤولية.webp"
+      ]
+    },
+    {
+      "page_number": 38,
+      "legacy_page_id": "2c47649c-7653-4867-aa78-d59583a6b1a8",
+      "sha256": "66b38aa3ea84f4de1f7b174b48fe7729d039bc7be610b2ab2d62aef49bcabd34",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص038 - الدرس السادس - التقوى.webp"
+      ]
+    },
+    {
+      "page_number": 39,
+      "legacy_page_id": "8ae6cf40-0b79-4821-9535-511b5f37682e",
+      "sha256": "11ff1c7af14cc7d5872f0eb2e4c58d2f56ab49fac6d67249281c872fd761ed5b",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص039 - الدرس السادس - التقوى.webp"
+      ]
+    },
+    {
+      "page_number": 40,
+      "legacy_page_id": "3a666a31-9a44-46ec-833f-93b1f3157c43",
+      "sha256": "c9cd473dceb0a4896115521c9f3a13220fa9b1dc0053716de3fcdc191763b387",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص040 - الدرس السادس - التقوى.webp"
+      ]
+    },
+    {
+      "page_number": 41,
+      "legacy_page_id": "087c2d00-58d4-469b-b1b7-b875eba1ae07",
+      "sha256": "d0f5fd4fdc48a548e48e78fb8f8c626089bc5b069596f55c7e04782b59ec91e9",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص041 - الدرس السادس - التقوى.webp"
+      ]
+    },
+    {
+      "page_number": 42,
+      "legacy_page_id": "a42d4b47-2aad-4f6f-aa17-dd5585482b86",
+      "sha256": "950623320c0408ae53a02abbed00e420aa7d3f3f37d0c36357019d0af89d3dde",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص042 - الدرس السادس - التقوى.webp"
+      ]
+    },
+    {
+      "page_number": 43,
+      "legacy_page_id": "ce406eae-4cd9-43ef-a083-0b4387b70bc1",
+      "sha256": "7c72878de73b2be88769571ba2d43d932be3940ab061aeedb2427fd39bb0f7a5",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص043 - الدرس السادس - التقوى.webp"
+      ]
+    },
+    {
+      "page_number": 44,
+      "legacy_page_id": "edc34dfe-aff8-4397-a0de-12f670c79283",
+      "sha256": "7ae3824c6cfa1514d505527e8d920cb1898bcd3d51c71c667af76e79ef004177",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص044 - الدرس السادس - التقوى.webp"
+      ]
+    },
+    {
+      "page_number": 45,
+      "legacy_page_id": "b739757b-b8ad-4e49-8626-e553e7e82c0e",
+      "sha256": "38b9551c89bddfd0d953323c0447c04cc16687d08d6f027c80c92298dd941ac9",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص045 - الدرس السادس - التقوى.webp"
+      ]
+    },
+    {
+      "page_number": 46,
+      "legacy_page_id": "59278b50-dc4b-4700-ab86-ec9500253a97",
+      "sha256": "485c49730b661c37b198daf295558103cac8b107a5321faa1ff94f227dd061d4",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص046 - الدرس السابع - عداوة أهل الكتاب.webp"
+      ]
+    },
+    {
+      "page_number": 47,
+      "legacy_page_id": "d4b8a7dd-8719-4502-a52f-3757a6e55519",
+      "sha256": "7af7256842db32dc526db1a4ec76771d74b29240d40c937ef1754025826554bb",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص047 - الدرس السابع - عداوة أهل الكتاب.webp"
+      ]
+    },
+    {
+      "page_number": 48,
+      "legacy_page_id": "bea3ee2b-b9a7-4ef1-9158-0b86cfc912bb",
+      "sha256": "ae5971f6ebb1adf946abda914b82a9d95500d1b5d80e62ea1badc5c317612cc0",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص048 - الدرس السابع - عداوة أهل الكتاب.webp"
+      ]
+    },
+    {
+      "page_number": 49,
+      "legacy_page_id": "1aa8b4d0-941c-46e3-8cc3-4641be7a958d",
+      "sha256": "56e1cc718ffa93bb4a684ef0de307faa92ff74b119fcceb58a1420170cf31a04",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص049 - الدرس السابع - عداوة أهل الكتاب.webp"
+      ]
+    },
+    {
+      "page_number": 50,
+      "legacy_page_id": "e1eee39e-0152-407e-ab60-6dccfc7733e3",
+      "sha256": "39bcd12158784a2ef4e4a234986d4c64f2562a90824ae92b5b0866ba524f0aa1",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص050 - الدرس السابع - عداوة أهل الكتاب.webp"
+      ]
+    },
+    {
+      "page_number": 51,
+      "legacy_page_id": "fcf1ac08-d0f1-458a-b883-a27b6a6c9b51",
+      "sha256": "63b965ff5b2cc8cd1f08e24d14e4cbe84be64c5cd062f38cb26d6bcbf37811bd",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص051 - الدرس السابع - عداوة أهل الكتاب.webp"
+      ]
+    },
+    {
+      "page_number": 52,
+      "legacy_page_id": "c30be36f-c73b-4b52-ab13-b21940896ec0",
+      "sha256": "68a5799ade66c2f9356f540b2453d015fcbec663dbc00147d041396c43920e41",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص052 - الدرس السابع - عداوة أهل الكتاب.webp"
+      ]
+    },
+    {
+      "page_number": 53,
+      "legacy_page_id": "9a9c8d2c-966a-49ee-a288-b91173f185cd",
+      "sha256": "3eb9a09de6f5acdb1dcfc821076ee738cea32489c8984ef4422e6931bc7983e9",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص053 - الدرس الثامن - خطورة النفاق.webp"
+      ]
+    },
+    {
+      "page_number": 54,
+      "legacy_page_id": "217b705f-6bbe-4ff1-8b27-b0cc6591e8d3",
+      "sha256": "c92390c366c9c0783faa3654c36a37e708b85215c1ecece0b58a39f3e44416ac",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص054 - الدرس الثامن - خطورة النفاق.webp"
+      ]
+    },
+    {
+      "page_number": 55,
+      "legacy_page_id": "235935e3-0bc6-4b32-97e6-1703abd513e2",
+      "sha256": "2228184de0be5e8e8f9181acdafd0d34cbef8313268b67bc60be0e028bdb00c9",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص055 - الدرس الثامن - خطورة النفاق.webp"
+      ]
+    },
+    {
+      "page_number": 56,
+      "legacy_page_id": "931a300f-3d51-4801-83f6-9dd05465d2a3",
+      "sha256": "b4a90128cf76fa46571cffb8dc755f76c3d088e2b2774d90e6e0496debbb597e",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص056 - الدرس الثامن - خطورة النفاق.webp"
+      ]
+    },
+    {
+      "page_number": 57,
+      "legacy_page_id": "6a52df5a-76ef-4ef4-be14-91a6f931cb8c",
+      "sha256": "d47fa5a4c5794268e6c36ede1f807a0459bb37c170597b0abf4a9aa74cca6151",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص057 - الدرس الثامن - خطورة النفاق.webp"
+      ]
+    },
+    {
+      "page_number": 58,
+      "legacy_page_id": "e54bc74a-2519-49bf-8845-fa9ea52ec1e4",
+      "sha256": "bea1c407b97cc1db296222465a38dab8deaff0c1b7c0b2a426ce54b527b15735",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص058 - الدرس الثامن - خطورة النفاق.webp"
+      ]
+    },
+    {
+      "page_number": 59,
+      "legacy_page_id": "ff32eefc-dffc-41eb-99dc-416584632577",
+      "sha256": "39852ef0633be4ffff1b07307e0c2b94af8444c63420e3898b21b1f304314838",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص059 - الدرس الثامن - خطورة النفاق.webp"
+      ]
+    },
+    {
+      "page_number": 60,
+      "legacy_page_id": "da4cf167-c832-466f-98bb-e9b2e8139025",
+      "sha256": "14fc01fe557ef9fa0a1bd52fa044ae2513f3206625553e6b0170ad50b6d5f63d",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص060 - الدرس التاسع - نعيم الجنة.webp"
+      ]
+    },
+    {
+      "page_number": 61,
+      "legacy_page_id": "da3bbb51-2296-4346-bb2f-44af73994978",
+      "sha256": "ee267f647c7dec840fc99188a451354beb23894c5b1d2644558a2a094d6ecef6",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص061 - الدرس التاسع - نعيم الجنة.webp"
+      ]
+    },
+    {
+      "page_number": 62,
+      "legacy_page_id": "25cdcf84-ac63-4846-a41e-1fc67b60f674",
+      "sha256": "41a74879374c78a82647b51c5e74f8f58c3e7eb5bcc16dad932f9a308d00f174",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص062 - الدرس التاسع - نعيم الجنة.webp"
+      ]
+    },
+    {
+      "page_number": 63,
+      "legacy_page_id": "c74dae0d-2050-4bd9-a3ac-483c9ca4845c",
+      "sha256": "18935d6624ffa653039b10c5bc5cbd7d9f8a9ac3a763c36403e7abdc637a5a50",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص063 - الدرس التاسع - نعيم الجنة.webp"
+      ]
+    },
+    {
+      "page_number": 64,
+      "legacy_page_id": "78977946-46ee-4c4e-833a-6d242f9027d2",
+      "sha256": "e4a8745c3984a799d0c6189d3f5c3457a3e8c864f913bb92bfe90fd274c92497",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص064 - الدرس التاسع - نعيم الجنة.webp"
+      ]
+    },
+    {
+      "page_number": 65,
+      "legacy_page_id": "692e427c-9707-4183-b684-f697b7d0ee0f",
+      "sha256": "26bb12a1f33e9c7b64293e5e1fb766b7bf4ecdbd0876c633dc7745ad96e11776",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص065 - الدرس التاسع - نعيم الجنة.webp"
+      ]
+    },
+    {
+      "page_number": 66,
+      "legacy_page_id": "c2dc92f6-2a46-463e-8f7f-1d9215fb1062",
+      "sha256": "90c03b4998a3715f1c609927dcd0645bc4e42ceacc566caa4eda99111d9dcf5f",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص066 - الدرس التاسع - نعيم الجنة.webp"
+      ]
+    },
+    {
+      "page_number": 67,
+      "legacy_page_id": "b9dc39bd-d494-479b-a93d-decf7ed3c516",
+      "sha256": "cb6bfc151649d01227f819ecaddb8ce4d6d3594c59891a920233e3f68fce9cb5",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص067 - الدرس العاشر - عذاب النار.webp"
+      ]
+    },
+    {
+      "page_number": 68,
+      "legacy_page_id": "707a4ac0-72b7-4056-a1d8-7f247fd90292",
+      "sha256": "2f9f1dc5a675d7269c41578e274d6ff7ea58339060e1e6a4fc13d5504566f732",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص068 - الدرس العاشر - عذاب النار.webp"
+      ]
+    },
+    {
+      "page_number": 69,
+      "legacy_page_id": "d3b8cc00-6996-4631-b36b-e96484a3e71f",
+      "sha256": "cf02b015dd1dabb990b1525dffa8a6916978b456f38f53f8bf405a03d42165a1",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص069 - الدرس العاشر - عذاب النار.webp"
+      ]
+    },
+    {
+      "page_number": 70,
+      "legacy_page_id": "6443795f-88a7-4ed4-b843-28875e7328d3",
+      "sha256": "10b4e138a045e6945d3fa2fa681320803927c12a260e836bdb13a94f1e41d129",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص070 - الدرس العاشر - عذاب النار.webp"
+      ]
+    },
+    {
+      "page_number": 71,
+      "legacy_page_id": "fe2e8afd-f1e8-4770-971e-2188b7e39766",
+      "sha256": "0c948ce5ae84a9cad0c5a755ce156e448903e4176db399a6cab706aa26b35be9",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص071 - الدرس العاشر - عذاب النار.webp"
+      ]
+    },
+    {
+      "page_number": 72,
+      "legacy_page_id": "dad50384-c637-4653-8731-25fd67b8e132",
+      "sha256": "55c08fde860242e21d03c3e5e9152309fa9974ef85e493a43609033b02fc81a2",
+      "master_exact_sha_paths": [
+        "التربية الاسلاميه ثالث ثانوي/كتاب الإيمان/الصور/ص072 - الدرس العاشر - عذاب النار.webp"
+      ]
+    }
+  ],
+  "semantic_structure_status": "NOT VERIFIED",
+  "question_linkage_status": "NOT VERIFIED",
+  "semantic_question_review": "NOT VERIFIED",
+  "raw_mutations": 0,
+  "imports_created": 0,
+  "publications_created": 0,
+  "next_operation": "Visually inspect all 65 source pages/contact sheets and prove lesson/review boundaries from this exact source; only then link legacy questions by verified page membership."
+}
