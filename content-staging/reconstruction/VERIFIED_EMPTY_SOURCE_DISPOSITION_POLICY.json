@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "status": "ACTIVE_CANONICAL_RECONSTRUCTION_POLICY",
+  "disposition": "verified_empty_retained_source",
+  "criteria": [
+    "retained legacy manifest status is exactly empty",
+    "pages.json is an empty array",
+    "manifest counts pages/image_references/images_downloaded/image_download_failures/questions are all zero",
+    "manifest anomaly arrays are empty",
+    "subject.json identity matches manifest legacy_subject identity"
+  ],
+  "counter_semantics": {
+    "sources_completed_increment": 1,
+    "educational_sources_completed_increment": 1,
+    "verified_books_increment": 0,
+    "verified_units_increment": 0,
+    "verified_lessons_increment": 0,
+    "verified_lesson_pages_increment": 0,
+    "source_images_technically_verified_increment": 0,
+    "question_classification_increment": 0
+  },
+  "semantic_rules": {
+    "book_identity": "NOT VERIFIED",
+    "units": "NOT VERIFIED",
+    "lessons": "NOT VERIFIED",
+    "page_boundaries": "NOT VERIFIED",
+    "technical_image_verification": "NOT APPLICABLE — zero retained image references",
+    "production_import": "FORBIDDEN_IN_CURRENT_PHASE",
+    "publication": "FORBIDDEN_IN_CURRENT_PHASE"
+  },
+  "rationale": "A retained source with a fully verified empty payload is processed as a source occurrence, but absence of retained content is not evidence of a Book, Unit, Lesson, or page boundary. This separates source-processing completeness from semantic-structure verification and prevents fabricated educational entities."
+}

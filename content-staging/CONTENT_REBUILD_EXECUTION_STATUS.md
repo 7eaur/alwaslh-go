@@ -624,3 +624,15 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - exact next operation: define or discover a repository-approved empty-source disposition contract; only then apply it to this source and decide whether it counts as explicitly unresolved/processed. Do not advance to a following source before that disposition is recorded.
 <!-- WORKER_B_EMPTY_ISLAMIC_PART1_BLOCKER_END -->
 
+## Verified-empty retained-source disposition — 2026-09-14 Worker A
+
+- Canonical policy: `content-staging/reconstruction/VERIFIED_EMPTY_SOURCE_DISPOSITION_POLICY.json`.
+- Finalized as processed source occurrences without inventing semantic educational structure:
+  - `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`
+  - `e36ec148-0913-4bcc-a35c-268d464fecab — كتاب الإسلامية - الجزء الثاني`
+- Both have manifest `status=empty`, `pages.json=[]`, 0 pages/images/questions/failures, empty anomaly arrays, and matching subject identity.
+- Counter rule: each increments Sources processed + Educational processed only; Books/Units/Lessons/Lesson Pages/images/questions remain unchanged.
+- Book/Unit/Lesson/page semantics remain `NOT VERIFIED`; technical image verification is `NOT APPLICABLE`.
+- No RAW/import/publication mutation.
+- Next source from live MASTER order: `67d4ffae-68e1-42e8-9c3b-72329973c93d — الأحياء الكتاب المدرسي`.
+

@@ -1901,12 +1901,33 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "processed_verified_empty_source_no_semantic_structure",
       "modern_entity_id": null,
       "exam_models": null,
       "answer_keys": null,
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "source_disposition": "verified_empty_retained_source",
+      "source_disposition_evidence": "content-staging/reconstruction/educational/b6ce737e-26d4-4219-a607-27bfb7d2f518-empty-source-analysis.json",
+      "technical_verification": {
+        "status": "NOT APPLICABLE",
+        "reason": "zero retained image references",
+        "images_verified": 0,
+        "raw_mutations": 0
+      },
+      "reconstruction": {
+        "status": "verified_empty_source",
+        "path": "content-staging/reconstruction/educational/b6ce737e-26d4-4219-a607-27bfb7d2f518-empty-source-analysis.json",
+        "book_title": "NOT VERIFIED",
+        "retained_pages": 0,
+        "units": "NOT VERIFIED",
+        "lessons": "NOT VERIFIED",
+        "lesson_pages": 0,
+        "legacy_questions": 0,
+        "question_mappings": "NOT APPLICABLE — zero legacy questions",
+        "semantic_structure": "NOT VERIFIED",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "e36ec148-0913-4bcc-a35c-268d464fecab",
@@ -1941,12 +1962,33 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "processed_verified_empty_source_no_semantic_structure",
       "modern_entity_id": null,
       "exam_models": null,
       "answer_keys": null,
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "source_disposition": "verified_empty_retained_source",
+      "source_disposition_evidence": "content-staging/reconstruction/educational/e36ec148-0913-4bcc-a35c-268d464fecab-empty-source-analysis.json",
+      "technical_verification": {
+        "status": "NOT APPLICABLE",
+        "reason": "zero retained image references",
+        "images_verified": 0,
+        "raw_mutations": 0
+      },
+      "reconstruction": {
+        "status": "verified_empty_source",
+        "path": "content-staging/reconstruction/educational/e36ec148-0913-4bcc-a35c-268d464fecab-empty-source-analysis.json",
+        "book_title": "NOT VERIFIED",
+        "retained_pages": 0,
+        "units": "NOT VERIFIED",
+        "lessons": "NOT VERIFIED",
+        "lesson_pages": 0,
+        "legacy_questions": 0,
+        "question_mappings": "NOT APPLICABLE — zero legacy questions",
+        "semantic_structure": "NOT VERIFIED",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "67d4ffae-68e1-42e8-9c3b-72329973c93d",
@@ -3158,9 +3200,9 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 25,
+    "sources_completed": 27,
     "sources_total": 58,
-    "educational_sources_completed": 12,
+    "educational_sources_completed": 14,
     "educational_sources_total": 26,
     "verified_books": 12,
     "verified_units": 40,
@@ -3189,5 +3231,39 @@
     "new_imports": 0,
     "new_publications": 0,
     "correction_sheet_candidates": 211
+  },
+  "source_disposition_contract": {
+    "verified_empty_retained_source": {
+      "version": 1,
+      "status": "ACTIVE_CANONICAL_RECONSTRUCTION_POLICY",
+      "disposition": "verified_empty_retained_source",
+      "criteria": [
+        "retained legacy manifest status is exactly empty",
+        "pages.json is an empty array",
+        "manifest counts pages/image_references/images_downloaded/image_download_failures/questions are all zero",
+        "manifest anomaly arrays are empty",
+        "subject.json identity matches manifest legacy_subject identity"
+      ],
+      "counter_semantics": {
+        "sources_completed_increment": 1,
+        "educational_sources_completed_increment": 1,
+        "verified_books_increment": 0,
+        "verified_units_increment": 0,
+        "verified_lessons_increment": 0,
+        "verified_lesson_pages_increment": 0,
+        "source_images_technically_verified_increment": 0,
+        "question_classification_increment": 0
+      },
+      "semantic_rules": {
+        "book_identity": "NOT VERIFIED",
+        "units": "NOT VERIFIED",
+        "lessons": "NOT VERIFIED",
+        "page_boundaries": "NOT VERIFIED",
+        "technical_image_verification": "NOT APPLICABLE — zero retained image references",
+        "production_import": "FORBIDDEN_IN_CURRENT_PHASE",
+        "publication": "FORBIDDEN_IN_CURRENT_PHASE"
+      },
+      "rationale": "A retained source with a fully verified empty payload is processed as a source occurrence, but absence of retained content is not evidence of a Book, Unit, Lesson, or page boundary. This separates source-processing completeness from semantic-structure verification and prevents fabricated educational entities."
+    }
   }
 }
