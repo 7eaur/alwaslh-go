@@ -394,5 +394,5 @@ The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_
 - Questions: **2621 lesson-linked; 480 review_required; semantic correctness NOT VERIFIED**.
 - Global questions: **13135 + 1382 + 1229 + 10009 = 25,755**.
 - Technical images: **2691/5273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
-- Last completed: `4863bbf6-6cf3-4238-9407-75825724292a — الفيزياء الكتاب المدرسي`. Next: `41e5a81c-3b93-479c-9b76-33815cae9430 — UNKNOWN`.
+- Last completed: `4863bbf6-6cf3-4238-9407-75825724292a — الفيزياء الكتاب المدرسي`. Next: `41e5a81c-3b93-479c-9b76-33815cae9430 — الفيزياء نماذج وزاريه 1445`.
 <!-- PHYSICS_BOOK_CHECKPOINT_END -->
