@@ -222,3 +222,16 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - Next: `e7c8291c-e904-4e8c-9cd8-2753818cedf3` — Chemistry 1447. Verify locally from its own evidence; do not assume prior-year page patterns.
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 <!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1447_CHECKPOINT_START -->
+## Active reconstruction handoff — Chemistry Exams 1447 complete
+
+- Repository/branch: `7eaur/alwaslh-go@content/corpus-inventory-20260914`.
+- Last completed: `e7c8291c-e904-4e8c-9cd8-2753818cedf3` — Chemistry Ministry Exams 1447.
+- Result: **124/124** technically verified and visually reviewed pages; **29** verified occurrences; **28** unique models; **116** finalized model pages; **8** pages isolated as review-required; **31** correction-report candidates; **0** verified standalone Answer Keys.
+- Review-required blocks: `37..40` (`P.61` questions / `P.31` correction) and `45..48` (`P.28` questions / `P.88` correction). Keep all provenance; do not fabricate or silently repair.
+- Questions: **226** exam-linked + **0** review-required = **226/226** source questions accounted for.
+- Progress: Sources **4/58**; Educational **1/26**; Exam Groups **3/32**; Individual Exam Models **62**; Exam Pages **236/2,286**; images verified **422/5,273**.
+- Next: `ef408805-c337-44dd-b903-7838030e6de0` — `العلوم نماذج وزارية 1445`. Start from its own technical/visual evidence; do not reuse chemistry-year boundary assumptions.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+<!-- CHEMISTRY_EXAM_1447_CHECKPOINT_END -->

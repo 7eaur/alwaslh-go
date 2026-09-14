@@ -257,3 +257,16 @@ The earlier 1446 IN PROGRESS section is superseded by this evidence-backed check
 - RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Next source: `e7c8291c-e904-4e8c-9cd8-2753818cedf3` — `الكيمياء نماذج وزاريه 1447`; start technical verification + source-local visual boundary discovery. Do not assume 3 or 4 pages/model.
 <!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1447_CHECKPOINT_START -->
+## Superseding continuation — Chemistry 1447 finalized
+
+- Chemistry 1447 is closed for the current Reconstruction/Boundary scope with isolated review-required anomalies rather than guessed repairs.
+- **124/124** technical verification; full visual review of **124** pages; **31** source blocks; **29** verified model-matched occurrences; **28** unique models; **116** finalized exam pages; **8** review-required pages; **31** correction-report candidates; **0** verified standalone Answer Keys.
+- Mismatches retained: `37..40` = `P.61` questions / `P.31` correction; `45..48` = `P.28` questions / `P.88` correction. `P.8` repeat is legitimate and preserved.
+- Source questions: **226/226** structurally accounted for (**226** exam-linked, **0** review-required); semantic correctness `NOT VERIFIED`.
+- Global progress: Sources **4/58**; Educational **1/26**; Books/Units/Lessons/Lesson Pages **1/9/57/149**; Exam Groups **3/32**; Models **62**; Exam Pages **236/2,286**; images **422/5,273**.
+- Legacy Questions **25,755**; Lesson-linked **2225**; Exam-linked **226**; Review-required **351**; Unclassified **22953**; duplicate fingerprint groups classified **0/99**.
+- RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Next source: `ef408805-c337-44dd-b903-7838030e6de0` — `العلوم نماذج وزارية 1445`. Continue source-local technical verification → visual boundary discovery → reconstruction.
+<!-- CHEMISTRY_EXAM_1447_CHECKPOINT_END -->

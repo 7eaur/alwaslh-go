@@ -122,3 +122,16 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - 15 correction reports are linked to their occurrences, but standalone official Answer Key status is `NOT VERIFIED`; verified Answer Keys: **0**.
 - Legacy questions: **0**; RAW/import/publication mutations: **0/0/0**.
 <!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1447_CHECKPOINT_START -->
+## Verified exam-source reconstruction — Chemistry 1447
+
+- Source Group `e7c8291c-e904-4e8c-9cd8-2753818cedf3`: **124 JPEG pages**, sequence **1..124**, **124/124** technical checks green, **9** within-source duplicate SHA groups, RAW mutations **0**.
+- Full visual review: **31** four-page blocks. **29** have matching visible question/correction model codes and resolve to **28 unique Individual Exam Models**; `P.8` legitimately occurs twice.
+- Finalized model pages: **116**. Review-required pages: **8** in two isolated mismatches: `37..40` = `P.61` questions / `P.31` correction; `45..48` = `P.28` questions / `P.88` correction.
+- Exact duplicate question blocks: `1..3 == 45..47` (`P.28`), `37..39 == 65..67` (`P.61`), `49..51 == 57..59` (`P.8`). Only the `P.8` repeat is fully model-matched in both occurrences; the other duplicate occurrences remain isolated for review.
+- Academic year **1447 / 2025-2026** visually verified; term `NOT VERIFIED`.
+- Correction report candidates: **31**; model-matched correction relations: **29**; verified standalone Answer Keys: **0**.
+- Legacy questions: **226** = **226** structurally linked to verified models + **0** review-required; semantic correctness `NOT VERIFIED`.
+- No RAW deletion/merge, import, publication, or production mutation occurred.
+<!-- CHEMISTRY_EXAM_1447_CHECKPOINT_END -->

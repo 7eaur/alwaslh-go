@@ -62,3 +62,15 @@ Still `NOT VERIFIED`: semantic correctness of the legacy questions, cross-lesson
 - Correction relation is visually verified; standalone official Answer Key status remains `NOT VERIFIED`; verified Answer Keys **0**.
 - RAW mutations: **0**.
 <!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1447_CHECKPOINT_START -->
+## Chemistry 1447 exam boundary validation
+
+- **124/124** images passed existence/readability/byte-size/SHA/MIME verification; sequence **1..124** contiguous; failures **0**.
+- Every page was visually inspected through eleven contact sheets, including final sheet 121–124.
+- Source-local structure: **31** four-page blocks; **29** model-code-matched occurrences; **28** unique verified Individual Exam Models; **116** finalized pages.
+- Two mismatched blocks are deliberately not finalized: `37..40` (`P.61` / `P.31`) and `45..48` (`P.28` / `P.88`). They remain `review_required`; no synthetic pages or inferred model relations were created.
+- Nine exact-SHA duplicate page pairs reduce to three repeated three-page question blocks. `P.8` is classified `legitimate_repeated_exam_model_occurrence`; the `P.28` and `P.61` mismatched duplicate blocks remain `review_required` / duplicate-source-import candidates rather than being auto-deleted.
+- **226/226** legacy questions are structurally accounted for: **226** exam-linked and **0** review-required. Semantic correctness remains `NOT VERIFIED`.
+- Standalone official Answer Keys: **0 / NOT VERIFIED**. RAW mutations: **0**.
+<!-- CHEMISTRY_EXAM_1447_CHECKPOINT_END -->

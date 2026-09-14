@@ -166,7 +166,30 @@
     "questions": 226
   },
   "distinct_page_titles": 124,
-  "individual_exam_models": "NOT VERIFIED",
+  "final_boundary_result": {
+    "correction_sheet_candidates": 31,
+    "exam_linked_questions": 226,
+    "finalized_exam_pages": 116,
+    "reconstruction_path": "content-staging/reconstruction/exams/source-groups/e7c8291c-e904-4e8c-9cd8-2753818cedf3.json",
+    "review_required_blocks": [
+      [
+        37,
+        40
+      ],
+      [
+        45,
+        48
+      ]
+    ],
+    "review_required_pages": 8,
+    "review_required_questions": 0,
+    "source_blocks_reviewed": 31,
+    "status": "processed_boundary_verified_with_review_required_mismatches_answer_keys_not_verified",
+    "unique_individual_exam_models": 28,
+    "verified_answer_keys": 0,
+    "verified_occurrences": 29
+  },
+  "individual_exam_models": 28,
   "page_metadata_records": 124,
   "page_sequence": {
     "contiguous": true,

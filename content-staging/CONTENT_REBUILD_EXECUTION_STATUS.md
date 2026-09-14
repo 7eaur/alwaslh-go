@@ -259,3 +259,23 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - RAW / unrelated / import / publication mutations: **0 / 0 / 0 / 0**.
 - Last completed: `c09ce569-ea42-4f0b-997f-95b029a7e6ea`; Next: `e7c8291c-e904-4e8c-9cd8-2753818cedf3` — Chemistry 1447.
 <!-- CHEMISTRY_EXAM_1446_CHECKPOINT_END -->
+
+<!-- CHEMISTRY_EXAM_1447_CHECKPOINT_START -->
+## Reconstruction checkpoint — Chemistry Ministry Exams 1447
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Sources processed: **4/58**; Educational: **1/26**; Exam Source Groups: **3/32**.
+- Books / Units / Lessons / Lesson pages: **1 / 9 / 57 / 149**.
+- Verified Individual Exam Models: **62**; finalized Exam Pages: **236/2,286**; Verified Answer Keys: **0**.
+- Chemistry 1447: **124/124** technical checks green; all **124** pages visually reviewed; **31** four-page source blocks; **29** verified model-matched occurrences; **28** unique models; **116** finalized model pages; **8** pages isolated as `review_required`.
+- Mismatch blocks: pages **37..40** (`P.61` questions / `P.31` correction) and **45..48** (`P.28` questions / `P.88` correction). No missing question pages were fabricated.
+- `P.8` at **49..52** and **57..60** is a legitimate repeated model occurrence; exact duplicate question pages are preserved with distinct candidate correction reports.
+- Correction/electronic-answer sheet candidates total: **66**; official standalone Answer Keys remain `NOT VERIFIED`.
+- Source images technically verified: **422/5,273**; WebP generated/accepted/rejected: **0/0/0**.
+- Legacy Questions: **25,755**; Lesson-linked **2225**; Exam-linked **226**; Review-required **351**; Unclassified **22953**.
+- 1447 question mapping: **226** structurally exam-linked + **0** review-required = **226/226** accounted for; semantic correctness `NOT VERIFIED`.
+- Global duplicate fingerprint groups classified: **0/99**; local 1447 exact-SHA groups are recorded separately and do not alter the global fingerprint baseline without proven mapping.
+- RAW / unrelated / import / publication mutations: **0 / 0 / 0 / 0**.
+- Last completed: `e7c8291c-e904-4e8c-9cd8-2753818cedf3` — `الكيمياء نماذج وزاريه 1447`.
+- Next source: `ef408805-c337-44dd-b903-7838030e6de0` — `العلوم نماذج وزارية 1445`.
+<!-- CHEMISTRY_EXAM_1447_CHECKPOINT_END -->

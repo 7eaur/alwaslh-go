@@ -249,8 +249,8 @@
         "id": "e7c8291c-e904-4e8c-9cd8-2753818cedf3",
         "name": "الكيمياء نماذج وزاريه 1447"
       },
-      "classification": "exam_collection_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "exam_source_group",
+      "classification_evidence": "legacy label + 124-page full technical scan + full 124-page visual review + visible question/correction model-code matching + explicit mismatch isolation",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/e7c8291c-e904-4e8c-9cd8-2753818cedf3/manifest.json",
       "manifest_sha256_recorded": "41bf40fc8c328018b805a6f59e713672b423ef7f245318e680b1094329dd61a3",
       "counts": {
@@ -269,12 +269,43 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "processed_boundary_verified_with_review_required_mismatches_answer_keys_not_verified",
       "modern_entity_id": null,
-      "exam_models": null,
-      "answer_keys": null,
+      "exam_models": 28,
+      "answer_keys": "NOT VERIFIED",
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/e7c8291c-e904-4e8c-9cd8-2753818cedf3.json",
+        "images_verified": 124,
+        "readable": 124,
+        "sha256_match_manifest": 124,
+        "mime_match_manifest": 124,
+        "duplicate_sha_groups_within_source": 9
+      },
+      "exam_reconstruction": {
+        "status": "processed_boundary_verified_with_review_required_mismatches_answer_keys_not_verified",
+        "path": "content-staging/reconstruction/exams/source-groups/e7c8291c-e904-4e8c-9cd8-2753818cedf3.json",
+        "source_blocks_reviewed": 31,
+        "verified_source_occurrences": 29,
+        "review_required_blocks": 2,
+        "individual_exam_models": 28,
+        "source_pages": 124,
+        "finalized_exam_pages": 116,
+        "review_required_pages": 8,
+        "pages_per_source_block": 4,
+        "question_pages_per_verified_occurrence": 3,
+        "correction_sheet_candidates": 31,
+        "model_matched_correction_reports": 29,
+        "verified_answer_keys": 0,
+        "answer_key_status": "NOT VERIFIED",
+        "exam_linked_questions": 226,
+        "review_required_questions": 0,
+        "associated_legacy_questions": 226,
+        "semantic_question_correctness": "NOT VERIFIED",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "ef408805-c337-44dd-b903-7838030e6de0",
@@ -2455,7 +2486,7 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 3,
+    "sources_completed": 4,
     "sources_total": 58,
     "educational_sources_completed": 1,
     "educational_sources_total": 26,
@@ -2463,22 +2494,22 @@
     "verified_units": 9,
     "verified_lessons": 57,
     "verified_lesson_pages": 149,
-    "exam_source_groups_completed": 2,
+    "exam_source_groups_completed": 3,
     "exam_source_groups_total": 32,
-    "individual_exam_models": 34,
-    "exam_pages_completed": 120,
+    "individual_exam_models": 62,
+    "exam_pages_completed": 236,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 298,
+    "source_images_technically_verified": 422,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,
     "webp_derivatives_rejected": 0,
     "legacy_questions_total": 25755,
     "lesson_linked_structural": 2225,
-    "exam_linked_to_individual_model": 0,
+    "exam_linked_to_individual_model": 226,
     "review_required": 351,
-    "unclassified": 23179,
+    "unclassified": 22953,
     "duplicate_fingerprint_groups_classified": 0,
     "duplicate_fingerprint_groups_total": 99,
     "raw_mutations": 0,
@@ -2486,6 +2517,6 @@
     "new_imports": 0,
     "new_publications": 0,
     "verified_answer_keys": 0,
-    "correction_sheet_candidates": 35
+    "correction_sheet_candidates": 66
   }
 }
