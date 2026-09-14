@@ -1,0 +1,1062 @@
+{
+  "schema_version": 1,
+  "source_group_id": "3d91d812-ab78-476a-b2fc-dc2c31152e1a",
+  "source_group_name": "الاحياء نماذج وزارية 1445",
+  "class_id": "9d9a85cb-53be-4c24-bcb6-18389766396d",
+  "class_name": "الأحياء ثالث ثانوي ",
+  "subject": "الأحياء",
+  "classification": "exam_source_group",
+  "academic_year_hijri": "1445",
+  "academic_year_gregorian": "2023-2024",
+  "source_pages": 60,
+  "source_questions": 0,
+  "source_blocks_reviewed": 20,
+  "verified_source_occurrence_count": 20,
+  "review_required_block_count": 0,
+  "individual_exam_model_count": 20,
+  "finalized_exam_page_count": 60,
+  "review_required_page_count": 0,
+  "correction_sheet_candidate_count": 20,
+  "verified_answer_key_count": 0,
+  "duplicate_sha256_groups_within_source": 0,
+  "models": [
+    {
+      "id": "biology-1445-exam-01",
+      "internal_ordinal": 1,
+      "source_model_label": "source occurrence 1",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 1,
+      "last_page": 3,
+      "page_count": 3,
+      "question_pages": [
+        1,
+        2
+      ],
+      "correction_sheet_candidate_page": 3,
+      "ordered_page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "ordered_legacy_page_ids": [
+        "158ac12d-701a-4e63-ad23-0f687df8ab52",
+        "b78fd2b2-32c3-4983-91e6-84f186b0a6ac",
+        "4052d527-7b61-4849-adb0-aa722662bff9"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00001-158ac12d-701a-4e63-ad23-0f687df8ab52-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00002-b78fd2b2-32c3-4983-91e6-84f186b0a6ac-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00003-4052d527-7b61-4849-adb0-aa722662bff9-image-00.jpg"
+      ],
+      "sha256": [
+        "a496d3348f8034e6a9abda2c835d009108c9c9b4fe80063f19c37da778cda453",
+        "888ce7c70ae01c659315e687e4da599d703f0fee65d910a28a4b689009d483cb",
+        "fdb42a8ad1e2ada1043a8a9a792849c1fea7c7a30424dbc17a098e3d31d388cb"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 1 and 2 are question sheets and page 3 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-02",
+      "internal_ordinal": 2,
+      "source_model_label": "source occurrence 2",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 4,
+      "last_page": 6,
+      "page_count": 3,
+      "question_pages": [
+        4,
+        5
+      ],
+      "correction_sheet_candidate_page": 6,
+      "ordered_page_numbers": [
+        4,
+        5,
+        6
+      ],
+      "ordered_legacy_page_ids": [
+        "e0ff3518-5ba6-4df4-bb61-4b1e43d4195e",
+        "f9e923d4-3128-4eae-9103-4daf09d23b5f",
+        "9d3bf8ed-9000-4a15-9e57-e5810aef2dc8"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00004-e0ff3518-5ba6-4df4-bb61-4b1e43d4195e-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00005-f9e923d4-3128-4eae-9103-4daf09d23b5f-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00006-9d3bf8ed-9000-4a15-9e57-e5810aef2dc8-image-00.jpg"
+      ],
+      "sha256": [
+        "86d6bdc27f32b8a9974a0769d5c8d96959de4efb8462b8ba17574073de5fa2cf",
+        "8cf0ef7f4f2a91c268cf2fd3a03a958e18c477174159345b78aa4620ef942562",
+        "ad6a0ce1c24bb03c18889610728daed6c735112faec170895139b3795b62a7c4"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 4 and 5 are question sheets and page 6 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-03",
+      "internal_ordinal": 3,
+      "source_model_label": "source occurrence 3",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 7,
+      "last_page": 9,
+      "page_count": 3,
+      "question_pages": [
+        7,
+        8
+      ],
+      "correction_sheet_candidate_page": 9,
+      "ordered_page_numbers": [
+        7,
+        8,
+        9
+      ],
+      "ordered_legacy_page_ids": [
+        "7967c9f5-275d-414b-ac77-ca02054c7bbf",
+        "5f170ffd-1524-43e3-bc40-1caf270c873f",
+        "bf6724bb-c78a-4840-a496-e8b8dc052941"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00007-7967c9f5-275d-414b-ac77-ca02054c7bbf-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00008-5f170ffd-1524-43e3-bc40-1caf270c873f-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00009-bf6724bb-c78a-4840-a496-e8b8dc052941-image-00.jpg"
+      ],
+      "sha256": [
+        "8e3665d614ce83582e1d7885de3dc0d0e31f6c8234289fe32d85c2a56994a54c",
+        "5908827b0eeebf2d322adf2653aa4eb13314fbb56bf80f20ea6387f3cccce8c4",
+        "c1dc04b03525e301e470bbddbef3d0f51ad142dae34cec7027409e1775fe1921"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 7 and 8 are question sheets and page 9 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-04",
+      "internal_ordinal": 4,
+      "source_model_label": "source occurrence 4",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 10,
+      "last_page": 12,
+      "page_count": 3,
+      "question_pages": [
+        10,
+        11
+      ],
+      "correction_sheet_candidate_page": 12,
+      "ordered_page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "ordered_legacy_page_ids": [
+        "8b23ff87-578a-49a3-a762-d8bfa71c1b33",
+        "4eb6704e-08ac-4ed5-84a1-f19e106d2873",
+        "84313e14-a83c-41ad-9267-749b0d881f8e"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00010-8b23ff87-578a-49a3-a762-d8bfa71c1b33-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00011-4eb6704e-08ac-4ed5-84a1-f19e106d2873-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00012-84313e14-a83c-41ad-9267-749b0d881f8e-image-00.jpg"
+      ],
+      "sha256": [
+        "6e7e108b51a2251b65caf71bb064ab50c98657d9bcdb8cb6a7c6d8f066661986",
+        "5a42eb7e4acb882854f3c54b153698ba73b667683d28a05bf6a2202e2bfe5426",
+        "5d4efaf88fb472ed73e87294fadcb747c1e1909bc57ac7c7cb0da300cd45e69d"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 10 and 11 are question sheets and page 12 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-05",
+      "internal_ordinal": 5,
+      "source_model_label": "source occurrence 5",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 13,
+      "last_page": 15,
+      "page_count": 3,
+      "question_pages": [
+        13,
+        14
+      ],
+      "correction_sheet_candidate_page": 15,
+      "ordered_page_numbers": [
+        13,
+        14,
+        15
+      ],
+      "ordered_legacy_page_ids": [
+        "0857a85c-f7b1-48fd-b9dd-5a5fdc2e1a57",
+        "97e26dde-ca42-4763-81e1-6077e9f6d818",
+        "3c210efc-53b6-4932-ad15-3c05a6d84ab7"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00013-0857a85c-f7b1-48fd-b9dd-5a5fdc2e1a57-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00014-97e26dde-ca42-4763-81e1-6077e9f6d818-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00015-3c210efc-53b6-4932-ad15-3c05a6d84ab7-image-00.jpg"
+      ],
+      "sha256": [
+        "361798644efd209695436a5759f79ee821488ba728f301ded44ae1757abd6b75",
+        "b1dfa322c5db3199636b8dea3c3d5f995137fbb7f2aa2bf21b4016feeaacb6be",
+        "f256f090e1beba2c99c13489d7f6b156054f6c8ce2c3cea346502e8c61ee26e3"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 13 and 14 are question sheets and page 15 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-06",
+      "internal_ordinal": 6,
+      "source_model_label": "source occurrence 6",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 16,
+      "last_page": 18,
+      "page_count": 3,
+      "question_pages": [
+        16,
+        17
+      ],
+      "correction_sheet_candidate_page": 18,
+      "ordered_page_numbers": [
+        16,
+        17,
+        18
+      ],
+      "ordered_legacy_page_ids": [
+        "dd677f03-fb6f-4f34-91de-0a4a7980ed28",
+        "96add7dd-ca15-48a0-b5e8-a4557d94dcde",
+        "325e80b5-96c2-483e-887c-8fcbe5cdeb88"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00016-dd677f03-fb6f-4f34-91de-0a4a7980ed28-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00017-96add7dd-ca15-48a0-b5e8-a4557d94dcde-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00018-325e80b5-96c2-483e-887c-8fcbe5cdeb88-image-00.jpg"
+      ],
+      "sha256": [
+        "42bb0abb88a9352d1b6e3ade65014cf3edad30c504c9ab7a147e244084db6d70",
+        "0295fed1001d9449ca506454550ed5a08396b7f576d5fcb01ad079fd335f73f6",
+        "7caa3b1cb3963e961f201e310757d9baf2b8bb40d3b9d6b50107e1290479212f"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 16 and 17 are question sheets and page 18 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-07",
+      "internal_ordinal": 7,
+      "source_model_label": "source occurrence 7",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 19,
+      "last_page": 21,
+      "page_count": 3,
+      "question_pages": [
+        19,
+        20
+      ],
+      "correction_sheet_candidate_page": 21,
+      "ordered_page_numbers": [
+        19,
+        20,
+        21
+      ],
+      "ordered_legacy_page_ids": [
+        "39ef5403-48c0-49cf-96cb-9eda07f06f6d",
+        "eb4d1ea2-94dd-4bc3-91fa-96e84e27c10e",
+        "164c454a-b115-4518-ab23-c8f4c24a78aa"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00019-39ef5403-48c0-49cf-96cb-9eda07f06f6d-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00020-eb4d1ea2-94dd-4bc3-91fa-96e84e27c10e-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00021-164c454a-b115-4518-ab23-c8f4c24a78aa-image-00.jpg"
+      ],
+      "sha256": [
+        "87413d799fadcb7ac1dbe0f4fa4745c35324313eed83401ef0417175bcf06da7",
+        "e665e8f48356cd9eadbc4c933a01b6f32a91b46f866f07cf0dc7c265009ddaa1",
+        "549083530dea6108d2d33b03aab193f9659a99157ac97a9a7a563a4fcd67ca07"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 19 and 20 are question sheets and page 21 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-08",
+      "internal_ordinal": 8,
+      "source_model_label": "source occurrence 8",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 22,
+      "last_page": 24,
+      "page_count": 3,
+      "question_pages": [
+        22,
+        23
+      ],
+      "correction_sheet_candidate_page": 24,
+      "ordered_page_numbers": [
+        22,
+        23,
+        24
+      ],
+      "ordered_legacy_page_ids": [
+        "f91ce798-12cb-4125-bd39-3b1f97c302bb",
+        "efb00954-2d53-4953-874a-4791974b9ff0",
+        "52e64a73-8cc0-4725-9160-d81026810ce7"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00022-f91ce798-12cb-4125-bd39-3b1f97c302bb-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00023-efb00954-2d53-4953-874a-4791974b9ff0-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00024-52e64a73-8cc0-4725-9160-d81026810ce7-image-00.jpg"
+      ],
+      "sha256": [
+        "f4341276e85778f5841539800e44f8c8bd53089454e2cfa52a46b672f64cd0df",
+        "7f127fbb7f68c6ad4d780253bf33abf66dc5a8a42fe9100a716c3fc42478adcd",
+        "9e48839f383ba8721e39da53578a52aa97d3e6bfdf3b9ed1817ae0ee4490d8b8"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 22 and 23 are question sheets and page 24 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-09",
+      "internal_ordinal": 9,
+      "source_model_label": "source occurrence 9",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 25,
+      "last_page": 27,
+      "page_count": 3,
+      "question_pages": [
+        25,
+        26
+      ],
+      "correction_sheet_candidate_page": 27,
+      "ordered_page_numbers": [
+        25,
+        26,
+        27
+      ],
+      "ordered_legacy_page_ids": [
+        "fc356a34-c024-4dca-88c2-2f1eacc31264",
+        "c254c957-1147-40f6-9fa2-2cfd7deb496f",
+        "6be90dfe-ed64-4e99-a147-62b92ad1d167"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00025-fc356a34-c024-4dca-88c2-2f1eacc31264-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00026-c254c957-1147-40f6-9fa2-2cfd7deb496f-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00027-6be90dfe-ed64-4e99-a147-62b92ad1d167-image-00.jpg"
+      ],
+      "sha256": [
+        "170731036fc06662d5b469e273c4d98462c8d85b177914c05399a2ac9da75d0b",
+        "81d08901ad376763706276fcc76b116d980dbdb3f368a28f657f172b35a8c40d",
+        "69fb0027917737268a9187b5d0f83c4406ee2d41d010ba52c0bb6bea597fa419"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 25 and 26 are question sheets and page 27 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-10",
+      "internal_ordinal": 10,
+      "source_model_label": "source occurrence 10",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 28,
+      "last_page": 30,
+      "page_count": 3,
+      "question_pages": [
+        28,
+        29
+      ],
+      "correction_sheet_candidate_page": 30,
+      "ordered_page_numbers": [
+        28,
+        29,
+        30
+      ],
+      "ordered_legacy_page_ids": [
+        "a955fa47-cfab-45a2-943a-8dfded069fd2",
+        "e4b0b013-9fe0-4af7-a0de-96d10c834431",
+        "e4cba153-f603-4ed5-893a-27bb25f3c227"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00028-a955fa47-cfab-45a2-943a-8dfded069fd2-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00029-e4b0b013-9fe0-4af7-a0de-96d10c834431-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00030-e4cba153-f603-4ed5-893a-27bb25f3c227-image-00.jpg"
+      ],
+      "sha256": [
+        "8e583c99ece5932d04793daa015e4a9b658289f6abfd5a92c20ca6516661a2b3",
+        "a29009f8d4b25c5a2df6ff36c8d7a8210ec14443a80c631b2393fac3796514a3",
+        "ac0e6f0e27fdd1ed5d675c3c4a6c19cb4d01aaa6c4bb247437cee35fad0eeddc"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 28 and 29 are question sheets and page 30 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-11",
+      "internal_ordinal": 11,
+      "source_model_label": "source occurrence 11",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 31,
+      "last_page": 33,
+      "page_count": 3,
+      "question_pages": [
+        31,
+        32
+      ],
+      "correction_sheet_candidate_page": 33,
+      "ordered_page_numbers": [
+        31,
+        32,
+        33
+      ],
+      "ordered_legacy_page_ids": [
+        "6926da2c-d361-4a75-a5c1-49c9e5a8ee32",
+        "771e3da2-cb47-4055-87ef-93ed7c370bd4",
+        "1de4543f-af9d-4af3-922a-c9c74b133988"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00031-6926da2c-d361-4a75-a5c1-49c9e5a8ee32-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00032-771e3da2-cb47-4055-87ef-93ed7c370bd4-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00033-1de4543f-af9d-4af3-922a-c9c74b133988-image-00.jpg"
+      ],
+      "sha256": [
+        "4e9b54746a1c6a530909e18bd4aacf534ac62fc69e8d124f7d962636ac073947",
+        "52e2e59f7812d2484cefe0ffcf722648ec3241857041be258479304e3fa116ad",
+        "0f34ac534a5124c3646d83ac0e5c6896776df64a4a6aed4ccead9a4c3c5086be"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 31 and 32 are question sheets and page 33 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-12",
+      "internal_ordinal": 12,
+      "source_model_label": "source occurrence 12",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 34,
+      "last_page": 36,
+      "page_count": 3,
+      "question_pages": [
+        34,
+        35
+      ],
+      "correction_sheet_candidate_page": 36,
+      "ordered_page_numbers": [
+        34,
+        35,
+        36
+      ],
+      "ordered_legacy_page_ids": [
+        "d305a9b4-1653-402a-9133-a52a0633956e",
+        "3f792a93-0237-4189-bbdc-c449b7e1856d",
+        "7d628102-e652-41f9-b802-da4a8bb2f30e"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00034-d305a9b4-1653-402a-9133-a52a0633956e-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00035-3f792a93-0237-4189-bbdc-c449b7e1856d-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00036-7d628102-e652-41f9-b802-da4a8bb2f30e-image-00.jpg"
+      ],
+      "sha256": [
+        "ae5a2c55b777f6393c9cedf396bdcbc0e175b57ead42807c31ed82dd7dc5bd09",
+        "f4cdd49aca36cd486b253119698bf3fbbe8b4d55cee7ca66d5eff02d406e86fd",
+        "d417bfa19126f98ed2b33583fd1ec8f97123569556e275a26756a687053d24be"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 34 and 35 are question sheets and page 36 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-13",
+      "internal_ordinal": 13,
+      "source_model_label": "source occurrence 13",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 37,
+      "last_page": 39,
+      "page_count": 3,
+      "question_pages": [
+        37,
+        38
+      ],
+      "correction_sheet_candidate_page": 39,
+      "ordered_page_numbers": [
+        37,
+        38,
+        39
+      ],
+      "ordered_legacy_page_ids": [
+        "3c252d14-0b26-4d6b-9116-99ef0b93eacd",
+        "2bf8d59b-a6d7-4483-8d1b-5c9ba6a36a73",
+        "80ce5dd8-f614-4a1d-8308-559b6aa172b0"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00037-3c252d14-0b26-4d6b-9116-99ef0b93eacd-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00038-2bf8d59b-a6d7-4483-8d1b-5c9ba6a36a73-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00039-80ce5dd8-f614-4a1d-8308-559b6aa172b0-image-00.jpg"
+      ],
+      "sha256": [
+        "c370f53d54c2c7c036c811708f854e654a7b5ed33581378bbed0574540c016b8",
+        "7617632b53025500abe23fa4528c26e83d2f13d07c655e326769d88d054b027a",
+        "5b69bbf3128850f0ea12529f963bca368dfc3ebf1801fa570f8646d687b4de3c"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 37 and 38 are question sheets and page 39 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-14",
+      "internal_ordinal": 14,
+      "source_model_label": "source occurrence 14",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 40,
+      "last_page": 42,
+      "page_count": 3,
+      "question_pages": [
+        40,
+        41
+      ],
+      "correction_sheet_candidate_page": 42,
+      "ordered_page_numbers": [
+        40,
+        41,
+        42
+      ],
+      "ordered_legacy_page_ids": [
+        "97970f4e-2ceb-4908-8dfe-74e710279c4f",
+        "71e67368-5e7c-4131-a988-9373184736de",
+        "fcba04f2-3cc4-405a-a428-63163f6dec5d"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00040-97970f4e-2ceb-4908-8dfe-74e710279c4f-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00041-71e67368-5e7c-4131-a988-9373184736de-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00042-fcba04f2-3cc4-405a-a428-63163f6dec5d-image-00.jpg"
+      ],
+      "sha256": [
+        "4ab902cf5072b1b42504d06a96b5b87fda9e3ab38b51be71990b79753dfec1b2",
+        "8a37d843516f10aef6595ce970c8ffea549a01be026a80f2bd2cb9ee370cde67",
+        "13e1b22824392cf487710eea4e2a2db990fd89111620852df576e9f946184c81"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 40 and 41 are question sheets and page 42 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-15",
+      "internal_ordinal": 15,
+      "source_model_label": "source occurrence 15",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 43,
+      "last_page": 45,
+      "page_count": 3,
+      "question_pages": [
+        43,
+        44
+      ],
+      "correction_sheet_candidate_page": 45,
+      "ordered_page_numbers": [
+        43,
+        44,
+        45
+      ],
+      "ordered_legacy_page_ids": [
+        "dfd8363a-4b29-4307-a93c-597a89c01979",
+        "c631eefa-16c3-4412-a996-aa0bebd178fc",
+        "23e6414d-e96f-4ef5-8edf-dac134cd1086"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00043-dfd8363a-4b29-4307-a93c-597a89c01979-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00044-c631eefa-16c3-4412-a996-aa0bebd178fc-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00045-23e6414d-e96f-4ef5-8edf-dac134cd1086-image-00.jpg"
+      ],
+      "sha256": [
+        "b3ba1a259172f36afd5ea794122046e075a818c4690bc872245cf44721fd936a",
+        "34230e3948533aa11e05f19710b3f8abed16a605fce960ac9bd06567f61c19b6",
+        "0ac7f9d8c3af339b56b558726c8777e9d26789affaab471d81e8adf7fb522e27"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 43 and 44 are question sheets and page 45 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-16",
+      "internal_ordinal": 16,
+      "source_model_label": "source occurrence 16",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 46,
+      "last_page": 48,
+      "page_count": 3,
+      "question_pages": [
+        46,
+        47
+      ],
+      "correction_sheet_candidate_page": 48,
+      "ordered_page_numbers": [
+        46,
+        47,
+        48
+      ],
+      "ordered_legacy_page_ids": [
+        "e9694623-7904-4a91-bd69-cb3372b4d95e",
+        "bfd1531d-0ac4-45dc-8a1d-40253a6b7bd1",
+        "50cd5673-25b6-4364-9bc1-43b378f59455"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00046-e9694623-7904-4a91-bd69-cb3372b4d95e-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00047-bfd1531d-0ac4-45dc-8a1d-40253a6b7bd1-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00048-50cd5673-25b6-4364-9bc1-43b378f59455-image-00.jpg"
+      ],
+      "sha256": [
+        "27fa4ee282215f531cf0cda24b077dfa81633c97c7d82dd742fe1bae0aa680d2",
+        "2be2aa19020bf5b3c6c0887fed7540cb5ddf193a32181c96048cd79a5427ab55",
+        "2984ae064ead19d7179089b59c004873e2dcd088836c07931799b8ebb6426ef2"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 46 and 47 are question sheets and page 48 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-17",
+      "internal_ordinal": 17,
+      "source_model_label": "source occurrence 17",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 49,
+      "last_page": 51,
+      "page_count": 3,
+      "question_pages": [
+        49,
+        50
+      ],
+      "correction_sheet_candidate_page": 51,
+      "ordered_page_numbers": [
+        49,
+        50,
+        51
+      ],
+      "ordered_legacy_page_ids": [
+        "f4604f82-a5c7-4913-b8b7-382174fa9f7d",
+        "a1aca1b9-583e-4171-8dbc-df932d49af86",
+        "06ca3ac2-6281-4c58-8559-0c06fcdf22c9"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00049-f4604f82-a5c7-4913-b8b7-382174fa9f7d-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00050-a1aca1b9-583e-4171-8dbc-df932d49af86-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00051-06ca3ac2-6281-4c58-8559-0c06fcdf22c9-image-00.jpg"
+      ],
+      "sha256": [
+        "0a3f7bcb08aa94d3c0c8979b686af486549acd22a5ce38bdeea704447b25960f",
+        "6648ccf29df637599707df10917138a9a9c23dcba6e6fe2a56794247c6182511",
+        "1e0b052fb1770c4dc7d26d8916d0d108ece4740142d19ef1350db1d5b7e9aff8"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 49 and 50 are question sheets and page 51 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-18",
+      "internal_ordinal": 18,
+      "source_model_label": "source occurrence 18",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 52,
+      "last_page": 54,
+      "page_count": 3,
+      "question_pages": [
+        52,
+        53
+      ],
+      "correction_sheet_candidate_page": 54,
+      "ordered_page_numbers": [
+        52,
+        53,
+        54
+      ],
+      "ordered_legacy_page_ids": [
+        "da2b11e4-5994-4751-9271-340d54b1edc5",
+        "1c469386-1612-449f-bba1-4d28364750bf",
+        "1001541d-cab2-42e1-90b1-0506d59adeed"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00052-da2b11e4-5994-4751-9271-340d54b1edc5-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00053-1c469386-1612-449f-bba1-4d28364750bf-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00054-1001541d-cab2-42e1-90b1-0506d59adeed-image-00.jpg"
+      ],
+      "sha256": [
+        "b642095f5703302aa30cac6faee0f6e205fbf2afb396098dc16f02be48252d7e",
+        "55ab73c02eb087b7dcf3ca59560acb21fa4ceb922c2e9f14c9c0f95f3f24063e",
+        "5f564506d1c8a2af534ad3ecb3235ce0ee95c4e472eb3bd0d87fc2e470f66d16"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 52 and 53 are question sheets and page 54 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-19",
+      "internal_ordinal": 19,
+      "source_model_label": "source occurrence 19",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 55,
+      "last_page": 57,
+      "page_count": 3,
+      "question_pages": [
+        55,
+        56
+      ],
+      "correction_sheet_candidate_page": 57,
+      "ordered_page_numbers": [
+        55,
+        56,
+        57
+      ],
+      "ordered_legacy_page_ids": [
+        "1e846935-4a2c-4600-a69e-7c473e0ca153",
+        "2e36e17d-3b8c-4e0a-a670-e0af157ed268",
+        "dc0a095e-1517-483f-8038-730f6d54f381"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00055-1e846935-4a2c-4600-a69e-7c473e0ca153-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00056-2e36e17d-3b8c-4e0a-a670-e0af157ed268-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00057-dc0a095e-1517-483f-8038-730f6d54f381-image-00.jpg"
+      ],
+      "sha256": [
+        "c010353a7ca451e0731d58f3c90af56a83547def5fe40049c4ad34b076148a44",
+        "61bf90e6f8f62762ccce87df8adf722475d1b6b22739c2b7de6b7b3a5417e857",
+        "2b9fececf79f499093fc05d1e21fda5c7d2a4bae2e67c36dcdcfcaba4b0d6af9"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 55 and 56 are question sheets and page 57 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "biology-1445-exam-20",
+      "internal_ordinal": 20,
+      "source_model_label": "source occurrence 20",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 58,
+      "last_page": 60,
+      "page_count": 3,
+      "question_pages": [
+        58,
+        59
+      ],
+      "correction_sheet_candidate_page": 60,
+      "ordered_page_numbers": [
+        58,
+        59,
+        60
+      ],
+      "ordered_legacy_page_ids": [
+        "b86e89d4-f399-418b-99a6-01719d5cc8c6",
+        "a2cfc2d4-d268-4eae-8e67-df9ce1a2aa79",
+        "4331eb12-be90-4c09-884b-1a74a933961f"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00058-b86e89d4-f399-418b-99a6-01719d5cc8c6-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00059-a2cfc2d4-d268-4eae-8e67-df9ce1a2aa79-image-00.jpg",
+        "raw/legacy-supabase/subjects/3d91d812-ab78-476a-b2fc-dc2c31152e1a/images/page-00060-4331eb12-be90-4c09-884b-1a74a933961f-image-00.jpg"
+      ],
+      "sha256": [
+        "f5f381c86b57ce6b80514b20f100eb96675cf91281efa02ab8ce3cc9a01a44ba",
+        "dcb365c990a845c3d85e033b1761e233717b16fe0862f0843554b14ac4f4b329",
+        "a8eb35851180d6999c4e6225d5ae78a8a1de07a1baff79be8c43b4e2405891eb"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly a correction/result sheet paired with the preceding two question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 60 source pages were visually reviewed in complete contact sheets generated from this Biology 1445 source.",
+        "Pages 58 and 59 are question sheets and page 60 is the paired correction/result sheet; the same source-local semantic sequence was verified independently for all 20 occurrences.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    }
+  ],
+  "question_mapping": {
+    "exam_linked_structural": 0,
+    "review_required": 0,
+    "unassigned_within_source": 0,
+    "semantic_correctness": "NOT VERIFIED",
+    "records": []
+  },
+  "evidence": {
+    "technical_report": "content-staging/reconstruction/technical/3d91d812-ab78-476a-b2fc-dc2c31152e1a.json",
+    "discovery_report": "content-staging/reconstruction/exams/source-groups/3d91d812-ab78-476a-b2fc-dc2c31152e1a-discovery.json",
+    "visual_review": "all 60 pages reviewed in contact sheets 001-012, 013-024, 025-036, 037-048, 049-060",
+    "visual_discovery_workflow_run": 34888260549,
+    "visual_discovery_artifact_id": 10365571987,
+    "reference_identity": "60/60 RAW binaries match the repository reference directory الأحياء ثالث ثانوي/نماذج وزاريه 1445/الاحياء نماذج وزاريه 1445 by page-aligned Git blob identity",
+    "storage_identity_used_as_final_boundary": false,
+    "raw_mutations": 0
+  },
+  "status": "boundary_verified_zero_legacy_questions_answer_keys_not_verified"
+}

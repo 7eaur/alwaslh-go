@@ -424,3 +424,19 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - Reconstructed structure from exact-master filename/title runs: **8 Units, 47 Lessons, 193 Lesson pages, 8 Unit covers, 13 Unit reviews**.
 - **3003/3,304** questions are structurally lesson-linked; **301/3,304** remain `review_required` because they reside on non-lesson unit cover/review pages; semantic correctness remains `NOT VERIFIED`.
 <!-- BIOLOGY_BOOK_CHECKPOINT_END -->
+
+<!-- BIOLOGY_EXAM_1445_CHECKPOINT_START -->
+## Reconstruction checkpoint — Biology Ministry Exams 1445
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Source `3d91d812-ab78-476a-b2fc-dc2c31152e1a` — `الاحياء نماذج وزارية 1445` completed from source-local evidence.
+- Technical verification: **60/60** images exist, readable, byte-size/SHA-256/MIME match; sequence **1..60** contiguous; duplicate SHA groups **0**.
+- Reference identity: **60/60** RAW binaries match the page-aligned repository reference directory for Biology 1445.
+- Full visual review resolves **20** verified Individual Exam Model occurrences; each is two question pages + one correction/result sheet candidate.
+- Finalized Exam Pages: **60**; review-required pages: **0**; correction-sheet candidates: **20**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Source legacy questions: **0**; no question mapping was invented.
+- Progress: Sources **29/58**; Educational **15/26**; Exam Groups **14/32**; Individual Exam Models **226**; Exam Pages **728/2,286**; source images technical **2260/5,273**.
+- Global questions: Lesson-linked **10514**; Exam-linked **1132**; Review-required **749**; Unclassified **13360**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `62d827b3-8ab6-4c2b-8ff2-de6156947276` — `الاحياء نماذج وزارية 1446`.
+<!-- BIOLOGY_EXAM_1445_CHECKPOINT_END -->
