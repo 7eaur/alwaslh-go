@@ -693,8 +693,8 @@
         "id": "8489a487-91d9-47fb-80b8-35d0e7a074a4",
         "name": "الانجليزي نماذج وزارية 1445"
       },
-      "classification": "exam_collection_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "exam_source_group",
+      "classification_evidence": "legacy label + 30-page technical verification + full 30-page visual review + explicit source metadata titles for ten 3-page model/correction blocks",
       "manifest_path": "content-staging/raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/manifest.json",
       "manifest_sha256_recorded": "7a5941b1bb2b85ed8515d14ba1dbbb898d249637c14dbaf03eecd1a33da34b71",
       "counts": {
@@ -713,12 +713,42 @@
         "multiple_images": [],
         "null_or_invalid_page_numbers": []
       },
-      "review_status": "review_needed",
+      "review_status": "processed_boundary_verified_answer_keys_not_verified",
       "modern_entity_id": null,
-      "exam_models": null,
-      "answer_keys": null,
+      "exam_models": 10,
+      "answer_keys": "NOT VERIFIED",
       "import_status": "NOT VERIFIED",
-      "publication_status": "NOT VERIFIED"
+      "publication_status": "NOT VERIFIED",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/8489a487-91d9-47fb-80b8-35d0e7a074a4.json",
+        "images_verified": 30,
+        "readable": 30,
+        "sha256_match_manifest": 30,
+        "mime_match_manifest": 30,
+        "duplicate_sha_groups_within_source": 0
+      },
+      "exam_reconstruction": {
+        "status": "boundary_verified_no_legacy_questions_answer_keys_not_verified",
+        "path": "content-staging/reconstruction/exams/source-groups/8489a487-91d9-47fb-80b8-35d0e7a074a4.json",
+        "source_blocks_reviewed": 10,
+        "verified_source_occurrences": 10,
+        "review_required_blocks": 0,
+        "individual_exam_models": 10,
+        "source_pages": 30,
+        "finalized_exam_pages": 30,
+        "review_required_pages": 0,
+        "pages_per_source_block": 3,
+        "question_pages_per_verified_occurrence": 2,
+        "correction_sheet_candidates": 10,
+        "verified_answer_keys": 0,
+        "answer_key_status": "NOT VERIFIED",
+        "exam_linked_questions": 0,
+        "review_required_questions": 0,
+        "associated_legacy_questions": 0,
+        "semantic_question_correctness": "NOT APPLICABLE — source has 0 legacy questions",
+        "raw_mutations": 0
+      }
     },
     {
       "id": "062f0aa0-ae21-454e-ad9a-c390df6e4a08",
@@ -2657,7 +2687,7 @@
     "Historical authorized publication is retained; zero publication applies to this run only."
   ],
   "reconstruction_progress": {
-    "sources_completed": 9,
+    "sources_completed": 10,
     "sources_total": 58,
     "educational_sources_completed": 3,
     "educational_sources_total": 26,
@@ -2665,13 +2695,13 @@
     "verified_units": 25,
     "verified_lessons": 110,
     "verified_lesson_pages": 413,
-    "exam_source_groups_completed": 6,
+    "exam_source_groups_completed": 7,
     "exam_source_groups_total": 32,
-    "individual_exam_models": 99,
-    "exam_pages_completed": 347,
+    "individual_exam_models": 109,
+    "exam_pages_completed": 377,
     "exam_pages_total": 2286,
     "answer_keys": 0,
-    "source_images_technically_verified": 839,
+    "source_images_technically_verified": 869,
     "source_images_total": 5273,
     "webp_derivatives_generated": 0,
     "webp_derivatives_accepted": 0,
@@ -2686,6 +2716,7 @@
     "raw_mutations": 0,
     "unrelated_mutations": 0,
     "new_imports": 0,
-    "new_publications": 0
+    "new_publications": 0,
+    "correction_sheet_candidates": 10
   }
 }

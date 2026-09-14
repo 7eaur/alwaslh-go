@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "source_group_id": "8489a487-91d9-47fb-80b8-35d0e7a074a4",
+  "source_group_name": "الانجليزي نماذج وزارية 1445",
+  "class_id": "21cf8df4-8f2f-4c24-b2dc-13fab129396a",
+  "class_name": "تاسع انجليزي",
+  "subject": "الإنجليزي",
+  "classification": "exam_source_group",
+  "academic_year_hijri": "1445",
+  "academic_year_gregorian": "2023-2024",
+  "source_pages": 30,
+  "source_questions": 0,
+  "source_blocks_reviewed": 10,
+  "verified_source_occurrence_count": 10,
+  "review_required_block_count": 0,
+  "individual_exam_model_count": 10,
+  "finalized_exam_page_count": 30,
+  "review_required_page_count": 0,
+  "correction_sheet_candidate_count": 10,
+  "verified_answer_key_count": 0,
+  "duplicate_sha256_groups_within_source": 0,
+  "models": [
+    {
+      "id": "english-1445-exam-01",
+      "internal_ordinal": 1,
+      "source_model_label": "النموذج 1",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 1,
+      "last_page": 3,
+      "page_count": 3,
+      "question_pages": [
+        1,
+        2
+      ],
+      "correction_sheet_candidate_page": 3,
+      "ordered_page_numbers": [
+        1,
+        2,
+        3
+      ],
+      "ordered_legacy_page_ids": [
+        "72eeb934-ddcf-47df-964d-44b12d0aaee3",
+        "e4ac3cdf-4c2a-4240-a602-387527bc340a",
+        "70bd7828-6c7d-48c9-a937-32cacdabc9dd"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00001-72eeb934-ddcf-47df-964d-44b12d0aaee3-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00002-e4ac3cdf-4c2a-4240-a602-387527bc340a-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00003-70bd7828-6c7d-48c9-a937-32cacdabc9dd-image-00.jpg"
+      ],
+      "sha256": [
+        "54ea225d473501ee4ccf2268918623090afed15e97dcb4046d4343ff0d65d778",
+        "e2456afdb5939109f25ed382e693a9e6a474f7ec9c6b4bc567e3e5a9e1714c09",
+        "452cdb119cc8c51c6b18d21773120b7e685c47428b21b5d06ca20d38198a3703"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet associated with the same model, but available evidence does not establish a standalone official Answer Key artifact."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 1 and 2 as model 1 papers 1 and 2 and page 3 as the correction model for model 1.",
+        "The source-local three-page pattern is verified independently for English 1445 and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "english-1445-exam-02",
+      "internal_ordinal": 2,
+      "source_model_label": "النموذج 2",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 4,
+      "last_page": 6,
+      "page_count": 3,
+      "question_pages": [
+        4,
+        5
+      ],
+      "correction_sheet_candidate_page": 6,
+      "ordered_page_numbers": [
+        4,
+        5,
+        6
+      ],
+      "ordered_legacy_page_ids": [
+        "379f30f1-fffd-42ce-831e-6a4015e2d364",
+        "1b966b4e-3d16-48ae-bc8d-2f3df2bc6477",
+        "1c330ac9-964b-4416-9c48-cb719129eacb"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00004-379f30f1-fffd-42ce-831e-6a4015e2d364-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00005-1b966b4e-3d16-48ae-bc8d-2f3df2bc6477-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00006-1c330ac9-964b-4416-9c48-cb719129eacb-image-00.jpg"
+      ],
+      "sha256": [
+        "23a0d95b381c4b43d279c7acd454f413585d44103785663fd43c188c8754fa60",
+        "54415bede8f51c03215162e34bb643c6b8629c0ae070b4990d9528ff33d269fa",
+        "bfa889bdd624caa8f997675ce44132121c04aeba859b9b5eba155b6a7dd298af"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet associated with the same model, but available evidence does not establish a standalone official Answer Key artifact."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 4 and 5 as model 2 papers 1 and 2 and page 6 as the correction model for model 2.",
+        "The source-local three-page pattern is verified independently for English 1445 and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "english-1445-exam-03",
+      "internal_ordinal": 3,
+      "source_model_label": "النموذج 3",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 7,
+      "last_page": 9,
+      "page_count": 3,
+      "question_pages": [
+        7,
+        8
+      ],
+      "correction_sheet_candidate_page": 9,
+      "ordered_page_numbers": [
+        7,
+        8,
+        9
+      ],
+      "ordered_legacy_page_ids": [
+        "b9935484-3fab-4a5a-8286-d56a81cf8365",
+        "38a8e091-271a-4415-8cbe-479e5b470ed3",
+        "b2beaaa4-fa58-4768-a8b8-4375929b0870"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00007-b9935484-3fab-4a5a-8286-d56a81cf8365-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00008-38a8e091-271a-4415-8cbe-479e5b470ed3-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00009-b2beaaa4-fa58-4768-a8b8-4375929b0870-image-00.jpg"
+      ],
+      "sha256": [
+        "6d1520a6b6e8da9a4f5debc4d5c55efb9150a218c0f21b4c84d44563a61c939b",
+        "2c172e65860ea5c234183113e59e75c341f26bff49072c936cb508ec40cbb324",
+        "883cc08f1e1688f2fb7d1c1790c479b7e5ae56af436ac2f3836921f54bee36f8"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet associated with the same model, but available evidence does not establish a standalone official Answer Key artifact."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 7 and 8 as model 3 papers 1 and 2 and page 9 as the correction model for model 3.",
+        "The source-local three-page pattern is verified independently for English 1445 and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "english-1445-exam-04",
+      "internal_ordinal": 4,
+      "source_model_label": "النموذج 4",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 10,
+      "last_page": 12,
+      "page_count": 3,
+      "question_pages": [
+        10,
+        11
+      ],
+      "correction_sheet_candidate_page": 12,
+      "ordered_page_numbers": [
+        10,
+        11,
+        12
+      ],
+      "ordered_legacy_page_ids": [
+        "d858bfa2-f8eb-445e-86e9-923386eeaff7",
+        "15cf3c52-8401-433b-8a16-2b136363e6ba",
+        "a5e2c85b-b3db-45fc-bb3c-b3a0843096c8"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00010-d858bfa2-f8eb-445e-86e9-923386eeaff7-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00011-15cf3c52-8401-433b-8a16-2b136363e6ba-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00012-a5e2c85b-b3db-45fc-bb3c-b3a0843096c8-image-00.jpg"
+      ],
+      "sha256": [
+        "b6e774a2fe54a4dc21b1ea78fb943634765e8781fac07039ebd54f2dbf7a7ece",
+        "4f8bcd7db0c24304064819b3035a8c2553f0decbf8a59659a52b1feab7d95845",
+        "07e7f94abafc350a6eda41c6e9a04af41b4b15b615419a7153e2c39779f747f8"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet associated with the same model, but available evidence does not establish a standalone official Answer Key artifact."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 10 and 11 as model 4 papers 1 and 2 and page 12 as the correction model for model 4.",
+        "The source-local three-page pattern is verified independently for English 1445 and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "english-1445-exam-05",
+      "internal_ordinal": 5,
+      "source_model_label": "النموذج 5",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 13,
+      "last_page": 15,
+      "page_count": 3,
+      "question_pages": [
+        13,
+        14
+      ],
+      "correction_sheet_candidate_page": 15,
+      "ordered_page_numbers": [
+        13,
+        14,
+        15
+      ],
+      "ordered_legacy_page_ids": [
+        "dcac781d-8874-4356-970d-101d19fb76b0",
+        "db5b02f1-75bc-4f91-ae6e-5dfa88b73b72",
+        "a28743a3-4856-4b1c-b995-990a745a11c2"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00013-dcac781d-8874-4356-970d-101d19fb76b0-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00014-db5b02f1-75bc-4f91-ae6e-5dfa88b73b72-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00015-a28743a3-4856-4b1c-b995-990a745a11c2-image-00.jpg"
+      ],
+      "sha256": [
+        "949e40fd93d8a17724e497ad1ecd8852a3ea3e798a9c1c63ef2840fe9d17a5d8",
+        "838b953caf7560c11a4dd066828019ba243780ffd873fe6c07f3aacfba43bede",
+        "0fe6ba876230e6122e38ce5655b4926ffc4b48dd83868a3f92f1404f21f88749"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet associated with the same model, but available evidence does not establish a standalone official Answer Key artifact."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 13 and 14 as model 5 papers 1 and 2 and page 15 as the correction model for model 5.",
+        "The source-local three-page pattern is verified independently for English 1445 and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "english-1445-exam-06",
+      "internal_ordinal": 6,
+      "source_model_label": "النموذج 6",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 16,
+      "last_page": 18,
+      "page_count": 3,
+      "question_pages": [
+        16,
+        17
+      ],
+      "correction_sheet_candidate_page": 18,
+      "ordered_page_numbers": [
+        16,
+        17,
+        18
+      ],
+      "ordered_legacy_page_ids": [
+        "8aab79b1-9e29-4de9-b8b0-36588763144a",
+        "975906b1-5201-4209-a2ab-b653798d79c8",
+        "ae4adb9a-5e5e-4c85-ad86-d3b5a56696da"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00016-8aab79b1-9e29-4de9-b8b0-36588763144a-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00017-975906b1-5201-4209-a2ab-b653798d79c8-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00018-ae4adb9a-5e5e-4c85-ad86-d3b5a56696da-image-00.jpg"
+      ],
+      "sha256": [
+        "35876a5f21d27950b670d19a4f9d4965c0fb3a403e19b452b3a7f738ea9efe81",
+        "7f0ec9e411aabe71414355147840f637b037e02472ae23bad730e93c2ea2ef2a",
+        "a8f588d27b3ace69e3e1a8ea25f5e11196a647ec42cbfc11a953270f88095b76"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet associated with the same model, but available evidence does not establish a standalone official Answer Key artifact."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 16 and 17 as model 6 papers 1 and 2 and page 18 as the correction model for model 6.",
+        "The source-local three-page pattern is verified independently for English 1445 and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "english-1445-exam-07",
+      "internal_ordinal": 7,
+      "source_model_label": "النموذج 7",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 19,
+      "last_page": 21,
+      "page_count": 3,
+      "question_pages": [
+        19,
+        20
+      ],
+      "correction_sheet_candidate_page": 21,
+      "ordered_page_numbers": [
+        19,
+        20,
+        21
+      ],
+      "ordered_legacy_page_ids": [
+        "ec887a21-b66a-445b-bb10-53c22c941e6c",
+        "94f2b914-f497-4973-9da9-df820ce6d3dc",
+        "97d43ffe-1688-48bc-a4e6-fbb877964f30"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00019-ec887a21-b66a-445b-bb10-53c22c941e6c-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00020-94f2b914-f497-4973-9da9-df820ce6d3dc-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00021-97d43ffe-1688-48bc-a4e6-fbb877964f30-image-00.jpg"
+      ],
+      "sha256": [
+        "3a46738ab6c70b57506738217377d5f355995a17a768486dbae4c8352023a22a",
+        "89d9a77b49aedb2cb240233a856c7a0666f0109d45f9df04ba63c5752d2de790",
+        "b0296ca73e269810f5d16fdd58da7b853851cf52e45df4513a07902fad0515cd"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet associated with the same model, but available evidence does not establish a standalone official Answer Key artifact."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 19 and 20 as model 7 papers 1 and 2 and page 21 as the correction model for model 7.",
+        "The source-local three-page pattern is verified independently for English 1445 and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "english-1445-exam-08",
+      "internal_ordinal": 8,
+      "source_model_label": "النموذج 8",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 22,
+      "last_page": 24,
+      "page_count": 3,
+      "question_pages": [
+        22,
+        23
+      ],
+      "correction_sheet_candidate_page": 24,
+      "ordered_page_numbers": [
+        22,
+        23,
+        24
+      ],
+      "ordered_legacy_page_ids": [
+        "80da0fbd-e8dc-48da-b675-081a59033ba3",
+        "d303ffee-6f63-46d8-b163-f3c7be59a2f6",
+        "2836cd75-155e-44e5-bc10-c434c9237106"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00022-80da0fbd-e8dc-48da-b675-081a59033ba3-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00023-d303ffee-6f63-46d8-b163-f3c7be59a2f6-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00024-2836cd75-155e-44e5-bc10-c434c9237106-image-00.jpg"
+      ],
+      "sha256": [
+        "2de7d31b29e11812f71546f782856d3ab3ade7a5a4b151ca3ed37d9d3584a10e",
+        "07c220514f17b16eee821092b0c3f271b4209d0d6348b68ddd74ed231d7bd735",
+        "5f22da242b985f5f15211376e04e036f170785036a51e74b03beea134be2b107"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet associated with the same model, but available evidence does not establish a standalone official Answer Key artifact."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 22 and 23 as model 8 papers 1 and 2 and page 24 as the correction model for model 8.",
+        "The source-local three-page pattern is verified independently for English 1445 and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "english-1445-exam-09",
+      "internal_ordinal": 9,
+      "source_model_label": "النموذج 9",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 25,
+      "last_page": 27,
+      "page_count": 3,
+      "question_pages": [
+        25,
+        26
+      ],
+      "correction_sheet_candidate_page": 27,
+      "ordered_page_numbers": [
+        25,
+        26,
+        27
+      ],
+      "ordered_legacy_page_ids": [
+        "e70a0318-f048-4651-8b89-c1193729c546",
+        "fcf4306d-4d54-4be8-a25a-d50e794ff4a3",
+        "6624bbb3-2e4f-4e17-90ff-848c10407455"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00025-e70a0318-f048-4651-8b89-c1193729c546-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00026-fcf4306d-4d54-4be8-a25a-d50e794ff4a3-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00027-6624bbb3-2e4f-4e17-90ff-848c10407455-image-00.jpg"
+      ],
+      "sha256": [
+        "6b8d96807d2192baf02f5fda08f977c9545667341b308a18b57d21d80adcd3af",
+        "3b3e3a589ba55f7d3c40bb842529f4bdca1638ffb496e13e26f61a4d601d78b1",
+        "04a7562b33dbae2d5bec5fd23e0b3653626461af19ebca5509475f91068d80e6"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet associated with the same model, but available evidence does not establish a standalone official Answer Key artifact."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 25 and 26 as model 9 papers 1 and 2 and page 27 as the correction model for model 9.",
+        "The source-local three-page pattern is verified independently for English 1445 and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "english-1445-exam-10",
+      "internal_ordinal": 10,
+      "source_model_label": "النموذج 10",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 28,
+      "last_page": 30,
+      "page_count": 3,
+      "question_pages": [
+        28,
+        29
+      ],
+      "correction_sheet_candidate_page": 30,
+      "ordered_page_numbers": [
+        28,
+        29,
+        30
+      ],
+      "ordered_legacy_page_ids": [
+        "d6a01fea-2d24-4ae8-bb93-901600e1d486",
+        "a32869dc-528b-4acf-857d-11f34a4d3fd1",
+        "5928d1d5-cda5-40ff-ac80-cc89c7fe486d"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00028-d6a01fea-2d24-4ae8-bb93-901600e1d486-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00029-a32869dc-528b-4acf-857d-11f34a4d3fd1-image-00.jpg",
+        "raw/legacy-supabase/subjects/8489a487-91d9-47fb-80b8-35d0e7a074a4/images/page-00030-5928d1d5-cda5-40ff-ac80-cc89c7fe486d-image-00.jpg"
+      ],
+      "sha256": [
+        "fc64c4fbda44500348461911dbe5f9cdb1f39c6e4a0eb7e73a06fe2d70160d90",
+        "2d9cf91201e77621cd8fe1ead779e0ef79c27cf4825be550781a43ab9e859aba",
+        "6e935ada2bf45c591e71aba44f1e9ce48ad2c5ed13163ffb01d8df17f4ba4555"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The third page is visibly an electronic correction/result sheet associated with the same model, but available evidence does not establish a standalone official Answer Key artifact."
+      },
+      "boundary_evidence": [
+        "All 30 source pages were visually reviewed in complete contact sheets.",
+        "Source metadata explicitly labels pages 28 and 29 as model 10 papers 1 and 2 and page 30 as the correction model for model 10.",
+        "The source-local three-page pattern is verified independently for English 1445 and is not inherited from another subject."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    }
+  ],
+  "question_mapping": {
+    "exam_linked_structural": 0,
+    "review_required": 0,
+    "unassigned_within_source": 0,
+    "semantic_correctness": "NOT APPLICABLE — source has 0 legacy questions",
+    "records": []
+  },
+  "evidence": {
+    "technical_report": "content-staging/reconstruction/technical/8489a487-91d9-47fb-80b8-35d0e7a074a4.json",
+    "discovery_report": "content-staging/reconstruction/exams/source-groups/8489a487-91d9-47fb-80b8-35d0e7a074a4-discovery.json",
+    "visual_review": "all 30 pages reviewed in contact sheets 001-012, 013-024, 025-030",
+    "storage_identity_used_as_final_boundary": false,
+    "raw_mutations": 0
+  },
+  "status": "boundary_verified_no_legacy_questions_answer_keys_not_verified"
+}

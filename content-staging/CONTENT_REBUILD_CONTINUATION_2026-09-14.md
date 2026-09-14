@@ -328,3 +328,18 @@ Continue with `81e99fe6-1421-462b-9562-1c0c5053a809 — كتاب العلوم - 
 
 Continue with `8489a487-91d9-47fb-80b8-35d0e7a074a4 — الانجليزي نماذج وزارية 1445`; do not rerun Science Part 2 absent new drift evidence. Current verified global progress: **9/58 sources; 3/26 educational; 6/32 exam groups; 839/5,273 technical images; 2,236 lesson-linked; 733 exam-linked; 351 review-required; 22,435 unclassified**.
 <!-- SCIENCE_BOOK_PART2_CHECKPOINT_END -->
+
+<!-- ENGLISH_EXAM_1445_CHECKPOINT_START -->
+## Reconstruction checkpoint — Grade 9 English Ministry Exams 1445
+
+- Phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- Source `8489a487-91d9-47fb-80b8-35d0e7a074a4` — `الانجليزي نماذج وزارية 1445` completed from source-local evidence.
+- Technical verification: **30/30** images exist, readable, byte-size/SHA-256/MIME match; sequence **1..30** contiguous; duplicate SHA groups **0**.
+- Full visual review + explicit page titles resolve **10** verified source occurrences / **10** unique Individual Exam Models; each occurrence is two question pages + one correction/result page.
+- Finalized Exam Pages: **30**; review-required pages: **0**; correction-sheet candidates: **10**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Source legacy questions: **0**; no questions were fabricated or mapped.
+- Progress: Sources **10/58**; Educational **3/26**; Exam Groups **7/32**; Individual Exam Models **109**; Exam Pages **377/2,286**; source images technical **869/5,273**.
+- Global questions: Lesson-linked **2236**; Exam-linked **733**; Review-required **351**; Unclassified **22435**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**.
+- Next source: `062f0aa0-ae21-454e-ad9a-c390df6e4a08` — `الانجليزي نماذج وزارية 1446`.
+<!-- ENGLISH_EXAM_1445_CHECKPOINT_END -->
