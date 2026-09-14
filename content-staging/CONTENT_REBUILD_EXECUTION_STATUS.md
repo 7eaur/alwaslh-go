@@ -482,3 +482,16 @@ Never delete provenance, fabricate page 70, mutate RAW, reintroduce the `69 -> 6
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `cae82d8f-64f9-4d2a-984f-6e6fd19fac5c` — `الحديث والتهذيب الكتاب `.
 <!-- ISLAMIC_EXAM_1447_CHECKPOINT_END -->
+
+<!-- HADITH_BOOK_CHECKPOINT_START -->
+## Reconstruction checkpoint — Hadith and Refinement Book
+
+- Sources processed: **18/58**; Educational: **8/26**; Exam Source Groups: **10/32**.
+- Books / Units / Lessons / Lesson pages: **8 / 33 / 171 / 729**.
+- Hadith source: **62/62** technically verified + exact SHA-identical to `master/التربية الاسلاميه ثالث ثانوي/كتاب الحديث والتهذيب/الصور`.
+- Exact filename evidence establishes **10 lessons** and assigns **62/62 retained pages** to one lesson; no unit layer was asserted (`NOT VERIFIED`).
+- Questions: **1,483/1,483 structurally lesson-linked** by exact page membership; semantic correctness remains `NOT VERIFIED`.
+- Global question invariant: **4,833 + 967 + 351 + 19,604 = 25,755**.
+- Source images technical **1,394/5,273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Next: `a89c6c5d-d3d2-4aed-b98c-2ef5224cdae8 — السيرة النبوية الكتاب `.
+<!-- HADITH_BOOK_CHECKPOINT_END -->
