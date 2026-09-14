@@ -1,0 +1,73 @@
+name: Render Math Book Part 2 Contact Sheets
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/render-math-book-part2-contact-sheets.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: render-math-book-part2-contact-sheets
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check Pillow
+      - name: Render occurrence-safe contact sheets
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image, ImageDraw, ImageFont
+          ROOT=Path.cwd(); sid='b80cbba1-410a-4346-9446-c3f01c4f9e56'
+          subject=ROOT/'content-staging/raw/legacy-supabase/subjects'/sid
+          manifest=json.loads((subject/'manifest.json').read_text(encoding='utf-8'))
+          pages=json.loads((subject/'pages.json').read_text(encoding='utf-8'))
+          by_id={p['id']:p for p in pages}
+          images=sorted(manifest['images'],key=lambda x:(x['page_number'],x['legacy_page_id']))
+          assert len(images)==135
+          out=ROOT/'math-part2-contact-sheets'; out.mkdir(parents=True,exist_ok=True)
+          try: font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',16)
+          except Exception: font=ImageFont.load_default()
+          records=[]
+          for ordinal,item in enumerate(images,1):
+              page=by_id[item['legacy_page_id']]
+              records.append({'ordinal':ordinal,'legacy_page_id':item['legacy_page_id'],'page_number':item['page_number'],'title':page.get('title'),'content_type':page.get('content_type'),'raw_path':item['raw_path'],'sha256':item['sha256']})
+          (out/'records.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          cell_w,cell_h=360,520; cols,rows=3,4; per=cols*rows
+          for start in range(0,len(records),per):
+              batch=records[start:start+per]
+              canvas=Image.new('RGB',(cols*cell_w,rows*cell_h),'white'); draw=ImageDraw.Draw(canvas)
+              for i,rec in enumerate(batch):
+                  raw=Path(rec['raw_path']); path=ROOT/'content-staging'/raw if raw.parts and raw.parts[0]=='raw' else ROOT/raw
+                  with Image.open(path) as im:
+                      im=im.convert('RGB'); im.thumbnail((cell_w-16,cell_h-60),Image.Resampling.LANCZOS)
+                      x0=(i%cols)*cell_w; y0=(i//cols)*cell_h
+                      x=x0+(cell_w-im.width)//2; y=y0+40; canvas.paste(im,(x,y))
+                  label=f"ord {rec['ordinal']:03d} | page {rec['page_number']} | {str(rec['legacy_page_id'])[:8]}"
+                  draw.text((x0+8,y0+8),label,fill='black',font=font)
+              canvas.save(out/f"pages-{batch[0]['page_number']:03d}-{batch[-1]['page_number']:03d}.jpg",quality=90,optimize=True)
+          print(json.dumps({'records':len(records),'sheets':(len(records)+per-1)//per},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: math-part2-contact-sheets
+          path: math-part2-contact-sheets/
+          if-no-files-found: error
+          retention-days: 7
