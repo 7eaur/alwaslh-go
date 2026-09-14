@@ -1,0 +1,46 @@
+name: Record Worker A Physics 1446 Handoff V2
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/record-worker-a-physics1446-handoff-v2.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-reconstruction-shared-handoff
+  cancel-in-progress: false
+
+jobs:
+  handoff:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - name: Gate exact live head before handoff
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || exit 42
+      - name: Prepare shared baton from live evidence
+        run: python content-staging/tools/record_worker_a_physics1446_handoff.py
+      - name: Recheck live head before shared write
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || exit 42
+      - name: Commit shared baton
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'content: hand off Physics 1447 to Worker B [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
