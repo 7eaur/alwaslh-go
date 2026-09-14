@@ -176,8 +176,20 @@ jobs:
               report['nested_list_page_occurrences'] = dict(nested_list_keys)
               report['nested_list_total_items'] = dict(nested_counts)
               report['first_nested_item_keys'] = first_nested_shapes
+              report['page_map'] = [
+                  {
+                      'page_number': page.get('page_number'),
+                      'id': page.get('id'),
+                      'title': page.get('title'),
+                      'content_type': page.get('content_type'),
+                      'ai_question_count': len(page.get('ai_questions') or []),
+                      'image_count': len(page.get('image_urls') or []),
+                  }
+                  for page in pages if isinstance(page, dict)
+              ]
           else:
               report['page_records'] = None
+              report['page_map'] = []
 
           sample_pages = {12, 14, 23, 35, 43, 47, 71, 80, 92, 97, 105, 106, 112, 124, 131, 139, 143, 151, 168, 169, 180}
           metadata_samples = []
@@ -201,7 +213,13 @@ jobs:
           Path('artifacts/chemistry-pages-structure-probe.json').write_text(
               json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
           )
-          print(json.dumps(report, ensure_ascii=False, indent=2))
+          print(json.dumps({
+              'top_type': report['top_type'],
+              'page_records': report.get('page_records'),
+              'nested_list_total_items': report.get('nested_list_total_items'),
+              'page_map_records': len(report.get('page_map') or []),
+              'metadata_samples': report.get('metadata_samples'),
+          }, ensure_ascii=False, indent=2))
           PY
 
       - name: Upload technical and boundary evidence
