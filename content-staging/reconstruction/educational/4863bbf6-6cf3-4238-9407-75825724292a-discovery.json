@@ -1,0 +1,3637 @@
+{
+  "source_id": "4863bbf6-6cf3-4238-9407-75825724292a",
+  "source_name": "الفيزياء الكتاب المدرسي",
+  "status": "discovery_complete_not_finalized",
+  "source_pages": 207,
+  "legacy_questions": 3101,
+  "retained_storage_page_range": [
+    9,
+    215
+  ],
+  "technical_source_sha_rechecked": 207,
+  "identity_status": "VERIFIED_EXACT_SHA",
+  "exact_sha_identity_count": 207,
+  "unmatched_storage_pages": [],
+  "candidate_master_directories": [
+    {
+      "path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور",
+      "exact_sha_matches": 207
+    }
+  ],
+  "preferred_master_directory": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور",
+  "preferred_master_exact_sha_count": 207,
+  "page_exact_sha_matches": [
+    {
+      "page_number": 9,
+      "legacy_page_id": "23481fa0-f6df-4d50-b14c-72a7dcea3f75",
+      "sha256": "c62054507b9774bb31ab3cc4f2a8e499673d509355b2260b2814ab083c667b41",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص009 - غلاف الوحدة - كمية التحرك والمقذوفات.webp"
+      ]
+    },
+    {
+      "page_number": 10,
+      "legacy_page_id": "24d66b9e-9ae4-4fa1-af01-044466b89f18",
+      "sha256": "8b74a1b440e19715b616738da666f7955aefa2036f87062dcc0ab3b760814b50",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص010 - كمية التحرك والتصادم في بعدين.webp"
+      ]
+    },
+    {
+      "page_number": 11,
+      "legacy_page_id": "5cf77f65-badf-4a9e-80d7-b34b8bb4ca76",
+      "sha256": "ae5dde39903804638df60b5b574b961c433e351af535aa72c6db82216317ee6e",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص011 - التصادم في بعدين.webp"
+      ]
+    },
+    {
+      "page_number": 12,
+      "legacy_page_id": "4a0d2a28-a927-44d3-a818-80926b1dbfcf",
+      "sha256": "e89a8ad0ad669eb21c44d9c5a142c6ba8dc41bb35e7669c6152e401efc53a8b6",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص012 - التصادم في بعدين.webp"
+      ]
+    },
+    {
+      "page_number": 13,
+      "legacy_page_id": "d574a0c3-64fe-4024-b75e-1e074bc5001e",
+      "sha256": "cc578308b2daf211ddac3e27577a98b416a259518fd2f0c92d772853fa3023b9",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص013 - التصادم في بعدين.webp"
+      ]
+    },
+    {
+      "page_number": 14,
+      "legacy_page_id": "e5adf90a-0faf-4a92-86a5-ff4ae1cfe374",
+      "sha256": "73584d1787a61edb7e2a17616e7e9644e700717b81e4833521817aba82b02430",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص014 - التصادم في بعدين.webp"
+      ]
+    },
+    {
+      "page_number": 15,
+      "legacy_page_id": "8e41b993-2792-4144-bfb4-bbe28f5816ba",
+      "sha256": "e9fb4ae7eb5be6510afdff999a1ffb6aea61ae97fe2bb06f5a34158ba061f606",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص015 - الصواريخ ذاتية الدفع.webp"
+      ]
+    },
+    {
+      "page_number": 16,
+      "legacy_page_id": "04032ce6-2a2a-4677-8681-a27efa90824c",
+      "sha256": "2a8d3b53d20b185ccb69110146dc6b3f0073fa0011b9b73d064c765c2e02f426",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص016 - الصواريخ ذاتية الدفع.webp"
+      ]
+    },
+    {
+      "page_number": 17,
+      "legacy_page_id": "d771d185-eb8c-4ffa-bac8-2ee336e00c2d",
+      "sha256": "12a82ff124a1f8b64a0e3ab249d492c4556748dbfb8c2752c35d80201bf66583",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص017 - سرعة الإفلات من الجاذبية.webp"
+      ]
+    },
+    {
+      "page_number": 18,
+      "legacy_page_id": "022f1d1b-193f-47cd-b6d3-f9a1857614e3",
+      "sha256": "9e0eb70d500dfac642eec1fc26572c3777e516bba1afd44c751d627b12255ad7",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص018 - سرعة الإفلات من الجاذبية.webp"
+      ]
+    },
+    {
+      "page_number": 19,
+      "legacy_page_id": "4962cd0f-cdda-44a5-8f9d-49cfe7125504",
+      "sha256": "f2aef9eff3ce92d89c2e2915c0ccf10b0573cea8b7917d2719d6defc46e3617f",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص019 - حركة الأقمار الصناعية حول الأرض.webp"
+      ]
+    },
+    {
+      "page_number": 20,
+      "legacy_page_id": "6c4c824b-cbcb-48f8-a02b-16e587840a9e",
+      "sha256": "ba764304429693c38b1faa9fa2d776d2f55500d91bc5e31d6563353ed9eeb7b0",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص020 - حركة الأقمار الصناعية حول الأرض.webp"
+      ]
+    },
+    {
+      "page_number": 21,
+      "legacy_page_id": "0b4ca704-91a3-4914-98e1-88a5e8dde7c9",
+      "sha256": "bfce73ba37a369eaa345ba65e768465495be6ba462e191d9aba504fdbecc7f79",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص021 - حركة الأقمار الصناعية حول الأرض.webp"
+      ]
+    },
+    {
+      "page_number": 22,
+      "legacy_page_id": "e653fed0-4e24-4808-81c2-8f4e194091a0",
+      "sha256": "ebe2267ea305063fc54b77fa8955d9fdbdc8304a1819addddae7ecfa6f86e34b",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص022 - كمية التحرك الزاوي.webp"
+      ]
+    },
+    {
+      "page_number": 23,
+      "legacy_page_id": "ee2c057c-5669-4c9d-87bf-4e07c3f74495",
+      "sha256": "ba78e3c4e5d11c92657b232437d78949d4b2120561087728ce037f7427cb9da5",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص023 - كمية التحرك الزاوي.webp"
+      ]
+    },
+    {
+      "page_number": 24,
+      "legacy_page_id": "1a264b00-d892-4e5e-a4d0-eb1ef05ae43b",
+      "sha256": "bcb9c2448f7e5282470d36d9c85ce5569696c1834dd4852d759301c1ab0be71a",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص024 - حركة المقذوفات.webp"
+      ]
+    },
+    {
+      "page_number": 25,
+      "legacy_page_id": "287e6e27-60e6-4e5b-b159-a99194b5675e",
+      "sha256": "dfa8ae24cef660902e2af7657a0da31ba23f8ca2974983784b17e03cb70e171b",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص025 - حركة المقذوفات.webp"
+      ]
+    },
+    {
+      "page_number": 26,
+      "legacy_page_id": "85b0683a-f361-4501-8775-fc7e245296a0",
+      "sha256": "5ce4447e952374db4fecfcc8c5d2319223e2bbd9abac2ba6751bafd04102e2f2",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص026 - حركة المقذوفات.webp"
+      ]
+    },
+    {
+      "page_number": 27,
+      "legacy_page_id": "a906bfc7-5a6e-4832-86b4-67317e04e4f1",
+      "sha256": "c8d34e93e5851ec432c8509d2b7667bfb9ab29e89f1df1a3d2be4d06b0707531",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص027 - تقويم الوحدة الأولى.webp"
+      ]
+    },
+    {
+      "page_number": 28,
+      "legacy_page_id": "ed6a11fc-21ba-4469-97a6-a727c16f4b45",
+      "sha256": "8c136d91d3e3e410787de7cd81eec080c1d1d2fce67eb6cb37a0c5633601f6ed",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص028 - تقويم الوحدة الأولى.webp"
+      ]
+    },
+    {
+      "page_number": 29,
+      "legacy_page_id": "3002e8bc-32ce-48ee-a79a-e6d354e5d866",
+      "sha256": "f7fe9337855bf97459dd5b5f79e4fd87620ff6083aa8c682b87458435593c225",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص029 - غلاف الوحدة - التيار المتردد (المتناوب).webp"
+      ]
+    },
+    {
+      "page_number": 30,
+      "legacy_page_id": "48e1ebd1-8f51-45dc-baaf-54b79810fd58",
+      "sha256": "628935b8120f43fec7f238ac88e755e0b608e8a347a26acec3e2b34c0cd91d7c",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص030 - التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 31,
+      "legacy_page_id": "13e732dc-a97a-4d08-9a0a-09002bfbfce0",
+      "sha256": "e074eb0c643adcd2e9576f794dcec8555ed4301425079f54ee96f6cfeee8bb4a",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص031 - التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 32,
+      "legacy_page_id": "b09e12a7-ff7b-45fa-920f-3492bef0444d",
+      "sha256": "17ac08d439a25855a00f875091051a83cadb4368606177845dd882b255151106",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص032 - التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 33,
+      "legacy_page_id": "83401c05-3d87-4a25-8b6f-91ab29ea981d",
+      "sha256": "c4c0e2c9b3e3665ad92270cddcb1bc96643ce2cee7f1e3a2fe335ea1f7b1cc54",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص033 - مولد التيار المتردد (الدينامو).webp"
+      ]
+    },
+    {
+      "page_number": 34,
+      "legacy_page_id": "0769a2d7-b691-4b6c-884e-2f1afd2c3e1d",
+      "sha256": "38e7b886be4371daceb36b64cd29f10b842b95a0b14ddeb46d65b0de7aedcf21",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص034 - مولد التيار المتردد (الدينامو).webp"
+      ]
+    },
+    {
+      "page_number": 35,
+      "legacy_page_id": "3d85888b-9eae-47a2-8c64-4cdc81def3af",
+      "sha256": "b0bb808341525aded91784f4166d4ac905c9a8a0afef6a5265d5f1f880edd573",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص035 - مولد التيار المتردد (الدينامو).webp"
+      ]
+    },
+    {
+      "page_number": 36,
+      "legacy_page_id": "8f67c0a5-a823-40a6-8c31-c11781a239c9",
+      "sha256": "36318073e54fd755ee58377fc45156e79de20bbb90bbefcacddddd0f33ab2d29",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص036 - مولد التيار المتردد (الدينامو).webp"
+      ]
+    },
+    {
+      "page_number": 37,
+      "legacy_page_id": "eba3c315-4ea5-48c9-8469-3b9441d64dac",
+      "sha256": "5a9af5bb6349cf0e0ce4d11125afd191003e4a93f31f5c4d5443f79e5c75f6e2",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص037 - الأميتر الحراري.webp"
+      ]
+    },
+    {
+      "page_number": 38,
+      "legacy_page_id": "aff2e1f0-9da7-4d6c-9976-54d6e23059a6",
+      "sha256": "19e5673177101469a82805b3293ed4596dd8d76ea5c8e7223cbe7bd9c09f8d16",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص038 - الأميتر الحراري.webp"
+      ]
+    },
+    {
+      "page_number": 39,
+      "legacy_page_id": "71b68548-37f9-466f-ad61-68c18c4fc66f",
+      "sha256": "47804fab2fe9fc2412390f2eb50630941137704cb076f3c6d2ce28f1fdecde9f",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص039 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 40,
+      "legacy_page_id": "e504d4e5-613a-47c7-bcbb-c0ffe7d4ebd3",
+      "sha256": "8189f27c179f4c01045801f465e25cb60ae51b93a7f6700b852ceb3d81e4b80f",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص040 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 41,
+      "legacy_page_id": "ae9b41ad-d0b7-4274-9ac5-f8eca6c982e6",
+      "sha256": "4a27f490a2575b6873af483445fc598541a2207ae3ba8c9f00cc7ef737075bdd",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص041 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 42,
+      "legacy_page_id": "c3ed0ce6-f802-4f10-b131-4926e1d1df15",
+      "sha256": "2f44853247738e1f8fa2b0d2bde774f58f178959883ef6c30dfa02a8aa9190ae",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص042 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 43,
+      "legacy_page_id": "beeb4cc4-0b06-40b6-b3dd-7aee834d0afa",
+      "sha256": "05d6e31064bdd318cbf1882219576a0c341ee67d852b2e8a7b55ee35fa011380",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص043 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 44,
+      "legacy_page_id": "74148d45-bc40-45e8-b1d8-03495bbe0e04",
+      "sha256": "9ae39c2cfb5ccf4dec40871e941a8af6dc2cd198fc1a95988da5e33faa02a053",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص044 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 45,
+      "legacy_page_id": "49e8fe58-b67e-4eb6-b8da-cf0c0bef46dd",
+      "sha256": "9c90b13b8a19050881d12243b125beeea092afb2169e776c5c1dcab92ebc3c07",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص045 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 46,
+      "legacy_page_id": "a09ed121-89de-4be0-8575-7974cc6155ae",
+      "sha256": "79413c13d0063102e50c0363ddb902a439e45ac8f215e172b6694c7a4d4385f6",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص046 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 47,
+      "legacy_page_id": "8b0db1e1-da63-4d05-9cb5-aac282d145f0",
+      "sha256": "9b6fd16f54c404880923a5cebbee61071cf23204f2cd7d14d41c7dfef400be69",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص047 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 48,
+      "legacy_page_id": "1c9e0fcb-edf3-489c-84fd-3905d44f126a",
+      "sha256": "f992ab6728289eb01249228f50477ee7548465c0687a9badc2c10e7e9a46548b",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص048 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 49,
+      "legacy_page_id": "802d7f81-e882-465f-80f3-b872b2f71111",
+      "sha256": "4441d66e448a5280e9e401305b1b3d698fac0aecb35be8d1710e9dae6d70ca3d",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص049 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 50,
+      "legacy_page_id": "4057cc22-aec6-4c7b-a480-8f4c2a9d694a",
+      "sha256": "9fa3392361c50f76db5e5485df16c3296a660131d3f0f30686aae9302728fb3f",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص050 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 51,
+      "legacy_page_id": "cb9cadfd-dfd4-4aa5-933f-662eaf7ab54d",
+      "sha256": "46572aa7ec2e36339144d6b78a8563e93d2c9445f7064a11d8bf1de2b9ce9300",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص051 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 52,
+      "legacy_page_id": "9b0f9415-6ac6-4ec2-ac29-fa4bbf3b5855",
+      "sha256": "15fda42d3c0ae09a701eed65b4bfc77700b466c7bee3fb64e7b26bf84e61aedd",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص052 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 53,
+      "legacy_page_id": "6390ea34-721d-4f6f-9228-ae9ba17776fe",
+      "sha256": "e7932c96610be30236528450e83cd60a97ec87abbe99775f473c39fdda4baf07",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص053 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 54,
+      "legacy_page_id": "f38996ea-5e7c-459b-bbe1-6a6336bd27a8",
+      "sha256": "84b675d8644b566a3c92c86ec3b8f5ab79400c3f481d6bcb80ad2c00e310b673",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص054 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 55,
+      "legacy_page_id": "af6dd51c-0f03-4894-a6a1-e6f20fb948f3",
+      "sha256": "d11d94226c1cc54d7c436dbf6b243133af2e201ea2fa4d628038bc0da1b7776c",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص055 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 56,
+      "legacy_page_id": "70ede55c-533c-4a5e-9591-ccbec76b55e9",
+      "sha256": "16151e461366a0123f45c49ff2936ff3e8cc6f9e42b2f6187e0d04b6b6c7421e",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص056 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 57,
+      "legacy_page_id": "06833008-1fd8-47ff-abeb-b5827180b4b1",
+      "sha256": "46ea56e9570be336d91f6ee16d3bdfdabf401955393fa55c30b1712356e7f1db",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص057 - تطبيقات قانون أوم في دوائر التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 58,
+      "legacy_page_id": "4fb4f4e0-aa81-4449-9f6b-bd2dcd15aa38",
+      "sha256": "dfefe40cf62df91339928265bc71ec7ad9ec9c10e1bbc54d18da6db27978e982",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص058 - تقويم الوحدة الثانية.webp"
+      ]
+    },
+    {
+      "page_number": 59,
+      "legacy_page_id": "6f0eaa75-e357-409a-99fb-4db36295d0cd",
+      "sha256": "63025f58be175e930aff2886e91ecfbf2206e20499cdbbe1fe2964d4d1326e41",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص059 - تقويم الوحدة الثانية.webp"
+      ]
+    },
+    {
+      "page_number": 60,
+      "legacy_page_id": "e4ed203d-131b-4c4d-95da-951ff530f2ec",
+      "sha256": "d8c4bcc96ca64069b272d88e91a368a6808e7f67d8d6192045c28660bfd6545e",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص060 - تقويم الوحدة الثانية.webp"
+      ]
+    },
+    {
+      "page_number": 61,
+      "legacy_page_id": "5304594d-0610-4c1a-a265-7cae03b52123",
+      "sha256": "cd7490ba89c1146eff5a3f4ac6dc20957917f83c885c498af5946d887081154f",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص061 - غلاف الوحدة - الإلكترونيات.webp"
+      ]
+    },
+    {
+      "page_number": 62,
+      "legacy_page_id": "8da54101-31e3-45e6-9a4e-557bed2f16aa",
+      "sha256": "1b47cc1f10e0ce06f6714d28a25a3930ae34246a60c35e3b8feefc21f9c0d705",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص062 - أشباه الموصلات.webp"
+      ]
+    },
+    {
+      "page_number": 63,
+      "legacy_page_id": "a9b53903-6c2f-47e7-b777-51088ee244cc",
+      "sha256": "1f56d415da48fe806348ab11e835c92e0ac228644d4adc94109274995e4d9a47",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص063 - أشباه الموصلات.webp"
+      ]
+    },
+    {
+      "page_number": 64,
+      "legacy_page_id": "bed03cb3-6c3e-4ba6-bc4a-176a0c169145",
+      "sha256": "c53d833e1db3c4b907e6d896811e9b45fa225cc5e07ed3148168014e469dc093",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص064 - أشباه الموصلات.webp"
+      ]
+    },
+    {
+      "page_number": 65,
+      "legacy_page_id": "861574fc-96d0-4322-94e3-58c115e01cbb",
+      "sha256": "f4971b21e1e7b8bcd9083dd24949163598b6c6fddf00ce5fbdfd975a998ec4cb",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص065 - أشباه الموصلات.webp"
+      ]
+    },
+    {
+      "page_number": 66,
+      "legacy_page_id": "7ee30fbd-466d-49b5-99c2-d8cb2a12e552",
+      "sha256": "8e8a7741c5abd01d4546a6da5e71ba52ad62ecd8cc6fa26522b70655b9958f37",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص066 - أشباه الموصلات.webp"
+      ]
+    },
+    {
+      "page_number": 67,
+      "legacy_page_id": "aaf1c5fe-6190-4d4c-90eb-c0cf6611a749",
+      "sha256": "09a9e43c58daa9c1f7fcc2b5f1582afa329f139433b73d9ab0dcde375a3832d8",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص067 - الوصلة الثنائية واستخدامها في تقويم التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 68,
+      "legacy_page_id": "31a9e863-11a2-4417-9ea4-05ee87e1671f",
+      "sha256": "454d983e72012bea06320ec212e5dc6b1fbd731737fe797411b6db3dcfd363cf",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص068 - الوصلة الثنائية واستخدامها في تقويم التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 69,
+      "legacy_page_id": "9e30e473-a1d1-48eb-95d5-a5ce733ec357",
+      "sha256": "ae46d1bcae08fbcc497e81892d29485ffad78a5fa2a5faed84ffd9aacd6766d1",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص069 - الوصلة الثنائية واستخدامها في تقويم التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 70,
+      "legacy_page_id": "3140ddc4-e6ee-4c07-8adf-09e6c7499c3e",
+      "sha256": "35686224160153bf60f1d20f055404a42e4dcc7a4de8bfe27a88db909ed2d9e6",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص070 - الوصلة الثنائية واستخدامها في تقويم التيار المتردد.webp"
+      ]
+    },
+    {
+      "page_number": 71,
+      "legacy_page_id": "fd7389d9-1d72-412c-a20a-4381ed9f52a6",
+      "sha256": "607f33f8cb16e7b8246e3d07a4cfe60593134052db1a63932d28b02174c5f7b4",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص071 - الترانزستور واستخداماته.webp"
+      ]
+    },
+    {
+      "page_number": 72,
+      "legacy_page_id": "86930a46-4cbc-47c1-8d82-b7eed3061e4c",
+      "sha256": "f2d64e25dfa2ee3a287d2eb98b26a5b1dc0fa064144eacf45794615f9c90d9cf",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص072 - الترانزستور واستخداماته.webp"
+      ]
+    },
+    {
+      "page_number": 73,
+      "legacy_page_id": "35fd4d1b-a7dd-493a-8ad3-453f2e6f4682",
+      "sha256": "c047d5ace3dc4c4ab40f87476a688620c6168d240db0b002fa501a706fea6d69",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص073 - الترانزستور واستخداماته.webp"
+      ]
+    },
+    {
+      "page_number": 74,
+      "legacy_page_id": "26801333-c9f1-4e2c-8166-0c3e27fbb64d",
+      "sha256": "cfe4b1b84531850ba3de089c3b8d1d7b2a8d8b154f023842aecfa5a51b41177e",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص074 - الترانزستور واستخداماته.webp"
+      ]
+    },
+    {
+      "page_number": 75,
+      "legacy_page_id": "9c204818-e16b-404f-8956-6c6eaf5e86b9",
+      "sha256": "484d624cc6a83e3c46758098a9757e14fb619767f6a2e855cfdb7f2a019782e1",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص075 - الترانزستور واستخداماته.webp"
+      ]
+    },
+    {
+      "page_number": 76,
+      "legacy_page_id": "1695a41e-e7fe-42b1-8d1e-2f9be48bce64",
+      "sha256": "182621d6211868558452f8d9a0d5c77e2ba6683e7b9e1cda593a2f04a53f917e",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص076 - الترانزستور واستخداماته.webp"
+      ]
+    },
+    {
+      "page_number": 77,
+      "legacy_page_id": "299a25a1-fba3-4134-8fe4-b17407edaafb",
+      "sha256": "bbca58b642b628b8138b85a230d045e71cdee019d55bef7ab4724d27227e6e12",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص077 - الترانزستور واستخداماته.webp"
+      ]
+    },
+    {
+      "page_number": 78,
+      "legacy_page_id": "2c03e5ac-c5d6-439a-a528-cb2f9b903335",
+      "sha256": "8e45246725cd74fe815d4c898fd5f14460feace4e4134ed652cb623fd4a1cd0d",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص078 - الترانزستور واستخداماته.webp"
+      ]
+    },
+    {
+      "page_number": 79,
+      "legacy_page_id": "3d2f5d90-4e67-435b-92bb-0a550ab2779d",
+      "sha256": "40a253c3fbaecfd20095eb2c53f3016bf99d1354fd208dc0acd632db995017c3",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص079 - الترانزستور واستخداماته.webp"
+      ]
+    },
+    {
+      "page_number": 80,
+      "legacy_page_id": "7765e27b-6f51-492e-a0b6-20906eb07487",
+      "sha256": "72e80c1af89c8d05dcb4ccc147365c7bc2f1931a08734b058aac4f3fbcad76cd",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص080 - تقويم الوحدة الثالثة.webp"
+      ]
+    },
+    {
+      "page_number": 81,
+      "legacy_page_id": "a5bc77b6-b49e-48c7-88c2-6cab428cec7d",
+      "sha256": "1dfe7e090abdb9199ebe3509869c85793ad99e8660a56aa12b25015a695b8548",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص081 - تقويم الوحدة الثالثة.webp"
+      ]
+    },
+    {
+      "page_number": 82,
+      "legacy_page_id": "351111a3-dc3f-477a-98f9-ef4d0e87ae87",
+      "sha256": "f571aab24eaccb7387c3038127f2ec3ba96c5067d537bd92cbe940899ab072f4",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص082 - تقويم الوحدة الثالثة.webp"
+      ]
+    },
+    {
+      "page_number": 83,
+      "legacy_page_id": "6ecc3cd2-f97d-434c-900d-727ead18a7d0",
+      "sha256": "c1166890722421fa30c48dcdb3480e8110a26acad2cdc6d1cee5fee82e9b2913",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص083 - تقويم الوحدة الثالثة.webp"
+      ]
+    },
+    {
+      "page_number": 84,
+      "legacy_page_id": "a914aef6-aedf-4fb8-8f7a-61275ca1b871",
+      "sha256": "f6b5bd4f07852ef24afa313de45ca7ca42d67940caeadda3332ae4304e7975c1",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص084 - تقويم الوحدة الثالثة.webp"
+      ]
+    },
+    {
+      "page_number": 85,
+      "legacy_page_id": "37c52216-dc46-49b4-8c56-ee3792646b3b",
+      "sha256": "350fe2a2e2bd8becec0d5ac5415c04f5206c42eaea5455be4af745f41b4d60a5",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص085 - غلاف الوحدة - الأجهزة الإلكترونية.webp"
+      ]
+    },
+    {
+      "page_number": 86,
+      "legacy_page_id": "17162c5b-56d8-4c62-a9e9-1810c7c66d3e",
+      "sha256": "daa14ba8de4164b57ce5e8ac6f9c1461c2c83ce9a43950b7d77eea4817a73f66",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص086 - التوصيل الكهربائي في الغازات.webp"
+      ]
+    },
+    {
+      "page_number": 87,
+      "legacy_page_id": "e4ece44f-1a94-4679-b80e-dddd86c57c3c",
+      "sha256": "a7fdf7617f4c0ca4eb84f45a2934bac500b2e88e752a9e2b1fc5e4cea8aa2117",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص087 - التوصيل الكهربائي في الغازات.webp"
+      ]
+    },
+    {
+      "page_number": 88,
+      "legacy_page_id": "c25efa29-1fdf-411c-93da-ea67a8c1f3de",
+      "sha256": "9569d786aeb372cc852304a5a31598cf51fad5fd9c34372c3721fdd713ed73e0",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص088 - التوصيل الكهربائي في الغازات.webp"
+      ]
+    },
+    {
+      "page_number": 89,
+      "legacy_page_id": "a6972534-0159-4c9c-8885-868eeef0e641",
+      "sha256": "a97e59b1973e018886a5610cabf07d687b812e4f8d7f173215ced74b9982c13a",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص089 - أنبوبة أشعة الكاثود.webp"
+      ]
+    },
+    {
+      "page_number": 90,
+      "legacy_page_id": "2072ac94-bf3e-4045-92dd-f6bfeda63d9a",
+      "sha256": "b14e5b17aa2b31b6a2770b31e3ce6b6415af32de21ef52a7133669db2e65c822",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص090 - كاشف الذبذبات (الأوسيلوسكوب).webp"
+      ]
+    },
+    {
+      "page_number": 91,
+      "legacy_page_id": "2d852e49-e85f-4fdc-afc1-cb76351781ee",
+      "sha256": "31124b3c40bb57539afb8fda6304d1d39479d296d0f18c1cafd1dbaa5bdb4f42",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص091 - كاشف الذبذبات (الأوسيلوسكوب).webp"
+      ]
+    },
+    {
+      "page_number": 92,
+      "legacy_page_id": "82b8a19f-3620-42ae-bf35-729463c58f0c",
+      "sha256": "50be8670dbdc69293291d03eb61082f0346aeef80a3a828172cb63512550cc2a",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص092 - الرادار.webp"
+      ]
+    },
+    {
+      "page_number": 93,
+      "legacy_page_id": "e9c06337-0811-41b6-b084-4fdb5c252374",
+      "sha256": "4727bf903a053c526a61fb5c362f8c57623c0451abb304bcce5d85096a2915fc",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص093 - الرادار.webp"
+      ]
+    },
+    {
+      "page_number": 94,
+      "legacy_page_id": "cbddf93d-032d-4dec-86e0-54ec5827807c",
+      "sha256": "6db047f72cfee9b2c469c61a584ce1a3fc01239c72a83398cc2057dd6ac4f513",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص094 - الرادار.webp"
+      ]
+    },
+    {
+      "page_number": 95,
+      "legacy_page_id": "3f1e9232-1646-49a8-8594-b324ad42cfb0",
+      "sha256": "eb78cb1a0df444b32d2edb26e69977159a0035117c5e0f03fb8b41079cd2e4dc",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص095 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp"
+      ]
+    },
+    {
+      "page_number": 96,
+      "legacy_page_id": "3926fbe5-7c24-47ff-9050-864ad56462ca",
+      "sha256": "f1c3a6a4d532c8b673b73f1e9f1f9a7349fa4a6da2eba7152117a26cef1539f6",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص096 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp"
+      ]
+    },
+    {
+      "page_number": 97,
+      "legacy_page_id": "dd16b85f-4417-47af-bbd0-f0ee6ec48fa1",
+      "sha256": "1457ba196c9680af0db9d3de15aada6612a50a30eab43afc0529647cd44ab110",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص097 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp"
+      ]
+    },
+    {
+      "page_number": 98,
+      "legacy_page_id": "9e024449-5433-4a7d-bb4a-e9f41e41c523",
+      "sha256": "e11993005fd211c0e77332e0b395b2dd3a130e860c0e74ff4ba57dbb98303dae",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص098 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp"
+      ]
+    },
+    {
+      "page_number": 99,
+      "legacy_page_id": "3c7552c2-8952-47d3-91c5-153da858e30d",
+      "sha256": "a2c7a9a7b42ff5ef9003af4ce262489888a9a58b9379b932157e43bc8a8b77d4",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص099 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp"
+      ]
+    },
+    {
+      "page_number": 100,
+      "legacy_page_id": "90b5559b-319b-48e2-9f00-c7162bc0eaa3",
+      "sha256": "656deda4698021ea7852486a098973c05a8a8b3ea159ce34cded32b293d23016",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص100 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp"
+      ]
+    },
+    {
+      "page_number": 101,
+      "legacy_page_id": "1143c054-bb2a-4934-9ec5-a29f66011270",
+      "sha256": "9e56294f4c4ff4df886d07cf7427f3f20d1722a5bb3275a9a2b034bd2318307b",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص101 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp"
+      ]
+    },
+    {
+      "page_number": 102,
+      "legacy_page_id": "cbd6e848-3665-43b0-87da-4251fb09f1f9",
+      "sha256": "bc58b38c06656c8fe1e00f2ccc642f4039edf224f6e21e2f0d3ec5fb6a947679",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص102 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp"
+      ]
+    },
+    {
+      "page_number": 103,
+      "legacy_page_id": "77c4f39e-aac4-47a4-93ed-b6de688131de",
+      "sha256": "a566a56a2899c5ac75e2e98a37edf26cad3cfc8f7aa6da6c4ea0f4810f29e792",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص103 - التلفاز - إرسال واستقبال الصور.webp"
+      ]
+    },
+    {
+      "page_number": 104,
+      "legacy_page_id": "34aafd1c-b9bc-4acf-bf1c-bba5f221aea6",
+      "sha256": "a9f3a5ad37e9751f9455dcb2c71fc4ca19cc8de1d8a30b979cd84da4d93b56d9",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص104 - التلفاز - إرسال واستقبال الصور.webp"
+      ]
+    },
+    {
+      "page_number": 105,
+      "legacy_page_id": "93d592a2-c654-444b-a3f6-864266e4dfb2",
+      "sha256": "046dd0bd85b16e88bf8224653f2ef3ed0a8f701d3bc50c8da7eaa050698b42c6",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص105 - التلفاز الملون.webp"
+      ]
+    },
+    {
+      "page_number": 106,
+      "legacy_page_id": "5c8f6189-e34f-4429-934e-4feb33d35539",
+      "sha256": "12794ac8d0ab0786ab6cbc7f795e1f078eee31d764102312afb61ef40fe5e9fc",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص106 - التلفاز الملون.webp"
+      ]
+    },
+    {
+      "page_number": 107,
+      "legacy_page_id": "f4a4c16f-dcf8-4a8e-a1d8-093ccc345698",
+      "sha256": "03ed64191b7de7cb119f9c15686df2b0215bddce1db3a98f2deee25d1a0047f7",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص107 - تقويم الوحدة الرابعة.webp"
+      ]
+    },
+    {
+      "page_number": 108,
+      "legacy_page_id": "25ecf362-187d-403e-9a95-25a57ab202b5",
+      "sha256": "7e99161e12547af6e6f9095ee4cc2dfd97c4364987964eb8c9906a04ac13782d",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص108 - تقويم الوحدة الرابعة.webp"
+      ]
+    },
+    {
+      "page_number": 109,
+      "legacy_page_id": "df83ebf2-2a12-4dcc-9a06-6044d0e54dd0",
+      "sha256": "625176200f59150fb0a3c8ae0bfcd6148b3a5315ad706a009f320cfb70540c12",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص109 - تقويم الوحدة الرابعة.webp"
+      ]
+    },
+    {
+      "page_number": 110,
+      "legacy_page_id": "8db5a2e0-fccf-40e9-af26-0a774d3f4daa",
+      "sha256": "9da63c1eb99f6a5b6f71ad8edcd6aa4aab684d6e0af1bcf859a87d21e19089e4",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص110 - تقويم الوحدة الرابعة.webp"
+      ]
+    },
+    {
+      "page_number": 111,
+      "legacy_page_id": "5b1f07a1-92f8-4329-8161-25f4b90385e4",
+      "sha256": "92f6fa0ad217e184bef74cd34baee2fbed3e5a4590369158e546cfa4893f9b12",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص111 - تقويم الوحدة الرابعة.webp"
+      ]
+    },
+    {
+      "page_number": 112,
+      "legacy_page_id": "cff65ea1-9dec-4a01-96ac-a6ad1aae66a4",
+      "sha256": "fb20bf3b9f0bf5a7a11211f6f45b4fb1c28c6fd9e48c33d2c67417642385f8c9",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص112 - تقويم الوحدة الرابعة.webp"
+      ]
+    },
+    {
+      "page_number": 113,
+      "legacy_page_id": "f51633d7-f2d1-4cc9-a911-8d114f7a6fc8",
+      "sha256": "93b4cc99195f84016d7b59a79986eff8a4bb9f286f1fc0e531c4d5f79edb4447",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص113 - تقويم الوحدة الرابعة.webp"
+      ]
+    },
+    {
+      "page_number": 114,
+      "legacy_page_id": "c97a714e-42d5-4471-afab-e68ffc9fcf4f",
+      "sha256": "3c173b3fb49f7ff34e714158738333bfe328aa62fa945164dcc71b66996b252a",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص114 - غلاف الوحدة - الفيزياء الذرية.webp"
+      ]
+    },
+    {
+      "page_number": 115,
+      "legacy_page_id": "268122a9-4be1-42b3-bde4-d1512de9c309",
+      "sha256": "f3703b57369628ca5006a2717778ace4c73c307b2681107805b90ad4e3113938",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص115 - نظرية دالتون الذرية ونموذج طومسون.webp"
+      ]
+    },
+    {
+      "page_number": 116,
+      "legacy_page_id": "9a884a15-40e6-45a7-9dc1-146eb4b4d6b9",
+      "sha256": "1123de425a14ee5a11911103bbf956f5592e5d7004188d8927edab79d1f508e4",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص116 - نظرية دالتون الذرية ونموذج طومسون.webp"
+      ]
+    },
+    {
+      "page_number": 117,
+      "legacy_page_id": "ad39913e-4db2-4d47-8c05-03a22d79de08",
+      "sha256": "5a4619d5cb38d6952859f0de49e046208b73b9fedd5e19cb45d901b816aeef9a",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص117 - الأطياف الذرية وطيف ذرة الهيدروجين.webp"
+      ]
+    },
+    {
+      "page_number": 118,
+      "legacy_page_id": "e9f77c6d-3b48-4942-8e60-921232a1480a",
+      "sha256": "039f598fae1ff8699f5b44ce307af91a3e1004122eb74da2ea305aa8bde4b6dc",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص118 - الأطياف الذرية وطيف ذرة الهيدروجين.webp"
+      ]
+    },
+    {
+      "page_number": 119,
+      "legacy_page_id": "afa47d76-1daf-4945-89e1-0348d2300559",
+      "sha256": "5811e68f27f43b120aaa815dfed17e9a83a29f09e709cf0a33e857154a515a6c",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص119 - الأطياف الذرية وطيف ذرة الهيدروجين.webp"
+      ]
+    },
+    {
+      "page_number": 120,
+      "legacy_page_id": "3dbbdfcf-afe9-4979-8e30-23486d3818be",
+      "sha256": "ba0a59cbd5edc042be7a90cb74104896ce7d62a4892e708507d050e93835e312",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص120 - الأطياف الذرية وطيف ذرة الهيدروجين.webp"
+      ]
+    },
+    {
+      "page_number": 121,
+      "legacy_page_id": "4cd60f5f-ae1a-49b1-83d7-8e4a3d688bc2",
+      "sha256": "7bea8f887e36719571ee57d09ff928f3d7a914727840824eea1f9cd9f2255b4c",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص121 - نموذج رذرفورد.webp"
+      ]
+    },
+    {
+      "page_number": 122,
+      "legacy_page_id": "308acd2c-cf97-446b-9669-2cc28737b978",
+      "sha256": "751e025eab8168092716037aa9ff2e7ccb9fb2099bd01f23704d891cd499c821",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص122 - نموذج رذرفورد.webp"
+      ]
+    },
+    {
+      "page_number": 123,
+      "legacy_page_id": "ad8a7b78-76e3-421b-8fd7-64defeff0764",
+      "sha256": "4572944f5303b60ca99a4a2570ea4d9b80d4283c37aca150485978b1133c0b45",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص123 - إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 124,
+      "legacy_page_id": "a18491bc-f7e1-4a69-b9fa-b31060d72bc3",
+      "sha256": "fc9d3460d57f390ad3683f1cab333516f466be972a232e498ee65fd67710e180",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص124 - إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 125,
+      "legacy_page_id": "35903eed-6382-4ffa-9a3e-69c97de3162f",
+      "sha256": "a8738443abace22e6c732bcfa8db323d33051d3b6b69187dce269efe186b9cab",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص125 - إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 126,
+      "legacy_page_id": "dc23eeb1-bd44-4c45-a547-3f217f338a10",
+      "sha256": "692f91bfbde42a17bf9d42c69ab84f0a2fb9099e53f7ae468d697bb57e1ec20c",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص126 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 127,
+      "legacy_page_id": "536afbb0-4567-48f7-a69b-cafd2bdcc341",
+      "sha256": "d2b537c5aa2a12d9b2cac885a11b205ba86154031cb3a859791cd4ad5295309a",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص127 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 128,
+      "legacy_page_id": "c9a1771b-df5a-4b3d-b563-0b9513ebe82c",
+      "sha256": "e0b6d970ffded49f3561693618f5327ff91caa2c1de6d86f24cabdaf7c464d3d",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص128 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 129,
+      "legacy_page_id": "c501a62e-21a5-4df3-a0ab-eaed2b0ae96b",
+      "sha256": "87f46fa1d87f890f1d5ab5ffb6361aa66265477fed5c9cd85c522ed9eb55dbd5",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص129 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 130,
+      "legacy_page_id": "dc1c450a-5c48-4f36-ab9e-6646ebdb70c4",
+      "sha256": "3796a06cc00a790b2201b957e76c156f525b0e13e259912b0793ae994a63ba55",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص130 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 131,
+      "legacy_page_id": "b7935a0a-5495-40e4-a0e9-7b2ae81cd30d",
+      "sha256": "b8ea22d8d49a2c134e1754935ba171c39d923d8659e95753c9eb5c2a19220f59",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص131 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 132,
+      "legacy_page_id": "35dd7ae2-efb2-4e3c-9b91-34fcc48bf46b",
+      "sha256": "c1c4f54f2070563fe6b57f5e56340f842c5f3f2a255652305cd18bc152c378ed",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص132 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 133,
+      "legacy_page_id": "6b56862e-3a62-47de-8c29-7ee23e4ec34c",
+      "sha256": "186a37f53f2b0f4ab755a922ae6e831c8f9623af652347d66a78cbb2e7b8e4eb",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص133 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 134,
+      "legacy_page_id": "ce0e6563-f866-4940-9b72-1dc92262b478",
+      "sha256": "6c343d34cde26d35abdf6aaf321833758d0aaa5fc4d767df8f0bd7ecec8e839e",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص134 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 135,
+      "legacy_page_id": "132ffdd0-d945-4486-b74e-a1c08814e84b",
+      "sha256": "cce7df0fd8a508f49d3388d53b1eaa12e1908e05a6d7432e8327910c5b0e9973",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص135 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 136,
+      "legacy_page_id": "15cf21c6-18d1-46e6-9825-e7587322ff96",
+      "sha256": "d7e45b02d986ff41ea3c8fd59eca5eb2eef9f82d245a0a217ce5fb74a913bb85",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص136 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 137,
+      "legacy_page_id": "d4e1ca7a-c4b7-431c-bcb0-fd7840254ac9",
+      "sha256": "f6aba434289a294565fce8ef1aa1d05b8e33924eb9141016c3023d825d5640fa",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص137 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 138,
+      "legacy_page_id": "446bdea1-7c4b-4425-99f4-d4dbdcf0675a",
+      "sha256": "9909ad42368e624bbc79e817ee79b595fa464facc2aa38eb52e7636c5a6b806f",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص138 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 139,
+      "legacy_page_id": "1f2d4e54-b362-4a05-974e-88b910330f6a",
+      "sha256": "ef57713e54bbb606cbdddfcb6f88562157692ef6fb42d88b6fc9ea6638bbb121",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص139 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 140,
+      "legacy_page_id": "3d93bff3-d79a-40a4-89b8-1aa0f79f3c28",
+      "sha256": "e518c899c84af41177827c07f35f55527fe71536bb08ee1193c427d54afe7aa8",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص140 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 141,
+      "legacy_page_id": "f1a1bcac-f1bf-43d0-bab1-f20a2241ee2a",
+      "sha256": "225ccd465024f82d10e902dd0ad61ed4ccef1f28ec0c966268f7cb08009de6e2",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص141 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp"
+      ]
+    },
+    {
+      "page_number": 142,
+      "legacy_page_id": "f2035a87-2ffc-4855-8cbd-f7d105bfd937",
+      "sha256": "eecd58701a154c00611160ded082d6158b47407998feb07dbfc5cda48f622faf",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص142 - تقويم الوحدة الخامسة.webp"
+      ]
+    },
+    {
+      "page_number": 143,
+      "legacy_page_id": "e83e22eb-d193-4323-907a-77428a2e759d",
+      "sha256": "c3970bb45afc064a6dafa5c791b8c4533e7f7092a7fa0cf1cc6053488fbad317",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص143 - تقويم الوحدة الخامسة.webp"
+      ]
+    },
+    {
+      "page_number": 144,
+      "legacy_page_id": "94d2e064-20cb-4900-8821-60ce7c405277",
+      "sha256": "e371395cd0ea3b46b75bb24f6e9b5acde2140d0548247c480366f57c4115eda3",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص144 - غلاف الوحدة - الإشعاع والمادة.webp"
+      ]
+    },
+    {
+      "page_number": 145,
+      "legacy_page_id": "d0d35903-15ef-4436-913d-a2fa66fce2d0",
+      "sha256": "7ce049257c864b8c4fb437a153537cd912d8811067b3d47a976c94525301a023",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص145 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 146,
+      "legacy_page_id": "b74feef7-f0dc-4802-bf58-1fb87f4813e1",
+      "sha256": "ec27a47f79317c16191f8c8cd335b445a0c273d2e2b555cdcd4c6edd392cbb14",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص146 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 147,
+      "legacy_page_id": "304cec62-f902-4ea8-b492-687313a831c8",
+      "sha256": "7bc1c575a166fa0487290ee44caab0bfd401879dc9b4c0c75cc76f3a2f4c6d72",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص147 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 148,
+      "legacy_page_id": "3fc40c3d-e67e-4b71-92a2-16975e28d601",
+      "sha256": "a35a33a5bbe0456cefec0a49b8f88c6c5df1d7790665e50bafcfe883f50f15d2",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص148 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 149,
+      "legacy_page_id": "07894a9f-4512-43e1-8dee-f0898707f21e",
+      "sha256": "a3b235aea5c5d58e50ebcbfc2d9f4d5bc1f17f8537afd41c61437ed42936e29c",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص149 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 150,
+      "legacy_page_id": "9ed432a1-7a41-4225-8fab-bd1958c87254",
+      "sha256": "8a487ffcd5d304e27b418fed8f09a5450ef281e02ef2d28513fad8886c8f72fd",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص150 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 151,
+      "legacy_page_id": "07f01592-6e7b-4b3f-b255-34dbf1323206",
+      "sha256": "528aba516d25bc5ddf7a2aebd777efa92520fc0dafe0099aa5640e2c199f573f",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص151 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 152,
+      "legacy_page_id": "72872974-0b13-4ba7-b55d-12d7436c3e28",
+      "sha256": "9dccb61a7e30418728a506f1df9c040ec5d11b0ddd4b4f705abf3cfc84f957bb",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص152 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 153,
+      "legacy_page_id": "22285e7b-8837-4e2f-a296-5d36916a0716",
+      "sha256": "c0da58961da2862c98b4c8bbfb79ea72314225556f352742ed80e6ab4f295e18",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص153 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 154,
+      "legacy_page_id": "64315b5a-ff92-40a1-8d26-fa39a2ff80d7",
+      "sha256": "f094505d650fd0ad44f07a7538d295c8dfa0e07d406b1b16f6c4858def92d6d5",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص154 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 155,
+      "legacy_page_id": "e04e0ab7-166e-41ef-81cc-74b798317a60",
+      "sha256": "11a3efacff13bc89cbab7ec20296ec71b98373c0302ac37bdac08dfadaf9d20f",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص155 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 156,
+      "legacy_page_id": "2b1c71ad-f795-4715-8eee-4ba61fba442c",
+      "sha256": "30c67dcab672da3407b205b9cc1075fec8362651049bbc58f39bd2954665205e",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص156 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp"
+      ]
+    },
+    {
+      "page_number": 157,
+      "legacy_page_id": "3c5e5e15-fa4b-4226-b959-acf1717f06b8",
+      "sha256": "6498a7e393cbcb9799775a741ac4170f56e1a65cc002a0a38432d3639b9c88a4",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص157 - الأشعة السينية.webp"
+      ]
+    },
+    {
+      "page_number": 158,
+      "legacy_page_id": "ba97106e-d22f-422d-a4dd-8be1d71e7a2d",
+      "sha256": "0a80140051fb033a5692c0a71174c18b08499b0728c90a56c7e6f1d0fcec3268",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص158 - الأشعة السينية.webp"
+      ]
+    },
+    {
+      "page_number": 159,
+      "legacy_page_id": "87fb7407-4fce-45d2-a38c-55b3b1df08df",
+      "sha256": "1a0e3f073bf213c4d7def3b91fee2979accb6aa6030c91962329e8614e319803",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص159 - الأشعة السينية.webp"
+      ]
+    },
+    {
+      "page_number": 160,
+      "legacy_page_id": "cff8de8c-0f79-4d7d-9ac0-d6bc5d3865f7",
+      "sha256": "b273be557c54f9f55c7b2a248fc85d168bd5b86fc48d76f9de974fa785cfa959",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص160 - الأشعة السينية.webp"
+      ]
+    },
+    {
+      "page_number": 161,
+      "legacy_page_id": "86fe1794-62b9-4130-98e7-5b82a040441e",
+      "sha256": "00c8da346d219c9c6b2db67a228f362e3bffb4d1c49f71fed7a2146ccffcf8a3",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص161 - الأشعة السينية.webp"
+      ]
+    },
+    {
+      "page_number": 162,
+      "legacy_page_id": "bd162950-26f6-4d93-bc0f-929bbd6513b5",
+      "sha256": "a49501e515596eb4512d20ed2b36a7e7a2a97a0cf17953b83509606dc3ca3a7b",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص162 - الأشعة السينية.webp"
+      ]
+    },
+    {
+      "page_number": 163,
+      "legacy_page_id": "e635b5ee-8c23-40a2-af0f-7f759372b78c",
+      "sha256": "a4ba6af55e309502e67342ff92741d342b25da1e7bf838e159722e5af84595f2",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص163 - الليزر.webp"
+      ]
+    },
+    {
+      "page_number": 164,
+      "legacy_page_id": "69ff53c2-bcd5-4659-97a8-fc214e9d6ca2",
+      "sha256": "1baf021781d8e2c17269c38389ced51775936b5aa1ac1a46133eb7d80c85e2d6",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص164 - الليزر.webp"
+      ]
+    },
+    {
+      "page_number": 165,
+      "legacy_page_id": "bdf5bb59-3c92-4c66-a9c7-28764810d012",
+      "sha256": "c241c98df600298a555dda87f70893384d977d34b66473cb6f53a0d0e8172cb3",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص165 - الليزر.webp"
+      ]
+    },
+    {
+      "page_number": 166,
+      "legacy_page_id": "9aaad413-b30a-441f-81ed-c4c99789fd7e",
+      "sha256": "575b898cb556f7869d4047b0caf4e9f83741be97490014d9b62f02ae082e2ad7",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص166 - الليزر.webp"
+      ]
+    },
+    {
+      "page_number": 167,
+      "legacy_page_id": "75e97b8c-39a7-4a5d-b4a5-6d23aabb2ff3",
+      "sha256": "1ba02eefa8eea97551625535627d75e87c5ad6cb581e0a510edb3a37d272a769",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص167 - الليزر.webp"
+      ]
+    },
+    {
+      "page_number": 168,
+      "legacy_page_id": "948057d5-9926-4488-adb8-f060a4f1d8c3",
+      "sha256": "29b348e90890b8e0467ef9ec5fb9a0fd001e9d1d3227c160f89a0a5180b6933f",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص168 - الليزر.webp"
+      ]
+    },
+    {
+      "page_number": 169,
+      "legacy_page_id": "b552b372-bdba-40b6-9000-5697f20b25a3",
+      "sha256": "a326f4ee3d00c7a789ad755450ce60159dc81c9ef1c628ecd45d422d24fe3ae4",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص169 - الليزر.webp"
+      ]
+    },
+    {
+      "page_number": 170,
+      "legacy_page_id": "26e191ad-f9d8-45e3-a069-9bf0dcdf4a33",
+      "sha256": "a710ae7373148f58fb7e81547546322933a2c5b5e21fa7dc0b4d877b4ee77eba",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص170 - الليزر.webp"
+      ]
+    },
+    {
+      "page_number": 171,
+      "legacy_page_id": "eb709e90-72e1-4011-acb1-6ff25d65dda8",
+      "sha256": "371686957cd48467b96e0ea9f24172c9d1194ea0875b1141d05a54c96e22c01f",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص171 - تقويم الوحدة السادسة.webp"
+      ]
+    },
+    {
+      "page_number": 172,
+      "legacy_page_id": "1c911da4-e7e4-48fa-9904-74e05595d159",
+      "sha256": "ac71a2a5d791355e728ecf9fdcb09bf1607715560482606a7498a1d81e35abaf",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص172 - تقويم الوحدة السادسة.webp"
+      ]
+    },
+    {
+      "page_number": 173,
+      "legacy_page_id": "a8118623-bb8f-48b0-99e8-a7dfba3c4ad0",
+      "sha256": "4e55799b694dcfa64639aa302ca0ceb8dca3ac9af7863e9780a091585c9dc744",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص173 - غلاف الوحدة - الفيزياء النووية.webp"
+      ]
+    },
+    {
+      "page_number": 174,
+      "legacy_page_id": "a1906fbb-c30c-4e73-85b6-2c4a10df71f1",
+      "sha256": "718bee235a5dbb78374eead43f585700bc6b0225dc93d1ad1bd0b03385693713",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص174 - تركيب النواة والنشاط الإشعاعي.webp"
+      ]
+    },
+    {
+      "page_number": 175,
+      "legacy_page_id": "ffd8607e-d153-4a65-a484-9a8b0c6d81fb",
+      "sha256": "151a33d27fb4866cfacf8487b3248ef3650a8b14263bcd60c86bab1441b6df95",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص175 - تركيب النواة والنشاط الإشعاعي.webp"
+      ]
+    },
+    {
+      "page_number": 176,
+      "legacy_page_id": "1f79c931-1ea4-4318-a30c-345df3d943a2",
+      "sha256": "5528d696e6b6ff1afe6ca2cede88d6be62d07d9f97c8675f4de070bb62357632",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص176 - تركيب النواة والنشاط الإشعاعي.webp"
+      ]
+    },
+    {
+      "page_number": 177,
+      "legacy_page_id": "30c9ce54-5159-4aea-bfd2-0e6e6942fa3b",
+      "sha256": "918321d9803a94ca69f04ca02d9a6dac74c2691f152fc4d3c007b9cba2f37f07",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص177 - تركيب النواة والنشاط الإشعاعي.webp"
+      ]
+    },
+    {
+      "page_number": 178,
+      "legacy_page_id": "a9d87ceb-6fb1-4105-954a-97de6f73d6b0",
+      "sha256": "7f8aabd5ce93fbee414eb5c2a1979ca1a129b1d66e9a420b29bf72d9a28d19dd",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص178 - تركيب النواة والنشاط الإشعاعي.webp"
+      ]
+    },
+    {
+      "page_number": 179,
+      "legacy_page_id": "17bb273c-7a23-4b03-951e-571a9484fd36",
+      "sha256": "ad647bb575791a54548a3d5393feebdad979f2f22d183a649ceb3558717bf252",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص179 - التحلل الإشعاعي وعمر النصف.webp"
+      ]
+    },
+    {
+      "page_number": 180,
+      "legacy_page_id": "505def3f-1eaa-4e58-afb3-7e3f1f0eda4b",
+      "sha256": "ae3dbdf9b13be86f7603ad04b3ec1a644d476f9385fb2e28db3fdc78788537bb",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص180 - طاقة الربط النووية.webp"
+      ]
+    },
+    {
+      "page_number": 181,
+      "legacy_page_id": "4962482c-8620-43b1-88d3-234461e611b8",
+      "sha256": "1cb5115521394ae0d2f7f7780936c64683e9ac04ad1ec97ea389679d9a596f17",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص181 - التفاعل المتسلسل.webp"
+      ]
+    },
+    {
+      "page_number": 182,
+      "legacy_page_id": "5162e4cb-5837-45fd-864d-bff1e3e1e0d5",
+      "sha256": "05963b9e987b1faba274a5ffed7d40a3a15b67b0784845e3f3d61b76e9a20032",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص182 - المفاعلات النووية السلمية.webp"
+      ]
+    },
+    {
+      "page_number": 183,
+      "legacy_page_id": "1ed3950e-b560-4f21-909c-91e7f77d57cd",
+      "sha256": "0701bf528ad140b148ad2737403b07289281e42ae84138c99ef8667e5822a0d8",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص183 - تقويم الوحدة السابعة.webp"
+      ]
+    },
+    {
+      "page_number": 184,
+      "legacy_page_id": "72af8586-7c37-4404-94c4-949d1cf3ba1d",
+      "sha256": "8cb562bf3bacf5e74d099bae21efc4ebf0f593f00ac2af0c923892d3fca15d81",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص184 - تقويم الوحدة السابعة.webp"
+      ]
+    },
+    {
+      "page_number": 185,
+      "legacy_page_id": "d5e9ffd7-abf2-476a-860f-54a23aa94695",
+      "sha256": "60b16f2224e773aa267c9a79f7e79f45c06398a7f04208c6c93ef5bb708b6a81",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص185 - غلاف الوحدة - الطاقة الشمسية.webp"
+      ]
+    },
+    {
+      "page_number": 186,
+      "legacy_page_id": "163e5d34-2d42-4d4d-a513-39bf138c5c68",
+      "sha256": "06cc4bdb7adc8cf6477ffdfb58864551733a96ad9154fbaf46eb2e747baf1bde",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص186 - الطاقة والطاقة الشمسية.webp"
+      ]
+    },
+    {
+      "page_number": 187,
+      "legacy_page_id": "b3620f9d-f9c6-4a8b-b958-39dd7e899fa2",
+      "sha256": "28be7ae74e1397b3cfc2acb8770fb231c3890910d374d563a5ba9d871cbc0dea",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص187 - الطاقة والطاقة الشمسية.webp"
+      ]
+    },
+    {
+      "page_number": 188,
+      "legacy_page_id": "8e01b1ef-97a8-4f2c-8912-b72b3f531c17",
+      "sha256": "289668b6a472c9d7261066858dd9552b550d8d41e12fc8c967b7b437114dbe6c",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص188 - الطاقة والطاقة الشمسية.webp"
+      ]
+    },
+    {
+      "page_number": 189,
+      "legacy_page_id": "0b12b53c-7767-42f8-97e5-98344e260bd2",
+      "sha256": "dd1a3e14c181ed4aa550cec47a1625e5683ccf662171013c7f5a49b29b9e5330",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص189 - الطاقة والطاقة الشمسية.webp"
+      ]
+    },
+    {
+      "page_number": 190,
+      "legacy_page_id": "5ef52456-d7c5-4468-91fb-3d93447930ce",
+      "sha256": "ae8746467a6b417e44891811fff7fdf7de6edfadc0aff637256b887b82b49b02",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص190 - الطاقة والطاقة الشمسية.webp"
+      ]
+    },
+    {
+      "page_number": 191,
+      "legacy_page_id": "737f50cc-2ec1-4cbf-a7b5-98a147614413",
+      "sha256": "0979f5e738096c869723e5aafbecfc9b7de3f8c429b483ed80f830aa2bad7954",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص191 - أنواع الإشعاعات الشمسية.webp"
+      ]
+    },
+    {
+      "page_number": 192,
+      "legacy_page_id": "ea4e4ffb-7c55-4c30-85b4-2759cd6f96a5",
+      "sha256": "cc9d4a817f2ea94092cc31687ed523da382a4c9476c5400b36404e5750d7f0fe",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص192 - تطبيقات استغلال الطاقة الشمسية في الحياة.webp"
+      ]
+    },
+    {
+      "page_number": 193,
+      "legacy_page_id": "919e8368-9a92-4f1a-a27c-4984bd8a5609",
+      "sha256": "087cb19ec416b1deaad450f0c391c3eca660d4c8a21ee69e6ddbf57d80541563",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص193 - توليد الطاقة الحرارية.webp"
+      ]
+    },
+    {
+      "page_number": 194,
+      "legacy_page_id": "33214218-5978-4ec5-9ddf-89d9cd387b4f",
+      "sha256": "a2ff6000fde243493714e103e1564fa3e2b247df14f3bc4bc52022ea1995d896",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص194 - توليد الطاقة الحرارية.webp"
+      ]
+    },
+    {
+      "page_number": 195,
+      "legacy_page_id": "85f7490f-c717-4d86-a2e9-246e446f971a",
+      "sha256": "6e57bd61dbcf125e7ad00a8643c4c1b085e5052ba6659dae63e87ef862cfcb22",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص195 - توليد الطاقة الكهربائية.webp"
+      ]
+    },
+    {
+      "page_number": 196,
+      "legacy_page_id": "abd2e6f9-834f-4380-ae84-3d7b8bc1fc7e",
+      "sha256": "88a40a0aa64c952a10d3d078aa744ad2ce3d24c1a681da805017bc85fa079bee",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص196 - توليد الطاقة الكهربائية.webp"
+      ]
+    },
+    {
+      "page_number": 197,
+      "legacy_page_id": "54001064-c85f-4157-9a91-562f0e2af09d",
+      "sha256": "463708738de56616f2ee1c610d19ec4869aa6fa9d5ddf332748c536d0a9180f1",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص197 - تقويم الوحدة الثامنة.webp"
+      ]
+    },
+    {
+      "page_number": 198,
+      "legacy_page_id": "03764067-8a6e-41ce-ad9e-662e25063b9f",
+      "sha256": "3649fea64af023a41f254f80ba0fea1fc76068c6c07947413935630a55077fe0",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص198 - غلاف الوحدة - الفيزياء الكونية.webp"
+      ]
+    },
+    {
+      "page_number": 199,
+      "legacy_page_id": "95217faa-e5ac-43a2-a93f-95d608879635",
+      "sha256": "4480130ed60e5546842a8c9d832f36854d9674f622c9af70418f483fe8a27bea",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص199 - الكون.webp"
+      ]
+    },
+    {
+      "page_number": 200,
+      "legacy_page_id": "0139c21c-5a7a-4ec7-92e2-bf999b63f88c",
+      "sha256": "89ac46d74d37b180bb7be9879ccbdec7c18ba1c9f44804126f25698b816df424",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص200 - الكون.webp"
+      ]
+    },
+    {
+      "page_number": 201,
+      "legacy_page_id": "3e37ebcb-d74d-45ad-80d3-8be8ecc6028a",
+      "sha256": "e04dab74d101902a8ac169b020f4dcdc3c77c9b24968491b55f782eead772a39",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص201 - الكون الممتد.webp"
+      ]
+    },
+    {
+      "page_number": 202,
+      "legacy_page_id": "c0fb5ada-b65f-4f09-be87-06113bf2bd54",
+      "sha256": "4c6cd0bc03564493661406cbc0d0e93e424da0fbf9e741622f3d8981dea7f5b8",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص202 - المجرات.webp"
+      ]
+    },
+    {
+      "page_number": 203,
+      "legacy_page_id": "f7b44ad2-7326-4261-bcbe-e924f087a81b",
+      "sha256": "07a6267574e4ee4fefa9eca7d4346d80925eeb1adc4f71d52efd43004502d586",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص203 - المجرات.webp"
+      ]
+    },
+    {
+      "page_number": 204,
+      "legacy_page_id": "1c846eee-a210-4c3e-8a49-2353c316e32e",
+      "sha256": "30c8d96ba7576b166be8d7503f853c9156c1352e12a1d3312905b5f3941d7169",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص204 - المجرات.webp"
+      ]
+    },
+    {
+      "page_number": 205,
+      "legacy_page_id": "8969daf3-75da-44af-a6a7-46290430eab8",
+      "sha256": "dcbca22a2e7b61d4eb4e52e9b28daf1c461a222df2b91a64c1162eb72e5e55fb",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص205 - النجوم - نشوء وتطور النجوم.webp"
+      ]
+    },
+    {
+      "page_number": 206,
+      "legacy_page_id": "e476f24d-3b24-4cd1-8d86-a5f52de61dd6",
+      "sha256": "c14882ca2d57bede12aef60a2294f3e04c420c67233d44d114830049307acbaa",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص206 - النجوم - نشوء وتطور النجوم.webp"
+      ]
+    },
+    {
+      "page_number": 207,
+      "legacy_page_id": "b4e5aee9-ce66-4cde-a437-3a5f6aa2a7c7",
+      "sha256": "8975c5a6f20eb8344ef985be20935892cd7859e2ea7ed6aeea79403d6572cefc",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص207 - النجوم - نشوء وتطور النجوم.webp"
+      ]
+    },
+    {
+      "page_number": 208,
+      "legacy_page_id": "a088bf32-ebf1-4612-9097-1f19deb57fd2",
+      "sha256": "3dc976209f2fe71d65b25e420f601500cb25560e54ac1c276374990ceaf251d2",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص208 - المسافات بين النجوم.webp"
+      ]
+    },
+    {
+      "page_number": 209,
+      "legacy_page_id": "41cf1c3c-ac45-48fb-89e8-d2c7b03fd529",
+      "sha256": "d29878c7d7f65a1c423d78dea0e387eb89e969f9da62c658861db43345d3c8f4",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص209 - المسافات بين النجوم.webp"
+      ]
+    },
+    {
+      "page_number": 210,
+      "legacy_page_id": "19eceb81-d835-441f-ab89-bcd367fb991d",
+      "sha256": "207d6692c22d34244020c81d640dffc07923dad612ed325cc9420d54d4b86d53",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص210 - تقويم الوحدة التاسعة.webp"
+      ]
+    },
+    {
+      "page_number": 211,
+      "legacy_page_id": "5f8231dc-2640-4f5c-bfdc-8e2cbfed7012",
+      "sha256": "5a4d7cdf9c114c8f98577eee7254a85f9ac848324fed56c58ae8b87a8949607c",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص211 - قوائم المصطلحات.webp"
+      ]
+    },
+    {
+      "page_number": 212,
+      "legacy_page_id": "60230b32-31bc-4e1a-9632-561bc2da9cfe",
+      "sha256": "5267f8f52a93ab5b7b39b54e70da537fcd07bfc737dfe7a2b3ba556e95824738",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص212 - قوائم المصطلحات.webp"
+      ]
+    },
+    {
+      "page_number": 213,
+      "legacy_page_id": "df4bc5ec-5ce9-41f6-a118-784e4640a914",
+      "sha256": "aff124d04aca5e9975831da3ffe966ccfce0093bd194f3f4864380e0140c4dcf",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص213 - قوائم المصطلحات.webp"
+      ]
+    },
+    {
+      "page_number": 214,
+      "legacy_page_id": "dad781a9-ee3b-4f17-850f-b75a00dea295",
+      "sha256": "e225cf644763eaa40a6ef245ecd1c7c1c349fe99f0a2c3c786caacd4d802649a",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص214 - قوائم المصطلحات.webp"
+      ]
+    },
+    {
+      "page_number": 215,
+      "legacy_page_id": "2904ad70-bc82-4933-beb9-ab65222011ed",
+      "sha256": "c75d81fd980c98dbe1a6423dfd1f945b15cbfc57a8e9ef040272a8491281569a",
+      "master_exact_sha_paths": [
+        "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص215 - قوائم المصطلحات.webp"
+      ]
+    }
+  ],
+  "page_labels": [
+    {
+      "page_number": 9,
+      "legacy_page_id": "23481fa0-f6df-4d50-b14c-72a7dcea3f75",
+      "label": "غلاف الوحدة - كمية التحرك والمقذوفات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص009 - غلاف الوحدة - كمية التحرك والمقذوفات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 10,
+      "legacy_page_id": "24d66b9e-9ae4-4fa1-af01-044466b89f18",
+      "label": "كمية التحرك والتصادم في بعدين",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص010 - كمية التحرك والتصادم في بعدين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 11,
+      "legacy_page_id": "5cf77f65-badf-4a9e-80d7-b34b8bb4ca76",
+      "label": "التصادم في بعدين",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص011 - التصادم في بعدين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 12,
+      "legacy_page_id": "4a0d2a28-a927-44d3-a818-80926b1dbfcf",
+      "label": "التصادم في بعدين",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص012 - التصادم في بعدين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 13,
+      "legacy_page_id": "d574a0c3-64fe-4024-b75e-1e074bc5001e",
+      "label": "التصادم في بعدين",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص013 - التصادم في بعدين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 14,
+      "legacy_page_id": "e5adf90a-0faf-4a92-86a5-ff4ae1cfe374",
+      "label": "التصادم في بعدين",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص014 - التصادم في بعدين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 15,
+      "legacy_page_id": "8e41b993-2792-4144-bfb4-bbe28f5816ba",
+      "label": "الصواريخ ذاتية الدفع",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص015 - الصواريخ ذاتية الدفع.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 16,
+      "legacy_page_id": "04032ce6-2a2a-4677-8681-a27efa90824c",
+      "label": "الصواريخ ذاتية الدفع",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص016 - الصواريخ ذاتية الدفع.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 17,
+      "legacy_page_id": "d771d185-eb8c-4ffa-bac8-2ee336e00c2d",
+      "label": "سرعة الإفلات من الجاذبية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص017 - سرعة الإفلات من الجاذبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 18,
+      "legacy_page_id": "022f1d1b-193f-47cd-b6d3-f9a1857614e3",
+      "label": "سرعة الإفلات من الجاذبية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص018 - سرعة الإفلات من الجاذبية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 19,
+      "legacy_page_id": "4962cd0f-cdda-44a5-8f9d-49cfe7125504",
+      "label": "حركة الأقمار الصناعية حول الأرض",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص019 - حركة الأقمار الصناعية حول الأرض.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 20,
+      "legacy_page_id": "6c4c824b-cbcb-48f8-a02b-16e587840a9e",
+      "label": "حركة الأقمار الصناعية حول الأرض",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص020 - حركة الأقمار الصناعية حول الأرض.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 21,
+      "legacy_page_id": "0b4ca704-91a3-4914-98e1-88a5e8dde7c9",
+      "label": "حركة الأقمار الصناعية حول الأرض",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص021 - حركة الأقمار الصناعية حول الأرض.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 22,
+      "legacy_page_id": "e653fed0-4e24-4808-81c2-8f4e194091a0",
+      "label": "كمية التحرك الزاوي",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص022 - كمية التحرك الزاوي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 23,
+      "legacy_page_id": "ee2c057c-5669-4c9d-87bf-4e07c3f74495",
+      "label": "كمية التحرك الزاوي",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص023 - كمية التحرك الزاوي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 24,
+      "legacy_page_id": "1a264b00-d892-4e5e-a4d0-eb1ef05ae43b",
+      "label": "حركة المقذوفات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص024 - حركة المقذوفات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 25,
+      "legacy_page_id": "287e6e27-60e6-4e5b-b159-a99194b5675e",
+      "label": "حركة المقذوفات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص025 - حركة المقذوفات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 26,
+      "legacy_page_id": "85b0683a-f361-4501-8775-fc7e245296a0",
+      "label": "حركة المقذوفات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص026 - حركة المقذوفات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 27,
+      "legacy_page_id": "a906bfc7-5a6e-4832-86b4-67317e04e4f1",
+      "label": "تقويم الوحدة الأولى",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص027 - تقويم الوحدة الأولى.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 28,
+      "legacy_page_id": "ed6a11fc-21ba-4469-97a6-a727c16f4b45",
+      "label": "تقويم الوحدة الأولى",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص028 - تقويم الوحدة الأولى.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 29,
+      "legacy_page_id": "3002e8bc-32ce-48ee-a79a-e6d354e5d866",
+      "label": "غلاف الوحدة - التيار المتردد (المتناوب)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص029 - غلاف الوحدة - التيار المتردد (المتناوب).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 30,
+      "legacy_page_id": "48e1ebd1-8f51-45dc-baaf-54b79810fd58",
+      "label": "التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص030 - التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 31,
+      "legacy_page_id": "13e732dc-a97a-4d08-9a0a-09002bfbfce0",
+      "label": "التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص031 - التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 32,
+      "legacy_page_id": "b09e12a7-ff7b-45fa-920f-3492bef0444d",
+      "label": "التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص032 - التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 33,
+      "legacy_page_id": "83401c05-3d87-4a25-8b6f-91ab29ea981d",
+      "label": "مولد التيار المتردد (الدينامو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص033 - مولد التيار المتردد (الدينامو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 34,
+      "legacy_page_id": "0769a2d7-b691-4b6c-884e-2f1afd2c3e1d",
+      "label": "مولد التيار المتردد (الدينامو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص034 - مولد التيار المتردد (الدينامو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 35,
+      "legacy_page_id": "3d85888b-9eae-47a2-8c64-4cdc81def3af",
+      "label": "مولد التيار المتردد (الدينامو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص035 - مولد التيار المتردد (الدينامو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 36,
+      "legacy_page_id": "8f67c0a5-a823-40a6-8c31-c11781a239c9",
+      "label": "مولد التيار المتردد (الدينامو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص036 - مولد التيار المتردد (الدينامو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 37,
+      "legacy_page_id": "eba3c315-4ea5-48c9-8469-3b9441d64dac",
+      "label": "الأميتر الحراري",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص037 - الأميتر الحراري.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 38,
+      "legacy_page_id": "aff2e1f0-9da7-4d6c-9976-54d6e23059a6",
+      "label": "الأميتر الحراري",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص038 - الأميتر الحراري.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 39,
+      "legacy_page_id": "71b68548-37f9-466f-ad61-68c18c4fc66f",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص039 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 40,
+      "legacy_page_id": "e504d4e5-613a-47c7-bcbb-c0ffe7d4ebd3",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص040 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 41,
+      "legacy_page_id": "ae9b41ad-d0b7-4274-9ac5-f8eca6c982e6",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص041 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 42,
+      "legacy_page_id": "c3ed0ce6-f802-4f10-b131-4926e1d1df15",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص042 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 43,
+      "legacy_page_id": "beeb4cc4-0b06-40b6-b3dd-7aee834d0afa",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص043 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 44,
+      "legacy_page_id": "74148d45-bc40-45e8-b1d8-03495bbe0e04",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص044 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 45,
+      "legacy_page_id": "49e8fe58-b67e-4eb6-b8da-cf0c0bef46dd",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص045 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 46,
+      "legacy_page_id": "a09ed121-89de-4be0-8575-7974cc6155ae",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص046 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 47,
+      "legacy_page_id": "8b0db1e1-da63-4d05-9cb5-aac282d145f0",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص047 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 48,
+      "legacy_page_id": "1c9e0fcb-edf3-489c-84fd-3905d44f126a",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص048 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 49,
+      "legacy_page_id": "802d7f81-e882-465f-80f3-b872b2f71111",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص049 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 50,
+      "legacy_page_id": "4057cc22-aec6-4c7b-a480-8f4c2a9d694a",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص050 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 51,
+      "legacy_page_id": "cb9cadfd-dfd4-4aa5-933f-662eaf7ab54d",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص051 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 52,
+      "legacy_page_id": "9b0f9415-6ac6-4ec2-ac29-fa4bbf3b5855",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص052 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 53,
+      "legacy_page_id": "6390ea34-721d-4f6f-9228-ae9ba17776fe",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص053 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 54,
+      "legacy_page_id": "f38996ea-5e7c-459b-bbe1-6a6336bd27a8",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص054 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 55,
+      "legacy_page_id": "af6dd51c-0f03-4894-a6a1-e6f20fb948f3",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص055 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 56,
+      "legacy_page_id": "70ede55c-533c-4a5e-9591-ccbec76b55e9",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص056 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 57,
+      "legacy_page_id": "06833008-1fd8-47ff-abeb-b5827180b4b1",
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص057 - تطبيقات قانون أوم في دوائر التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 58,
+      "legacy_page_id": "4fb4f4e0-aa81-4449-9f6b-bd2dcd15aa38",
+      "label": "تقويم الوحدة الثانية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص058 - تقويم الوحدة الثانية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 59,
+      "legacy_page_id": "6f0eaa75-e357-409a-99fb-4db36295d0cd",
+      "label": "تقويم الوحدة الثانية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص059 - تقويم الوحدة الثانية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 60,
+      "legacy_page_id": "e4ed203d-131b-4c4d-95da-951ff530f2ec",
+      "label": "تقويم الوحدة الثانية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص060 - تقويم الوحدة الثانية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 61,
+      "legacy_page_id": "5304594d-0610-4c1a-a265-7cae03b52123",
+      "label": "غلاف الوحدة - الإلكترونيات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص061 - غلاف الوحدة - الإلكترونيات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 62,
+      "legacy_page_id": "8da54101-31e3-45e6-9a4e-557bed2f16aa",
+      "label": "أشباه الموصلات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص062 - أشباه الموصلات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 63,
+      "legacy_page_id": "a9b53903-6c2f-47e7-b777-51088ee244cc",
+      "label": "أشباه الموصلات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص063 - أشباه الموصلات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 64,
+      "legacy_page_id": "bed03cb3-6c3e-4ba6-bc4a-176a0c169145",
+      "label": "أشباه الموصلات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص064 - أشباه الموصلات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 65,
+      "legacy_page_id": "861574fc-96d0-4322-94e3-58c115e01cbb",
+      "label": "أشباه الموصلات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص065 - أشباه الموصلات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 66,
+      "legacy_page_id": "7ee30fbd-466d-49b5-99c2-d8cb2a12e552",
+      "label": "أشباه الموصلات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص066 - أشباه الموصلات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 67,
+      "legacy_page_id": "aaf1c5fe-6190-4d4c-90eb-c0cf6611a749",
+      "label": "الوصلة الثنائية واستخدامها في تقويم التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص067 - الوصلة الثنائية واستخدامها في تقويم التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 68,
+      "legacy_page_id": "31a9e863-11a2-4417-9ea4-05ee87e1671f",
+      "label": "الوصلة الثنائية واستخدامها في تقويم التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص068 - الوصلة الثنائية واستخدامها في تقويم التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 69,
+      "legacy_page_id": "9e30e473-a1d1-48eb-95d5-a5ce733ec357",
+      "label": "الوصلة الثنائية واستخدامها في تقويم التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص069 - الوصلة الثنائية واستخدامها في تقويم التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 70,
+      "legacy_page_id": "3140ddc4-e6ee-4c07-8adf-09e6c7499c3e",
+      "label": "الوصلة الثنائية واستخدامها في تقويم التيار المتردد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص070 - الوصلة الثنائية واستخدامها في تقويم التيار المتردد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 71,
+      "legacy_page_id": "fd7389d9-1d72-412c-a20a-4381ed9f52a6",
+      "label": "الترانزستور واستخداماته",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص071 - الترانزستور واستخداماته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 72,
+      "legacy_page_id": "86930a46-4cbc-47c1-8d82-b7eed3061e4c",
+      "label": "الترانزستور واستخداماته",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص072 - الترانزستور واستخداماته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 73,
+      "legacy_page_id": "35fd4d1b-a7dd-493a-8ad3-453f2e6f4682",
+      "label": "الترانزستور واستخداماته",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص073 - الترانزستور واستخداماته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 74,
+      "legacy_page_id": "26801333-c9f1-4e2c-8166-0c3e27fbb64d",
+      "label": "الترانزستور واستخداماته",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص074 - الترانزستور واستخداماته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 75,
+      "legacy_page_id": "9c204818-e16b-404f-8956-6c6eaf5e86b9",
+      "label": "الترانزستور واستخداماته",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص075 - الترانزستور واستخداماته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 76,
+      "legacy_page_id": "1695a41e-e7fe-42b1-8d1e-2f9be48bce64",
+      "label": "الترانزستور واستخداماته",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص076 - الترانزستور واستخداماته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 77,
+      "legacy_page_id": "299a25a1-fba3-4134-8fe4-b17407edaafb",
+      "label": "الترانزستور واستخداماته",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص077 - الترانزستور واستخداماته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 78,
+      "legacy_page_id": "2c03e5ac-c5d6-439a-a528-cb2f9b903335",
+      "label": "الترانزستور واستخداماته",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص078 - الترانزستور واستخداماته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 79,
+      "legacy_page_id": "3d2f5d90-4e67-435b-92bb-0a550ab2779d",
+      "label": "الترانزستور واستخداماته",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص079 - الترانزستور واستخداماته.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 80,
+      "legacy_page_id": "7765e27b-6f51-492e-a0b6-20906eb07487",
+      "label": "تقويم الوحدة الثالثة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص080 - تقويم الوحدة الثالثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 81,
+      "legacy_page_id": "a5bc77b6-b49e-48c7-88c2-6cab428cec7d",
+      "label": "تقويم الوحدة الثالثة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص081 - تقويم الوحدة الثالثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 82,
+      "legacy_page_id": "351111a3-dc3f-477a-98f9-ef4d0e87ae87",
+      "label": "تقويم الوحدة الثالثة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص082 - تقويم الوحدة الثالثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 83,
+      "legacy_page_id": "6ecc3cd2-f97d-434c-900d-727ead18a7d0",
+      "label": "تقويم الوحدة الثالثة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص083 - تقويم الوحدة الثالثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 84,
+      "legacy_page_id": "a914aef6-aedf-4fb8-8f7a-61275ca1b871",
+      "label": "تقويم الوحدة الثالثة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص084 - تقويم الوحدة الثالثة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 85,
+      "legacy_page_id": "37c52216-dc46-49b4-8c56-ee3792646b3b",
+      "label": "غلاف الوحدة - الأجهزة الإلكترونية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص085 - غلاف الوحدة - الأجهزة الإلكترونية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 86,
+      "legacy_page_id": "17162c5b-56d8-4c62-a9e9-1810c7c66d3e",
+      "label": "التوصيل الكهربائي في الغازات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص086 - التوصيل الكهربائي في الغازات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 87,
+      "legacy_page_id": "e4ece44f-1a94-4679-b80e-dddd86c57c3c",
+      "label": "التوصيل الكهربائي في الغازات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص087 - التوصيل الكهربائي في الغازات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 88,
+      "legacy_page_id": "c25efa29-1fdf-411c-93da-ea67a8c1f3de",
+      "label": "التوصيل الكهربائي في الغازات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص088 - التوصيل الكهربائي في الغازات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 89,
+      "legacy_page_id": "a6972534-0159-4c9c-8885-868eeef0e641",
+      "label": "أنبوبة أشعة الكاثود",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص089 - أنبوبة أشعة الكاثود.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 90,
+      "legacy_page_id": "2072ac94-bf3e-4045-92dd-f6bfeda63d9a",
+      "label": "كاشف الذبذبات (الأوسيلوسكوب)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص090 - كاشف الذبذبات (الأوسيلوسكوب).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 91,
+      "legacy_page_id": "2d852e49-e85f-4fdc-afc1-cb76351781ee",
+      "label": "كاشف الذبذبات (الأوسيلوسكوب)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص091 - كاشف الذبذبات (الأوسيلوسكوب).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 92,
+      "legacy_page_id": "82b8a19f-3620-42ae-bf35-729463c58f0c",
+      "label": "الرادار",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص092 - الرادار.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 93,
+      "legacy_page_id": "e9c06337-0811-41b6-b084-4fdb5c252374",
+      "label": "الرادار",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص093 - الرادار.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 94,
+      "legacy_page_id": "cbddf93d-032d-4dec-86e0-54ec5827807c",
+      "label": "الرادار",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص094 - الرادار.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 95,
+      "legacy_page_id": "3f1e9232-1646-49a8-8594-b324ad42cfb0",
+      "label": "إرسال واستقبال الموجات اللاسلكية (الراديو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص095 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 96,
+      "legacy_page_id": "3926fbe5-7c24-47ff-9050-864ad56462ca",
+      "label": "إرسال واستقبال الموجات اللاسلكية (الراديو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص096 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 97,
+      "legacy_page_id": "dd16b85f-4417-47af-bbd0-f0ee6ec48fa1",
+      "label": "إرسال واستقبال الموجات اللاسلكية (الراديو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص097 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 98,
+      "legacy_page_id": "9e024449-5433-4a7d-bb4a-e9f41e41c523",
+      "label": "إرسال واستقبال الموجات اللاسلكية (الراديو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص098 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 99,
+      "legacy_page_id": "3c7552c2-8952-47d3-91c5-153da858e30d",
+      "label": "إرسال واستقبال الموجات اللاسلكية (الراديو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص099 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 100,
+      "legacy_page_id": "90b5559b-319b-48e2-9f00-c7162bc0eaa3",
+      "label": "إرسال واستقبال الموجات اللاسلكية (الراديو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص100 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 101,
+      "legacy_page_id": "1143c054-bb2a-4934-9ec5-a29f66011270",
+      "label": "إرسال واستقبال الموجات اللاسلكية (الراديو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص101 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 102,
+      "legacy_page_id": "cbd6e848-3665-43b0-87da-4251fb09f1f9",
+      "label": "إرسال واستقبال الموجات اللاسلكية (الراديو)",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص102 - إرسال واستقبال الموجات اللاسلكية (الراديو).webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 103,
+      "legacy_page_id": "77c4f39e-aac4-47a4-93ed-b6de688131de",
+      "label": "التلفاز - إرسال واستقبال الصور",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص103 - التلفاز - إرسال واستقبال الصور.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 104,
+      "legacy_page_id": "34aafd1c-b9bc-4acf-bf1c-bba5f221aea6",
+      "label": "التلفاز - إرسال واستقبال الصور",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص104 - التلفاز - إرسال واستقبال الصور.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 105,
+      "legacy_page_id": "93d592a2-c654-444b-a3f6-864266e4dfb2",
+      "label": "التلفاز الملون",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص105 - التلفاز الملون.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 106,
+      "legacy_page_id": "5c8f6189-e34f-4429-934e-4feb33d35539",
+      "label": "التلفاز الملون",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص106 - التلفاز الملون.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 107,
+      "legacy_page_id": "f4a4c16f-dcf8-4a8e-a1d8-093ccc345698",
+      "label": "تقويم الوحدة الرابعة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص107 - تقويم الوحدة الرابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 108,
+      "legacy_page_id": "25ecf362-187d-403e-9a95-25a57ab202b5",
+      "label": "تقويم الوحدة الرابعة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص108 - تقويم الوحدة الرابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 109,
+      "legacy_page_id": "df83ebf2-2a12-4dcc-9a06-6044d0e54dd0",
+      "label": "تقويم الوحدة الرابعة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص109 - تقويم الوحدة الرابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 110,
+      "legacy_page_id": "8db5a2e0-fccf-40e9-af26-0a774d3f4daa",
+      "label": "تقويم الوحدة الرابعة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص110 - تقويم الوحدة الرابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 111,
+      "legacy_page_id": "5b1f07a1-92f8-4329-8161-25f4b90385e4",
+      "label": "تقويم الوحدة الرابعة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص111 - تقويم الوحدة الرابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 112,
+      "legacy_page_id": "cff65ea1-9dec-4a01-96ac-a6ad1aae66a4",
+      "label": "تقويم الوحدة الرابعة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص112 - تقويم الوحدة الرابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 113,
+      "legacy_page_id": "f51633d7-f2d1-4cc9-a911-8d114f7a6fc8",
+      "label": "تقويم الوحدة الرابعة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص113 - تقويم الوحدة الرابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 114,
+      "legacy_page_id": "c97a714e-42d5-4471-afab-e68ffc9fcf4f",
+      "label": "غلاف الوحدة - الفيزياء الذرية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص114 - غلاف الوحدة - الفيزياء الذرية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 115,
+      "legacy_page_id": "268122a9-4be1-42b3-bde4-d1512de9c309",
+      "label": "نظرية دالتون الذرية ونموذج طومسون",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص115 - نظرية دالتون الذرية ونموذج طومسون.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 116,
+      "legacy_page_id": "9a884a15-40e6-45a7-9dc1-146eb4b4d6b9",
+      "label": "نظرية دالتون الذرية ونموذج طومسون",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص116 - نظرية دالتون الذرية ونموذج طومسون.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 117,
+      "legacy_page_id": "ad39913e-4db2-4d47-8c05-03a22d79de08",
+      "label": "الأطياف الذرية وطيف ذرة الهيدروجين",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص117 - الأطياف الذرية وطيف ذرة الهيدروجين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 118,
+      "legacy_page_id": "e9f77c6d-3b48-4942-8e60-921232a1480a",
+      "label": "الأطياف الذرية وطيف ذرة الهيدروجين",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص118 - الأطياف الذرية وطيف ذرة الهيدروجين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 119,
+      "legacy_page_id": "afa47d76-1daf-4945-89e1-0348d2300559",
+      "label": "الأطياف الذرية وطيف ذرة الهيدروجين",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص119 - الأطياف الذرية وطيف ذرة الهيدروجين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 120,
+      "legacy_page_id": "3dbbdfcf-afe9-4979-8e30-23486d3818be",
+      "label": "الأطياف الذرية وطيف ذرة الهيدروجين",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص120 - الأطياف الذرية وطيف ذرة الهيدروجين.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 121,
+      "legacy_page_id": "4cd60f5f-ae1a-49b1-83d7-8e4a3d688bc2",
+      "label": "نموذج رذرفورد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص121 - نموذج رذرفورد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 122,
+      "legacy_page_id": "308acd2c-cf97-446b-9669-2cc28737b978",
+      "label": "نموذج رذرفورد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص122 - نموذج رذرفورد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 123,
+      "legacy_page_id": "ad8a7b78-76e3-421b-8fd7-64defeff0764",
+      "label": "إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص123 - إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 124,
+      "legacy_page_id": "a18491bc-f7e1-4a69-b9fa-b31060d72bc3",
+      "label": "إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص124 - إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 125,
+      "legacy_page_id": "35903eed-6382-4ffa-9a3e-69c97de3162f",
+      "label": "إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص125 - إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 126,
+      "legacy_page_id": "dc23eeb1-bd44-4c45-a547-3f217f338a10",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص126 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 127,
+      "legacy_page_id": "536afbb0-4567-48f7-a69b-cafd2bdcc341",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص127 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 128,
+      "legacy_page_id": "c9a1771b-df5a-4b3d-b563-0b9513ebe82c",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص128 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 129,
+      "legacy_page_id": "c501a62e-21a5-4df3-a0ab-eaed2b0ae96b",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص129 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 130,
+      "legacy_page_id": "dc1c450a-5c48-4f36-ab9e-6646ebdb70c4",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص130 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 131,
+      "legacy_page_id": "b7935a0a-5495-40e4-a0e9-7b2ae81cd30d",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص131 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 132,
+      "legacy_page_id": "35dd7ae2-efb2-4e3c-9b91-34fcc48bf46b",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص132 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 133,
+      "legacy_page_id": "6b56862e-3a62-47de-8c29-7ee23e4ec34c",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص133 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 134,
+      "legacy_page_id": "ce0e6563-f866-4940-9b72-1dc92262b478",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص134 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 135,
+      "legacy_page_id": "132ffdd0-d945-4486-b74e-a1c08814e84b",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص135 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 136,
+      "legacy_page_id": "15cf21c6-18d1-46e6-9825-e7587322ff96",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص136 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 137,
+      "legacy_page_id": "d4e1ca7a-c4b7-431c-bcb0-fd7840254ac9",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص137 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 138,
+      "legacy_page_id": "446bdea1-7c4b-4425-99f4-d4dbdcf0675a",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص138 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 139,
+      "legacy_page_id": "1f2d4e54-b362-4a05-974e-88b910330f6a",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص139 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 140,
+      "legacy_page_id": "3d93bff3-d79a-40a4-89b8-1aa0f79f3c28",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص140 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 141,
+      "legacy_page_id": "f1a1bcac-f1bf-43d0-bab1-f20a2241ee2a",
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص141 - نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 142,
+      "legacy_page_id": "f2035a87-2ffc-4855-8cbd-f7d105bfd937",
+      "label": "تقويم الوحدة الخامسة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص142 - تقويم الوحدة الخامسة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 143,
+      "legacy_page_id": "e83e22eb-d193-4323-907a-77428a2e759d",
+      "label": "تقويم الوحدة الخامسة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص143 - تقويم الوحدة الخامسة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 144,
+      "legacy_page_id": "94d2e064-20cb-4900-8821-60ce7c405277",
+      "label": "غلاف الوحدة - الإشعاع والمادة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص144 - غلاف الوحدة - الإشعاع والمادة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 145,
+      "legacy_page_id": "d0d35903-15ef-4436-913d-a2fa66fce2d0",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص145 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 146,
+      "legacy_page_id": "b74feef7-f0dc-4802-bf58-1fb87f4813e1",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص146 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 147,
+      "legacy_page_id": "304cec62-f902-4ea8-b492-687313a831c8",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص147 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 148,
+      "legacy_page_id": "3fc40c3d-e67e-4b71-92a2-16975e28d601",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص148 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 149,
+      "legacy_page_id": "07894a9f-4512-43e1-8dee-f0898707f21e",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص149 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 150,
+      "legacy_page_id": "9ed432a1-7a41-4225-8fab-bd1958c87254",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص150 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 151,
+      "legacy_page_id": "07f01592-6e7b-4b3f-b255-34dbf1323206",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص151 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 152,
+      "legacy_page_id": "72872974-0b13-4ba7-b55d-12d7436c3e28",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص152 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 153,
+      "legacy_page_id": "22285e7b-8837-4e2f-a296-5d36916a0716",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص153 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 154,
+      "legacy_page_id": "64315b5a-ff92-40a1-8d26-fa39a2ff80d7",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص154 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 155,
+      "legacy_page_id": "e04e0ab7-166e-41ef-81cc-74b798317a60",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص155 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 156,
+      "legacy_page_id": "2b1c71ad-f795-4715-8eee-4ba61fba442c",
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص156 - الظاهرة الكهروضوئية والخلية الكهروضوئية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 157,
+      "legacy_page_id": "3c5e5e15-fa4b-4226-b959-acf1717f06b8",
+      "label": "الأشعة السينية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص157 - الأشعة السينية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 158,
+      "legacy_page_id": "ba97106e-d22f-422d-a4dd-8be1d71e7a2d",
+      "label": "الأشعة السينية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص158 - الأشعة السينية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 159,
+      "legacy_page_id": "87fb7407-4fce-45d2-a38c-55b3b1df08df",
+      "label": "الأشعة السينية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص159 - الأشعة السينية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 160,
+      "legacy_page_id": "cff8de8c-0f79-4d7d-9ac0-d6bc5d3865f7",
+      "label": "الأشعة السينية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص160 - الأشعة السينية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 161,
+      "legacy_page_id": "86fe1794-62b9-4130-98e7-5b82a040441e",
+      "label": "الأشعة السينية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص161 - الأشعة السينية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 162,
+      "legacy_page_id": "bd162950-26f6-4d93-bc0f-929bbd6513b5",
+      "label": "الأشعة السينية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص162 - الأشعة السينية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 163,
+      "legacy_page_id": "e635b5ee-8c23-40a2-af0f-7f759372b78c",
+      "label": "الليزر",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص163 - الليزر.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 164,
+      "legacy_page_id": "69ff53c2-bcd5-4659-97a8-fc214e9d6ca2",
+      "label": "الليزر",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص164 - الليزر.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 165,
+      "legacy_page_id": "bdf5bb59-3c92-4c66-a9c7-28764810d012",
+      "label": "الليزر",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص165 - الليزر.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 166,
+      "legacy_page_id": "9aaad413-b30a-441f-81ed-c4c99789fd7e",
+      "label": "الليزر",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص166 - الليزر.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 167,
+      "legacy_page_id": "75e97b8c-39a7-4a5d-b4a5-6d23aabb2ff3",
+      "label": "الليزر",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص167 - الليزر.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 168,
+      "legacy_page_id": "948057d5-9926-4488-adb8-f060a4f1d8c3",
+      "label": "الليزر",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص168 - الليزر.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 169,
+      "legacy_page_id": "b552b372-bdba-40b6-9000-5697f20b25a3",
+      "label": "الليزر",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص169 - الليزر.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 170,
+      "legacy_page_id": "26e191ad-f9d8-45e3-a069-9bf0dcdf4a33",
+      "label": "الليزر",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص170 - الليزر.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 171,
+      "legacy_page_id": "eb709e90-72e1-4011-acb1-6ff25d65dda8",
+      "label": "تقويم الوحدة السادسة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص171 - تقويم الوحدة السادسة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 172,
+      "legacy_page_id": "1c911da4-e7e4-48fa-9904-74e05595d159",
+      "label": "تقويم الوحدة السادسة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص172 - تقويم الوحدة السادسة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 173,
+      "legacy_page_id": "a8118623-bb8f-48b0-99e8-a7dfba3c4ad0",
+      "label": "غلاف الوحدة - الفيزياء النووية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص173 - غلاف الوحدة - الفيزياء النووية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 174,
+      "legacy_page_id": "a1906fbb-c30c-4e73-85b6-2c4a10df71f1",
+      "label": "تركيب النواة والنشاط الإشعاعي",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص174 - تركيب النواة والنشاط الإشعاعي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 175,
+      "legacy_page_id": "ffd8607e-d153-4a65-a484-9a8b0c6d81fb",
+      "label": "تركيب النواة والنشاط الإشعاعي",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص175 - تركيب النواة والنشاط الإشعاعي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 176,
+      "legacy_page_id": "1f79c931-1ea4-4318-a30c-345df3d943a2",
+      "label": "تركيب النواة والنشاط الإشعاعي",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص176 - تركيب النواة والنشاط الإشعاعي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 177,
+      "legacy_page_id": "30c9ce54-5159-4aea-bfd2-0e6e6942fa3b",
+      "label": "تركيب النواة والنشاط الإشعاعي",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص177 - تركيب النواة والنشاط الإشعاعي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 178,
+      "legacy_page_id": "a9d87ceb-6fb1-4105-954a-97de6f73d6b0",
+      "label": "تركيب النواة والنشاط الإشعاعي",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص178 - تركيب النواة والنشاط الإشعاعي.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 179,
+      "legacy_page_id": "17bb273c-7a23-4b03-951e-571a9484fd36",
+      "label": "التحلل الإشعاعي وعمر النصف",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص179 - التحلل الإشعاعي وعمر النصف.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 180,
+      "legacy_page_id": "505def3f-1eaa-4e58-afb3-7e3f1f0eda4b",
+      "label": "طاقة الربط النووية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص180 - طاقة الربط النووية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 181,
+      "legacy_page_id": "4962482c-8620-43b1-88d3-234461e611b8",
+      "label": "التفاعل المتسلسل",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص181 - التفاعل المتسلسل.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 182,
+      "legacy_page_id": "5162e4cb-5837-45fd-864d-bff1e3e1e0d5",
+      "label": "المفاعلات النووية السلمية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص182 - المفاعلات النووية السلمية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 183,
+      "legacy_page_id": "1ed3950e-b560-4f21-909c-91e7f77d57cd",
+      "label": "تقويم الوحدة السابعة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص183 - تقويم الوحدة السابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 184,
+      "legacy_page_id": "72af8586-7c37-4404-94c4-949d1cf3ba1d",
+      "label": "تقويم الوحدة السابعة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص184 - تقويم الوحدة السابعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 185,
+      "legacy_page_id": "d5e9ffd7-abf2-476a-860f-54a23aa94695",
+      "label": "غلاف الوحدة - الطاقة الشمسية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص185 - غلاف الوحدة - الطاقة الشمسية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 186,
+      "legacy_page_id": "163e5d34-2d42-4d4d-a513-39bf138c5c68",
+      "label": "الطاقة والطاقة الشمسية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص186 - الطاقة والطاقة الشمسية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 187,
+      "legacy_page_id": "b3620f9d-f9c6-4a8b-b958-39dd7e899fa2",
+      "label": "الطاقة والطاقة الشمسية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص187 - الطاقة والطاقة الشمسية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 188,
+      "legacy_page_id": "8e01b1ef-97a8-4f2c-8912-b72b3f531c17",
+      "label": "الطاقة والطاقة الشمسية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص188 - الطاقة والطاقة الشمسية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 189,
+      "legacy_page_id": "0b12b53c-7767-42f8-97e5-98344e260bd2",
+      "label": "الطاقة والطاقة الشمسية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص189 - الطاقة والطاقة الشمسية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 190,
+      "legacy_page_id": "5ef52456-d7c5-4468-91fb-3d93447930ce",
+      "label": "الطاقة والطاقة الشمسية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص190 - الطاقة والطاقة الشمسية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 191,
+      "legacy_page_id": "737f50cc-2ec1-4cbf-a7b5-98a147614413",
+      "label": "أنواع الإشعاعات الشمسية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص191 - أنواع الإشعاعات الشمسية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 192,
+      "legacy_page_id": "ea4e4ffb-7c55-4c30-85b4-2759cd6f96a5",
+      "label": "تطبيقات استغلال الطاقة الشمسية في الحياة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص192 - تطبيقات استغلال الطاقة الشمسية في الحياة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 193,
+      "legacy_page_id": "919e8368-9a92-4f1a-a27c-4984bd8a5609",
+      "label": "توليد الطاقة الحرارية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص193 - توليد الطاقة الحرارية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 194,
+      "legacy_page_id": "33214218-5978-4ec5-9ddf-89d9cd387b4f",
+      "label": "توليد الطاقة الحرارية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص194 - توليد الطاقة الحرارية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 195,
+      "legacy_page_id": "85f7490f-c717-4d86-a2e9-246e446f971a",
+      "label": "توليد الطاقة الكهربائية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص195 - توليد الطاقة الكهربائية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 196,
+      "legacy_page_id": "abd2e6f9-834f-4380-ae84-3d7b8bc1fc7e",
+      "label": "توليد الطاقة الكهربائية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص196 - توليد الطاقة الكهربائية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 197,
+      "legacy_page_id": "54001064-c85f-4157-9a91-562f0e2af09d",
+      "label": "تقويم الوحدة الثامنة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص197 - تقويم الوحدة الثامنة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 198,
+      "legacy_page_id": "03764067-8a6e-41ce-ad9e-662e25063b9f",
+      "label": "غلاف الوحدة - الفيزياء الكونية",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص198 - غلاف الوحدة - الفيزياء الكونية.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 199,
+      "legacy_page_id": "95217faa-e5ac-43a2-a93f-95d608879635",
+      "label": "الكون",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص199 - الكون.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 200,
+      "legacy_page_id": "0139c21c-5a7a-4ec7-92e2-bf999b63f88c",
+      "label": "الكون",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص200 - الكون.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 201,
+      "legacy_page_id": "3e37ebcb-d74d-45ad-80d3-8be8ecc6028a",
+      "label": "الكون الممتد",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص201 - الكون الممتد.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 202,
+      "legacy_page_id": "c0fb5ada-b65f-4f09-be87-06113bf2bd54",
+      "label": "المجرات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص202 - المجرات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 203,
+      "legacy_page_id": "f7b44ad2-7326-4261-bcbe-e924f087a81b",
+      "label": "المجرات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص203 - المجرات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 204,
+      "legacy_page_id": "1c846eee-a210-4c3e-8a49-2353c316e32e",
+      "label": "المجرات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص204 - المجرات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 205,
+      "legacy_page_id": "8969daf3-75da-44af-a6a7-46290430eab8",
+      "label": "النجوم - نشوء وتطور النجوم",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص205 - النجوم - نشوء وتطور النجوم.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 206,
+      "legacy_page_id": "e476f24d-3b24-4cd1-8d86-a5f52de61dd6",
+      "label": "النجوم - نشوء وتطور النجوم",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص206 - النجوم - نشوء وتطور النجوم.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 207,
+      "legacy_page_id": "b4e5aee9-ce66-4cde-a437-3a5f6aa2a7c7",
+      "label": "النجوم - نشوء وتطور النجوم",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص207 - النجوم - نشوء وتطور النجوم.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 208,
+      "legacy_page_id": "a088bf32-ebf1-4612-9097-1f19deb57fd2",
+      "label": "المسافات بين النجوم",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص208 - المسافات بين النجوم.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 209,
+      "legacy_page_id": "41cf1c3c-ac45-48fb-89e8-d2c7b03fd529",
+      "label": "المسافات بين النجوم",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص209 - المسافات بين النجوم.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 210,
+      "legacy_page_id": "19eceb81-d835-441f-ab89-bcd367fb991d",
+      "label": "تقويم الوحدة التاسعة",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص210 - تقويم الوحدة التاسعة.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 211,
+      "legacy_page_id": "5f8231dc-2640-4f5c-bfdc-8e2cbfed7012",
+      "label": "قوائم المصطلحات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص211 - قوائم المصطلحات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 212,
+      "legacy_page_id": "60230b32-31bc-4e1a-9632-561bc2da9cfe",
+      "label": "قوائم المصطلحات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص212 - قوائم المصطلحات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 213,
+      "legacy_page_id": "df4bc5ec-5ce9-41f6-a118-784e4640a914",
+      "label": "قوائم المصطلحات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص213 - قوائم المصطلحات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 214,
+      "legacy_page_id": "dad781a9-ee3b-4f17-850f-b75a00dea295",
+      "label": "قوائم المصطلحات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص214 - قوائم المصطلحات.webp",
+      "preferred_path_count": 1
+    },
+    {
+      "page_number": 215,
+      "legacy_page_id": "2904ad70-bc82-4933-beb9-ab65222011ed",
+      "label": "قوائم المصطلحات",
+      "preferred_master_path": "الفيزياء ثالث ثانوي/كتاب الفيزياء/الصور/ص215 - قوائم المصطلحات.webp",
+      "preferred_path_count": 1
+    }
+  ],
+  "title_runs": [
+    {
+      "label": "غلاف الوحدة - كمية التحرك والمقذوفات",
+      "start_page": 9,
+      "end_page": 9,
+      "page_count": 1
+    },
+    {
+      "label": "كمية التحرك والتصادم في بعدين",
+      "start_page": 10,
+      "end_page": 10,
+      "page_count": 1
+    },
+    {
+      "label": "التصادم في بعدين",
+      "start_page": 11,
+      "end_page": 14,
+      "page_count": 4
+    },
+    {
+      "label": "الصواريخ ذاتية الدفع",
+      "start_page": 15,
+      "end_page": 16,
+      "page_count": 2
+    },
+    {
+      "label": "سرعة الإفلات من الجاذبية",
+      "start_page": 17,
+      "end_page": 18,
+      "page_count": 2
+    },
+    {
+      "label": "حركة الأقمار الصناعية حول الأرض",
+      "start_page": 19,
+      "end_page": 21,
+      "page_count": 3
+    },
+    {
+      "label": "كمية التحرك الزاوي",
+      "start_page": 22,
+      "end_page": 23,
+      "page_count": 2
+    },
+    {
+      "label": "حركة المقذوفات",
+      "start_page": 24,
+      "end_page": 26,
+      "page_count": 3
+    },
+    {
+      "label": "تقويم الوحدة الأولى",
+      "start_page": 27,
+      "end_page": 28,
+      "page_count": 2
+    },
+    {
+      "label": "غلاف الوحدة - التيار المتردد (المتناوب)",
+      "start_page": 29,
+      "end_page": 29,
+      "page_count": 1
+    },
+    {
+      "label": "التيار المتردد",
+      "start_page": 30,
+      "end_page": 32,
+      "page_count": 3
+    },
+    {
+      "label": "مولد التيار المتردد (الدينامو)",
+      "start_page": 33,
+      "end_page": 36,
+      "page_count": 4
+    },
+    {
+      "label": "الأميتر الحراري",
+      "start_page": 37,
+      "end_page": 38,
+      "page_count": 2
+    },
+    {
+      "label": "تطبيقات قانون أوم في دوائر التيار المتردد",
+      "start_page": 39,
+      "end_page": 57,
+      "page_count": 19
+    },
+    {
+      "label": "تقويم الوحدة الثانية",
+      "start_page": 58,
+      "end_page": 60,
+      "page_count": 3
+    },
+    {
+      "label": "غلاف الوحدة - الإلكترونيات",
+      "start_page": 61,
+      "end_page": 61,
+      "page_count": 1
+    },
+    {
+      "label": "أشباه الموصلات",
+      "start_page": 62,
+      "end_page": 66,
+      "page_count": 5
+    },
+    {
+      "label": "الوصلة الثنائية واستخدامها في تقويم التيار المتردد",
+      "start_page": 67,
+      "end_page": 70,
+      "page_count": 4
+    },
+    {
+      "label": "الترانزستور واستخداماته",
+      "start_page": 71,
+      "end_page": 79,
+      "page_count": 9
+    },
+    {
+      "label": "تقويم الوحدة الثالثة",
+      "start_page": 80,
+      "end_page": 84,
+      "page_count": 5
+    },
+    {
+      "label": "غلاف الوحدة - الأجهزة الإلكترونية",
+      "start_page": 85,
+      "end_page": 85,
+      "page_count": 1
+    },
+    {
+      "label": "التوصيل الكهربائي في الغازات",
+      "start_page": 86,
+      "end_page": 88,
+      "page_count": 3
+    },
+    {
+      "label": "أنبوبة أشعة الكاثود",
+      "start_page": 89,
+      "end_page": 89,
+      "page_count": 1
+    },
+    {
+      "label": "كاشف الذبذبات (الأوسيلوسكوب)",
+      "start_page": 90,
+      "end_page": 91,
+      "page_count": 2
+    },
+    {
+      "label": "الرادار",
+      "start_page": 92,
+      "end_page": 94,
+      "page_count": 3
+    },
+    {
+      "label": "إرسال واستقبال الموجات اللاسلكية (الراديو)",
+      "start_page": 95,
+      "end_page": 102,
+      "page_count": 8
+    },
+    {
+      "label": "التلفاز - إرسال واستقبال الصور",
+      "start_page": 103,
+      "end_page": 104,
+      "page_count": 2
+    },
+    {
+      "label": "التلفاز الملون",
+      "start_page": 105,
+      "end_page": 106,
+      "page_count": 2
+    },
+    {
+      "label": "تقويم الوحدة الرابعة",
+      "start_page": 107,
+      "end_page": 113,
+      "page_count": 7
+    },
+    {
+      "label": "غلاف الوحدة - الفيزياء الذرية",
+      "start_page": 114,
+      "end_page": 114,
+      "page_count": 1
+    },
+    {
+      "label": "نظرية دالتون الذرية ونموذج طومسون",
+      "start_page": 115,
+      "end_page": 116,
+      "page_count": 2
+    },
+    {
+      "label": "الأطياف الذرية وطيف ذرة الهيدروجين",
+      "start_page": 117,
+      "end_page": 120,
+      "page_count": 4
+    },
+    {
+      "label": "نموذج رذرفورد",
+      "start_page": 121,
+      "end_page": 122,
+      "page_count": 2
+    },
+    {
+      "label": "إشعاع الجسم الأسود ومبدأ بلانك في تكميم الطاقة",
+      "start_page": 123,
+      "end_page": 125,
+      "page_count": 3
+    },
+    {
+      "label": "نظرية بور لذرة الهيدروجين ومخطط مستويات الطاقة",
+      "start_page": 126,
+      "end_page": 141,
+      "page_count": 16
+    },
+    {
+      "label": "تقويم الوحدة الخامسة",
+      "start_page": 142,
+      "end_page": 143,
+      "page_count": 2
+    },
+    {
+      "label": "غلاف الوحدة - الإشعاع والمادة",
+      "start_page": 144,
+      "end_page": 144,
+      "page_count": 1
+    },
+    {
+      "label": "الظاهرة الكهروضوئية والخلية الكهروضوئية",
+      "start_page": 145,
+      "end_page": 156,
+      "page_count": 12
+    },
+    {
+      "label": "الأشعة السينية",
+      "start_page": 157,
+      "end_page": 162,
+      "page_count": 6
+    },
+    {
+      "label": "الليزر",
+      "start_page": 163,
+      "end_page": 170,
+      "page_count": 8
+    },
+    {
+      "label": "تقويم الوحدة السادسة",
+      "start_page": 171,
+      "end_page": 172,
+      "page_count": 2
+    },
+    {
+      "label": "غلاف الوحدة - الفيزياء النووية",
+      "start_page": 173,
+      "end_page": 173,
+      "page_count": 1
+    },
+    {
+      "label": "تركيب النواة والنشاط الإشعاعي",
+      "start_page": 174,
+      "end_page": 178,
+      "page_count": 5
+    },
+    {
+      "label": "التحلل الإشعاعي وعمر النصف",
+      "start_page": 179,
+      "end_page": 179,
+      "page_count": 1
+    },
+    {
+      "label": "طاقة الربط النووية",
+      "start_page": 180,
+      "end_page": 180,
+      "page_count": 1
+    },
+    {
+      "label": "التفاعل المتسلسل",
+      "start_page": 181,
+      "end_page": 181,
+      "page_count": 1
+    },
+    {
+      "label": "المفاعلات النووية السلمية",
+      "start_page": 182,
+      "end_page": 182,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة السابعة",
+      "start_page": 183,
+      "end_page": 184,
+      "page_count": 2
+    },
+    {
+      "label": "غلاف الوحدة - الطاقة الشمسية",
+      "start_page": 185,
+      "end_page": 185,
+      "page_count": 1
+    },
+    {
+      "label": "الطاقة والطاقة الشمسية",
+      "start_page": 186,
+      "end_page": 190,
+      "page_count": 5
+    },
+    {
+      "label": "أنواع الإشعاعات الشمسية",
+      "start_page": 191,
+      "end_page": 191,
+      "page_count": 1
+    },
+    {
+      "label": "تطبيقات استغلال الطاقة الشمسية في الحياة",
+      "start_page": 192,
+      "end_page": 192,
+      "page_count": 1
+    },
+    {
+      "label": "توليد الطاقة الحرارية",
+      "start_page": 193,
+      "end_page": 194,
+      "page_count": 2
+    },
+    {
+      "label": "توليد الطاقة الكهربائية",
+      "start_page": 195,
+      "end_page": 196,
+      "page_count": 2
+    },
+    {
+      "label": "تقويم الوحدة الثامنة",
+      "start_page": 197,
+      "end_page": 197,
+      "page_count": 1
+    },
+    {
+      "label": "غلاف الوحدة - الفيزياء الكونية",
+      "start_page": 198,
+      "end_page": 198,
+      "page_count": 1
+    },
+    {
+      "label": "الكون",
+      "start_page": 199,
+      "end_page": 200,
+      "page_count": 2
+    },
+    {
+      "label": "الكون الممتد",
+      "start_page": 201,
+      "end_page": 201,
+      "page_count": 1
+    },
+    {
+      "label": "المجرات",
+      "start_page": 202,
+      "end_page": 204,
+      "page_count": 3
+    },
+    {
+      "label": "النجوم - نشوء وتطور النجوم",
+      "start_page": 205,
+      "end_page": 207,
+      "page_count": 3
+    },
+    {
+      "label": "المسافات بين النجوم",
+      "start_page": 208,
+      "end_page": 209,
+      "page_count": 2
+    },
+    {
+      "label": "تقويم الوحدة التاسعة",
+      "start_page": 210,
+      "end_page": 210,
+      "page_count": 1
+    },
+    {
+      "label": "قوائم المصطلحات",
+      "start_page": 211,
+      "end_page": 215,
+      "page_count": 5
+    }
+  ],
+  "unit_banner_candidates": [],
+  "nonlesson_title_candidates": [
+    {
+      "label": "غلاف الوحدة - كمية التحرك والمقذوفات",
+      "start_page": 9,
+      "end_page": 9,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة الأولى",
+      "start_page": 27,
+      "end_page": 28,
+      "page_count": 2
+    },
+    {
+      "label": "غلاف الوحدة - التيار المتردد (المتناوب)",
+      "start_page": 29,
+      "end_page": 29,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة الثانية",
+      "start_page": 58,
+      "end_page": 60,
+      "page_count": 3
+    },
+    {
+      "label": "غلاف الوحدة - الإلكترونيات",
+      "start_page": 61,
+      "end_page": 61,
+      "page_count": 1
+    },
+    {
+      "label": "الوصلة الثنائية واستخدامها في تقويم التيار المتردد",
+      "start_page": 67,
+      "end_page": 70,
+      "page_count": 4
+    },
+    {
+      "label": "تقويم الوحدة الثالثة",
+      "start_page": 80,
+      "end_page": 84,
+      "page_count": 5
+    },
+    {
+      "label": "غلاف الوحدة - الأجهزة الإلكترونية",
+      "start_page": 85,
+      "end_page": 85,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة الرابعة",
+      "start_page": 107,
+      "end_page": 113,
+      "page_count": 7
+    },
+    {
+      "label": "غلاف الوحدة - الفيزياء الذرية",
+      "start_page": 114,
+      "end_page": 114,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة الخامسة",
+      "start_page": 142,
+      "end_page": 143,
+      "page_count": 2
+    },
+    {
+      "label": "غلاف الوحدة - الإشعاع والمادة",
+      "start_page": 144,
+      "end_page": 144,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة السادسة",
+      "start_page": 171,
+      "end_page": 172,
+      "page_count": 2
+    },
+    {
+      "label": "غلاف الوحدة - الفيزياء النووية",
+      "start_page": 173,
+      "end_page": 173,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة السابعة",
+      "start_page": 183,
+      "end_page": 184,
+      "page_count": 2
+    },
+    {
+      "label": "غلاف الوحدة - الطاقة الشمسية",
+      "start_page": 185,
+      "end_page": 185,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة الثامنة",
+      "start_page": 197,
+      "end_page": 197,
+      "page_count": 1
+    },
+    {
+      "label": "غلاف الوحدة - الفيزياء الكونية",
+      "start_page": 198,
+      "end_page": 198,
+      "page_count": 1
+    },
+    {
+      "label": "تقويم الوحدة التاسعة",
+      "start_page": 210,
+      "end_page": 210,
+      "page_count": 1
+    }
+  ],
+  "lesson_boundaries_status": "NOT VERIFIED",
+  "unit_boundaries_status": "NOT VERIFIED",
+  "question_linkage_status": "NOT VERIFIED",
+  "semantic_question_review": "NOT VERIFIED",
+  "raw_mutations": 0,
+  "imports_created": 0,
+  "publications_created": 0,
+  "next_operation": "Inspect exact-master filename/title runs plus all contact sheets. Promote only evidence-backed units/lessons/non-lesson pages; otherwise retain NOT VERIFIED/review_required."
+}
