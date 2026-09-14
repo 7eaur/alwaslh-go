@@ -48,6 +48,25 @@ jobs:
             --subject-id da6fc228-1ada-4627-8306-80d9d3401490 \
             --visual-dir artifacts/english-exam-1447
 
+      - name: Print compact source-record evidence
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='da6fc228-1ada-4627-8306-80d9d3401490'
+          pages=json.loads(Path(f'content-staging/raw/legacy-supabase/subjects/{sid}/pages.json').read_text(encoding='utf-8'))
+          for ordinal,p in enumerate(pages,1):
+              print(json.dumps({
+                  'ordinal': ordinal,
+                  'id': p.get('id'),
+                  'page_number': p.get('page_number'),
+                  'title': p.get('title'),
+                  'question_count': len(p.get('ai_questions') or []),
+                  'content_type': p.get('content_type')
+              }, ensure_ascii=False))
+          PY
+
       - name: Validate discovery evidence
         run: |
           set -euo pipefail
