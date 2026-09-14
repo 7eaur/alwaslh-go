@@ -221,17 +221,17 @@ Do not rewrite or delete older RUN sections. Append-only history makes handoff a
 
 ## 10. ACTIVE CHECKPOINT
 
-- state: `PARTIAL_SAFE_HANDOFF_SOURCE_IDENTITY_BLOCKER`
+- state: `READY_NEXT_SOURCE`
 - branch: `content/corpus-inventory-20260914`
-- latest evidence HEAD before this handoff tooling: `d07fbe0fb1c7169f4641efa06afa7b6379e5cbdf`
-- last completed source: `fef5e58f-21df-42e3-81ae-6966cd7bad10 — الرياضيات نماذج وزارية 1447`
-- current source: `1933807f-4cb0-40c9-9b29-3ef3d32c98dc — كتاب الرياضيات - الجزء الأول`
-- current source baseline from live manifest: `186 pages, 186 images, 717 legacy questions, 0 download failures; anomaly arrays preserved: {"duplicate_page_numbers": [], "invalid_subject_ids": [], "malformed_ai_questions": [], "malformed_image_urls": [], "missing_images": [], "multiple_images": [], "null_or_invalid_page_numbers": []}`
-- current source verified work: `186/186 immutable RAW images technically PASS. The initially tested master reference (الرياضيات ثالث ثانوي/02_الرياضيات_ثالث_ثانوي) is REJECTED as an identity source: 0/186 exact SHA matches and only 1/186 expected source-page positions is the unique visual nearest match across all 255 reference pages. No book/unit/lesson/review boundary or question mapping has been promoted.`
-- current operation: `Re-fetch live HEAD and this baton; confirm no active/running workflow for 1933807f-4cb0-40c9-9b29-3ef3d32c98dc; keep the current source active. Establish the actual source identity from RAW/source-local evidence first. Generate and inspect occurrence-safe visual contact sheets or another deterministic page-level reference for the 186 RAW pages; do not reuse the rejected Third Secondary master metadata. Use legacy question_references only as weak candidates: they cover 60/186 pages, leave 126 pages without question evidence, include 3 multi-title conflicts, and remain semantically NOT VERIFIED. Only after source identity/page boundaries are independently evidenced may units/lessons/reviews and the 717 structural links be finalized.`
-- next source: `NOT YET RESOLVED — do not advance until 1933807f-4cb0-40c9-9b29-3ef3d32c98dc is either safely finalized or explicitly quarantined by an evidence-backed decision.`
-- blockers: `SOURCE IDENTITY NOT VERIFIED. Rejected reference evidence: exact SHA 0/186; all-v-all visual diagnostic expected-position unique-best 1/186. Legacy AI question-reference candidates are insufficient alone (60 pages with evidence / 126 without; 57 single-title pages / 3 conflicts; 45 distinct candidate titles).`
-- owner decision required now: `no; continue evidence discovery fail-closed`
+- latest evidence HEAD before this handoff tooling: `f1202fbeedd500fc0d8fc2676b92485a46bf0570`
+- last completed source: `1933807f-4cb0-40c9-9b29-3ef3d32c98dc — كتاب الرياضيات - الجزء الأول`
+- current source: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`
+- current source baseline from live manifest: `135 pages, 135 images, 0 legacy questions, 0 download failures; anomaly arrays preserved: {"duplicate_page_numbers": [], "invalid_subject_ids": [], "malformed_ai_questions": [], "malformed_image_urls": [], "missing_images": [], "multiple_images": [], "null_or_invalid_page_numbers": []}`
+- current source verified work: `NOT STARTED in this handoff. No structural assumptions inherited from Part 1.`
+- current operation: `Re-fetch live HEAD and this baton; confirm no active/running workflow for b80cbba1-410a-4346-9446-c3f01c4f9e56; technically verify all 135 immutable RAW images first; establish Part 2 identity and Unit/Lesson/non-lesson boundaries only from its own deterministic evidence; because this source has 0 legacy questions, do not invent question mappings; preserve ambiguity as NOT VERIFIED/review_required; checkpoint only after page classification and invariants pass.`
+- next source: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`
+- blockers: `none for handoff; Part 2 technical/identity/structure evidence is NOT VERIFIED until Worker A inspects it.`
+- owner decision required now: `no; continue source-by-source fail-closed`
 ---
 
 ### Shared handoff rule
@@ -1387,4 +1387,59 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `NOT YET RESOLVED`
 - blockers: `Source identity mismatch with the apparent Third Secondary master reference; no safe structural finalization yet.`
 - handoff note: `Worker B must not repeat or force the rejected master mapping. Continue from the diagnostic artifacts above, keeping source 1933807f-4cb0-40c9-9b29-3ef3d32c98dc active until identity/boundaries are independently evidenced.`
+
+## RUN 2026-09-14T19:20:21+03:00 — Worker B
+
+- state: COMPLETE
+- start HEAD: `6ed3971e2e2edfd276368f7ebf55f39d33a96610`
+- end HEAD before handoff-log tooling: `f1202fbeedd500fc0d8fc2676b92485a46bf0570`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `1933807f-4cb0-40c9-9b29-3ef3d32c98dc — كتاب الرياضيات - الجزء الأول`
+- completed in this run:
+  - verified Worker A's last RUN and source-identity blocker against live HEAD/manifests/evidence;
+  - preserved the rejected master reference as rejected and transferred no structure from it;
+  - generated and inspected complete occurrence-safe contact sheets covering all 186 immutable RAW pages;
+  - established 4 unit boundaries, 21 source-local lesson runs, 162 lesson pages, and 24 proven non-lesson pages (2 review, 18 general-exercise, 4 unit-test);
+  - accounted for all 717 legacy questions: 620 on proven lesson pages structurally lesson-linked; 97 on proven non-lesson pages marked review_required rather than forced into lessons;
+  - reran 186/186 technical verification, finalized reconstruction, updated MASTER and evidence-backed status files;
+  - finalization passed all live-HEAD gates and the global question invariant.
+- evidence produced/verified:
+  - technical report: `content-staging/reconstruction/technical/1933807f-4cb0-40c9-9b29-3ef3d32c98dc.json`;
+  - reconstruction: `content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc.json`;
+  - contact-sheet run `34866261877`, artifact digest `sha256:d0809a083d82ceccfdddaecaa757b53503fbc28ef4a23b542a31f894a8bf866b`;
+  - structure-analysis run `34866749562`: 717 = 620 lesson + 23 review + 62 general-exercise + 12 unit-test questions;
+  - finalization run `34867041504`: `MATH_PART1_RECONSTRUCTION_VERIFY_PASS` and `MATH_PART1_FINALIZATION_VERIFY_PASS`;
+  - canonical evidence commit: `f1202fbeedd500fc0d8fc2676b92485a46bf0570`;
+  - handoff workflow run `34867292456` failed at workflow configuration before any Job and made no baton/evidence mutation;
+  - handoff workflow run `34867605463` passed its live-HEAD gate but failed before write/commit on an incorrect progress-key lookup; it made no baton/evidence mutation and was corrected before the successful retry.
+- ambiguity/review_required:
+  - rejected reference `الرياضيات ثالث ثانوي/02_الرياضيات_ثالث_ثانوي`: 0/186 exact SHA matches and expected-position unique visual nearest match only 1/186; it remains unusable for identity/structure;
+  - 97 questions on review/exercise/test pages remain `review_required`;
+  - semantic correctness of legacy AI questions: `NOT VERIFIED`.
+- invariant result: PASS
+- Sources processed: 24/58
+- Educational: 11/26
+- Books / Units / Lessons / Lesson Pages: 11 / 37 / 217 / 1039
+- Exam Source Groups: 13/32
+- Individual Exam Models: 206
+- Exam Pages: 668/2,286
+- Verified Answer Keys: 0
+- Source images technical: 1851/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 7511
+- Exam-linked: 1132
+- Review-required: 448
+- Unclassified: 16664
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `1933807f-4cb0-40c9-9b29-3ef3d32c98dc — كتاب الرياضيات - الجزء الأول`
+- current source: `b80cbba1-410a-4346-9446-c3f01c4f9e56 — كتاب الرياضيات - الجزء الثاني`
+- exact next operation: `Technically verify 135/135 Part 2 RAW images, establish identity/title evidence and complete visual boundaries from Part 2 itself, reconstruct its own Units/Lessons/non-lesson pages without inheriting Part 1 structure, assert 0-question accounting and global invariant, checkpoint, then continue.`
+- next source: `b6ce737e-26d4-4219-a607-27bfb7d2f518 — كتاب الإسلامية - الجزء الأول`
+- blockers: `none`
+- handoff note: `Worker A must start Part 2 from its live manifest/RAW. Do not assume Part 1's unit count, page ranges, lesson count, or rejected-reference behavior applies. Part 2 baseline has 0 legacy questions, so invent no question mappings.`
 
