@@ -1,0 +1,82 @@
+name: Discover Arabic Book Part 2
+on:
+  push:
+    branches: [content/corpus-inventory-20260914]
+    paths: ['.github/workflows/discover-arabic-book-part2.yml']
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - name: Install image dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+      - name: Verify immutable RAW and derive title-run evidence
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, hashlib, pathlib, collections
+          sid='7ddec20e-617e-4e55-bba8-2d371aaf16b6'
+          root=pathlib.Path('content-staging/raw/legacy-supabase/subjects')/sid
+          m=json.loads((root/'manifest.json').read_text()); pages=json.loads((root/'pages.json').read_text())
+          failures=[]; shas=collections.defaultdict(list); verified=[]
+          for im in m['images']:
+              p=pathlib.Path('content-staging')/im['raw_path']
+              if not p.exists(): failures.append({'legacy_page_id':im['legacy_page_id'],'error':'missing'}); continue
+              b=p.read_bytes(); sha=hashlib.sha256(b).hexdigest()
+              mime='image/jpeg' if b[:3]==b'\xff\xd8\xff' else ('image/png' if b[:8]==b'\x89PNG\r\n\x1a\n' else 'unknown')
+              ok=(len(b)==im['byte_size'] and sha==im['sha256'] and mime==im['mime_type'])
+              if not ok: failures.append({'legacy_page_id':im['legacy_page_id'],'page':im.get('page_number'),'size':len(b),'sha':sha,'mime':mime})
+              verified.append({'page_number':im.get('page_number'),'legacy_page_id':im['legacy_page_id'],'sha256':sha,'byte_size':len(b),'mime_type':mime,'ok':ok})
+              shas[sha].append({'page_number':im.get('page_number'),'legacy_page_id':im['legacy_page_id']})
+          numbered=sorted(x['page_number'] for x in m['images'] if isinstance(x.get('page_number'),int) and x.get('page_number')>0)
+          missing=sorted(set(range(numbered[0],numbered[-1]+1))-set(numbered)) if numbered else []
+          ordered=sorted(pages,key=lambda x:(x.get('page_number') if isinstance(x.get('page_number'),int) and x.get('page_number')>0 else -1, x['id']))
+          runs=[]
+          for p in ordered:
+              title=p.get('title') or 'NOT VERIFIED'; n=p.get('page_number')
+              if runs and runs[-1]['title']==title and isinstance(n,int) and isinstance(runs[-1]['end_page'],int) and n==runs[-1]['end_page']+1:
+                  runs[-1]['end_page']=n; runs[-1]['page_count']+=1; runs[-1]['legacy_page_ids'].append(p['id'])
+              else: runs.append({'title':title,'start_page':n,'end_page':n,'page_count':1,'legacy_page_ids':[p['id']]})
+          report={'source_id':sid,'scope':'technical_verification_and_metadata_title_runs_only','manifest_counts':m['counts'],'manifest_anomalies':m['anomalies'],'technical_verified_images':sum(1 for x in verified if x['ok']),'technical_failures':failures,'numbered_page_sequence':{'first':numbered[0] if numbered else None,'last':numbered[-1] if numbered else None,'count':len(numbered),'missing':missing},'nonpositive_or_unknown_page_records':[x for x in verified if not isinstance(x.get('page_number'),int) or x.get('page_number')<=0],'duplicate_sha_groups':[{'sha256':s,'records':rs} for s,rs in shas.items() if len(rs)>1],'title_runs':runs,'structure_status':'NOT VERIFIED','visual_semantic_review':'NOT VERIFIED','raw_mutations':0,'new_imports':0,'new_publications':0}
+          if failures or len(verified)!=178 or m['counts']['pages']!=178 or m['counts']['image_references']!=178 or m['counts']['questions']!=11:
+              raise SystemExit('technical gate failed')
+          out=pathlib.Path('content-staging/reconstruction/technical')/f'{sid}.json'; out.parent.mkdir(parents=True,exist_ok=True); out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps({'verified':report['technical_verified_images'],'sequence':report['numbered_page_sequence'],'unknown_records':len(report['nonpositive_or_unknown_page_records']),'duplicates':len(report['duplicate_sha_groups']),'title_runs':len(runs)},ensure_ascii=False))
+          PY
+      - name: Build complete contact sheets in retained record order
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          from PIL import Image, ImageDraw
+          sid='7ddec20e-617e-4e55-bba8-2d371aaf16b6'; root=pathlib.Path('content-staging/raw/legacy-supabase/subjects')/sid
+          m=json.loads((root/'manifest.json').read_text()); out=pathlib.Path('artifacts/arabic-book-part2-contact-sheets'); out.mkdir(parents=True,exist_ok=True)
+          ims=list(m['images'])
+          for start in range(0,len(ims),12):
+              batch=ims[start:start+12]; tw,th,lh,cols=320,430,34,4; rows=(len(batch)+cols-1)//cols
+              sheet=Image.new('RGB',(cols*tw,rows*(th+lh)),'white'); d=ImageDraw.Draw(sheet)
+              for i,rec in enumerate(batch):
+                  p=pathlib.Path('content-staging')/rec['raw_path']; im=Image.open(p).convert('RGB'); im.thumbnail((tw-8,th-8))
+                  cell=Image.new('RGB',(tw,th),'white'); cell.paste(im,((tw-im.width)//2,(th-im.height)//2)); x=(i%cols)*tw; y=(i//cols)*(th+lh); sheet.paste(cell,(x,y))
+                  d.text((x+6,y+th+4),f"record {start+i+1} stored {rec.get('page_number')}",fill='black')
+              sheet.save(out/f'{start+1:03d}-{start+len(batch):03d}.jpg',quality=90,optimize=True)
+          print(f'CONTACT_SHEETS={len(list(out.glob("*.jpg")))} RECORDS={len(ims)}')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arabic-book-part2-contact-sheets
+          path: artifacts/arabic-book-part2-contact-sheets/*.jpg
+          if-no-files-found: error
+      - name: Commit evidence only
+        run: |
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/reconstruction/technical/7ddec20e-617e-4e55-bba8-2d371aaf16b6.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'content: verify Arabic book part 2 RAW evidence [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
