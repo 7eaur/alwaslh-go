@@ -17,7 +17,7 @@ jobs:
         shell: bash
         run: |
           python - <<'PY'
-          import json, hashlib, mimetypes, pathlib, collections
+          import json, hashlib, pathlib, collections
           sid='ab701a9e-3efb-409a-8ed1-9752d41c4771'
           root=pathlib.Path('content-staging/raw/legacy-supabase/subjects')/sid
           m=json.loads((root/'manifest.json').read_text())
@@ -33,7 +33,7 @@ jobs:
               verified.append({'page_number':im['page_number'],'legacy_page_id':im['legacy_page_id'],'sha256':sha,'byte_size':len(b),'mime_type':mime,'ok':ok})
               shas[sha].append(im['page_number'])
           nums=sorted(x['page_number'] for x in m['images'])
-          missing=list(range(nums[0],nums[-1]+1)); missing=sorted(set(missing)-set(nums))
+          missing=sorted(set(range(nums[0],nums[-1]+1))-set(nums))
           runs=[]
           for p in sorted(pages,key=lambda x:x['page_number']):
               title=p.get('title') or 'NOT VERIFIED'
@@ -46,6 +46,37 @@ jobs:
           out=pathlib.Path('content-staging/reconstruction/technical')/f'{sid}.json'; out.parent.mkdir(parents=True,exist_ok=True); out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
           print(json.dumps({'verified':report['technical_verified_images'],'sequence':report['page_sequence'],'duplicates':len(report['duplicate_sha_groups']),'title_runs':len(runs)},ensure_ascii=False))
           PY
+      - name: Build complete contact sheets
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          from PIL import Image, ImageOps, ImageDraw
+          sid='ab701a9e-3efb-409a-8ed1-9752d41c4771'
+          root=pathlib.Path('content-staging/raw/legacy-supabase/subjects')/sid
+          m=json.loads((root/'manifest.json').read_text())
+          out=pathlib.Path('artifacts/arabic-book-part1-contact-sheets'); out.mkdir(parents=True,exist_ok=True)
+          ims=sorted(m['images'], key=lambda x:x['page_number'])
+          for start in range(0,len(ims),12):
+              batch=ims[start:start+12]
+              thumb_w,thumb_h=320,430; label_h=28; cols=4; rows=(len(batch)+cols-1)//cols
+              sheet=Image.new('RGB',(cols*thumb_w,rows*(thumb_h+label_h)),'white')
+              d=ImageDraw.Draw(sheet)
+              for i,rec in enumerate(batch):
+                  p=pathlib.Path('content-staging')/rec['raw_path']
+                  im=Image.open(p).convert('RGB'); im.thumbnail((thumb_w-8,thumb_h-8))
+                  cell=Image.new('RGB',(thumb_w,thumb_h),'white'); cell.paste(im,((thumb_w-im.width)//2,(thumb_h-im.height)//2))
+                  x=(i%cols)*thumb_w; y=(i//cols)*(thumb_h+label_h)
+                  sheet.paste(cell,(x,y)); d.text((x+6,y+thumb_h+5),f"stored page {rec['page_number']}",fill='black')
+              first=batch[0]['page_number']; last=batch[-1]['page_number']
+              sheet.save(out/f'{first:03d}-{last:03d}.jpg',quality=90,optimize=True)
+          print(f'CONTACT_SHEETS={len(list(out.glob("*.jpg")))} PAGES={len(ims)}')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arabic-book-part1-contact-sheets
+          path: artifacts/arabic-book-part1-contact-sheets/*.jpg
+          if-no-files-found: error
       - name: Commit evidence only
         run: |
           git config user.name alwaslh-content-bot
