@@ -1,0 +1,37 @@
+{
+  "source_id": "ab701a9e-3efb-409a-8ed1-9752d41c4771",
+  "source_name": "كتاب العربي - الجزء الأول",
+  "phase": "CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY",
+  "state": "EVIDENCE_RECONSTRUCTED_PENDING_MASTER_CHECKPOINT",
+  "policy": "content-staging/reconstruction/SHARED_PHYSICAL_LESSON_PAGE_POLICY.json",
+  "technical": {"retained_pages":169,"stored_range":"9..177","raw_verified":169,"duplicate_sha_groups":0,"legacy_questions":0},
+  "counts": {"books":1,"units":12,"semantic_instructional_lessons":60,"unique_lesson_physical_pages":114,"unit_cover_or_intro_pages":35,"assessment_pages":18,"tail_pages":2},
+  "physical_page_accounting": "114 + 35 + 18 + 2 = 169",
+  "units": [
+    {"unit":1,"range":[9,19],"intro_pages":[],"lessons":[{"lesson":1,"pages":[9,10,11,12,13,14]},{"lesson":2,"pages":[15,16]},{"lesson":3,"pages":[17]},{"lesson":4,"pages":[18]},{"lesson":5,"pages":[18]}],"assessment_pages":[19]},
+    {"unit":2,"range":[20,34],"intro_pages":[20,21],"lessons":[{"lesson":1,"pages":[22,23]},{"lesson":2,"pages":[24,25,26,27,28,29,30]},{"lesson":3,"pages":[31,32]},{"lesson":4,"pages":[33]},{"lesson":5,"pages":[33]}],"assessment_pages":[34]},
+    {"unit":3,"range":[35,49],"intro_pages":[35,36,37,38],"lessons":[{"lesson":1,"pages":[39,40]},{"lesson":2,"pages":[41,42,43,44,45,46]},{"lesson":3,"pages":[47]},{"lesson":4,"pages":[47]},{"lesson":5,"pages":[48]}],"assessment_pages":[49]},
+    {"unit":4,"range":[50,64],"intro_pages":[50,51,52],"lessons":[{"lesson":1,"pages":[53,54]},{"lesson":2,"pages":[55,56,57,58,59,60]},{"lesson":3,"pages":[61]},{"lesson":4,"pages":[61]},{"lesson":5,"pages":[62]}],"assessment_pages":[63,64]},
+    {"unit":5,"range":[65,77],"intro_pages":[65,66,67,68,69],"lessons":[{"lesson":1,"pages":[70,71]},{"lesson":2,"pages":[72,73]},{"lesson":3,"pages":[74]},{"lesson":4,"pages":[75]},{"lesson":5,"pages":[75]}],"assessment_pages":[76,77]},
+    {"unit":6,"range":[78,96],"intro_pages":[78,79,80,81],"lessons":[{"lesson":1,"pages":[82,83]},{"lesson":2,"pages":[84,85,86,87,88,89,90]},{"lesson":3,"pages":[91,92,93,94]},{"lesson":4,"pages":[95]},{"lesson":5,"pages":[95]}],"assessment_pages":[96]},
+    {"unit":7,"range":[97,109],"intro_pages":[97,98,99],"lessons":[{"lesson":1,"pages":[100,101]},{"lesson":2,"pages":[102,103,104,105]},{"lesson":3,"pages":[106]},{"lesson":4,"pages":[106]},{"lesson":5,"pages":[107]}],"assessment_pages":[108,109]},
+    {"unit":8,"range":[110,123],"intro_pages":[110,111],"lessons":[{"lesson":1,"pages":[112,113,114]},{"lesson":2,"pages":[115,116]},{"lesson":3,"pages":[117,118,119,120]},{"lesson":4,"pages":[121]},{"lesson":5,"pages":[121]}],"assessment_pages":[122,123]},
+    {"unit":9,"range":[124,137],"intro_pages":[124,125,126],"lessons":[{"lesson":1,"pages":[127,128]},{"lesson":2,"pages":[129,130,131,132,133,134,135]},{"lesson":3,"pages":[136]},{"lesson":4,"pages":[136]},{"lesson":5,"pages":[136]}],"assessment_pages":[137]},
+    {"unit":10,"range":[138,151],"intro_pages":[138,139],"lessons":[{"lesson":1,"pages":[140,141]},{"lesson":2,"pages":[142,143,144,145,146,147]},{"lesson":3,"pages":[148]},{"lesson":4,"pages":[149]},{"lesson":5,"pages":[149]}],"assessment_pages":[150,151]},
+    {"unit":11,"range":[152,166],"intro_pages":[152,153,154,155],"lessons":[{"lesson":1,"pages":[156,157]},{"lesson":2,"pages":[158,159,160,161]},{"lesson":3,"pages":[162]},{"lesson":4,"pages":[163]},{"lesson":5,"pages":[164]}],"assessment_pages":[165,166]},
+    {"unit":12,"range":[167,175],"intro_pages":[167,168,169],"lessons":[{"lesson":1,"pages":[170,171]},{"lesson":2,"pages":[172]},{"lesson":3,"pages":[173]},{"lesson":4,"pages":[174]},{"lesson":5,"pages":[174]}],"assessment_pages":[175]}
+  ],
+  "tail_pages": [176,177],
+  "shared_lesson_pages": [18,33,47,61,75,95,106,121,136,149,174],
+  "question_mapping": "NOT APPLICABLE — 0 legacy questions",
+  "semantic_correctness": "NOT APPLICABLE for questions; exact bibliographic edition transcription remains NOT VERIFIED",
+  "evidence": [
+    "content-staging/reconstruction/technical/ab701a9e-3efb-409a-8ed1-9752d41c4771.json",
+    "content-staging/reconstruction/educational/ab701a9e-3efb-409a-8ed1-9752d41c4771-visual-review.json",
+    "content-staging/reconstruction/educational/ab701a9e-3efb-409a-8ed1-9752d41c4771-exact-lesson-header-review.json",
+    "content-staging/reconstruction/SHARED_PHYSICAL_LESSON_PAGE_POLICY.json",
+    "artifact 10380121394 / run 34925408200"
+  ],
+  "invariants": {"question_equation":"13135 + 1920 + 1229 + 9471 = 25755","raw_mutations":0,"unrelated_mutations":0,"new_imports":0,"new_publications":0},
+  "exact_next_operation": "Validate this reconstruction against live MASTER/status schema, update aggregate counters to Sources 37/58, Educational 17/26, Books 15, Units 69, Lessons 388, Lesson Pages 1641, Source images technical 3190/5273 while question buckets remain unchanged; then resolve the next source from live MASTER."
+}
