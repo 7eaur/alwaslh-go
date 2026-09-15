@@ -2152,14 +2152,51 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - blockers: none at handoff.
 - handoff note: `Worker B must not rerun/finalize Arabic Part 1 absent drift evidence. Start 7ddec20e-617e-4e55-bba8-2d371aaf16b6 from its own source evidence.`
 
+## RUN 2026-09-16T02:25:52+03:00 — Worker A
+
+- state: COMPLETE_SOURCE_HANDOFF
+- start HEAD: `25a487c9837cc1405ed848b26871b7b0375c93af`
+- end HEAD before handoff-log commit: `WORKTREE_PENDING_COMMIT`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- completed in this run: validated and checkpointed the existing evidence-backed Arabic Part 2 reconstruction; finalized 1 Book / 12 Units / 60 semantic Lessons / 99 unique physical Lesson pages; preserved page 0 and shared-page semantics; quarantined all 11 stale page-177 questions as review_required; updated MASTER/status evidence; resolved the next source from live MASTER.
+- evidence/artifacts: `content-staging/reconstruction/educational/7ddec20e-617e-4e55-bba8-2d371aaf16b6.json`; `content-staging/reconstruction/educational/7ddec20e-617e-4e55-bba8-2d371aaf16b6-page177-conflict-resolution.json`; complete visual artifact `10398967254` / run `34975254689`.
+- ambiguity/review_required: the 11 page-177 questions have no proven lesson/assessment page and remain review_required; semantic correctness `NOT VERIFIED`; no guessed reassignment.
+- invariant result: PASS (`13135 + 1920 + 1240 + 9460 = 25,755`); physical `8 + 48 + 99 + 20 + 3 = 178`.
+- Sources processed: 38/58
+- Educational: 18/26
+- Books / Units / Lessons / Lesson Pages: 16 / 81 / 448 / 1740
+- Exam Source Groups: 20/32
+- Individual Exam Models: 370
+- Exam Pages: 1274/2286
+- Verified Answer Keys: 0
+- Source images technical: 3368/5273
+- Legacy Questions: 25755
+- Lesson-linked: 13135
+- Exam-linked: 1920
+- Review-required: 1240
+- Unclassified: 9460
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- current source: `6fa466f9-b930-437e-b091-947ee56407c4 — التفاضل والتكامل نماذج وزاريه 1445`
+- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for 6fa466f9-b930-437e-b091-947ee56407c4; technically verify its 80 immutable RAW page records; discover source-local Individual Exam Model/correction/Answer-Key boundaries without inheriting prior packet patterns; map questions only where proven; quarantine uncertainty; assert invariants; checkpoint.`
+- next source: `Resolve only after 6fa466f9-b930-437e-b091-947ee56407c4 finalization from live MASTER.`
+- blockers: `none for reconstruction continuation; production database cleanup/import remains gated until an import-ready batch and modern schema dry-run are verified.`
+- handoff note: `Do not rerun Arabic Part 2 absent drift evidence. Its 11 page-177 questions are excluded from clean lesson/assessment import until independently resolved.`
+
 ## ACTIVE CHECKPOINT
 
 - state: `COMPLETE_SOURCE_HANDOFF`
 - branch: `content/corpus-inventory-20260914`
-- latest validated source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
-- progress: `37/58 sources; 17/26 educational; 20/32 exam groups; 15 books; 69 units; 388 lessons; 1641 unique physical lesson pages; 3190/5273 technical images.`
-- invariant: `13135 + 1920 + 1229 + 9471 = 25,755`; RAW/unrelated/import/publication mutations `0/0/0/0`.
-- current source: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
-- current operation: `Begin source-local verification/reconstruction for 7ddec20e-617e-4e55-bba8-2d371aaf16b6; do not inherit prior-source boundaries.`
-- next source: `Resolve only after 7ddec20e-617e-4e55-bba8-2d371aaf16b6 finalization from live MASTER.`
-- blockers: `none known; source identity/structure remain NOT VERIFIED until its own evidence gates pass.`
+- latest validated source: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- progress: `38/58 sources; 18/26 educational; 20/32 exam groups; 16 books; 81 units; 448 lessons; 1740 unique physical lesson pages; 3368/5273 technical images.`
+- invariant: `13135 + 1920 + 1240 + 9460 = 25,755`; RAW/unrelated/import/publication mutations `0/0/0/0`.
+- current source: `6fa466f9-b930-437e-b091-947ee56407c4 — التفاضل والتكامل نماذج وزاريه 1445`
+- current source baseline: `80 pages / 80 images / 0 legacy questions / 0 download failures; structure NOT VERIFIED.`
+- current operation: `Begin source-local technical verification and exam-boundary discovery for 6fa466f9-b930-437e-b091-947ee56407c4; do not inherit prior-source boundaries.`
+- next source: `Resolve only after 6fa466f9-b930-437e-b091-947ee56407c4 finalization from live MASTER.`
+- blockers: `none known for reconstruction; production PostgreSQL mutation remains gated and NOT EXECUTED.`

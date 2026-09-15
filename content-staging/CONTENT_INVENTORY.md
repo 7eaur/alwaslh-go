@@ -577,3 +577,17 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - Technical images: **3190/5273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
 - Last completed: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`. Next: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`.
 <!-- ARABIC_PART1_CHECKPOINT_END -->
+
+<!-- ARABIC_PART2_CHECKPOINT_START -->
+## Reconstruction checkpoint — Arabic book part 2
+
+- Sources processed: **38/58**; Educational: **18/26**; Exam groups: **20/32**.
+- Books / Units / Lessons / unique physical Lesson pages: **16 / 81 / 448 / 1740**.
+- Arabic Part 2: **178/178** technical; page **0** preserved plus contiguous **1..177**; **12 Units (13..24) / 60 semantic Lessons / 111 membership edges / 99 unique physical lesson pages / 48 intro-cover / 20 assessment / 8 front matter / 3 tail**.
+- Physical invariant: **8 + 48 + 99 + 20 + 3 = 178**.
+- Page 177 conflict: immutable image association is verified as the back cover; its **11** stale/misattached legacy questions remain **review_required**, with **0 lesson-linked** and **0 assessment-linked**; semantic correctness is **NOT VERIFIED**.
+- Questions: **13135 + 1920 + 1240 + 9460 = 25,755**.
+- Technical images: **3368/5273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Production PostgreSQL cleanup/import: **NOT EXECUTED**; reconstruction remains not import-ready corpus-wide.
+- Last completed: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`. Next: `6fa466f9-b930-437e-b091-947ee56407c4 — التفاضل والتكامل نماذج وزاريه 1445`.
+<!-- ARABIC_PART2_CHECKPOINT_END -->
