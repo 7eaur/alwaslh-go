@@ -13,6 +13,8 @@ jobs:
         with:
           ref: content/corpus-inventory-20260914
           fetch-depth: 0
+      - name: Install image dependency
+        run: python -m pip install --disable-pip-version-check Pillow
       - name: Verify immutable RAW and derive title-run evidence
         shell: bash
         run: |
@@ -51,7 +53,7 @@ jobs:
         run: |
           python - <<'PY'
           import json, pathlib
-          from PIL import Image, ImageOps, ImageDraw
+          from PIL import Image, ImageDraw
           sid='ab701a9e-3efb-409a-8ed1-9752d41c4771'
           root=pathlib.Path('content-staging/raw/legacy-supabase/subjects')/sid
           m=json.loads((root/'manifest.json').read_text())
