@@ -1,0 +1,315 @@
+{
+  "source_id": "ab701a9e-3efb-409a-8ed1-9752d41c4771",
+  "scope": "technical_verification_and_metadata_title_runs_only",
+  "manifest_counts": {
+    "image_download_failures": 0,
+    "image_references": 169,
+    "images_downloaded": 169,
+    "pages": 169,
+    "questions": 0
+  },
+  "technical_verified_images": 169,
+  "technical_failures": [],
+  "page_sequence": {
+    "first": 9,
+    "last": 177,
+    "count": 169,
+    "missing": []
+  },
+  "duplicate_sha_groups": [],
+  "title_runs": [
+    {
+      "title": "عباد الرحمن (نصوص وتذوق)",
+      "start_page": 9,
+      "end_page": 14,
+      "page_count": 6
+    },
+    {
+      "title": "النحو والصرف (تطبيقات عامة لما سبقت دراسته)",
+      "start_page": 15,
+      "end_page": 16,
+      "page_count": 2
+    },
+    {
+      "title": "الإملاء (تطبيقات عامة)",
+      "start_page": 17,
+      "end_page": 18,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة الأولى",
+      "start_page": 19,
+      "end_page": 19,
+      "page_count": 1
+    },
+    {
+      "title": "الحرب الناعمة (قراءة)",
+      "start_page": 20,
+      "end_page": 23,
+      "page_count": 4
+    },
+    {
+      "title": "النحو والصرف (المستثنى بـ إلا)",
+      "start_page": 24,
+      "end_page": 30,
+      "page_count": 7
+    },
+    {
+      "title": "الإملاء (الحذف في أول الكلمة)",
+      "start_page": 31,
+      "end_page": 33,
+      "page_count": 3
+    },
+    {
+      "title": "تقويم الوحدة الثانية",
+      "start_page": 34,
+      "end_page": 34,
+      "page_count": 1
+    },
+    {
+      "title": "من عهد الإمام علي لمالك الأشتر (نصوص وتذوق)",
+      "start_page": 35,
+      "end_page": 40,
+      "page_count": 6
+    },
+    {
+      "title": "النحو والصرف (غير وسوى وخلا وعدا)",
+      "start_page": 41,
+      "end_page": 46,
+      "page_count": 6
+    },
+    {
+      "title": "الإملاء (تطبيقات على الحذف في أول الكلمة)",
+      "start_page": 47,
+      "end_page": 48,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة الثالثة",
+      "start_page": 49,
+      "end_page": 49,
+      "page_count": 1
+    },
+    {
+      "title": "المحاصيل الزراعية في اليمن (قراءة)",
+      "start_page": 50,
+      "end_page": 54,
+      "page_count": 5
+    },
+    {
+      "title": "النحو والصرف (أسلوب النداء)",
+      "start_page": 55,
+      "end_page": 60,
+      "page_count": 6
+    },
+    {
+      "title": "الإملاء (الحذف في وسط الكلمة)",
+      "start_page": 61,
+      "end_page": 62,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة الرابعة",
+      "start_page": 63,
+      "end_page": 64,
+      "page_count": 2
+    },
+    {
+      "title": "ربنا القهار (نصوص وتذوق)",
+      "start_page": 65,
+      "end_page": 71,
+      "page_count": 7
+    },
+    {
+      "title": "النحو والصرف (تطبيقات على ما سبقت دراسته)",
+      "start_page": 72,
+      "end_page": 73,
+      "page_count": 2
+    },
+    {
+      "title": "الإملاء (تطبيقات إملائية)",
+      "start_page": 74,
+      "end_page": 75,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة الخامسة",
+      "start_page": 76,
+      "end_page": 77,
+      "page_count": 2
+    },
+    {
+      "title": "فضل الجهاد في سبيل الله (نصوص وتذوق)",
+      "start_page": 78,
+      "end_page": 83,
+      "page_count": 6
+    },
+    {
+      "title": "النحو والصرف (أسلوب الشرط)",
+      "start_page": 84,
+      "end_page": 90,
+      "page_count": 7
+    },
+    {
+      "title": "الإملاء (الحذف في آخر الكلمة)",
+      "start_page": 91,
+      "end_page": 95,
+      "page_count": 5
+    },
+    {
+      "title": "تقويم الوحدة السادسة",
+      "start_page": 96,
+      "end_page": 96,
+      "page_count": 1
+    },
+    {
+      "title": "الإمام الشاعر (قراءة)",
+      "start_page": 97,
+      "end_page": 101,
+      "page_count": 5
+    },
+    {
+      "title": "النحو والصرف (اقتران جواب الشرط بالفاء)",
+      "start_page": 102,
+      "end_page": 105,
+      "page_count": 4
+    },
+    {
+      "title": "الإملاء (إملاء اختباري)",
+      "start_page": 106,
+      "end_page": 107,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة السابعة",
+      "start_page": 108,
+      "end_page": 109,
+      "page_count": 2
+    },
+    {
+      "title": "الإمام الشافعي (قراءة)",
+      "start_page": 110,
+      "end_page": 114,
+      "page_count": 5
+    },
+    {
+      "title": "تطبيقات نحوية",
+      "start_page": 115,
+      "end_page": 116,
+      "page_count": 2
+    },
+    {
+      "title": "الإملاء (زيادة الألف والواو)",
+      "start_page": 117,
+      "end_page": 121,
+      "page_count": 5
+    },
+    {
+      "title": "تقويم الوحدة الثامنة",
+      "start_page": 122,
+      "end_page": 123,
+      "page_count": 2
+    },
+    {
+      "title": "ثورة المعلومات (قراءة)",
+      "start_page": 124,
+      "end_page": 128,
+      "page_count": 5
+    },
+    {
+      "title": "النحو والصرف (أسلوب التعجب)",
+      "start_page": 129,
+      "end_page": 135,
+      "page_count": 7
+    },
+    {
+      "title": "الإملاء (إملاء اختباري)",
+      "start_page": 136,
+      "end_page": 136,
+      "page_count": 1
+    },
+    {
+      "title": "تقويم الوحدة التاسعة",
+      "start_page": 137,
+      "end_page": 137,
+      "page_count": 1
+    },
+    {
+      "title": "دماء الحجيج (قراءة)",
+      "start_page": 138,
+      "end_page": 141,
+      "page_count": 4
+    },
+    {
+      "title": "النحو والصرف (أسلوب المدح والذم - نعم - بئس - حبذا - لا حبذا)",
+      "start_page": 142,
+      "end_page": 147,
+      "page_count": 6
+    },
+    {
+      "title": "الإملاء (تطبيقات على فصل ما بما قبلها)",
+      "start_page": 148,
+      "end_page": 149,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة العاشرة",
+      "start_page": 150,
+      "end_page": 151,
+      "page_count": 2
+    },
+    {
+      "title": "في سبيل التعليم (نصوص وتذوق)",
+      "start_page": 152,
+      "end_page": 157,
+      "page_count": 6
+    },
+    {
+      "title": "النحو والصرف (أسلوب الإغراء والتحذير)",
+      "start_page": 158,
+      "end_page": 161,
+      "page_count": 4
+    },
+    {
+      "title": "الإملاء (إملاء اختباري)",
+      "start_page": 162,
+      "end_page": 164,
+      "page_count": 3
+    },
+    {
+      "title": "تقويم الوحدة الحادية عشرة",
+      "start_page": 165,
+      "end_page": 166,
+      "page_count": 2
+    },
+    {
+      "title": "اللغة الخالدة (قراءة)",
+      "start_page": 167,
+      "end_page": 171,
+      "page_count": 5
+    },
+    {
+      "title": "النحو والصرف (تطبيقات على ما سبق)",
+      "start_page": 172,
+      "end_page": 172,
+      "page_count": 1
+    },
+    {
+      "title": "الإملاء (تطبيقات إملائية)",
+      "start_page": 173,
+      "end_page": 174,
+      "page_count": 2
+    },
+    {
+      "title": "تقويم الوحدة الثانية عشرة",
+      "start_page": 175,
+      "end_page": 177,
+      "page_count": 3
+    }
+  ],
+  "structure_status": "NOT VERIFIED",
+  "visual_semantic_review": "NOT VERIFIED",
+  "raw_mutations": 0,
+  "new_imports": 0,
+  "new_publications": 0
+}
