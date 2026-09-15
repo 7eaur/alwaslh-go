@@ -1,0 +1,60 @@
+## RUN 2026-09-16T00:29:44+03:00 — Worker A
+
+- state: PARTIAL_SAFE_HANDOFF
+- start HEAD: `270e632671f0437014b49af08b9c089ea7bbd092`
+- end verified work HEAD before this handoff commit: `b5508ba389c38c71ae264f008743f66fe1d24fd6`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- completed in this run:
+  - fetched live branch HEAD and live operational baton before work;
+  - reviewed the latest bot change `270e632...` and consumed its immutable question-membership evidence rather than creating a duplicate workflow;
+  - reconciled the verified visual unit/assessment starts into an exact physical partition: 8 front-matter records, 146 unique lesson-content records, 21 unique unit-assessment records, and 3 non-lesson tail records = 178/178 with zero gaps and zero double-counting;
+  - detected a semantic/provenance conflict that blocks safe question classification: the only 11 legacy questions are attached to stored page 177 with metadata title `تقويم الوحدة الرابعة والعشرين`, while the complete visual review classifies stored page 177 as the back cover; verified unit-24 assessment starts at 173 and the explicit end-of-part page is 175, so the physical assessment range is 173..174;
+  - recorded the conflict fail-closed instead of promoting the 11 questions to lesson/assessment-linked or finalizing the source.
+- evidence produced/verified:
+  - `content-staging/reconstruction/educational/7ddec20e-617e-4e55-bba8-2d371aaf16b6-question-membership-evidence.json`;
+  - `content-staging/reconstruction/educational/7ddec20e-617e-4e55-bba8-2d371aaf16b6-visual-review.json`;
+  - `content-staging/reconstruction/technical/7ddec20e-617e-4e55-bba8-2d371aaf16b6.json`;
+  - new conflict gate: `content-staging/reconstruction/educational/7ddec20e-617e-4e55-bba8-2d371aaf16b6-page177-semantic-conflict.json` at `b5508ba389c38c71ae264f008743f66fe1d24fd6`.
+- ambiguity/review_required:
+  - page 177 metadata/question payload versus visually verified back-cover image association: `NOT VERIFIED` provenance conflict;
+  - semantic correctness and final classification of all 11 source questions remain `NOT VERIFIED`;
+  - source aggregate finalization withheld.
+- invariant result: PASS — canonical counters unchanged; `13,135 + 1,920 + 1,229 + 9,471 = 25,755`; 178 physical records partition exactly once; RAW/import/publication mutations remain zero.
+- Sources processed: 37/58
+- Educational: 17/26
+- Books / Units / Lessons / Lesson Pages: 15 / 69 / 388 / 1,641
+- Exam Source Groups: 20/32
+- Individual Exam Models: 370
+- Exam Pages: 1,274/2,286
+- Verified Answer Keys: 0
+- Source images technical: 3,190/5,273 canonical aggregate; 178 Part-2 images source-locally verified but not aggregate-finalized
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 13,135
+- Exam-linked: 1,920
+- Review-required: 1,229
+- Unclassified: 9,471
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- current source: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- exact next operation: `Inspect immutable pages.json record d79b9858-a33a-413b-9740-06a40f2e1eba and its referenced RAW image/checksum against page-level visual evidence. Determine whether the page-177 title/questions are stale metadata attached to a back-cover image or an image/page association defect. Preserve the proven 178-record physical partition, but do not classify the 11 questions or finalize Part 2 until this conflict is resolved.`
+- next source: `NOT YET RESOLVED — resolve only after Arabic Part 2 finalization from live MASTER`
+- blockers: `page 177 provenance/semantic conflict`
+- handoff note: `Worker B must not rerun technical verification/discovery. Start with the page-177 immutable record/image association. The shared baton could not be safely replaced because the connector returns the long append-only file truncated; this sidecar records the newest truth rather than risking loss of prior RUN history.`
+
+## ACTIVE CHECKPOINT
+
+- state: `PARTIAL_SAFE_HANDOFF`
+- branch: `content/corpus-inventory-20260914`
+- latest validated source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- progress: `37/58 sources; 17/26 educational; 20/32 exam groups; 15 books; 69 units; 388 lessons; 1641 canonical unique physical lesson pages; 3190/5273 canonical technical images.`
+- current source: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- current verified physical partition: `0..7 front matter = 8; unit lesson-content = 146 unique records; unit assessments = 21 unique records; 175..177 tail = 3; total 178/178, no gaps/double-counting.`
+- current operation: `Resolve page-177 immutable metadata/question payload versus visually verified back-cover image conflict before question classification/source finalization.`
+- next source: `Resolve only after Part 2 finalization from live MASTER.`
+- blockers: `page 177 metadata says تقويم الوحدة الرابعة والعشرين with 11 questions, but visual evidence says back cover; fail closed.`
