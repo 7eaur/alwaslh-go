@@ -2,12 +2,14 @@
   "source_id": "ab701a9e-3efb-409a-8ed1-9752d41c4771",
   "source_name": "كتاب العربي - الجزء الأول",
   "phase": "CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY",
-  "state": "PARTIAL_SAFE_HANDOFF_EXACT_LESSON_BOUNDARIES_NOT_VERIFIED",
+  "state": "PARTIAL_SAFE_HANDOFF_EXACT_HEADERS_VERIFIED_SHARED_PAGE_POLICY_NOT_VERIFIED",
   "start_head": "832ef59a1ce202760af72b00a0355df4e2e503f5",
+  "latest_review_head": "a361918357fe327e589e4cfef4f4ff221a6e73af",
   "evidence_reconciled": [
     "content-staging/reconstruction/technical/ab701a9e-3efb-409a-8ed1-9752d41c4771.json",
     "content-staging/reconstruction/educational/ab701a9e-3efb-409a-8ed1-9752d41c4771-visual-review.json",
-    "content-staging/reconstruction/educational/ab701a9e-3efb-409a-8ed1-9752d41c4771-canonical-policy-resolution.json"
+    "content-staging/reconstruction/educational/ab701a9e-3efb-409a-8ed1-9752d41c4771-canonical-policy-resolution.json",
+    "content-staging/reconstruction/educational/ab701a9e-3efb-409a-8ed1-9752d41c4771-exact-lesson-header-review.json"
   ],
   "verified": {
     "raw_images": 169,
@@ -16,21 +18,23 @@
     "legacy_questions": 0,
     "units": 12,
     "unit_ranges": ["9..19","20..34","35..49","50..64","65..77","78..96","97..109","110..123","124..137","138..151","152..166","167..175"],
+    "instructional_lesson_identities_visually_explicit": 60,
+    "exact_numbered_lesson_header_pages_recorded": true,
     "assessment_representation": "nonlesson_assessment_pages",
     "assessment_headers": [19,34,49,63,76,96,108,122,137,150,165,175],
     "tail_pages": [176,177]
   },
   "reconciliation_finding": {
-    "visual_evidence": "Complete contact-sheet review reports five numbered instructional lesson headers per unit plus lesson 6 تقويم الوحدة.",
-    "metadata_evidence": "Technical title-runs provide contiguous topical ranges and assessment runs, but do not independently expose exact page starts/ends for every visually observed lesson 4 (الخط) and lesson 5 (التعبير).",
-    "semantic_conflict": "No contradiction in existence of the visual lesson headers is asserted; the evidence is insufficient to derive exact canonical page boundaries for all five instructional lessons per unit from the currently committed machine-readable title-runs alone.",
-    "safe_action": "Do not promote the prospective 60 instructional lessons or create a complete page-to-lesson mapping until exact page-level starts/ends for lessons 4 and 5 are recorded from source-local visual evidence. Keep source unfinalized rather than guessing or absorbing those pages into neighboring metadata runs."
+    "visual_evidence": "Complete 15-sheet review now records exact header pages for all five numbered instructional lessons in each of 12 units.",
+    "shared_physical_pages": [18,33,47,61,75,95,106,121,136,149,174],
+    "semantic_conflict": "The source places two or three numbered lesson headers on the same physical stored page at 11 boundaries. Existing closed educational reconstruction examples use non-overlapping physical page membership, while no repository-approved shared-page lesson-membership contract has been verified.",
+    "safe_action": "Do not force 60 semantic lessons into fabricated non-overlapping page ranges and do not double-count lesson pages. Keep canonical source finalization blocked only on shared-physical-page representation policy; the former visual-boundary uncertainty is resolved."
   },
   "canonical_changes_in_this_commit": {
     "master_counters": "UNCHANGED",
     "source_finalized": false,
-    "lesson_count": "NOT VERIFIED",
-    "lesson_page_count": "NOT VERIFIED"
+    "lesson_count": "60 SEMANTIC IDENTITIES VERIFIED; CANONICAL COUNT NOT PROMOTED",
+    "lesson_page_count": "NOT VERIFIED pending shared-page counter semantics"
   },
   "invariants": {
     "question_equation": "13135 + 1920 + 1229 + 9471 = 25755",
@@ -39,5 +43,5 @@
     "new_imports": 0,
     "new_publications": 0
   },
-  "exact_next_operation": "Inspect page-level visual evidence specifically for the start/end pages of lesson 4 (الخط) and lesson 5 (التعبير) in each of the 12 verified units; record exact source-local boundaries. Then reconcile all five instructional lessons plus nonlesson assessment/tail pages, finalize only if every retained page is classified without overlap/gap, update MASTER/status counters, and advance to the next live source."
+  "exact_next_operation": "Resolve the repository-level contract for a physical page that contains multiple numbered lesson headers. Preserve one physical-page classification and define whether lesson membership may be many-to-many without double-counting lesson_page totals. Then materialize the 60 verified instructional lessons, keep assessments/tail nonlesson, verify coverage/counters/invariants, and finalize only if the contract is evidence-backed."
 }
