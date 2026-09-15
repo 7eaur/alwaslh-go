@@ -1,0 +1,61 @@
+{
+  "source_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+  "source_name": "كتاب العربي - الجزء الثاني",
+  "phase": "CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY",
+  "state": "EXACT_VISUAL_LESSON_HEADERS_VERIFIED",
+  "review_base_head": "bf3057c665e25ff8bce52a664a653528abfa4d6b",
+  "visual_artifact": {
+    "workflow_run": 34975254689,
+    "artifact_id": 10398967254,
+    "digest": "sha256:d36a1cd613d0e60fa4dcba82fb010688a09865b01ac0858f73aec8fa925f5d9a",
+    "sheets_reviewed": 15,
+    "records_reviewed": 178
+  },
+  "verified_unit_lesson_header_pages": [
+    {"unit":13,"lesson_1":12,"lesson_2":14,"lesson_3":20,"lesson_4":21,"lesson_5":22,"assessment_lesson_6":23},
+    {"unit":14,"lesson_1":30,"lesson_2":32,"lesson_3":35,"lesson_4":36,"lesson_5":36,"assessment_lesson_6":37},
+    {"unit":15,"lesson_1":42,"lesson_2":44,"lesson_3":49,"lesson_4":49,"lesson_5":49,"assessment_lesson_6":50},
+    {"unit":16,"lesson_1":57,"lesson_2":59,"lesson_3":65,"lesson_4":66,"lesson_5":67,"assessment_lesson_6":68},
+    {"unit":17,"lesson_1":72,"lesson_2":75,"lesson_3":76,"lesson_4":76,"lesson_5":77,"assessment_lesson_6":78},
+    {"unit":18,"lesson_1":83,"lesson_2":85,"lesson_3":89,"lesson_4":89,"lesson_5":90,"assessment_lesson_6":91},
+    {"unit":19,"lesson_1":97,"lesson_2":99,"lesson_3":104,"lesson_4":104,"lesson_5":104,"assessment_lesson_6":106},
+    {"unit":20,"lesson_1":111,"lesson_2":113,"lesson_3":117,"lesson_4":118,"lesson_5":118,"assessment_lesson_6":119},
+    {"unit":21,"lesson_1":126,"lesson_2":128,"lesson_3":131,"lesson_4":132,"lesson_5":132,"assessment_lesson_6":133},
+    {"unit":22,"lesson_1":141,"lesson_2":143,"lesson_3":148,"lesson_4":149,"lesson_5":149,"assessment_lesson_6":150},
+    {"unit":23,"lesson_1":154,"lesson_2":156,"lesson_3":161,"lesson_4":161,"lesson_5":162,"assessment_lesson_6":163},
+    {"unit":24,"lesson_1":167,"lesson_2":169,"lesson_3":171,"lesson_4":172,"lesson_5":172,"assessment_lesson_6":173}
+  ],
+  "verified_shared_header_pages": [
+    {"page":21,"lessons":[3,4]},
+    {"page":36,"lessons":[4,5]},
+    {"page":49,"lessons":[3,4,5]},
+    {"page":66,"lessons":[3,4]},
+    {"page":76,"lessons":[3,4]},
+    {"page":89,"lessons":[3,4]},
+    {"page":104,"lessons":[3,4,5]},
+    {"page":118,"lessons":[4,5]},
+    {"page":132,"lessons":[4,5]},
+    {"page":149,"lessons":[4,5]},
+    {"page":161,"lessons":[3,4]},
+    {"page":172,"lessons":[4,5]}
+  ],
+  "corrected_prior_visual_finding": {
+    "field": "unit_13_assessment_start",
+    "prior_value": 22,
+    "verified_value": 23,
+    "evidence": "stored page 22 visibly contains only lesson 5 (التعبير); stored page 23 visibly begins الدرس السادس: تقويم الوحدة الثالثة عشرة",
+    "effect": "The prior physical-only partition 146 lesson pages / 21 assessment pages is superseded by 147 unique lesson-content pages / 20 assessment pages."
+  },
+  "unit_24_tail_correction": {
+    "metadata_title_run": "تقويم الوحدة الرابعة والعشرين metadata extends 172..177",
+    "visual_truth": "lesson 4 and lesson 5 share stored page 172; assessment starts 173 and occupies 173..174; stored 175 is end-of-part, 176 publisher/contact, 177 back cover",
+    "page_177_question_payload": "handled separately by provenance conflict resolution; no reassignment is inferred"
+  },
+  "policy": "content-staging/reconstruction/SHARED_PHYSICAL_LESSON_PAGE_POLICY.json",
+  "safety": {
+    "raw_mutations": 0,
+    "unrelated_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  }
+}
