@@ -765,3 +765,17 @@ Continue from `3d91d812-ab78-476a-b2fc-dc2c31152e1a — UNKNOWN` only after re-r
 - RAW/unrelated/import/publication mutations: **0/0/0/0**. Production PostgreSQL cleanup/import: **NOT EXECUTED**; corpus remains reconstruction-in-progress.
 - Next source: `dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e` — `التفاضل والتكامل نماذج وزاريه 1447`.
 <!-- CALCULUS_EXAM_1446_CHECKPOINT_END -->
+
+<!-- CALCULUS_EXAM_1447_CHECKPOINT_START -->
+## Reconstruction checkpoint — Calculus Ministry Exams 1447
+
+- Source `dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e` — `التفاضل والتكامل نماذج وزاريه 1447` completed from source-local evidence: **124/124** technical images, contiguous **1..124**, and complete visual review.
+- Resolved **31** Individual Exam Models / **124** Exam Pages; each occurrence has three question pages plus one correction/result candidate.
+- Duplicate SHA groups: **9**, preserved as distinct source occurrences without merge or RAW mutation.
+- Legacy questions: **454/454** structurally linked by preserved page membership to the first ten models; semantic correctness **NOT VERIFIED**.
+- Correction candidates **31**; verified standalone Answer Keys **0 / NOT VERIFIED**.
+- Progress: Sources **41/58**; Educational **18/26**; Exam Groups **23/32**; Models **446**; Exam Pages **1578/2,286**; technical images **3672/5,273**.
+- Questions: **13135 + 2414 + 1240 + 8966 = 25,755**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Production PostgreSQL cleanup/import: **NOT EXECUTED**; reconstruction remains corpus-wide in progress.
+- Next source: `78292a85-06b3-4ec3-879e-8810ed0595d1` — `الجبر والهندسة نماذج وزارية 1446`.
+<!-- CALCULUS_EXAM_1447_CHECKPOINT_END -->

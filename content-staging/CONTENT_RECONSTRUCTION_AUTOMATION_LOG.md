@@ -2251,15 +2251,28 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `Resolve only after dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e finalization from live MASTER.`
 - blockers: `none for reconstruction continuation; production database cleanup/import remains gated until an import-ready batch and modern schema dry-run are verified.`
 
+## RUN 2026-09-16T02:46:19+03:00 — Worker A
+
+- state: COMPLETE_SOURCE_HANDOFF
+- start HEAD: `23e01138c534575da7a6f14e3d588471218d6ab5`
+- end HEAD before handoff-log commit: `WORKTREE_PENDING_COMMIT`
+- source at start: `dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e — التفاضل والتكامل نماذج وزاريه 1447`
+- completed: verified 124/124 RAW images; reviewed all 124 pages; resolved 31 four-page exam occurrences; structurally linked 454 questions from the first ten occurrences; preserved nine duplicate-SHA groups; updated MASTER/status.
+- ambiguity: semantic correctness and standalone official Answer Keys remain `NOT VERIFIED`; no guessed promotion.
+- invariant: PASS (`13135 + 2414 + 1240 + 8966 = 25,755`).
+- progress: Sources 41/58; Exam Groups 23/32; Models 446; Exam Pages 1578/2286; technical images 3672/5273.
+- current source: `78292a85-06b3-4ec3-879e-8810ed0595d1 — الجبر والهندسة نماذج وزارية 1446`
+- exact next operation: `Re-fetch live HEAD; technically verify its 75 RAW pages; reconstruct only from source-local evidence; map 0 questions only where proven; checkpoint.`
+- production PostgreSQL: `NOT EXECUTED; gated until import-ready batch/schema dry-run.`
+
 ## ACTIVE CHECKPOINT
 
 - state: `COMPLETE_SOURCE_HANDOFF`
 - branch: `content/corpus-inventory-20260914`
-- latest validated source: `012196f1-a633-41cd-927b-d0b1b8845781 — التفاضل والتكامل نماذج وزاريه 1446`
-- progress: `40/58 sources; 18/26 educational; 22/32 exam groups; 415 individual models; 1454/2286 exam pages; 3548/5273 technical images.`
-- invariant: `13135 + 1960 + 1240 + 9420 = 25,755`; RAW/unrelated/import/publication mutations `0/0/0/0`.
-- current source: `dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e — التفاضل والتكامل نماذج وزاريه 1447`
-- current source baseline: `124 pages / 124 images / 454 legacy questions / 0 download failures; structure NOT VERIFIED.`
-- current operation: `Begin source-local technical verification and reconstruction for dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e; do not inherit prior-source boundaries.`
-- next source: `Resolve only after dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e finalization from live MASTER.`
+- latest validated source: `dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e — التفاضل والتكامل نماذج وزاريه 1447`
+- progress: `41/58 sources; 18/26 educational; 23/32 exam groups; 446 models; 1578/2286 exam pages; 3672/5273 technical images.`
+- invariant: `13135 + 2414 + 1240 + 8966 = 25,755`; mutations/import/publication `0/0/0/0`.
+- current source: `78292a85-06b3-4ec3-879e-8810ed0595d1 — الجبر والهندسة نماذج وزارية 1446`
+- baseline: `75 pages / 75 images / 0 questions / 0 failures; structure NOT VERIFIED.`
+- current operation: `Begin source-local technical verification and reconstruction; do not inherit prior boundaries.`
 - blockers: `none known for reconstruction; production PostgreSQL mutation remains gated and NOT EXECUTED.`
