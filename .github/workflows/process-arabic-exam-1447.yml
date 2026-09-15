@@ -1,0 +1,116 @@
+name: Process Arabic Exam 1447
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/process-arabic-exam-1447.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: process-arabic-exam-1447
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check Pillow
+      - name: Gate exact live head before evidence work
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT_BEFORE_EVIDENCE; exit 42; }
+      - name: Verify immutable RAW media
+        run: python content-staging/tools/verify_subject_media.py --subject-id d1a6b8f8-d81b-4824-86e1-d370ec28bdf1
+      - name: Reconstruct metadata-proven exam boundaries and checkpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,re,datetime
+          from pathlib import Path
+          sid='d1a6b8f8-d81b-4824-86e1-d370ec28bdf1'
+          root=Path('content-staging')
+          sdir=root/'raw/legacy-supabase/subjects'/sid
+          manifest=json.loads((sdir/'manifest.json').read_text(encoding='utf-8'))
+          pages=json.loads((sdir/'pages.json').read_text(encoding='utf-8'))
+          tech=json.loads((root/'reconstruction/technical'/f'{sid}.json').read_text(encoding='utf-8'))
+          assert manifest['counts']=={'image_download_failures':0,'image_references':42,'images_downloaded':42,'pages':42,'questions':0}
+          assert len(pages)==42
+          assert [p['page_number'] for p in pages]==list(range(1,43))
+          assert tech['all_images_technically_verified'] is True and tech['raw_mutations']==0
+          c=tech['checks']
+          for k in ('manifest_image_count','existing_files','readable_images','sha256_matches','byte_size_matches','mime_matches'):
+              assert c[k]==42,(k,c[k])
+          assert c['failures']==0
+          models=[]
+          for n in range(1,15):
+              trip=pages[(n-1)*3:n*3]
+              expected=[f'النموذج {n} الورقة 1',f'النموذج {n} الورقة 2',f'نموذج التصحيح النموذج {n}']
+              actual=[(p.get('title') or '').strip() for p in trip]
+              assert actual==expected,(n,actual,expected)
+              models.append({'model_ordinal':n,'question_pages':[trip[0]['page_number'],trip[1]['page_number']], 'correction_candidate_page':trip[2]['page_number'], 'boundary_evidence':'exact_complete_page_title_sequence', 'visual_semantic_review':'NOT VERIFIED'})
+          out={
+            'schema_version':1,'source_group_id':sid,'source_group_name':'العربي نماذج وزارية 1447',
+            'status':'processed_boundary_metadata_verified_visual_semantics_not_verified_answer_keys_not_verified',
+            'classification':'exam_source_group','source_pages':42,'individual_exam_models':14,'exam_pages':42,
+            'pages_per_model':3,'question_pages_per_model':2,'correction_sheet_candidates':14,
+            'verified_answer_keys':0,'answer_key_status':'NOT VERIFIED','associated_legacy_questions':0,
+            'semantic_page_review':'NOT VERIFIED','semantic_question_correctness':'NOT APPLICABLE_NO_LEGACY_QUESTIONS',
+            'boundary_evidence':{'type':'complete_exact_legacy_page_title_sequence','coverage':'42/42','pattern':'two explicitly titled model sheets followed by explicitly titled correction-model sheet for model ordinals 1..14'},
+            'models':models,'raw_mutations':0
+          }
+          op=root/'reconstruction/exams/source-groups'/f'{sid}.json'; op.parent.mkdir(parents=True,exist_ok=True); op.write_text(json.dumps(out,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          master_path=root/'manifests/MASTER_CONTENT_MANIFEST.json'; master=json.loads(master_path.read_text(encoding='utf-8'))
+          src=next(x for x in master['sources'] if x['id']==sid)
+          assert src['counts']['pages']==42 and src['counts']['questions']==0
+          src['classification']='exam_source_group'
+          src['classification_evidence']='legacy inventory label + 42/42 technical verification + complete exact 42-page metadata-title sequence (14 x [sheet 1, sheet 2, correction candidate]); visual semantic review NOT VERIFIED'
+          src['review_status']=out['status']; src['exam_models']=14; src['answer_keys']='NOT VERIFIED'
+          src['technical_verification']={'status':'verified','report_path':f'content-staging/reconstruction/technical/{sid}.json','images_verified':42,'readable':42,'sha256_match_manifest':42,'mime_match_manifest':42,'duplicate_sha_groups_within_source':c.get('duplicate_sha_groups_within_source',tech.get('duplicate_sha_groups_within_source',0))}
+          src['exam_reconstruction']={'status':out['status'],'path':f'content-staging/reconstruction/exams/source-groups/{sid}.json','individual_exam_models':14,'exam_pages':42,'pages_per_model':3,'question_pages_per_model':2,'correction_sheet_candidates':14,'verified_answer_keys':0,'answer_key_status':'NOT VERIFIED','associated_legacy_questions':0,'semantic_page_review':'NOT VERIFIED','raw_mutations':0}
+          master_path.write_text(json.dumps(master,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          completed=lambda s: (s.get('review_status')=='reconstructed_verified' or s.get('review_status')=='verified_empty_retained_source' or str(s.get('review_status','')).startswith('processed_boundary'))
+          idx=next(i for i,x in enumerate(master['sources']) if x['id']==sid)
+          nxt=None
+          for x in master['sources'][idx+1:]+master['sources'][:idx]:
+              if not completed(x): nxt=x; break
+          if nxt:
+              next_text=f"{nxt['id']} — {nxt['legacy_source']['name']}"
+              nc=nxt.get('counts',{})
+              next_base=f"{nc.get('pages')} pages; {nc.get('images_downloaded')} images; {nc.get('questions')} legacy questions; {nc.get('image_download_failures')} download failures"
+          else:
+              next_text='NONE — all sources processed'; next_base='none'
+          inv='13,135 + 1,920 + 1,229 + 9,471 = 25,755'
+          now=datetime.datetime.now(datetime.timezone.utc).astimezone().isoformat(timespec='seconds')
+          run=f'''\n\n## RUN {now} — Worker A\n\n- state: `COMPLETE_METADATA_BOUNDARY_VERIFIED_VISUAL_SEMANTICS_NOT_VERIFIED`\n- start HEAD: `${{GITHUB_SHA}}`\n- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`\n- source at start: `{sid} — العربي نماذج وزارية 1447`\n- completed in this run:\n  - verified **42/42** immutable RAW images with byte-size/SHA-256/MIME agreement and **0** RAW mutations;\n  - verified complete page sequence **1..42**;\n  - independently proved **14** model boundaries from the complete exact source-local page-title sequence: two model sheets followed by one explicitly titled correction-model candidate for ordinals 1..14;\n  - finalized **14 Individual Exam Models / 42 Exam Pages / 14 correction candidates**;\n  - retained standalone official Answer Keys as `NOT VERIFIED`; visual semantic inspection remains `NOT VERIFIED`;\n  - source contains **0 legacy questions**, therefore no mappings were invented;\n  - no production import/publication created.\n- artifacts/evidence:\n  - `content-staging/reconstruction/technical/{sid}.json`\n  - `content-staging/reconstruction/exams/source-groups/{sid}.json`\n  - `content-staging/raw/legacy-supabase/subjects/{sid}/pages.json` (42/42 exact title coverage)\n- invariant: PASS (`{inv}`).\n- progress: Sources `36/58`; Educational `16/26`; Books/Units/Lessons/Lesson Pages `14/57/328/1,527`; Exam Groups `20/32`; Models `370`; Exam Pages `1,274/2,286`; Answer Keys `0`; technical images `3,021/5,273`; Legacy Questions `25,755`; Lesson-linked `13,135`; Exam-linked `1,920`; Review-required `1,229`; Unclassified `9,471`.\n- invariants/mutations: RAW `0`; unrelated `0`; new imports `0`; new publications `0`.\n- last completed source: `{sid} — العربي نماذج وزارية 1447`\n- current source: `{next_text}`\n- current source baseline: `{next_base}`\n- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for the current source; reconstruct only from that source's own RAW/manifest/page evidence; preserve uncertainty as NOT VERIFIED/review_required; assert invariant; checkpoint.`\n- blockers: `visual semantic inspection of Arabic 1447 was not used as evidence; metadata-title boundaries are complete and exact, while semantic page content remains NOT VERIFIED.`\n- handoff for Worker B: `Start only from {next_text}; do not rerun/finalize Arabic 1447 absent fresh drift evidence. Do not promote correction candidates to standalone official Answer Keys without explicit evidence.`\n'''
+          for rel in ['CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md','CONTENT_REBUILD_EXECUTION_STATUS.md','CONTENT_REBUILD_HANDOFF.md','CONTENT_INVENTORY.md','CONTENT_VALIDATION_REPORT.md','CONTENT_IMPORT_REPORT.md','CONTENT_REBUILD_CONTINUATION_2026-09-14.md']:
+              p=root/rel; p.write_text(p.read_text(encoding='utf-8')+run,encoding='utf-8')
+          print(json.dumps({'source':sid,'models':14,'pages':42,'next':next_text,'invariant':inv},ensure_ascii=False))
+          PY
+      - name: Gate live head before commit
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT_BEFORE_COMMIT; exit 43; }
+      - name: Commit evidence checkpoint
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/reconstruction/technical/d1a6b8f8-d81b-4824-86e1-d370ec28bdf1.json content-staging/reconstruction/exams/source-groups/d1a6b8f8-d81b-4824-86e1-d370ec28bdf1.json content-staging/manifests/MASTER_CONTENT_MANIFEST.json content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md content-staging/CONTENT_REBUILD_HANDOFF.md content-staging/CONTENT_INVENTORY.md content-staging/CONTENT_VALIDATION_REPORT.md content-staging/CONTENT_IMPORT_REPORT.md content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          git diff --cached --check
+          git commit -m 'content: reconstruct Arabic exam 1447 boundaries [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
