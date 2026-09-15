@@ -1,0 +1,36 @@
+{
+  "policy_id": "shared_physical_lesson_page_v1",
+  "phase": "CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY",
+  "status": "EVIDENCE_BACKED_RECONSTRUCTION_POLICY",
+  "purpose": "Represent source pages that visibly contain content/header evidence for more than one semantic lesson without fabricating page splits or double-counting physical pages.",
+  "rules": {
+    "physical_page_identity": "A retained physical source page is counted once in physical page totals and receives one primary physical classification.",
+    "semantic_lesson_membership": "A physical page MAY carry membership edges to more than one verified semantic lesson when source-local evidence explicitly shows multiple lesson headers/content on that same page.",
+    "lesson_page_counter": "lesson_pages counts UNIQUE retained physical pages whose primary classification is instructional lesson content; it MUST NOT sum membership edges and MUST NOT double-count shared pages.",
+    "lesson_membership_counter": "If needed, membership edges are reported separately and never substituted for the unique physical lesson_pages counter.",
+    "boundary_rule": "Never fabricate non-overlapping page ranges when the immutable source itself places multiple lesson boundaries on one physical page. Preserve the shared page and record all evidence-backed memberships.",
+    "nonlesson_rule": "Verified assessment/review/cover/tail pages remain nonlesson physical classifications even when neighboring lesson boundaries are close.",
+    "uncertainty_rule": "If shared membership is not explicit in source-local evidence, keep it NOT VERIFIED/review_required rather than infer it."
+  },
+  "evidence_basis": [
+    "Existing finalized educational reconstructions count physical lesson pages as unique retained pages and require retained-page accounting without duplication.",
+    "Arabic Part 1 source-local complete visual review explicitly proves 11 physical pages containing two or three numbered instructional lesson headers.",
+    "The immutable physical source cannot be truthfully represented by invented page splits; semantic membership and physical-page counting therefore must be separate dimensions."
+  ],
+  "first_application": {
+    "source_id": "ab701a9e-3efb-409a-8ed1-9752d41c4771",
+    "source_name": "كتاب العربي - الجزء الأول",
+    "shared_pages": [18,33,47,61,75,95,106,121,136,149,174],
+    "verified_semantic_instructional_lessons": 60,
+    "verified_unique_instructional_physical_pages": 114,
+    "verified_unit_cover_or_intro_pages": 35,
+    "verified_nonlesson_assessment_pages": 18,
+    "verified_tail_pages": 2,
+    "retained_page_accounting": "114 + 35 + 18 + 2 = 169"
+  },
+  "safety": {
+    "raw_mutation": false,
+    "production_import": false,
+    "publication": false
+  }
+}
