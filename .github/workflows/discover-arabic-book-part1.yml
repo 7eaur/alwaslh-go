@@ -1,0 +1,56 @@
+name: Discover Arabic Book Part 1
+on:
+  push:
+    branches: [content/corpus-inventory-20260914]
+    paths: ['.github/workflows/discover-arabic-book-part1.yml']
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - name: Verify immutable RAW and derive title-run evidence
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, hashlib, mimetypes, pathlib, collections
+          sid='ab701a9e-3efb-409a-8ed1-9752d41c4771'
+          root=pathlib.Path('content-staging/raw/legacy-supabase/subjects')/sid
+          m=json.loads((root/'manifest.json').read_text())
+          pages=json.loads((root/'pages.json').read_text())
+          failures=[]; shas=collections.defaultdict(list); verified=[]
+          for im in m['images']:
+              p=pathlib.Path('content-staging')/im['raw_path']
+              if not p.exists(): failures.append({'page':im['page_number'],'error':'missing'}); continue
+              b=p.read_bytes(); sha=hashlib.sha256(b).hexdigest()
+              mime='image/jpeg' if b[:3]==b'\xff\xd8\xff' else ('image/png' if b[:8]==b'\x89PNG\r\n\x1a\n' else 'unknown')
+              ok=(len(b)==im['byte_size'] and sha==im['sha256'] and mime==im['mime_type'])
+              if not ok: failures.append({'page':im['page_number'],'size':len(b),'sha':sha,'mime':mime})
+              verified.append({'page_number':im['page_number'],'legacy_page_id':im['legacy_page_id'],'sha256':sha,'byte_size':len(b),'mime_type':mime,'ok':ok})
+              shas[sha].append(im['page_number'])
+          nums=sorted(x['page_number'] for x in m['images'])
+          missing=list(range(nums[0],nums[-1]+1)); missing=sorted(set(missing)-set(nums))
+          runs=[]
+          for p in sorted(pages,key=lambda x:x['page_number']):
+              title=p.get('title') or 'NOT VERIFIED'
+              if runs and runs[-1]['title']==title and runs[-1]['end_page']+1==p['page_number']:
+                  runs[-1]['end_page']=p['page_number']; runs[-1]['page_count']+=1
+              else: runs.append({'title':title,'start_page':p['page_number'],'end_page':p['page_number'],'page_count':1})
+          report={'source_id':sid,'scope':'technical_verification_and_metadata_title_runs_only','manifest_counts':m['counts'],'technical_verified_images':sum(1 for x in verified if x['ok']),'technical_failures':failures,'page_sequence':{'first':nums[0],'last':nums[-1],'count':len(nums),'missing':missing},'duplicate_sha_groups':[{'sha256':s,'pages':ps} for s,ps in shas.items() if len(ps)>1],'title_runs':runs,'structure_status':'NOT VERIFIED','visual_semantic_review':'NOT VERIFIED','raw_mutations':0,'new_imports':0,'new_publications':0}
+          if failures or len(verified)!=169 or m['counts']['pages']!=169 or m['counts']['image_references']!=169 or m['counts']['questions']!=0:
+              raise SystemExit('technical gate failed')
+          out=pathlib.Path('content-staging/reconstruction/technical')/f'{sid}.json'; out.parent.mkdir(parents=True,exist_ok=True); out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps({'verified':report['technical_verified_images'],'sequence':report['page_sequence'],'duplicates':len(report['duplicate_sha_groups']),'title_runs':len(runs)},ensure_ascii=False))
+          PY
+      - name: Commit evidence only
+        run: |
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/reconstruction/technical/ab701a9e-3efb-409a-8ed1-9752d41c4771.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'content: verify Arabic book part 1 RAW evidence [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
