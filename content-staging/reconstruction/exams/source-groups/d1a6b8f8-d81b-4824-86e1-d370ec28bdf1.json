@@ -1,0 +1,166 @@
+{
+  "answer_key_status": "NOT VERIFIED",
+  "associated_legacy_questions": 0,
+  "boundary_evidence": {
+    "coverage": "42/42",
+    "pattern": "two explicitly titled model sheets followed by explicitly titled correction-model sheet for ordinals 1..14",
+    "type": "complete_exact_legacy_page_title_sequence"
+  },
+  "classification": "exam_source_group",
+  "correction_sheet_candidates": 14,
+  "exam_pages": 42,
+  "individual_exam_models": 14,
+  "models": [
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 3,
+      "model_ordinal": 1,
+      "question_pages": [
+        1,
+        2
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 6,
+      "model_ordinal": 2,
+      "question_pages": [
+        4,
+        5
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 9,
+      "model_ordinal": 3,
+      "question_pages": [
+        7,
+        8
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 12,
+      "model_ordinal": 4,
+      "question_pages": [
+        10,
+        11
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 15,
+      "model_ordinal": 5,
+      "question_pages": [
+        13,
+        14
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 18,
+      "model_ordinal": 6,
+      "question_pages": [
+        16,
+        17
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 21,
+      "model_ordinal": 7,
+      "question_pages": [
+        19,
+        20
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 24,
+      "model_ordinal": 8,
+      "question_pages": [
+        22,
+        23
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 27,
+      "model_ordinal": 9,
+      "question_pages": [
+        25,
+        26
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 30,
+      "model_ordinal": 10,
+      "question_pages": [
+        28,
+        29
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 33,
+      "model_ordinal": 11,
+      "question_pages": [
+        31,
+        32
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 36,
+      "model_ordinal": 12,
+      "question_pages": [
+        34,
+        35
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 39,
+      "model_ordinal": 13,
+      "question_pages": [
+        37,
+        38
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    },
+    {
+      "boundary_evidence": "exact_complete_page_title_sequence",
+      "correction_candidate_page": 42,
+      "model_ordinal": 14,
+      "question_pages": [
+        40,
+        41
+      ],
+      "visual_semantic_review": "NOT VERIFIED"
+    }
+  ],
+  "pages_per_model": 3,
+  "question_pages_per_model": 2,
+  "raw_mutations": 0,
+  "schema_version": 1,
+  "semantic_page_review": "NOT VERIFIED",
+  "semantic_question_correctness": "NOT APPLICABLE_NO_LEGACY_QUESTIONS",
+  "source_group_id": "d1a6b8f8-d81b-4824-86e1-d370ec28bdf1",
+  "source_group_name": "العربي نماذج وزارية 1447",
+  "source_pages": 42,
+  "status": "processed_boundary_metadata_verified_visual_semantics_not_verified_answer_keys_not_verified",
+  "verified_answer_keys": 0
+}
