@@ -1,0 +1,50 @@
+{
+  "source_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+  "source_name": "كتاب العربي - الجزء الثاني",
+  "phase": "CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY",
+  "state": "PROVENANCE_CONFLICT_RESOLVED_WITH_QUESTION_QUARANTINE",
+  "resolution_base_head": "503b212500c9ece6bc8e64da158323c8238cfd72",
+  "legacy_record": {
+    "legacy_page_id": "d79b9858-a33a-413b-9740-06a40f2e1eba",
+    "stored_page_number": 177,
+    "legacy_title": "تقويم الوحدة الرابعة والعشرين",
+    "legacy_question_count": 11,
+    "source_image_url_suffix": "/subject/7ddec20e-617e-4e55-bba8-2d371aaf16b6/lesson/d79b9858-a33a-413b-9740-06a40f2e1eba/page_0178.jpg"
+  },
+  "immutable_image_chain": {
+    "raw_path": "raw/legacy-supabase/subjects/7ddec20e-617e-4e55-bba8-2d371aaf16b6/images/page-00177-d79b9858-a33a-413b-9740-06a40f2e1eba-image-00.jpg",
+    "sha256": "6cc906d0d1983799ecb15152bb497d4e71f6497b74f6ec919d85fa190643d4b2",
+    "byte_size": 76759,
+    "mime_type": "image/jpeg",
+    "git_blob_sha": "1179fe5892d5d9955b3a4bf0372babf4bfb8e8b2",
+    "manifest_and_git_size_match": true
+  },
+  "visual_evidence": {
+    "artifact_id": 10398967254,
+    "workflow_run": 34975254689,
+    "records_reviewed": 178,
+    "stored_page_173": "begins الدرس السادس: تقويم الوحدة الرابعة والعشرين",
+    "stored_page_174": "assessment continuation",
+    "stored_page_175": "تم الجزء الثاني بحمد الله",
+    "stored_page_176": "publisher/contact tail",
+    "stored_page_177": "back cover"
+  },
+  "finding": "The immutable image association is internally consistent from pages.json page-id/source URL through the RAW manifest and the Git-preserved file. The visually reviewed bytes for stored page 177 are the back cover. There is no evidence of an image swap or missing-image association. The conflicting legacy title/question payload is therefore stale or semantically misattached metadata on the back-cover record.",
+  "question_disposition": {
+    "count": 11,
+    "classification": "review_required",
+    "lesson_linked": 0,
+    "assessment_linked": 0,
+    "reason": "No evidence proves which physical assessment page, if any, originally authored these 11 legacy questions. Reassigning them from stored page 177 to 173 or 174 would be a guess.",
+    "semantic_correctness": "NOT VERIFIED",
+    "preserve_payload_and_hashes": true
+  },
+  "source_finalization_effect": "The 11-question conflict no longer blocks structural Book/Unit/Lesson/page reconstruction because it is safely quarantined as review_required. It must remain excluded from lesson/assessment question imports until separately resolved.",
+  "safety": {
+    "raw_mutations": 0,
+    "unrelated_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0,
+    "guessed_reassignment": false
+  }
+}
