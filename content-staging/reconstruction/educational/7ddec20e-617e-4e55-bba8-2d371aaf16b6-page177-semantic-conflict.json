@@ -1,0 +1,41 @@
+{
+  "source_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+  "source_name": "كتاب العربي - الجزء الثاني",
+  "scope": "reconciliation_conflict_gate",
+  "evidence_head": "270e632671f0437014b49af08b9c089ea7bbd092",
+  "conflict": {
+    "stored_page_number": 177,
+    "legacy_page_id": "d79b9858-a33a-413b-9740-06a40f2e1eba",
+    "legacy_metadata_title": "تقويم الوحدة الرابعة والعشرين",
+    "legacy_question_count": 11,
+    "visual_classification_from_complete_contact_sheet_review": "back cover",
+    "visual_tail_evidence": {
+      "stored_page_175": "explicit end-of-part page: تم الجزء الثاني بحمد الله",
+      "stored_page_176": "publisher/contact tail page",
+      "stored_page_177": "back cover"
+    },
+    "assessment_start_for_unit_24": 173,
+    "assessment_physical_range_from_verified_unit_and_tail_boundaries": "173..174",
+    "assessment_mapping_for_page_177": "NOT VERIFIED",
+    "semantic_correctness_of_11_questions": "NOT VERIFIED"
+  },
+  "physical_partition_supported_by_verified_visual_boundaries": {
+    "front_matter": "0..7 (8 records)",
+    "lesson_content": "146 unique physical records across units 13..24",
+    "unit_assessment_pages": "21 unique physical records across 12 assessments, ending at stored page 174",
+    "non_lesson_tail": "175..177 (3 records)",
+    "total_records": 178,
+    "double_counted_records": 0,
+    "unassigned_records": 0,
+    "note": "This partition is physical-only. It does not promote the 11 page-177 legacy questions to assessment-linked because page 177 is visually the back cover."
+  },
+  "decision": "FAIL_CLOSED_NO_SOURCE_FINALIZATION",
+  "required_next_operation": "Inspect the immutable pages.json record for legacy_page_id d79b9858-a33a-413b-9740-06a40f2e1eba together with its referenced RAW image/checksum and the contact-sheet/page-level visual evidence. Determine whether the legacy title/questions are stale metadata attached to the back-cover image, or whether a page/image association defect exists. Do not classify the 11 questions as lesson-linked or assessment-linked until that provenance conflict is resolved. Physical page partition may be retained as evidence, but aggregate source finalization remains blocked.",
+  "invariants": {
+    "global_question_equation": "13135 + 1920 + 1229 + 9471 = 25755",
+    "raw_mutations": 0,
+    "unrelated_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  }
+}
