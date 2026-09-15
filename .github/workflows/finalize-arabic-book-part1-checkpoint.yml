@@ -1,0 +1,59 @@
+name: Finalize Arabic Book Part 1 Checkpoint
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/finalize-arabic-book-part1-checkpoint.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: finalize-arabic-book-part1-checkpoint
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - name: Gate exact live head before finalization
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT_BEFORE_FINALIZATION; exit 42; }
+          echo "START_HEAD=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Apply validated Arabic Part 1 aggregate checkpoint
+        run: python content-staging/tools/record_arabic_part1_checkpoint.py
+      - name: Verify final invariants
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          sid='ab701a9e-3efb-409a-8ed1-9752d41c4771'
+          m=json.loads(Path('content-staging/manifests/MASTER_CONTENT_MANIFEST.json').read_text()); p=m['reconstruction_progress']; s=next(x for x in m['sources'] if x['id']==sid)
+          assert s['review_status']=='reconstructed_verified'
+          assert (p['sources_completed'],p['educational_sources_completed'],p['verified_books'],p['verified_units'],p['verified_lessons'],p['verified_lesson_pages'],p['source_images_technically_verified'])==(37,17,15,69,388,1641,3190)
+          assert p['lesson_linked_structural']+p['exam_linked_to_individual_model']+p['review_required']+p['unclassified']==25755
+          assert all(p[k]==0 for k in ('raw_mutations','unrelated_mutations','new_imports','new_publications'))
+          print('ARABIC_PART1_CHECKPOINT_VERIFY_PASS')
+          PY
+      - name: Re-fetch live branch before evidence commit
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT_BEFORE_WRITE; exit 42; }
+      - name: Commit aggregate checkpoint and baton
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/manifests/MASTER_CONTENT_MANIFEST.json content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md content-staging/CONTENT_REBUILD_HANDOFF.md content-staging/CONTENT_INVENTORY.md content-staging/CONTENT_VALIDATION_REPORT.md content-staging/CONTENT_IMPORT_REPORT.md content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md
+          git commit -m 'content: finalize Arabic Part 1 aggregate checkpoint [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
