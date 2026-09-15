@@ -2092,3 +2092,57 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - blockers: `semantic structure/visual evidence gate only; no technical blocker`
 - handoff note: `Worker B must not rerun Arabic 1447 or repeat the 169-image technical pass absent drift. Continue Arabic book part 1 from the semantic/visual evidence gate. Metadata title runs are evidence, not permission to guess; keep NOT VERIFIED where exact identity or boundaries remain insufficient.`
 
+
+
+## RUN 2026-09-15T07:32:07+03:00 — Worker A
+
+- state: PARTIAL_SAFE_HANDOFF
+- start HEAD: `92574b57fccf69a57e3195e4d605f79c7c39e305`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- completed in this run:
+  - verified source discovery workflow run `34925408200` completed successfully;
+  - verified all steps succeeded: dependency install, immutable RAW/title-run verification, complete contact-sheet generation, artifact upload, evidence-only commit step;
+  - verified artifact `10380121394` (`arabic-book-part1-contact-sheets`) exists and is unexpired, size 5,808,807 bytes, digest `sha256:ecf2549330e05c89cf12d26efed931030ef24fe4a2253ef0dab497df2b112c21`;
+  - did not promote title-runs to canonical Book/Unit/Lesson structure because visual semantic inspection remains `NOT VERIFIED`.
+- evidence produced/verified: `169/169 RAW technically verified; pages 9..177 contiguous; 0 duplicate SHA groups; 45 title-runs; complete contact-sheet artifact 10380121394`.
+- ambiguity/review_required: `Book/Unit/Lesson semantic boundaries remain NOT VERIFIED pending complete visual inspection; source has 0 legacy questions.`
+- invariant result: PASS (canonical counters unchanged)
+- Sources processed: 36/58
+- Educational: 16/26
+- Books / Units / Lessons / Lesson Pages: 14 / 57 / 328 / 1,527
+- Exam Source Groups: 20/32
+- Individual Exam Models: 370
+- Exam Pages: 1,274/2,286
+- Verified Answer Keys: 0
+- Source images technical: 3,021/5,273
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 13,135
+- Exam-linked: 1,920
+- Review-required: 1,229
+- Unclassified: 9,471
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1 — العربي نماذج وزارية 1447`
+- current source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- exact next operation: `Inspect every contact sheet in artifact 10380121394 against pages 9..177 and the 45 title-runs; finalize only visually/source-locally proven boundaries.`
+- next source: `NOT YET RESOLVED — resolve only after Arabic book part 1 finalization from live MASTER`
+- blockers: `visual semantic inspection of generated contact sheets remains NOT VERIFIED`
+- handoff note: `Worker B must not rerun technical verification or create duplicate discovery. Consume run 34925408200/artifact 10380121394 and finalize only evidence-backed structure.`
+
+## ACTIVE CHECKPOINT
+
+- state: `PARTIAL_SAFE_HANDOFF`
+- branch: `content/corpus-inventory-20260914`
+- latest discovery HEAD: `92574b57fccf69a57e3195e4d605f79c7c39e305`
+- last completed source: `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1 — العربي نماذج وزارية 1447`
+- current source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- current source baseline: `169 pages / 169 images / 0 legacy questions / 0 download failures`
+- current source verified work: `169/169 RAW verified; pages 9..177 contiguous; 0 duplicate SHA groups; 45 title-runs; complete contact-sheet artifact 10380121394 generated successfully by run 34925408200; visual semantic interpretation NOT VERIFIED.`
+- current operation: `Inspect artifact 10380121394 completely and reconcile with title-runs; finalize only where visual/source-local evidence agrees.`
+- next source: `Resolve only after Arabic book part 1 finalization from live MASTER.`
+- blockers: `visual semantic inspection remains NOT VERIFIED; do not infer 12 canonical units from metadata alone.`
