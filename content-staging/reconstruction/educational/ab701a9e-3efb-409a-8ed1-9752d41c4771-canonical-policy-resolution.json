@@ -1,0 +1,25 @@
+{
+  "source_id": "ab701a9e-3efb-409a-8ed1-9752d41c4771",
+  "source_name": "كتاب العربي - الجزء الأول",
+  "phase": "CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY",
+  "state": "POLICY_RESOLVED_FINALIZATION_STILL_PENDING",
+  "live_head_before_write": "b434aa7e1109f5f39adb20044ab0c641f202c3de",
+  "evidence_reviewed": [
+    "content-staging/reconstruction/educational/ab701a9e-3efb-409a-8ed1-9752d41c4771-visual-review.json",
+    "content-staging/reconstruction/educational/1933807f-4cb0-40c9-9b29-3ef3d32c98dc.json"
+  ],
+  "resolution": {
+    "verified_units": 12,
+    "verified_unit_ranges": ["9..19","20..34","35..49","50..64","65..77","78..96","97..109","110..123","124..137","138..151","152..166","167..175"],
+    "assessment_headers": [19,34,49,63,76,96,108,122,137,150,165,175],
+    "assessment_representation": "nonlesson_assessment_pages",
+    "reason": "Existing finalized educational reconstruction convention keeps review/exercise/unit-test assessment surfaces outside ordinary instructional lesson pages. Arabic source-local visual evidence explicitly identifies lesson 6 as تقويم الوحدة; therefore it must be isolated as assessment/non-lesson rather than counted as an ordinary instructional lesson.",
+    "tail_pages": {"176":"non-unit publisher/contact/credits-style page","177":"back-cover-style page"},
+    "instructional_lesson_pattern": ["الفهم والاستيعاب","النحو والصرف","الإملاء","الخط","التعبير"],
+    "instructional_lesson_count_if_all_five_per_unit_are boundary-verified": 60,
+    "canonical_lesson_count_status": "NOT VERIFIED until exact per-lesson page boundaries are reconciled from source-local title-runs/visual evidence",
+    "question_mapping": "NOT APPLICABLE — source has 0 legacy questions"
+  },
+  "invariants": {"raw_mutations":0,"unrelated_mutations":0,"new_imports":0,"new_publications":0},
+  "exact_next_operation": "Reconcile exact starts/ends for the five instructional lessons in each of the 12 visually verified units from source-local title-runs plus visual evidence; isolate تقويم الوحدة and tail pages as non-lesson; only then create canonical reconstruction and update MASTER/status counters."
+}
