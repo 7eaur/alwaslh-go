@@ -1,0 +1,682 @@
+{
+  "source_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+  "scope": "technical_verification_and_metadata_title_runs_only",
+  "manifest_counts": {
+    "image_download_failures": 0,
+    "image_references": 178,
+    "images_downloaded": 178,
+    "pages": 178,
+    "questions": 11
+  },
+  "manifest_anomalies": {
+    "duplicate_page_numbers": [],
+    "invalid_subject_ids": [],
+    "malformed_ai_questions": [],
+    "malformed_image_urls": [],
+    "missing_images": [],
+    "multiple_images": [],
+    "null_or_invalid_page_numbers": [
+      "32f65557-08c8-4a0e-ac4f-3f81ba410a41"
+    ]
+  },
+  "technical_verified_images": 178,
+  "technical_failures": [],
+  "numbered_page_sequence": {
+    "first": 1,
+    "last": 177,
+    "count": 177,
+    "missing": []
+  },
+  "nonpositive_or_unknown_page_records": [
+    {
+      "page_number": 0,
+      "legacy_page_id": "32f65557-08c8-4a0e-ac4f-3f81ba410a41",
+      "sha256": "06d82d619f19941da6a788ef5c3c3a40d9f13e54b5da3d995c4cfc20ca174a2a",
+      "byte_size": 93171,
+      "mime_type": "image/jpeg",
+      "ok": true
+    }
+  ],
+  "duplicate_sha_groups": [],
+  "title_runs": [
+    {
+      "title": "غلاف الكتاب",
+      "start_page": 0,
+      "end_page": 0,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "32f65557-08c8-4a0e-ac4f-3f81ba410a41"
+      ]
+    },
+    {
+      "title": "صفحة العنوان",
+      "start_page": 1,
+      "end_page": 1,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "d281f530-6767-4ba9-84a4-f85e57176426"
+      ]
+    },
+    {
+      "title": "النشيد الوطني",
+      "start_page": 2,
+      "end_page": 2,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "5871cb4b-8d91-4311-be33-a92ecc8854e8"
+      ]
+    },
+    {
+      "title": "تصدير",
+      "start_page": 3,
+      "end_page": 3,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "c6a1b3b1-340a-4809-9057-4ece100242ad"
+      ]
+    },
+    {
+      "title": "مقدمة",
+      "start_page": 4,
+      "end_page": 4,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "66f16a3b-08ea-4ea0-ac8b-9300c4862479"
+      ]
+    },
+    {
+      "title": "مقدمة - تابع",
+      "start_page": 5,
+      "end_page": 5,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "16973463-162a-426f-8b38-1d18c07b107b"
+      ]
+    },
+    {
+      "title": "المحتويات",
+      "start_page": 6,
+      "end_page": 6,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "81c8143a-acdc-4db4-b0a0-099b6640cafa"
+      ]
+    },
+    {
+      "title": "تابع المحتويات",
+      "start_page": 7,
+      "end_page": 7,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "1f2ec442-843a-4c48-a8a4-324a8569a449"
+      ]
+    },
+    {
+      "title": "التربية الإيمانية",
+      "start_page": 8,
+      "end_page": 11,
+      "page_count": 4,
+      "legacy_page_ids": [
+        "f7ec19d4-b790-48cd-aaff-5aed171a0e4a",
+        "373feb08-4f13-4902-acb9-0b7b499065b0",
+        "b4989a91-415e-4c69-b484-d8833498cdbd",
+        "11401d91-d590-4547-a8cc-2a3c310ef849"
+      ]
+    },
+    {
+      "title": "الفهم والاستيعاب",
+      "start_page": 12,
+      "end_page": 13,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "a349b4aa-5944-4110-a854-8c195042d5d2",
+        "49d13ee4-a5a6-41e3-8a1c-66dba5aa974f"
+      ]
+    },
+    {
+      "title": "النحو والصرف (المجرد والمزيد)",
+      "start_page": 14,
+      "end_page": 19,
+      "page_count": 6,
+      "legacy_page_ids": [
+        "90478b37-4cb0-49ef-b8a8-efaccd47c5aa",
+        "c3d2b8d7-b874-4279-b393-2ff5e7d1c32c",
+        "a2ea2a1b-e4ed-4f98-9bfa-01905231945e",
+        "66e5b4f8-840d-44a6-9224-9c8044db6caf",
+        "23180829-c54a-4783-95fe-efe5b7bfa079",
+        "01f6d1ef-e32f-4eab-a687-adea83a92c66"
+      ]
+    },
+    {
+      "title": "الإملاء (تطبيقات على همزتي الوصل والقطع)",
+      "start_page": 20,
+      "end_page": 21,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "a231db6c-8030-49be-8171-aff247cd3a0e",
+        "6abe995c-777c-46de-a5b2-394228885e4f"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة الثالثة عشرة",
+      "start_page": 22,
+      "end_page": 25,
+      "page_count": 4,
+      "legacy_page_ids": [
+        "170a9879-5a91-49a0-97e2-8a135c7d8f4c",
+        "a0c0a41e-bc3f-4313-a606-59d6732c5e1e",
+        "ce2e9d06-0afe-4251-b945-22b397d2ebbc",
+        "8d2db92a-8189-4e12-88ae-7f07d722a2d0"
+      ]
+    },
+    {
+      "title": "ثقافة الاتباع",
+      "start_page": 26,
+      "end_page": 31,
+      "page_count": 6,
+      "legacy_page_ids": [
+        "1a6132be-3afc-447d-a75d-125ebce067b6",
+        "01fbb198-90c8-4c99-8bc7-fed7525cb53a",
+        "17930fe8-c471-48ca-ac65-aa94b5498a4b",
+        "60d7e803-2257-41dc-8b8d-0bd3da631bba",
+        "eba7790a-3f30-4146-bc85-27be59a188b3",
+        "cf850791-2c8e-465c-896b-82510a09cf15"
+      ]
+    },
+    {
+      "title": "النحو والصرف (الجامد والمشتق)",
+      "start_page": 32,
+      "end_page": 34,
+      "page_count": 3,
+      "legacy_page_ids": [
+        "6749f72c-3e55-43fb-b091-5f5aafc2f9af",
+        "7d65a99a-f197-4e25-8371-f18ca3a4d8d9",
+        "f7b32858-1a05-471a-8303-d154f676b6d0"
+      ]
+    },
+    {
+      "title": "الإملاء (تطبيقات على الهمزة المتوسطة)",
+      "start_page": 35,
+      "end_page": 36,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "abf69ea0-ab7b-439b-9a2c-cfa3d829b2a3",
+        "42fa12b5-2bfc-4299-a765-fb2329b35d37"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة الرابعة عشرة",
+      "start_page": 37,
+      "end_page": 38,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "593b887e-c7f6-4034-91d1-0c0e0e2e19aa",
+        "8283940e-a9b1-4ca8-917b-95097bad82e4"
+      ]
+    },
+    {
+      "title": "صناعة الأدوية",
+      "start_page": 39,
+      "end_page": 43,
+      "page_count": 5,
+      "legacy_page_ids": [
+        "9d91b037-2647-4c65-8ae4-699489b9688d",
+        "6ff43344-61f5-435b-8833-c3c8b32e7661",
+        "69455e24-5a78-42fd-b527-665de43e9e37",
+        "ae06b131-ef11-4ac3-8cbe-db8aa59758c4",
+        "98968f84-de2b-4018-a10f-f48b87b2943c"
+      ]
+    },
+    {
+      "title": "النحو والصرف (الميزان الصرفي)",
+      "start_page": 44,
+      "end_page": 48,
+      "page_count": 5,
+      "legacy_page_ids": [
+        "4a05e351-bec3-4589-b4fd-fca810828748",
+        "438bb8bf-6091-4aee-b5ce-20a9d5fd6cf4",
+        "eb600b37-e13d-4988-9bff-cb88bdcf6e59",
+        "e03465a7-0ac3-4883-a1e2-46cb1a1174c5",
+        "09be4480-5c0d-4766-a51d-bfa289e5c604"
+      ]
+    },
+    {
+      "title": "الإملاء (إملاء اختباري)",
+      "start_page": 49,
+      "end_page": 49,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "f94162aa-234f-4f15-99a2-ff05378ed2d0"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة الخامسة عشرة",
+      "start_page": 50,
+      "end_page": 50,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "d16ec0cd-f96c-4728-a1a4-64ef50050cf4"
+      ]
+    },
+    {
+      "title": "النخلة الحمقاء",
+      "start_page": 51,
+      "end_page": 58,
+      "page_count": 8,
+      "legacy_page_ids": [
+        "3c7afc8e-5c6a-4cd7-9c50-91377dfe711f",
+        "165c95fb-b3d0-4633-827e-d27a88b511b2",
+        "690d357b-f5bd-4c89-b323-c307add48278",
+        "be454892-9395-444a-9ac9-5a6abd12d256",
+        "758cf822-2fbb-405a-9d51-a277e7a529e5",
+        "bb2ba4bf-d6c8-4656-9f99-1c961179bc29",
+        "04049d95-be6a-404f-b476-0e6ca69ec994",
+        "322fce10-8bbe-46ce-aee4-b239d1768db5"
+      ]
+    },
+    {
+      "title": "النحو والصرف (مصادر الأفعال الثلاثية والرباعية)",
+      "start_page": 59,
+      "end_page": 64,
+      "page_count": 6,
+      "legacy_page_ids": [
+        "1922f75a-cbaf-4025-88a3-2d2c550b1ce2",
+        "e64c4d98-9fb4-41b0-87be-2d7691eadddc",
+        "68a19fd3-d999-4c1a-bf92-cb04de704492",
+        "5bcfe8af-1525-4bee-9df6-a152916c55e8",
+        "c4c1b588-5bbe-45ae-b6fa-92f8b5735d61",
+        "126c27e5-3645-4783-8fe0-50e75ad73100"
+      ]
+    },
+    {
+      "title": "الإملاء (تطبيقات على الألف اللينة في الأسماء)",
+      "start_page": 65,
+      "end_page": 67,
+      "page_count": 3,
+      "legacy_page_ids": [
+        "74ee175e-2560-45dd-b39a-434a6773b67c",
+        "90ee3582-28d7-44d0-abe8-8b01615e6971",
+        "12945bc9-4027-44a6-9614-4322728a1f56"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة السادسة عشرة",
+      "start_page": 68,
+      "end_page": 68,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "c98ac8b1-ef27-4568-9ed8-fd67173cb01e"
+      ]
+    },
+    {
+      "title": "التواضع",
+      "start_page": 69,
+      "end_page": 74,
+      "page_count": 6,
+      "legacy_page_ids": [
+        "e5a8eb24-e1b6-4d40-a5d7-d82f9b67c731",
+        "f8e3a8dd-c97f-4b65-9aa9-a2262e4c8bad",
+        "bf28963d-f18f-4d67-b262-8a33db07ec77",
+        "7bb649e5-f295-4be2-ac57-b706d2835fff",
+        "d7c8b167-944c-42a6-b764-725ee12d5d31",
+        "02f98810-6d7f-468a-867a-5cdf4a10b5c2"
+      ]
+    },
+    {
+      "title": "النحو والصرف (تطبيقات على ما سبقت دراسته)",
+      "start_page": 75,
+      "end_page": 75,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "56cbcf60-e8b0-454d-96cc-1c467b8b5796"
+      ]
+    },
+    {
+      "title": "الإملاء (إملاء اختباري)",
+      "start_page": 76,
+      "end_page": 77,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "98503f8c-d075-4f00-92e1-cc7f5aee93f4",
+        "1a2a8cbd-521f-4c73-b095-c6f238572f31"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة السابعة عشرة",
+      "start_page": 78,
+      "end_page": 79,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "7b9cbd2b-eb13-47b5-b9fd-0dc2e1b46c56",
+        "97159392-85c3-4e19-98e3-47605b6c0452"
+      ]
+    },
+    {
+      "title": "مدينة براقش",
+      "start_page": 80,
+      "end_page": 84,
+      "page_count": 5,
+      "legacy_page_ids": [
+        "9eca1587-cee9-4673-9a6d-ebcb68645a7b",
+        "17070bfe-e33f-43f4-81ef-f0582e615d60",
+        "2237c6d7-9dfe-42a5-84d3-6879fa2906b7",
+        "6c0ae62b-e2f8-4cde-a1b4-749dbe837693",
+        "76d3c017-c84e-445b-b725-5a367247beed"
+      ]
+    },
+    {
+      "title": "النحو والصرف (مصادر الأفعال الخماسية والسداسية)",
+      "start_page": 85,
+      "end_page": 88,
+      "page_count": 4,
+      "legacy_page_ids": [
+        "6bcd69e9-dff9-44a6-b088-2a2e31a0872f",
+        "fba03151-c466-460e-bf1d-7450c7346259",
+        "57ad1941-a9ef-4b09-8753-9332ca12183a",
+        "9f6599ce-efd7-430a-a382-aad0b95812d1"
+      ]
+    },
+    {
+      "title": "الإملاء (تطبيقات على الألف اللينة في الأفعال)",
+      "start_page": 89,
+      "end_page": 90,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "a0b65a26-39b1-4399-bfd3-9bf82b7d9b92",
+        "77c95025-0c18-449f-a075-1cd334d5962b"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة الثامنة عشرة",
+      "start_page": 91,
+      "end_page": 92,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "2ee9741c-5265-4513-8463-2de1bc918029",
+        "1afeeda3-4e28-4a24-8eb6-f1e4a31443dc"
+      ]
+    },
+    {
+      "title": "زخرفة المساجد",
+      "start_page": 93,
+      "end_page": 98,
+      "page_count": 6,
+      "legacy_page_ids": [
+        "4168a94f-e8db-44d0-9233-8fd1fab3d9a1",
+        "598cd608-81e7-4467-bc69-fb39e60d5445",
+        "99b5c3e7-26d5-4425-a634-6582fc79ff27",
+        "1ade3add-30d9-42a7-99a5-88c9df6f2170",
+        "b5d04d6c-3c30-4c4f-8b33-8574b9d4435e",
+        "7c068c9c-3e22-4ab8-baa2-02443a062c8b"
+      ]
+    },
+    {
+      "title": "النحو والصرف (الكشف في المعاجم)",
+      "start_page": 99,
+      "end_page": 103,
+      "page_count": 5,
+      "legacy_page_ids": [
+        "be1df310-1506-4fb9-9784-e6d199adce73",
+        "f57b12c1-0d26-449b-b893-45f56523a80f",
+        "631ef048-45b4-450d-8527-cea56fb074bf",
+        "887e22a4-bfe7-4bd3-b625-4193330b6ccf",
+        "2605ab69-86cf-40a4-b1ea-bf64f35d34ff"
+      ]
+    },
+    {
+      "title": "الإملاء (إملاء اختباري)",
+      "start_page": 104,
+      "end_page": 105,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "eb18cc5c-e124-4c60-a767-3c09ca06ea00",
+        "19197f27-c115-47dc-902c-3285a823ceda"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة التاسعة عشرة",
+      "start_page": 106,
+      "end_page": 106,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "4783a681-84cd-4226-b55f-1507c3312365"
+      ]
+    },
+    {
+      "title": "سيف التابعين",
+      "start_page": 107,
+      "end_page": 112,
+      "page_count": 6,
+      "legacy_page_ids": [
+        "3bf2074d-c68f-4181-81ba-adfaf621e5f7",
+        "88e3ae9b-af93-498b-982a-94e343b6d2b5",
+        "79dc36dd-ab85-4fa9-9538-0b683f26565b",
+        "9bbf368c-6bbc-4dee-a34c-ad345fa38d46",
+        "f60dbd77-a792-4b0a-a2d5-ee75cb3c171f",
+        "9b4ecaa8-16c4-42c8-9cd8-35671a034cbd"
+      ]
+    },
+    {
+      "title": "النحو والصرف (اسم الفاعل وصيغ المبالغة)",
+      "start_page": 113,
+      "end_page": 116,
+      "page_count": 4,
+      "legacy_page_ids": [
+        "da831ef1-29b1-46e9-9991-af6bf37be066",
+        "05b1a0ab-7654-461f-973a-2c9aa0a3730c",
+        "80b85726-fb44-4158-897d-a7d501d0863e",
+        "f8d30e9a-72e1-4cbb-93d0-e8ead8e1b944"
+      ]
+    },
+    {
+      "title": "الإملاء (تطبيقات على الحذف في الألف والواو والياء)",
+      "start_page": 117,
+      "end_page": 118,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "9cd8b51a-303a-4de6-927a-8e8ae9b49257",
+        "648a89e3-b1ac-485f-89e1-8de4dcec8ba8"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة العشرين",
+      "start_page": 119,
+      "end_page": 120,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "6007d455-e776-4bc3-ab3c-b8abed3eb634",
+        "4fcfce81-6c5f-4d18-9fce-54dbc4ea9843"
+      ]
+    },
+    {
+      "title": "المولد النبوي",
+      "start_page": 121,
+      "end_page": 127,
+      "page_count": 7,
+      "legacy_page_ids": [
+        "45474e8c-2192-4cda-a6c9-59e8359f87eb",
+        "7dd430d5-ef93-4221-892f-ecf6899511ee",
+        "a8307bf6-5d6a-456d-ae1b-8f1b0c47c10d",
+        "1b9b9729-6dc3-4389-b5dc-7f04592bab84",
+        "c3aa5999-ade4-40ff-8302-e2d713c83773",
+        "6b025bec-e259-487c-894b-a0b4855e3467",
+        "047a3588-9ecf-4c87-8c38-a9ea5cf12f1f"
+      ]
+    },
+    {
+      "title": "النحو والصرف (اسم المفعول)",
+      "start_page": 128,
+      "end_page": 130,
+      "page_count": 3,
+      "legacy_page_ids": [
+        "5f8a5c20-7a54-4fee-9e0a-8e79c0721e10",
+        "8d917768-f4eb-4c7a-8886-9c04b4b902b0",
+        "e2efd528-4cc1-4eaa-933e-0625d487516f"
+      ]
+    },
+    {
+      "title": "الإملاء (تطبيقات على زيادة بعض الحروف)",
+      "start_page": 131,
+      "end_page": 132,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "4784e486-6383-41d0-916b-01188f1fdb0c",
+        "55428bfe-9ce1-4bc6-bf9e-c8ebd5198efe"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة الحادية والعشرين",
+      "start_page": 133,
+      "end_page": 133,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "a1505a6b-9372-4bf3-8da8-8233a11a9892"
+      ]
+    },
+    {
+      "title": "الصمود الأسطوري",
+      "start_page": 134,
+      "end_page": 141,
+      "page_count": 8,
+      "legacy_page_ids": [
+        "f740c3ed-527b-4835-ad10-a4d6bf30ac6e",
+        "a210e40d-dab7-433b-8e3b-9648049956e2",
+        "4f5d74b0-0c25-4948-bf2a-d883a4f68276",
+        "781ec6d0-71dd-423a-8e5f-cc0b93fccbaa",
+        "24415876-3843-4582-b22a-ba0e8200ff18",
+        "a82319ea-709a-4276-bf40-c1d38796c234",
+        "789e3ee7-f1fe-4ee8-b29d-6694e003174f",
+        "2f052aaa-52c6-43aa-ac38-1f426cddd716"
+      ]
+    },
+    {
+      "title": "النحو والصرف (اسم التفضيل)",
+      "start_page": 142,
+      "end_page": 147,
+      "page_count": 6,
+      "legacy_page_ids": [
+        "2a0764f8-f3b6-4bc3-a17f-0c9423680669",
+        "47fa82a1-488d-4d55-bd03-6de1f89438e2",
+        "2a56f910-6b76-4064-a68a-fc81e646c6e8",
+        "3f583d3f-a23d-48a3-8626-6f62bcfad8ae",
+        "2bd79928-28be-465c-9e7f-1e8f1cfdf8e4",
+        "46680b70-ec2a-4609-8f19-80de92632c41"
+      ]
+    },
+    {
+      "title": "الإملاء (تطبيقات على علامات الترقيم)",
+      "start_page": 148,
+      "end_page": 149,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "2d0c6519-38d1-4dfd-b228-3de206dc1a5a",
+        "de0a9ae6-fe8d-4979-92d2-0c94f932e020"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة الثانية والعشرين",
+      "start_page": 150,
+      "end_page": 150,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "56744021-ae8a-4cab-a3d8-ddb6a0e550c0"
+      ]
+    },
+    {
+      "title": "الفضاء الخارجي",
+      "start_page": 151,
+      "end_page": 155,
+      "page_count": 5,
+      "legacy_page_ids": [
+        "cca8e80b-f000-47bd-80a5-5aadd19f8b02",
+        "b7313d8f-7854-470c-ac47-bfc07c6d5eae",
+        "e4ba0729-5bb2-4569-a5b7-7a63ecc2805a",
+        "cb4cbbe6-e6fd-4b60-b728-edceaa84bc6f",
+        "13237544-a166-4d58-b43b-1c889209443c"
+      ]
+    },
+    {
+      "title": "النحو والصرف (اسما الزمان والمكان)",
+      "start_page": 156,
+      "end_page": 160,
+      "page_count": 5,
+      "legacy_page_ids": [
+        "050339e3-1634-49b2-b5da-569d9b94125c",
+        "11ce644f-bab2-4612-a28c-3270b9d94808",
+        "408587bf-0cbc-47ff-9be2-8ef05d75498d",
+        "5f604360-1916-4169-9ca3-576ce3979436",
+        "b5fa1607-c775-4fa8-94ef-6252f098e75e"
+      ]
+    },
+    {
+      "title": "الإملاء (تطبيقات على المد والتنوين)",
+      "start_page": 161,
+      "end_page": 162,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "30be45a3-771c-4a1a-87d5-ada180156503",
+        "ef0003ea-bc1a-4c9c-8047-cae49c355667"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة الثالثة والعشرين",
+      "start_page": 163,
+      "end_page": 164,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "d23c7b7e-5ef8-4671-8799-0618286b1414",
+        "9e6f4080-d8c8-4d66-a86d-a55359062660"
+      ]
+    },
+    {
+      "title": "طرائف عربية",
+      "start_page": 165,
+      "end_page": 168,
+      "page_count": 4,
+      "legacy_page_ids": [
+        "7c33fad2-7785-4db9-adff-e339c90912bb",
+        "740d34f0-4a77-40f9-99b8-d332272f67b1",
+        "abb60db1-ce13-4925-aa12-1ee8e1a7e3c6",
+        "9937fcdf-977a-4efc-b8e1-0cec8b1a139d"
+      ]
+    },
+    {
+      "title": "النحو والصرف (تطبيقات)",
+      "start_page": 169,
+      "end_page": 170,
+      "page_count": 2,
+      "legacy_page_ids": [
+        "c9a07d36-0c79-4b8c-b059-c1fdcb86bf00",
+        "84a2c165-b0ec-433b-9e91-d424ec840923"
+      ]
+    },
+    {
+      "title": "الإملاء (تطبيقات على ما سبقت دراسته)",
+      "start_page": 171,
+      "end_page": 171,
+      "page_count": 1,
+      "legacy_page_ids": [
+        "79bb1911-67a6-44e1-9edc-1df2678462c1"
+      ]
+    },
+    {
+      "title": "تقويم الوحدة الرابعة والعشرين",
+      "start_page": 172,
+      "end_page": 177,
+      "page_count": 6,
+      "legacy_page_ids": [
+        "944215d1-7610-46a5-8ae2-0b94e753bb2c",
+        "5a2aa473-11de-4c36-ba85-9369514e846e",
+        "5725bd62-974e-4a49-9d7d-e0d2e2be8964",
+        "ce7c6c1b-480a-4efb-aa6b-8af7e1d7a14c",
+        "c633228a-dfc0-4a7e-8264-d6c95878e935",
+        "d79b9858-a33a-413b-9740-06a40f2e1eba"
+      ]
+    }
+  ],
+  "structure_status": "NOT VERIFIED",
+  "visual_semantic_review": "NOT VERIFIED",
+  "raw_mutations": 0,
+  "new_imports": 0,
+  "new_publications": 0
+}
