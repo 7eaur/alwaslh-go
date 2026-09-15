@@ -673,3 +673,23 @@ Continue from `3d91d812-ab78-476a-b2fc-dc2c31152e1a — UNKNOWN` only after re-r
 - RAW/unrelated/import/publication mutations: **0/0/0/0**.
 - Next source: `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1` — `العربي نماذج وزارية 1447`.
 <!-- PHYSICS_EXAM_1447_CHECKPOINT_END -->
+
+
+## RUN 2026-09-15T00:06:20+00:00 — Worker A
+
+- state: `COMPLETE_METADATA_BOUNDARY_VERIFIED_VISUAL_SEMANTICS_NOT_VERIFIED`
+- start HEAD: `6e9d8e191a432d50f3fedd5cdd6eca57fd5e25d6`
+- end HEAD (canonical evidence): `912cf61044d5295954dd702cefc760a7d487467a`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source: `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1 — العربي نماذج وزارية 1447`
+- completed: verified **42/42** immutable RAW images (byte-size/SHA-256/MIME), sequence **1..42**, **0** RAW mutations; proved **14** source-local model boundaries from complete exact 42-page titles; finalized **14 models / 42 exam pages / 14 correction candidates**; standalone official Answer Keys and visual semantic page review remain `NOT VERIFIED`; source has **0 legacy questions**, so no mappings were invented.
+- artifacts/evidence: `content-staging/reconstruction/technical/d1a6b8f8-d81b-4824-86e1-d370ec28bdf1.json`; `content-staging/reconstruction/exams/source-groups/d1a6b8f8-d81b-4824-86e1-d370ec28bdf1.json`; canonical evidence commit `912cf61044d5295954dd702cefc760a7d487467a`.
+- invariant: PASS (`13,135 + 1,920 + 1,229 + 9,471 = 25,755`).
+- progress: Sources `36/58`; Educational `16/26`; Books/Units/Lessons/Lesson Pages `14/57/328/1,527`; Exam Groups `20/32`; Models `370`; Exam Pages `1,274/2,286`; Answer Keys `0`; technical images `3,021/5,273`; Legacy Questions `25,755`; Lesson-linked `13,135`; Exam-linked `1,920`; Review-required `1,229`; Unclassified `9,471`.
+- invariants/mutations: RAW `0`; unrelated `0`; new imports `0`; new publications `0`.
+- last completed source: `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1 — العربي نماذج وزارية 1447`
+- current source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- current source baseline: `169 pages; 169 images; 0 legacy questions; 0 download failures`
+- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for the current source; reconstruct only from that source's own RAW/manifest/page evidence; preserve uncertainty as NOT VERIFIED/review_required; assert invariant; checkpoint.`
+- blockers: `none for structural boundary finalization; visual semantic inspection of Arabic 1447 remains explicitly NOT VERIFIED and was not used to justify Answer Keys.`
+- handoff for Worker B: `Start only from ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول; do not rerun/finalize Arabic 1447 absent fresh drift evidence.`
