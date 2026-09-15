@@ -1,0 +1,33 @@
+{
+  "source_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+  "source_name": "كتاب العربي - الجزء الثاني",
+  "worker": "A",
+  "evidence_head_before_write": "9cf0317d106674baf0bceb099f0714b2ce7016e4",
+  "scope": "pre-finalization reconciliation gate",
+  "verified": {
+    "retained_records": 178,
+    "technical_verified_images": 178,
+    "numbered_pages": "1..177 contiguous",
+    "stored_page_zero_record": "preserved legacy cover provenance",
+    "legacy_questions": 11,
+    "unit_count": 12,
+    "unit_numbers": "13..24",
+    "semantic_lesson_headings": 60,
+    "assessment_heading_count": 12,
+    "raw_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  },
+  "not_verified": {
+    "physical_lesson_page_boundaries": "NOT VERIFIED",
+    "assessment_physical_boundaries": "NOT VERIFIED",
+    "legacy_question_page_memberships": "NOT VERIFIED",
+    "aggregate_counter_delta": "NOT VERIFIED"
+  },
+  "decision": "FAIL_CLOSED_NO_FINALIZATION",
+  "reason": "The retained manifest proves 11 legacy questions exist, but the currently reviewed machine-readable evidence does not prove their exact page memberships. Visual evidence also explicitly reports shared physical pages across semantic headings. Canonical physical counters and question mappings therefore must not be inferred.",
+  "safe_next_operation": "Derive an evidence-only table from the live pages.json containing every record with non-empty ai_questions (legacy_page_id, stored page_number, title, question count and immutable question identifiers/text hashes as available), then reconcile those memberships against visual/title-run boundaries. Only after every retained record has one physical classification and shared semantic memberships are explicit may this source be finalized.",
+  "global_question_invariant_before_finalization": "13135 + 1920 + 1229 + 9471 = 25755",
+  "canonical_source_progress_remains": "37/58",
+  "canonical_educational_progress_remains": "17/26"
+}
