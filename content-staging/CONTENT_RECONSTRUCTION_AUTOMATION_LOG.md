@@ -2134,15 +2134,32 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - blockers: `visual semantic inspection of generated contact sheets remains NOT VERIFIED`
 - handoff note: `Worker B must not rerun technical verification or create duplicate discovery. Consume run 34925408200/artifact 10380121394 and finalize only evidence-backed structure.`
 
+## RUN 2026-09-15T15:32:23+03:00 — Worker A
+
+- state: COMPLETE_SOURCE_HANDOFF
+- start HEAD: `bd2d94f73e1cec5182c1d1cd08ad9caf2bbffe02`
+- end HEAD before handoff-log commit: `WORKFLOW_COMMIT_PENDING`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- completed in this run: applied the already validated evidence-backed Arabic Part 1 reconstruction to live MASTER/status; finalized 1 Book / 12 Units / 60 semantic Lessons / 114 unique physical Lesson pages; preserved 11 shared physical lesson pages without double-counting; updated aggregate evidence documents; resolved next source from live MASTER.
+- evidence/artifacts: `content-staging/reconstruction/educational/ab701a9e-3efb-409a-8ed1-9752d41c4771.json`; canonical checkpoint evidence already validated on live branch; shared-page policy `content-staging/reconstruction/SHARED_PHYSICAL_LESSON_PAGE_POLICY.json`.
+- ambiguity/review_required: exact bibliographic edition transcription remains `NOT VERIFIED`; question mapping `NOT APPLICABLE — 0 legacy questions`.
+- invariant result: PASS (`13135 + 1920 + 1229 + 9471 = 25,755`)
+- Sources processed: 37/58; Educational: 17/26; Books / Units / Lessons / Lesson Pages: 15 / 69 / 388 / 1641; Exam Source Groups: 20/32; Individual Exam Models: 370; Exam Pages: 1274/2286; Source images technical: 3190/5273.
+- invariants: RAW mutations 0; unrelated mutations 0; new imports 0; new publications 0.
+- current/next source: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for 7ddec20e-617e-4e55-bba8-2d371aaf16b6; read its live manifest/pages; execute source-local technical verification and reconstruction/boundary discovery without inheriting Arabic Part 1 structure; quarantine insufficient evidence as NOT VERIFIED/review_required; assert invariants; checkpoint.`
+- blockers: none at handoff.
+- handoff note: `Worker B must not rerun/finalize Arabic Part 1 absent drift evidence. Start 7ddec20e-617e-4e55-bba8-2d371aaf16b6 from its own source evidence.`
+
 ## ACTIVE CHECKPOINT
 
-- state: `PARTIAL_SAFE_HANDOFF`
+- state: `COMPLETE_SOURCE_HANDOFF`
 - branch: `content/corpus-inventory-20260914`
-- latest discovery HEAD: `92574b57fccf69a57e3195e4d605f79c7c39e305`
-- last completed source: `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1 — العربي نماذج وزارية 1447`
-- current source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
-- current source baseline: `169 pages / 169 images / 0 legacy questions / 0 download failures`
-- current source verified work: `169/169 RAW verified; pages 9..177 contiguous; 0 duplicate SHA groups; 45 title-runs; complete contact-sheet artifact 10380121394 generated successfully by run 34925408200; visual semantic interpretation NOT VERIFIED.`
-- current operation: `Inspect artifact 10380121394 completely and reconcile with title-runs; finalize only where visual/source-local evidence agrees.`
-- next source: `Resolve only after Arabic book part 1 finalization from live MASTER.`
-- blockers: `visual semantic inspection remains NOT VERIFIED; do not infer 12 canonical units from metadata alone.`
+- latest validated source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- progress: `37/58 sources; 17/26 educational; 20/32 exam groups; 15 books; 69 units; 388 lessons; 1641 unique physical lesson pages; 3190/5273 technical images.`
+- invariant: `13135 + 1920 + 1229 + 9471 = 25,755`; RAW/unrelated/import/publication mutations `0/0/0/0`.
+- current source: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- current operation: `Begin source-local verification/reconstruction for 7ddec20e-617e-4e55-bba8-2d371aaf16b6; do not inherit prior-source boundaries.`
+- next source: `Resolve only after 7ddec20e-617e-4e55-bba8-2d371aaf16b6 finalization from live MASTER.`
+- blockers: `none known; source identity/structure remain NOT VERIFIED until its own evidence gates pass.`

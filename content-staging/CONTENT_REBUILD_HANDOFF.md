@@ -710,3 +710,15 @@ Never delete provenance, fabricate page 70, mutate RAW, hide anomalies, or auto-
 - baseline: `169 pages; 169 images; 0 legacy questions; 0 download failures`
 - exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for ab701a9e-3efb-409a-8ed1-9752d41c4771; technically verify all 169 immutable RAW images; reconstruct book/unit/lesson/review boundaries only from source-local evidence; do not infer missing questions; preserve insufficient evidence as NOT VERIFIED/review_required; assert invariant; checkpoint.`
 - handoff for Worker B: `Start only from ab701a9e-3efb-409a-8ed1-9752d41c4771; Arabic exam 1447 is structurally finalized from complete metadata-title evidence, while visual semantic inspection and standalone official Answer Keys remain NOT VERIFIED.`
+
+<!-- ARABIC_PART1_CHECKPOINT_START -->
+## Reconstruction checkpoint — Arabic book part 1
+
+- Sources processed: **37/58**; Educational: **17/26**; Exam groups: **20/32**.
+- Books / Units / Lessons / unique physical Lesson pages: **15 / 69 / 388 / 1641**.
+- Arabic Part 1: **169/169** technical; **12 Units / 60 semantic Lessons / 114 unique physical lesson pages / 35 intro-cover / 18 assessment / 2 tail**.
+- Shared physical lesson pages are preserved semantically without double-counting: **11**.
+- Questions unchanged: **13135 + 1920 + 1229 + 9471 = 25,755**.
+- Technical images: **3190/5273**. RAW/unrelated/import/publication mutations **0/0/0/0**.
+- Last completed: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`. Next: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`.
+<!-- ARABIC_PART1_CHECKPOINT_END -->

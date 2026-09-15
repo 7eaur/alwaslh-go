@@ -29,7 +29,7 @@
     "correction_sheet_candidates": 376,
     "duplicate_fingerprint_groups_classified": 0,
     "duplicate_fingerprint_groups_total": 99,
-    "educational_sources_completed": 16,
+    "educational_sources_completed": 17,
     "educational_sources_total": 26,
     "exam_linked_to_individual_model": 1920,
     "exam_pages_completed": 1274,
@@ -43,16 +43,16 @@
     "new_publications": 0,
     "raw_mutations": 0,
     "review_required": 1229,
-    "source_images_technically_verified": 3021,
+    "source_images_technically_verified": 3190,
     "source_images_total": 5273,
-    "sources_completed": 36,
+    "sources_completed": 37,
     "sources_total": 58,
     "unclassified": 9471,
     "unrelated_mutations": 0,
-    "verified_books": 14,
-    "verified_lesson_pages": 1527,
-    "verified_lessons": 328,
-    "verified_units": 57,
+    "verified_books": 15,
+    "verified_lesson_pages": 1641,
+    "verified_lessons": 388,
+    "verified_units": 69,
     "webp_derivatives_accepted": 0,
     "webp_derivatives_generated": 0,
     "webp_derivatives_rejected": 0
@@ -2694,8 +2694,8 @@
         "null_or_invalid_page_numbers": []
       },
       "answer_keys": null,
-      "classification": "educational_source_candidate",
-      "classification_evidence": "legacy inventory label; individual pages not semantically reviewed",
+      "classification": "educational_book_source",
+      "classification_evidence": "169/169 immutable RAW technical verification + complete visual review + exact lesson-header evidence + shared physical lesson-page policy",
       "counts": {
         "image_download_failures": 0,
         "image_references": 169,
@@ -2721,7 +2721,48 @@
       "manifest_sha256_recorded": "10caf36d2cce863b5e29a9997a4ac56d7bd9ad9fb942458572ac2fbe7b82ab7a",
       "modern_entity_id": null,
       "publication_status": "NOT VERIFIED",
-      "review_status": "review_needed"
+      "review_status": "reconstructed_verified",
+      "technical_verification": {
+        "status": "verified",
+        "report_path": "content-staging/reconstruction/technical/ab701a9e-3efb-409a-8ed1-9752d41c4771.json",
+        "images_verified": 169,
+        "readable": 169,
+        "sha256_match_manifest": 169,
+        "mime_match_manifest": 169,
+        "duplicate_sha_groups_within_source": 0
+      },
+      "reconstruction": {
+        "status": "verified",
+        "path": "content-staging/reconstruction/educational/ab701a9e-3efb-409a-8ed1-9752d41c4771.json",
+        "book_title": "كتاب العربي - الجزء الأول",
+        "retained_page_range": [
+          9,
+          177
+        ],
+        "retained_pages": 169,
+        "units": 12,
+        "lessons": 60,
+        "lesson_pages": 114,
+        "unit_cover_or_intro_pages": 35,
+        "assessment_pages": 18,
+        "tail_pages": 2,
+        "shared_physical_lesson_pages": [
+          18,
+          33,
+          47,
+          61,
+          75,
+          95,
+          106,
+          121,
+          136,
+          149,
+          174
+        ],
+        "legacy_questions": 0,
+        "semantic_question_review": "NOT APPLICABLE — 0 legacy questions",
+        "raw_mutations": 0
+      }
     },
     {
       "anomalies": {
