@@ -1,0 +1,50 @@
+{
+  "source_id": "ab701a9e-3efb-409a-8ed1-9752d41c4771",
+  "source_name": "كتاب العربي - الجزء الأول",
+  "phase": "CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY",
+  "state": "CANONICAL_CHECKPOINT_VALIDATED_PENDING_AGGREGATE_FILE_WRITE",
+  "validated_against_live_head": "6be0b0c04f8552612fc8886554e22fe5450a880b",
+  "master_blob_sha_at_validation": "f85fe86ae985d028dba44fbeafd2b3e6ae464abc",
+  "reconstruction_blob_sha": "e181c69052711fc033abe20874dc6d680c4326a7",
+  "verified_source_counts": {
+    "books": 1,
+    "units": 12,
+    "semantic_instructional_lessons": 60,
+    "unique_physical_lesson_pages": 114,
+    "unit_cover_or_intro_pages": 35,
+    "assessment_pages": 18,
+    "tail_pages": 2,
+    "retained_pages": 169,
+    "technically_verified_images": 169,
+    "legacy_questions": 0
+  },
+  "page_accounting": "114 + 35 + 18 + 2 = 169",
+  "shared_physical_lesson_pages": [18,33,47,61,75,95,106,121,136,149,174],
+  "verified_target_aggregates": {
+    "sources_completed": 37,
+    "educational_sources_completed": 17,
+    "verified_books": 15,
+    "verified_units": 69,
+    "verified_lessons": 388,
+    "verified_lesson_pages": 1641,
+    "source_images_technically_verified": 3190,
+    "lesson_linked_structural": 13135,
+    "exam_linked_to_individual_model": 1920,
+    "review_required": 1229,
+    "unclassified": 9471
+  },
+  "invariants": {
+    "question_equation": "13135 + 1920 + 1229 + 9471 = 25755",
+    "question_equation_result": "PASS",
+    "raw_mutations": 0,
+    "unrelated_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  },
+  "ambiguity": {
+    "exact_bibliographic_edition_transcription": "NOT VERIFIED",
+    "question_mapping": "NOT APPLICABLE — 0 legacy questions"
+  },
+  "write_guard": "This checkpoint validates the evidence-backed aggregate delta but does not claim MASTER/status were mutated. Aggregate files must be updated only from a freshly fetched live blob and must not overwrite a newer shared-log version.",
+  "exact_next_operation": "Apply this validated delta to live MASTER/status using fresh blob guards, append the Worker A RUN to the shared baton, update ACTIVE CHECKPOINT, then resolve the next source from live MASTER."
+}
