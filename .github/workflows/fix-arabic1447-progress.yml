@@ -1,0 +1,76 @@
+name: Reconcile Arabic 1447 Progress
+
+on:
+  push:
+    branches:
+      - content/corpus-inventory-20260914
+    paths:
+      - '.github/workflows/fix-arabic1447-progress.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reconcile-arabic1447-progress
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/corpus-inventory-20260914
+          fetch-depth: 0
+      - name: Gate exact live head
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT; exit 42; }
+      - name: Reconcile canonical progress and active checkpoint
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,datetime
+          from pathlib import Path
+          root=Path('content-staging')
+          sid='d1a6b8f8-d81b-4824-86e1-d370ec28bdf1'
+          mp=root/'manifests/MASTER_CONTENT_MANIFEST.json'
+          master=json.loads(mp.read_text(encoding='utf-8'))
+          src=next(x for x in master['sources'] if x['id']==sid)
+          assert src['review_status'].startswith('processed_boundary')
+          assert src['exam_models']==14
+          assert src['exam_reconstruction']['exam_pages']==42
+          assert src['technical_verification']['images_verified']==42
+          rp=master['reconstruction_progress']
+          expected_before={'sources_completed':35,'exam_source_groups_completed':19,'individual_exam_models':356,'exam_pages_completed':1232,'source_images_technically_verified':2979,'correction_sheet_candidates':362}
+          expected_after={'sources_completed':36,'exam_source_groups_completed':20,'individual_exam_models':370,'exam_pages_completed':1274,'source_images_technically_verified':3021,'correction_sheet_candidates':376}
+          for k,v in expected_before.items():
+              if rp.get(k) not in (v,expected_after[k]):
+                  raise AssertionError((k,rp.get(k),v,expected_after[k]))
+          rp.update(expected_after)
+          assert rp['lesson_linked_structural']+rp['exam_linked_to_individual_model']+rp['review_required']+rp['unclassified']==rp['legacy_questions_total']==25755
+          assert rp['exam_linked_to_individual_model']==1920
+          assert rp['raw_mutations']==0 and rp['unrelated_mutations']==0 and rp['new_imports']==0 and rp['new_publications']==0
+          mp.write_text(json.dumps(master,ensure_ascii=False,indent=2,sort_keys=True)+'\n',encoding='utf-8')
+          now=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
+          note=f'''\n\n## RECONCILIATION {now} — Worker A\n\n- reason: canonical source reconstruction for `{sid}` was committed correctly, but `MASTER_CONTENT_MANIFEST.json.reconstruction_progress` still held pre-source aggregate counters.\n- action: reconciled aggregate counters to the evidence-backed source state; no RAW/provenance/import/publication mutations.\n- canonical progress: Sources `36/58`; Educational `16/26`; Books/Units/Lessons/Lesson Pages `14/57/328/1,527`; Exam Groups `20/32`; Models `370`; Exam Pages `1,274/2,286`; correction candidates `376`; Answer Keys `0`; technical images `3,021/5,273`; Legacy Questions `25,755`; Lesson-linked `13,135`; Exam-linked `1,920`; Review-required `1,229`; Unclassified `9,471`.\n- invariant: PASS (`13,135 + 1,920 + 1,229 + 9,471 = 25,755`).\n- mutations: RAW `0`; unrelated `0`; new imports `0`; new publications `0`.\n\n## ACTIVE CHECKPOINT\n\n- last completed source: `{sid} — العربي نماذج وزارية 1447`\n- current source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`\n- baseline: `169 pages; 169 images; 0 legacy questions; 0 download failures`\n- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for ab701a9e-3efb-409a-8ed1-9752d41c4771; technically verify all 169 immutable RAW images; reconstruct book/unit/lesson/review boundaries only from source-local evidence; do not infer missing questions; preserve insufficient evidence as NOT VERIFIED/review_required; assert invariant; checkpoint.`\n- handoff for Worker B: `Start only from ab701a9e-3efb-409a-8ed1-9752d41c4771; Arabic exam 1447 is structurally finalized from complete metadata-title evidence, while visual semantic inspection and standalone official Answer Keys remain NOT VERIFIED.`\n'''
+          for rel in ['CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md','CONTENT_REBUILD_EXECUTION_STATUS.md','CONTENT_REBUILD_HANDOFF.md','CONTENT_INVENTORY.md','CONTENT_VALIDATION_REPORT.md','CONTENT_IMPORT_REPORT.md','CONTENT_REBUILD_CONTINUATION_2026-09-14.md']:
+              p=root/rel; p.write_text(p.read_text(encoding='utf-8')+note,encoding='utf-8')
+          print(json.dumps({'reconstruction_progress':rp,'active_source':'ab701a9e-3efb-409a-8ed1-9752d41c4771'},ensure_ascii=False))
+          PY
+      - name: Gate exact live head before commit
+        run: |
+          set -euo pipefail
+          git fetch origin content/corpus-inventory-20260914
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/content/corpus-inventory-20260914)" || { echo LIVE_HEAD_DRIFT_BEFORE_COMMIT; exit 43; }
+      - name: Commit reconciliation
+        run: |
+          set -euo pipefail
+          git config user.name alwaslh-content-bot
+          git config user.email actions@users.noreply.github.com
+          git add content-staging/manifests/MASTER_CONTENT_MANIFEST.json content-staging/CONTENT_RECONSTRUCTION_AUTOMATION_LOG.md content-staging/CONTENT_REBUILD_EXECUTION_STATUS.md content-staging/CONTENT_REBUILD_HANDOFF.md content-staging/CONTENT_INVENTORY.md content-staging/CONTENT_VALIDATION_REPORT.md content-staging/CONTENT_IMPORT_REPORT.md content-staging/CONTENT_REBUILD_CONTINUATION_2026-09-14.md
+          git diff --cached --check
+          git commit -m 'content: reconcile Arabic 1447 aggregate progress [skip ci]'
+          git push origin HEAD:content/corpus-inventory-20260914
