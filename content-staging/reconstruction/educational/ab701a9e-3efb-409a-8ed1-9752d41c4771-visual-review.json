@@ -1,0 +1,53 @@
+{
+  "source_id": "ab701a9e-3efb-409a-8ed1-9752d41c4771",
+  "source_name": "كتاب العربي - الجزء الأول",
+  "phase": "CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY",
+  "review_state": "VISUAL_REVIEW_COMPLETE_STRUCTURE_EVIDENCE_ONLY",
+  "artifact": {
+    "workflow_run": 34925408200,
+    "artifact_id": 10380121394,
+    "name": "arabic-book-part1-contact-sheets",
+    "digest": "sha256:ecf2549330e05c89cf12d26efed931030ef24fe4a2253ef0dab497df2b112c21",
+    "sheets_reviewed": ["009-020.jpg","021-032.jpg","033-044.jpg","045-056.jpg","057-068.jpg","069-080.jpg","081-092.jpg","093-104.jpg","105-116.jpg","117-128.jpg","129-140.jpg","141-152.jpg","153-164.jpg","165-176.jpg","177-177.jpg"],
+    "stored_pages_reviewed": "9..177"
+  },
+  "technical_evidence_reused_without_rerun": {
+    "images_verified": 169,
+    "retained_sequence": "9..177 contiguous",
+    "duplicate_sha_groups": 0,
+    "legacy_questions": 0
+  },
+  "visual_findings": {
+    "book_identity": "SUPPORTED BY SOURCE-LOCAL VISUAL CONTENT; exact bibliographic edition/title-page transcription remains NOT VERIFIED",
+    "unit_count_visually_explicit": 12,
+    "unit_start_pages": [9,20,35,50,65,78,97,110,124,138,152,167],
+    "unit_assessment_headers_visually_explicit": [19,34,49,63,76,96,108,122,137,150,165,175],
+    "unit_page_ranges_supported": ["9..19","20..34","35..49","50..64","65..77","78..96","97..109","110..123","124..137","138..151","152..166","167..175"],
+    "non_unit_tail_pages": {
+      "176": "publisher/contact/credits-style page",
+      "177": "back-cover-style page"
+    },
+    "lesson_pattern": "Each visually inspected unit exposes numbered lesson headers including lesson 1 (الفهم والاستيعاب), lesson 2 (النحو والصرف), lesson 3 (الإملاء), lesson 4 (الخط), lesson 5 (التعبير), and lesson 6 explicitly labeled تقويم الوحدة. This is source-local visual evidence, not inherited from another source.",
+    "assessment_semantics": "Lesson 6 is explicitly an in-book unit assessment and must not be silently treated as ordinary instructional lesson content without canonical policy confirmation.",
+    "page_64_note": "Continuation of unit-four assessment content before unit five begins at stored page 65.",
+    "page_77_note": "Continuation of unit-five assessment content before unit six begins at stored page 78.",
+    "page_109_note": "Continuation of unit-seven assessment content before unit eight begins at stored page 110.",
+    "page_123_note": "Continuation of unit-eight assessment content before unit nine begins at stored page 124.",
+    "page_151_note": "Continuation/end matter of unit-ten assessment before unit eleven begins at stored page 152.",
+    "page_166_note": "Continuation/end matter of unit-eleven assessment before unit twelve begins at stored page 167."
+  },
+  "safe_conclusions": {
+    "twelve_unit_boundaries": "VERIFIED FROM COMPLETE CONTACT-SHEET REVIEW",
+    "assessment_boundaries": "VERIFIED AT UNIT LEVEL",
+    "canonical_lesson_count": "NOT FINALIZED — policy decision needed on whether explicit تقويم الوحدة is represented as lesson vs assessment/non-lesson surface",
+    "canonical_page_to_lesson_mapping": "NOT FINALIZED in this evidence-only commit",
+    "question_mapping": "NOT APPLICABLE — source has 0 legacy questions"
+  },
+  "invariants": {
+    "raw_mutations": 0,
+    "unrelated_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  },
+  "exact_next_operation": "Re-fetch live HEAD and canonical educational reconstruction conventions; finalize the 12 verified units while isolating explicit تقويم الوحدة pages according to existing canonical policy. Do not guess lesson/assessment representation. Then update MASTER/status documents and shared baton with counters only after invariant verification."
+}
