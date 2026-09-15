@@ -26,10 +26,8 @@
     {"unit":24,"lesson_1":167,"lesson_2":169,"lesson_3":171,"lesson_4":172,"lesson_5":172,"assessment_lesson_6":173}
   ],
   "verified_shared_header_pages": [
-    {"page":21,"lessons":[3,4]},
     {"page":36,"lessons":[4,5]},
     {"page":49,"lessons":[3,4,5]},
-    {"page":66,"lessons":[3,4]},
     {"page":76,"lessons":[3,4]},
     {"page":89,"lessons":[3,4]},
     {"page":104,"lessons":[3,4,5]},
@@ -39,12 +37,25 @@
     {"page":161,"lessons":[3,4]},
     {"page":172,"lessons":[4,5]}
   ],
+  "physical_partition_correction": {
+    "reason": "Canonical Arabic Part 1 precedent separates pages before the first instructional lesson header inside each unit as unit cover/intro pages. Applying the same repository policy to Part 2 yields a non-overlapping physical partition.",
+    "front_matter_pages": 8,
+    "unit_cover_or_intro_pages": 48,
+    "unique_lesson_physical_pages": 99,
+    "assessment_pages": 20,
+    "tail_pages": 3,
+    "total": 178,
+    "accounting": "8 + 48 + 99 + 20 + 3 = 178"
+  },
   "corrected_prior_visual_finding": {
     "field": "unit_13_assessment_start",
     "prior_value": 22,
     "verified_value": 23,
-    "evidence": "stored page 22 visibly contains only lesson 5 (التعبير); stored page 23 visibly begins الدرس السادس: تقويم الوحدة الثالثة عشرة",
-    "effect": "The prior physical-only partition 146 lesson pages / 21 assessment pages is superseded by 147 unique lesson-content pages / 20 assessment pages."
+    "evidence": "stored page 22 visibly contains lesson 5 (التعبير); stored page 23 visibly begins الدرس السادس: تقويم الوحدة الثالثة عشرة"
+  },
+  "shared_header_correction": {
+    "removed_from_prior_draft": [21,66],
+    "reason": "Those pages are starts of the following lesson with a distinct header page, not physical pages carrying multiple lesson headers. Canonical shared-header membership is reserved for pages on which multiple numbered lesson headers are visibly present."
   },
   "unit_24_tail_correction": {
     "metadata_title_run": "تقويم الوحدة الرابعة والعشرين metadata extends 172..177",
