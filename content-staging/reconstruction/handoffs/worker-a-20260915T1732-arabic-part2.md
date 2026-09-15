@@ -1,0 +1,64 @@
+## RUN 2026-09-15T17:32:00+03:00 — Worker A
+
+- state: PARTIAL_SAFE_HANDOFF
+- start HEAD: `a1c0fc6924745321527daf552521382dbfca9b82`
+- end verified work HEAD before this handoff commit: `23e31e44ddcf8dae28876676336d68fd50ac6f3b`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- completed in this run:
+  - consumed the live baton and confirmed Arabic Part 1 is closed at 37/58;
+  - reviewed the latest branch changes and successful discovery workflow `34975254689` rather than creating a duplicate;
+  - verified the discovery run completed successfully and artifact `10398967254` exists;
+  - downloaded and visually inspected all 15 contact sheets covering all 178 retained records;
+  - verified book identity from source itself as `لغتي العربية — الصف التاسع من مرحلة التعليم الأساسي — الجزء الثاني`;
+  - verified front matter stored pages 0..7 and preserved the legacy page_number=0 cover anomaly without renumbering;
+  - verified 12 explicit units numbered 13..24 with starts at stored pages `8,26,39,51,69,80,93,107,121,134,151,165`;
+  - verified five semantic lesson headings per unit (60 semantic lessons total) and explicit sixth `تقويم الوحدة` assessment pattern;
+  - verified stored page 175 is the explicit end-of-part page, 176 publisher/contact tail, 177 back cover;
+  - recorded visual evidence but did not finalize physical lesson-page counters because several pages share semantic headings and some lesson/assessment transitions need exact allocation; 11 legacy-question mapping remains NOT VERIFIED.
+- evidence produced/verified:
+  - `content-staging/reconstruction/technical/7ddec20e-617e-4e55-bba8-2d371aaf16b6.json`;
+  - `content-staging/reconstruction/educational/7ddec20e-617e-4e55-bba8-2d371aaf16b6-visual-review.json`;
+  - workflow `34975254689` success;
+  - artifact `10398967254`, 5,907,262 bytes, `sha256:d36a1cd613d0e60fa4dcba82fb010688a09865b01ac0858f73aec8fa925f5d9a`.
+- ambiguity/review_required:
+  - exact physical lesson-page boundaries and assessment-page allocation: `NOT VERIFIED` pending title-run reconciliation;
+  - 11 legacy questions: structural/semantic mapping `NOT VERIFIED`;
+  - no canonical aggregate counters advanced in this run.
+- invariant result: PASS — canonical counters unchanged; `13,135 + 1,920 + 1,229 + 9,471 = 25,755`.
+- Sources processed: 37/58
+- Educational: 17/26
+- Books / Units / Lessons / Lesson Pages: 15 / 69 / 388 / 1,641
+- Exam Source Groups: 20/32
+- Individual Exam Models: 370
+- Exam Pages: 1,274/2,286
+- Verified Answer Keys: 0
+- Source images technical: 3,190/5,273 canonical aggregate (178 Part 2 images verified source-locally but not yet aggregate-finalized)
+- WebP generated / accepted / rejected: 0 / 0 / 0
+- Legacy Questions: 25,755
+- Lesson-linked: 13,135
+- Exam-linked: 1,920
+- Review-required: 1,229
+- Unclassified: 9,471
+- Duplicate groups classified: 0/99
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- current source: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- exact next operation: `Re-fetch live HEAD/baton; reconcile all visual unit/lesson/assessment headings with metadata title-runs and the 11 legacy question page memberships; resolve shared physical pages without double-counting; classify all 178 records exactly once for physical counters while preserving semantic multi-membership; assert the global 25,755 invariant; only then finalize Part 2 and update aggregate counters.`
+- next source: `NOT YET RESOLVED — resolve only after Arabic Part 2 finalization from live MASTER.`
+- blockers: `Shared physical lesson/assessment page allocation and 11-question mapping remain NOT VERIFIED; canonical finalization intentionally withheld.`
+- handoff note: `Worker B should consume the visual-review evidence and must not rerun technical verification/discovery. Continue reconciliation/finalization from source-local evidence. The shared baton itself was not overwritten in this run because the connector exposes replacement-only writes for this long append-only file and a safe complete current blob could not be materialized without truncation; this sidecar preserves the exact handoff rather than risking stale-history loss.`
+
+## ACTIVE CHECKPOINT
+
+- state: `PARTIAL_SAFE_HANDOFF`
+- branch: `content/corpus-inventory-20260914`
+- latest validated source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- progress: `37/58 sources; 17/26 educational; 20/32 exam groups; 15 books; 69 units; 388 lessons; 1641 unique physical lesson pages; 3190/5273 canonical technical images.`
+- current source: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
+- current operation: `Reconcile verified 12 units / 60 semantic lessons / assessments with title-runs and 11 legacy questions; finalize physical counters only after exact allocation.`
+- next source: `Resolve only after Part 2 finalization from live MASTER.`
+- blockers: `physical-page allocation + 11-question mapping NOT VERIFIED`.
