@@ -1,0 +1,1160 @@
+{
+  "schema_version": 1,
+  "source_group_id": "6fa466f9-b930-437e-b091-947ee56407c4",
+  "source_group_name": "التفاضل والتكامل نماذج وزاريه 1445",
+  "class_id": "cb086aee-0b81-430e-9d4b-aaf7cf81547f",
+  "class_name": "الرياضيات ثالث ثانوي ",
+  "subject": "التفاضل والتكامل",
+  "classification": "exam_source_group",
+  "academic_year_hijri": "1445",
+  "academic_year_gregorian": "2023-2024",
+  "source_pages": 80,
+  "source_questions": 0,
+  "source_blocks_reviewed": 20,
+  "verified_source_occurrence_count": 20,
+  "review_required_block_count": 0,
+  "individual_exam_model_count": 20,
+  "finalized_exam_page_count": 80,
+  "review_required_page_count": 0,
+  "correction_sheet_candidate_count": 20,
+  "verified_answer_key_count": 0,
+  "duplicate_sha256_groups_within_source": 0,
+  "models": [
+    {
+      "id": "calculus-1445-exam-01",
+      "internal_ordinal": 1,
+      "source_model_label": "source occurrence 1",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 1,
+      "last_page": 4,
+      "page_count": 4,
+      "question_pages": [
+        1,
+        2,
+        3
+      ],
+      "correction_sheet_candidate_page": 4,
+      "ordered_page_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ordered_legacy_page_ids": [
+        "fb50e505-bc91-499e-9e03-e1e9a46a73a9",
+        "8dc87000-8c82-444d-8635-7880e133c09e",
+        "7e434c55-a1ca-49ae-ac0d-5cdb4b503b98",
+        "6f8d701e-2f12-4245-b745-84eebac6c5ce"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00001-fb50e505-bc91-499e-9e03-e1e9a46a73a9-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00002-8dc87000-8c82-444d-8635-7880e133c09e-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00003-7e434c55-a1ca-49ae-ac0d-5cdb4b503b98-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00004-6f8d701e-2f12-4245-b745-84eebac6c5ce-image-00.jpg"
+      ],
+      "sha256": [
+        "5bafb1af09f225f61d11f3f8817a9abfbabebd5e4505cf611cb58b69af3ef72b",
+        "0e0b7f760ddc3dcae64024779e3509947c1b2b0440399f60c2cd443fa27b6b6e",
+        "35adf95d980d63cb6bce64e2b2d44362230a30eaf32be7cb6900cd339db35ee7",
+        "a69afdff629cfd31f04bbc8e5714e151500727171b84271ee85c4ef93e68090d"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 1..3 are question sheets and page 4 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-02",
+      "internal_ordinal": 2,
+      "source_model_label": "source occurrence 2",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 5,
+      "last_page": 8,
+      "page_count": 4,
+      "question_pages": [
+        5,
+        6,
+        7
+      ],
+      "correction_sheet_candidate_page": 8,
+      "ordered_page_numbers": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "ordered_legacy_page_ids": [
+        "60e26c6a-6aed-4205-a742-7137f70ff172",
+        "afdef009-ea59-44bf-827b-47bee319799c",
+        "35b44dd2-57e6-4d09-ac96-337d9f04c720",
+        "8291ca13-5359-4a1d-a74e-08663c546d9f"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00005-60e26c6a-6aed-4205-a742-7137f70ff172-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00006-afdef009-ea59-44bf-827b-47bee319799c-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00007-35b44dd2-57e6-4d09-ac96-337d9f04c720-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00008-8291ca13-5359-4a1d-a74e-08663c546d9f-image-00.jpg"
+      ],
+      "sha256": [
+        "39767bc82039164be3287ac7fe19dbdabada64e0131a13c7d241c0e2fd8ba5b2",
+        "a1639e54bf800c40383b13ef86e853f467281a68fb38a1c065798b44e491b4ec",
+        "8b49d03dd64d8ca42eb29500cea7f4445c83f99e8f85d0aa50b1b618e340cb61",
+        "e09edc9c5bf49411a240fb6e61b65bfa16f9fef9786a910efc7301197b42c2b5"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 5..7 are question sheets and page 8 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-03",
+      "internal_ordinal": 3,
+      "source_model_label": "source occurrence 3",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 9,
+      "last_page": 12,
+      "page_count": 4,
+      "question_pages": [
+        9,
+        10,
+        11
+      ],
+      "correction_sheet_candidate_page": 12,
+      "ordered_page_numbers": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "ordered_legacy_page_ids": [
+        "35c3d98f-ea97-43e7-9bb5-8eb9bb38e853",
+        "37816b2b-908c-4946-aa51-bcfc660f1525",
+        "e5378f2a-1db5-4ca9-8c48-25408832d12c",
+        "6752d8f6-36bb-4470-b127-da3a07ffb91a"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00009-35c3d98f-ea97-43e7-9bb5-8eb9bb38e853-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00010-37816b2b-908c-4946-aa51-bcfc660f1525-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00011-e5378f2a-1db5-4ca9-8c48-25408832d12c-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00012-6752d8f6-36bb-4470-b127-da3a07ffb91a-image-00.jpg"
+      ],
+      "sha256": [
+        "835465fb24d2bc365d501047d63fb9c84349a0365cf9bf2bcbe25f1726e17a84",
+        "9901f17cfe9050332c6919decf96b65c8238e4b08ba316299825f99d53ca2900",
+        "43e116586b708ab7f66b8b141d69f91d4b7632e69f71edad671c5a35d4b540f7",
+        "88299dc9c5a515f86ac0b4f77360b4b1287e8b945700daf5cfeb3358db67ed40"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 9..11 are question sheets and page 12 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-04",
+      "internal_ordinal": 4,
+      "source_model_label": "source occurrence 4",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 13,
+      "last_page": 16,
+      "page_count": 4,
+      "question_pages": [
+        13,
+        14,
+        15
+      ],
+      "correction_sheet_candidate_page": 16,
+      "ordered_page_numbers": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "ordered_legacy_page_ids": [
+        "944e24f9-d250-45d0-ab4a-9f09ea783f5d",
+        "1d9bd782-fe28-4109-b1be-173142259ea7",
+        "f860bffd-e4b4-4140-ad79-c3e5657d48f5",
+        "8234e9a9-bcab-4ece-ad2c-44f8d10f6a87"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00013-944e24f9-d250-45d0-ab4a-9f09ea783f5d-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00014-1d9bd782-fe28-4109-b1be-173142259ea7-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00015-f860bffd-e4b4-4140-ad79-c3e5657d48f5-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00016-8234e9a9-bcab-4ece-ad2c-44f8d10f6a87-image-00.jpg"
+      ],
+      "sha256": [
+        "963d111fb3c5e58c7e0619eea736ac7136da1e9a9fac173efc4d0d03e7ce6d5f",
+        "9394eb14cfa559156abdc8255726d4d5b06cf6b5f8e1be18bf5d10fad6f54f1a",
+        "48f6a727a6d5aa62212a2dd70e6cecf462f5e9597fe2daf8452ebe4405a6ec64",
+        "6457acfc118c1b35a1157c52ca5b5c33448e28fd7b2c788f17388ce908bbb41c"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 13..15 are question sheets and page 16 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-05",
+      "internal_ordinal": 5,
+      "source_model_label": "source occurrence 5",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 17,
+      "last_page": 20,
+      "page_count": 4,
+      "question_pages": [
+        17,
+        18,
+        19
+      ],
+      "correction_sheet_candidate_page": 20,
+      "ordered_page_numbers": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "ordered_legacy_page_ids": [
+        "b7b12ba6-e8e1-4b23-8134-a612fcb84d50",
+        "b8e600fd-c006-4ca7-9a59-4154083b7dff",
+        "eb997b07-38e2-4015-a158-1824a6a03a9a",
+        "f43d0201-52bd-48a7-be29-57b4d52e15dc"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00017-b7b12ba6-e8e1-4b23-8134-a612fcb84d50-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00018-b8e600fd-c006-4ca7-9a59-4154083b7dff-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00019-eb997b07-38e2-4015-a158-1824a6a03a9a-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00020-f43d0201-52bd-48a7-be29-57b4d52e15dc-image-00.jpg"
+      ],
+      "sha256": [
+        "f629aa055ccb2b49979dac168ac3b39a19671ff9a17c1b6445aa1e4e7b7c7ff3",
+        "ffead38f3a011e1d7a9f757174884df35f64521c7d9258115b9bed058d2340b4",
+        "6558ebd4c36ab849d81bb0d049c099daad4e458308c0f00130e7c58afa33800e",
+        "9829e91816b668e717b23c534325791e83fd27cf2e7a3e60e8aeaec15a1527e0"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 17..19 are question sheets and page 20 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-06",
+      "internal_ordinal": 6,
+      "source_model_label": "source occurrence 6",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 21,
+      "last_page": 24,
+      "page_count": 4,
+      "question_pages": [
+        21,
+        22,
+        23
+      ],
+      "correction_sheet_candidate_page": 24,
+      "ordered_page_numbers": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "ordered_legacy_page_ids": [
+        "08f01d97-ad7a-40f6-855d-ca07a22d43b8",
+        "d0a3cc57-ed0e-4374-8820-b0517c599063",
+        "acba77c9-79c3-42ad-8e68-29d08c3ab145",
+        "45a4496f-aa2d-471c-848c-4bbf5d8de751"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00021-08f01d97-ad7a-40f6-855d-ca07a22d43b8-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00022-d0a3cc57-ed0e-4374-8820-b0517c599063-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00023-acba77c9-79c3-42ad-8e68-29d08c3ab145-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00024-45a4496f-aa2d-471c-848c-4bbf5d8de751-image-00.jpg"
+      ],
+      "sha256": [
+        "f683d7dde5a3124e1078a859b158940a8b239b802839e2b4a29f003a17c662c7",
+        "d9405fc974bf783da509cc1a63106a4a41a2939ff78be7046291b0c576d430a0",
+        "b461ef476a89e0bd129f4392e16f274095aa9918de1e65365e2fd09a9fc79bab",
+        "54db1c21eecf15b7679f11b0e41579c442a76b75876bd44b2dd64bd8d25b589b"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 21..23 are question sheets and page 24 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-07",
+      "internal_ordinal": 7,
+      "source_model_label": "source occurrence 7",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 25,
+      "last_page": 28,
+      "page_count": 4,
+      "question_pages": [
+        25,
+        26,
+        27
+      ],
+      "correction_sheet_candidate_page": 28,
+      "ordered_page_numbers": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "ordered_legacy_page_ids": [
+        "1855484f-5728-4e59-a601-03f98b966d12",
+        "d04643ca-698f-4231-8571-d1283f706e8c",
+        "c3a151f5-3f11-45ca-b205-d3374e722dcc",
+        "02b30ac9-16e2-4fbc-82f4-f83ab8ec6496"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00025-1855484f-5728-4e59-a601-03f98b966d12-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00026-d04643ca-698f-4231-8571-d1283f706e8c-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00027-c3a151f5-3f11-45ca-b205-d3374e722dcc-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00028-02b30ac9-16e2-4fbc-82f4-f83ab8ec6496-image-00.jpg"
+      ],
+      "sha256": [
+        "b48df0fc25378f30dae4c305f8e77649c85bed30344af642116795b0066e17e0",
+        "fe86cb88f4034b35d1c9bf83bb238e618d2fec977a449ff65e912cf88bba87d8",
+        "630c15487d99a46869d6d97382fcdbd5d48ea48b39dfd5cbf744de2e87588701",
+        "17d0a12069890f8357ac51dde016e64da9f71671e7ec1e78b46915de153190e5"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 25..27 are question sheets and page 28 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-08",
+      "internal_ordinal": 8,
+      "source_model_label": "source occurrence 8",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 29,
+      "last_page": 32,
+      "page_count": 4,
+      "question_pages": [
+        29,
+        30,
+        31
+      ],
+      "correction_sheet_candidate_page": 32,
+      "ordered_page_numbers": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "ordered_legacy_page_ids": [
+        "eba3bfc1-b54e-4994-ad15-311139d8722e",
+        "f93bcb12-f3b7-428c-b805-98a5142acd53",
+        "8a10c173-c95c-4dc9-81a8-30fbde4d5736",
+        "21ea9caa-5c8b-4b80-be14-734e2fd3761b"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00029-eba3bfc1-b54e-4994-ad15-311139d8722e-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00030-f93bcb12-f3b7-428c-b805-98a5142acd53-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00031-8a10c173-c95c-4dc9-81a8-30fbde4d5736-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00032-21ea9caa-5c8b-4b80-be14-734e2fd3761b-image-00.jpg"
+      ],
+      "sha256": [
+        "ff9b82bb39c06fbef82b6ad539b164088222985d59fe35a44f3aed02a87ddfdf",
+        "d41b340862656a98f7cb701055ab97cf383a0b9743566f0c3ab993c257d83131",
+        "45c11a6db918ea1ba588019701ae377e16adae0b85519a36d1c9f8545e4e39c6",
+        "ad77a1a7c80c93de134771c8ef9ab6d375f7d50a8e3a3bcbe61bcdd4115e6cdd"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 29..31 are question sheets and page 32 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-09",
+      "internal_ordinal": 9,
+      "source_model_label": "source occurrence 9",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 33,
+      "last_page": 36,
+      "page_count": 4,
+      "question_pages": [
+        33,
+        34,
+        35
+      ],
+      "correction_sheet_candidate_page": 36,
+      "ordered_page_numbers": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "ordered_legacy_page_ids": [
+        "b2378c2f-314c-4db1-8eda-92499907bf6c",
+        "3b3cca7e-1273-4ec8-af08-e6b1b990e67a",
+        "c9a7b302-c803-4a8b-86b2-ceccd6c5729a",
+        "5a1b441b-544c-47f3-8d47-cb60d78f4b43"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00033-b2378c2f-314c-4db1-8eda-92499907bf6c-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00034-3b3cca7e-1273-4ec8-af08-e6b1b990e67a-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00035-c9a7b302-c803-4a8b-86b2-ceccd6c5729a-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00036-5a1b441b-544c-47f3-8d47-cb60d78f4b43-image-00.jpg"
+      ],
+      "sha256": [
+        "5080bd699b31a309ab9bea9910b97e7faa324bff213209ec23e632c2b8114802",
+        "9ed7cc243270c4a10c8bcf1f3c3a8d95c4370a6a012b08f7ccd0b4a13529b34e",
+        "73a0aaa5eb09c20fc37098012f4d0a41e4b049c798e229fed74cd6a4a7909a15",
+        "a2bc721f0db06573a43809efda60d1a5981abaeabed7c6c35f0a84ddd504e9bd"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 33..35 are question sheets and page 36 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-10",
+      "internal_ordinal": 10,
+      "source_model_label": "source occurrence 10",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 37,
+      "last_page": 40,
+      "page_count": 4,
+      "question_pages": [
+        37,
+        38,
+        39
+      ],
+      "correction_sheet_candidate_page": 40,
+      "ordered_page_numbers": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "ordered_legacy_page_ids": [
+        "4d36ff45-f030-42f8-8f35-98f2b4e1e9ab",
+        "5d4ba26e-6b43-4f8a-b51e-66acdce342c8",
+        "6d1b956f-cd02-496a-bcda-3538a17e91bf",
+        "f9b064e6-800b-4acf-8a2a-d45f47020f1a"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00037-4d36ff45-f030-42f8-8f35-98f2b4e1e9ab-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00038-5d4ba26e-6b43-4f8a-b51e-66acdce342c8-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00039-6d1b956f-cd02-496a-bcda-3538a17e91bf-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00040-f9b064e6-800b-4acf-8a2a-d45f47020f1a-image-00.jpg"
+      ],
+      "sha256": [
+        "c022f9fe4a021cb0b15bfa2b495052d558a4567f4f4cd5c519f329d78b906577",
+        "7dfd58ba4a5e594bf8d4ef2a270f7274f31dfc520628a57a35849ab613c58412",
+        "309fd1a6aa996b907f46d629aab1437845098a58e4e6c01193bed8f1b1e4bc75",
+        "c9aed999a3aebfa62ff3dceb922eeb8843bbdbedd138d83705edca52f9555729"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 37..39 are question sheets and page 40 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-11",
+      "internal_ordinal": 11,
+      "source_model_label": "source occurrence 11",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 41,
+      "last_page": 44,
+      "page_count": 4,
+      "question_pages": [
+        41,
+        42,
+        43
+      ],
+      "correction_sheet_candidate_page": 44,
+      "ordered_page_numbers": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "ordered_legacy_page_ids": [
+        "e0661eb8-e957-4f5d-a606-53f63e80da33",
+        "54835a70-5427-47de-b132-9b272db05ba5",
+        "22fe5447-8260-47bb-9d7e-521aa4692857",
+        "0813e8e7-e40d-43b9-8aa5-4740f4d88ba6"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00041-e0661eb8-e957-4f5d-a606-53f63e80da33-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00042-54835a70-5427-47de-b132-9b272db05ba5-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00043-22fe5447-8260-47bb-9d7e-521aa4692857-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00044-0813e8e7-e40d-43b9-8aa5-4740f4d88ba6-image-00.jpg"
+      ],
+      "sha256": [
+        "876d7021a9f0dc92166f86158594a509a0d8758eabfd21a0002e3315e0b8b9c1",
+        "1e7e455f3796062d32b6b5ec3d8a81d358da5135372f2bc6b28ccc899ecf2d83",
+        "a6d9d75129791170316e61c11e7f8d96c350764930104afe50ecc6a4b35c4358",
+        "200b57e423d126fd6010e162420b4aa8cbdb1c8846a8f116a0a2b58d58ef4d0c"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 41..43 are question sheets and page 44 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-12",
+      "internal_ordinal": 12,
+      "source_model_label": "source occurrence 12",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 45,
+      "last_page": 48,
+      "page_count": 4,
+      "question_pages": [
+        45,
+        46,
+        47
+      ],
+      "correction_sheet_candidate_page": 48,
+      "ordered_page_numbers": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "ordered_legacy_page_ids": [
+        "0e0db2f7-6e7b-4cde-877d-3e13353567c2",
+        "2e40a9a5-ecff-4412-b2c2-a6724aa4aa8d",
+        "567d3fd9-b5e0-4d4c-b295-cadafcbafd31",
+        "1cb813e9-1fca-4713-9cf1-09a8ec912010"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00045-0e0db2f7-6e7b-4cde-877d-3e13353567c2-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00046-2e40a9a5-ecff-4412-b2c2-a6724aa4aa8d-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00047-567d3fd9-b5e0-4d4c-b295-cadafcbafd31-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00048-1cb813e9-1fca-4713-9cf1-09a8ec912010-image-00.jpg"
+      ],
+      "sha256": [
+        "747e71b46ffda9b23b37b8450bf97c8c8ac2f3e48522cf368f72bab2626b87dd",
+        "71b6b01d4a1151e7983123199039aebb18768717d35016c78499277dcd7de751",
+        "3b10bf267b65253f130d00a4dd7a628e5db9a995b7f9068a33f2615d242fd7d0",
+        "bade8832fd5e2b3517fe57c53d131e447537a0adb46e660fef5b994d5284a30d"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 45..47 are question sheets and page 48 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-13",
+      "internal_ordinal": 13,
+      "source_model_label": "source occurrence 13",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 49,
+      "last_page": 52,
+      "page_count": 4,
+      "question_pages": [
+        49,
+        50,
+        51
+      ],
+      "correction_sheet_candidate_page": 52,
+      "ordered_page_numbers": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "ordered_legacy_page_ids": [
+        "b6f8078c-a11b-46b0-9c16-863e5b32cfcf",
+        "8328c2af-084f-4531-bfbb-978be86bcf1e",
+        "988c39db-2e91-4686-a461-2f8ea895d90f",
+        "f34617fc-c4b2-45c5-92fb-21c5d5c04b20"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00049-b6f8078c-a11b-46b0-9c16-863e5b32cfcf-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00050-8328c2af-084f-4531-bfbb-978be86bcf1e-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00051-988c39db-2e91-4686-a461-2f8ea895d90f-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00052-f34617fc-c4b2-45c5-92fb-21c5d5c04b20-image-00.jpg"
+      ],
+      "sha256": [
+        "b69a7e09a5e2210c5d24848500f67dfd54398dc4a6cb3d272e9525523276aaa5",
+        "e51077e8e1a7e0730ec8bf349ea6cc9da18b73d20d91f5f80456c914ee93abaa",
+        "31cbc9548fe3c50d22ca3d9e1aab26d57d8b7b674fa2276dfd422f690afd3fc5",
+        "ae1e62dcaecd68edfc57c8841870a568c3cb675ac50ef14ad00d0c58b73cbcbc"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 49..51 are question sheets and page 52 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-14",
+      "internal_ordinal": 14,
+      "source_model_label": "source occurrence 14",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 53,
+      "last_page": 56,
+      "page_count": 4,
+      "question_pages": [
+        53,
+        54,
+        55
+      ],
+      "correction_sheet_candidate_page": 56,
+      "ordered_page_numbers": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "ordered_legacy_page_ids": [
+        "e80fb874-bf51-416d-83ff-f0eaa4015ec4",
+        "f41ed210-baeb-4d8f-ad90-31ebca004acd",
+        "f13979b7-bba4-4036-b4f3-c3785cca60f1",
+        "ddaf59ec-cae8-4951-8e79-c85ef4a6af0a"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00053-e80fb874-bf51-416d-83ff-f0eaa4015ec4-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00054-f41ed210-baeb-4d8f-ad90-31ebca004acd-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00055-f13979b7-bba4-4036-b4f3-c3785cca60f1-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00056-ddaf59ec-cae8-4951-8e79-c85ef4a6af0a-image-00.jpg"
+      ],
+      "sha256": [
+        "d4f1a3077b353d75c3b2e01f150f8fb51c55b0ab6856c4ea717d1b5ee4b3195b",
+        "d20d97e6c3ed3bf4cb1f6899693657f5d29642f3b257db35148282fcf9914903",
+        "9631a6cc0cd1434f22208081436df4354772af5f2e780ce25e75c9f0f36f2ecd",
+        "803c2533b42554101653ce1417f0a9e8e13bc0f37b942ca588ef84124fa2c1b4"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 53..55 are question sheets and page 56 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-15",
+      "internal_ordinal": 15,
+      "source_model_label": "source occurrence 15",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 57,
+      "last_page": 60,
+      "page_count": 4,
+      "question_pages": [
+        57,
+        58,
+        59
+      ],
+      "correction_sheet_candidate_page": 60,
+      "ordered_page_numbers": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "ordered_legacy_page_ids": [
+        "5e82e1f6-d74b-4831-b1e8-b30af68efd02",
+        "73c1c1d4-55a2-4b86-aca2-e6cd5c736455",
+        "e7d1a959-e19e-4355-8c4f-e960c6cd7ffe",
+        "945ae55b-6176-4100-a32d-98d46ac33a81"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00057-5e82e1f6-d74b-4831-b1e8-b30af68efd02-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00058-73c1c1d4-55a2-4b86-aca2-e6cd5c736455-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00059-e7d1a959-e19e-4355-8c4f-e960c6cd7ffe-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00060-945ae55b-6176-4100-a32d-98d46ac33a81-image-00.jpg"
+      ],
+      "sha256": [
+        "6733ee639809aa0bdcf4b9596c3e51782a863b3acf208f9e3ed3a8e798daf04d",
+        "38ff97fd9568162ca959f9338f2c0fe02c9c8924adaa1c7396df1bd57502f6dd",
+        "ebef8228bc6e7f92dd4111015bf521f62530c846e3773126fbc0238d181cdf8b",
+        "000f32be390a7f0ab68e8e2e1dfca86ea483212389041c2dca97a47b77559908"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 57..59 are question sheets and page 60 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-16",
+      "internal_ordinal": 16,
+      "source_model_label": "source occurrence 16",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 61,
+      "last_page": 64,
+      "page_count": 4,
+      "question_pages": [
+        61,
+        62,
+        63
+      ],
+      "correction_sheet_candidate_page": 64,
+      "ordered_page_numbers": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "ordered_legacy_page_ids": [
+        "9d0f7917-c784-44cd-96c1-ff61c8344063",
+        "2525036d-47d7-47eb-a37a-c318da99e7e3",
+        "7ea7cee7-ad90-4907-b710-7b08f713836d",
+        "d974fc3f-36a5-4fd4-a947-99f88810f5d5"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00061-9d0f7917-c784-44cd-96c1-ff61c8344063-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00062-2525036d-47d7-47eb-a37a-c318da99e7e3-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00063-7ea7cee7-ad90-4907-b710-7b08f713836d-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00064-d974fc3f-36a5-4fd4-a947-99f88810f5d5-image-00.jpg"
+      ],
+      "sha256": [
+        "ad11ff2e5282a4ea148997a4133d72df165c8f52b6985f26a4d90f0b5f2c5e64",
+        "c8c82e295d748b649dc309782842f97bca338d5ad290f37bd688fccb45e55344",
+        "0ae2dd0f8b5aa8662d8fcc3ab588cd99bbcadc96dbbf1428f03d51f9c0bf8fab",
+        "9f16b67e9444f8677983a8d79ae5a2fe0251cabaa20989e87d2e8ebb3e9fc639"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 61..63 are question sheets and page 64 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-17",
+      "internal_ordinal": 17,
+      "source_model_label": "source occurrence 17",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 65,
+      "last_page": 68,
+      "page_count": 4,
+      "question_pages": [
+        65,
+        66,
+        67
+      ],
+      "correction_sheet_candidate_page": 68,
+      "ordered_page_numbers": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "ordered_legacy_page_ids": [
+        "4cac4cba-1ecb-40ec-8d53-f0905a0b97e7",
+        "8e6cf9f0-99dc-4022-8200-0d5f72e17677",
+        "ea6dbef8-4b00-41e8-8318-bbf517a7c4c2",
+        "484d5934-0e4b-4c77-a9d8-0f5d211363fa"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00065-4cac4cba-1ecb-40ec-8d53-f0905a0b97e7-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00066-8e6cf9f0-99dc-4022-8200-0d5f72e17677-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00067-ea6dbef8-4b00-41e8-8318-bbf517a7c4c2-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00068-484d5934-0e4b-4c77-a9d8-0f5d211363fa-image-00.jpg"
+      ],
+      "sha256": [
+        "9bb2e8cbed7c51b14a32a68e408db49d040d4d79f6ac5b359275c904c74dcdaa",
+        "c5ba00f6a5abeea28e5fef4dc6820962ef206235f7d630600aa46d1e2792e5ac",
+        "859b30aa48ad1aef30207ac173ab27602a112ead076c4590da797b5d7ac6528a",
+        "eb1222af4a6078c816125d9055493bc7ebea6816249eb187f88bf5bb5f436842"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 65..67 are question sheets and page 68 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-18",
+      "internal_ordinal": 18,
+      "source_model_label": "source occurrence 18",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 69,
+      "last_page": 72,
+      "page_count": 4,
+      "question_pages": [
+        69,
+        70,
+        71
+      ],
+      "correction_sheet_candidate_page": 72,
+      "ordered_page_numbers": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "ordered_legacy_page_ids": [
+        "eac0e06a-bfb5-40ae-881a-6ea01f36e689",
+        "cf5cf909-90e2-49a2-bd56-5580a023b74f",
+        "c217cce9-dbb6-4eb2-bb98-83fc98b78b2d",
+        "6ff5cfe7-6f4b-41ac-b7bd-150c400cfb1d"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00069-eac0e06a-bfb5-40ae-881a-6ea01f36e689-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00070-cf5cf909-90e2-49a2-bd56-5580a023b74f-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00071-c217cce9-dbb6-4eb2-bb98-83fc98b78b2d-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00072-6ff5cfe7-6f4b-41ac-b7bd-150c400cfb1d-image-00.jpg"
+      ],
+      "sha256": [
+        "8b5d92ed2469219ce5d80777e7e6efdebd09d97678bb077240fd8c5f1548563d",
+        "62624b1c1ab334bc58774e0f35c8b3e80668afa89b968801852b03398694526a",
+        "a541b0ab0a221da35c29adf756fed3bdc58cb1264a6c746948a89c0807537834",
+        "fe2318bd714d8196c82e53795dc13ac8552863bb90d05368352cfbbe265c074f"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 69..71 are question sheets and page 72 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-19",
+      "internal_ordinal": 19,
+      "source_model_label": "source occurrence 19",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 73,
+      "last_page": 76,
+      "page_count": 4,
+      "question_pages": [
+        73,
+        74,
+        75
+      ],
+      "correction_sheet_candidate_page": 76,
+      "ordered_page_numbers": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "ordered_legacy_page_ids": [
+        "ce8777d3-0376-406e-9fc0-ccfaddfa2d8f",
+        "a06923dd-b604-4a30-aa6b-24c9b8015615",
+        "d617d5a3-b169-4e26-95f2-f1899adcf7f3",
+        "33603ac8-281a-4c7f-b94e-eb8e7ad23b3d"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00073-ce8777d3-0376-406e-9fc0-ccfaddfa2d8f-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00074-a06923dd-b604-4a30-aa6b-24c9b8015615-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00075-d617d5a3-b169-4e26-95f2-f1899adcf7f3-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00076-33603ac8-281a-4c7f-b94e-eb8e7ad23b3d-image-00.jpg"
+      ],
+      "sha256": [
+        "571c1850787fa83c556cff3406f25a3a5a3772706a2d045be66e329507aac6c5",
+        "60ed44c052dfdb272dd94bb912c17b151f23a40d6c6a3064ea7510b09c23fc37",
+        "fe8ea64cb47de06618f3add83414c7de48b9fd5c55060e32f0010b4595fae5da",
+        "b599fd97024330dabccb91db12a4272f3c7483a6fd580d709592d88829c0e6b4"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 73..75 are question sheets and page 76 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    },
+    {
+      "id": "calculus-1445-exam-20",
+      "internal_ordinal": 20,
+      "source_model_label": "source occurrence 20",
+      "official_model_code": "NOT VERIFIED",
+      "official_title": "NOT VERIFIED",
+      "academic_year_hijri": "1445",
+      "academic_year_gregorian": "2023-2024",
+      "term": "NOT VERIFIED",
+      "exam_type": "وزاري",
+      "first_page": 77,
+      "last_page": 80,
+      "page_count": 4,
+      "question_pages": [
+        77,
+        78,
+        79
+      ],
+      "correction_sheet_candidate_page": 80,
+      "ordered_page_numbers": [
+        77,
+        78,
+        79,
+        80
+      ],
+      "ordered_legacy_page_ids": [
+        "c415d251-9fc9-46c6-aff1-56df2b433010",
+        "be181994-6c6f-4867-9a2d-edc1da5aacf4",
+        "0fabeb0c-8ddf-4c32-8ab4-fa61c9084598",
+        "0692bfa0-fc95-4567-94ba-a7d0fd101128"
+      ],
+      "raw_paths": [
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00077-c415d251-9fc9-46c6-aff1-56df2b433010-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00078-be181994-6c6f-4867-9a2d-edc1da5aacf4-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00079-0fabeb0c-8ddf-4c32-8ab4-fa61c9084598-image-00.jpg",
+        "raw/legacy-supabase/subjects/6fa466f9-b930-437e-b091-947ee56407c4/images/page-00080-0692bfa0-fc95-4567-94ba-a7d0fd101128-image-00.jpg"
+      ],
+      "sha256": [
+        "58056e8a5881e92fecbe46873d1cef8af591e74fd0cb2f72bf7cb2d438818485",
+        "4c9785369c92b7515e3dfcb3c13c07eb0febe9e9cedbcaff625b1ad07db4515f",
+        "18da65ace16819d09a02a06e0dd86e7c3e27bda9c229cd2f70d77170f808c208",
+        "eb9a055f82e1b033a71a3c5f06e9fae1ebb3c8b096a44d85f98f9471c517992f"
+      ],
+      "associated_legacy_questions": 0,
+      "boundary_status": "verified",
+      "answer_key": {
+        "status": "NOT VERIFIED",
+        "reason": "The fourth page is visibly a correction/result sheet paired with the preceding three question pages, but available evidence does not establish it as a standalone official Answer Key."
+      },
+      "boundary_evidence": [
+        "All 80 source pages were directly reviewed in seven complete source-local contact sheets.",
+        "Pages 77..79 are question sheets and page 80 is the paired correction/result sheet; this four-page sequence was checked for this occurrence.",
+        "The boundary decision is source-local and was not inherited from another subject or exam group."
+      ],
+      "review_status": "boundary_verified_answer_key_unverified"
+    }
+  ],
+  "question_mapping": {
+    "exam_linked_structural": 0,
+    "review_required": 0,
+    "unassigned_within_source": 0,
+    "semantic_correctness": "NOT APPLICABLE — 0 legacy questions",
+    "records": []
+  },
+  "evidence": {
+    "technical_report": "content-staging/reconstruction/technical/6fa466f9-b930-437e-b091-947ee56407c4.json",
+    "discovery_report": "content-staging/reconstruction/exams/source-groups/6fa466f9-b930-437e-b091-947ee56407c4-discovery.json",
+    "visual_review": "all 80 pages directly reviewed in contact sheets 001-012, 013-024, 025-036, 037-048, 049-060, 061-072, 073-080",
+    "visual_discovery_workflow_run": "NOT APPLICABLE — direct local source review",
+    "storage_identity_used_as_final_boundary": false,
+    "raw_mutations": 0
+  },
+  "status": "boundary_verified_zero_legacy_questions_answer_keys_not_verified"
+}

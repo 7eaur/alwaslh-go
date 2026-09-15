@@ -506,3 +506,17 @@ The reconstruction artifact is verified, but the corpus remains `RECONSTRUCTION_
 - Production PostgreSQL cleanup/import: **NOT EXECUTED**; reconstruction remains not import-ready corpus-wide.
 - Last completed: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`. Next: `6fa466f9-b930-437e-b091-947ee56407c4 — التفاضل والتكامل نماذج وزاريه 1445`.
 <!-- ARABIC_PART2_CHECKPOINT_END -->
+
+<!-- CALCULUS_EXAM_1445_CHECKPOINT_START -->
+## Reconstruction checkpoint — Calculus Ministry Exams 1445
+
+- Source `6fa466f9-b930-437e-b091-947ee56407c4` — `التفاضل والتكامل نماذج وزاريه 1445` completed from source-local technical and visual evidence.
+- Technical verification: **80/80** images exist, readable, byte-size/SHA-256/MIME match; sequence **1..80** contiguous; duplicate SHA groups **0**.
+- Complete visual review resolves **20** Individual Exam Model occurrences, each with three question pages plus one paired correction/result sheet candidate.
+- Finalized Exam Pages: **80**; review-required pages: **0**; correction-sheet candidates: **20**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Source legacy questions: **0**; no question mapping was invented.
+- Progress: Sources **39/58**; Educational **18/26**; Exam Groups **21/32**; Individual Exam Models **390**; Exam Pages **1354/2,286**; source images technical **3448/5,273**.
+- Global questions: Lesson-linked **13135**; Exam-linked **1920**; Review-required **1240**; Unclassified **9460**; invariant **PASS = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**. Production PostgreSQL cleanup/import: **NOT EXECUTED**; corpus remains reconstruction-in-progress.
+- Next source: `012196f1-a633-41cd-927b-d0b1b8845781` — `التفاضل والتكامل نماذج وزاريه 1446`.
+<!-- CALCULUS_EXAM_1445_CHECKPOINT_END -->

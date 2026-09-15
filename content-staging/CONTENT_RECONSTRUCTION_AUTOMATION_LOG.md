@@ -2188,15 +2188,49 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - blockers: `none for reconstruction continuation; production database cleanup/import remains gated until an import-ready batch and modern schema dry-run are verified.`
 - handoff note: `Do not rerun Arabic Part 2 absent drift evidence. Its 11 page-177 questions are excluded from clean lesson/assessment import until independently resolved.`
 
+## RUN 2026-09-16T02:35:02+03:00 — Worker A
+
+- state: COMPLETE_SOURCE_HANDOFF
+- start HEAD: `81393d072122306765210c5ebd9d1257f8cf2cde`
+- end HEAD before handoff-log commit: `WORKTREE_PENDING_COMMIT`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `6fa466f9-b930-437e-b091-947ee56407c4 — التفاضل والتكامل نماذج وزاريه 1445`
+- completed in this run: verified 80/80 immutable RAW images; directly reviewed all 80 pages; resolved twenty source-local four-page exam occurrences; retained each fourth page only as a correction/result-sheet candidate; updated MASTER/status evidence; resolved the next source from live MASTER.
+- evidence/artifacts: `content-staging/reconstruction/technical/6fa466f9-b930-437e-b091-947ee56407c4.json`; `content-staging/reconstruction/exams/source-groups/6fa466f9-b930-437e-b091-947ee56407c4-discovery.json`; `content-staging/reconstruction/exams/source-groups/6fa466f9-b930-437e-b091-947ee56407c4.json`.
+- ambiguity/review_required: official model codes/titles/terms and standalone official Answer Keys remain `NOT VERIFIED`; source contains 0 legacy questions, so no question mapping was invented.
+- invariant result: PASS (`13135 + 1920 + 1240 + 9460 = 25,755`).
+- Sources processed: 39/58
+- Educational: 18/26
+- Books / Units / Lessons / Lesson Pages: 16 / 81 / 448 / 1740
+- Exam Source Groups: 21/32
+- Individual Exam Models: 390
+- Exam Pages: 1354/2286
+- Verified Answer Keys: 0
+- Source images technical: 3448/5273
+- Legacy Questions: 25755
+- Lesson-linked: 13135
+- Exam-linked: 1920
+- Review-required: 1240
+- Unclassified: 9460
+- RAW mutations: 0
+- Unrelated mutations: 0
+- New imports: 0
+- New publications: 0
+- last completed source: `6fa466f9-b930-437e-b091-947ee56407c4 — التفاضل والتكامل نماذج وزاريه 1445`
+- current source: `012196f1-a633-41cd-927b-d0b1b8845781 — التفاضل والتكامل نماذج وزاريه 1446`
+- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for 012196f1-a633-41cd-927b-d0b1b8845781; technically verify its 100 immutable RAW page records; discover source-local exam boundaries; map its 40 legacy questions only where proven; quarantine uncertainty; assert invariants; checkpoint.`
+- next source: `Resolve only after 012196f1-a633-41cd-927b-d0b1b8845781 finalization from live MASTER.`
+- blockers: `none for reconstruction continuation; production database cleanup/import remains gated until an import-ready batch and modern schema dry-run are verified.`
+
 ## ACTIVE CHECKPOINT
 
 - state: `COMPLETE_SOURCE_HANDOFF`
 - branch: `content/corpus-inventory-20260914`
-- latest validated source: `7ddec20e-617e-4e55-bba8-2d371aaf16b6 — كتاب العربي - الجزء الثاني`
-- progress: `38/58 sources; 18/26 educational; 20/32 exam groups; 16 books; 81 units; 448 lessons; 1740 unique physical lesson pages; 3368/5273 technical images.`
+- latest validated source: `6fa466f9-b930-437e-b091-947ee56407c4 — التفاضل والتكامل نماذج وزاريه 1445`
+- progress: `39/58 sources; 18/26 educational; 21/32 exam groups; 390 individual models; 1354/2286 exam pages; 3448/5273 technical images.`
 - invariant: `13135 + 1920 + 1240 + 9460 = 25,755`; RAW/unrelated/import/publication mutations `0/0/0/0`.
-- current source: `6fa466f9-b930-437e-b091-947ee56407c4 — التفاضل والتكامل نماذج وزاريه 1445`
-- current source baseline: `80 pages / 80 images / 0 legacy questions / 0 download failures; structure NOT VERIFIED.`
-- current operation: `Begin source-local technical verification and exam-boundary discovery for 6fa466f9-b930-437e-b091-947ee56407c4; do not inherit prior-source boundaries.`
-- next source: `Resolve only after 6fa466f9-b930-437e-b091-947ee56407c4 finalization from live MASTER.`
+- current source: `012196f1-a633-41cd-927b-d0b1b8845781 — التفاضل والتكامل نماذج وزاريه 1446`
+- current source baseline: `100 pages / 100 images / 40 legacy questions / 0 download failures; structure NOT VERIFIED.`
+- current operation: `Begin source-local technical verification and exam-boundary/question discovery for 012196f1-a633-41cd-927b-d0b1b8845781; do not inherit prior-source boundaries.`
+- next source: `Resolve only after 012196f1-a633-41cd-927b-d0b1b8845781 finalization from live MASTER.`
 - blockers: `none known for reconstruction; production PostgreSQL mutation remains gated and NOT EXECUTED.`
