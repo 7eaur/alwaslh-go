@@ -2222,15 +2222,44 @@ Worker A and Worker B must treat this file as the operational baton. Read latest
 - next source: `Resolve only after 012196f1-a633-41cd-927b-d0b1b8845781 finalization from live MASTER.`
 - blockers: `none for reconstruction continuation; production database cleanup/import remains gated until an import-ready batch and modern schema dry-run are verified.`
 
+## RUN 2026-09-16T02:41:31+03:00 — Worker A
+
+- state: COMPLETE_SOURCE_HANDOFF
+- start HEAD: `69de1cfd21eaea4f6ebad6491d7ff01d06f2bf24`
+- end HEAD before handoff-log commit: `WORKTREE_PENDING_COMMIT`
+- phase: `CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY`
+- source at start: `012196f1-a633-41cd-927b-d0b1b8845781 — التفاضل والتكامل نماذج وزاريه 1446`
+- completed in this run: verified 100/100 immutable RAW images; directly reviewed all 100 pages; resolved twenty-five source-local four-page exam occurrences; retained each fourth page only as a correction/result candidate; structurally linked all 40 legacy questions from pages 1..3 to the first verified model; preserved six duplicate-SHA groups without merging; updated MASTER/status evidence.
+- evidence/artifacts: `content-staging/reconstruction/technical/012196f1-a633-41cd-927b-d0b1b8845781.json`; `content-staging/reconstruction/exams/source-groups/012196f1-a633-41cd-927b-d0b1b8845781-discovery.json`; `content-staging/reconstruction/exams/source-groups/012196f1-a633-41cd-927b-d0b1b8845781.json`.
+- ambiguity/review_required: semantic correctness of all 40 legacy questions and standalone official Answer Keys remain `NOT VERIFIED`; no guessed semantic promotion.
+- invariant result: PASS (`13135 + 1960 + 1240 + 9420 = 25,755`).
+- Sources processed: 40/58
+- Educational: 18/26
+- Exam Source Groups: 22/32
+- Individual Exam Models: 415
+- Exam Pages: 1454/2286
+- Source images technical: 3548/5273
+- Legacy Questions: 25755
+- Lesson-linked: 13135
+- Exam-linked: 1960
+- Review-required: 1240
+- Unclassified: 9420
+- RAW/unrelated/import/publication mutations: 0/0/0/0
+- last completed source: `012196f1-a633-41cd-927b-d0b1b8845781 — التفاضل والتكامل نماذج وزاريه 1446`
+- current source: `dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e — التفاضل والتكامل نماذج وزاريه 1447`
+- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e; technically verify its 124 immutable RAW page records; reconstruct only source-local structure; map its 454 legacy questions only where proven; quarantine uncertainty; assert invariants; checkpoint.`
+- next source: `Resolve only after dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e finalization from live MASTER.`
+- blockers: `none for reconstruction continuation; production database cleanup/import remains gated until an import-ready batch and modern schema dry-run are verified.`
+
 ## ACTIVE CHECKPOINT
 
 - state: `COMPLETE_SOURCE_HANDOFF`
 - branch: `content/corpus-inventory-20260914`
-- latest validated source: `6fa466f9-b930-437e-b091-947ee56407c4 — التفاضل والتكامل نماذج وزاريه 1445`
-- progress: `39/58 sources; 18/26 educational; 21/32 exam groups; 390 individual models; 1354/2286 exam pages; 3448/5273 technical images.`
-- invariant: `13135 + 1920 + 1240 + 9460 = 25,755`; RAW/unrelated/import/publication mutations `0/0/0/0`.
-- current source: `012196f1-a633-41cd-927b-d0b1b8845781 — التفاضل والتكامل نماذج وزاريه 1446`
-- current source baseline: `100 pages / 100 images / 40 legacy questions / 0 download failures; structure NOT VERIFIED.`
-- current operation: `Begin source-local technical verification and exam-boundary/question discovery for 012196f1-a633-41cd-927b-d0b1b8845781; do not inherit prior-source boundaries.`
-- next source: `Resolve only after 012196f1-a633-41cd-927b-d0b1b8845781 finalization from live MASTER.`
+- latest validated source: `012196f1-a633-41cd-927b-d0b1b8845781 — التفاضل والتكامل نماذج وزاريه 1446`
+- progress: `40/58 sources; 18/26 educational; 22/32 exam groups; 415 individual models; 1454/2286 exam pages; 3548/5273 technical images.`
+- invariant: `13135 + 1960 + 1240 + 9420 = 25,755`; RAW/unrelated/import/publication mutations `0/0/0/0`.
+- current source: `dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e — التفاضل والتكامل نماذج وزاريه 1447`
+- current source baseline: `124 pages / 124 images / 454 legacy questions / 0 download failures; structure NOT VERIFIED.`
+- current operation: `Begin source-local technical verification and reconstruction for dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e; do not inherit prior-source boundaries.`
+- next source: `Resolve only after dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e finalization from live MASTER.`
 - blockers: `none known for reconstruction; production PostgreSQL mutation remains gated and NOT EXECUTED.`

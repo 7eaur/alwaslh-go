@@ -605,3 +605,18 @@ The first non-Grade-9 educational source is now structurally reconstructed and t
 - RAW/unrelated/import/publication mutations: **0/0/0/0**. Production PostgreSQL cleanup/import: **NOT EXECUTED**; corpus remains reconstruction-in-progress.
 - Next source: `012196f1-a633-41cd-927b-d0b1b8845781` — `التفاضل والتكامل نماذج وزاريه 1446`.
 <!-- CALCULUS_EXAM_1445_CHECKPOINT_END -->
+
+<!-- CALCULUS_EXAM_1446_CHECKPOINT_START -->
+## Reconstruction checkpoint — Calculus Ministry Exams 1446
+
+- Source `012196f1-a633-41cd-927b-d0b1b8845781` — `التفاضل والتكامل نماذج وزاريه 1446` completed from source-local technical and visual evidence.
+- Technical verification: **100/100** images match byte-size/SHA-256/MIME; sequence **1..100** contiguous.
+- Duplicate evidence: **6** SHA-256 groups, each containing two source occurrences, preserved without merge, deletion, renumbering, or RAW mutation.
+- Complete visual review resolves **25** Individual Exam Model occurrences, each with three question pages plus one correction/result-sheet candidate.
+- Finalized Exam Pages: **100**; review-required pages: **0**; correction candidates: **25**; verified standalone Answer Keys: **0 / NOT VERIFIED**.
+- Source legacy questions: **40/40** structurally linked to the first model by their preserved page membership on pages **1..3**; semantic correctness remains **NOT VERIFIED**.
+- Progress: Sources **40/58**; Educational **18/26**; Exam Groups **22/32**; Individual Models **415**; Exam Pages **1454/2,286**; technical images **3548/5,273**.
+- Global questions: **13135 + 1960 + 1240 + 9420 = 25,755**.
+- RAW/unrelated/import/publication mutations: **0/0/0/0**. Production PostgreSQL cleanup/import: **NOT EXECUTED**; corpus remains reconstruction-in-progress.
+- Next source: `dcc316bc-b7b8-4a9f-9022-ecc1e7762a9e` — `التفاضل والتكامل نماذج وزاريه 1447`.
+<!-- CALCULUS_EXAM_1446_CHECKPOINT_END -->
