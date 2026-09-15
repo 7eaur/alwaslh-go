@@ -1,0 +1,61 @@
+{
+  "source_id": "ab701a9e-3efb-409a-8ed1-9752d41c4771",
+  "source_name": "كتاب العربي - الجزء الأول",
+  "phase": "CONTENT RECONSTRUCTION + EXAM BOUNDARY DISCOVERY",
+  "state": "EXACT_VISUAL_LESSON_HEADERS_VERIFIED_CANONICAL_SHARED_PAGE_POLICY_NOT_VERIFIED",
+  "review_head": "c5e004b27bf25331b42ad82d074b2c30b7f8515d",
+  "visual_artifact": {
+    "workflow_run": 34925408200,
+    "artifact_id": 10380121394,
+    "digest": "sha256:ecf2549330e05c89cf12d26efed931030ef24fe4a2253ef0dab497df2b112c21",
+    "sheets_reviewed": 15,
+    "stored_pages_reviewed": "9..177"
+  },
+  "verified_unit_lesson_header_pages": [
+    {"unit":1,"lesson_1":9,"lesson_2":15,"lesson_3":17,"lesson_4":18,"lesson_5":18,"assessment_lesson_6":19},
+    {"unit":2,"lesson_1":22,"lesson_2":24,"lesson_3":31,"lesson_4":33,"lesson_5":33,"assessment_lesson_6":34},
+    {"unit":3,"lesson_1":39,"lesson_2":41,"lesson_3":47,"lesson_4":47,"lesson_5":48,"assessment_lesson_6":49},
+    {"unit":4,"lesson_1":53,"lesson_2":55,"lesson_3":61,"lesson_4":61,"lesson_5":62,"assessment_lesson_6":63},
+    {"unit":5,"lesson_1":70,"lesson_2":72,"lesson_3":74,"lesson_4":75,"lesson_5":75,"assessment_lesson_6":76},
+    {"unit":6,"lesson_1":82,"lesson_2":84,"lesson_3":91,"lesson_4":95,"lesson_5":95,"assessment_lesson_6":96},
+    {"unit":7,"lesson_1":100,"lesson_2":102,"lesson_3":106,"lesson_4":106,"lesson_5":107,"assessment_lesson_6":108},
+    {"unit":8,"lesson_1":112,"lesson_2":115,"lesson_3":117,"lesson_4":121,"lesson_5":121,"assessment_lesson_6":122},
+    {"unit":9,"lesson_1":127,"lesson_2":129,"lesson_3":136,"lesson_4":136,"lesson_5":136,"assessment_lesson_6":137},
+    {"unit":10,"lesson_1":140,"lesson_2":142,"lesson_3":148,"lesson_4":149,"lesson_5":149,"assessment_lesson_6":150},
+    {"unit":11,"lesson_1":156,"lesson_2":158,"lesson_3":162,"lesson_4":163,"lesson_5":164,"assessment_lesson_6":165},
+    {"unit":12,"lesson_1":170,"lesson_2":172,"lesson_3":173,"lesson_4":174,"lesson_5":174,"assessment_lesson_6":175}
+  ],
+  "verified_shared_header_pages": [
+    {"page":18,"lessons":[4,5]},
+    {"page":33,"lessons":[4,5]},
+    {"page":47,"lessons":[3,4]},
+    {"page":61,"lessons":[3,4]},
+    {"page":75,"lessons":[4,5]},
+    {"page":95,"lessons":[4,5]},
+    {"page":106,"lessons":[3,4]},
+    {"page":121,"lessons":[4,5]},
+    {"page":136,"lessons":[3,4,5]},
+    {"page":149,"lessons":[4,5]},
+    {"page":174,"lessons":[4,5]}
+  ],
+  "verified_nonshared_lesson_4_5_pages": [
+    {"unit":3,"lesson_5":48},
+    {"unit":4,"lesson_5":62},
+    {"unit":7,"lesson_5":107},
+    {"unit":11,"lesson_4":163,"lesson_5":164}
+  ],
+  "assessment_policy": "Previously resolved: explicit تقويم الوحدة is nonlesson_assessment_pages for canonical reconstruction.",
+  "canonical_blocker": {
+    "status": "NOT VERIFIED",
+    "finding": "The source itself places multiple numbered lesson headers on the same physical stored page in 11 boundary pages. Existing closed educational reconstructions use non-overlapping physical page membership. No repository-approved shared-page lesson membership policy was found in the evidence consulted in this run.",
+    "safe_action": "Do not fabricate 60 non-overlapping lesson page ranges. Preserve the 60 visually explicit instructional lesson identities as semantic evidence, but keep canonical lesson/page finalization blocked until the repository contract defines how one physical page containing multiple numbered lessons is represented without corrupting lesson_page counters or page-classification invariants."
+  },
+  "invariants": {
+    "question_equation": "13135 + 1920 + 1229 + 9471 = 25755",
+    "raw_mutations": 0,
+    "unrelated_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  },
+  "exact_next_operation": "Resolve a repository-level canonical shared-physical-page lesson-membership contract from existing schema/code/evidence (or explicitly add a conservative evidence-backed contract if none exists). Then derive the 60 instructional lesson records from these verified headers, keep assessment pages nonlesson, classify pages 176-177 as tail/nonlesson, verify unique physical-page coverage and counter semantics, and finalize only if all invariants pass."
+}
