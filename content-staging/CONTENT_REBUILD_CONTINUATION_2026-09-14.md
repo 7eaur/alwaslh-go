@@ -693,3 +693,20 @@ Continue from `3d91d812-ab78-476a-b2fc-dc2c31152e1a — UNKNOWN` only after re-r
 - exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for the current source; reconstruct only from that source's own RAW/manifest/page evidence; preserve uncertainty as NOT VERIFIED/review_required; assert invariant; checkpoint.`
 - blockers: `none for structural boundary finalization; visual semantic inspection of Arabic 1447 remains explicitly NOT VERIFIED and was not used to justify Answer Keys.`
 - handoff for Worker B: `Start only from ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول; do not rerun/finalize Arabic 1447 absent fresh drift evidence.`
+
+
+## RECONCILIATION 2026-09-15T00:08:05+00:00 — Worker A
+
+- reason: canonical source reconstruction for `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1` was committed correctly, but `MASTER_CONTENT_MANIFEST.json.reconstruction_progress` still held pre-source aggregate counters.
+- action: reconciled aggregate counters to the evidence-backed source state; no RAW/provenance/import/publication mutations.
+- canonical progress: Sources `36/58`; Educational `16/26`; Books/Units/Lessons/Lesson Pages `14/57/328/1,527`; Exam Groups `20/32`; Models `370`; Exam Pages `1,274/2,286`; correction candidates `376`; Answer Keys `0`; technical images `3,021/5,273`; Legacy Questions `25,755`; Lesson-linked `13,135`; Exam-linked `1,920`; Review-required `1,229`; Unclassified `9,471`.
+- invariant: PASS (`13,135 + 1,920 + 1,229 + 9,471 = 25,755`).
+- mutations: RAW `0`; unrelated `0`; new imports `0`; new publications `0`.
+
+## ACTIVE CHECKPOINT
+
+- last completed source: `d1a6b8f8-d81b-4824-86e1-d370ec28bdf1 — العربي نماذج وزارية 1447`
+- current source: `ab701a9e-3efb-409a-8ed1-9752d41c4771 — كتاب العربي - الجزء الأول`
+- baseline: `169 pages; 169 images; 0 legacy questions; 0 download failures`
+- exact next operation: `Re-fetch live HEAD/baton; verify no active workflow for ab701a9e-3efb-409a-8ed1-9752d41c4771; technically verify all 169 immutable RAW images; reconstruct book/unit/lesson/review boundaries only from source-local evidence; do not infer missing questions; preserve insufficient evidence as NOT VERIFIED/review_required; assert invariant; checkpoint.`
+- handoff for Worker B: `Start only from ab701a9e-3efb-409a-8ed1-9752d41c4771; Arabic exam 1447 is structurally finalized from complete metadata-title evidence, while visual semantic inspection and standalone official Answer Keys remain NOT VERIFIED.`
