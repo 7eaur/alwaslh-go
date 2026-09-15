@@ -1,0 +1,77 @@
+{
+  "source_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+  "scope": "immutable_legacy_question_page_membership_evidence",
+  "source_of_truth": "content-staging/raw/legacy-supabase/subjects/7ddec20e-617e-4e55-bba8-2d371aaf16b6/pages.json",
+  "records_with_questions": 1,
+  "legacy_questions": 11,
+  "memberships": [
+    {
+      "legacy_page_id": "d79b9858-a33a-413b-9740-06a40f2e1eba",
+      "stored_page_number": 177,
+      "title": "تقويم الوحدة الرابعة والعشرين",
+      "question_count": 11,
+      "questions": [
+        {
+          "ordinal": 1,
+          "question_id": null,
+          "sha256": "488f3a548e0b20c5d325a5ff38c02c080318c0515ef9f663ada01b7b90aaa17d"
+        },
+        {
+          "ordinal": 2,
+          "question_id": null,
+          "sha256": "93a9039ea13ea690e23f86f530cf2533bd1d5ebc138679fa99f73f37df35e408"
+        },
+        {
+          "ordinal": 3,
+          "question_id": null,
+          "sha256": "720e01003fb73fdd7a8f06e1336ecb8f99d967ac11c9a45334589bbc7ad91344"
+        },
+        {
+          "ordinal": 4,
+          "question_id": null,
+          "sha256": "0f80cba13e31136bba76e031c9d473ead91749ba20211279818cec5d8639c8c2"
+        },
+        {
+          "ordinal": 5,
+          "question_id": null,
+          "sha256": "d387848903f75f8420cea302a425766938e5a903e18e7f6049285bf020cc992a"
+        },
+        {
+          "ordinal": 6,
+          "question_id": null,
+          "sha256": "ebc440a2f319217e1ae93754af06819425c94fbc2898df40a4d83af5030c7527"
+        },
+        {
+          "ordinal": 7,
+          "question_id": null,
+          "sha256": "d15ef60190ceeca5c570fa96d4e3188a71aa750318cf2c960eeab00acca17623"
+        },
+        {
+          "ordinal": 8,
+          "question_id": null,
+          "sha256": "b4956c46040f0a142764697f6ae665a358f9bdb2762d2ac8f1307d8214e14a3b"
+        },
+        {
+          "ordinal": 9,
+          "question_id": null,
+          "sha256": "96141f033f02aaab5b6f4e2f07fb304f323b26f7ad4ccf370b7b86116a620af8"
+        },
+        {
+          "ordinal": 10,
+          "question_id": null,
+          "sha256": "cb5fea65807debdaa8547b57e110ff189ca2d43cd4f478a5807ec8cef04c423c"
+        },
+        {
+          "ordinal": 11,
+          "question_id": null,
+          "sha256": "fbf45804650148b585e568b8dd5f46bb0b164a6d5cccc4fe4913e9d690845075"
+        }
+      ]
+    }
+  ],
+  "semantic_correctness": "NOT VERIFIED",
+  "lesson_or_assessment_mapping": "NOT VERIFIED pending boundary reconciliation",
+  "raw_mutations": 0,
+  "new_imports": 0,
+  "new_publications": 0
+}
