@@ -1,0 +1,67 @@
+{
+  "source_id": "7ddec20e-617e-4e55-bba8-2d371aaf16b6",
+  "source_name": "كتاب العربي - الجزء الثاني",
+  "review_scope": "complete_visual_review_of_contact_sheet_artifact",
+  "evidence_head": "a1c0fc6924745321527daf552521382dbfca9b82",
+  "workflow_run": 34975254689,
+  "artifact": {
+    "id": 10398967254,
+    "name": "arabic-book-part2-contact-sheets",
+    "size_bytes": 5907262,
+    "digest": "sha256:d36a1cd613d0e60fa4dcba82fb010688a09865b01ac0858f73aec8fa925f5d9a",
+    "contact_sheets_reviewed": 15,
+    "records_reviewed": 178
+  },
+  "technical_evidence_confirmed": {
+    "records": 178,
+    "numbered_pages": "1..177 contiguous",
+    "nonpositive_or_unknown_records": 1,
+    "stored_page_zero_record_is_visually_cover": true,
+    "stored_page_zero_policy": "preserve legacy page_number=0 provenance; do not silently renumber",
+    "duplicate_sha_groups": 0,
+    "technical_failures": 0
+  },
+  "visual_findings": {
+    "book_identity": "لغتي العربية — الصف التاسع من مرحلة التعليم الأساسي — الجزء الثاني",
+    "front_matter_stored_pages": [0,1,2,3,4,5,6,7],
+    "front_matter_notes": "stored 0 is front cover; 1 title page; 2 national anthem; 3 export/preface; 4-5 introduction; 6-7 contents",
+    "unit_numbers": [13,14,15,16,17,18,19,20,21,22,23,24],
+    "unit_start_stored_pages": [8,26,39,51,69,80,93,107,121,134,151,165],
+    "unit_count": 12,
+    "unit_sequence_verified": true,
+    "lesson_pattern": {
+      "semantic_lessons_per_unit": 5,
+      "lesson_labels_visually_present": ["الدرس الأول: الفهم والاستيعاب","الدرس الثاني: النحو والصرف","الدرس الثالث: الإملاء","الدرس الرابع: الخط","الدرس الخامس: التعبير"],
+      "semantic_lesson_count": 60,
+      "note": "several physical pages visibly contain more than one semantic lesson heading; physical-page counting must not double-count shared pages"
+    },
+    "assessment_pattern": {
+      "label": "الدرس السادس: تقويم الوحدة",
+      "classification": "assessment/non-lesson candidate",
+      "unit_assessment_start_stored_pages": [22,37,50,68,78,91,106,119,133,150,163,173],
+      "note": "assessment boundaries are visually explicit, but final physical page allocation must reconcile pages that share lesson/assessment headings before canonical counting"
+    },
+    "tail": {
+      "stored_page_175": "explicit end-of-part page: تم الجزء الثاني بحمد الله",
+      "stored_page_176": "publisher/contact tail page",
+      "stored_page_177": "back cover",
+      "classification": "non-lesson tail"
+    }
+  },
+  "canonicalization_status": {
+    "book": "VISUALLY VERIFIED",
+    "units": "VISUALLY VERIFIED: 12 units, numbers 13..24",
+    "semantic_lessons": "VISUALLY VERIFIED: 60 headings",
+    "physical_lesson_page_boundaries": "NOT VERIFIED",
+    "assessment_physical_boundaries": "NOT VERIFIED",
+    "legacy_question_mapping": "NOT VERIFIED",
+    "ready_for_aggregate_finalization": false
+  },
+  "required_next_operation": "Reconcile the visual unit/lesson/assessment headings with the live metadata title-runs and all 11 legacy question page memberships; explicitly resolve shared physical lesson/assessment pages without double-counting; classify every retained record exactly once for physical counters while preserving semantic multi-membership; then assert the 25,755 global question invariant before canonical finalization.",
+  "invariants": {
+    "raw_mutations": 0,
+    "unrelated_mutations": 0,
+    "new_imports": 0,
+    "new_publications": 0
+  }
+}
